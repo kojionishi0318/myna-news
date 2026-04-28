@@ -25,11 +25,34 @@ except ImportError:
 
 # ─── 設定 ────────────────────────────────────────────────────────────────────
 SEARCH_QUERY    = "マイナ保険証"
-RSS_URL         = (
-    "https://news.google.com/rss/search?q="
-    + urllib.parse.quote(SEARCH_QUERY)
-    + "&hl=ja&gl=JP&ceid=JP:ja"
-)
+
+# ── Google News RSS：複数クエリで網羅的に取得 ──────────────────────────────
+GOOGLE_NEWS_QUERIES = [
+    "マイナ保険証",
+    "マイナンバーカード 保険証",
+    "健康保険証 廃止",
+    "マイナカード 医療",
+]
+
+def _gnews_url(q: str) -> str:
+    return ("https://news.google.com/rss/search?q="
+            + urllib.parse.quote(q) + "&hl=ja&gl=JP&ceid=JP:ja")
+
+# ── 直接 RSS フィード（キーワードフィルタあり） ────────────────────────────
+FILTER_KEYWORDS = [
+    "マイナ保険証", "マイナンバー", "健康保険証", "マイナカード",
+    "マイナ", "保険証", "医療保険", "社会保険",
+]
+
+DIRECT_RSS_FEEDS = [
+    # (URL, ソース名表示)
+    ("https://www3.nhk.or.jp/rss/news/cat0.xml",           "NHKニュース"),
+    ("https://www3.nhk.or.jp/rss/news/cat4.xml",           "NHK政治"),
+    ("https://news.yahoo.co.jp/rss/topics/domestic.xml",   "Yahoo!ニュース"),
+    ("https://www.mhlw.go.jp/stf/news.rdf",                 "厚生労働省"),
+    ("https://www.digital.go.jp/rss/news.xml",             "デジタル庁"),
+]
+
 CONNECT_TIMEOUT  = 5    # TCP接続タイムアウト（秒）
 READ_TIMEOUT     = 20   # レスポンス受信タイムアウト（秒）
 RESOLVE_TIMEOUT  = 6    # URL解決タイムアウト（秒/記事）
@@ -320,9 +343,11 @@ def fetch_bing_snippets_for_empty(articles: list, session) -> list:
 
 
 # ── RSS 取得 ─────────────────────────────────────────────────────────────────
-def fetch_rss_bytes(session: "requests.Session") -> bytes:
+def fetch_rss_bytes(session: "requests.Session", url: str = None) -> bytes:
+    if url is None:
+        url = _gnews_url(GOOGLE_NEWS_QUERIES[0])
     t0 = time.perf_counter()
-    resp = session.get(RSS_URL, timeout=(CONNECT_TIMEOUT, READ_TIMEOUT), allow_redirects=True)
+    resp = session.get(url, timeout=(CONNECT_TIMEOUT, READ_TIMEOUT), allow_redirects=True)
     resp.raise_for_status()
     content = resp.content
     print(f"  [RSS取得] {(time.perf_counter()-t0)*1000:.0f} ms  ({len(content)/1024:.1f} KB)")
@@ -377,6 +402,135 @@ def parse_rss(content: bytes) -> list[dict]:
 
     print(f"  [RSS解析] {time.perf_counter()-t0:.3f} s  {len(articles)} 件")
     return articles
+
+
+# ── 直接 RSS フィード取得（キーワードフィルタ付き） ──────────────────────────
+def _is_relevant(title: str, desc: str) -> bool:
+    """タイトルまたは説明文にキーワードが含まれるか確認"""
+    text = (title + " " + desc).lower()
+    return any(kw in text for kw in FILTER_KEYWORDS)
+
+
+def fetch_direct_rss(session: "requests.Session") -> list:
+    """NHK・Yahoo・厚労省・デジタル庁などの直接RSSを取得してキーワードフィルタする"""
+    all_articles = []
+    for feed_url, source_name in DIRECT_RSS_FEEDS:
+        t0 = time.perf_counter()
+        try:
+            resp = session.get(feed_url, timeout=(CONNECT_TIMEOUT, READ_TIMEOUT))
+            resp.raise_for_status()
+            root = ET.fromstring(resp.content)
+            # RSS 2.0 / Atom / RSS 1.0(RDF) 全対応
+            ns = {"atom": "http://www.w3.org/2005/Atom",
+                  "rss1": "http://purl.org/rss/1.0/",
+                  "dc":   "http://purl.org/dc/elements/1.1/"}
+            items = (root.findall(".//item")
+                     or root.findall(".//atom:entry", ns)
+                     or root.findall(".//rss1:item", ns))
+
+            count = matched = 0
+            for item in items:
+                count += 1
+                def g(*tags):
+                    for tag in tags:
+                        try:
+                            e = item.find(tag, ns)
+                            if e is not None and e.text:
+                                return e.text.strip()
+                        except Exception:
+                            pass
+                    return ""
+
+                title    = g("title", "atom:title", "rss1:title")
+                raw_desc = (g("description", "rss1:description")
+                            or g("atom:summary", "atom:content"))
+                link     = g("link", "rss1:link")
+                # Atom <link href="..."> 対応
+                if not link:
+                    for tag in ("atom:link", "link"):
+                        link_el = item.find(tag, ns)
+                        if link_el is not None:
+                            link = link_el.get("href", "") or (link_el.text or "").strip()
+                            if link:
+                                break
+                pub_date = (g("pubDate") or g("dc:date")
+                            or g("atom:published", "atom:updated"))
+
+                cleaned_desc = re.sub(r"\s+", " ",
+                    html_module.unescape(re.sub(r"<[^>]+>", "", raw_desc))).strip()
+
+                if not _is_relevant(title, cleaned_desc):
+                    continue
+
+                # 日付を JST ISO 形式に変換
+                iso_date = pub_date
+                for fmt in ("%a, %d %b %Y %H:%M:%S %Z", "%a, %d %b %Y %H:%M:%S %z",
+                            "%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%dT%H:%M:%SZ"):
+                    try:
+                        dt = datetime.datetime.strptime(pub_date, fmt)
+                        if dt.tzinfo is None:
+                            dt = dt.replace(tzinfo=datetime.timezone.utc)
+                        dt_jst = dt.astimezone(datetime.timezone(datetime.timedelta(hours=9)))
+                        iso_date = dt_jst.strftime("%Y-%m-%dT%H:%M:%S+09:00")
+                        break
+                    except ValueError:
+                        continue
+
+                # タイトルと同内容の説明は空に
+                title_prefix = re.sub(r"\s+", "", title[:20])
+                desc_prefix  = re.sub(r"\s+", "", cleaned_desc[:20])
+                if title_prefix and desc_prefix and (
+                    desc_prefix in title_prefix or title_prefix in desc_prefix
+                    or len(cleaned_desc) < len(title) + 10
+                ):
+                    cleaned_desc = ""
+
+                all_articles.append({
+                    "title":       title,
+                    "link":        link,
+                    "pub_date":    iso_date,
+                    "source":      source_name,
+                    "description": cleaned_desc,
+                })
+                matched += 1
+
+            elapsed = (time.perf_counter() - t0) * 1000
+            print(f"  [直接RSS] {source_name}: {elapsed:.0f}ms  {count}件中{matched}件マッチ")
+        except Exception as e:
+            print(f"  [直接RSS] {source_name}: スキップ ({e})")
+
+    return all_articles
+
+
+# ── 重複排除（URL・タイトルベース） ──────────────────────────────────────────
+def dedup_articles(articles: list) -> list:
+    """URLとタイトル正規化で重複を除去。より詳細な説明文がある方を優先する"""
+    seen_urls   = {}  # url -> index
+    seen_titles = {}  # norm_title -> index
+    result = []
+
+    for a in articles:
+        url   = (a.get("_glink") or a.get("link") or "").split("?")[0]
+        ntitle = _norm_title(a.get("title", ""))
+
+        dup_idx = seen_urls.get(url) if url else None
+        if dup_idx is None and ntitle:
+            dup_idx = seen_titles.get(ntitle)
+
+        if dup_idx is not None:
+            # 説明文が長い方を採用
+            existing = result[dup_idx]
+            if len(a.get("description") or "") > len(existing.get("description") or ""):
+                result[dup_idx] = a
+        else:
+            idx = len(result)
+            result.append(a)
+            if url:
+                seen_urls[url] = idx
+            if ntitle:
+                seen_titles[ntitle] = idx
+
+    return result
 
 
 # ── 既存データ読込 ────────────────────────────────────────────────────────────
@@ -503,39 +657,57 @@ def main():
 
     total_t0 = time.perf_counter()
 
-    # Bing News RSS から説明文マップを取得（Google RSS と並列で実行したいが逐次でも十分速い）
+    # Bing News RSS から説明文マップを取得
     bing_desc_map: dict = {}
     if session:
         bing_desc_map = fetch_bing_descriptions(session)
 
-    # Google News RSS 取得
-    try:
-        content = fetch_rss_bytes(session) if session else _fetch_urllib()
-    except Exception as e:
-        print(f"  [エラー] RSS 取得失敗: {e}", file=sys.stderr)
+    all_articles = []
+
+    # ── Google News RSS：複数クエリ ──────────────────────────────────────────
+    for query in GOOGLE_NEWS_QUERIES:
+        url = _gnews_url(query)
+        try:
+            content = fetch_rss_bytes(session, url) if session else _fetch_urllib()
+            parsed  = parse_rss(content)
+            # ソース名にクエリを補足
+            for a in parsed:
+                if not a.get("source"):
+                    a["source"] = "Google News"
+            all_articles.extend(parsed)
+            print(f"    クエリ: 「{query}」 → {len(parsed)} 件")
+        except Exception as e:
+            print(f"  [エラー] Google News RSS 取得失敗 ({query}): {e}", file=sys.stderr)
+
+    # ── 直接 RSS フィード（NHK・Yahoo・厚労省・デジタル庁） ──────────────────
+    if session:
+        direct = fetch_direct_rss(session)
+        all_articles.extend(direct)
+        print(f"  [直接RSS合計] {len(direct)} 件")
+
+    if not all_articles:
+        print("  [エラー] 記事を1件も取得できませんでした", file=sys.stderr)
         sys.exit(1)
 
-    # RSS 解析
-    try:
-        articles = parse_rss(content)
-    except Exception as e:
-        print(f"  [エラー] RSS 解析失敗: {e}", file=sys.stderr)
-        sys.exit(1)
+    # ── 重複排除 ─────────────────────────────────────────────────────────────
+    before = len(all_articles)
+    all_articles = dedup_articles(all_articles)
+    print(f"  [重複排除] {before} → {len(all_articles)} 件")
 
-    # Bing の説明文で Google 記事を補完
+    # Bing の説明文で補完
     if bing_desc_map:
-        articles = enrich_descriptions(articles, bing_desc_map)
+        all_articles = enrich_descriptions(all_articles, bing_desc_map)
 
     # URL 解決（Google News → 実記事 URL、Base64デコードのみ）
     if session:
-        articles = resolve_urls(articles, session, label="新規URL解決")
+        all_articles = resolve_urls(all_articles, session, label="新規URL解決")
 
-    # 説明文なし記事にBingスニペットで補完（Bing RSSで取れなかった分）
+    # 説明文なし記事にBingスニペットで補完
     if session:
-        articles = fetch_bing_snippets_for_empty(articles, session)
+        all_articles = fetch_bing_snippets_for_empty(all_articles, session)
 
     # 保存（Bing説明文マップも渡して既存記事を含めエンリッチ）
-    save_news(articles, json_path, bing_desc_map=bing_desc_map)
+    save_news(all_articles, json_path, bing_desc_map=bing_desc_map)
 
     print(f"  [合計]  {time.perf_counter()-total_t0:.2f} s")
     print("=" * 52)
