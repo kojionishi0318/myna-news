@@ -43,6 +43,8 @@ BING_RSS_URL = (
     + urllib.parse.quote(SEARCH_QUERY)
     + "&format=rss&setlang=ja-JP&cc=JP"
 )
+BING_SNIPPET_DELAY = 0.5  # Bingスニペット取得間隔（秒）
+BING_SNIPPET_WORKERS = 5  # 並列ワーカー数（レート制限対策）
 FRESHNESS_SECS   = 3600 # 1時間以内なら再取得をスキップ
 MAX_ARTICLES     = 500  # 保持する最大記事数
 UA = (
@@ -259,6 +261,64 @@ def enrich_descriptions(articles: list[dict], desc_map: dict) -> list[dict]:
     return articles
 
 
+# ── Bingスニペット取得（説明文なし記事の補完） ───────────────────────────────
+def _fetch_one_snippet(args):
+    """1件の記事タイトルに対してBing検索スニペットを取得する（並列実行用）"""
+    session, title = args
+    query = urllib.parse.quote(title[:50])
+    url = f"https://www.bing.com/news/search?q={query}&setlang=ja-JP&cc=JP"
+    try:
+        r = session.get(url, timeout=10)
+        snippets = re.findall(
+            r'<div[^>]*class="[^"]*snippet[^"]*"[^>]*>([^<]{30,})</div>', r.text
+        )
+        if snippets:
+            return snippets[0].strip()
+    except Exception:
+        pass
+    return ""
+
+
+def fetch_bing_snippets_for_empty(articles: list, session) -> list:
+    """
+    説明文がない記事に対してBing検索スニペットを並列取得して補完する。
+    毎日のfetch_news.py実行時に新規記事の説明文を自動補完する。
+    """
+    targets = [
+        (i, a) for i, a in enumerate(articles)
+        if not (a.get("description") or "").strip()
+        and (a.get("title") or "").strip()
+    ]
+    if not targets:
+        return articles
+
+    print(f"  [Bingスニペット] {len(targets)} 件の説明文を取得中...")
+    t0 = time.perf_counter()
+    filled = 0
+
+    import threading
+    lock = threading.Lock()
+
+    def fetch_with_delay(args):
+        idx, article = args
+        result = _fetch_one_snippet((session, article.get("title", "")))
+        time.sleep(BING_SNIPPET_DELAY)
+        return idx, result
+
+    with ThreadPoolExecutor(max_workers=BING_SNIPPET_WORKERS) as ex:
+        futures = {ex.submit(fetch_with_delay, t): t for t in targets}
+        for future in as_completed(futures):
+            idx, snippet = future.result()
+            if snippet:
+                articles[idx]["description"] = snippet
+                with lock:
+                    filled += 1
+
+    elapsed = time.perf_counter() - t0
+    print(f"  [Bingスニペット] {elapsed:.1f}s  {filled}/{len(targets)} 件取得")
+    return articles
+
+
 # ── RSS 取得 ─────────────────────────────────────────────────────────────────
 def fetch_rss_bytes(session: "requests.Session") -> bytes:
     t0 = time.perf_counter()
@@ -469,6 +529,10 @@ def main():
     # URL 解決（Google News → 実記事 URL、Base64デコードのみ）
     if session:
         articles = resolve_urls(articles, session, label="新規URL解決")
+
+    # 説明文なし記事にBingスニペットで補完（Bing RSSで取れなかった分）
+    if session:
+        articles = fetch_bing_snippets_for_empty(articles, session)
 
     # 保存（Bing説明文マップも渡して既存記事を含めエンリッチ）
     save_news(articles, json_path, bing_desc_map=bing_desc_map)

@@ -442,69 +442,6 @@
     }
     @keyframes spin { to { transform: rotate(360deg); } }
 
-    /* ─── Chromeで開くバナー ─────────────────────── */
-    .browser-hint {
-      background: #ebf8ff;
-      border-bottom: 1px solid #bee3f8;
-      padding: 10px 16px;
-      font-size: 13px;
-      color: #2c5282;
-      display: flex;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-    [data-theme="dark"] .browser-hint {
-      background: #1a365d;
-      border-color: #2b4c7e;
-      color: #90cdf4;
-    }
-    .browser-hint a {
-      color: #2b6cb0;
-      font-weight: 700;
-      font-family: monospace;
-      font-size: 13px;
-    }
-    [data-theme="dark"] .browser-hint a { color: #63b3ed; }
-    .browser-hint button {
-      padding: 3px 10px;
-      background: #2b6cb0;
-      color: #fff;
-      border: none;
-      border-radius: 5px;
-      font-size: 12px;
-      cursor: pointer;
-      font-family: inherit;
-    }
-    .browser-hint button:hover { background: #2c5282; }
-
-    /* ─── 取得ヒント ─────────────────────────────── */
-    .fetch-hint {
-      max-width: 960px;
-      margin: 8px auto 0;
-      padding: 10px 16px;
-      background: #fffbeb;
-      border: 1px solid #f6e05e;
-      border-radius: 8px;
-      font-size: 13px;
-      color: #744210;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    [data-theme="dark"] .fetch-hint {
-      background: #2d2a12;
-      border-color: #854d0e;
-      color: #fef08a;
-    }
-    .fetch-hint code {
-      background: rgba(0,0,0,.1);
-      padding: 1px 6px;
-      border-radius: 4px;
-      font-family: monospace;
-      font-size: 12px;
-    }
-    [data-theme="dark"] .fetch-hint code { background: rgba(255,255,255,.1); }
 
     /* ─── ヒーローバナー ─────────────────────────── */
     .hero {
@@ -680,11 +617,6 @@
   </div>
 </div>
 
-<div class="browser-hint">
-  <span>💡 記事リンクをクリックするには、実際の Chrome で開いてください：</span>
-  <a href="http://localhost:3000" target="_blank" rel="noopener">http://localhost:3000</a>
-  <button onclick="navigator.clipboard.writeText('http://localhost:3000').then(()=>{this.textContent='コピー完了!';setTimeout(()=>this.textContent='URLをコピー',1500)})">URLをコピー</button>
-</div>
 
 <div class="controls">
   <div class="search-box">
@@ -708,10 +640,6 @@
 <div class="stats-bar">
   <span class="stats-text" id="statsText">読み込み中…</span>
   <span class="updated-text" id="updatedText"></span>
-</div>
-<div class="fetch-hint" id="fetchHint" style="display:none">
-  <span>💡</span>
-  <span>今日の記事がない場合は <code>python fetch_news.py</code> を実行して最新記事を取得してください</span>
 </div>
 
 <!-- ページネーション（上） -->
@@ -843,14 +771,12 @@
   function renderCurrentPage() {
     const list        = document.getElementById("articleList");
     const period      = document.getElementById("periodFilter").value;
-    const hint        = document.getElementById("fetchHint");
     const topWrap     = document.getElementById("paginationTop");
     const bottomWrap  = document.getElementById("paginationBottom");
     const totalGroups = filteredGroups.length;
     const totalPages  = Math.ceil(totalGroups / PAGE_SIZE);
 
     if (totalGroups === 0) {
-      hint.style.display = (period === "today" || period === "3days") ? "flex" : "none";
       list.innerHTML = `<div class="empty-state">
         <h2>該当する記事が見つかりません</h2>
         <p>「直近1週間」に切り替えるか、<code>python fetch_news.py</code> を実行して最新記事を取得してください。</p>
@@ -860,7 +786,7 @@
       updateStats(0, 0);
       return;
     }
-    hint.style.display = "none";
+
 
     // ── ページスライス ──
     const start = (currentPage - 1) * PAGE_SIZE;
