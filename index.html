@@ -563,16 +563,18 @@
     .hero-mascot {
       flex-shrink: 0;
       line-height: 0;
-      position: relative;
+      background: rgba(255,255,255,0.92);
+      border-radius: 50%;
+      padding: 14px;
+      box-shadow: 0 6px 24px rgba(0,0,0,0.18);
+      overflow: hidden;
     }
     .hero-mascot img {
       display: block;
-      width: 220px;
-      height: 220px;
+      width: 200px;
+      height: 200px;
       object-fit: contain;
-      object-position: center bottom;
-      mix-blend-mode: multiply;
-      filter: drop-shadow(0 6px 18px rgba(0,0,0,.22));
+      border-radius: 50%;
     }
 
     /* ─── シェアボタン ────────────────────────────── */
@@ -631,7 +633,8 @@
       .page-btn { min-width: 32px; height: 32px; font-size: 12px; }
       .hero-inner { padding: 18px 20px 0; }
       .hero-title { font-size: 22px; }
-      .hero-mascot img { width: 130px; height: 130px; }
+      .hero-mascot { padding: 10px; }
+      .hero-mascot img { width: 120px; height: 120px; }
     }
   </style>
 </head>
