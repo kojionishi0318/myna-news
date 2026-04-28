@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>記事を開く</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:"Hiragino Sans","Yu Gothic UI",sans-serif;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;background:#f0f4f8;gap:20px;padding:24px}
+    .card{background:#fff;border-radius:12px;padding:32px;max-width:480px;width:100%;box-shadow:0 4px 16px rgba(0,0,0,.1);text-align:center}
+    h1{font-size:18px;color:#1a202c;margin-bottom:8px}
+    p{font-size:13px;color:#718096;line-height:1.6;margin-bottom:20px}
+    .open-btn{display:inline-block;padding:12px 28px;background:#2b6cb0;color:#fff;border-radius:8px;text-decoration:none;font-size:15px;font-weight:700;margin-bottom:16px;transition:background .15s}
+    .open-btn:hover{background:#2c5282}
+    .url-box{display:flex;gap:8px;align-items:center;background:#f7f9fc;border:1px solid #e2e8f0;border-radius:8px;padding:8px 12px}
+    .url-text{font-size:11px;color:#4a5568;word-break:break-all;flex:1;text-align:left}
+    .copy-btn{flex-shrink:0;padding:4px 10px;background:#e2e8f0;border:none;border-radius:6px;font-size:12px;cursor:pointer;font-family:inherit}
+    .copy-btn:hover{background:#cbd5e0}
+  </style>
+</head>
+<body>
+<div class="card">
+  <h1>🔗 記事を開く</h1>
+  <p>自動でページが開かない場合は<br>下のボタンをクリックしてください。</p>
+  <a id="btn" class="open-btn" href="#">記事を読む →</a>
+  <div class="url-box">
+    <span class="url-text" id="urlText"></span>
+    <button class="copy-btn" onclick="copyUrl()">コピー</button>
+  </div>
+</div>
+<script>
+  const url = new URLSearchParams(location.search).get('url') || '/';
+  document.getElementById('btn').href = url;
+  document.getElementById('urlText').textContent = url;
+  // 自動リダイレクト（実ブラウザでは即時遷移）
+  location.replace(url);
+  function copyUrl(){
+    navigator.clipboard.writeText(url).then(()=>{
+      const b = document.querySelector('.copy-btn');
+      b.textContent='コピー完了!'; setTimeout(()=>b.textContent='コピー',1500);
+    });
+  }
+</script>
+</body>
+</html>

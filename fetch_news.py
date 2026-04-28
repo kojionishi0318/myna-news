@@ -7,6 +7,7 @@ import sys
 import os
 import re
 import json
+import base64
 import datetime
 import time
 import argparse
@@ -33,6 +34,15 @@ CONNECT_TIMEOUT  = 5    # TCP接続タイムアウト（秒）
 READ_TIMEOUT     = 20   # レスポンス受信タイムアウト（秒）
 RESOLVE_TIMEOUT  = 6    # URL解決タイムアウト（秒/記事）
 RESOLVE_WORKERS  = 20   # 並列ワーカー数
+SUMMARY_TIMEOUT  = 8    # 要約取得タイムアウト（秒/記事）
+SUMMARY_WORKERS  = 10   # 要約取得並列ワーカー数
+
+# ─── Bing News RSS（実際の記事スニペットを取得するため） ─────────────────────
+BING_RSS_URL = (
+    "https://www.bing.com/news/search?q="
+    + urllib.parse.quote(SEARCH_QUERY)
+    + "&format=rss&setlang=ja-JP&cc=JP"
+)
 FRESHNESS_SECS   = 3600 # 1時間以内なら再取得をスキップ
 MAX_ARTICLES     = 500  # 保持する最大記事数
 UA = (
@@ -65,26 +75,68 @@ def is_fresh(json_path: str) -> bool:
         return False
 
 
-# ── URL解決（Google News リダイレクト → 実記事URL） ──────────────────────────
-def _resolve_one(google_url: str, session: "requests.Session") -> str:
+# ── Google News URLのBase64デコード ──────────────────────────────────────────
+def decode_gnews_url(url: str) -> str:
     """
-    Google News のリダイレクトを追跡して実際の記事 URL を返す。
-    失敗した場合は元の URL をそのまま返す。
-    stream=True + resp.close() でレスポンスボディをダウンロードせずに済む。
+    Google News RSS の記事URLからBase64デコードで実記事URLを抽出する。
+    フォーマット: https://news.google.com/rss/articles/<base64>
+    デコード結果はProtobuf風バイナリで、その中にhttps://が埋め込まれている。
     """
     try:
-        resp = session.get(
-            google_url,
-            timeout=RESOLVE_TIMEOUT,
-            allow_redirects=True,
-            stream=True,
-            headers={"User-Agent": UA},
-        )
-        final_url = resp.url
-        resp.close()
-        return final_url
+        parsed = urllib.parse.urlparse(url)
+        if "news.google.com" not in parsed.netloc:
+            return url
+        path_parts = [p for p in parsed.path.split("/") if p]
+        if not path_parts or path_parts[-2] not in ("articles", "read"):
+            return url
+        article_id = path_parts[-1]
+        # パディング補完
+        article_id += "=" * ((4 - len(article_id) % 4) % 4)
+        decoded = base64.urlsafe_b64decode(article_id)
+        # バイナリ内のhttps?://を探す（UTF-8/ASCII混在）
+        match = re.search(rb"https?://[A-Za-z0-9\-._~:/?#\[\]@!$&'()*+,;=%]+", decoded)
+        if match:
+            candidate = match.group(0).decode("ascii", errors="replace")
+            # google.com 以外なら実記事URL
+            if "google.com" not in candidate and len(candidate) > 15:
+                return candidate
     except Exception:
-        return google_url
+        pass
+    return url
+
+
+
+# ── URL解決（Google News リダイレクト → 実記事URL） ──────────────────────────
+def _resolve_one(url: str, session: "requests.Session") -> str:
+    """
+    記事 URL を実際の記事 URL に解決する。
+    - Google News URL: Base64 デコードを試みる（高速・失敗しても即返却）
+    - Bing redirect URL: HTTP リダイレクトを追跡（確実に解決できる）
+    """
+    if "news.google.com" in url:
+        # Base64 デコードのみ試みる（HTTPフォールバックはしない：遅すぎるため）
+        return decode_gnews_url(url)
+
+    if "bing.com/news/apiclick" in url:
+        # Bing のリダイレクトは単純な HTTP redirect で追跡可能
+        try:
+            resp = session.get(
+                url,
+                timeout=RESOLVE_TIMEOUT,
+                allow_redirects=True,
+                stream=True,
+                headers={"User-Agent": UA},
+            )
+            final_url = resp.url
+            resp.close()
+            if "bing.com" not in final_url and "msn.com" not in final_url:
+                return final_url
+            # MSN/Bing のまま → そのまま使用（MSN版は有効なURL）
+            return final_url
+        except Exception:
+            return url
+
+    return url
 
 
 def resolve_urls(articles: list[dict], session: "requests.Session", label: str = "") -> list[dict]:
@@ -110,8 +162,9 @@ def resolve_urls(articles: list[dict], session: "requests.Session", label: str =
         for future in as_completed(future_map):
             idx, orig = future_map[future]
             result = future.result()
-            articles[idx]["_glink"] = orig        # 元の Google URL を保持
-            articles[idx]["link"]   = result      # 実記事 URL で上書き
+            articles[idx]["_glink"]        = orig    # 元の Google URL を保持
+            articles[idx]["link"]          = result  # 実記事 URL で上書き
+            articles[idx]["_resolved_url"] = result  # サマリー取得用にも保持
             resolved += 1
             if "news.google.com" not in result:
                 ok += 1
@@ -119,6 +172,90 @@ def resolve_urls(articles: list[dict], session: "requests.Session", label: str =
     elapsed = time.perf_counter() - t0
     tag = f"  [{label}]" if label else "  [URL解決]"
     print(f"{tag} {elapsed:.1f} s  {ok}/{resolved} 件解決")
+    return articles
+
+
+# ── Bing News RSS 取得・エンリッチ ──────────────────────────────────────────
+def _norm_title(title: str) -> str:
+    """タイトル正規化（マッチング用）: 先頭30文字・小文字・空白/句読点除去"""
+    # " - 媒体名" " | 媒体名" を末尾から除去
+    t = re.sub(r"\s*[-|｜]\s*[^\s].{0,20}$", "", title)
+    # 小文字化・空白類除去・句読点除去
+    t = t.lower()
+    t = re.sub(r"[\s\u3000\u00a0\.\。\、\,\!\?\！\？]", "", t)
+    return t[:30]
+
+
+def fetch_bing_descriptions(session: "requests.Session") -> dict:
+    """
+    Bing News RSS から記事説明文を取得し、{正規化タイトル: description} の辞書を返す。
+    Google News 記事の description エンリッチに使用する。
+    """
+    t0 = time.perf_counter()
+    try:
+        resp = session.get(BING_RSS_URL, timeout=(CONNECT_TIMEOUT, READ_TIMEOUT))
+        resp.raise_for_status()
+        root = ET.fromstring(resp.content)
+        channel = root.find("channel")
+        if channel is None:
+            return {}
+
+        desc_map: dict[str, str] = {}
+        count = 0
+        for item in channel.findall("item"):
+            def g(tag: str) -> str:
+                e = item.find(tag)
+                return e.text.strip() if e is not None and e.text else ""
+
+            title = g("title")
+            raw_desc = g("description")
+            clean_desc = re.sub(
+                r"\s+", " ",
+                html_module.unescape(re.sub(r"<[^>]+>", "", raw_desc))
+            ).strip()
+
+            # タイトルと同内容の説明は除外（Google News と同じ問題を回避）
+            if clean_desc and clean_desc[:20] not in title[:20]:
+                key = _norm_title(title)
+                if key:
+                    desc_map[key] = clean_desc[:400]
+                    count += 1
+
+        elapsed = time.perf_counter() - t0
+        print(f"  [Bing RSS] {elapsed*1000:.0f} ms  {count} 件（説明文あり）")
+        return desc_map
+
+    except Exception as e:
+        print(f"  [Bing RSS] スキップ: {e}")
+        return {}
+
+
+def enrich_descriptions(articles: list[dict], desc_map: dict) -> list[dict]:
+    """
+    Bing の description map を使って Google News 記事の description を補完する。
+    既に description がある記事はスキップ。
+    """
+    enriched = 0
+    for a in articles:
+        existing_desc = (a.get("description") or "").strip()
+        title_text    = (a.get("title") or "")
+        # 意味のある説明文がある場合はスキップ（タイトルの繰り返しは除外）
+        if existing_desc and len(existing_desc) > len(title_text) + 15:
+            continue
+        key = _norm_title(a.get("title", ""))
+        if key in desc_map:
+            a["description"] = desc_map[key]
+            enriched += 1
+        else:
+            # 部分一致も試みる（先頭20文字で比較）
+            short_key = key[:20]
+            for bkey, bdesc in desc_map.items():
+                if short_key and short_key in bkey or bkey[:20] in key:
+                    a["description"] = bdesc
+                    enriched += 1
+                    break
+    if enriched:
+        print(f"  [エンリッチ] {enriched} 件の記事に説明文を追加")
     return articles
 
 
@@ -154,14 +291,28 @@ def parse_rss(content: bytes) -> list[dict]:
         except ValueError:
             pass
 
+        title_text   = g("title")
+        raw_desc     = g("description")
+        cleaned_desc = re.sub(r"\s+", " ",
+                       html_module.unescape(re.sub(r"<[^>]+>", "", raw_desc))).strip()
+
+        # Google News RSS の description はタイトルの繰り返しなので空に統一
+        # 判定: タイトル先頭20文字で始まる、またはタイトルより実質短い
+        title_prefix = re.sub(r"\s+", "", title_text[:20])
+        desc_prefix  = re.sub(r"\s+", "", cleaned_desc[:20])
+        if title_prefix and desc_prefix and (
+            desc_prefix in title_prefix or title_prefix in desc_prefix
+            or len(cleaned_desc) < len(title_text) + 10
+        ):
+            cleaned_desc = ""
+
         src_el = item.find("source")
         articles.append({
-            "title":       g("title"),
+            "title":       title_text,
             "link":        g("link"),
             "pub_date":    iso_date,
             "source":      src_el.text.strip() if src_el is not None and src_el.text else "",
-            "description": re.sub(r"\s+", " ",
-                           html_module.unescape(re.sub(r"<[^>]+>", "", g("description")))).strip(),
+            "description": cleaned_desc,
         })
 
     print(f"  [RSS解析] {time.perf_counter()-t0:.3f} s  {len(articles)} 件")
@@ -197,7 +348,8 @@ def _gkey(article: dict) -> str:
 
 
 # ── 保存 ─────────────────────────────────────────────────────────────────────
-def save_news(new_articles: list[dict], json_path: str) -> None:
+def save_news(new_articles: list[dict], json_path: str,
+              bing_desc_map: dict | None = None) -> None:
     t0 = time.perf_counter()
     existing = load_existing(json_path)
 
@@ -206,6 +358,11 @@ def save_news(new_articles: list[dict], json_path: str) -> None:
     fresh = [a for a in new_articles if _gkey(a) not in existing_keys]
 
     all_articles = fresh + existing
+
+    # 説明文がない記事に Bing の説明文を補完（新規・既存どちらも対象）
+    if bing_desc_map:
+        all_articles = enrich_descriptions(all_articles, bing_desc_map)
+
     try:
         all_articles.sort(key=lambda a: a.get("pub_date", ""), reverse=True)
     except Exception:
@@ -286,7 +443,12 @@ def main():
 
     total_t0 = time.perf_counter()
 
-    # RSS 取得
+    # Bing News RSS から説明文マップを取得（Google RSS と並列で実行したいが逐次でも十分速い）
+    bing_desc_map: dict = {}
+    if session:
+        bing_desc_map = fetch_bing_descriptions(session)
+
+    # Google News RSS 取得
     try:
         content = fetch_rss_bytes(session) if session else _fetch_urllib()
     except Exception as e:
@@ -300,12 +462,16 @@ def main():
         print(f"  [エラー] RSS 解析失敗: {e}", file=sys.stderr)
         sys.exit(1)
 
-    # URL 解決（Google News → 実記事 URL）
+    # Bing の説明文で Google 記事を補完
+    if bing_desc_map:
+        articles = enrich_descriptions(articles, bing_desc_map)
+
+    # URL 解決（Google News → 実記事 URL、Base64デコードのみ）
     if session:
         articles = resolve_urls(articles, session, label="新規URL解決")
 
-    # 保存
-    save_news(articles, json_path)
+    # 保存（Bing説明文マップも渡して既存記事を含めエンリッチ）
+    save_news(articles, json_path, bing_desc_map=bing_desc_map)
 
     print(f"  [合計]  {time.perf_counter()-total_t0:.2f} s")
     print("=" * 52)

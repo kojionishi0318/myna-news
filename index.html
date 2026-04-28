@@ -180,7 +180,6 @@
       cursor: not-allowed;
       opacity: .7;
     }
-    /* ローディング中はボタン内にスピナー */
     .refresh-btn .btn-spinner {
       display: inline-block;
       width: 12px; height: 12px;
@@ -191,7 +190,6 @@
       vertical-align: middle;
       margin-right: 5px;
     }
-    /* クールダウンバー */
     .refresh-btn .cd-bar {
       position: absolute;
       bottom: 0; left: 0;
@@ -213,10 +211,74 @@
     .stats-text { font-size: 13px; color: var(--text-muted); }
     .updated-text { font-size: 12px; color: var(--text-muted); margin-left: auto; }
 
+    /* ─── ページネーション ───────────────────────── */
+    .pagination-wrap {
+      max-width: 960px;
+      margin: 12px auto 4px;
+      padding: 0 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+    .pagination-wrap.bottom { margin: 4px auto 40px; }
+    .pagination-info {
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+    .pagination-btns {
+      display: flex;
+      gap: 4px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .page-btn {
+      min-width: 36px;
+      height: 36px;
+      padding: 0 8px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: var(--surface);
+      color: var(--text);
+      font-size: 13px;
+      font-family: inherit;
+      cursor: pointer;
+      transition: background .15s, border-color .15s, color .15s;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .page-btn:hover:not(:disabled):not(.active) {
+      background: var(--accent-light);
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+    .page-btn.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+      font-weight: 700;
+      cursor: default;
+    }
+    .page-btn:disabled {
+      opacity: .4;
+      cursor: not-allowed;
+    }
+    .page-ellipsis {
+      min-width: 36px;
+      height: 36px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px;
+      color: var(--text-muted);
+      pointer-events: none;
+    }
+
     /* ─── Article list ───────────────────────────── */
     .article-list {
       max-width: 960px;
-      margin: 16px auto 0;
+      margin: 0 auto;
       padding: 0 16px;
       display: flex;
       flex-direction: column;
@@ -282,28 +344,69 @@
       letter-spacing: .05em;
     }
 
-    /* ─── もっと見るボタン ────────────────────────── */
-    .load-more-wrap {
-      max-width: 960px;
-      margin: 16px auto 40px;
-      padding: 0 16px;
-      text-align: center;
-    }
-    .load-more-btn {
-      padding: 10px 28px;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      background: var(--surface);
-      color: var(--text-muted);
-      font-size: 13px;
-      font-family: inherit;
+    /* ─── アコーディオン（同内容記事） ───────────── */
+    .dup-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 11px;
+      font-weight: 600;
+      background: #f0fff4;
+      color: #276749;
+      border: 1px solid #9ae6b4;
+      padding: 2px 8px;
+      border-radius: 20px;
       cursor: pointer;
-      transition: background .15s, color .15s, border-color .15s;
+      transition: background .15s;
+      user-select: none;
+      line-height: 1.6;
     }
-    .load-more-btn:hover {
-      background: var(--accent-light);
+    [data-theme="dark"] .dup-badge {
+      background: #1c4532;
+      color: #9ae6b4;
+      border-color: #276749;
+    }
+    .dup-badge:hover { background: #c6f6d5; }
+    [data-theme="dark"] .dup-badge:hover { background: #22543d; }
+    .dup-arrow { display: inline-block; transition: transform .2s; font-style: normal; }
+    .dup-badge.open .dup-arrow { transform: rotate(180deg); }
+
+    .accordion-body {
+      margin-top: 10px;
+      border-top: 1px solid var(--border);
+      padding-top: 10px;
+      display: none;
+    }
+    .accordion-body.open { display: block; }
+    .accordion-label {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      margin-bottom: 6px;
+    }
+    .accordion-item {
+      padding: 7px 0;
+      border-bottom: 1px dashed var(--border);
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+    .accordion-item:last-child { border-bottom: none; }
+    .accordion-item a {
+      font-size: 13px;
       color: var(--accent);
-      border-color: var(--accent);
+      text-decoration: none;
+      line-height: 1.5;
+    }
+    .accordion-item a:hover { text-decoration: underline; }
+    .accordion-item-meta {
+      font-size: 11px;
+      color: var(--text-muted);
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
     }
 
     /* ─── Empty / Loading ────────────────────────── */
@@ -339,7 +442,43 @@
     }
     @keyframes spin { to { transform: rotate(360deg); } }
 
-    /* ─── 取得ヒント ─────────────────────────────────── */
+    /* ─── Chromeで開くバナー ─────────────────────── */
+    .browser-hint {
+      background: #ebf8ff;
+      border-bottom: 1px solid #bee3f8;
+      padding: 10px 16px;
+      font-size: 13px;
+      color: #2c5282;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    [data-theme="dark"] .browser-hint {
+      background: #1a365d;
+      border-color: #2b4c7e;
+      color: #90cdf4;
+    }
+    .browser-hint a {
+      color: #2b6cb0;
+      font-weight: 700;
+      font-family: monospace;
+      font-size: 13px;
+    }
+    [data-theme="dark"] .browser-hint a { color: #63b3ed; }
+    .browser-hint button {
+      padding: 3px 10px;
+      background: #2b6cb0;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 12px;
+      cursor: pointer;
+      font-family: inherit;
+    }
+    .browser-hint button:hover { background: #2c5282; }
+
+    /* ─── 取得ヒント ─────────────────────────────── */
     .fetch-hint {
       max-width: 960px;
       margin: 8px auto 0;
@@ -367,9 +506,132 @@
     }
     [data-theme="dark"] .fetch-hint code { background: rgba(255,255,255,.1); }
 
-    @media (max-width: 600px) {
+    /* ─── ヒーローバナー ─────────────────────────── */
+    .hero {
+      background: linear-gradient(120deg, #1255a8 0%, #1976d2 45%, #42a5f5 100%);
+      overflow: hidden;
+    }
+    .hero-inner {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px 40px 0;
+      display: flex;
+      align-items: flex-end;
+      gap: 0;
+    }
+    .hero-text {
+      flex: 1;
+      padding-bottom: 24px;
+      color: #fff;
+    }
+    .hero-title {
+      font-size: 30px;
+      font-weight: 900;
+      line-height: 1.25;
+      margin-bottom: 10px;
+      letter-spacing: -.03em;
+    }
+    .hero-title small {
+      display: block;
+      font-size: 13px;
+      font-weight: 500;
+      opacity: .8;
+      letter-spacing: .02em;
+      margin-bottom: 4px;
+    }
+    .hero-desc {
+      font-size: 13px;
+      opacity: .82;
+      line-height: 1.8;
+    }
+    .hero-badges {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 14px;
+    }
+    .hero-badge {
+      font-size: 11px;
+      font-weight: 700;
+      background: rgba(255,255,255,.18);
+      border: 1px solid rgba(255,255,255,.35);
+      color: #fff;
+      padding: 3px 10px;
+      border-radius: 20px;
+      letter-spacing: .04em;
+    }
+    .hero-mascot {
+      flex-shrink: 0;
+      line-height: 0;
+      position: relative;
+    }
+    .hero-mascot img {
+      display: block;
+      width: 220px;
+      height: 220px;
+      object-fit: contain;
+      object-position: center bottom;
+      mix-blend-mode: multiply;
+      filter: drop-shadow(0 6px 18px rgba(0,0,0,.22));
+    }
+
+    /* ─── シェアボタン ────────────────────────────── */
+    .share-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 11px;
+      font-weight: 600;
+      background: none;
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+      padding: 2px 9px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-family: inherit;
+      transition: background .15s, color .15s, border-color .15s;
+      margin-left: auto;
+      white-space: nowrap;
+    }
+    .share-btn:hover {
+      background: var(--accent-light);
+      color: var(--accent);
+      border-color: var(--accent);
+    }
+
+    /* ─── トースト通知 ───────────────────────────── */
+    .toast {
+      position: fixed;
+      bottom: 28px;
+      left: 50%;
+      transform: translateX(-50%) translateY(12px);
+      background: #2d3748;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-size: 13px;
+      font-weight: 600;
+      z-index: 9999;
+      opacity: 0;
+      transition: opacity .25s, transform .25s;
+      pointer-events: none;
+      white-space: nowrap;
+      box-shadow: 0 4px 16px rgba(0,0,0,.25);
+    }
+    .toast.show {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+    }
+    [data-theme="dark"] .toast { background: #e2e8f0; color: #1a202c; }
+
+    @media (max-width: 700px) {
       .controls { flex-direction: column; align-items: stretch; }
       .refresh-btn { width: 100%; }
+      .pagination-btns { gap: 3px; }
+      .page-btn { min-width: 32px; height: 32px; font-size: 12px; }
+      .hero-inner { padding: 18px 20px 0; }
+      .hero-title { font-size: 22px; }
+      .hero-mascot img { width: 130px; height: 130px; }
     }
   </style>
 </head>
@@ -390,6 +652,37 @@
   </div>
 </header>
 
+<!-- ─── ヒーローバナー ─────────────────────────────── -->
+<div class="hero">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <div class="hero-title">
+        <small>📋 マイナンバー・マイナ保険証</small>
+        ニュース<br>キュレーション
+      </div>
+      <p class="hero-desc">
+        マイナ保険証に関する最新ニュースを<br>
+        毎日自動収集してお届けします。
+      </p>
+      <div class="hero-badges">
+        <span class="hero-badge">📅 毎日自動更新</span>
+        <span class="hero-badge">🔍 全媒体横断</span>
+        <span class="hero-badge">📤 簡単シェア</span>
+      </div>
+    </div>
+    <div class="hero-mascot">
+      <img src="myna-chan.png" alt="マイナちゃん"
+           onerror="this.style.display='none'">
+    </div>
+  </div>
+</div>
+
+<div class="browser-hint">
+  <span>💡 記事リンクをクリックするには、実際の Chrome で開いてください：</span>
+  <a href="http://localhost:3000" target="_blank" rel="noopener">http://localhost:3000</a>
+  <button onclick="navigator.clipboard.writeText('http://localhost:3000').then(()=>{this.textContent='コピー完了!';setTimeout(()=>this.textContent='URLをコピー',1500)})">URLをコピー</button>
+</div>
+
 <div class="controls">
   <div class="search-box">
     <span class="search-icon">🔍</span>
@@ -397,10 +690,10 @@
       placeholder="タイトル・記事内容で絞り込み…" autocomplete="off">
   </div>
   <select class="filter-select" id="periodFilter">
-    <option value="all">全期間</option>
+    <option value="all" selected>全期間</option>
     <option value="today">今日</option>
     <option value="3days">直近3日</option>
-    <option value="week" selected>直近1週間</option>
+    <option value="week">直近1週間</option>
     <option value="month">直近1ヶ月</option>
   </select>
   <select class="filter-select" id="sourceFilter">
@@ -414,20 +707,24 @@
   <span class="updated-text" id="updatedText"></span>
 </div>
 <div class="fetch-hint" id="fetchHint" style="display:none">
-  <span class="fetch-hint-icon">💡</span>
+  <span>💡</span>
   <span>今日の記事がない場合は <code>python fetch_news.py</code> を実行して最新記事を取得してください</span>
 </div>
 
+<!-- ページネーション（上） -->
+<div class="pagination-wrap" id="paginationTop" style="display:none"></div>
+
+<!-- 記事一覧 -->
 <div class="article-list" id="articleList">
   <div class="loading"><div class="spinner"></div><span>読み込んでいます…</span></div>
 </div>
-<div class="load-more-wrap" id="loadMoreWrap" style="display:none">
-  <button class="load-more-btn" id="loadMoreBtn">さらに読み込む</button>
-</div>
+
+<!-- ページネーション（下） -->
+<div class="pagination-wrap bottom" id="paginationBottom" style="display:none"></div>
 
 <script>
 (function () {
-  const PAGE_SIZE     = 20;   // 1回に表示する件数
+  const PAGE_SIZE     = 20;   // 1ページに表示するグループ数
   const COOLDOWN_SECS = 10;   // 更新ボタン連打防止（秒）
 
   // ─── Theme ───────────────────────────────────────────────────────────────
@@ -444,13 +741,13 @@
 
   // ─── State ───────────────────────────────────────────────────────────────
   let allArticles      = [];   // 全件
-  let filteredArticles = [];   // フィルタ後
-  let displayedCount   = 0;    // 現在表示中の件数
+  let filteredGroups   = [];   // フィルタ後のグループ配列
+  let currentPage      = 1;    // 現在のページ（1始まり）
+  let isFirstRender    = true; // 初回ロード判定（スクロールしない）
 
-  // ─── データ取得（fetch + JSON） ──────────────────────────────────────────
+  // ─── データ取得 ──────────────────────────────────────────────────────────
   async function loadData() {
     try {
-      // cache: "no-store" でブラウザキャッシュをバイパス（更新ボタン用）
       const res = await fetch("news_data.json", { cache: "no-store" });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       return await res.json();
@@ -479,7 +776,6 @@
     // 媒体フィルターを再構築
     const srcSel = document.getElementById("sourceFilter");
     const prevVal = srcSel.value;
-    // "すべての媒体" 以外のオプションを削除
     while (srcSel.options.length > 1) srcSel.remove(1);
     const sources = [...new Set(allArticles.map(a => a.source).filter(Boolean))].sort();
     sources.forEach(s => {
@@ -487,10 +783,24 @@
       opt.value = s; opt.textContent = s;
       srcSel.appendChild(opt);
     });
-    // 選択値を復元（存在すれば）
     if ([...srcSel.options].some(o => o.value === prevVal)) srcSel.value = prevVal;
 
     applyFilters();
+  }
+
+  // ─── グルーピング ─────────────────────────────────────────────────────────
+  // 同一内容の記事を束ねる。タイトル先頭30文字（正規化）をキーとして使用。
+  function groupArticles(articles) {
+    const map = new Map();
+    articles.forEach(a => {
+      // タイトル先頭30文字で正規化キーを生成
+      const key = a.title.slice(0, 30).toLowerCase().replace(/[\s\u3000\u00a0]/g, "");
+      if (!map.has(key)) {
+        map.set(key, []);
+      }
+      map.get(key).push(a);
+    });
+    return Array.from(map.values());
   }
 
   // ─── フィルタ ─────────────────────────────────────────────────────────────
@@ -501,14 +811,14 @@
 
     const now = new Date();
     const cutoffs = {
-      today:  new Date(now.getFullYear(), now.getMonth(), now.getDate()),
+      today:   new Date(now.getFullYear(), now.getMonth(), now.getDate()),
       "3days": new Date(now - 3 * 86400000),
       week:    new Date(now - 7 * 86400000),
       month:   new Date(now - 30 * 86400000),
     };
     const cutoff = cutoffs[period] || null;
 
-    filteredArticles = allArticles.filter(a => {
+    const filtered = allArticles.filter(a => {
       if (source !== "all" && a.source !== source) return false;
       if (cutoff) {
         const d = new Date(a.pub_date);
@@ -521,88 +831,297 @@
       return true;
     });
 
-    displayedCount = 0;
-    document.getElementById("articleList").innerHTML = "";
-    renderNextPage();
-    updateStats();
+    filteredGroups = groupArticles(filtered);
+    currentPage = 1;
+    renderCurrentPage();
   }
 
-  // ─── ページネーション ────────────────────────────────────────────────────
-  function renderNextPage() {
-    const list  = document.getElementById("articleList");
-    const wrap  = document.getElementById("loadMoreWrap");
-    const btn   = document.getElementById("loadMoreBtn");
+  // ─── ページ描画 ────────────────────────────────────────────────────────────
+  function renderCurrentPage() {
+    const list        = document.getElementById("articleList");
+    const period      = document.getElementById("periodFilter").value;
+    const hint        = document.getElementById("fetchHint");
+    const topWrap     = document.getElementById("paginationTop");
+    const bottomWrap  = document.getElementById("paginationBottom");
+    const totalGroups = filteredGroups.length;
+    const totalPages  = Math.ceil(totalGroups / PAGE_SIZE);
 
-    if (filteredArticles.length === 0) {
-      const period = document.getElementById("periodFilter").value;
-      const hint   = document.getElementById("fetchHint");
-      // 「今日」「直近3日」で0件のときはヒントを表示
+    if (totalGroups === 0) {
       hint.style.display = (period === "today" || period === "3days") ? "flex" : "none";
       list.innerHTML = `<div class="empty-state">
         <h2>該当する記事が見つかりません</h2>
         <p>「直近1週間」に切り替えるか、<code>python fetch_news.py</code> を実行して最新記事を取得してください。</p>
       </div>`;
-      wrap.style.display = "none";
+      topWrap.style.display    = "none";
+      bottomWrap.style.display = "none";
+      updateStats(0, 0);
       return;
     }
-    document.getElementById("fetchHint").style.display = "none";
+    hint.style.display = "none";
 
+    // ── ページスライス ──
+    const start = (currentPage - 1) * PAGE_SIZE;
+    const end   = Math.min(start + PAGE_SIZE, totalGroups);
+    const slice = filteredGroups.slice(start, end);
+
+    // ── 記事リスト描画 ──
     const now          = new Date();
     const newThreshold = new Date(now - 24 * 3600000);
-    const slice        = filteredArticles.slice(displayedCount, displayedCount + PAGE_SIZE);
+    list.innerHTML     = "";
 
-    slice.forEach(a => {
-      const pubDate = new Date(a.pub_date);
-      const isNew   = !isNaN(pubDate) && pubDate > newThreshold;
-      const dateStr = isNaN(pubDate) ? "" : formatDateJP(pubDate);
+    slice.forEach((group, groupIdx) => {
+      const main     = group[0];
+      const dups     = group.slice(1);
+      const pubDate  = new Date(main.pub_date);
+      const isNew    = !isNaN(pubDate) && pubDate > newThreshold;
+      const dateStr  = isNaN(pubDate) ? "" : formatDateJP(pubDate);
+      const uid      = `acc-${start + groupIdx}`;
 
       const card = document.createElement("div");
       card.className = "card";
+
+      const articleHref = "redirect.html?url=" + encodeURIComponent(main.link);
+
+      // アコーディオン部分（同内容記事がある場合のみ）
+      let dupHtml = "";
+      if (dups.length > 0) {
+        const dupItems = dups.map(d => {
+          const dDate   = new Date(d.pub_date);
+          const dDateStr = isNaN(dDate) ? "" : formatDateJP(dDate);
+          const dHref   = "redirect.html?url=" + encodeURIComponent(d.link);
+          return `
+            <div class="accordion-item">
+              <a href="${escHtml(dHref)}" target="_blank" rel="noopener noreferrer">${escHtml(d.title)}</a>
+              <div class="accordion-item-meta">
+                ${d.source ? `<span>${escHtml(d.source)}</span>` : ""}
+                ${dDateStr  ? `<span>${dDateStr}</span>` : ""}
+              </div>
+            </div>`;
+        }).join("");
+
+        dupHtml = `
+          <div class="accordion-body" id="${uid}">
+            <div class="accordion-label">同内容の他記事</div>
+            ${dupItems}
+          </div>`;
+      }
+
       card.innerHTML = `
         <div class="card-title">
-          <a href="${escHtml(a.link)}" target="_blank" rel="noopener noreferrer">
-            ${escHtml(a.title)}
+          <a href="${escHtml(articleHref)}" target="_blank" rel="noopener noreferrer">
+            ${escHtml(main.title)}
           </a>
         </div>
-        ${a.description ? `<div class="card-desc">${escHtml(a.description)}</div>` : ""}
+        ${main.description ? `<div class="card-desc">${escHtml(main.description)}</div>` : ""}
         <div class="card-footer">
-          ${a.source ? `<span class="source-tag">${escHtml(a.source)}</span>` : ""}
-          ${dateStr   ? `<span class="date-text">${dateStr}</span>` : ""}
-          ${isNew     ? `<span class="new-badge">NEW</span>` : ""}
-        </div>`;
+          ${main.source ? `<span class="source-tag">${escHtml(main.source)}</span>` : ""}
+          ${dateStr      ? `<span class="date-text">${dateStr}</span>` : ""}
+          ${isNew        ? `<span class="new-badge">NEW</span>` : ""}
+          ${dups.length > 0
+            ? `<button class="dup-badge" onclick="toggleAccordion('${uid}',this)" aria-expanded="false">
+                 同内容 ${dups.length + 1}件
+                 <i class="dup-arrow">▼</i>
+               </button>`
+            : ""}
+          <button class="share-btn" title="記事URLと要約をコピー">📤 シェア</button>
+        </div>
+        ${dupHtml}`;
+
+      // シェアボタンにイベントを設定（クロージャでデータをキャプチャ）
+      const shareBtn = card.querySelector(".share-btn");
+      if (shareBtn) {
+        // summary があれば優先、なければ description にフォールバック
+        const summaryText = (main.summary || main.description || "").trim();
+        shareBtn.addEventListener("click", () => {
+          shareArticle(main.title, main.source, dateStr, main.link, summaryText);
+        });
+      }
+
       list.appendChild(card);
     });
 
-    displayedCount += slice.length;
-    const remaining = filteredArticles.length - displayedCount;
+    // ── ページネーション描画 ──
+    const totalArticles = filteredGroups.reduce((s, g) => s + g.length, 0);
+    topWrap.style.display    = totalPages > 1 ? "flex" : "none";
+    bottomWrap.style.display = totalPages > 1 ? "flex" : "none";
+    renderPagination(currentPage, totalPages, totalGroups, start + 1, end, "paginationTop");
+    renderPagination(currentPage, totalPages, totalGroups, start + 1, end, "paginationBottom");
 
-    if (remaining > 0) {
-      btn.textContent = `さらに ${Math.min(remaining, PAGE_SIZE)} 件読み込む（残り ${remaining} 件）`;
-      wrap.style.display = "block";
+    updateStats(totalGroups, totalArticles);
+
+    // ページ切替時はリスト上部へスクロール（初回ロードはスキップ）
+    if (!isFirstRender) {
+      document.getElementById("paginationTop").scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+    isFirstRender = false;
+  }
+
+  // ─── ページネーションHTML生成 ─────────────────────────────────────────────
+  function renderPagination(current, total, totalGroups, rangeFrom, rangeTo, containerId) {
+    const wrap = document.getElementById(containerId);
+    wrap.innerHTML = "";
+
+    // 件数情報
+    const info = document.createElement("div");
+    info.className = "pagination-info";
+    info.textContent = `${rangeFrom}〜${rangeTo}グループ / 全 ${totalGroups} グループ`;
+    wrap.appendChild(info);
+
+    if (total <= 1) return;
+
+    // ボタン群
+    const btns = document.createElement("div");
+    btns.className = "pagination-btns";
+
+    // 前へ
+    btns.appendChild(makePageBtn("‹ 前へ", current - 1, current <= 1));
+
+    // ページ番号（エリプシス付き）
+    const pages = calcPageRange(current, total);
+    pages.forEach(p => {
+      if (p === "…") {
+        const el = document.createElement("span");
+        el.className = "page-ellipsis";
+        el.textContent = "…";
+        btns.appendChild(el);
+      } else {
+        const btn = makePageBtn(String(p), p, false);
+        if (p === current) btn.classList.add("active");
+        btns.appendChild(btn);
+      }
+    });
+
+    // 次へ
+    btns.appendChild(makePageBtn("次へ ›", current + 1, current >= total));
+
+    wrap.appendChild(btns);
+  }
+
+  // 表示するページ番号リストを計算（エリプシスあり）
+  function calcPageRange(current, total) {
+    if (total <= 9) {
+      return Array.from({ length: total }, (_, i) => i + 1);
+    }
+    const pages = [];
+    const delta = 2; // 現在ページ前後に表示する数
+
+    const left  = Math.max(2, current - delta);
+    const right = Math.min(total - 1, current + delta);
+
+    pages.push(1);
+    if (left > 2)      pages.push("…");
+    for (let p = left; p <= right; p++) pages.push(p);
+    if (right < total - 1) pages.push("…");
+    pages.push(total);
+
+    return pages;
+  }
+
+  function makePageBtn(label, targetPage, disabled) {
+    const btn = document.createElement("button");
+    btn.className = "page-btn";
+    btn.textContent = label;
+    btn.disabled = disabled;
+    if (!disabled) {
+      btn.addEventListener("click", () => goToPage(targetPage));
+    }
+    return btn;
+  }
+
+  function goToPage(page) {
+    const total = Math.ceil(filteredGroups.length / PAGE_SIZE);
+    currentPage = Math.max(1, Math.min(page, total));
+    renderCurrentPage();
+  }
+
+  // ─── シェア機能 ──────────────────────────────────────────────────────────
+  function shareArticle(title, source, dateStr, link, description) {
+    const lines = [];
+    lines.push(`📰 ${title}`);
+    const meta = [source, dateStr].filter(Boolean).join("  |  ");
+    if (meta) lines.push(`📌 ${meta}`);
+    lines.push(`🔗 ${link}`);
+    const desc = (description || "").trim();
+    if (desc) {
+      lines.push("");
+      lines.push(`📝 要約：${desc}`);
+    }
+    const text = lines.join("\n");
+
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text)
+        .then(() => showToast("📋 クリップボードにコピーしました！"))
+        .catch(() => fallbackCopy(text));
     } else {
-      wrap.style.display = "none";
+      fallbackCopy(text);
     }
   }
 
-  function updateStats() {
-    document.getElementById("statsText").textContent =
-      `表示 ${Math.min(displayedCount, filteredArticles.length)} / ${filteredArticles.length} 件（全 ${allArticles.length} 件）`;
+  function fallbackCopy(text) {
+    const ta = document.createElement("textarea");
+    ta.value = text;
+    ta.style.cssText = "position:fixed;opacity:0;pointer-events:none;";
+    document.body.appendChild(ta);
+    ta.select();
+    try {
+      document.execCommand("copy");
+      showToast("📋 コピーしました！");
+    } catch {
+      showToast("⚠️ コピーに失敗しました");
+    }
+    document.body.removeChild(ta);
   }
 
-  document.getElementById("loadMoreBtn").addEventListener("click", () => {
-    renderNextPage();
-    updateStats();
-  });
+  function showToast(msg) {
+    let toast = document.getElementById("shareToast");
+    if (!toast) {
+      toast = document.createElement("div");
+      toast.id = "shareToast";
+      toast.className = "toast";
+      document.body.appendChild(toast);
+    }
+    toast.textContent = msg;
+    // リセットしてから表示（連続クリック対応）
+    toast.classList.remove("show");
+    requestAnimationFrame(() => {
+      toast.classList.add("show");
+      clearTimeout(toast._hideTimer);
+      toast._hideTimer = setTimeout(() => toast.classList.remove("show"), 2200);
+    });
+  }
+
+  // ─── アコーディオン ───────────────────────────────────────────────────────
+  window.toggleAccordion = function(uid, btn) {
+    const body = document.getElementById(uid);
+    if (!body) return;
+    const isOpen = body.classList.toggle("open");
+    btn.classList.toggle("open", isOpen);
+    btn.setAttribute("aria-expanded", String(isOpen));
+  };
+
+  // ─── Stats ──────────────────────────────────────────────────────────────
+  function updateStats(groupCount, articleCount) {
+    const total = allArticles.length;
+    if (groupCount === 0) {
+      document.getElementById("statsText").textContent =
+        `該当なし（全 ${total} 件）`;
+    } else if (groupCount === articleCount) {
+      document.getElementById("statsText").textContent =
+        `${groupCount} 件（全 ${total} 件）`;
+    } else {
+      document.getElementById("statsText").textContent =
+        `${groupCount} グループ・${articleCount} 件（全 ${total} 件）`;
+    }
+  }
 
   // ─── 更新ボタン（クールダウン付き） ─────────────────────────────────────
   const refreshBtn = document.getElementById("refreshBtn");
-  let cdTimer      = null;
+  let cdTimer = null;
 
   function startCooldown() {
     let remaining = COOLDOWN_SECS;
     refreshBtn.disabled = true;
 
-    // クールダウンバーを追加
     let bar = refreshBtn.querySelector(".cd-bar");
     if (!bar) {
       bar = document.createElement("span");
@@ -618,7 +1137,7 @@
         clearInterval(cdTimer);
         cdTimer = null;
         refreshBtn.disabled = false;
-        refreshBtn.innerHTML = "↻ 更新";
+        refreshBtn.innerHTML = "↻ データ再読込";
       } else {
         refreshBtn.innerHTML =
           `<span class="cd-bar" style="width:${(remaining / COOLDOWN_SECS) * 100}%"></span>` +
@@ -629,24 +1148,17 @@
 
   refreshBtn.addEventListener("click", async () => {
     if (refreshBtn.disabled) return;
-
-    // ローディング表示
     refreshBtn.innerHTML = `<span class="btn-spinner"></span>読込中`;
     refreshBtn.disabled = true;
-
     const data = await loadData();
     if (data && data.articles) {
       applyData(data);
     }
-
     startCooldown();
   });
 
-  // ─── 記事リンク ───────────────────────────────────────────────────────────
-  // 実ブラウザ（GitHub Pages等）では target="_blank" で直接遷移
-
   // ─── イベント ─────────────────────────────────────────────────────────────
-  document.getElementById("searchInput").addEventListener("input", applyFilters);
+  document.getElementById("searchInput").addEventListener("input",  applyFilters);
   document.getElementById("periodFilter").addEventListener("change", applyFilters);
   document.getElementById("sourceFilter").addEventListener("change", applyFilters);
 
