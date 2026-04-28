@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ローカル実行用（Windows）
+run_daily.bat
+setup_task.bat
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

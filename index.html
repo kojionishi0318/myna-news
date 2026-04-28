@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>マイナ保険証 ニュースキュレーション</title>
+  <style>
+    :root {
+      --bg: #f0f4f8;
+      --surface: #ffffff;
+      --surface2: #f7f9fc;
+      --border: #e2e8f0;
+      --text: #1a202c;
+      --text-muted: #718096;
+      --accent: #2b6cb0;
+      --accent-light: #ebf4ff;
+      --accent-hover: #2c5282;
+      --tag-bg: #e9f0fa;
+      --tag-text: #2b6cb0;
+      --shadow: 0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.06);
+      --shadow-hover: 0 4px 12px rgba(0,0,0,.12);
+      --radius: 10px;
+    }
+    [data-theme="dark"] {
+      --bg: #0f172a;
+      --surface: #1e293b;
+      --surface2: #162032;
+      --border: #334155;
+      --text: #e2e8f0;
+      --text-muted: #94a3b8;
+      --accent: #60a5fa;
+      --accent-light: #1e3a5f;
+      --accent-hover: #93c5fd;
+      --tag-bg: #1e3a5f;
+      --tag-text: #93c5fd;
+      --shadow: 0 1px 3px rgba(0,0,0,.3);
+      --shadow-hover: 0 4px 12px rgba(0,0,0,.4);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic UI",
+        "Meiryo", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      transition: background .2s, color .2s;
+    }
+
+    /* ─── Header ─────────────────────────────────── */
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .header-inner {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 16px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+    }
+    .logo-icon {
+      width: 32px; height: 32px;
+      background: var(--accent);
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 16px;
+      flex-shrink: 0;
+    }
+    .logo-text {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1.2;
+    }
+    .logo-sub {
+      font-size: 10px;
+      font-weight: 400;
+      color: var(--text-muted);
+    }
+    .header-right {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .theme-btn {
+      background: none;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 6px 10px;
+      cursor: pointer;
+      font-size: 16px;
+      color: var(--text);
+      transition: background .15s;
+    }
+    .theme-btn:hover { background: var(--surface2); }
+
+    /* ─── Controls ───────────────────────────────── */
+    .controls {
+      max-width: 960px;
+      margin: 20px auto 0;
+      padding: 0 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+    }
+    .search-box {
+      position: relative;
+      flex: 1;
+      min-width: 200px;
+    }
+    .search-icon {
+      position: absolute;
+      left: 12px; top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+      font-size: 14px;
+      pointer-events: none;
+    }
+    .search-input {
+      width: 100%;
+      padding: 9px 12px 9px 36px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--surface);
+      color: var(--text);
+      font-size: 14px;
+      font-family: inherit;
+      outline: none;
+      transition: border-color .15s, box-shadow .15s;
+    }
+    .search-input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-light);
+    }
+    .filter-select {
+      padding: 9px 12px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--surface);
+      color: var(--text);
+      font-size: 13px;
+      font-family: inherit;
+      cursor: pointer;
+      outline: none;
+    }
+
+    /* ─── 更新ボタン（クールダウン対応） ─────────── */
+    .refresh-btn {
+      min-width: 96px;
+      padding: 9px 16px;
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 13px;
+      font-family: inherit;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background .15s, opacity .15s;
+      white-space: nowrap;
+      position: relative;
+      overflow: hidden;
+    }
+    .refresh-btn:hover:not(:disabled) { background: var(--accent-hover); }
+    .refresh-btn:disabled {
+      cursor: not-allowed;
+      opacity: .7;
+    }
+    /* ローディング中はボタン内にスピナー */
+    .refresh-btn .btn-spinner {
+      display: inline-block;
+      width: 12px; height: 12px;
+      border: 2px solid rgba(255,255,255,.4);
+      border-top-color: #fff;
+      border-radius: 50%;
+      animation: spin .6s linear infinite;
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+    /* クールダウンバー */
+    .refresh-btn .cd-bar {
+      position: absolute;
+      bottom: 0; left: 0;
+      height: 3px;
+      background: rgba(255,255,255,.5);
+      transition: width 1s linear;
+    }
+
+    /* ─── Stats bar ──────────────────────────────── */
+    .stats-bar {
+      max-width: 960px;
+      margin: 12px auto 0;
+      padding: 0 16px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .stats-text { font-size: 13px; color: var(--text-muted); }
+    .updated-text { font-size: 12px; color: var(--text-muted); margin-left: auto; }
+
+    /* ─── Article list ───────────────────────────── */
+    .article-list {
+      max-width: 960px;
+      margin: 16px auto 0;
+      padding: 0 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    /* ─── Card ───────────────────────────────────── */
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 16px 18px;
+      transition: box-shadow .15s, transform .1s;
+    }
+    .card:hover {
+      box-shadow: var(--shadow-hover);
+      transform: translateY(-1px);
+    }
+    .card-title {
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 1.5;
+      margin-bottom: 5px;
+    }
+    .card-title a {
+      color: var(--text);
+      text-decoration: none;
+    }
+    .card-title a:hover { color: var(--accent); text-decoration: underline; }
+    .card-desc {
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.6;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      margin-bottom: 8px;
+    }
+    .card-footer {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .source-tag {
+      font-size: 11px;
+      font-weight: 600;
+      background: var(--tag-bg);
+      color: var(--tag-text);
+      padding: 2px 8px;
+      border-radius: 20px;
+    }
+    .date-text { font-size: 12px; color: var(--text-muted); }
+    .new-badge {
+      font-size: 10px;
+      font-weight: 700;
+      background: #e53e3e;
+      color: #fff;
+      padding: 1px 6px;
+      border-radius: 4px;
+      letter-spacing: .05em;
+    }
+
+    /* ─── もっと見るボタン ────────────────────────── */
+    .load-more-wrap {
+      max-width: 960px;
+      margin: 16px auto 40px;
+      padding: 0 16px;
+      text-align: center;
+    }
+    .load-more-btn {
+      padding: 10px 28px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--surface);
+      color: var(--text-muted);
+      font-size: 13px;
+      font-family: inherit;
+      cursor: pointer;
+      transition: background .15s, color .15s, border-color .15s;
+    }
+    .load-more-btn:hover {
+      background: var(--accent-light);
+      color: var(--accent);
+      border-color: var(--accent);
+    }
+
+    /* ─── Empty / Loading ────────────────────────── */
+    .empty-state {
+      text-align: center;
+      padding: 60px 16px;
+      color: var(--text-muted);
+    }
+    .empty-state h2 { font-size: 18px; margin-bottom: 8px; color: var(--text); }
+    .empty-state p { font-size: 14px; line-height: 1.7; }
+    .empty-state code {
+      background: var(--surface2);
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: monospace;
+      font-size: 13px;
+    }
+    .loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 60px;
+      color: var(--text-muted);
+      font-size: 15px;
+    }
+    .spinner {
+      width: 20px; height: 20px;
+      border: 2px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin .7s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ─── 取得ヒント ─────────────────────────────────── */
+    .fetch-hint {
+      max-width: 960px;
+      margin: 8px auto 0;
+      padding: 10px 16px;
+      background: #fffbeb;
+      border: 1px solid #f6e05e;
+      border-radius: 8px;
+      font-size: 13px;
+      color: #744210;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    [data-theme="dark"] .fetch-hint {
+      background: #2d2a12;
+      border-color: #854d0e;
+      color: #fef08a;
+    }
+    .fetch-hint code {
+      background: rgba(0,0,0,.1);
+      padding: 1px 6px;
+      border-radius: 4px;
+      font-family: monospace;
+      font-size: 12px;
+    }
+    [data-theme="dark"] .fetch-hint code { background: rgba(255,255,255,.1); }
+
+    @media (max-width: 600px) {
+      .controls { flex-direction: column; align-items: stretch; }
+      .refresh-btn { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a class="logo" href="#">
+      <div class="logo-icon">🏥</div>
+      <div>
+        <div class="logo-text">マイナ保険証 ニュース</div>
+        <div class="logo-sub">キュレーションサイト</div>
+      </div>
+    </a>
+    <div class="header-right">
+      <button class="theme-btn" id="themeBtn" title="ダーク/ライト切替">🌙</button>
+    </div>
+  </div>
+</header>
+
+<div class="controls">
+  <div class="search-box">
+    <span class="search-icon">🔍</span>
+    <input class="search-input" type="text" id="searchInput"
+      placeholder="タイトル・記事内容で絞り込み…" autocomplete="off">
+  </div>
+  <select class="filter-select" id="periodFilter">
+    <option value="all">全期間</option>
+    <option value="today">今日</option>
+    <option value="3days">直近3日</option>
+    <option value="week" selected>直近1週間</option>
+    <option value="month">直近1ヶ月</option>
+  </select>
+  <select class="filter-select" id="sourceFilter">
+    <option value="all">すべての媒体</option>
+  </select>
+  <button class="refresh-btn" id="refreshBtn" title="保存済みデータを再読込します（新記事の取得は fetch_news.py を実行してください）">↻ データ再読込</button>
+</div>
+
+<div class="stats-bar">
+  <span class="stats-text" id="statsText">読み込み中…</span>
+  <span class="updated-text" id="updatedText"></span>
+</div>
+<div class="fetch-hint" id="fetchHint" style="display:none">
+  <span class="fetch-hint-icon">💡</span>
+  <span>今日の記事がない場合は <code>python fetch_news.py</code> を実行して最新記事を取得してください</span>
+</div>
+
+<div class="article-list" id="articleList">
+  <div class="loading"><div class="spinner"></div><span>読み込んでいます…</span></div>
+</div>
+<div class="load-more-wrap" id="loadMoreWrap" style="display:none">
+  <button class="load-more-btn" id="loadMoreBtn">さらに読み込む</button>
+</div>
+
+<script>
+(function () {
+  const PAGE_SIZE     = 20;   // 1回に表示する件数
+  const COOLDOWN_SECS = 10;   // 更新ボタン連打防止（秒）
+
+  // ─── Theme ───────────────────────────────────────────────────────────────
+  const savedTheme = localStorage.getItem("theme") || "light";
+  document.documentElement.setAttribute("data-theme", savedTheme);
+  const themeBtn = document.getElementById("themeBtn");
+  themeBtn.textContent = savedTheme === "dark" ? "☀️" : "🌙";
+  themeBtn.addEventListener("click", () => {
+    const next = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem("theme", next);
+    themeBtn.textContent = next === "dark" ? "☀️" : "🌙";
+  });
+
+  // ─── State ───────────────────────────────────────────────────────────────
+  let allArticles      = [];   // 全件
+  let filteredArticles = [];   // フィルタ後
+  let displayedCount   = 0;    // 現在表示中の件数
+
+  // ─── データ取得（fetch + JSON） ──────────────────────────────────────────
+  async function loadData() {
+    try {
+      // cache: "no-store" でブラウザキャッシュをバイパス（更新ボタン用）
+      const res = await fetch("news_data.json", { cache: "no-store" });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return await res.json();
+    } catch (e) {
+      return null;
+    }
+  }
+
+  async function init() {
+    const data = await loadData();
+    if (!data || !data.articles || data.articles.length === 0) {
+      showEmpty();
+      return;
+    }
+    applyData(data);
+  }
+
+  function applyData(data) {
+    allArticles = data.articles || [];
+
+    if (data.updated) {
+      document.getElementById("updatedText").textContent =
+        "最終更新: " + formatDateJP(new Date(data.updated));
+    }
+
+    // 媒体フィルターを再構築
+    const srcSel = document.getElementById("sourceFilter");
+    const prevVal = srcSel.value;
+    // "すべての媒体" 以外のオプションを削除
+    while (srcSel.options.length > 1) srcSel.remove(1);
+    const sources = [...new Set(allArticles.map(a => a.source).filter(Boolean))].sort();
+    sources.forEach(s => {
+      const opt = document.createElement("option");
+      opt.value = s; opt.textContent = s;
+      srcSel.appendChild(opt);
+    });
+    // 選択値を復元（存在すれば）
+    if ([...srcSel.options].some(o => o.value === prevVal)) srcSel.value = prevVal;
+
+    applyFilters();
+  }
+
+  // ─── フィルタ ─────────────────────────────────────────────────────────────
+  function applyFilters() {
+    const query  = document.getElementById("searchInput").value.trim().toLowerCase();
+    const period = document.getElementById("periodFilter").value;
+    const source = document.getElementById("sourceFilter").value;
+
+    const now = new Date();
+    const cutoffs = {
+      today:  new Date(now.getFullYear(), now.getMonth(), now.getDate()),
+      "3days": new Date(now - 3 * 86400000),
+      week:    new Date(now - 7 * 86400000),
+      month:   new Date(now - 30 * 86400000),
+    };
+    const cutoff = cutoffs[period] || null;
+
+    filteredArticles = allArticles.filter(a => {
+      if (source !== "all" && a.source !== source) return false;
+      if (cutoff) {
+        const d = new Date(a.pub_date);
+        if (isNaN(d) || d < cutoff) return false;
+      }
+      if (query) {
+        const hay = (a.title + " " + a.description + " " + a.source).toLowerCase();
+        return query.split(/\s+/).every(w => hay.includes(w));
+      }
+      return true;
+    });
+
+    displayedCount = 0;
+    document.getElementById("articleList").innerHTML = "";
+    renderNextPage();
+    updateStats();
+  }
+
+  // ─── ページネーション ────────────────────────────────────────────────────
+  function renderNextPage() {
+    const list  = document.getElementById("articleList");
+    const wrap  = document.getElementById("loadMoreWrap");
+    const btn   = document.getElementById("loadMoreBtn");
+
+    if (filteredArticles.length === 0) {
+      const period = document.getElementById("periodFilter").value;
+      const hint   = document.getElementById("fetchHint");
+      // 「今日」「直近3日」で0件のときはヒントを表示
+      hint.style.display = (period === "today" || period === "3days") ? "flex" : "none";
+      list.innerHTML = `<div class="empty-state">
+        <h2>該当する記事が見つかりません</h2>
+        <p>「直近1週間」に切り替えるか、<code>python fetch_news.py</code> を実行して最新記事を取得してください。</p>
+      </div>`;
+      wrap.style.display = "none";
+      return;
+    }
+    document.getElementById("fetchHint").style.display = "none";
+
+    const now          = new Date();
+    const newThreshold = new Date(now - 24 * 3600000);
+    const slice        = filteredArticles.slice(displayedCount, displayedCount + PAGE_SIZE);
+
+    slice.forEach(a => {
+      const pubDate = new Date(a.pub_date);
+      const isNew   = !isNaN(pubDate) && pubDate > newThreshold;
+      const dateStr = isNaN(pubDate) ? "" : formatDateJP(pubDate);
+
+      const card = document.createElement("div");
+      card.className = "card";
+      card.innerHTML = `
+        <div class="card-title">
+          <a href="${escHtml(a.link)}" target="_blank" rel="noopener noreferrer">
+            ${escHtml(a.title)}
+          </a>
+        </div>
+        ${a.description ? `<div class="card-desc">${escHtml(a.description)}</div>` : ""}
+        <div class="card-footer">
+          ${a.source ? `<span class="source-tag">${escHtml(a.source)}</span>` : ""}
+          ${dateStr   ? `<span class="date-text">${dateStr}</span>` : ""}
+          ${isNew     ? `<span class="new-badge">NEW</span>` : ""}
+        </div>`;
+      list.appendChild(card);
+    });
+
+    displayedCount += slice.length;
+    const remaining = filteredArticles.length - displayedCount;
+
+    if (remaining > 0) {
+      btn.textContent = `さらに ${Math.min(remaining, PAGE_SIZE)} 件読み込む（残り ${remaining} 件）`;
+      wrap.style.display = "block";
+    } else {
+      wrap.style.display = "none";
+    }
+  }
+
+  function updateStats() {
+    document.getElementById("statsText").textContent =
+      `表示 ${Math.min(displayedCount, filteredArticles.length)} / ${filteredArticles.length} 件（全 ${allArticles.length} 件）`;
+  }
+
+  document.getElementById("loadMoreBtn").addEventListener("click", () => {
+    renderNextPage();
+    updateStats();
+  });
+
+  // ─── 更新ボタン（クールダウン付き） ─────────────────────────────────────
+  const refreshBtn = document.getElementById("refreshBtn");
+  let cdTimer      = null;
+
+  function startCooldown() {
+    let remaining = COOLDOWN_SECS;
+    refreshBtn.disabled = true;
+
+    // クールダウンバーを追加
+    let bar = refreshBtn.querySelector(".cd-bar");
+    if (!bar) {
+      bar = document.createElement("span");
+      bar.className = "cd-bar";
+      refreshBtn.appendChild(bar);
+    }
+    bar.style.width = "100%";
+
+    cdTimer = setInterval(() => {
+      remaining--;
+      bar.style.width = `${(remaining / COOLDOWN_SECS) * 100}%`;
+      if (remaining <= 0) {
+        clearInterval(cdTimer);
+        cdTimer = null;
+        refreshBtn.disabled = false;
+        refreshBtn.innerHTML = "↻ 更新";
+      } else {
+        refreshBtn.innerHTML =
+          `<span class="cd-bar" style="width:${(remaining / COOLDOWN_SECS) * 100}%"></span>` +
+          `↻ 更新 (${remaining}秒)`;
+      }
+    }, 1000);
+  }
+
+  refreshBtn.addEventListener("click", async () => {
+    if (refreshBtn.disabled) return;
+
+    // ローディング表示
+    refreshBtn.innerHTML = `<span class="btn-spinner"></span>読込中`;
+    refreshBtn.disabled = true;
+
+    const data = await loadData();
+    if (data && data.articles) {
+      applyData(data);
+    }
+
+    startCooldown();
+  });
+
+  // ─── 記事リンク ───────────────────────────────────────────────────────────
+  // 実ブラウザ（GitHub Pages等）では target="_blank" で直接遷移
+
+  // ─── イベント ─────────────────────────────────────────────────────────────
+  document.getElementById("searchInput").addEventListener("input", applyFilters);
+  document.getElementById("periodFilter").addEventListener("change", applyFilters);
+  document.getElementById("sourceFilter").addEventListener("change", applyFilters);
+
+  // ─── ユーティリティ ───────────────────────────────────────────────────────
+  function showEmpty() {
+    document.getElementById("articleList").innerHTML = `
+      <div class="empty-state">
+        <h2>📰 ニュースデータがまだありません</h2>
+        <p>
+          以下のコマンドを実行してニュースを取得してください：<br><br>
+          <code>python fetch_news.py</code><br><br>
+          または <code>run_daily.bat</code> をダブルクリックしてください。<br>
+          取得後、このページを再読み込みすると記事が表示されます。
+        </p>
+      </div>`;
+    document.getElementById("statsText").textContent = "データなし";
+  }
+
+  function formatDateJP(d) {
+    const y  = d.getFullYear();
+    const mo = String(d.getMonth() + 1).padStart(2, "0");
+    const dy = String(d.getDate()).padStart(2, "0");
+    const h  = String(d.getHours()).padStart(2, "0");
+    const m  = String(d.getMinutes()).padStart(2, "0");
+    return `${y}/${mo}/${dy} ${h}:${m}`;
+  }
+
+  function escHtml(str) {
+    return String(str)
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  }
+
+  // ─── 起動 ─────────────────────────────────────────────────────────────────
+  init();
+})();
+</script>
+</body>
+</html>
