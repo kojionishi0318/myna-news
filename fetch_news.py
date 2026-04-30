@@ -23,6 +23,18 @@ except ImportError:
     import urllib.request
     _USE_REQUESTS = False
 
+try:
+    from bs4 import BeautifulSoup
+    _USE_BS4 = True
+except ImportError:
+    _USE_BS4 = False
+
+try:
+    import anthropic as _anthropic_module
+    _USE_ANTHROPIC = True
+except ImportError:
+    _USE_ANTHROPIC = False
+
 # ─── 設定 ────────────────────────────────────────────────────────────────────
 SEARCH_QUERY    = "マイナ保険証"
 
@@ -316,6 +328,126 @@ def _fetch_one_snippet(args):
     except Exception:
         pass
     return ""
+
+
+# ── AI要約（Claude Haiku） ────────────────────────────────────────────────────
+AI_SUMMARIZE_WORKERS = 5   # 並列数
+AI_FETCH_TIMEOUT     = 10  # 記事取得タイムアウト（秒）
+AI_MAX_ARTICLE_CHARS = 3000  # AIに渡す記事本文の最大文字数
+
+
+def _extract_article_text(html: str) -> str:
+    """BeautifulSoupで記事本文を抽出する"""
+    if not _USE_BS4:
+        return ""
+    soup = BeautifulSoup(html, "html.parser")
+    # 不要タグ除去
+    for tag in soup(["script", "style", "nav", "header", "footer",
+                     "aside", "advertisement", "noscript", "iframe"]):
+        tag.decompose()
+    # article/main タグを優先、なければ body
+    for selector in ["article", "main", "[role='main']", ".article-body",
+                     ".entry-content", ".post-content", "body"]:
+        el = soup.select_one(selector)
+        if el:
+            text = re.sub(r"\s+", " ", el.get_text(" ", strip=True))
+            if len(text) > 200:
+                return text[:AI_MAX_ARTICLE_CHARS]
+    return ""
+
+
+def _ai_summarize_one(args) -> tuple:
+    """1件の記事をAIで要約して (index, summary) を返す"""
+    idx, article, session, ai_client = args
+    url = article.get("link", "")
+
+    # Google News URL はスキップ（リダイレクト不可）
+    if "news.google.com" in url or not url.startswith("http"):
+        return idx, ""
+
+    # 記事HTML取得
+    try:
+        resp = session.get(
+            url,
+            timeout=AI_FETCH_TIMEOUT,
+            headers={"User-Agent": UA,
+                     "Accept-Language": "ja-JP,ja;q=0.9"},
+            allow_redirects=True,
+        )
+        resp.raise_for_status()
+        article_text = _extract_article_text(resp.text)
+    except Exception:
+        return idx, ""
+
+    if not article_text or len(article_text) < 100:
+        return idx, ""
+
+    # Claude Haiku で要約
+    try:
+        message = ai_client.messages.create(
+            model="claude-haiku-4-5",
+            max_tokens=200,
+            messages=[{
+                "role": "user",
+                "content": (
+                    "以下のニュース記事を日本語で140文字以内で要約してください。\n"
+                    "マイナ保険証に関する重要なポイントを簡潔にまとめてください。\n"
+                    "要約文だけを出力し、説明や前置きは不要です。\n\n"
+                    f"【記事本文】\n{article_text}"
+                ),
+            }],
+        )
+        summary = message.content[0].text.strip()
+        return idx, _trim_desc(summary)
+    except Exception:
+        return idx, ""
+
+
+def summarize_with_ai(articles: list, session) -> list:
+    """
+    説明文がない記事をClaude Haikuで要約する。
+    ANTHROPIC_API_KEY 環境変数が必要。Google News URLはスキップ。
+    """
+    if not _USE_ANTHROPIC:
+        print("  [AI要約] anthropicパッケージ未インストール → スキップ")
+        return articles
+
+    api_key = os.environ.get("ANTHROPIC_API_KEY", "")
+    if not api_key:
+        print("  [AI要約] ANTHROPIC_API_KEY 未設定 → スキップ")
+        return articles
+
+    ai_client = _anthropic_module.Anthropic(api_key=api_key)
+
+    targets = [
+        (i, a) for i, a in enumerate(articles)
+        if not (a.get("description") or "").strip()
+        and "news.google.com" not in (a.get("link") or "")
+        and (a.get("link") or "").startswith("http")
+    ]
+
+    if not targets:
+        print("  [AI要約] 対象記事なし")
+        return articles
+
+    print(f"  [AI要約] {len(targets)} 件を Claude Haiku で要約中...")
+    t0 = time.perf_counter()
+    filled = 0
+
+    with ThreadPoolExecutor(max_workers=AI_SUMMARIZE_WORKERS) as ex:
+        futures = {
+            ex.submit(_ai_summarize_one, (i, a, session, ai_client)): i
+            for i, a in targets
+        }
+        for future in as_completed(futures):
+            idx, summary = future.result()
+            if summary:
+                articles[idx]["description"] = summary
+                filled += 1
+
+    elapsed = time.perf_counter() - t0
+    print(f"  [AI要約] {elapsed:.1f}s  {filled}/{len(targets)} 件完了")
+    return articles
 
 
 def fetch_bing_snippets_for_empty(articles: list, session) -> list:
@@ -718,7 +850,11 @@ def main():
     if session:
         all_articles = resolve_urls(all_articles, session, label="新規URL解決")
 
-    # 説明文なし記事にBingスニペットで補完
+    # 説明文なし記事をAIで要約（ANTHROPIC_API_KEY があれば優先）
+    if session:
+        all_articles = summarize_with_ai(all_articles, session)
+
+    # AIで取れなかった分をBingスニペットで補完
     if session:
         all_articles = fetch_bing_snippets_for_empty(all_articles, session)
 

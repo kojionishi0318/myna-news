@@ -28,6 +28,8 @@ jobs:
 
       - name: ニュースを取得
         run: python fetch_news.py --force
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: news_data.json をコミット & プッシュ
         uses: stefanzweifel/git-auto-commit-action@v5
