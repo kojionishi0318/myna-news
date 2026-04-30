@@ -972,8 +972,19 @@
     lines.push(`🔗 ${link}`);
     const desc = (description || "").trim();
     if (desc) {
+      // 文の区切り（。！？）を優先して150文字以内に収める
+      const MAX = 150;
+      let truncated = desc;
+      if (desc.length > MAX) {
+        // MAX文字以内で最後の文末句読点を探す
+        const cut = desc.slice(0, MAX);
+        const lastPunct = Math.max(cut.lastIndexOf("。"), cut.lastIndexOf("！"), cut.lastIndexOf("？"));
+        truncated = lastPunct > MAX * 0.5
+          ? desc.slice(0, lastPunct + 1)   // 句読点で綺麗に切る
+          : cut.trimEnd() + "…";           // 句読点がなければ…で締める
+      }
       lines.push("");
-      lines.push(`📝 要約：${desc}`);
+      lines.push(`📝 要約：${truncated}`);
     }
     const text = lines.join("\n");
 
