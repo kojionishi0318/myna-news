@@ -201,6 +201,22 @@ def resolve_urls(articles: list[dict], session: "requests.Session", label: str =
 
 
 # ── Bing News RSS 取得・エンリッチ ──────────────────────────────────────────
+DESC_MAX = 150  # 説明文の最大文字数
+
+
+def _trim_desc(text: str, max_len: int = DESC_MAX) -> str:
+    """説明文を max_len 文字以内に収める。文末句読点で自然に切り上げる。"""
+    text = text.strip()
+    if len(text) <= max_len:
+        return text
+    cut = text[:max_len]
+    # 句読点（。！？）が max_len の半分以降にあれば、そこで切る
+    last_punct = max(cut.rfind("。"), cut.rfind("！"), cut.rfind("？"))
+    if last_punct >= max_len // 2:
+        return text[:last_punct + 1]
+    return cut.rstrip() + "…"
+
+
 def _norm_title(title: str) -> str:
     """タイトル正規化（マッチング用）: 先頭30文字・小文字・空白/句読点除去"""
     # " - 媒体名" " | 媒体名" を末尾から除去
@@ -243,7 +259,7 @@ def fetch_bing_descriptions(session: "requests.Session") -> dict:
             if clean_desc and clean_desc[:20] not in title[:20]:
                 key = _norm_title(title)
                 if key:
-                    desc_map[key] = clean_desc[:400]
+                    desc_map[key] = _trim_desc(clean_desc)
                     count += 1
 
         elapsed = time.perf_counter() - t0
@@ -296,7 +312,7 @@ def _fetch_one_snippet(args):
             r'<div[^>]*class="[^"]*snippet[^"]*"[^>]*>([^<]{30,})</div>', r.text
         )
         if snippets:
-            return snippets[0].strip()
+            return _trim_desc(snippets[0].strip())
     except Exception:
         pass
     return ""
@@ -397,7 +413,7 @@ def parse_rss(content: bytes) -> list[dict]:
             "link":        g("link"),
             "pub_date":    iso_date,
             "source":      src_el.text.strip() if src_el is not None and src_el.text else "",
-            "description": cleaned_desc,
+            "description": _trim_desc(cleaned_desc) if cleaned_desc else "",
         })
 
     print(f"  [RSS解析] {time.perf_counter()-t0:.3f} s  {len(articles)} 件")
@@ -490,7 +506,7 @@ def fetch_direct_rss(session: "requests.Session") -> list:
                     "link":        link,
                     "pub_date":    iso_date,
                     "source":      source_name,
-                    "description": cleaned_desc,
+                    "description": _trim_desc(cleaned_desc) if cleaned_desc else "",
                 })
                 matched += 1
 
