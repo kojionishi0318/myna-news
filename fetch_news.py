@@ -82,6 +82,7 @@ BING_SNIPPET_DELAY = 0.5  # Bingスニペット取得間隔（秒）
 BING_SNIPPET_WORKERS = 5  # 並列ワーカー数（レート制限対策）
 FRESHNESS_SECS   = 3600 # 1時間以内なら再取得をスキップ
 MAX_ARTICLES     = 500  # 保持する最大記事数
+LATEST_COUNT     = 50   # news_latest.json に保存する最新記事数（高速初期ロード用）
 UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -738,6 +739,18 @@ def save_news(new_articles: list[dict], json_path: str,
     size_kb = os.path.getsize(json_path) / 1024
     print(f"  [保存]  {time.perf_counter()-t0:.3f} s  "
           f"新規 {len(fresh)} 件追加  合計 {len(all_articles)} 件  ({size_kb:.1f} KB)")
+
+    # 最新 LATEST_COUNT 件を news_latest.json として保存（初期ロード高速化）
+    latest_path = json_path.replace("news_data.json", "news_latest.json")
+    latest_data = {
+        "updated": data["updated"],
+        "articles": all_articles[:LATEST_COUNT],
+        "total": len(all_articles),
+    }
+    with open(latest_path, "w", encoding="utf-8") as f:
+        json.dump(latest_data, f, ensure_ascii=False, indent=2)
+    latest_kb = os.path.getsize(latest_path) / 1024
+    print(f"  [最新保存] news_latest.json: {len(latest_data['articles'])} 件 ({latest_kb:.1f} KB)")
 
 
 # ── 既存データの URL を一括解決 ───────────────────────────────────────────────

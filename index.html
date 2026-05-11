@@ -9,6 +9,18 @@
   <meta http-equiv="X-Frame-Options" content="DENY">
   <link rel="icon" type="image/png" href="myna-chan.png">
   <link rel="apple-touch-icon" href="myna-chan.png">
+  <!-- OGP / Twitter Card -->
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://myna-news-jp.github.io/">
+  <meta property="og:title"       content="マイナ保険証 ニュースキュレーション">
+  <meta property="og:description" content="マイナ保険証・マイナンバーカードに関する最新ニュースを毎日自動収集。NHK・Yahoo・厚労省・デジタル庁など全媒体横断でお届けします。">
+  <meta property="og:image"       content="https://myna-news-jp.github.io/myna-chan.png">
+  <meta property="og:locale"      content="ja_JP">
+  <meta name="twitter:card"       content="summary">
+  <meta name="twitter:title"      content="マイナ保険証 ニュースキュレーション">
+  <meta name="twitter:description" content="マイナ保険証に関する最新ニュースを毎日自動収集してお届けします。">
+  <meta name="twitter:image"      content="https://myna-news-jp.github.io/myna-chan.png">
+  <meta name="description"        content="マイナ保険証・マイナンバーカードに関する最新ニュースを毎日自動収集。全媒体横断でお届けします。">
   <style>
     :root {
       --bg: #f0f4f8;
@@ -568,6 +580,50 @@
     }
     [data-theme="dark"] .toast { background: #e2e8f0; color: #1a202c; }
 
+    /* ─── 既読記事 ──────────────────────────────── */
+    .card--read { opacity: 0.52; }
+    .card--read:hover { opacity: 0.75; }
+    .card--read .card-title a { color: var(--text-muted); }
+    .read-clear-btn {
+      font-size: 11px;
+      color: var(--text-muted);
+      background: none;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 4px 10px;
+      cursor: pointer;
+      font-family: inherit;
+      transition: background .15s, color .15s;
+    }
+    .read-clear-btn:hover { background: var(--surface2); color: var(--text); }
+
+    /* ─── トップへ戻るボタン ─────────────────────── */
+    .back-top {
+      position: fixed;
+      bottom: 80px;
+      right: 20px;
+      width: 44px;
+      height: 44px;
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      border-radius: 50%;
+      font-size: 20px;
+      line-height: 1;
+      cursor: pointer;
+      box-shadow: 0 3px 12px rgba(0,0,0,.25);
+      opacity: 0;
+      transform: translateY(10px);
+      transition: opacity .25s, transform .25s, background .15s;
+      z-index: 200;
+      pointer-events: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .back-top.show { opacity: 1; transform: translateY(0); pointer-events: auto; }
+    .back-top:hover { background: var(--accent-hover); }
+
     @media (max-width: 700px) {
       .controls { flex-direction: column; align-items: stretch; }
       .refresh-btn { width: 100%; }
@@ -577,6 +633,7 @@
       .hero-title { font-size: 22px; }
       .hero-mascot { padding: 10px; }
       .hero-mascot img { width: 120px; height: 120px; }
+      .back-top { bottom: 20px; right: 12px; width: 38px; height: 38px; font-size: 16px; }
     }
   </style>
 </head>
@@ -644,6 +701,7 @@
 
 <div class="stats-bar">
   <span class="stats-text" id="statsText">読み込み中…</span>
+  <button class="read-clear-btn" id="readClearBtn" style="display:none" title="既読をすべてリセット">既読クリア</button>
   <span class="updated-text" id="updatedText"></span>
 </div>
 
@@ -657,6 +715,9 @@
 
 <!-- ページネーション（下） -->
 <div class="pagination-wrap bottom" id="paginationBottom" style="display:none"></div>
+
+<!-- トップへ戻るボタン -->
+<button class="back-top" id="backTopBtn" title="トップへ戻る" aria-label="トップへ戻る">↑</button>
 
 <script>
 (function () {
@@ -681,10 +742,35 @@
   let currentPage      = 1;    // 現在のページ（1始まり）
   let isFirstRender    = true; // 初回ロード判定（スクロールしない）
 
+  // ─── 既読管理 ─────────────────────────────────────────────────────────────
+  const READ_KEY = "myna_read_urls";
+  let readSet = new Set();
+
+  function loadReadSet() {
+    try { readSet = new Set(JSON.parse(localStorage.getItem(READ_KEY) || "[]")); }
+    catch { readSet = new Set(); }
+    document.getElementById("readClearBtn").style.display =
+      readSet.size > 0 ? "inline-block" : "none";
+  }
+
+  function markRead(url) {
+    readSet.add(url);
+    const arr = [...readSet].slice(-1000); // 最大1000件保持
+    try { localStorage.setItem(READ_KEY, JSON.stringify(arr)); } catch {}
+    document.getElementById("readClearBtn").style.display = "inline-block";
+  }
+
+  document.getElementById("readClearBtn").addEventListener("click", () => {
+    readSet.clear();
+    try { localStorage.removeItem(READ_KEY); } catch {}
+    document.getElementById("readClearBtn").style.display = "none";
+    renderCurrentPage();
+  });
+
   // ─── データ取得 ──────────────────────────────────────────────────────────
-  async function loadData() {
+  async function loadData(path) {
     try {
-      const res = await fetch("news_data.json", { cache: "no-store" });
+      const res = await fetch(path, { cache: "no-store" });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       return await res.json();
     } catch (e) {
@@ -693,12 +779,30 @@
   }
 
   async function init() {
-    const data = await loadData();
-    if (!data || !data.articles || data.articles.length === 0) {
-      showEmpty();
+    loadReadSet();
+
+    // Step 1: 最新50件（news_latest.json）を先に表示して体感速度を上げる
+    const latest = await loadData("news_latest.json");
+    if (latest && latest.articles && latest.articles.length > 0) {
+      applyData(latest);
+    } else {
+      // fallback: 直接フル読込
+      const data = await loadData("news_data.json");
+      if (!data || !data.articles || data.articles.length === 0) {
+        showEmpty();
+        return;
+      }
+      applyData(data);
       return;
     }
-    applyData(data);
+
+    // Step 2: バックグラウンドでフルデータを読み込んで差し替え
+    setTimeout(async () => {
+      const data = await loadData("news_data.json");
+      if (data && data.articles && data.articles.length > (latest.articles.length)) {
+        applyData(data);
+      }
+    }, 0);
   }
 
   function applyData(data) {
@@ -810,9 +914,10 @@
       const isNew    = !isNaN(pubDate) && pubDate > newThreshold;
       const dateStr  = isNaN(pubDate) ? "" : formatDateJP(pubDate);
       const uid      = `acc-${start + groupIdx}`;
+      const isRead   = readSet.has(main.link);
 
       const card = document.createElement("div");
-      card.className = "card";
+      card.className = "card" + (isRead ? " card--read" : "");
 
       const articleHref = "redirect.html?url=" + encodeURIComponent(main.link);
 
@@ -860,6 +965,23 @@
           <button class="share-btn" title="記事URLと要約をコピー">📤 シェア</button>
         </div>
         ${dupHtml}`;
+
+      // タイトルリンクをクリックしたら既読マーク
+      const titleLink = card.querySelector(".card-title a");
+      if (titleLink) {
+        titleLink.addEventListener("click", () => {
+          markRead(main.link);
+          card.classList.add("card--read");
+        });
+      }
+
+      // アコーディオン内リンクも既読マーク
+      card.querySelectorAll(".accordion-item a").forEach(a => {
+        a.addEventListener("click", () => {
+          const href = new URLSearchParams(new URL(a.href).search).get("url") || a.href;
+          markRead(href);
+        });
+      });
 
       // シェアボタンにイベントを設定（クロージャでデータをキャプチャ）
       const shareBtn = card.querySelector(".share-btn");
@@ -1136,6 +1258,15 @@
       .replace(/&/g, "&amp;").replace(/</g, "&lt;")
       .replace(/>/g, "&gt;").replace(/"/g, "&quot;");
   }
+
+  // ─── トップへ戻るボタン ───────────────────────────────────────────────────
+  const backTopBtn = document.getElementById("backTopBtn");
+  window.addEventListener("scroll", () => {
+    backTopBtn.classList.toggle("show", window.scrollY > 300);
+  }, { passive: true });
+  backTopBtn.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
 
   // ─── 起動 ─────────────────────────────────────────────────────────────────
   init();
