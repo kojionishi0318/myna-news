@@ -708,9 +708,43 @@
     .back-top:hover { background: var(--accent-hover); }
 
     /* ─── ビュー切替ナビ ─────────────────────────────────────── */
+
+    /* タブ固有カラー変数（ライトモード） */
+    .view-btn[data-view="news"]  {
+      --tab-color: #2b6cb0;
+      --tab-bg:    #ebf4ff;
+      --tab-border:#bee3f8;
+    }
+    .view-btn[data-view="diet"]  {
+      --tab-color: #6b46c1;
+      --tab-bg:    #f3ecff;
+      --tab-border:#d6bcfa;
+    }
+    .view-btn[data-view="stats"] {
+      --tab-color: #2c7a7b;
+      --tab-bg:    #e6fffa;
+      --tab-border:#81e6d9;
+    }
+    /* ダークモード上書き */
+    [data-theme="dark"] .view-btn[data-view="news"]  {
+      --tab-color: #63b3ed;
+      --tab-bg:    rgba(99,179,237,.12);
+      --tab-border:rgba(99,179,237,.35);
+    }
+    [data-theme="dark"] .view-btn[data-view="diet"]  {
+      --tab-color: #b794f4;
+      --tab-bg:    rgba(183,148,244,.12);
+      --tab-border:rgba(183,148,244,.35);
+    }
+    [data-theme="dark"] .view-btn[data-view="stats"] {
+      --tab-color: #4fd1c5;
+      --tab-bg:    rgba(79,209,197,.12);
+      --tab-border:rgba(79,209,197,.35);
+    }
+
     .view-nav {
       background: var(--surface);
-      border-bottom: 2px solid var(--border);
+      border-bottom: 1px solid var(--border);
       box-shadow: var(--shadow);
       position: sticky;
       top: 60px;
@@ -719,14 +753,16 @@
     .view-nav-inner {
       max-width: 960px;
       margin: 0 auto;
-      padding: 0 16px;
+      padding: 0;
       display: flex;
     }
     .view-btn {
-      padding: 14px 20px;
+      flex: 1;
+      padding: 14px 8px;
       border: none;
       border-bottom: 3px solid transparent;
-      margin-bottom: -2px;
+      border-right: 1px solid var(--border);
+      margin-bottom: -1px;
       background: none;
       color: var(--text-muted);
       font-size: 14px;
@@ -735,15 +771,23 @@
       cursor: pointer;
       display: inline-flex;
       align-items: center;
+      justify-content: center;
       gap: 6px;
-      transition: color .15s, border-color .15s;
+      transition: color .15s, border-color .15s, background .15s;
       white-space: nowrap;
     }
-    .view-btn:hover { color: var(--text); }
-    .view-btn.active { color: var(--accent); border-bottom-color: var(--accent); }
+    .view-btn:last-child { border-right: none; }
+    .view-btn:hover {
+      color: var(--tab-color);
+      background: var(--tab-bg);
+    }
+    .view-btn.active {
+      color: var(--tab-color);
+      background: var(--tab-bg);
+      border-bottom-color: var(--tab-color);
+    }
     .view-badge {
       font-size: 10px;
-      font-weight: 700;
       background: var(--surface2);
       color: var(--text-muted);
       padding: 1px 7px;
@@ -751,9 +795,17 @@
       font-weight: 500;
     }
     .view-btn.active .view-badge {
-      background: var(--accent-light);
-      color: var(--accent);
+      background: var(--tab-border);
+      color: var(--tab-color);
     }
+
+    /* ─── ビューごとの背景色 ─────────────────────────────────── */
+    body[data-view="news"]  { background: #ebf4ff; }
+    body[data-view="diet"]  { background: #f3ecff; }
+    body[data-view="stats"] { background: #e6fffa; }
+    [data-theme="dark"] body[data-view="news"]  { background: #0b1d33; }
+    [data-theme="dark"] body[data-view="diet"]  { background: #150d2e; }
+    [data-theme="dark"] body[data-view="stats"] { background: #071d1c; }
 
     /* ─── 国会質疑：コントロール ────────────────────────────── */
     .diet-controls {
@@ -1559,6 +1611,7 @@
   }
 
   async function init() {
+    document.body.dataset.view = "news";  // 初期背景色
     loadReadSet();
 
     // Step 1: 最新50件（news_latest.json）を先に表示して体感速度を上げる
@@ -2089,6 +2142,7 @@
 
   function switchView(view) {
     activeView = view;
+    document.body.dataset.view = view;
     document.querySelectorAll(".view-btn").forEach(btn => {
       btn.classList.toggle("active", btn.dataset.view === view);
     });
