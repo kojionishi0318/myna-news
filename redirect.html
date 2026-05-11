@@ -28,11 +28,13 @@
   </div>
 </div>
 <script>
-  const url = new URLSearchParams(location.search).get('url') || '/';
+  const raw = new URLSearchParams(location.search).get('url') || '';
+  // http:// または https:// のみ許可（javascript: / data: / file: などの悪用を防ぐ）
+  const url = /^https?:\/\//i.test(raw) ? raw : '/';
   document.getElementById('btn').href = url;
-  document.getElementById('urlText').textContent = url;
-  // 自動リダイレクト（実ブラウザでは即時遷移）
-  location.replace(url);
+  document.getElementById('urlText').textContent = url || '（無効なURL）';
+  // 安全なURLのみ自動リダイレクト
+  if (url !== '/') location.replace(url);
   function copyUrl(){
     navigator.clipboard.writeText(url).then(()=>{
       const b = document.querySelector('.copy-btn');
