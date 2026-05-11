@@ -1,8 +1,8 @@
 {
-  "updated": "2026-05-12T18:50:59+09:00",
-  "total_exchanges": 226,
+  "updated": "2026-05-11T20:49:47+09:00",
+  "total_exchanges": 225,
   "total_questions": 201,
-  "total_answers": 111,
+  "total_answers": 110,
   "exchanges": [
     {
       "issueID": "122105367X00320260416",
@@ -203,66 +203,6 @@
           "excerpt": "○松本（尚）国務大臣 おはようございます。デジタル大臣、デジタル行財政改革担当大臣として、所信を申し述べます。 マイナンバーカードについては、昨年十二月に、保有枚数が一億枚を突破しました。引き続き、カードを保有するメリットを多くの人に実感していただけるよう、行政を始め民間も含めた利用シーンの拡大、スマートフォンへのマイナンバーカード機能の搭載や利用の拡大、",
           "speechURL": "https://kokkai.ndl.go.jp/txt/122105367X00220260414/5",
           "speechOrder": 5
-        }
-      ],
-      "ai_title": ""
-    },
-    {
-      "issueID": "122104260X00220260410",
-      "session": 221,
-      "nameOfHouse": "衆議院",
-      "nameOfMeeting": "厚生労働委員会",
-      "issue": "第2号",
-      "imageKind": "会議録",
-      "date": "2026-04-10",
-      "question": {
-        "speechID": "122104260X00220260410_234",
-        "issueID": "122104260X00220260410",
-        "session": 221,
-        "nameOfHouse": "衆議院",
-        "nameOfMeeting": "厚生労働委員会",
-        "issue": "第2号",
-        "imageKind": "会議録",
-        "date": "2026-04-10",
-        "speaker": "古川あおい",
-        "speakerGroup": "チームみらい",
-        "speakerPosition": "",
-        "speakerRole": "",
-        "is_minister": false,
-        "excerpt": "○古川（あ）委員 ありがとうございます。 今、二つ考えて分けるというところで、一つ目は、最初、制度を改正する際においては、ある程度ターゲットを絞って検討していくというところだったと思います。 その視点については私も理解するところではありますが、最初に、例えば、",
-        "speechURL": "https://kokkai.ndl.go.jp/txt/122104260X00220260410/234",
-        "speechOrder": 234
-      },
-      "answers": [],
-      "ai_title": ""
-    },
-    {
-      "issueID": "122104260X00220260410",
-      "session": 221,
-      "nameOfHouse": "衆議院",
-      "nameOfMeeting": "厚生労働委員会",
-      "issue": "第2号",
-      "imageKind": "会議録",
-      "date": "2026-04-10",
-      "question": null,
-      "answers": [
-        {
-          "speechID": "122104260X00220260410_231",
-          "issueID": "122104260X00220260410",
-          "session": 221,
-          "nameOfHouse": "衆議院",
-          "nameOfMeeting": "厚生労働委員会",
-          "issue": "第2号",
-          "imageKind": "会議録",
-          "date": "2026-04-10",
-          "speaker": "上野賢一郎",
-          "speakerGroup": "自由民主党・無所属の会",
-          "speakerPosition": "厚生労働大臣",
-          "speakerRole": "",
-          "is_minister": true,
-          "excerpt": "○上野国務大臣 そうしたコストを定量化をしているということではありませんけれども、社会保障制度につきましては、様々な方に配慮したきめ細かな対応をする必要があろうかというふうに考えております。また同時に、業務の効率化を進め、利用される方にとって利用しやすい制度とすることが、これも非常に重要だというふうに認識をしています。 例えば、高額療養費制度におきますと、",
-          "speechURL": "https://kokkai.ndl.go.jp/txt/122104260X00220260410/231",
-          "speechOrder": 231
         }
       ],
       "ai_title": ""
@@ -4000,6 +3940,35 @@
         "excerpt": "○中川（康）委員 ありがとうございました。目標に向かって様々な手だてをしていただいている、さらには地域への定住率も約七〇％と高い、起業なんかも四六％と非常に高いということでありますので、引き続きお取組をお進めいただきたいと思います。 次に、三つ目に救急救命体制の確保についてお伺いをします。 まず、マイナ救急の全国展開についてお伺いします。 マイナ救急は、",
         "speechURL": "https://kokkai.ndl.go.jp/txt/121704601X01520250522/134",
         "speechOrder": 134
+      },
+      "answers": [],
+      "ai_title": ""
+    },
+    {
+      "issueID": "121714260X01320250520",
+      "session": 217,
+      "nameOfHouse": "参議院",
+      "nameOfMeeting": "厚生労働委員会",
+      "issue": "第13号",
+      "imageKind": "会議録",
+      "date": "2025-05-20",
+      "question": {
+        "speechID": "121714260X01320250520_046",
+        "issueID": "121714260X01320250520",
+        "session": 217,
+        "nameOfHouse": "参議院",
+        "nameOfMeeting": "厚生労働委員会",
+        "issue": "第13号",
+        "imageKind": "会議録",
+        "date": "2025-05-20",
+        "speaker": "新妻秀規",
+        "speakerGroup": "公明党",
+        "speakerPosition": "",
+        "speakerRole": "",
+        "is_minister": false,
+        "excerpt": "○新妻秀規君 利便性の向上という答弁いただきましたけれども、やはり複数の医療機関を受診される方って非常に多いと思うんです。ちなみに、この方は障害がある方なんですけれども、その場合だと更に複数の機関を受けられている方が多いという統計もございます。そうした観点でも、制度上の課題、システム上の課題は十分承知をしましたけれども、是非とも、",
+        "speechURL": "https://kokkai.ndl.go.jp/txt/121714260X01320250520/46",
+        "speechOrder": 46
       },
       "answers": [],
       "ai_title": ""
