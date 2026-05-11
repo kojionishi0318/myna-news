@@ -310,10 +310,30 @@
       box-shadow: var(--shadow);
       padding: 16px 18px;
       transition: box-shadow .15s, transform .1s;
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
     }
     .card:hover {
       box-shadow: var(--shadow-hover);
       transform: translateY(-1px);
+    }
+    /* サムネイル（右側） */
+    .card-thumb {
+      width: 110px;
+      height: 74px;
+      object-fit: cover;
+      border-radius: 6px;
+      flex-shrink: 0;
+      align-self: flex-start;
+      background: var(--surface2);
+      order: 2;
+    }
+    /* テキストコンテンツ（左側・flex:1） */
+    .card-body {
+      flex: 1;
+      min-width: 0;
+      order: 1;
     }
     .card-title {
       font-size: 15px;
@@ -634,6 +654,7 @@
       .hero-mascot { padding: 10px; }
       .hero-mascot img { width: 120px; height: 120px; }
       .back-top { bottom: 20px; right: 12px; width: 38px; height: 38px; font-size: 16px; }
+      .card-thumb { width: 80px; height: 54px; }
     }
   </style>
 </head>
@@ -946,25 +967,32 @@
       }
 
       card.innerHTML = `
-        <div class="card-title">
-          <a href="${escHtml(articleHref)}" target="_blank" rel="noopener noreferrer">
-            ${escHtml(main.title)}
-          </a>
+        <div class="card-body">
+          <div class="card-title">
+            <a href="${escHtml(articleHref)}" target="_blank" rel="noopener noreferrer">
+              ${escHtml(main.title)}
+            </a>
+          </div>
+          ${main.description ? `<div class="card-desc">${escHtml(main.description)}</div>` : ""}
+          <div class="card-footer">
+            ${main.source ? `<span class="source-tag">${escHtml(main.source)}</span>` : ""}
+            ${dateStr      ? `<span class="date-text">${dateStr}</span>` : ""}
+            ${isNew        ? `<span class="new-badge">NEW</span>` : ""}
+            ${dups.length > 0
+              ? `<button class="dup-badge" onclick="toggleAccordion('${uid}',this)" aria-expanded="false">
+                   同内容 ${dups.length + 1}件
+                   <i class="dup-arrow">▼</i>
+                 </button>`
+              : ""}
+            <button class="share-btn" title="記事URLと要約をコピー">📤 シェア</button>
+          </div>
+          ${dupHtml}
         </div>
-        ${main.description ? `<div class="card-desc">${escHtml(main.description)}</div>` : ""}
-        <div class="card-footer">
-          ${main.source ? `<span class="source-tag">${escHtml(main.source)}</span>` : ""}
-          ${dateStr      ? `<span class="date-text">${dateStr}</span>` : ""}
-          ${isNew        ? `<span class="new-badge">NEW</span>` : ""}
-          ${dups.length > 0
-            ? `<button class="dup-badge" onclick="toggleAccordion('${uid}',this)" aria-expanded="false">
-                 同内容 ${dups.length + 1}件
-                 <i class="dup-arrow">▼</i>
-               </button>`
-            : ""}
-          <button class="share-btn" title="記事URLと要約をコピー">📤 シェア</button>
-        </div>
-        ${dupHtml}`;
+        ${main.thumbnail ? `<img class="card-thumb" src="${escHtml(main.thumbnail)}" alt="" loading="lazy">` : ""}`;
+
+      // サムネイル読み込み失敗時は非表示
+      const thumbEl = card.querySelector(".card-thumb");
+      if (thumbEl) thumbEl.addEventListener("error", () => { thumbEl.style.display = "none"; });
 
       // タイトルリンクをクリックしたら既読マーク
       const titleLink = card.querySelector(".card-title a");

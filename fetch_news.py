@@ -44,6 +44,9 @@ GOOGLE_NEWS_QUERIES = [
     "マイナンバーカード 保険証",
     "健康保険証 廃止",
     "マイナカード 医療",
+    "資格確認書",           # 保険証廃止後の代替証明書
+    "オンライン資格確認",   # 医療機関のシステム
+    "マイナポータル 保険",  # マイナポータル × 健康保険
 ]
 
 def _gnews_url(q: str) -> str:
@@ -54,6 +57,8 @@ def _gnews_url(q: str) -> str:
 FILTER_KEYWORDS = [
     "マイナ保険証", "マイナンバー", "健康保険証", "マイナカード",
     "マイナ", "保険証", "医療保険", "社会保険",
+    "資格確認書", "オンライン資格確認", "マイナポータル", "オン資",
+    "被保険者証", "電子処方箋", "医療DX",
 ]
 
 DIRECT_RSS_FEEDS = [
@@ -61,10 +66,17 @@ DIRECT_RSS_FEEDS = [
     ("https://www3.nhk.or.jp/rss/news/cat0.xml",           "NHKニュース"),
     ("https://www3.nhk.or.jp/rss/news/cat4.xml",           "NHK政治"),
     ("https://news.yahoo.co.jp/rss/topics/domestic.xml",   "Yahoo!ニュース"),
-    ("https://www.mhlw.go.jp/stf/news.rdf",                 "厚生労働省"),
+    ("https://www.mhlw.go.jp/stf/news.rdf",                "厚生労働省"),
     ("https://www.digital.go.jp/rss/news.xml",             "デジタル庁"),
+    # ── 追加ソース（確認済み） ───────────────────────────────────────────────
+    ("https://www.soumu.go.jp/news.rdf",                   "総務省"),        # マイナンバー主管省
+    ("https://www.jiji.com/rss/ranking.rdf",               "時事通信"),
+    ("https://mainichi.jp/rss/etc/mainichi-flash.rss",     "毎日新聞"),
 ]
 
+OG_IMAGE_WORKERS = 10   # OGP画像取得並列ワーカー数
+OG_IMAGE_LIMIT   = 100  # 1回の実行で取得する最大記事数
+OG_IMAGE_TIMEOUT = 6    # タイムアウト（秒）
 CONNECT_TIMEOUT  = 5    # TCP接続タイムアウト（秒）
 READ_TIMEOUT     = 20   # レスポンス受信タイムアウト（秒）
 RESOLVE_TIMEOUT  = 6    # URL解決タイムアウト（秒/記事）
@@ -331,6 +343,80 @@ def _fetch_one_snippet(args):
     return ""
 
 
+# ── OGP サムネイル取得 ────────────────────────────────────────────────────────
+def _fetch_og_image_one(args) -> tuple:
+    """1記事の og:image / twitter:image URL を取得する（並列実行用）"""
+    url, session = args
+    if not url or "news.google.com" in url or not url.startswith("http"):
+        return url, ""
+    try:
+        resp = session.get(
+            url, timeout=OG_IMAGE_TIMEOUT, stream=True,
+            headers={"User-Agent": UA, "Accept-Language": "ja,ja-JP;q=0.9"},
+        )
+        # <head> 内だけ読めば十分なので先頭 64KB で打ち切る
+        content = b""
+        for chunk in resp.iter_content(4096):
+            content += chunk
+            if len(content) >= 65536:
+                break
+        resp.close()
+        html = content.decode("utf-8", errors="replace")
+        # og:image または twitter:image を正規表現で抽出
+        patterns = [
+            r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']{10,})["\']',
+            r'<meta[^>]+content=["\']([^"\']{10,})["\'][^>]+property=["\']og:image["\']',
+            r'<meta[^>]+name=["\']twitter:image(?::src)?["\'][^>]+content=["\']([^"\']{10,})["\']',
+            r'<meta[^>]+content=["\']([^"\']{10,})["\'][^>]+name=["\']twitter:image(?::src)?["\']',
+        ]
+        for pat in patterns:
+            m = re.search(pat, html, re.IGNORECASE)
+            if m:
+                img = m.group(1).strip()
+                if img.startswith("http") and not img.endswith(".svg"):
+                    return url, img
+    except Exception:
+        pass
+    return url, ""
+
+
+def fetch_og_images(articles: list, session) -> list:
+    """
+    thumbnail フィールドがない記事に OGP 画像 URL を付与する。
+    Google News URL はスキップ。上位 OG_IMAGE_LIMIT 件のみ処理。
+    """
+    targets = [
+        (i, a) for i, a in enumerate(articles)
+        if not a.get("thumbnail")
+        and "news.google.com" not in (a.get("link") or "")
+        and (a.get("link") or "").startswith("http")
+    ]
+    if not targets:
+        print("  [OG画像] 対象記事なし")
+        return articles
+
+    targets = targets[:OG_IMAGE_LIMIT]
+    print(f"  [OG画像] {len(targets)} 件のサムネイルを取得中...")
+    t0 = time.perf_counter()
+    filled = 0
+
+    with ThreadPoolExecutor(max_workers=OG_IMAGE_WORKERS) as ex:
+        future_map = {
+            ex.submit(_fetch_og_image_one, (a["link"], session)): i
+            for i, a in targets
+        }
+        for future in as_completed(future_map):
+            idx = future_map[future]
+            _, img_url = future.result()
+            if img_url:
+                articles[idx]["thumbnail"] = img_url
+                filled += 1
+
+    elapsed = time.perf_counter() - t0
+    print(f"  [OG画像] {elapsed:.1f}s  {filled}/{len(targets)} 件取得")
+    return articles
+
+
 # ── AI要約（Claude Haiku） ────────────────────────────────────────────────────
 AI_SUMMARIZE_WORKERS = 5   # 並列数
 AI_FETCH_TIMEOUT     = 10  # 記事取得タイムアウト（秒）
@@ -553,6 +639,33 @@ def parse_rss(content: bytes) -> list[dict]:
     return articles
 
 
+# ── XML パース（Shift_JIS など非UTF-8エンコーディング対応） ─────────────────
+def _parse_xml_bytes(content: bytes) -> ET.Element:
+    """
+    XML バイト列をパースする。
+    Shift_JIS など UTF-8 以外のエンコーディング宣言を持つ場合も UTF-8 に変換して対応。
+    """
+    try:
+        return ET.fromstring(content)
+    except (ET.ParseError, ValueError):
+        pass  # Shift_JIS 等のマルチバイトエンコーディングは ValueError になる
+    # エンコーディング宣言を検出して変換
+    decl = re.search(rb'encoding=["\']([^"\']+)["\']', content[:300])
+    if decl:
+        enc = decl.group(1).decode("ascii", errors="replace")
+        try:
+            text = content.decode(enc, errors="replace")
+            text = re.sub(
+                r'<\?xml[^?]*\?>',
+                '<?xml version="1.0" encoding="utf-8"?>',
+                text, count=1
+            )
+            return ET.fromstring(text.encode("utf-8"))
+        except Exception:
+            pass
+    raise ET.ParseError("XML パース失敗")
+
+
 # ── 直接 RSS フィード取得（キーワードフィルタ付き） ──────────────────────────
 def _is_relevant(title: str, desc: str) -> bool:
     """タイトルまたは説明文にキーワードが含まれるか確認"""
@@ -568,7 +681,7 @@ def fetch_direct_rss(session: "requests.Session") -> list:
         try:
             resp = session.get(feed_url, timeout=(CONNECT_TIMEOUT, READ_TIMEOUT))
             resp.raise_for_status()
-            root = ET.fromstring(resp.content)
+            root = _parse_xml_bytes(resp.content)
             # RSS 2.0 / Atom / RSS 1.0(RDF) 全対応
             ns = {"atom": "http://www.w3.org/2005/Atom",
                   "rss1": "http://purl.org/rss/1.0/",
@@ -862,6 +975,10 @@ def main():
     # URL 解決（Google News → 実記事 URL、Base64デコードのみ）
     if session:
         all_articles = resolve_urls(all_articles, session, label="新規URL解決")
+
+    # OGP サムネイル取得（新規記事のみ、差分で追加）
+    if session:
+        all_articles = fetch_og_images(all_articles, session)
 
     # 説明文なし記事をAIで要約（ANTHROPIC_API_KEY があれば優先）
     if session:
