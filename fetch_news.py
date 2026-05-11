@@ -74,6 +74,42 @@ DIRECT_RSS_FEEDS = [
     ("https://mainichi.jp/rss/etc/mainichi-flash.rss",     "毎日新聞"),
 ]
 
+# ── カテゴリ自動分類ルール（上から順に評価・最初にマッチしたカテゴリを採用） ──
+CATEGORY_RULES: list[tuple[str, list[str]]] = [
+    ("トラブル", [
+        "障害", "トラブル", "不具合", "エラー", "誤登録", "ひも付け誤り",
+        "読み取れ", "使えない", "接続できない", "漏えい", "情報漏洩",
+        "不正アクセス", "被害", "問題が発生", "システムダウン", "苦情",
+    ]),
+    ("制度変更", [
+        "廃止", "義務化", "施行", "法改正", "改定", "新制度",
+        "猶予期間", "いつから", "切り替え", "移行期間", "ルール変更",
+        "延長", "期限", "見直し", "改正法",
+    ]),
+    ("統計", [
+        "導入率", "普及率", "利用率", "保有率", "利用件数",
+        "万件", "万人", "割合", "パーセント", "%", "調査結果",
+        "アンケート", "最新統計", "件を突破",
+    ]),
+    ("政治", [
+        "国会", "衆議院", "参議院", "委員会", "大臣",
+        "内閣", "与党", "野党", "議員", "法案", "政府方針",
+        "国会質疑", "答弁",
+    ]),
+    ("使い方", [
+        "使い方", "使用方法", "登録方法", "申請方法", "手順",
+        "更新方法", "設定方法", "確認方法", "手続き", "やり方",
+    ]),
+]
+
+def _auto_categorize(title: str, desc: str = "") -> str:
+    """タイトル・説明文のキーワードからカテゴリを自動判定する"""
+    text = title + " " + (desc or "")
+    for cat, keywords in CATEGORY_RULES:
+        if any(kw in text for kw in keywords):
+            return cat
+    return "一般"
+
 OG_IMAGE_WORKERS = 10   # OGP画像取得並列ワーカー数
 OG_IMAGE_LIMIT   = 100  # 1回の実行で取得する最大記事数
 OG_IMAGE_TIMEOUT = 6    # タイムアウト（秒）
@@ -846,6 +882,15 @@ def save_news(new_articles: list[dict], json_path: str,
     # 説明文がない記事に Bing の説明文を補完（新規・既存どちらも対象）
     if bing_desc_map:
         all_articles = enrich_descriptions(all_articles, bing_desc_map)
+
+    # カテゴリが未設定の記事を自動分類
+    cat_filled = 0
+    for a in all_articles:
+        if not a.get("category"):
+            a["category"] = _auto_categorize(a.get("title", ""), a.get("description", ""))
+            cat_filled += 1
+    if cat_filled:
+        print(f"  [カテゴリ] {cat_filled} 件を自動分類")
 
     try:
         all_articles.sort(key=lambda a: a.get("pub_date", ""), reverse=True)

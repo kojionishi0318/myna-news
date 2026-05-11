@@ -600,6 +600,69 @@
     }
     [data-theme="dark"] .toast { background: #e2e8f0; color: #1a202c; }
 
+    /* ─── カテゴリタブ ──────────────────────────── */
+    .tabs-wrap {
+      max-width: 960px;
+      margin: 16px auto 0;
+      padding: 0 16px;
+      border-bottom: 2px solid var(--border);
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+    }
+    .tabs-wrap::-webkit-scrollbar { display: none; }
+    .tabs { display: flex; min-width: max-content; }
+    .tab-btn {
+      padding: 10px 14px;
+      border: none;
+      border-bottom: 3px solid transparent;
+      margin-bottom: -2px;
+      background: none;
+      color: var(--text-muted);
+      font-size: 13px;
+      font-weight: 600;
+      font-family: inherit;
+      cursor: pointer;
+      white-space: nowrap;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      transition: color .15s, border-color .15s;
+    }
+    .tab-btn:hover { color: var(--text); }
+    .tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); }
+    .tab-count {
+      font-size: 11px;
+      background: var(--surface2);
+      color: var(--text-muted);
+      padding: 1px 7px;
+      border-radius: 10px;
+      font-weight: 500;
+    }
+    .tab-btn.active .tab-count {
+      background: var(--accent-light);
+      color: var(--accent);
+    }
+
+    /* ─── カテゴリバッジ（カード内） ────────────── */
+    .cat-tag {
+      font-size: 10px;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 10px;
+      white-space: nowrap;
+    }
+    .cat-トラブル { background: rgba(229,62,62,.12);  color: #c53030; }
+    .cat-制度変更 { background: rgba(221,107,32,.12); color: #b7650a; }
+    .cat-統計    { background: rgba(56,161,105,.12);  color: #276749; }
+    .cat-政治    { background: rgba(49,130,206,.12);  color: #2b6cb0; }
+    .cat-使い方  { background: rgba(128,90,213,.12);  color: #553c9a; }
+    [data-theme="dark"] .cat-トラブル { background: rgba(229,62,62,.2);  color: #fc8181; }
+    [data-theme="dark"] .cat-制度変更 { background: rgba(221,107,32,.2); color: #f6ad55; }
+    [data-theme="dark"] .cat-統計    { background: rgba(56,161,105,.2);  color: #68d391; }
+    [data-theme="dark"] .cat-政治    { background: rgba(49,130,206,.2);  color: #63b3ed; }
+    [data-theme="dark"] .cat-使い方  { background: rgba(128,90,213,.2);  color: #b794f4; }
+
     /* ─── 既読記事 ──────────────────────────────── */
     .card--read { opacity: 0.52; }
     .card--read:hover { opacity: 0.75; }
@@ -726,6 +789,11 @@
   <span class="updated-text" id="updatedText"></span>
 </div>
 
+<!-- カテゴリタブ -->
+<div class="tabs-wrap">
+  <div class="tabs" id="tabsContainer"></div>
+</div>
+
 <!-- ページネーション（上） -->
 <div class="pagination-wrap" id="paginationTop" style="display:none"></div>
 
@@ -756,6 +824,46 @@
     localStorage.setItem("theme", next);
     themeBtn.textContent = next === "dark" ? "☀️" : "🌙";
   });
+
+  // ─── カテゴリタブ定義 ─────────────────────────────────────────────────────
+  const TABS = [
+    { id: "all",    emoji: "📰", label: "すべて"   },
+    { id: "トラブル", emoji: "⚠️", label: "トラブル" },
+    { id: "制度変更", emoji: "🔴", label: "制度変更" },
+    { id: "統計",   emoji: "📊", label: "統計"     },
+    { id: "政治",   emoji: "🏛️", label: "政治"     },
+    { id: "使い方", emoji: "📖", label: "使い方"   },
+    { id: "一般",   emoji: "📄", label: "その他"   },
+  ];
+  const CAT_EMOJI = Object.fromEntries(TABS.map(t => [t.id, t.emoji]));
+
+  let activeTab = "all";
+
+  function renderTabs() {
+    const wrap = document.getElementById("tabsContainer");
+    if (!wrap) return;
+    // カテゴリ別件数（全記事から）
+    const counts = { all: allArticles.length };
+    allArticles.forEach(a => {
+      const c = a.category || "一般";
+      counts[c] = (counts[c] || 0) + 1;
+    });
+    wrap.innerHTML = TABS
+      .filter(t => t.id === "all" || (counts[t.id] || 0) > 0)
+      .map(t => `
+        <button class="tab-btn${activeTab === t.id ? " active" : ""}" data-tab="${t.id}">
+          ${t.emoji} ${t.label}
+          <span class="tab-count">${counts[t.id] || 0}</span>
+        </button>`).join("");
+    wrap.querySelectorAll(".tab-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        activeTab = btn.dataset.tab;
+        currentPage = 1;
+        renderTabs();
+        applyFilters();
+      });
+    });
+  }
 
   // ─── State ───────────────────────────────────────────────────────────────
   let allArticles      = [];   // 全件
@@ -851,6 +959,7 @@
     });
     if ([...srcSel.options].some(o => o.value === prevVal)) srcSel.value = prevVal;
 
+    renderTabs();
     applyFilters();
   }
 
@@ -885,6 +994,11 @@
     const cutoff = cutoffs[period] || null;
 
     const filtered = allArticles.filter(a => {
+      // カテゴリタブフィルタ
+      if (activeTab !== "all") {
+        const cat = a.category || "一般";
+        if (cat !== activeTab) return false;
+      }
       if (source !== "all" && a.source !== source) return false;
       if (cutoff) {
         const d = new Date(a.pub_date);
@@ -983,6 +1097,9 @@
             ${main.source ? `<span class="source-tag">${escHtml(main.source)}</span>` : ""}
             ${dateStr      ? `<span class="date-text">${dateStr}</span>` : ""}
             ${isNew        ? `<span class="new-badge">NEW</span>` : ""}
+            ${(main.category && main.category !== "一般")
+              ? `<span class="cat-tag cat-${escHtml(main.category)}">${CAT_EMOJI[main.category] || ""}${escHtml(main.category)}</span>`
+              : ""}
             ${dups.length > 0
               ? `<button class="dup-badge" onclick="toggleAccordion('${uid}',this)" aria-expanded="false">
                    同内容 ${dups.length + 1}件
@@ -1250,7 +1367,7 @@
     if (refreshBtn.disabled) return;
     refreshBtn.innerHTML = `<span class="btn-spinner"></span>読込中`;
     refreshBtn.disabled = true;
-    const data = await loadData();
+    const data = await loadData("news_data.json");
     if (data && data.articles) {
       applyData(data);
     }
