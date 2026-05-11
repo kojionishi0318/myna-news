@@ -3,9 +3,9 @@
 NDL 国会会議録検索システム API から
 マイナ保険証・オンライン資格確認関連の発言を取得して diet_data.json に保存します。
 
-データ構造: フラットな発言リスト → 質問＋答弁セット（exchanges 形式）
-  - issueID（同一会議号）と speechOrder（発言順）でペアリング
-  - 質問（非大臣）に後続する大臣答弁をグルーピング
+データ構造: 質問＋答弁セット（exchanges 形式）
+  - issueID＋speechOrder でペアリング
+  - Claude Haiku で exchange ごとに内容タイトルを AI 生成
 
 API ドキュメント: https://kokkai.ndl.go.jp/api.html
 """
@@ -19,6 +19,7 @@ import time
 import argparse
 import urllib.parse
 from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 try:
     import requests
@@ -26,11 +27,18 @@ try:
 except ImportError:
     _USE_REQUESTS = False
 
+try:
+    import anthropic as _anthropic_module
+    _USE_ANTHROPIC = True
+except ImportError:
+    _USE_ANTHROPIC = False
+
 # ─── 設定 ────────────────────────────────────────────────────────────────────
 NDL_SPEECH_API = "https://kokkai.ndl.go.jp/api/speech"
 
-FROM_DATE   = "2024-10-01"   # 2024年10月以降
-MAX_EXCHANGES = 60           # 保持する最大 exchange 数
+FROM_DATE     = "2024-10-01"   # 2024年10月以降
+MAX_EXCHANGES = 300            # 実質全件（API 取得上限が先に効く）
+AI_TITLE_WORKERS = 10         # AI タイトル生成の並列数
 
 SEARCH_KEYWORDS = [
     "マイナ保険証",
@@ -40,7 +48,6 @@ SEARCH_KEYWORDS = [
     "資格確認書",
 ]
 
-# 政府側発言の判定キーワード（役職）
 MINISTER_KEYWORDS = [
     "大臣", "長官", "副大臣", "大臣政務官",
     "政府参考人", "内閣総理大臣", "委員長",
@@ -79,34 +86,6 @@ def is_fresh(json_path: str) -> bool:
         return False
 
 
-def _extract_title(text: str, max_len: int = 60) -> str:
-    """
-    発言テキストから見出しを生成する。
-    最初の文（句点まで）を優先し、なければ max_len 文字で切る。
-    冒頭の定型句（「ただいま…」「おはようございます」等）は読み飛ばす。
-    """
-    text = re.sub(r"\s+", " ", text).strip()
-    # 冒頭の定型フレーズを除去
-    skip_patterns = [
-        r"^ただいまから[^。]{0,30}。",
-        r"^おはようございます[。　 ]*",
-        r"^ありがとうございます[。　 ]*",
-        r"^委員長[^。]{0,20}。",
-        r"^衆議院[^。]{0,20}、",
-    ]
-    for pat in skip_patterns:
-        text = re.sub(pat, "", text, count=1).strip()
-    if not text:
-        return "（発言内容）"
-    # 最初の句点までを見出しに
-    first_period = text.find("。")
-    if 8 < first_period <= max_len:
-        return text[:first_period + 1]
-    if len(text) <= max_len:
-        return text
-    return text[:max_len].rstrip() + "…"
-
-
 def _trim_excerpt(text: str, max_len: int = 180) -> str:
     """発言テキストを max_len 文字以内で自然に切る"""
     text = re.sub(r"\s+", " ", text).strip()
@@ -121,7 +100,6 @@ def _trim_excerpt(text: str, max_len: int = 180) -> str:
 
 # ─── NDL API 取得 ─────────────────────────────────────────────────────────────
 def fetch_speeches_by_keyword(session, keyword: str) -> list[dict]:
-    """NDL 発言検索API から 1 キーワード分の発言を取得する"""
     params = {
         "any":            keyword,
         "from":           FROM_DATE,
@@ -146,8 +124,8 @@ def fetch_speeches_by_keyword(session, keyword: str) -> list[dict]:
 
 # ─── 正規化 ───────────────────────────────────────────────────────────────────
 def normalize_speech(r: dict) -> dict:
-    """NDL API レスポンス 1 件を統一フォーマットに変換する"""
     speech_raw  = (r.get("speech") or "").strip()
+    speech_norm = re.sub(r"\s+", " ", speech_raw)
     position    = (r.get("speakerPosition") or "").strip()
     party       = (r.get("speakerGroup")    or "").strip()
     role        = (r.get("speakerRole")     or "").strip()
@@ -163,15 +141,13 @@ def normalize_speech(r: dict) -> dict:
         "imageKind":       r.get("imageKind",        ""),
         "date":            r.get("date",             ""),
         "speaker":         r.get("speaker",          ""),
-        "speakerYomi":     r.get("speakerYomi",      ""),
         "speakerGroup":    party,
         "speakerPosition": position,
         "speakerRole":     role,
         "is_minister":     is_minister,
-        "title":           _extract_title(speech_raw),
-        "excerpt":         _trim_excerpt(speech_raw),
+        "excerpt":         _trim_excerpt(speech_norm),  # 表示用抜粋（180字）
+        # full_text は JSON に含めず「全文を見る」クリック時に NDL API から取得
         "speechURL":       r.get("speechURL",        ""),
-        "startPage":       r.get("startPage"),
         "speechOrder":     r.get("speechOrder"),
     }
 
@@ -190,16 +166,9 @@ def dedup_speeches(speeches: list[dict]) -> list[dict]:
 # ─── 質問＋答弁ペアリング ────────────────────────────────────────────────────
 def build_exchanges(speeches: list[dict]) -> list[dict]:
     """
-    issueID（同一会議号）と speechOrder（発言順）を使い、
-    質問（非大臣発言）とその後続答弁（大臣等発言）をグルーピングして
-    exchange リストを返す。
-
-    ・同一 issueID 内で speechOrder 順に並べて走査
-    ・非大臣発言が来たら「新しい exchange 開始」
-    ・大臣発言が来たら「直前の exchange の answers に追加」
-    ・大臣発言のみで質問が見当たらない場合は question=None で exchange 化
+    issueID 内で speechOrder 順に走査し、
+    非大臣発言（質問）とその後続大臣発言（答弁）をペアリングする。
     """
-    # issueID でグループ化
     groups: dict[str, list] = defaultdict(list)
     for s in speeches:
         groups[s["issueID"]].append(s)
@@ -226,20 +195,19 @@ def build_exchanges(speeches: list[dict]) -> list[dict]:
                 "date":          ref["date"],
                 "question":      current_q,
                 "answers":       list(current_ans),
+                "ai_title":      "",   # 後でAI生成
             })
 
         for speech in group:
             if speech["is_minister"]:
                 current_ans.append(speech)
             else:
-                # 新しい質問が来たら直前の exchange を確定
                 _flush()
                 current_q   = speech
                 current_ans = []
 
-        _flush()  # 最後のブロックを確定
+        _flush()
 
-    # 日付降順（同日は speechOrder 降順）
     exchanges.sort(
         key=lambda e: (
             e.get("date", ""),
@@ -248,6 +216,70 @@ def build_exchanges(speeches: list[dict]) -> list[dict]:
         reverse=True,
     )
     return exchanges[:MAX_EXCHANGES]
+
+
+# ─── AI タイトル生成 ──────────────────────────────────────────────────────────
+def _gen_title_one(args: tuple) -> tuple[int, str]:
+    """1 exchange のタイトルを Claude Haiku で生成する（並列実行用）"""
+    idx, ex, ai_client = args
+    q   = ex.get("question")
+    ref = q or (ex["answers"][0] if ex["answers"] else None)
+    if not ref:
+        return idx, ""
+
+    meeting = ex.get("nameOfMeeting", "")
+    speaker = ref.get("speaker", "")
+    text    = ref.get("excerpt", "")[:400]
+
+    prompt = (
+        "以下の国会発言が何について議論しているかを、"
+        "20文字以内の日本語タイトルにしてください。\n"
+        "タイトルのみ出力し、説明・前置き・カギ括弧は不要です。\n\n"
+        f"委員会: {meeting}\n"
+        f"発言者: {speaker}\n"
+        f"発言内容: {text}"
+    )
+    try:
+        msg = ai_client.messages.create(
+            model="claude-haiku-4-5",
+            max_tokens=40,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        return idx, msg.content[0].text.strip().strip("「」『』")
+    except Exception:
+        return idx, ""
+
+
+def generate_titles_with_ai(exchanges: list[dict]) -> list[dict]:
+    """全 exchange に AI タイトルを付与する（ANTHROPIC_API_KEY 必須）"""
+    if not _USE_ANTHROPIC:
+        print("  [AI タイトル] anthropicパッケージ未インストール → スキップ")
+        return exchanges
+
+    api_key = os.environ.get("ANTHROPIC_API_KEY", "")
+    if not api_key:
+        print("  [AI タイトル] ANTHROPIC_API_KEY 未設定 → スキップ")
+        return exchanges
+
+    ai_client = _anthropic_module.Anthropic(api_key=api_key)
+    print(f"  [AI タイトル] {len(exchanges)} 件を Claude Haiku で生成中...")
+    t0     = time.perf_counter()
+    filled = 0
+
+    with ThreadPoolExecutor(max_workers=AI_TITLE_WORKERS) as pool:
+        futures = {
+            pool.submit(_gen_title_one, (i, e, ai_client)): i
+            for i, e in enumerate(exchanges)
+        }
+        for future in as_completed(futures):
+            idx, title = future.result()
+            if title:
+                exchanges[idx]["ai_title"] = title
+                filled += 1
+
+    elapsed = time.perf_counter() - t0
+    print(f"  [AI タイトル] {elapsed:.1f}s  {filled}/{len(exchanges)} 件完了")
+    return exchanges
 
 
 # ─── 保存 ─────────────────────────────────────────────────────────────────────
@@ -313,6 +345,9 @@ def main():
 
     exchanges = build_exchanges(deduped)
     print(f"  [ペアリング] {len(exchanges)} exchanges 生成")
+
+    # AI タイトル生成（ANTHROPIC_API_KEY がある場合）
+    exchanges = generate_titles_with_ai(exchanges)
 
     save_diet(exchanges, json_path)
     print("=" * 52)
