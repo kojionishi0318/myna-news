@@ -482,7 +482,7 @@
 
     /* ─── ヒーローバナー ─────────────────────────── */
     .hero {
-      background: linear-gradient(120deg, #1255a8 0%, #1976d2 45%, #42a5f5 100%);
+      background: linear-gradient(120deg, #7c2d12 0%, #c2410c 40%, #ea580c 70%, #f97316 100%);
       overflow: hidden;
     }
     .hero-inner {
@@ -536,19 +536,16 @@
     }
     .hero-mascot {
       flex-shrink: 0;
-      line-height: 0;
-      background: rgba(255,255,255,0.92);
-      border-radius: 50%;
-      padding: 14px;
-      box-shadow: 0 6px 24px rgba(0,0,0,0.18);
-      overflow: hidden;
+      display: flex;
+      align-items: flex-end;
+      align-self: stretch;
+      width: 200px;
     }
     .hero-mascot img {
       display: block;
-      width: 200px;
-      height: 200px;
+      width: 180px;
       object-fit: contain;
-      border-radius: 50%;
+      object-position: bottom;
     }
 
     /* ─── シェアボタン ────────────────────────────── */
@@ -1114,8 +1111,8 @@
       .page-btn { min-width: 32px; height: 32px; font-size: 12px; }
       .hero-inner { padding: 18px 20px 0; }
       .hero-title { font-size: 22px; }
-      .hero-mascot { padding: 10px; }
-      .hero-mascot img { width: 120px; height: 120px; }
+      .hero-mascot { width: 130px; }
+      .hero-mascot img { width: 120px; }
       .back-top { bottom: 20px; right: 12px; width: 38px; height: 38px; font-size: 16px; }
       .card-thumb { width: 80px; height: 54px; }
       .kpi-row { grid-template-columns: 1fr; }
@@ -1285,7 +1282,7 @@
     <div class="hero-text">
       <div class="hero-title">
         <small>📋 マイナンバー・マイナ保険証</small>
-        マイナ保険証<br>メディア
+        マイナ保険証メディア
       </div>
       <p class="hero-desc">
         ニュース・国会質疑・普及統計を横断して<br>
@@ -1298,7 +1295,7 @@
       </div>
     </div>
     <div class="hero-mascot">
-      <img src="myna-chan.png" alt="マイナちゃん"
+      <img src="myna-chan-transparent.png" alt="マイナちゃん"
            onerror="this.style.display='none'">
     </div>
   </div>
