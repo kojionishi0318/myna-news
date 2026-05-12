@@ -1,8 +1,8 @@
 {
-  "updated": "2026-05-11T20:49:47+09:00",
-  "total_exchanges": 225,
+  "updated": "2026-05-12T18:50:59+09:00",
+  "total_exchanges": 226,
   "total_questions": 201,
-  "total_answers": 110,
+  "total_answers": 111,
   "exchanges": [
     {
       "issueID": "122104339X00620260423",
@@ -549,35 +549,6 @@
           "speechOrder": 231
         }
       ],
-      "ai_title": ""
-    },
-    {
-      "issueID": "122114370X00620260409",
-      "session": 221,
-      "nameOfHouse": "参議院",
-      "nameOfMeeting": "財政金融委員会",
-      "issue": "第6号",
-      "imageKind": "会議録",
-      "date": "2026-04-09",
-      "question": {
-        "speechID": "122114370X00620260409_165",
-        "issueID": "122114370X00620260409",
-        "session": 221,
-        "nameOfHouse": "参議院",
-        "nameOfMeeting": "財政金融委員会",
-        "issue": "第6号",
-        "imageKind": "会議録",
-        "date": "2026-04-09",
-        "speaker": "大島九州男",
-        "speakerGroup": "れいわ新選組",
-        "speakerPosition": "",
-        "speakerRole": "",
-        "is_minister": false,
-        "excerpt": "○大島九州男君 おっしゃるように、教育の部分については高校無償化と、こういったものがあり、それで一旦廃止というのは一つ理解できなくもないわけですよ。 実際、おじいちゃん、おばあちゃんたちが、このニーズというと、教育だけではなくて、実は孫の結婚資金だったりとかいろんなニーズがあるわけですよね。だから、逆に言うと、もう今回、",
-        "speechURL": "https://kokkai.ndl.go.jp/txt/122114370X00620260409/165",
-        "speechOrder": 165
-      },
-      "answers": [],
       "ai_title": ""
     },
     {
@@ -4611,7 +4582,24 @@
       "issue": "第13号",
       "imageKind": "会議録",
       "date": "2025-05-20",
-      "question": null,
+      "question": {
+        "speechID": "121714260X01320250520_044",
+        "issueID": "121714260X01320250520",
+        "session": 217,
+        "nameOfHouse": "参議院",
+        "nameOfMeeting": "厚生労働委員会",
+        "issue": "第13号",
+        "imageKind": "会議録",
+        "date": "2025-05-20",
+        "speaker": "新妻秀規",
+        "speakerGroup": "公明党",
+        "speakerPosition": "",
+        "speakerRole": "",
+        "is_minister": false,
+        "excerpt": "○新妻秀規君 公明党の新妻秀規です。 早速質疑に入ります。 まず、マイナ保険証での高額療養費制度利用に係る課題について、これは厚生労働大臣に伺います。 マイナ保険証のメリットとして、マイナ保険証で受診をすれば高額療養費制度が自動的に適用となり、限度額証明をあらかじめ発行しなくても限度額以上の窓口負担はないということでした。しかし、名張市にお住まいの方からは、",
+        "speechURL": "https://kokkai.ndl.go.jp/txt/121714260X01320250520/44",
+        "speechOrder": 44
+      },
       "answers": [
         {
           "speechID": "121714260X01320250520_045",
