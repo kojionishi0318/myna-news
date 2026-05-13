@@ -856,10 +856,11 @@
     }
     .trend-card.alert { border-color: #fbbf24; }
     .trend-card-kw {
-      font-size: 12px; font-weight: 700;
-      color: var(--text-muted);
-      margin-bottom: 8px;
+      font-size: 14px; font-weight: 800;
+      color: var(--text);
+      margin-bottom: 10px;
       white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+      letter-spacing: -0.01em;
     }
     .trend-card-val {
       font-size: 32px; font-weight: 900;
@@ -1366,7 +1367,7 @@
       <div class="logo-icon">🏥</div>
       <div>
         <div class="logo-text">マイナ保険証メディア</div>
-        <div class="logo-sub">ニュース・国会質疑・統計</div>
+        <div class="logo-sub">ニュース・国会質疑・統計・トレンド</div>
       </div>
     </a>
     <div class="header-right">
@@ -1384,13 +1385,14 @@
         マイナ保険証メディア
       </div>
       <p class="hero-desc">
-        ニュース・国会質疑・普及統計を横断して<br>
+        ニュース・国会質疑・普及統計・Googleトレンドを横断して<br>
         マイナ保険証の動向を毎日自動更新します。
       </p>
       <div class="hero-badges">
         <span class="hero-badge">📰 ニュース自動収集</span>
         <span class="hero-badge">🏛️ 国会質疑録</span>
         <span class="hero-badge">📊 普及統計</span>
+        <span class="hero-badge">📈 Googleトレンド</span>
       </div>
     </div>
     <div class="hero-mascot">
@@ -1404,16 +1406,16 @@
 <nav class="view-nav">
   <div class="view-nav-inner">
     <button class="view-btn active" data-view="news">
-      📰 ニュース <span class="view-badge" id="viewBadgeNews">―</span>
-    </button>
-    <button class="view-btn" data-view="diet">
-      🏛️ 国会質疑 <span class="view-badge" id="viewBadgeDiet">―</span>
-    </button>
-    <button class="view-btn" data-view="stats">
-      📊 統計
+      📰 ニュース <span class="view-badge" id="viewBadgeNews" style="display:none">―</span>
     </button>
     <button class="view-btn" data-view="trends">
       📈 トレンド <span class="view-badge" id="viewBadgeTrends">―</span>
+    </button>
+    <button class="view-btn" data-view="diet">
+      🏛️ 国会質疑
+    </button>
+    <button class="view-btn" data-view="stats">
+      📊 統計
     </button>
   </div>
 </nav>
@@ -1621,9 +1623,9 @@
       <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;flex-wrap:wrap;gap:10px">
         <div style="font-size:14px;font-weight:700;color:var(--text)">📈 インタレストの推移</div>
         <div class="trends-period-selector" id="trendsPeriodSelector">
-          <button class="trends-period-btn active" data-period="7">7日</button>
-          <button class="trends-period-btn" data-period="30">1ヶ月</button>
-          <button class="trends-period-btn" data-period="90">3ヶ月</button>
+          <button class="trends-period-btn active" data-period="7">1週間以内</button>
+          <button class="trends-period-btn" data-period="30">1か月以内</button>
+          <button class="trends-period-btn" data-period="90">3か月以内</button>
         </div>
       </div>
       <div style="display:flex;gap:0;align-items:flex-start">
