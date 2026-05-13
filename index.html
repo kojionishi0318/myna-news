@@ -1628,6 +1628,25 @@
           <button class="trends-period-btn" data-period="90">3か月以内</button>
           <button class="trends-period-btn" data-period="365">1年以内</button>
           <button class="trends-period-btn" data-period="1825">5年以内</button>
+          <button class="trends-period-btn" data-period="custom" id="trendsCustomBtn">カスタム</button>
+        </div>
+      </div>
+      <!-- カスタム日付ピッカー -->
+      <div id="trendsCustomPicker" style="display:none;background:var(--bg);border:1px solid var(--border);border-radius:12px;padding:20px 24px;margin-bottom:20px;max-width:460px">
+        <div style="font-size:13px;font-weight:700;color:var(--text);margin-bottom:16px">カスタム</div>
+        <div style="display:flex;gap:16px;margin-bottom:20px;flex-wrap:wrap">
+          <label style="flex:1;min-width:140px">
+            <div style="font-size:11px;color:var(--text-muted);margin-bottom:6px">開始日　YYYY/MM/DD</div>
+            <input type="date" id="trendsStartDate" style="width:100%;padding:8px 10px;border:1px solid var(--border);border-radius:8px;background:var(--surface);color:var(--text);font-family:inherit;font-size:13px;box-sizing:border-box">
+          </label>
+          <label style="flex:1;min-width:140px">
+            <div style="font-size:11px;color:var(--text-muted);margin-bottom:6px">終了日　YYYY/MM/DD</div>
+            <input type="date" id="trendsEndDate" style="width:100%;padding:8px 10px;border:1px solid var(--border);border-radius:8px;background:var(--surface);color:var(--text);font-family:inherit;font-size:13px;box-sizing:border-box">
+          </label>
+        </div>
+        <div style="display:flex;gap:16px;justify-content:flex-end">
+          <button id="trendsCustomCancel" style="padding:6px 16px;border-radius:6px;border:none;cursor:pointer;background:transparent;color:var(--text-muted);font-family:inherit;font-size:13px;font-weight:600">キャンセル</button>
+          <button id="trendsCustomApply" style="padding:6px 16px;border-radius:6px;border:none;cursor:pointer;background:var(--accent);color:#fff;font-family:inherit;font-size:13px;font-weight:600">適用</button>
         </div>
       </div>
       <div style="display:flex;gap:0;align-items:flex-start">
@@ -2847,10 +2866,11 @@
   }
 
   // ─── Googleトレンドダッシュボード ─────────────────────────────────────────
-  let _chartTrends   = null;
+  let _chartTrends    = null;
   let _trendsCooldown = false;
-  let _trendsData    = null;
-  let _trendsPeriod  = 7;
+  let _trendsData     = null;
+  let _trendsPeriod   = 7;
+  let _trendsDateRange = null;
 
   async function loadTrends(force = false) {
     if (_trendsCooldown && !force) return;
@@ -2897,7 +2917,9 @@
     // キーワードカード
     const grid = document.getElementById("trendsGrid");
     grid.innerHTML = "";
-    (data.keywords || []).forEach(kw => {
+    // 検索量の多い順（avg_7day降順）でソート
+    const sortedKeywords = [...(data.keywords || [])].sort((a, b) => (b.avg_7day ?? 0) - (a.avg_7day ?? 0));
+    sortedKeywords.forEach(kw => {
       const changeDay  = kw.change_day  ?? 0;
       const changeWeek = kw.change_week ?? 0;
       const dayClass   = changeDay  > 10 ? "trend-change-up" : changeDay  < -10 ? "trend-change-down" : "trend-change-flat";
@@ -2970,38 +2992,85 @@
     _trendsData = data;
     requestAnimationFrame(() => renderTrendsChart(_trendsPeriod));
 
-    // 期間選択ボタン
+    // 期間選択ボタン（カスタムを特別扱い）
     document.querySelectorAll(".trends-period-btn").forEach(b => {
       b.addEventListener("click", () => {
         document.querySelectorAll(".trends-period-btn").forEach(x => x.classList.remove("active"));
         b.classList.add("active");
+        const picker = document.getElementById("trendsCustomPicker");
+        if (b.dataset.period === "custom") {
+          if (picker) picker.style.display = "";
+          return; // まだ描画しない
+        }
+        if (picker) picker.style.display = "none";
+        _trendsDateRange = null;
         _trendsPeriod = parseInt(b.dataset.period);
-        renderTrendsChart(_trendsPeriod);
+        renderTrendsChart(_trendsPeriod, null);
       });
+    });
+
+    // カスタムピッカー：キャンセル
+    document.getElementById("trendsCustomCancel")?.addEventListener("click", () => {
+      document.getElementById("trendsCustomPicker").style.display = "none";
+      // アクティブを1週間以内に戻す
+      document.querySelectorAll(".trends-period-btn").forEach(x => x.classList.remove("active"));
+      const defaultBtn = document.querySelector('.trends-period-btn[data-period="7"]');
+      if (defaultBtn) defaultBtn.classList.add("active");
+      _trendsDateRange = null;
+      _trendsPeriod = 7;
+      renderTrendsChart(7, null);
+    });
+
+    // カスタムピッカー：適用
+    document.getElementById("trendsCustomApply")?.addEventListener("click", () => {
+      const start = document.getElementById("trendsStartDate")?.value;
+      const end   = document.getElementById("trendsEndDate")?.value;
+      if (!start || !end || start > end) {
+        alert("有効な開始日と終了日を入力してください。");
+        return;
+      }
+      _trendsDateRange = { start, end };
+      document.getElementById("trendsCustomPicker").style.display = "none";
+      renderTrendsChart(0, _trendsDateRange);
     });
 
     if (btn) { btn.disabled = false; btn.textContent = "⟳ 更新"; }
   }
 
-  function renderTrendsChart(days) {
+  function renderTrendsChart(days, dateRange = null) {
     if (!_trendsData) return;
-    const COLORS = ["#3b82f6","#8b5cf6","#10b981","#ef4444","#f59e0b","#06b6d4"];
-    const keywords = _trendsData.keywords || [];
+    const COLORS = ["#3b82f6","#8b5cf6","#10b981","#ef4444","#f59e0b","#06b6d4","#ec4899"];
+
+    // 期間に応じたhistoryスライスを返すヘルパー
+    function getSlice(history) {
+      if (dateRange) {
+        return (history || []).filter(h => h.date >= dateRange.start && h.date <= dateRange.end);
+      }
+      return (history || []).slice(-days);
+    }
+    function getAvg(slice) {
+      return slice.length ? slice.reduce((s, h) => s + h.value, 0) / slice.length : 0;
+    }
+
+    // 選択期間の平均値降順でソート
+    const keywords = [...(_trendsData.keywords || [])].sort((a, b) =>
+      getAvg(getSlice(b.history)) - getAvg(getSlice(a.history))
+    );
 
     const allDates = [...new Set(
-      keywords.flatMap(k => (k.history || []).slice(-days).map(h => h.date))
+      keywords.flatMap(k => getSlice(k.history).map(h => h.date))
     )].sort();
 
     const datasets = keywords.map((kw, i) => ({
       label: kw.keyword,
       data: allDates.map(d => {
-        const h = (kw.history || []).find(x => x.date === d);
+        const h = getSlice(kw.history).find(x => x.date === d);
         return h ? h.value : null;
       }),
       borderColor: COLORS[i % COLORS.length],
       backgroundColor: "transparent",
       borderWidth: 2,
-      pointRadius: days <= 7 ? 3 : days <= 30 ? 2 : 1,
+      pointRadius: allDates.length <= 7 ? 3 : allDates.length <= 30 ? 2 : 1,
       tension: 0.4,
       spanGaps: true,
     }));
@@ -3025,7 +3094,7 @@
           scales: {
             x: {
               grid: { color: "rgba(128,128,128,.08)" },
-              ticks: { font: { size: 11 }, maxTicksLimit: days <= 7 ? 7 : days <= 30 ? 10 : 12 }
+              ticks: { font: { size: 11 }, maxTicksLimit: allDates.length <= 7 ? 7 : allDates.length <= 30 ? 10 : 12 }
             },
             y: {
               min: 0, max: 100,
@@ -3041,12 +3110,9 @@
     const panel = document.getElementById("trendsAvgPanel");
     if (!panel) return;
 
-    const avgData = keywords.map(kw => {
-      const slice = (kw.history || []).slice(-days);
-      return slice.length ? Math.round(slice.reduce((s, h) => s + h.value, 0) / slice.length) : 0;
-    });
+    const avgData = keywords.map(kw => Math.round(getAvg(getSlice(kw.history))));
     const maxAvg = Math.max(...avgData, 1);
-    const BAR_MAX = 260; // px（右パネルのバー最大高さ）
+    const BAR_MAX = 260;
 
     panel.innerHTML = `
       <div style="font-size:11px;font-weight:700;color:var(--text-muted);margin-bottom:10px">インタレストの平均値</div>
