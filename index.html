@@ -888,6 +888,20 @@
       max-width: 960px; margin: 0 auto; padding: 8px 16px 24px;
       font-size: 11px; color: var(--text-muted);
     }
+    .trends-period-selector {
+      display: flex; gap: 6px;
+    }
+    .trends-period-btn {
+      padding: 4px 14px; border-radius: 20px;
+      border: 1px solid var(--border);
+      background: var(--surface); color: var(--text-muted);
+      font-size: 12px; font-weight: 600; cursor: pointer; font-family: inherit;
+      transition: all .15s;
+    }
+    .trends-period-btn.active,
+    .trends-period-btn:hover {
+      background: #b45309; border-color: #b45309; color: #fff;
+    }
 
     /* ─── 国会質疑：コントロール ────────────────────────────── */
     .diet-controls {
@@ -1604,8 +1618,15 @@
   </div>
   <div class="trends-chart-wrap">
     <div class="card" style="padding:20px">
-      <div style="font-size:14px;font-weight:700;margin-bottom:16px;color:var(--text)">📈 検索数の推移（直近7日）</div>
-      <div style="position:relative;height:220px"><canvas id="chartTrends"></canvas></div>
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;flex-wrap:wrap;gap:10px">
+        <div style="font-size:14px;font-weight:700;color:var(--text)">📈 検索数の推移</div>
+        <div class="trends-period-selector" id="trendsPeriodSelector">
+          <button class="trends-period-btn active" data-period="7">7日</button>
+          <button class="trends-period-btn" data-period="30">1ヶ月</button>
+          <button class="trends-period-btn" data-period="90">3ヶ月</button>
+        </div>
+      </div>
+      <div style="position:relative;height:340px"><canvas id="chartTrends"></canvas></div>
     </div>
   </div>
   <p class="trends-note">※ 数値はGoogle トレンドの相対値（0〜100）です。100が計測期間中の最大値を示します。前日比・週平均比は相対値をもとに算出しています。</p>
@@ -2815,8 +2836,10 @@
   }
 
   // ─── Googleトレンドダッシュボード ─────────────────────────────────────────
-  let _chartTrends = null;
+  let _chartTrends   = null;
   let _trendsCooldown = false;
+  let _trendsData    = null;
+  let _trendsPeriod  = 7;
 
   async function loadTrends(force = false) {
     if (_trendsCooldown && !force) return;
@@ -2880,7 +2903,7 @@
             <span class="${dayClass}">${dayArrow} 前日比 ${changeDay > 0 ? "+" : ""}${changeDay}%</span>
             <span class="${weekClass}">${weekArrow} 週平均比 ${changeWeek > 0 ? "+" : ""}${changeWeek}%</span>
           </div>
-          <div style="position:relative;height:48px;width:100%">
+          <div style="position:relative;height:80px;width:100%">
             <canvas id="${cardId}"></canvas>
           </div>
         </div>`);
@@ -2906,9 +2929,23 @@
             },
             options: {
               responsive: true, maintainAspectRatio: false,
-              plugins: { legend: { display: false }, tooltip: { enabled: false } },
+              interaction: { mode: "index", intersect: false },
+              plugins: {
+                legend: { display: false },
+                tooltip: {
+                  enabled: true,
+                  callbacks: {
+                    title: (items) => hist[items[0]?.dataIndex]?.date ?? "",
+                    label: (item) => `検索スコア: ${item.raw}`,
+                  }
+                }
+              },
               scales: {
-                x: { display: false },
+                x: {
+                  display: true,
+                  grid: { display: false },
+                  ticks: { font: { size: 9 }, color: "rgba(128,128,128,.7)", maxRotation: 0, maxTicksLimit: 7 }
+                },
                 y: { display: false, min: 0 }
               }
             }
@@ -2917,13 +2954,32 @@
       }
     });
 
-    // メイン推移チャート
-    const allDates = [...new Set(
-      (data.keywords || []).flatMap(k => (k.history || []).map(h => h.date))
-    )].sort().slice(-7);
+    // グローバルに保持して期間切替で再描画
+    _trendsData = data;
+    renderTrendsChart(_trendsPeriod);
 
+    // 期間選択ボタン
+    document.querySelectorAll(".trends-period-btn").forEach(b => {
+      b.addEventListener("click", () => {
+        document.querySelectorAll(".trends-period-btn").forEach(x => x.classList.remove("active"));
+        b.classList.add("active");
+        _trendsPeriod = parseInt(b.dataset.period);
+        renderTrendsChart(_trendsPeriod);
+      });
+    });
+
+    if (btn) { btn.disabled = false; btn.textContent = "⟳ 更新"; }
+  }
+
+  function renderTrendsChart(days) {
+    if (!_trendsData) return;
     const colors = ["#3b82f6","#8b5cf6","#10b981","#ef4444","#f59e0b","#06b6d4"];
-    const datasets = (data.keywords || []).map((kw, i) => ({
+
+    const allDates = [...new Set(
+      (_trendsData.keywords || []).flatMap(k => (k.history || []).slice(-days).map(h => h.date))
+    )].sort();
+
+    const datasets = (_trendsData.keywords || []).map((kw, i) => ({
       label: kw.keyword,
       data: allDates.map(d => {
         const h = (kw.history || []).find(x => x.date === d);
@@ -2932,32 +2988,40 @@
       borderColor: colors[i % colors.length],
       backgroundColor: "transparent",
       borderWidth: 2,
-      pointRadius: 3,
+      pointRadius: days <= 7 ? 4 : days <= 30 ? 3 : 2,
       tension: 0.4,
       spanGaps: true,
     }));
 
     if (_chartTrends) { _chartTrends.destroy(); _chartTrends = null; }
     const ctx2 = document.getElementById("chartTrends")?.getContext("2d");
-    if (ctx2) {
-      _chartTrends = new Chart(ctx2, {
-        type: "line",
-        data: { labels: allDates.map(d => d.slice(5)), datasets },
-        options: {
-          responsive: true, maintainAspectRatio: false,
-          plugins: {
-            legend: { position: "bottom", labels: { font: { size: 11 }, boxWidth: 12, padding: 12 } },
-            tooltip: { mode: "index", intersect: false }
+    if (!ctx2) return;
+    _chartTrends = new Chart(ctx2, {
+      type: "line",
+      data: { labels: allDates.map(d => d.slice(5)), datasets },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        interaction: { mode: "index", intersect: false },
+        plugins: {
+          legend: { position: "bottom", labels: { font: { size: 12 }, boxWidth: 14, padding: 14 } },
+          tooltip: {
+            mode: "index", intersect: false,
+            callbacks: { title: (items) => allDates[items[0]?.dataIndex] ?? "" }
+          }
+        },
+        scales: {
+          x: {
+            grid: { color: "rgba(128,128,128,.08)" },
+            ticks: { font: { size: 11 }, maxTicksLimit: days <= 7 ? 7 : days <= 30 ? 10 : 12 }
           },
-          scales: {
-            x: { grid: { color: "rgba(128,128,128,.1)" }, ticks: { font: { size: 11 } } },
-            y: { min: 0, max: 100, grid: { color: "rgba(128,128,128,.1)" }, ticks: { font: { size: 11 } } }
+          y: {
+            min: 0, max: 100,
+            grid: { color: "rgba(128,128,128,.08)" },
+            ticks: { font: { size: 11 } }
           }
         }
-      });
-    }
-
-    if (btn) { btn.disabled = false; btn.textContent = "⟳ 更新"; }
+      }
+    });
   }
 
   // ─── 起動 ─────────────────────────────────────────────────────────────────

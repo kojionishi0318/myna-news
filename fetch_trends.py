@@ -72,8 +72,9 @@ def fetch_keyword(pytrends, keyword: str) -> dict | None:
     失敗時は None を返す。
     """
     try:
-        # 直近7日分の時間別データを取得
-        pytrends.build_payload([keyword], timeframe="now 7-d", geo="JP")
+        # 直近90日（3ヶ月）の日次データを取得
+        # → 7日/1ヶ月/3ヶ月の期間切替に対応、KPIは末尾7日分で算出
+        pytrends.build_payload([keyword], timeframe="today 3-m", geo="JP")
         df = pytrends.interest_over_time()
 
         if df is None or df.empty or keyword not in df.columns:
@@ -81,7 +82,7 @@ def fetch_keyword(pytrends, keyword: str) -> dict | None:
             return None
 
         # isPartial 列を除外して日次集計
-        series = df[keyword]
+        series   = df[keyword]
         df_daily = series.resample("D").mean().round(1)
         df_daily = df_daily[df_daily.notna()]
 
@@ -94,9 +95,11 @@ def fetch_keyword(pytrends, keyword: str) -> dict | None:
             for d, v in df_daily.items()
         ]
 
-        today_val      = history[-1]["value"]
-        yesterday_val  = history[-2]["value"] if len(history) >= 2 else today_val
-        avg_7day       = round(sum(h["value"] for h in history) / len(history), 1)
+        # KPIは直近7日分で算出
+        recent        = history[-7:] if len(history) >= 7 else history
+        today_val      = recent[-1]["value"]
+        yesterday_val  = recent[-2]["value"] if len(recent) >= 2 else today_val
+        avg_7day       = round(sum(h["value"] for h in recent) / len(recent), 1)
 
         change_day  = round((today_val - yesterday_val) / yesterday_val * 100, 1) \
                       if yesterday_val > 0 else 0.0
