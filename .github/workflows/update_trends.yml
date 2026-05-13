@@ -24,7 +24,7 @@ jobs:
           cache: 'pip'
 
       - name: 依存パッケージをインストール
-        run: pip install pytrends pandas requests
+        run: pip install pytrends pandas requests "urllib3<2.0"
 
       - name: トレンドデータを取得
         run: python fetch_trends.py --force
