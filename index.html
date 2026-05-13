@@ -738,6 +738,16 @@
       --tab-bg:    rgba(79,209,197,.12);
       --tab-border:rgba(79,209,197,.35);
     }
+    .view-btn[data-view="trends"] {
+      --tab-color: #b45309;
+      --tab-bg:    #fffbeb;
+      --tab-border:#fcd34d;
+    }
+    [data-theme="dark"] .view-btn[data-view="trends"] {
+      --tab-color: #fbbf24;
+      --tab-bg:    rgba(251,191,36,.12);
+      --tab-border:rgba(251,191,36,.35);
+    }
 
     .view-nav {
       background: var(--surface);
@@ -797,12 +807,87 @@
     }
 
     /* ─── ビューごとの背景色 ─────────────────────────────────── */
-    body[data-view="news"]  { background: #ebf4ff; }
-    body[data-view="diet"]  { background: #f3ecff; }
-    body[data-view="stats"] { background: #e6fffa; }
-    [data-theme="dark"] body[data-view="news"]  { background: #0b1d33; }
-    [data-theme="dark"] body[data-view="diet"]  { background: #150d2e; }
-    [data-theme="dark"] body[data-view="stats"] { background: #071d1c; }
+    body[data-view="news"]   { background: #ebf4ff; }
+    body[data-view="diet"]   { background: #f3ecff; }
+    body[data-view="stats"]  { background: #e6fffa; }
+    body[data-view="trends"] { background: #fffbeb; }
+    [data-theme="dark"] body[data-view="news"]   { background: #0b1d33; }
+    [data-theme="dark"] body[data-view="diet"]   { background: #150d2e; }
+    [data-theme="dark"] body[data-view="stats"]  { background: #071d1c; }
+    [data-theme="dark"] body[data-view="trends"] { background: #1c1200; }
+
+    /* ─── トレンドタブ ───────────────────────────────────────────── */
+    .trends-meta {
+      max-width: 960px; margin: 0 auto;
+      padding: 14px 16px 0;
+      display: flex; align-items: center; gap: 10px;
+      font-size: 12px; color: var(--text-muted);
+    }
+    .trends-alert-banner {
+      max-width: 960px; margin: 12px auto 0; padding: 0 16px;
+    }
+    .trends-alert-inner {
+      display: flex; align-items: center; gap: 10px;
+      padding: 12px 16px; border-radius: 10px;
+      font-size: 13px; font-weight: 600;
+      border: 1px solid;
+    }
+    .trends-alert-inner.green  { background: #f0fff4; border-color: #9ae6b4; color: #276749; }
+    .trends-alert-inner.yellow { background: #fffff0; border-color: #f6e05e; color: #744210; }
+    .trends-alert-inner.red    { background: #fff5f5; border-color: #feb2b2; color: #9b2c2c; }
+    [data-theme="dark"] .trends-alert-inner.green  { background: rgba(72,187,120,.1); border-color: rgba(72,187,120,.3); color: #68d391; }
+    [data-theme="dark"] .trends-alert-inner.yellow { background: rgba(236,201,75,.1); border-color: rgba(236,201,75,.3); color: #f6e05e; }
+    [data-theme="dark"] .trends-alert-inner.red    { background: rgba(245,101,101,.1); border-color: rgba(245,101,101,.3); color: #fc8181; }
+
+    .trends-grid {
+      max-width: 960px; margin: 14px auto 0; padding: 0 16px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+    .trend-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 14px 16px;
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow: hidden;
+    }
+    .trend-card.alert { border-color: #fbbf24; }
+    .trend-card-kw {
+      font-size: 12px; font-weight: 700;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .trend-card-val {
+      font-size: 32px; font-weight: 900;
+      color: var(--text); line-height: 1;
+      margin-bottom: 6px;
+    }
+    .trend-card-changes {
+      display: flex; gap: 12px; margin-bottom: 10px;
+      font-size: 12px; font-weight: 600;
+    }
+    .trend-change-up   { color: #e53e3e; }
+    .trend-change-down { color: #3182ce; }
+    .trend-change-flat { color: var(--text-muted); }
+    .trend-card-spark { height: 48px; }
+    .trend-alert-badge {
+      position: absolute; top: 10px; right: 10px;
+      font-size: 10px; font-weight: 700;
+      background: #fbbf24; color: #78350f;
+      padding: 2px 8px; border-radius: 10px;
+    }
+
+    .trends-chart-wrap {
+      max-width: 960px; margin: 16px auto 0; padding: 0 16px 24px;
+    }
+    .trends-note {
+      max-width: 960px; margin: 0 auto; padding: 8px 16px 24px;
+      font-size: 11px; color: var(--text-muted);
+    }
 
     /* ─── 国会質疑：コントロール ────────────────────────────── */
     .diet-controls {
@@ -1313,6 +1398,9 @@
     <button class="view-btn" data-view="stats">
       📊 統計
     </button>
+    <button class="view-btn" data-view="trends">
+      📈 トレンド <span class="view-badge" id="viewBadgeTrends">―</span>
+    </button>
   </div>
 </nav>
 
@@ -1503,6 +1591,25 @@
 
   </div>
 </div><!-- /#statsSection -->
+
+<!-- ─── トレンドセクション ────────────────────────────────────── -->
+<div id="trendsSection" style="display:none">
+  <div class="trends-alert-banner"><div id="trendsAlertInner"></div></div>
+  <div class="trends-meta">
+    最終更新: <span id="trendsUpdated">読み込み中...</span>
+    <button class="refresh-btn" id="trendsRefreshBtn" onclick="loadTrends(true)">⟳ 更新</button>
+  </div>
+  <div class="trends-grid" id="trendsGrid">
+    <div style="grid-column:1/-1;padding:40px;text-align:center;color:var(--text-muted)">読み込み中...</div>
+  </div>
+  <div class="trends-chart-wrap">
+    <div class="card" style="padding:20px">
+      <div style="font-size:14px;font-weight:700;margin-bottom:16px;color:var(--text)">📈 検索数の推移（直近7日）</div>
+      <div style="position:relative;height:220px"><canvas id="chartTrends"></canvas></div>
+    </div>
+  </div>
+  <p class="trends-note">※ 数値はGoogle トレンドの相対値（0〜100）です。100が計測期間中の最大値を示します。前日比・週平均比は相対値をもとに算出しています。</p>
+</div><!-- /#trendsSection -->
 
 <!-- トップへ戻るボタン -->
 <button class="back-top" id="backTopBtn" title="トップへ戻る" aria-label="トップへ戻る">↑</button>
@@ -2135,7 +2242,8 @@
   // ─── ビュー切替 ───────────────────────────────────────────────────────────
   let activeView  = "news";
   let dietLoaded  = false;
-  let statsLoaded = false;
+  let statsLoaded  = false;
+  let trendsLoaded = false;
 
   function switchView(view) {
     activeView = view;
@@ -2143,9 +2251,10 @@
     document.querySelectorAll(".view-btn").forEach(btn => {
       btn.classList.toggle("active", btn.dataset.view === view);
     });
-    document.getElementById("newsSection").style.display  = view === "news"  ? "" : "none";
-    document.getElementById("dietSection").style.display  = view === "diet"  ? "" : "none";
-    document.getElementById("statsSection").style.display = view === "stats" ? "" : "none";
+    document.getElementById("newsSection").style.display   = view === "news"   ? "" : "none";
+    document.getElementById("dietSection").style.display   = view === "diet"   ? "" : "none";
+    document.getElementById("statsSection").style.display  = view === "stats"  ? "" : "none";
+    document.getElementById("trendsSection").style.display = view === "trends" ? "" : "none";
     if (view === "diet" && !dietLoaded) {
       dietLoaded = true;
       loadDiet();
@@ -2153,6 +2262,10 @@
     if (view === "stats" && !statsLoaded) {
       statsLoaded = true;
       loadStats();
+    }
+    if (view === "trends" && !trendsLoaded) {
+      trendsLoaded = true;
+      loadTrends();
     }
   }
 
@@ -2699,6 +2812,150 @@
       _chartInstances[id].destroy();
       delete _chartInstances[id];
     }
+  }
+
+  // ─── Googleトレンドダッシュボード ─────────────────────────────────────────
+  let _chartTrends = null;
+  let _trendsCooldown = false;
+
+  async function loadTrends(force = false) {
+    if (_trendsCooldown && !force) return;
+    _trendsCooldown = true;
+    setTimeout(() => { _trendsCooldown = false; }, 10000);
+
+    const btn = document.getElementById("trendsRefreshBtn");
+    if (btn) { btn.disabled = true; btn.textContent = "⟳ 更新中…"; }
+
+    let data;
+    try {
+      const res = await fetch("trends_data.json?_=" + Date.now());
+      if (!res.ok) throw new Error("trends_data.json not found");
+      data = await res.json();
+    } catch(e) {
+      document.getElementById("trendsGrid").innerHTML =
+        `<div style="grid-column:1/-1;padding:40px;text-align:center;color:var(--text-muted)">
+           トレンドデータを読み込めませんでした。<br>
+           <small>GitHub Actionsによる初回データ生成をお待ちください。</small>
+         </div>`;
+      if (btn) { btn.disabled = false; btn.textContent = "⟳ 更新"; }
+      return;
+    }
+
+    // 更新時刻
+    const updEl = document.getElementById("trendsUpdated");
+    if (updEl && data.updated) {
+      const d = new Date(data.updated);
+      updEl.textContent = d.toLocaleString("ja-JP");
+    }
+
+    // アラートバナー
+    const alertEl = document.getElementById("trendsAlertInner");
+    const alertCount = (data.keywords || []).filter(k => k.alert).length;
+    const levelMap = { green: ["🟢", "平常範囲内"], yellow: ["🟡", "要注意：一部キーワードが上昇中"], red: ["🔴", "アラート：複数キーワードが急上昇中"] };
+    const [icon, msg] = levelMap[data.alert_level] || levelMap.green;
+    alertEl.className = `trends-alert-inner ${data.alert_level || "green"}`;
+    alertEl.innerHTML = `<span style="font-size:18px">${icon}</span><span>${msg}</span>`;
+
+    // バッジ件数
+    const badge = document.getElementById("viewBadgeTrends");
+    if (badge) badge.textContent = alertCount > 0 ? `!${alertCount}` : "−";
+
+    // キーワードカード
+    const grid = document.getElementById("trendsGrid");
+    grid.innerHTML = "";
+    (data.keywords || []).forEach(kw => {
+      const changeDay  = kw.change_day  ?? 0;
+      const changeWeek = kw.change_week ?? 0;
+      const dayClass   = changeDay  > 10 ? "trend-change-up" : changeDay  < -10 ? "trend-change-down" : "trend-change-flat";
+      const weekClass  = changeWeek > 10 ? "trend-change-up" : changeWeek < -10 ? "trend-change-down" : "trend-change-flat";
+      const dayArrow   = changeDay  > 0  ? "▲" : changeDay  < 0 ? "▼" : "─";
+      const weekArrow  = changeWeek > 0  ? "▲" : changeWeek < 0 ? "▼" : "─";
+      const cardId = "spark_" + kw.keyword.replace(/\s/g,"_");
+      grid.insertAdjacentHTML("beforeend", `
+        <div class="trend-card${kw.alert ? " alert" : ""}">
+          ${kw.alert ? '<span class="trend-alert-badge">急上昇</span>' : ""}
+          <div class="trend-card-kw">${escHtml(kw.keyword)}</div>
+          <div class="trend-card-val">${kw.current ?? "―"}</div>
+          <div class="trend-card-changes">
+            <span class="${dayClass}">${dayArrow} 前日比 ${changeDay > 0 ? "+" : ""}${changeDay}%</span>
+            <span class="${weekClass}">${weekArrow} 週平均比 ${changeWeek > 0 ? "+" : ""}${changeWeek}%</span>
+          </div>
+          <canvas class="trend-card-spark" id="${cardId}"></canvas>
+        </div>`);
+
+      // スパークラインチャート
+      const hist = (kw.history || []).slice(-7);
+      if (hist.length >= 2) {
+        const ctx = document.getElementById(cardId)?.getContext("2d");
+        if (ctx) {
+          new Chart(ctx, {
+            type: "line",
+            data: {
+              labels: hist.map(h => h.date.slice(5)),
+              datasets: [{
+                data: hist.map(h => h.value),
+                borderColor: kw.alert ? "#f59e0b" : "#60a5fa",
+                borderWidth: 2,
+                pointRadius: 0,
+                tension: 0.4,
+                fill: true,
+                backgroundColor: kw.alert ? "rgba(245,158,11,.12)" : "rgba(96,165,250,.1)",
+              }]
+            },
+            options: {
+              responsive: true, maintainAspectRatio: false,
+              plugins: { legend: { display: false }, tooltip: { enabled: false } },
+              scales: {
+                x: { display: false },
+                y: { display: false, min: 0 }
+              }
+            }
+          });
+        }
+      }
+    });
+
+    // メイン推移チャート
+    const allDates = [...new Set(
+      (data.keywords || []).flatMap(k => (k.history || []).map(h => h.date))
+    )].sort().slice(-7);
+
+    const colors = ["#3b82f6","#8b5cf6","#10b981","#ef4444","#f59e0b","#06b6d4"];
+    const datasets = (data.keywords || []).map((kw, i) => ({
+      label: kw.keyword,
+      data: allDates.map(d => {
+        const h = (kw.history || []).find(x => x.date === d);
+        return h ? h.value : null;
+      }),
+      borderColor: colors[i % colors.length],
+      backgroundColor: "transparent",
+      borderWidth: 2,
+      pointRadius: 3,
+      tension: 0.4,
+      spanGaps: true,
+    }));
+
+    if (_chartTrends) { _chartTrends.destroy(); _chartTrends = null; }
+    const ctx2 = document.getElementById("chartTrends")?.getContext("2d");
+    if (ctx2) {
+      _chartTrends = new Chart(ctx2, {
+        type: "line",
+        data: { labels: allDates.map(d => d.slice(5)), datasets },
+        options: {
+          responsive: true, maintainAspectRatio: false,
+          plugins: {
+            legend: { position: "bottom", labels: { font: { size: 11 }, boxWidth: 12, padding: 12 } },
+            tooltip: { mode: "index", intersect: false }
+          },
+          scales: {
+            x: { grid: { color: "rgba(128,128,128,.1)" }, ticks: { font: { size: 11 } } },
+            y: { min: 0, max: 100, grid: { color: "rgba(128,128,128,.1)" }, ticks: { font: { size: 11 } } }
+          }
+        }
+      });
+    }
+
+    if (btn) { btn.disabled = false; btn.textContent = "⟳ 更新"; }
   }
 
   // ─── 起動 ─────────────────────────────────────────────────────────────────

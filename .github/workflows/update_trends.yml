@@ -1,0 +1,36 @@
+name: Update Trends Data
+
+on:
+  schedule:
+    - cron: '5 * * * *'   # 毎時5分（UTC）＝毎時14分（JST）
+  workflow_dispatch:       # 手動実行も可
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: リポジトリをチェックアウト
+        uses: actions/checkout@v4
+
+      - name: Python セットアップ
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: 依存パッケージをインストール
+        run: pip install pytrends pandas requests
+
+      - name: トレンドデータを取得
+        run: python fetch_trends.py --force
+
+      - name: 変更をコミット＆プッシュ
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: update trends data [skip ci]'
+          file_pattern: trends_data.json
