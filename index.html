@@ -873,7 +873,7 @@
     .trend-change-up   { color: #e53e3e; }
     .trend-change-down { color: #3182ce; }
     .trend-change-flat { color: var(--text-muted); }
-    .trend-card-spark { height: 48px; }
+    .trend-card-spark { height: 48px; width: 100%; display: block; }
     .trend-alert-badge {
       position: absolute; top: 10px; right: 10px;
       font-size: 10px; font-weight: 700;
@@ -2880,7 +2880,9 @@
             <span class="${dayClass}">${dayArrow} 前日比 ${changeDay > 0 ? "+" : ""}${changeDay}%</span>
             <span class="${weekClass}">${weekArrow} 週平均比 ${changeWeek > 0 ? "+" : ""}${changeWeek}%</span>
           </div>
-          <canvas class="trend-card-spark" id="${cardId}"></canvas>
+          <div style="position:relative;height:48px;width:100%">
+            <canvas id="${cardId}"></canvas>
+          </div>
         </div>`);
 
       // スパークラインチャート
