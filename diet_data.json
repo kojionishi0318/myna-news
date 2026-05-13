@@ -1,8 +1,8 @@
 {
-  "updated": "2026-05-11T20:49:47+09:00",
-  "total_exchanges": 225,
+  "updated": "2026-05-13T19:02:41+09:00",
+  "total_exchanges": 227,
   "total_questions": 201,
-  "total_answers": 111,
+  "total_answers": 112,
   "exchanges": [
     {
       "issueID": "122114601X01120260611",
@@ -1325,35 +1325,6 @@
         "excerpt": "○参考人（増田寛也君） 今日は、このような機会を頂戴いたしまして、大変ありがとうございます。 御指名をいただきました増田でございますが、いただきましたお題が、地方公共団体の持続可能性についてということでお題をいただきました。 持続可能性については、例えば財政面のことも気になる部分もございますが、現在、地方制度調査会で、ちょうど一月の十九日ですか、",
         "speechURL": "https://kokkai.ndl.go.jp/txt/122114324X00320260415/7",
         "speechOrder": 7
-      },
-      "answers": [],
-      "ai_title": ""
-    },
-    {
-      "issueID": "122104889X00420260415",
-      "session": 221,
-      "nameOfHouse": "衆議院",
-      "nameOfMeeting": "内閣委員会",
-      "issue": "第4号",
-      "imageKind": "会議録",
-      "date": "2026-04-15",
-      "question": {
-        "speechID": "122104889X00420260415_004",
-        "issueID": "122104889X00420260415",
-        "session": 221,
-        "nameOfHouse": "衆議院",
-        "nameOfMeeting": "内閣委員会",
-        "issue": "第4号",
-        "imageKind": "会議録",
-        "date": "2026-04-15",
-        "speaker": "大島敦",
-        "speakerGroup": "中道改革連合・無所属",
-        "speakerPosition": "",
-        "speakerRole": "",
-        "is_minister": false,
-        "excerpt": "○大島委員 おはようございます。 二〇一三年、国家安全保障会議の審議では、第六条二項は、当初は「求めることができる。」という内容から、修正により、「行わなければならない。」型へ強化されております。委員会答弁でも、改正後は、各省庁が国家安全保障会議への資料、情報提供義務を負うという理解が明確にされております。 多分、答弁したのは、後藤さんだと思うんです。当時、",
-        "speechURL": "https://kokkai.ndl.go.jp/txt/122104889X00420260415/4",
-        "speechOrder": 4
       },
       "answers": [],
       "ai_title": ""
