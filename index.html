@@ -1626,8 +1626,8 @@
           <button class="trends-period-btn" data-period="90">3ヶ月</button>
         </div>
       </div>
-      <div style="display:flex;gap:0;align-items:stretch">
-        <div style="flex:1;min-width:0;position:relative;min-height:460px">
+      <div style="display:flex;gap:0;align-items:flex-start">
+        <div style="flex:1;min-width:0;position:relative;height:400px">
           <canvas id="chartTrends" style="position:absolute;inset:0;width:100%!important;height:100%!important"></canvas>
         </div>
         <div style="width:180px;flex-shrink:0;border-left:1px solid var(--border);padding-left:20px;display:flex;flex-direction:column" id="trendsAvgPanel">
@@ -3041,7 +3041,7 @@
       return slice.length ? Math.round(slice.reduce((s, h) => s + h.value, 0) / slice.length) : 0;
     });
     const maxAvg = Math.max(...avgData, 1);
-    const BAR_MAX = 280; // px
+    const BAR_MAX = 260; // px（右パネルのバー最大高さ）
 
     panel.innerHTML = `
       <div style="font-size:11px;font-weight:700;color:var(--text-muted);margin-bottom:10px">インタレストの平均値</div>
