@@ -1627,8 +1627,8 @@
         </div>
       </div>
       <div style="display:flex;gap:0;align-items:stretch">
-        <div style="flex:1;min-width:0;position:relative;height:400px">
-          <canvas id="chartTrends"></canvas>
+        <div style="flex:1;min-width:0;position:relative;min-height:460px">
+          <canvas id="chartTrends" style="position:absolute;inset:0;width:100%!important;height:100%!important"></canvas>
         </div>
         <div style="width:180px;flex-shrink:0;border-left:1px solid var(--border);padding-left:20px;display:flex;flex-direction:column" id="trendsAvgPanel">
           <div style="font-size:11px;font-weight:700;color:var(--text-muted);margin-bottom:8px">インタレストの平均値</div>
@@ -3041,7 +3041,7 @@
       return slice.length ? Math.round(slice.reduce((s, h) => s + h.value, 0) / slice.length) : 0;
     });
     const maxAvg = Math.max(...avgData, 1);
-    const BAR_MAX = 240; // px
+    const BAR_MAX = 280; // px
 
     panel.innerHTML = `
       <div style="font-size:11px;font-weight:700;color:var(--text-muted);margin-bottom:10px">インタレストの平均値</div>
@@ -3052,9 +3052,7 @@
           return `
             <div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%;gap:4px;min-width:0">
               <span style="font-size:13px;font-weight:800;color:var(--text);line-height:1">${avgData[i]}</span>
-              <div style="width:100%;height:${barH}px;background:${col}40;border-radius:4px 4px 0 0;position:relative;overflow:hidden">
-                <div style="position:absolute;bottom:0;left:0;right:0;height:40%;background:${col};opacity:.85"></div>
-              </div>
+              <div style="width:100%;height:${barH}px;background:${col};border-radius:4px 4px 0 0;opacity:0.8"></div>
             </div>`;
         }).join('')}
       </div>
