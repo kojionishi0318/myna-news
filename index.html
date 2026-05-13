@@ -1627,8 +1627,8 @@
         </div>
       </div>
       <div style="display:flex;gap:0;align-items:flex-start">
-        <div style="flex:1;min-width:0;position:relative;height:400px">
-          <canvas id="chartTrends" style="position:absolute;inset:0;width:100%!important;height:100%!important"></canvas>
+        <div style="flex:1;min-width:0;position:relative;height:400px;width:100%">
+          <canvas id="chartTrends"></canvas>
         </div>
         <div style="width:180px;flex-shrink:0;border-left:1px solid var(--border);padding-left:20px;display:flex;flex-direction:column" id="trendsAvgPanel">
           <div style="font-size:11px;font-weight:700;color:var(--text-muted);margin-bottom:8px">インタレストの平均値</div>
@@ -2962,8 +2962,9 @@
     });
 
     // グローバルに保持して期間切替で再描画
+    // requestAnimationFrame でDOMレイアウト確定後に描画
     _trendsData = data;
-    renderTrendsChart(_trendsPeriod);
+    requestAnimationFrame(() => renderTrendsChart(_trendsPeriod));
 
     // 期間選択ボタン
     document.querySelectorAll(".trends-period-btn").forEach(b => {
