@@ -1,8 +1,8 @@
 {
-  "updated": "2026-05-12T19:04:31+09:00",
-  "total_exchanges": 226,
+  "updated": "2026-05-13T19:02:41+09:00",
+  "total_exchanges": 227,
   "total_questions": 201,
-  "total_answers": 111,
+  "total_answers": 112,
   "exchanges": [
     {
       "issueID": "122105367X00320260416",
@@ -174,6 +174,37 @@
         "speechOrder": 7
       },
       "answers": [],
+      "ai_title": ""
+    },
+    {
+      "issueID": "122114889X00320260414",
+      "session": 221,
+      "nameOfHouse": "参議院",
+      "nameOfMeeting": "内閣委員会",
+      "issue": "第3号",
+      "imageKind": "会議録",
+      "date": "2026-04-14",
+      "question": null,
+      "answers": [
+        {
+          "speechID": "122114889X00320260414_210",
+          "issueID": "122114889X00320260414",
+          "session": 221,
+          "nameOfHouse": "参議院",
+          "nameOfMeeting": "内閣委員会",
+          "issue": "第3号",
+          "imageKind": "会議録",
+          "date": "2026-04-14",
+          "speaker": "榊原毅",
+          "speakerGroup": "",
+          "speakerPosition": "厚生労働省大臣官房審議官",
+          "speakerRole": "",
+          "is_minister": true,
+          "excerpt": "○政府参考人（榊原毅君） お答え申し上げます。 政府としては、二〇二三年に策定した医療ＤＸの推進に関する工程表に基づきまして、医療等情報の一次利用の取組として、オンライン資格確認等システムにより、医療保険のレセプトの診療、薬剤情報、電子処方箋管理サービスによる直近の薬剤情報などの共有や利活用を始めております。これらに加えまして、電子カルテ内の診療情報提供書、",
+          "speechURL": "https://kokkai.ndl.go.jp/txt/122114889X00320260414/210",
+          "speechOrder": 210
+        }
+      ],
       "ai_title": ""
     },
     {
