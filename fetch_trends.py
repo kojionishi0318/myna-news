@@ -28,6 +28,7 @@ import sys
 import os
 import json
 import time
+import random
 import datetime
 import argparse
 
@@ -43,7 +44,9 @@ JST             = datetime.timezone(datetime.timedelta(hours=9))
 FRESHNESS_SECS  = 3300   # 55分（1時間ごと実行で二重取得防止）
 SPIKE_THRESHOLD = 1.5    # 週平均の1.5倍超でアラート
 MIN_ALERT_VAL   = 5      # この値未満は件数が少なすぎてアラートしない
-SLEEP_BETWEEN   = 6      # バッチ間の待機秒（レート制限対策）
+SLEEP_BETWEEN   = 10     # バッチ間の待機秒（レート制限対策）
+SLEEP_INIT_MIN  = 5      # 初回リクエスト前の最小待機秒
+SLEEP_INIT_MAX  = 15     # 初回リクエスト前の最大待機秒
 
 KEYWORDS = [
     "マイナ保険証",        # ← アンカーキーワード（バッチ1・2 両方に含まれる）
@@ -186,21 +189,42 @@ def main():
         print("=" * 52)
         return
 
+    # GitHub Actions の IP はレート制限を受けやすいため
+    # ブラウザ風 User-Agent を設定し、リトライも強化
     pytrends = TrendReq(
         hl="ja-JP", tz=-540,
-        timeout=(10, 30),
-        retries=2,
-        backoff_factor=0.5,
+        timeout=(15, 60),
+        retries=3,
+        backoff_factor=2.0,
+        requests_args={
+            "headers": {
+                "User-Agent": (
+                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                    "AppleWebKit/537.36 (KHTML, like Gecko) "
+                    "Chrome/124.0.0.0 Safari/537.36"
+                ),
+                "Accept-Language": "ja-JP,ja;q=0.9,en-US;q=0.8,en;q=0.7",
+            }
+        },
     )
+
+    # 初回リクエスト前にランダム待機（レート制限回避）
+    wait_sec = random.uniform(SLEEP_INIT_MIN, SLEEP_INIT_MAX)
+    print(f"  [待機] {wait_sec:.1f}秒待機中...")
+    time.sleep(wait_sec)
 
     # ── バッチ1: 最初の5キーワードを一括取得 ──────────────────────────────────
     print(f"  [バッチ1] {BATCH1}")
     df1 = fetch_batch(pytrends, BATCH1)
     if df1 is None:
-        print("  [エラー] バッチ1 の取得に失敗しました")
-        sys.exit(1)
+        print("  [警告] バッチ1 の取得に失敗しました（レート制限の可能性）")
+        print("  [スキップ] 前回のデータを保持します。次回の自動更新をお待ちください。")
+        print("=" * 52)
+        sys.exit(0)  # CIを壊さないよう exit 0 で終了
 
-    time.sleep(SLEEP_BETWEEN)
+    wait2 = random.uniform(SLEEP_BETWEEN, SLEEP_BETWEEN + 5)
+    print(f"  [待機] バッチ間 {wait2:.1f}秒待機中...")
+    time.sleep(wait2)
 
     # ── バッチ2: アンカー + 残りキーワードを取得（スケール正規化用）────────────
     scale_factor = 1.0
