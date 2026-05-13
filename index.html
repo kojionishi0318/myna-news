@@ -1626,7 +1626,7 @@
           <button class="trends-period-btn" data-period="90">3ヶ月</button>
         </div>
       </div>
-      <div style="position:relative;height:340px"><canvas id="chartTrends"></canvas></div>
+      <div style="position:relative;height:460px"><canvas id="chartTrends"></canvas></div>
     </div>
   </div>
   <p class="trends-note">※ 数値はGoogle トレンドの相対値（0〜100）です。100が計測期間中の最大値を示します。前日比・週平均比は相対値をもとに算出しています。</p>
@@ -3003,7 +3003,10 @@
         responsive: true, maintainAspectRatio: false,
         interaction: { mode: "index", intersect: false },
         plugins: {
-          legend: { position: "bottom", labels: { font: { size: 12 }, boxWidth: 14, padding: 14 } },
+          legend: {
+            position: "right",
+            labels: { font: { size: 12 }, boxWidth: 14, padding: 16, usePointStyle: true }
+          },
           tooltip: {
             mode: "index", intersect: false,
             callbacks: { title: (items) => allDates[items[0]?.dataIndex] ?? "" }
