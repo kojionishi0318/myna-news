@@ -1619,14 +1619,21 @@
   <div class="trends-chart-wrap">
     <div class="card" style="padding:20px">
       <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;flex-wrap:wrap;gap:10px">
-        <div style="font-size:14px;font-weight:700;color:var(--text)">📈 検索数の推移</div>
+        <div style="font-size:14px;font-weight:700;color:var(--text)">📈 インタレストの推移</div>
         <div class="trends-period-selector" id="trendsPeriodSelector">
           <button class="trends-period-btn active" data-period="7">7日</button>
           <button class="trends-period-btn" data-period="30">1ヶ月</button>
           <button class="trends-period-btn" data-period="90">3ヶ月</button>
         </div>
       </div>
-      <div style="position:relative;height:460px"><canvas id="chartTrends"></canvas></div>
+      <div style="display:flex;gap:0;align-items:stretch">
+        <div style="flex:1;min-width:0;position:relative;height:400px">
+          <canvas id="chartTrends"></canvas>
+        </div>
+        <div style="width:180px;flex-shrink:0;border-left:1px solid var(--border);padding-left:20px;display:flex;flex-direction:column" id="trendsAvgPanel">
+          <div style="font-size:11px;font-weight:700;color:var(--text-muted);margin-bottom:8px">インタレストの平均値</div>
+        </div>
+      </div>
     </div>
   </div>
   <p class="trends-note">※ 数値はGoogle トレンドの相対値（0〜100）です。100が計測期間中の最大値を示します。前日比・週平均比は相対値をもとに算出しています。</p>
@@ -2973,58 +2980,91 @@
 
   function renderTrendsChart(days) {
     if (!_trendsData) return;
-    const colors = ["#3b82f6","#8b5cf6","#10b981","#ef4444","#f59e0b","#06b6d4"];
+    const COLORS = ["#3b82f6","#8b5cf6","#10b981","#ef4444","#f59e0b","#06b6d4"];
+    const keywords = _trendsData.keywords || [];
 
     const allDates = [...new Set(
-      (_trendsData.keywords || []).flatMap(k => (k.history || []).slice(-days).map(h => h.date))
+      keywords.flatMap(k => (k.history || []).slice(-days).map(h => h.date))
     )].sort();
 
-    const datasets = (_trendsData.keywords || []).map((kw, i) => ({
+    const datasets = keywords.map((kw, i) => ({
       label: kw.keyword,
       data: allDates.map(d => {
         const h = (kw.history || []).find(x => x.date === d);
         return h ? h.value : null;
       }),
-      borderColor: colors[i % colors.length],
+      borderColor: COLORS[i % COLORS.length],
       backgroundColor: "transparent",
       borderWidth: 2,
-      pointRadius: days <= 7 ? 4 : days <= 30 ? 3 : 2,
+      pointRadius: days <= 7 ? 3 : days <= 30 ? 2 : 1,
       tension: 0.4,
       spanGaps: true,
     }));
 
     if (_chartTrends) { _chartTrends.destroy(); _chartTrends = null; }
-    const ctx2 = document.getElementById("chartTrends")?.getContext("2d");
-    if (!ctx2) return;
-    _chartTrends = new Chart(ctx2, {
-      type: "line",
-      data: { labels: allDates.map(d => d.slice(5)), datasets },
-      options: {
-        responsive: true, maintainAspectRatio: false,
-        interaction: { mode: "index", intersect: false },
-        plugins: {
-          legend: {
-            position: "right",
-            labels: { font: { size: 12 }, boxWidth: 14, padding: 16, usePointStyle: true }
+    const ctx = document.getElementById("chartTrends")?.getContext("2d");
+    if (ctx) {
+      _chartTrends = new Chart(ctx, {
+        type: "line",
+        data: { labels: allDates.map(d => d.slice(5)), datasets },
+        options: {
+          responsive: true, maintainAspectRatio: false,
+          interaction: { mode: "index", intersect: false },
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              mode: "index", intersect: false,
+              callbacks: { title: (items) => allDates[items[0]?.dataIndex] ?? "" }
+            }
           },
-          tooltip: {
-            mode: "index", intersect: false,
-            callbacks: { title: (items) => allDates[items[0]?.dataIndex] ?? "" }
-          }
-        },
-        scales: {
-          x: {
-            grid: { color: "rgba(128,128,128,.08)" },
-            ticks: { font: { size: 11 }, maxTicksLimit: days <= 7 ? 7 : days <= 30 ? 10 : 12 }
-          },
-          y: {
-            min: 0, max: 100,
-            grid: { color: "rgba(128,128,128,.08)" },
-            ticks: { font: { size: 11 } }
+          scales: {
+            x: {
+              grid: { color: "rgba(128,128,128,.08)" },
+              ticks: { font: { size: 11 }, maxTicksLimit: days <= 7 ? 7 : days <= 30 ? 10 : 12 }
+            },
+            y: {
+              min: 0, max: 100,
+              grid: { color: "rgba(128,128,128,.08)" },
+              ticks: { font: { size: 11 } }
+            }
           }
         }
-      }
+      });
+    }
+
+    // ── 右パネル：平均値バーチャート（HTML） ──
+    const panel = document.getElementById("trendsAvgPanel");
+    if (!panel) return;
+
+    const avgData = keywords.map(kw => {
+      const slice = (kw.history || []).slice(-days);
+      return slice.length ? Math.round(slice.reduce((s, h) => s + h.value, 0) / slice.length) : 0;
     });
+    const maxAvg = Math.max(...avgData, 1);
+    const BAR_MAX = 240; // px
+
+    panel.innerHTML = `
+      <div style="font-size:11px;font-weight:700;color:var(--text-muted);margin-bottom:10px">インタレストの平均値</div>
+      <div style="display:flex;align-items:flex-end;gap:8px;height:${BAR_MAX}px;margin-bottom:10px">
+        ${keywords.map((kw, i) => {
+          const barH = Math.max(Math.round(avgData[i] / maxAvg * BAR_MAX), avgData[i] > 0 ? 6 : 0);
+          const col   = COLORS[i % COLORS.length];
+          return `
+            <div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%;gap:4px;min-width:0">
+              <span style="font-size:13px;font-weight:800;color:var(--text);line-height:1">${avgData[i]}</span>
+              <div style="width:100%;height:${barH}px;background:${col}40;border-radius:4px 4px 0 0;position:relative;overflow:hidden">
+                <div style="position:absolute;bottom:0;left:0;right:0;height:40%;background:${col};opacity:.85"></div>
+              </div>
+            </div>`;
+        }).join('')}
+      </div>
+      <div style="border-top:1px solid var(--border);padding-top:10px;display:flex;flex-direction:column;gap:6px">
+        ${keywords.map((kw, i) => `
+          <div style="display:flex;align-items:center;gap:6px;min-width:0">
+            <span style="width:10px;height:10px;border-radius:50%;background:${COLORS[i % COLORS.length]};flex-shrink:0"></span>
+            <span style="font-size:10px;color:var(--text-muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${escHtml(kw.keyword)}</span>
+          </div>`).join('')}
+      </div>`;
   }
 
   // ─── 起動 ─────────────────────────────────────────────────────────────────
