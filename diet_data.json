@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-13T19:02:41+09:00",
+  "updated": "2026-05-14T18:40:53+09:00",
   "total_exchanges": 227,
   "total_questions": 201,
   "total_answers": 111,
@@ -989,35 +989,6 @@
         "excerpt": "○藤野政府参考人 御質問いただきました、まず、経営状況の関係でございます。 御指摘いただきました百三十七兆円、ゆうちょ銀行の貯金残高、それから、かんぽ生命の総資産の関係でございました。 この関係でございますけれども、減少があったということでございますけれども、ゆうちょ銀行の貯金残高の減少は、これは民営化の前に起こったものでございます。平成十二年、",
         "speechURL": "https://kokkai.ndl.go.jp/txt/122105261X00520260304/317",
         "speechOrder": 317
-      },
-      "answers": [],
-      "ai_title": ""
-    },
-    {
-      "issueID": "122105254X00420260225",
-      "session": 221,
-      "nameOfHouse": "衆議院",
-      "nameOfMeeting": "本会議",
-      "issue": "第4号",
-      "imageKind": "会議録",
-      "date": "2026-02-25",
-      "question": {
-        "speechID": "122105254X00420260225_008",
-        "issueID": "122105254X00420260225",
-        "session": 221,
-        "nameOfHouse": "衆議院",
-        "nameOfMeeting": "本会議",
-        "issue": "第4号",
-        "imageKind": "会議録",
-        "date": "2026-02-25",
-        "speaker": "和田政宗",
-        "speakerGroup": "参政党",
-        "speakerPosition": "",
-        "speakerRole": "",
-        "is_minister": false,
-        "excerpt": "○和田政宗君 参政党の和田政宗です。 参政党の衆議院で初めての代表質問となります。会派を代表し、高市総理の施政方針演説に対し質問します。（拍手） 参政党の日本人ファーストは、行き過ぎたグローバリズムに歯止めをかけ、反グローバリズムの政策を進め、真に国家国民のための政治を実現することです。 グローバリズムとは、情報や交通の発達により多国籍企業が台頭し、",
-        "speechURL": "https://kokkai.ndl.go.jp/txt/122105254X00420260225/8",
-        "speechOrder": 8
       },
       "answers": [],
       "ai_title": ""
