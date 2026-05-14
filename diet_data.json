@@ -1,8 +1,8 @@
 {
-  "updated": "2026-05-13T19:02:41+09:00",
+  "updated": "2026-05-14T18:40:52+09:00",
   "total_exchanges": 227,
   "total_questions": 201,
-  "total_answers": 111,
+  "total_answers": 112,
   "exchanges": [
     {
       "issueID": "122105367X00320260416",
@@ -406,6 +406,35 @@
           "speechOrder": 167
         }
       ],
+      "ai_title": ""
+    },
+    {
+      "issueID": "122105261X00520260304",
+      "session": 221,
+      "nameOfHouse": "衆議院",
+      "nameOfMeeting": "予算委員会",
+      "issue": "第5号",
+      "imageKind": "会議録",
+      "date": "2026-03-04",
+      "question": {
+        "speechID": "122105261X00520260304_317",
+        "issueID": "122105261X00520260304",
+        "session": 221,
+        "nameOfHouse": "衆議院",
+        "nameOfMeeting": "予算委員会",
+        "issue": "第5号",
+        "imageKind": "会議録",
+        "date": "2026-03-04",
+        "speaker": "藤野克",
+        "speakerGroup": "",
+        "speakerPosition": "内閣官房内閣審議官",
+        "speakerRole": "",
+        "is_minister": false,
+        "excerpt": "○藤野政府参考人 御質問いただきました、まず、経営状況の関係でございます。 御指摘いただきました百三十七兆円、ゆうちょ銀行の貯金残高、それから、かんぽ生命の総資産の関係でございました。 この関係でございますけれども、減少があったということでございますけれども、ゆうちょ銀行の貯金残高の減少は、これは民営化の前に起こったものでございます。平成十二年、",
+        "speechURL": "https://kokkai.ndl.go.jp/txt/122105261X00520260304/317",
+        "speechOrder": 317
+      },
+      "answers": [],
       "ai_title": ""
     },
     {
@@ -6684,35 +6713,6 @@
           "speechOrder": 4
         }
       ],
-      "ai_title": ""
-    },
-    {
-      "issueID": "121705272X00220250228",
-      "session": 217,
-      "nameOfHouse": "衆議院",
-      "nameOfMeeting": "予算委員会第二分科会",
-      "issue": "第2号",
-      "imageKind": "会議録",
-      "date": "2025-02-28",
-      "question": {
-        "speechID": "121705272X00220250228_133",
-        "issueID": "121705272X00220250228",
-        "session": 217,
-        "nameOfHouse": "衆議院",
-        "nameOfMeeting": "予算委員会第二分科会",
-        "issue": "第2号",
-        "imageKind": "会議録",
-        "date": "2025-02-28",
-        "speaker": "牛山智弘",
-        "speakerGroup": "",
-        "speakerPosition": "総務省情報流通行政局郵政行政部長",
-        "speakerRole": "",
-        "is_minister": false,
-        "excerpt": "○牛山政府参考人 お答えいたします。 全国二万四千局のネットワークを持つ郵便局、こちらは地域の重要な生活インフラとしての役割を担っておりまして、郵便、貯金、保険の三事業のユニバーサルサービスの提供に加えまして、今、分科員からも御指摘ございましたような地域の実情やニーズに合わせた取組への期待、こちらも大変大きくなっているものと承知してございます。",
-        "speechURL": "https://kokkai.ndl.go.jp/txt/121705272X00220250228/133",
-        "speechOrder": 133
-      },
-      "answers": [],
       "ai_title": ""
     },
     {
