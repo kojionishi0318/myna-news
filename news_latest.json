@@ -1,6 +1,34 @@
 {
-  "updated": "2026-05-14T18:40:43+09:00",
+  "updated": "2026-05-15T19:01:42+09:00",
   "articles": [
+    {
+      "title": "マイナカード、ポイント事業でどれだけ増加? 検査院が効果を調査 - 朝日新聞",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53Mm9rdUFmakZhUG9OZzRGQzZDVC10cjBlWDZXUXkyU0Jid2NQSHNPX1FEM1pHWTRadHJGNVY2ZHQ4LWk3dXdfLWRHX0VnWXB4VXhKNEhfczZmbU5YYzBXQ0FZZGhtN1U?oc=5",
+      "pub_date": "2026-05-15T17:00:00+09:00",
+      "source": "朝日新聞",
+      "description": "国の「マイナポイント事業」はどんな効果があったのか。会計検査院が調査結果を15日に公表した。 マイナンバーカードの申請件数は、事業の前後で6769万件増えたが、マイナポイントの申し込み自体は目標の9500万人に届かず、7556万人だった。",
+      "_glink": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53Mm9rdUFmakZhUG9OZzRGQzZDVC10cjBlWDZXUXkyU0Jid2NQSHNPX1FEM1pHWTRadHJGNVY2ZHQ4LWk3dXdfLWRHX0VnWXB4VXhKNEhfczZmbU5YYzBXQ0FZZGhtN1U?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53Mm9rdUFmakZhUG9OZzRGQzZDVC10cjBlWDZXUXkyU0Jid2NQSHNPX1FEM1pHWTRadHJGNVY2ZHQ4LWk3dXdfLWRHX0VnWXB4VXhKNEhfczZmbU5YYzBXQ0FZZGhtN1U?oc=5",
+      "category": "統計"
+    },
+    {
+      "title": "マイナンバー申請６７００万件増　ポイント付与事業で―カード利活用の促進求める・検査院",
+      "link": "https://www.jiji.com/jc/article?k=2026051500853&g=pol&m=rss",
+      "pub_date": "2026-05-15T17:00:00+09:00",
+      "source": "時事通信",
+      "description": "マイナンバーカード普及のために政府が実施した「マイナポイント」の付与事業について、事業の実施前後で、カードの申請件数が約６７６９万件増加していたことが１５日、会計検査院の調べで分かった。多額の国費が投じられたことから、検査院は総務省などにカード利活用の促進策を検討するよう求めた。",
+      "thumbnail": "https://www.jiji.com/news2/kiji_photos/202605/20260515ds63_o.jpg",
+      "category": "統計"
+    },
+    {
+      "title": "電子処方箋の導入状況に関するダッシュボードを更新しました",
+      "link": "https://www.digital.go.jp/resources/govdashboard/electronic-prescription",
+      "pub_date": "2026-05-15T15:00:00+09:00",
+      "source": "デジタル庁",
+      "description": "厚生労働省は7月1日に開いた「医療DX令和ビジョン2030厚生労働省推進チーム」で、これまで「2024年度末までにおおむね全ての医療機関に導入」を目標としてきた電子処方箋について、もともと「2030年にはおおむね全ての医療機関に導入を目指す」としていた ...",
+      "thumbnail": "https://www.digital.go.jp/assets/contents/node/basic_page/field_thumbnail_image/42e67f07-4d20-46e7-8774-eb5493db76dd/5a4075ae/%E9%9B%BB%E5%AD%90%E5%87%A6%E6%96%B9%E7%AE%8B%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%83%80%E3%83%83%E3%82%B7%E3%83%A5%E3%83%9C%E3%83%BC%E3%83%89.png",
+      "category": "一般"
+    },
     {
       "title": "マイナ保険証対応とキャッシュレス決済― 患者満足度を爆上げする『待たせない会計』の実現 ― - 糖尿病リソースガイド",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBESFU1UHVNLUpENFVLbTV6U1F0QUVQSlRXZTkwQ21rV2w4SVJpX1c0YjdSZ2xYb2hpeUNLWmQ3ZXR3NExPSDVJWmhKYlJ2ZnBqcnJYUFNvX1E2Wm1NMy1UTklkNFBsR2tGaEtqUWlpQXNwRm9sdXRldzZfQQ?oc=5",
@@ -441,34 +469,6 @@
       "source": "厚生労働省",
       "description": "厚生労働省は2025年8月6日、中央社会保険医療協議会（中医協）総会を開催し、下部組織である診療報酬調査専門組織「入院・外来医療等の調査・評価分科会」での議論を整理した「中間取りまとめ」を了承した。今後、中医協総会では「2025年度入院・外来 ...",
       "category": "一般"
-    },
-    {
-      "title": "認知は進むが理解は不十分？マイナ制度のギャップ実態調査 保険証終了、知っているのは6割止まり 有効期限も3割が未理解、7割超が“今後は必要”と回答 - PR TIMES",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5EX05fVVNwcFJFbHBqSnV3SXJ5QU9XNnlhN2tXRzdjR0U5YkpYSEhlazJQY1hYazhfd3NDVzNTdUxKRHE4MVoycTd1bmFiX3gxZTM2R1h6R3NYVGlzdVVpamUwQ2t2WEY0VWc?oc=5",
-      "pub_date": "2026-04-21T10:20:02+09:00",
-      "source": "PR TIMES",
-      "description": "株式会社スガワラくんのプレスリリース（2026年4月21日 10時20分）認知は進むが理解は不十分？マイナ制度のギャップ実態調査　保険証終了、知っているのは6割止まり　有効期限も3割が未理解、7割超が“今後は必要”と回答 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5EX05fVVNwcFJFbHBqSnV3SXJ5QU9XNnlhN2tXRzdjR0U5YkpYSEhlazJQY1hYazhfd3NDVzNTdUxKRHE4MVoycTd1bmFiX3gxZTM2R1h6R3NYVGlzdVVpamUwQ2t2WEY0VWc?oc=5",
-      "category": "制度変更"
-    },
-    {
-      "title": "「健康保険証」の期限が“7月末まで”に延長！ その後「マイナ保険証」にしないと“損すること”はありますか？ 資格確認書の注意点も解説（ファイナンシャルフィールド） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVU9OclR0OHRHWFRMeGVnbGlSQTM4Vkw2Z2pmelBURlVKVDd3NUNIQ2x0U1JXTkM5eEQwUngzUi1PZzFYT05OMmh1UHRaNHV0YWw0Z0p2cU05ZFdQOHBqRXUtaFBsdWV6YXVGN1lyWm10YWlrS09rZkJpNEhRSDFmcUdveG1iVGRk?oc=5",
-      "pub_date": "2026-04-18T16:00:00+09:00",
-      "source": "Yahoo!ニュース",
-      "description": "有効期限切れの健康保険証でも保険診療（1〜3割負担）を受けられる暫定措置が、7月末まで延長される。しかし4カ月後、「保険証利用登録を済ませたマイナンバーカード」（マイナ保険証）などがないと保険診療が受けられず、全額自己負担（10割負担）と ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVU9OclR0OHRHWFRMeGVnbGlSQTM4Vkw2Z2pmelBURlVKVDd3NUNIQ2x0U1JXTkM5eEQwUngzUi1PZzFYT05OMmh1UHRaNHV0YWw0Z0p2cU05ZFdQOHBqRXUtaFBsdWV6YXVGN1lyWm10YWlrS09rZkJpNEhRSDFmcUdveG1iVGRk?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVU9OclR0OHRHWFRMeGVnbGlSQTM4Vkw2Z2pmelBURlVKVDd3NUNIQ2x0U1JXTkM5eEQwUngzUi1PZzFYT05OMmh1UHRaNHV0YWw0Z0p2cU05ZFdQOHBqRXUtaFBsdWV6YXVGN1lyWm10YWlrS09rZkJpNEhRSDFmcUdveG1iVGRk?oc=5",
-      "category": "制度変更"
-    },
-    {
-      "title": "「健康保険証」の期限が“7月末まで”に延長！ その後「マイナ保険証」にしないと“損すること”はありますか？ 資格確認書の注意点も解説 (ファイナンシャルフィールド) - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQU056Q2E4Z0h3UnNyeXEzbHoyR19HallNaTJwNXNRcU1XaWtfYW1YMGU3MzltdDFZUTkwcmJUT1RkeE5OZ3k4OEhhR1VxYVB1TzU2eF9xbTVKRTczaWpCNWhQdW9GQ28zdnhRZDhSX1BOdFQxbDg5Xzhhd1BFWmQ2djM3NFhQZmRlQzdRQ2tR?oc=5",
-      "pub_date": "2026-04-18T16:00:00+09:00",
-      "source": "Yahoo!ニュース",
-      "description": "有効期限切れの健康保険証でも保険診療（1〜3割負担）を受けられる暫定措置が、7月末まで延長される。しかし4カ月後、「保険証利用登録を済ませたマイナンバーカード」（マイナ保険証）などがないと保険診療が受けられず、全額自己負担（10割負担）と ...",
-      "_glink": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQU056Q2E4Z0h3UnNyeXEzbHoyR19HallNaTJwNXNRcU1XaWtfYW1YMGU3MzltdDFZUTkwcmJUT1RkeE5OZ3k4OEhhR1VxYVB1TzU2eF9xbTVKRTczaWpCNWhQdW9GQ28zdnhRZDhSX1BOdFQxbDg5Xzhhd1BFWmQ2djM3NFhQZmRlQzdRQ2tR?oc=5",
-      "category": "制度変更"
     }
   ],
   "total": 500
