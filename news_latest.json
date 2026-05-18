@@ -1,6 +1,73 @@
 {
-  "updated": "2026-05-17T17:35:40+09:00",
+  "updated": "2026-05-18T21:53:02+09:00",
   "articles": [
+    {
+      "title": "マイナ取得義務化検討 自民提言へ",
+      "link": "https://news.yahoo.co.jp/pickup/6580710?source=rss",
+      "pub_date": "2026-05-18T20:35:29+09:00",
+      "source": "Yahoo!ニュース",
+      "description": "自民党が、マイナンバーカード取得の義務化を検討するよう政府に提言することが分かった。義務化した場合の罰則は設けないとしている。いまはマイナカードの申請は任意で、政府はポイントを付与するなどして普及を進めてきた。",
+      "thumbnail": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/5/18/0c33f68eab0277556cadc9ded04bbf86e52f80b5c18915a7cab392b5f4a6f450.jpg",
+      "category": "制度変更"
+    },
+    {
+      "title": "マイナカード取得義務化の検討を提言へ 自民が政府に 罰則規定なし [自由民主党（自民党）][マイナ保険証] - 朝日新聞",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xOGFHemt3Zmh3TnFzdWk1N2V4Z2RWSXFsaFJyWlJSbWR1N05IRzQzeHZUUkJXT3BSMWdyV294TC1fZWF0eGpZTVNFZTFybURmMTcyRWREQWNYY0xhVURSTHJoZU5ReDQ?oc=5",
+      "pub_date": "2026-05-18T20:15:00+09:00",
+      "source": "朝日新聞",
+      "description": "自民党が、マイナンバーカード取得の義務化を検討するよう政府に提言することが分かった。義務化した場合の罰則は設けないとしている。いまはマイナカードの申請は任意で、政府はポイントを付与するなどして普及を進めてきた。 自民党が19日にもまとめる政策提言「デジタル・ニッポン2026」に盛り込む。",
+      "_glink": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xOGFHemt3Zmh3TnFzdWk1N2V4Z2RWSXFsaFJyWlJSbWR1N05IRzQzeHZUUkJXT3BSMWdyV294TC1fZWF0eGpZTVNFZTFybURmMTcyRWREQWNYY0xhVURSTHJoZU5ReDQ?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xOGFHemt3Zmh3TnFzdWk1N2V4Z2RWSXFsaFJyWlJSbWR1N05IRzQzeHZUUkJXT3BSMWdyV294TC1fZWF0eGpZTVNFZTFybURmMTcyRWREQWNYY0xhVURSTHJoZU5ReDQ?oc=5",
+      "category": "制度変更"
+    },
+    {
+      "title": "マイナンバーカードを用いた公的個人認証サービス（JPKI）導入事業者及び事例一覧を更新しました",
+      "link": "https://www.digital.go.jp/policies/mynumber/private-business/jpki-introduction/mynumbercard-user-list",
+      "pub_date": "2026-05-18T15:44:31+09:00",
+      "source": "デジタル庁",
+      "description": "「松井証券本人確認アプリ」で住所・氏名変更手続きを完全オンライン化 松井証券株式会社（本社 : 東京都千代田区、代表取締役 社長執行役員 : 和里田 聰、以下「当社」）は、2026年1月31日（土）（予定）より、公的個人認証サービス（JPKI : Japan Public Key ...",
+      "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
+      "category": "使い方"
+    },
+    {
+      "title": "民間事業者向けマイナンバーカード活用情報における基本情報の資料を更新しました",
+      "link": "https://www.digital.go.jp/policies/mynumber/private-business",
+      "pub_date": "2026-05-18T15:40:22+09:00",
+      "source": "デジタル庁",
+      "description": "ポケットサイン株式会社（本社：東京都新宿区、代表取締役：梅本滉嗣、以下当社）は、マイナポータルAPI*を活用したい事業者向けに、マイナポータルAPIとの接続を仲介するプラットフォーム「PocketSign MynaConnect（ポケットサイン・マイナコネクト）」の ...",
+      "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
+      "category": "一般"
+    },
+    {
+      "title": "マイナ救急本格運用のお知らせ - city.kamagaya.chiba.jp",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZW43ZHpnOUhPbEhxMkdURG84WjlsVlpTeFNfVXFRb1M1M3VPWUlEYXpTWkFNaEhOMnNtZmkxUTFMekF0LWVXMXNwQjFrV0tBcE4yQVd1QjhDRmI3UXE2dHpCUzBoZHFsQlpkS1pYRmM5WnRPamViajFUYWxnOEQ1UmdLeV9vUkhFM2c?oc=5",
+      "pub_date": "2026-05-18T11:24:11+09:00",
+      "source": "city.kamagaya.chiba.jp",
+      "description": "マイナンバーカード（マイナカード）でやれることは年々増えていますが、そのなかのひとつに2025年10月から全国で本格始動している「マイナ救急」という取り組みがあります。 マイナ救急とは、救急搬送時に患者の同意の下で、氏名や病歴、かかりつけの ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZW43ZHpnOUhPbEhxMkdURG84WjlsVlpTeFNfVXFRb1M1M3VPWUlEYXpTWkFNaEhOMnNtZmkxUTFMekF0LWVXMXNwQjFrV0tBcE4yQVd1QjhDRmI3UXE2dHpCUzBoZHFsQlpkS1pYRmM5WnRPamViajFUYWxnOEQ1UmdLeV9vUkhFM2c?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZW43ZHpnOUhPbEhxMkdURG84WjlsVlpTeFNfVXFRb1M1M3VPWUlEYXpTWkFNaEhOMnNtZmkxUTFMekF0LWVXMXNwQjFrV0tBcE4yQVd1QjhDRmI3UXE2dHpCUzBoZHFsQlpkS1pYRmM5WnRPamViajFUYWxnOEQ1UmdLeV9vUkhFM2c?oc=5",
+      "category": "一般"
+    },
+    {
+      "title": "近づく健康保険証の新規発行廃止。代わりとなるマイナ保険証をめぐりトラブルが続く。身を守る手だてとは？ - 東洋経済オンライン",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1zTXpPVEhkRHhrMU9NTXRyR0wyR2VLckpoNUhFaFk0S3lZbG9kT0U1WG5ZdFJuM1dkWjlWaU9MREJWV0tsWUtkVUxhWnlhUmRVcGVENzlaU3Jad28?oc=5",
+      "pub_date": "2026-05-17T21:10:50+09:00",
+      "source": "東洋経済オンライン",
+      "description": "健康保険証の新規発行が2024年12月1日に終了したのに伴い、その1年後となる2025年12月1日をもって、既存の発行済みの健康保険証も有効期限を迎える。これにより、12月2日からはマイナ保険証を基本とする仕組みになる。マイナ保険証に登録していない人には ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1zTXpPVEhkRHhrMU9NTXRyR0wyR2VLckpoNUhFaFk0S3lZbG9kT0U1WG5ZdFJuM1dkWjlWaU9MREJWV0tsWUtkVUxhWnlhUmRVcGVENzlaU3Jad28?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1zTXpPVEhkRHhrMU9NTXRyR0wyR2VLckpoNUhFaFk0S3lZbG9kT0U1WG5ZdFJuM1dkWjlWaU9MREJWV0tsWUtkVUxhWnlhUmRVcGVENzlaU3Jad28?oc=5",
+      "category": "トラブル"
+    },
+    {
+      "title": "「保険証」にも厳しい見方 マイナカード 国民不安根強く - 福井新聞社",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ydEF5TXBWNV9aanQ4c1BoUFRMR0UxYkpMUFFNUXdVMEJSQU5rNmhrX1MxNWNyS1BFOEIxMlpEamg5b1Q0aUtTd2VLU185WUxjUEZHNHdqRDlwb2kycVE?oc=5",
+      "pub_date": "2026-05-17T05:00:00+09:00",
+      "source": "福井新聞社",
+      "description": "健康保険証の廃止に向けた動きが進む中、「今の保険証はいつまで使えるのか」と気になっている人も多いのではないでしょうか。 定年退職時に、「1000万円」以上の貯蓄がある割合は日本でどれくらい？当初は有効期限切れの健康保険証が使えるのは「3 ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ydEF5TXBWNV9aanQ4c1BoUFRMR0UxYkpMUFFNUXdVMEJSQU5rNmhrX1MxNWNyS1BFOEIxMlpEamg5b1Q0aUtTd2VLU185WUxjUEZHNHdqRDlwb2kycVE?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ydEF5TXBWNV9aanQ4c1BoUFRMR0UxYkpMUFFNUXdVMEJSQU5rNmhrX1MxNWNyS1BFOEIxMlpEamg5b1Q0aUtTd2VLU185WUxjUEZHNHdqRDlwb2kycVE?oc=5",
+      "category": "制度変更"
+    },
     {
       "title": "年金暮らし80代、マイナポイント「失効」にガッカリ カード普及に巨額を投じたのに、効果検証はザックリ - 東京新聞デジタル",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1SbVJuNHBnZURvMEVmOUZ2Qk94aWQtS29tdVBjNmpZU1V4RFVJemtzOVJuUDF5N1h5UUNoZktLZjd2WFY0VWJvMVlsalhYeDF5eUo4?oc=5",
@@ -109,6 +176,16 @@
       "category": "一般"
     },
     {
+      "title": "【キャンドゥ名品】マイナカード、プライバシー守ります！「110円で解決」神ケース2種をご紹介！ - TRILL",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8xR1hDOVFNa00xcnNYbHVzU3hkTGxndzRyV1BZaEJiMlFFSGhIV0dKQVpHTzRidmFvUlZkcTFXVXdQdGEzM1JNVmpFdWd2SUk?oc=5",
+      "pub_date": "2026-05-10T14:13:42+09:00",
+      "source": "TRILL",
+      "description": "付属の袋のくたびれを解消！キャンドゥの優秀ケース 「気づけばマイナンバーカードの袋がボロボロ……」なんてこと、ありませんか？ 保険証としての利用が始まり、持ち歩く機会が増えたことで、初期のビニール袋がくたびれてしまったという声をよく耳にします。",
+      "_glink": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8xR1hDOVFNa00xcnNYbHVzU3hkTGxndzRyV1BZaEJiMlFFSGhIV0dKQVpHTzRidmFvUlZkcTFXVXdQdGEzM1JNVmpFdWd2SUk?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8xR1hDOVFNa00xcnNYbHVzU3hkTGxndzRyV1BZaEJiMlFFSGhIV0dKQVpHTzRidmFvUlZkcTFXVXdQdGEzM1JNVmpFdWd2SUk?oc=5",
+      "category": "一般"
+    },
+    {
       "title": "「楽天カードアプリ」のカード番号表示サービス初回本人確認時に「iPhoneのマイナンバーカード」が使えるように（BCN） - Yahoo!ニュース",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB3LUxlT2c4cGhvdnpJR0NuTzVJSnFGLVJOUWs5aE9OaENJVzZaU2tfNGc3X1RhWUY1dnNBR0hvbk9RYlRzZkI2R2ZGUGM4dzJQeEVVS1JTTEhIODN2QTFIU3lqUFBWVlppZUZ1X1lXWlpXQlAtT0dSc1I5MHQtdlU?oc=5",
       "pub_date": "2026-05-09T18:30:00+09:00",
@@ -167,6 +244,16 @@
       "_glink": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUGxCOXNGR3dCSlFkeGpJOVRjVHNsWjVmem84UlR5c1JVRHFWMXdHcG5yc05rcjMyRW9Wckx1UVRlSXdGUWNOYURIdHJBLUdpUDFBSlVjemJuTFZSdzd3dy1wY2JZeEFVb3hTVDJZdHJ4Y3hyOXJmeDBvcjctTjNYVg?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUGxCOXNGR3dCSlFkeGpJOVRjVHNsWjVmem84UlR5c1JVRHFWMXdHcG5yc05rcjMyRW9Wckx1UVRlSXdGUWNOYURIdHJBLUdpUDFBSlVjemJuTFZSdzd3dy1wY2JZeEFVb3hTVDJZdHJ4Y3hyOXJmeDBvcjctTjNYVg?oc=5",
       "category": "一般"
+    },
+    {
+      "title": "資格確認書全員交付を マイナ調査で千葉県保険医協会 無保険状態の発生懸念 - 千葉日報オンライン",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBZSVZXcGg2R3hIaWR1dmdrdkdMamZsOWh0Y2RnYkZZT3JWa1RoYVUtc0wwcFZ2R3dEVXlvRlRFa3Y2dnBjRFBVVW1GUUNCM19falRXUk1IZC1pNEUwY0p1cQ?oc=5",
+      "pub_date": "2026-05-06T10:25:26+09:00",
+      "source": "千葉日報オンライン",
+      "description": "東京都杉並区議会は14日、従来の保険証の代わりとなる「資格確認書」を国民健康保険の加入者全員に一律交付するよう求める陳情2件を採択した。国と杉並区によると、対象を絞っていた自治体が一律交付に切り替えた事例はなく、実施すれば全国初となる。",
+      "_glink": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBZSVZXcGg2R3hIaWR1dmdrdkdMamZsOWh0Y2RnYkZZT3JWa1RoYVUtc0wwcFZ2R3dEVXlvRlRFa3Y2dnBjRFBVVW1GUUNCM19falRXUk1IZC1pNEUwY0p1cQ?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBZSVZXcGg2R3hIaWR1dmdrdkdMamZsOWh0Y2RnYkZZT3JWa1RoYVUtc0wwcFZ2R3dEVXlvRlRFa3Y2dnBjRFBVVW1GUUNCM19falRXUk1IZC1pNEUwY0p1cQ?oc=5",
+      "category": "制度変更"
     },
     {
       "title": "“3割負担”を死守したくて「マイナ保険証」に切り替えた私。でも周りでまだ「紙の保険証」を見かけるのはなぜ？ 「3月で完全終了」じゃなかったの!? 今さら聞けない「マイナ保険証」のメリットと最新スケジュールを解説（ファイナンシャルフィールド） - Yahoo!ニュース",
@@ -376,86 +463,6 @@
       "_glink": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE04T3V0MHdFOF9VUXJSa2ZTRGhBZUszQWJFRl90N0FmSnVpS2U2M0l1M28weGZYeGp2dDB0M1JmLXp4Y21Da2FUR2xiSnJhQjA2RUNqRE1LcHMwUTFI?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE04T3V0MHdFOF9VUXJSa2ZTRGhBZUszQWJFRl90N0FmSnVpS2U2M0l1M28weGZYeGp2dDB0M1JmLXp4Y21Da2FUR2xiSnJhQjA2RUNqRE1LcHMwUTFI?oc=5",
       "category": "制度変更"
-    },
-    {
-      "title": "【マイナンバーカード】健康保険証廃止を4人に1人が「知らない」と明らかに - どう変わる? (マイナビニュース) - newspicks.com",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE90MUthS2FVTklXa3p2c01fcElqRmVqaXdrdmxpM2twcTBla2lSa1VvWEcyYVRfbGM0M3lKYm0tZXdXN1gtcDBCV3o1QkVNN0cydXpxaTVlTDc?oc=5",
-      "pub_date": "2026-04-24T16:00:00+09:00",
-      "source": "newspicks.com",
-      "description": "2026年8月から健康保険証が使えなくなるなど、マイナンバーカードをめぐる制度変更が進む中、生活者の理解はどこまで進んでいるのだろうか。 そこで、株式会社スガワラくんはこのほど、全国の20歳以上70歳未満の男女300名を対象に「マイナ制度の認知と ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE90MUthS2FVTklXa3p2c01fcElqRmVqaXdrdmxpM2twcTBla2lSa1VvWEcyYVRfbGM0M3lKYm0tZXdXN1gtcDBCV3o1QkVNN0cydXpxaTVlTDc?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE90MUthS2FVTklXa3p2c01fcElqRmVqaXdrdmxpM2twcTBla2lSa1VvWEcyYVRfbGM0M3lKYm0tZXdXN1gtcDBCV3o1QkVNN0cydXpxaTVlTDc?oc=5",
-      "category": "制度変更"
-    },
-    {
-      "title": "マイナンバーカード・インフォ（民間事業者向け情報）Vol.136を掲載しました",
-      "link": "https://www.digital.go.jp/policies/mynumber/private-business/info",
-      "pub_date": "2026-04-24T15:00:00+09:00",
-      "source": "デジタル庁",
-      "description": "このたび、当社の連結子会社である株式会社医針盤（以下「医針盤」）の健康管理アプリ「ウィズウェルネス」が、デジタル庁の「マイナンバーカード・インフォ（民間事業者向けお役立ち情報）」に掲載されましたのでお知らせします。 「マイナンバー ...",
-      "category": "一般"
-    },
-    {
-      "title": "マイナンバーカード・インフォ（自治体向け情報）Vol.121を掲載しました",
-      "link": "https://www.digital.go.jp/policies/mynumber/local-government/info",
-      "pub_date": "2026-04-24T15:00:00+09:00",
-      "source": "デジタル庁",
-      "description": "デジタルで未来最適をリードするスパイラル株式会社（東京都港区、代表取締役グループCEO佐谷 宣昭）は、当社の「インターネット投票システム」がつくば市様に採用された事例について、デジタル庁が運営する情報提供サービス「マイナンバーカード ...",
-      "category": "一般"
-    },
-    {
-      "title": "マイナンバーカードの普及と利活用に関するダッシュボードのデータ更新を行いました",
-      "link": "https://www.digital.go.jp/resources/govdashboard/mynumber_card_penetration_usage",
-      "pub_date": "2026-04-24T15:00:00+09:00",
-      "source": "デジタル庁",
-      "description": "1．マイナンバーカード交付状況等に関するダッシュボードについて マイナンバーカードの有効期間は、発行日から10回目の誕生日（18歳未満は5回目）まで、電子証明書の有効期間は、年齢問わず発行日から5回目の誕生日までに設定されています。マイ ...",
-      "category": "一般"
-    },
-    {
-      "title": "健康保険証12月廃止 マイナ義務化、強引すぎる - 中国新聞デジタル",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE16RmhqSkpPdzlUVkdBZEItdE1TTDdkdnJfRUhPNml4a0psYUNBZ2ZqOGNnSmkwUEE1U19hNzJVNi01dmxsalRmNG5FWGZXcC1NZzJRNER4bVh2dw?oc=5",
-      "pub_date": "2026-04-24T14:55:09+09:00",
-      "source": "中国新聞デジタル",
-      "description": "",
-      "_glink": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE16RmhqSkpPdzlUVkdBZEItdE1TTDdkdnJfRUhPNml4a0psYUNBZ2ZqOGNnSmkwUEE1U19hNzJVNi01dmxsalRmNG5FWGZXcC1NZzJRNER4bVh2dw?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE16RmhqSkpPdzlUVkdBZEItdE1TTDdkdnJfRUhPNml4a0psYUNBZ2ZqOGNnSmkwUEE1U19hNzJVNi01dmxsalRmNG5FWGZXcC1NZzJRNER4bVh2dw?oc=5",
-      "category": "制度変更"
-    },
-    {
-      "title": "Q. マイナ免許証を取得したら、これまでの運転免許証は捨ててしまってもいいのですか？（All About） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9IRFpsSEN4ZWFTVHBuOGRNaTBWUXloY1M4VS1XLUpzWEpia3dXNGE1TXRhNGhvYk4xMHBKMlZQMkJ6cHNRWXlMS2VEOVpHUEhVZnB3ZUhrSGE2aVhWb3FCTDRUMWQ5a1JBaXc1SFc0Vjd2Q1FDdXNFc3p6bjFIX1U?oc=5",
-      "pub_date": "2026-04-23T21:50:00+09:00",
-      "source": "Yahoo!ニュース",
-      "description": "2025年3月24日から、全国でマイナンバーカードのICチップに運転免許証の情報を記録できる「マイナ免許証」の制度が始まりました。これにより、今まで財布に「マイナンバーカード」と「運転免許証」の2枚を入れていた人も、マイナンバーカード1枚だけに集約で ...",
-      "_glink": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9IRFpsSEN4ZWFTVHBuOGRNaTBWUXloY1M4VS1XLUpzWEpia3dXNGE1TXRhNGhvYk4xMHBKMlZQMkJ6cHNRWXlMS2VEOVpHUEhVZnB3ZUhrSGE2aVhWb3FCTDRUMWQ5a1JBaXc1SFc0Vjd2Q1FDdXNFc3p6bjFIX1U?oc=5",
-      "category": "一般"
-    },
-    {
-      "title": "Q. マイナ免許証を取得したら、これまでの運転免許証は捨ててしまってもいいのですか？ [社会ニュース] All About - All About（オールアバウト）",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBQRXFPQllCaXRlc2NFdldKSWI0cnVTSGFCM0FNajlLeUVKellyQnN0MnlWTm5lM1R3aGdvYTFrQjhDamJkMk1JX2VTMUQ?oc=5",
-      "pub_date": "2026-04-23T19:00:06+09:00",
-      "source": "All About（オールアバウト）",
-      "description": "2025年3月24日から、全国でマイナンバーカードのICチップに運転免許証の情報を記録できる「マイナ免許証」の制度が始まりました。これにより、今まで財布に「マイナンバーカード」と「運転免許証」の2枚を入れていた人も、マイナンバーカード1枚だけに集約で ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBQRXFPQllCaXRlc2NFdldKSWI0cnVTSGFCM0FNajlLeUVKellyQnN0MnlWTm5lM1R3aGdvYTFrQjhDamJkMk1JX2VTMUQ?oc=5",
-      "category": "一般"
-    },
-    {
-      "title": "拾った保険証で不正受診か 無保険の住職を逮捕 - au Webポータル",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5YZkZ1VmJmVVptZ0N4d1ZvaWRuajNHd3pWRURiVXBmbzUteUU5T3JhT3JXUjY4TlJud3ZfV2dsNjk2cW1lZFhpb096Ty1EWW5rVE5IYzMxVHJ1dlhZV1lYenpoVXk5eXJfa1FQZEMyVzdEQXc4bEk0a3dtTQ?oc=5",
-      "pub_date": "2026-04-23T14:50:00+09:00",
-      "source": "au Webポータル",
-      "description": "",
-      "_glink": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5YZkZ1VmJmVVptZ0N4d1ZvaWRuajNHd3pWRURiVXBmbzUteUU5T3JhT3JXUjY4TlJud3ZfV2dsNjk2cW1lZFhpb096Ty1EWW5rVE5IYzMxVHJ1dlhZV1lYenpoVXk5eXJfa1FQZEMyVzdEQXc4bEk0a3dtTQ?oc=5",
-      "category": "一般"
-    },
-    {
-      "title": "「マイナ保険証」トレンド入り、拾った保険証で100回以上受診にネット「証明された」「だからと言って」 - MSN",
-      "link": "https://news.google.com/rss/articles/CBMiygRBVV95cUxOUDc4dnRrYmVyb0JiSzl1SkpkbURLLXpLUHlrbUFBT3lGWkU4d1o5YTJicFE3RGVnTi01MlQ5ZEtoaklKZk5vbWs1dnZ5TVpZMEhkeDhHTEcwYTlCVklaYlllMWJQa2t5LUd5SFVIRjlnRzJMWXp2Ri1acUdlWTljaDgtV1hqdjlwcmw2RzhTWUlCRU9ERjItbXpwUnV0VUtfcDVqT3hsNUY1OVZFUU9FdDZpN3ctNGVjb3JuRmZhQlBxT1BOdS1fOXFvMkZLdUNDUmc0VVpISkFlSnB6cUd5Uy1XR0FIbnROR2ptUTdKcU9pZThjLUNwSlBxLXJ3akljdkpJSUhqS1pPRUFwVGhVZHZRaWFsTC1GX0g4U3FwcG15ZGFsWlpkUWx2RzRzSG9XT0Q5emxuUTN1WTVGd21aYkdNckZ3ZDFDOU9DaEZFVlN3VTR0S0ZfTElhRElkV0dYOXlfUEJmVHNCM1d6ODhoQnRuWm04NlVYMUJtMGk0U215Qm42Z1hDblRlYTB0N0hlTVFsUVQydGk3dkdRV3dieFJWSnNWQW93MHEyS24zbE1hMHpwNkJOd0diV2RveGVwVW5KN3dOVmt1UHFoeW1rQWVLaFBneFVSRXMwdzQ1d1FPbTFqbG9tR3d6WXJmbzJNenZ0UTd1NkZMREdacmo2dm04eV9lTy1CVGZYTWdiQWJ5TVA2VWwyX3Fja05qcUxHYnMtZ2U4SEdjX2p1UWFNOWNvWFdKVUMzZTRabmIzNGdtT0ZMb0JvMUpR?oc=5",
-      "pub_date": "2026-04-23T14:35:35+09:00",
-      "source": "MSN",
-      "description": "「マイナ保険証」が23日午後、X（旧ツイッター）でトレンド入りした。この日までに、拾った健康保険証で他人に成り済まして病院を受診したなどとして、警視庁神田署が詐欺の疑いで住職の男（55）＝兵庫県姫路市＝を逮捕。この報道を受けて「マイナ保険証」が急上昇した。",
-      "_glink": "https://news.google.com/rss/articles/CBMiygRBVV95cUxOUDc4dnRrYmVyb0JiSzl1SkpkbURLLXpLUHlrbUFBT3lGWkU4d1o5YTJicFE3RGVnTi01MlQ5ZEtoaklKZk5vbWs1dnZ5TVpZMEhkeDhHTEcwYTlCVklaYlllMWJQa2t5LUd5SFVIRjlnRzJMWXp2Ri1acUdlWTljaDgtV1hqdjlwcmw2RzhTWUlCRU9ERjItbXpwUnV0VUtfcDVqT3hsNUY1OVZFUU9FdDZpN3ctNGVjb3JuRmZhQlBxT1BOdS1fOXFvMkZLdUNDUmc0VVpISkFlSnB6cUd5Uy1XR0FIbnROR2ptUTdKcU9pZThjLUNwSlBxLXJ3akljdkpJSUhqS1pPRUFwVGhVZHZRaWFsTC1GX0g4U3FwcG15ZGFsWlpkUWx2RzRzSG9XT0Q5emxuUTN1WTVGd21aYkdNckZ3ZDFDOU9DaEZFVlN3VTR0S0ZfTElhRElkV0dYOXlfUEJmVHNCM1d6ODhoQnRuWm04NlVYMUJtMGk0U215Qm42Z1hDblRlYTB0N0hlTVFsUVQydGk3dkdRV3dieFJWSnNWQW93MHEyS24zbE1hMHpwNkJOd0diV2RveGVwVW5KN3dOVmt1UHFoeW1rQWVLaFBneFVSRXMwdzQ1d1FPbTFqbG9tR3d6WXJmbzJNenZ0UTd1NkZMREdacmo2dm04eV9lTy1CVGZYTWdiQWJ5TVA2VWwyX3Fja05qcUxHYnMtZ2U4SEdjX2p1UWFNOWNvWFdKVUMzZTRabmIzNGdtT0ZMb0JvMUpR?oc=5",
-      "category": "一般"
     }
   ],
   "total": 500
