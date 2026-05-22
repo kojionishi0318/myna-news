@@ -1,8 +1,8 @@
 {
-  "updated": "2026-05-21T20:57:30+09:00",
-  "total_exchanges": 236,
-  "total_questions": 208,
-  "total_answers": 110,
+  "updated": "2026-05-22T19:38:28+09:00",
+  "total_exchanges": 237,
+  "total_questions": 209,
+  "total_answers": 112,
   "exchanges": [
     {
       "issueID": "122104339X00620260423",
@@ -655,6 +655,143 @@
         "speechOrder": 124
       },
       "answers": [],
+      "ai_title": ""
+    },
+    {
+      "issueID": "122115385X00220260401",
+      "session": 221,
+      "nameOfHouse": "参議院",
+      "nameOfMeeting": "デジタル社会の形成及び人工知能の活用等に関する特別委員会",
+      "issue": "第2号",
+      "imageKind": "会議録",
+      "date": "2026-04-01",
+      "question": {
+        "speechID": "122115385X00220260401_033",
+        "issueID": "122115385X00220260401",
+        "session": 221,
+        "nameOfHouse": "参議院",
+        "nameOfMeeting": "デジタル社会の形成及び人工知能の活用等に関する特別委員会",
+        "issue": "第2号",
+        "imageKind": "会議録",
+        "date": "2026-04-01",
+        "speaker": "郡山りょう",
+        "speakerGroup": "立憲民主・無所属",
+        "speakerPosition": "",
+        "speakerRole": "",
+        "is_minister": false,
+        "excerpt": "○郡山りょう君 資料一、併せて皆さん御覧いただきながら質問を聞いていただきたいと思っております。 ちなみに、この資料もクロードというＡＩのアプリを使って作成をさせていただきました。実は、最近デジタル庁からダッシュボードの発表があったと思うんですけど、そのダッシュボードを是非このコードに、打ったことないんですけど、経験ないですけど、打ち込んで、見やすい、",
+        "speechURL": "https://kokkai.ndl.go.jp/txt/122115385X00220260401/33",
+        "speechOrder": 33
+      },
+      "answers": [
+        {
+          "speechID": "122115385X00220260401_034",
+          "issueID": "122115385X00220260401",
+          "session": 221,
+          "nameOfHouse": "参議院",
+          "nameOfMeeting": "デジタル社会の形成及び人工知能の活用等に関する特別委員会",
+          "issue": "第2号",
+          "imageKind": "会議録",
+          "date": "2026-04-01",
+          "speaker": "江浪武志",
+          "speakerGroup": "",
+          "speakerPosition": "厚生労働省大臣官房審議官",
+          "speakerRole": "",
+          "is_minister": true,
+          "excerpt": "○政府参考人（江浪武志君） お答え申し上げます。 昨年十二月に従来の保険証の有効期限の満了を迎えた中で、マイナ保険証の利用率、今御紹介いただきましたとおり、令和八年一月時点で六四・六二％となっておりまして、より多くの皆様にマイナ保険証を御利用いただけるよう、引き続き利用促進に取り組んでいく必要があるというふうに考えております。 利用促進に向けましては、",
+          "speechURL": "https://kokkai.ndl.go.jp/txt/122115385X00220260401/34",
+          "speechOrder": 34
+        }
+      ],
+      "ai_title": ""
+    },
+    {
+      "issueID": "122115385X00220260401",
+      "session": 221,
+      "nameOfHouse": "参議院",
+      "nameOfMeeting": "デジタル社会の形成及び人工知能の活用等に関する特別委員会",
+      "issue": "第2号",
+      "imageKind": "会議録",
+      "date": "2026-04-01",
+      "question": {
+        "speechID": "122115385X00220260401_031",
+        "issueID": "122115385X00220260401",
+        "session": 221,
+        "nameOfHouse": "参議院",
+        "nameOfMeeting": "デジタル社会の形成及び人工知能の活用等に関する特別委員会",
+        "issue": "第2号",
+        "imageKind": "会議録",
+        "date": "2026-04-01",
+        "speaker": "郡山りょう",
+        "speakerGroup": "立憲民主・無所属",
+        "speakerPosition": "",
+        "speakerRole": "",
+        "is_minister": false,
+        "excerpt": "○郡山りょう君 ありがとうございます。 このガバメントクラウドが本当に自治体の利便性の活用につながればいいと思いますし、また、さくらのクラウドのやはり時間が要したことについては、やっぱり国内のこういうクラウドの産業というか、技術力というところも影響しているのかなと思いますので、そういった意味でも、官民併せてしっかりと世界と戦っていけるようなクラウド全体、",
+        "speechURL": "https://kokkai.ndl.go.jp/txt/122115385X00220260401/31",
+        "speechOrder": 31
+      },
+      "answers": [],
+      "ai_title": ""
+    },
+    {
+      "issueID": "122115385X00220260401",
+      "session": 221,
+      "nameOfHouse": "参議院",
+      "nameOfMeeting": "デジタル社会の形成及び人工知能の活用等に関する特別委員会",
+      "issue": "第2号",
+      "imageKind": "会議録",
+      "date": "2026-04-01",
+      "question": {
+        "speechID": "122115385X00220260401_023",
+        "issueID": "122115385X00220260401",
+        "session": 221,
+        "nameOfHouse": "参議院",
+        "nameOfMeeting": "デジタル社会の形成及び人工知能の活用等に関する特別委員会",
+        "issue": "第2号",
+        "imageKind": "会議録",
+        "date": "2026-04-01",
+        "speaker": "三浦明",
+        "speakerGroup": "",
+        "speakerPosition": "デジタル庁統括官",
+        "speakerRole": "",
+        "is_minister": false,
+        "excerpt": "○政府参考人（三浦明君） お答え申し上げます。 マイナンバーカードの利活用に関しましては、御指摘いただきましたような行政手続、介護ですとか子育ての行政手続をスマートフォンで完結するですとか、あるいはマイナンバーカードと健康保険証の一体化、あるいは図書カードなんかにも一体化をするといったような取組、加えまして、",
+        "speechURL": "https://kokkai.ndl.go.jp/txt/122115385X00220260401/23",
+        "speechOrder": 23
+      },
+      "answers": [],
+      "ai_title": ""
+    },
+    {
+      "issueID": "122115385X00220260401",
+      "session": 221,
+      "nameOfHouse": "参議院",
+      "nameOfMeeting": "デジタル社会の形成及び人工知能の活用等に関する特別委員会",
+      "issue": "第2号",
+      "imageKind": "会議録",
+      "date": "2026-04-01",
+      "question": null,
+      "answers": [
+        {
+          "speechID": "122115385X00220260401_003",
+          "issueID": "122115385X00220260401",
+          "session": 221,
+          "nameOfHouse": "参議院",
+          "nameOfMeeting": "デジタル社会の形成及び人工知能の活用等に関する特別委員会",
+          "issue": "第2号",
+          "imageKind": "会議録",
+          "date": "2026-04-01",
+          "speaker": "松本尚",
+          "speakerGroup": "自由民主党・無所属の会",
+          "speakerPosition": "デジタル大臣・内閣府特命担当大臣（サイバー安全保障）",
+          "speakerRole": "",
+          "is_minister": true,
+          "excerpt": "○国務大臣（松本尚君） おはようございます。 デジタル大臣、デジタル行財政改革担当大臣として、所信を申し述べます。 マイナンバーカードについては、昨年十二月に保有枚数が一億枚を突破しました。引き続き、カードを保有するメリットを多くの人に実感していただけるよう、行政を始め民間も含めた利用シーンの拡大、スマートフォンへのマイナンバーカード機能の搭載や利用の拡大、",
+          "speechURL": "https://kokkai.ndl.go.jp/txt/122115385X00220260401/3",
+          "speechOrder": 3
+        }
+      ],
       "ai_title": ""
     },
     {
@@ -3220,7 +3357,7 @@
       "imageKind": "会議録",
       "date": "2025-06-06",
       "question": {
-        "speechID": "121704260X02520250606_160",
+        "speechID": "121704260X02520250606_161",
         "issueID": "121704260X02520250606",
         "session": 217,
         "nameOfHouse": "衆議院",
@@ -3228,14 +3365,14 @@
         "issue": "第25号",
         "imageKind": "会議録",
         "date": "2025-06-06",
-        "speaker": "鹿沼均",
-        "speakerGroup": "",
-        "speakerPosition": "厚生労働省保険局長",
+        "speaker": "田村貴昭",
+        "speakerGroup": "日本共産党",
+        "speakerPosition": "",
         "speakerRole": "",
         "is_minister": false,
-        "excerpt": "○鹿沼政府参考人 お答えいたします。 まず、報道によれば、従来の保険証で資格確認を行ったほか、保険証を持っていない患者に対しては、窓口で保険資格を証明するような書類を配付し、記入をお願いしたというふうに承知しております。 その上で、これまでも、",
-        "speechURL": "https://kokkai.ndl.go.jp/txt/121704260X02520250606/160",
-        "speechOrder": 160
+        "excerpt": "○田村（貴）委員 ずっと不具合が起こっているじゃないですか。全国各地で、この瞬間にもトラブルが起こっていると思いますよ。物すごい数ですから。それで一本化していいんですか。 病院が、再診の患者さんの資格情報を、札幌病院は把握していたんですよ。そして、何よりも、患者さんの多くが従来からの保険証を持っていたから診療に問題がなかった、これが真実なんですね。札幌市は、",
+        "speechURL": "https://kokkai.ndl.go.jp/txt/121704260X02520250606/161",
+        "speechOrder": 161
       },
       "answers": [
         {
