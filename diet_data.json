@@ -1,9 +1,88 @@
 {
-  "updated": "2026-05-21T20:57:30+09:00",
-  "total_exchanges": 236,
-  "total_questions": 208,
-  "total_answers": 110,
+  "updated": "2026-05-22T19:38:28+09:00",
+  "total_exchanges": 237,
+  "total_questions": 209,
+  "total_answers": 112,
   "exchanges": [
+    {
+      "issueID": "122104339X00620260423",
+      "session": 221,
+      "nameOfHouse": "衆議院",
+      "nameOfMeeting": "災害対策特別委員会",
+      "issue": "第6号",
+      "imageKind": "会議録",
+      "date": "2026-04-23",
+      "question": null,
+      "answers": [
+        {
+          "speechID": "122104339X00620260423_047",
+          "issueID": "122104339X00620260423",
+          "session": 221,
+          "nameOfHouse": "衆議院",
+          "nameOfMeeting": "災害対策特別委員会",
+          "issue": "第6号",
+          "imageKind": "会議録",
+          "date": "2026-04-23",
+          "speaker": "牧野たかお",
+          "speakerGroup": "自由民主党・無所属の会",
+          "speakerPosition": "復興大臣",
+          "speakerRole": "",
+          "is_minister": true,
+          "excerpt": "○牧野国務大臣 お答えをいたします。 高齢化が社会の中で進む中、災害関連死を減らしていくためには、被災者に対する医療また福祉の支援というのが大変重要だと思っております。避難所におきまして、被災者の状況に応じて、ＤＭＡＴによる医療の提供、またＤＷＡＴによる福祉支援、そうしたものが必要になってくるかと思います。 迅速にこうしたものが行われるための仕組みの構築は、",
+          "speechURL": "https://kokkai.ndl.go.jp/txt/122104339X00620260423/47",
+          "speechOrder": 47
+        }
+      ],
+      "ai_title": ""
+    },
+    {
+      "issueID": "122104339X00520260416",
+      "session": 221,
+      "nameOfHouse": "衆議院",
+      "nameOfMeeting": "災害対策特別委員会",
+      "issue": "第5号",
+      "imageKind": "会議録",
+      "date": "2026-04-16",
+      "question": {
+        "speechID": "122104339X00520260416_117",
+        "issueID": "122104339X00520260416",
+        "session": 221,
+        "nameOfHouse": "衆議院",
+        "nameOfMeeting": "災害対策特別委員会",
+        "issue": "第5号",
+        "imageKind": "会議録",
+        "date": "2026-04-16",
+        "speaker": "柏倉祐司",
+        "speakerGroup": "日本維新の会",
+        "speakerPosition": "",
+        "speakerRole": "",
+        "is_minister": false,
+        "excerpt": "○柏倉委員 ありがとうございます。 災害時医療の一番の肝は、患者さんの今の状態もそうなんですが、どういう病気をなされてこういう薬を飲んでいるのか、どういう治療を受けているのか、その処方歴、手術歴も含めてヒストリーが大切になってくるわけでございます。そういったものの情報は残念ながらＥＭＩＳでは組むことができない。経営の情報システムもありますけれども、",
+        "speechURL": "https://kokkai.ndl.go.jp/txt/122104339X00520260416/117",
+        "speechOrder": 117
+      },
+      "answers": [
+        {
+          "speechID": "122104339X00520260416_118",
+          "issueID": "122104339X00520260416",
+          "session": 221,
+          "nameOfHouse": "衆議院",
+          "nameOfMeeting": "災害対策特別委員会",
+          "issue": "第5号",
+          "imageKind": "会議録",
+          "date": "2026-04-16",
+          "speaker": "榊原毅",
+          "speakerGroup": "",
+          "speakerPosition": "厚生労働省大臣官房審議官",
+          "speakerRole": "",
+          "is_minister": true,
+          "excerpt": "○榊原政府参考人 例えば、令和六年能登半島地震においては、オンライン資格確認等システムの災害時モードにより、マイナンバーを持たずに避難した方でも、本人の同意の下で、医療機関、薬局において患者の過去の医療情報の閲覧を可能とする措置を実施してございます。 一方、現行のオンライン資格確認等システムでは、",
+          "speechURL": "https://kokkai.ndl.go.jp/txt/122104339X00520260416/118",
+          "speechOrder": 118
+        }
+      ],
+      "ai_title": ""
+    },
     {
       "issueID": "122105367X00320260416",
       "session": 221,
@@ -576,6 +655,143 @@
         "speechOrder": 124
       },
       "answers": [],
+      "ai_title": ""
+    },
+    {
+      "issueID": "122115385X00220260401",
+      "session": 221,
+      "nameOfHouse": "参議院",
+      "nameOfMeeting": "デジタル社会の形成及び人工知能の活用等に関する特別委員会",
+      "issue": "第2号",
+      "imageKind": "会議録",
+      "date": "2026-04-01",
+      "question": {
+        "speechID": "122115385X00220260401_033",
+        "issueID": "122115385X00220260401",
+        "session": 221,
+        "nameOfHouse": "参議院",
+        "nameOfMeeting": "デジタル社会の形成及び人工知能の活用等に関する特別委員会",
+        "issue": "第2号",
+        "imageKind": "会議録",
+        "date": "2026-04-01",
+        "speaker": "郡山りょう",
+        "speakerGroup": "立憲民主・無所属",
+        "speakerPosition": "",
+        "speakerRole": "",
+        "is_minister": false,
+        "excerpt": "○郡山りょう君 資料一、併せて皆さん御覧いただきながら質問を聞いていただきたいと思っております。 ちなみに、この資料もクロードというＡＩのアプリを使って作成をさせていただきました。実は、最近デジタル庁からダッシュボードの発表があったと思うんですけど、そのダッシュボードを是非このコードに、打ったことないんですけど、経験ないですけど、打ち込んで、見やすい、",
+        "speechURL": "https://kokkai.ndl.go.jp/txt/122115385X00220260401/33",
+        "speechOrder": 33
+      },
+      "answers": [
+        {
+          "speechID": "122115385X00220260401_034",
+          "issueID": "122115385X00220260401",
+          "session": 221,
+          "nameOfHouse": "参議院",
+          "nameOfMeeting": "デジタル社会の形成及び人工知能の活用等に関する特別委員会",
+          "issue": "第2号",
+          "imageKind": "会議録",
+          "date": "2026-04-01",
+          "speaker": "江浪武志",
+          "speakerGroup": "",
+          "speakerPosition": "厚生労働省大臣官房審議官",
+          "speakerRole": "",
+          "is_minister": true,
+          "excerpt": "○政府参考人（江浪武志君） お答え申し上げます。 昨年十二月に従来の保険証の有効期限の満了を迎えた中で、マイナ保険証の利用率、今御紹介いただきましたとおり、令和八年一月時点で六四・六二％となっておりまして、より多くの皆様にマイナ保険証を御利用いただけるよう、引き続き利用促進に取り組んでいく必要があるというふうに考えております。 利用促進に向けましては、",
+          "speechURL": "https://kokkai.ndl.go.jp/txt/122115385X00220260401/34",
+          "speechOrder": 34
+        }
+      ],
+      "ai_title": ""
+    },
+    {
+      "issueID": "122115385X00220260401",
+      "session": 221,
+      "nameOfHouse": "参議院",
+      "nameOfMeeting": "デジタル社会の形成及び人工知能の活用等に関する特別委員会",
+      "issue": "第2号",
+      "imageKind": "会議録",
+      "date": "2026-04-01",
+      "question": {
+        "speechID": "122115385X00220260401_031",
+        "issueID": "122115385X00220260401",
+        "session": 221,
+        "nameOfHouse": "参議院",
+        "nameOfMeeting": "デジタル社会の形成及び人工知能の活用等に関する特別委員会",
+        "issue": "第2号",
+        "imageKind": "会議録",
+        "date": "2026-04-01",
+        "speaker": "郡山りょう",
+        "speakerGroup": "立憲民主・無所属",
+        "speakerPosition": "",
+        "speakerRole": "",
+        "is_minister": false,
+        "excerpt": "○郡山りょう君 ありがとうございます。 このガバメントクラウドが本当に自治体の利便性の活用につながればいいと思いますし、また、さくらのクラウドのやはり時間が要したことについては、やっぱり国内のこういうクラウドの産業というか、技術力というところも影響しているのかなと思いますので、そういった意味でも、官民併せてしっかりと世界と戦っていけるようなクラウド全体、",
+        "speechURL": "https://kokkai.ndl.go.jp/txt/122115385X00220260401/31",
+        "speechOrder": 31
+      },
+      "answers": [],
+      "ai_title": ""
+    },
+    {
+      "issueID": "122115385X00220260401",
+      "session": 221,
+      "nameOfHouse": "参議院",
+      "nameOfMeeting": "デジタル社会の形成及び人工知能の活用等に関する特別委員会",
+      "issue": "第2号",
+      "imageKind": "会議録",
+      "date": "2026-04-01",
+      "question": {
+        "speechID": "122115385X00220260401_023",
+        "issueID": "122115385X00220260401",
+        "session": 221,
+        "nameOfHouse": "参議院",
+        "nameOfMeeting": "デジタル社会の形成及び人工知能の活用等に関する特別委員会",
+        "issue": "第2号",
+        "imageKind": "会議録",
+        "date": "2026-04-01",
+        "speaker": "三浦明",
+        "speakerGroup": "",
+        "speakerPosition": "デジタル庁統括官",
+        "speakerRole": "",
+        "is_minister": false,
+        "excerpt": "○政府参考人（三浦明君） お答え申し上げます。 マイナンバーカードの利活用に関しましては、御指摘いただきましたような行政手続、介護ですとか子育ての行政手続をスマートフォンで完結するですとか、あるいはマイナンバーカードと健康保険証の一体化、あるいは図書カードなんかにも一体化をするといったような取組、加えまして、",
+        "speechURL": "https://kokkai.ndl.go.jp/txt/122115385X00220260401/23",
+        "speechOrder": 23
+      },
+      "answers": [],
+      "ai_title": ""
+    },
+    {
+      "issueID": "122115385X00220260401",
+      "session": 221,
+      "nameOfHouse": "参議院",
+      "nameOfMeeting": "デジタル社会の形成及び人工知能の活用等に関する特別委員会",
+      "issue": "第2号",
+      "imageKind": "会議録",
+      "date": "2026-04-01",
+      "question": null,
+      "answers": [
+        {
+          "speechID": "122115385X00220260401_003",
+          "issueID": "122115385X00220260401",
+          "session": 221,
+          "nameOfHouse": "参議院",
+          "nameOfMeeting": "デジタル社会の形成及び人工知能の活用等に関する特別委員会",
+          "issue": "第2号",
+          "imageKind": "会議録",
+          "date": "2026-04-01",
+          "speaker": "松本尚",
+          "speakerGroup": "自由民主党・無所属の会",
+          "speakerPosition": "デジタル大臣・内閣府特命担当大臣（サイバー安全保障）",
+          "speakerRole": "",
+          "is_minister": true,
+          "excerpt": "○国務大臣（松本尚君） おはようございます。 デジタル大臣、デジタル行財政改革担当大臣として、所信を申し述べます。 マイナンバーカードについては、昨年十二月に保有枚数が一億枚を突破しました。引き続き、カードを保有するメリットを多くの人に実感していただけるよう、行政を始め民間も含めた利用シーンの拡大、スマートフォンへのマイナンバーカード機能の搭載や利用の拡大、",
+          "speechURL": "https://kokkai.ndl.go.jp/txt/122115385X00220260401/3",
+          "speechOrder": 3
+        }
+      ],
       "ai_title": ""
     },
     {
@@ -3130,35 +3346,6 @@
           "speechOrder": 166
         }
       ],
-      "ai_title": ""
-    },
-    {
-      "issueID": "121704260X02520250606",
-      "session": 217,
-      "nameOfHouse": "衆議院",
-      "nameOfMeeting": "厚生労働委員会",
-      "issue": "第25号",
-      "imageKind": "会議録",
-      "date": "2025-06-06",
-      "question": {
-        "speechID": "121704260X02520250606_163",
-        "issueID": "121704260X02520250606",
-        "session": 217,
-        "nameOfHouse": "衆議院",
-        "nameOfMeeting": "厚生労働委員会",
-        "issue": "第25号",
-        "imageKind": "会議録",
-        "date": "2025-06-06",
-        "speaker": "田村貴昭",
-        "speakerGroup": "日本共産党",
-        "speakerPosition": "",
-        "speakerRole": "",
-        "is_minister": false,
-        "excerpt": "○田村（貴）委員 トラブル続き、そして不具合だらけのマイナ保険証本人確認。国民が信頼を寄せていると言えますか。 厚労省、マイナ保険証の利用率、直近で、四月、二八・六五％、そうですよね。そして、マイナ保険証を登録し、活用してくださいと言っている厚生労働省そのもの、厚生労働省の職員の利用率は、厚労第一が三三％、厚労第二が二九％、そして国全体でも、",
-        "speechURL": "https://kokkai.ndl.go.jp/txt/121704260X02520250606/163",
-        "speechOrder": 163
-      },
-      "answers": [],
       "ai_title": ""
     },
     {
@@ -6893,37 +7080,6 @@
       "ai_title": ""
     },
     {
-      "issueID": "121705367X00220250311",
-      "session": 217,
-      "nameOfHouse": "衆議院",
-      "nameOfMeeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
-      "issue": "第2号",
-      "imageKind": "会議録",
-      "date": "2025-03-11",
-      "question": null,
-      "answers": [
-        {
-          "speechID": "121705367X00220250311_004",
-          "issueID": "121705367X00220250311",
-          "session": 217,
-          "nameOfHouse": "衆議院",
-          "nameOfMeeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
-          "issue": "第2号",
-          "imageKind": "会議録",
-          "date": "2025-03-11",
-          "speaker": "平将明",
-          "speakerGroup": "自由民主党・無所属の会",
-          "speakerPosition": "デジタル大臣・内閣府特命担当大臣（規制改革）",
-          "speakerRole": "",
-          "is_minister": true,
-          "excerpt": "○平国務大臣 デジタル大臣、デジタル行財政改革担当大臣として、所信の一端を申し述べます。 まず、国民の利便性の向上及び行政運営の効率化を図るため、マイナンバーを利用することができる事務として司法書士等の国家資格に関する事務、",
-          "speechURL": "https://kokkai.ndl.go.jp/txt/121705367X00220250311/4",
-          "speechOrder": 4
-        }
-      ],
-      "ai_title": ""
-    },
-    {
       "issueID": "121704260X00120250307",
       "session": 217,
       "nameOfHouse": "衆議院",
@@ -7591,7 +7747,7 @@
       "imageKind": "会議録",
       "date": "2024-12-19",
       "question": {
-        "speechID": "121614601X00320241219_128",
+        "speechID": "121614601X00320241219_127",
         "issueID": "121614601X00320241219",
         "session": 216,
         "nameOfHouse": "参議院",
@@ -7599,14 +7755,14 @@
         "issue": "第3号",
         "imageKind": "会議録",
         "date": "2024-12-19",
-        "speaker": "伊藤岳",
-        "speakerGroup": "日本共産党",
-        "speakerPosition": "",
+        "speaker": "阿部知明",
+        "speakerGroup": "",
+        "speakerPosition": "総務省自治行政局長",
         "speakerRole": "",
         "is_minister": false,
-        "excerpt": "○伊藤岳君 いやいや、資格確認書で対応できるって言うけど、顔認証マイナンバーカードつくったんでしょう、総務省が。これ、もっと推奨するという立場じゃないんですか。 じゃ、その資格確認書について聞きますけれども、厚労省に聞きます。 資格確認書の申請なし交付という対応が今ありますが、国民の中には、資格確認書はいつ届くのかという声があります。見通しはどうですか。",
-        "speechURL": "https://kokkai.ndl.go.jp/txt/121614601X00320241219/128",
-        "speechOrder": 128
+        "excerpt": "○政府参考人（阿部知明君） お答えいたします。 実際には、マイナンバーカードを取得できない方につきましては、資格確認書、厚労省の所管でございますけれども、資格確認書による対応ということも考えられますし、繰り返しになりますけれども、実際には、福祉施設の職員の方々の負担のある場合もありますけれども、実際には、御本人、まあ御本人難しいかもしれませんけど、",
+        "speechURL": "https://kokkai.ndl.go.jp/txt/121614601X00320241219/127",
+        "speechOrder": 127
       },
       "answers": [
         {
@@ -7628,35 +7784,6 @@
           "speechOrder": 148
         }
       ],
-      "ai_title": ""
-    },
-    {
-      "issueID": "121614601X00320241219",
-      "session": 216,
-      "nameOfHouse": "参議院",
-      "nameOfMeeting": "総務委員会",
-      "issue": "第3号",
-      "imageKind": "会議録",
-      "date": "2024-12-19",
-      "question": {
-        "speechID": "121614601X00320241219_127",
-        "issueID": "121614601X00320241219",
-        "session": 216,
-        "nameOfHouse": "参議院",
-        "nameOfMeeting": "総務委員会",
-        "issue": "第3号",
-        "imageKind": "会議録",
-        "date": "2024-12-19",
-        "speaker": "阿部知明",
-        "speakerGroup": "",
-        "speakerPosition": "総務省自治行政局長",
-        "speakerRole": "",
-        "is_minister": false,
-        "excerpt": "○政府参考人（阿部知明君） お答えいたします。 実際には、マイナンバーカードを取得できない方につきましては、資格確認書、厚労省の所管でございますけれども、資格確認書による対応ということも考えられますし、繰り返しになりますけれども、実際には、福祉施設の職員の方々の負担のある場合もありますけれども、実際には、御本人、まあ御本人難しいかもしれませんけど、",
-        "speechURL": "https://kokkai.ndl.go.jp/txt/121614601X00320241219/127",
-        "speechOrder": 127
-      },
-      "answers": [],
       "ai_title": ""
     },
     {
@@ -8383,66 +8510,6 @@
         "speechOrder": 0
       },
       "answers": [],
-      "ai_title": ""
-    },
-    {
-      "issueID": "121614601X00220241217",
-      "session": 216,
-      "nameOfHouse": "参議院",
-      "nameOfMeeting": "総務委員会",
-      "issue": "第2号",
-      "imageKind": "会議録",
-      "date": "2024-12-17",
-      "question": {
-        "speechID": "121614601X00220241217_013",
-        "issueID": "121614601X00220241217",
-        "session": 216,
-        "nameOfHouse": "参議院",
-        "nameOfMeeting": "総務委員会",
-        "issue": "第2号",
-        "imageKind": "会議録",
-        "date": "2024-12-17",
-        "speaker": "岸真紀子",
-        "speakerGroup": "立憲民主・社民・無所属",
-        "speakerPosition": "",
-        "speakerRole": "",
-        "is_minister": false,
-        "excerpt": "○岸真紀子君 ありがとうございます。 昨年は、大沢局長は公務員部長としても尽力をいただいて、その五月二日付けの通知でも明確に書いていただきました。 先ほどの御答弁によると、十一月二十九日付けの副大臣通知の方には明確に書いているということが確認できました。とはいえ、千七百八十八団体あるんですが、残念ながら、去年で四四％、",
-        "speechURL": "https://kokkai.ndl.go.jp/txt/121614601X00220241217/13",
-        "speechOrder": 13
-      },
-      "answers": [],
-      "ai_title": ""
-    },
-    {
-      "issueID": "121615261X00320241213",
-      "session": 216,
-      "nameOfHouse": "参議院",
-      "nameOfMeeting": "予算委員会",
-      "issue": "第3号",
-      "imageKind": "会議録",
-      "date": "2024-12-13",
-      "question": null,
-      "answers": [
-        {
-          "speechID": "121615261X00320241213_033",
-          "issueID": "121615261X00320241213",
-          "session": 216,
-          "nameOfHouse": "参議院",
-          "nameOfMeeting": "予算委員会",
-          "issue": "第3号",
-          "imageKind": "会議録",
-          "date": "2024-12-13",
-          "speaker": "林芳正",
-          "speakerGroup": "自由民主党・無所属の会",
-          "speakerPosition": "内閣官房長官",
-          "speakerRole": "",
-          "is_minister": true,
-          "excerpt": "○国務大臣（林芳正君） 総裁候補として申し上げたことと、党の政策、そして政府の政策になるというプロセスは先ほど総理がお答えしたとおりでございますし、今、マイナ保険証についても総理がお答えされたとおりでございます。 ただ、広報、周知を徹底すると総理もおっしゃいましたが、総裁選前までは紙の健康保険証を十二月二日で廃止をすると、",
-          "speechURL": "https://kokkai.ndl.go.jp/txt/121615261X00320241213/33",
-          "speechOrder": 33
-        }
-      ],
       "ai_title": ""
     }
   ]
