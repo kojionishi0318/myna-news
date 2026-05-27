@@ -1,8 +1,8 @@
 {
-  "updated": "2026-05-25T21:51:02+09:00",
+  "updated": "2026-05-27T21:38:12+09:00",
   "total_exchanges": 237,
-  "total_questions": 209,
-  "total_answers": 112,
+  "total_questions": 210,
+  "total_answers": 111,
   "exchanges": [
     {
       "issueID": "122104339X00620260423",
@@ -790,6 +790,83 @@
           "excerpt": "○国務大臣（松本尚君） おはようございます。 デジタル大臣、デジタル行財政改革担当大臣として、所信を申し述べます。 マイナンバーカードについては、昨年十二月に保有枚数が一億枚を突破しました。引き続き、カードを保有するメリットを多くの人に実感していただけるよう、行政を始め民間も含めた利用シーンの拡大、スマートフォンへのマイナンバーカード機能の搭載や利用の拡大、",
           "speechURL": "https://kokkai.ndl.go.jp/txt/122115385X00220260401/3",
           "speechOrder": 3
+        }
+      ],
+      "ai_title": ""
+    },
+    {
+      "issueID": "122114601X00320260326",
+      "session": 221,
+      "nameOfHouse": "参議院",
+      "nameOfMeeting": "総務委員会",
+      "issue": "第3号",
+      "imageKind": "会議録",
+      "date": "2026-03-26",
+      "question": {
+        "speechID": "122114601X00320260326_247",
+        "issueID": "122114601X00320260326",
+        "session": 221,
+        "nameOfHouse": "参議院",
+        "nameOfMeeting": "総務委員会",
+        "issue": "第3号",
+        "imageKind": "会議録",
+        "date": "2026-03-26",
+        "speaker": "齊藤健一郎",
+        "speakerGroup": "各派に属しない議員",
+        "speakerPosition": "",
+        "speakerRole": "",
+        "is_minister": false,
+        "excerpt": "○齊藤健一郎君 齊藤健一郎です。よろしくお願いします。 午前に引き続きまして、マイナンバーカードやらせていただきます。今回はシステムについてやるんですけれども、リアルな実態シリーズということで、また午前と同じく、実態を皆様に明らかにしていきたいなというふうに思っております。 今日も傍聴席で来ているんですけれども、私の政策秘書で、",
+        "speechURL": "https://kokkai.ndl.go.jp/txt/122114601X00320260326/247",
+        "speechOrder": 247
+      },
+      "answers": [],
+      "ai_title": ""
+    },
+    {
+      "issueID": "122114601X00320260326",
+      "session": 221,
+      "nameOfHouse": "参議院",
+      "nameOfMeeting": "総務委員会",
+      "issue": "第3号",
+      "imageKind": "会議録",
+      "date": "2026-03-26",
+      "question": {
+        "speechID": "122114601X00320260326_061",
+        "issueID": "122114601X00320260326",
+        "session": 221,
+        "nameOfHouse": "参議院",
+        "nameOfMeeting": "総務委員会",
+        "issue": "第3号",
+        "imageKind": "会議録",
+        "date": "2026-03-26",
+        "speaker": "齊藤健一郎",
+        "speakerGroup": "各派に属しない議員",
+        "speakerPosition": "",
+        "speakerRole": "",
+        "is_minister": false,
+        "excerpt": "○齊藤健一郎君 ありがとうございます。 まさに、その無償化というキーワードがやはりミスリードを起こして、政治家から発信する無償化が、もう当たり前のように給食イコールただなんだというようなことをまたこれメディアが取り上げるものですから、やはり余り政治を知らない人からすれば、一般国民の方からすれば、ここに追加負担を求められると、",
+        "speechURL": "https://kokkai.ndl.go.jp/txt/122114601X00320260326/61",
+        "speechOrder": 61
+      },
+      "answers": [
+        {
+          "speechID": "122114601X00320260326_065",
+          "issueID": "122114601X00320260326",
+          "session": 221,
+          "nameOfHouse": "参議院",
+          "nameOfMeeting": "総務委員会",
+          "issue": "第3号",
+          "imageKind": "会議録",
+          "date": "2026-03-26",
+          "speaker": "江浪武志",
+          "speakerGroup": "",
+          "speakerPosition": "厚生労働省大臣官房審議官",
+          "speakerRole": "",
+          "is_minister": true,
+          "excerpt": "○政府参考人（江浪武志君） お答え申し上げます。 まず、仕組みにつきましては既に議員から御説明いただきましたけれども、改めてちょっと御説明申し上げますと、マイナ保険証を利用する方々に確実にマイナンバーカードの更新手続を行っていただけますように、その有効期間満了日の約三か月前から地方公共団体情報システム機構から各御家庭に更新の御案内が郵送されまして、",
+          "speechURL": "https://kokkai.ndl.go.jp/txt/122114601X00320260326/65",
+          "speechOrder": 65
         }
       ],
       "ai_title": ""
@@ -3357,7 +3434,7 @@
       "imageKind": "会議録",
       "date": "2025-06-06",
       "question": {
-        "speechID": "121704260X02520250606_161",
+        "speechID": "121704260X02520250606_160",
         "issueID": "121704260X02520250606",
         "session": 217,
         "nameOfHouse": "衆議院",
@@ -3365,14 +3442,14 @@
         "issue": "第25号",
         "imageKind": "会議録",
         "date": "2025-06-06",
-        "speaker": "田村貴昭",
-        "speakerGroup": "日本共産党",
-        "speakerPosition": "",
+        "speaker": "鹿沼均",
+        "speakerGroup": "",
+        "speakerPosition": "厚生労働省保険局長",
         "speakerRole": "",
         "is_minister": false,
-        "excerpt": "○田村（貴）委員 ずっと不具合が起こっているじゃないですか。全国各地で、この瞬間にもトラブルが起こっていると思いますよ。物すごい数ですから。それで一本化していいんですか。 病院が、再診の患者さんの資格情報を、札幌病院は把握していたんですよ。そして、何よりも、患者さんの多くが従来からの保険証を持っていたから診療に問題がなかった、これが真実なんですね。札幌市は、",
-        "speechURL": "https://kokkai.ndl.go.jp/txt/121704260X02520250606/161",
-        "speechOrder": 161
+        "excerpt": "○鹿沼政府参考人 お答えいたします。 まず、報道によれば、従来の保険証で資格確認を行ったほか、保険証を持っていない患者に対しては、窓口で保険資格を証明するような書類を配付し、記入をお願いしたというふうに承知しております。 その上で、これまでも、",
+        "speechURL": "https://kokkai.ndl.go.jp/txt/121704260X02520250606/160",
+        "speechOrder": 160
       },
       "answers": [
         {
