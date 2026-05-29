@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-27T21:38:30+09:00",
+  "updated": "2026-05-29T12:40:33+09:00",
   "articles": [
     {
       "title": "医療費助成、マイナポータルの受給者証で資格確認　　機器不具合時 - MEDIFAX web",
@@ -247,6 +247,16 @@
       "category": "一般"
     },
     {
+      "title": "健康保険証からマイナ保険証に切り替えるメリット…従来の保険証は、いつまで使える？ - 読売新聞",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZHAwYzFibHF3ZGJqWGc2UktwcG01c19FVkZHS3ktWUthRzgyYVVfZXlnTkNzdng5ZmhHY3luV29ZdVBacHpyNndPSldZNDItT1doOE9FU3JaenZwYmFfVkllZTdVRlp3bmNZRzNLSUhmN2F1MXBLWmowSURQWFNHZ19mZXh3ZlZ1czFkVVZDbw?oc=5",
+      "pub_date": "2026-05-20T16:00:00+09:00",
+      "source": "読売新聞",
+      "description": "健康保険証の新規発行が2024年12月1日に終了したのに伴い、その1年後となる2025年12月1日をもって、既存の発行済みの健康保険証も有効期限を迎える。これにより、12月2日からはマイナ保険証を基本とする仕組みになる。マイナ保険証に登録していない人には ...",
+      "_glink": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZHAwYzFibHF3ZGJqWGc2UktwcG01c19FVkZHS3ktWUthRzgyYVVfZXlnTkNzdng5ZmhHY3luV29ZdVBacHpyNndPSldZNDItT1doOE9FU3JaenZwYmFfVkllZTdVRlp3bmNZRzNLSUhmN2F1MXBLWmowSURQWFNHZ19mZXh3ZlZ1czFkVVZDbw?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZHAwYzFibHF3ZGJqWGc2UktwcG01c19FVkZHS3ktWUthRzgyYVVfZXlnTkNzdng5ZmhHY3luV29ZdVBacHpyNndPSldZNDItT1doOE9FU3JaenZwYmFfVkllZTdVRlp3bmNZRzNLSUhmN2F1MXBLWmowSURQWFNHZ19mZXh3ZlZ1czFkVVZDbw?oc=5",
+      "category": "制度変更"
+    },
+    {
       "title": "「マイナカード登録で最大2万円」消えたポイント 巨額事業なのに実績不明 - 中日新聞Web",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9CSFBPdE9La0pRNnRDUklZcGU1VDRtWDF6ZTZKcWNnRkJsT1NQWFRKbXU2em93dXdicEtnblh2QWJRNGtqd2ttMmVteTk5ZXBHbkQzXw?oc=5",
       "pub_date": "2026-05-20T16:00:00+09:00",
@@ -437,44 +447,6 @@
       "description": "",
       "_glink": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5oMGpXeGU1X3lfdnhGWnFvSlFBbU43dmUxOWpmQ25pSm14bkwwcm00Z2M5Ql9pUm1Id0RReUs5Nl9hWEZLYXRjckxueGhvVnZKMlNtWjdNMEszOUlMXzhkeUxjYmE2SnNpMzhOS3M0dm5WZjRBV0xGdnc4eEFhWG8?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5oMGpXeGU1X3lfdnhGWnFvSlFBbU43dmUxOWpmQ25pSm14bkwwcm00Z2M5Ql9pUm1Id0RReUs5Nl9hWEZLYXRjckxueGhvVnZKMlNtWjdNMEszOUlMXzhkeUxjYmE2SnNpMzhOS3M0dm5WZjRBV0xGdnc4eEFhWG8?oc=5",
-      "category": "制度変更"
-    },
-    {
-      "title": "マイナカード、ポイント事業でどれだけ増加? 検査院が効果を調査 - 朝日新聞",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53Mm9rdUFmakZhUG9OZzRGQzZDVC10cjBlWDZXUXkyU0Jid2NQSHNPX1FEM1pHWTRadHJGNVY2ZHQ4LWk3dXdfLWRHX0VnWXB4VXhKNEhfczZmbU5YYzBXQ0FZZGhtN1U?oc=5",
-      "pub_date": "2026-05-15T17:00:00+09:00",
-      "source": "朝日新聞",
-      "description": "国の「マイナポイント事業」はどんな効果があったのか。会計検査院が調査結果を15日に公表した。 マイナンバーカードの申請件数は、事業の前後で6769万件増えたが、マイナポイントの申し込み自体は目標の9500万人に届かず、7556万人だった。 事業の支出額は計1兆3905億円。",
-      "_glink": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53Mm9rdUFmakZhUG9OZzRGQzZDVC10cjBlWDZXUXkyU0Jid2NQSHNPX1FEM1pHWTRadHJGNVY2ZHQ4LWk3dXdfLWRHX0VnWXB4VXhKNEhfczZmbU5YYzBXQ0FZZGhtN1U?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53Mm9rdUFmakZhUG9OZzRGQzZDVC10cjBlWDZXUXkyU0Jid2NQSHNPX1FEM1pHWTRadHJGNVY2ZHQ4LWk3dXdfLWRHX0VnWXB4VXhKNEhfczZmbU5YYzBXQ0FZZGhtN1U?oc=5",
-      "category": "統計"
-    },
-    {
-      "title": "マイナンバー申請６７００万件増　ポイント付与事業で―カード利活用の促進求める・検査院",
-      "link": "https://www.jiji.com/jc/article?k=2026051500853&g=pol&m=rss",
-      "pub_date": "2026-05-15T17:00:00+09:00",
-      "source": "時事通信",
-      "description": "マイナンバーカード普及のために政府が実施した「マイナポイント」の付与事業について、事業の実施前後で、カードの申請件数が約６７６９万件増加していたことが１５日、会計検査院の調べで分かった。多額の国費が投じられたことから、検査院は総務省などにカード利活用の促進策を検討するよう求めた。",
-      "thumbnail": "https://www.jiji.com/news2/kiji_photos/202605/20260515ds63_o.jpg",
-      "category": "統計"
-    },
-    {
-      "title": "電子処方箋の導入状況に関するダッシュボードを更新しました",
-      "link": "https://www.digital.go.jp/resources/govdashboard/electronic-prescription",
-      "pub_date": "2026-05-15T15:00:00+09:00",
-      "source": "デジタル庁",
-      "description": "厚生労働省は7月1日に開いた「医療DX令和ビジョン2030厚生労働省推進チーム」で、これまで「2024年度末までにおおむね全ての医療機関に導入」を目標としてきた電子処方箋について、もともと「2030年にはおおむね全ての医療機関に導入を目指す」としていた ...",
-      "thumbnail": "https://www.digital.go.jp/assets/contents/node/basic_page/field_thumbnail_image/42e67f07-4d20-46e7-8774-eb5493db76dd/5a4075ae/%E9%9B%BB%E5%AD%90%E5%87%A6%E6%96%B9%E7%AE%8B%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%83%80%E3%83%83%E3%82%B7%E3%83%A5%E3%83%9C%E3%83%BC%E3%83%89.png",
-      "category": "一般"
-    },
-    {
-      "title": "マイナ保険証対応とキャッシュレス決済― 患者満足度を爆上げする『待たせない会計』の実現 ― - 糖尿病リソースガイド",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBESFU1UHVNLUpENFVLbTV6U1F0QUVQSlRXZTkwQ21rV2w4SVJpX1c0YjdSZ2xYb2hpeUNLWmQ3ZXR3NExPSDVJWmhKYlJ2ZnBqcnJYUFNvX1E2Wm1NMy1UTklkNFBsR2tGaEtqUWlpQXNwRm9sdXRldzZfQQ?oc=5",
-      "pub_date": "2026-05-14T11:32:50+09:00",
-      "source": "糖尿病リソースガイド",
-      "description": "マイナ保険証時代の到来――医療機関が知るべき制度の全体像1. 従来の健康保険証からマイナ保険証へ 2024年12月2日以降、従来の健康保険証は新たに発行されなくなり、「マイナ保険証」を基本とする仕組みへの移行が始まった。2025年12月1日をもって従来の保険証はすべて有効期限を迎 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBESFU1UHVNLUpENFVLbTV6U1F0QUVQSlRXZTkwQ21rV2w4SVJpX1c0YjdSZ2xYb2hpeUNLWmQ3ZXR3NExPSDVJWmhKYlJ2ZnBqcnJYUFNvX1E2Wm1NMy1UTklkNFBsR2tGaEtqUWlpQXNwRm9sdXRldzZfQQ?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBESFU1UHVNLUpENFVLbTV6U1F0QUVQSlRXZTkwQ21rV2w4SVJpX1c0YjdSZ2xYb2hpeUNLWmQ3ZXR3NExPSDVJWmhKYlJ2ZnBqcnJYUFNvX1E2Wm1NMy1UTklkNFBsR2tGaEtqUWlpQXNwRm9sdXRldzZfQQ?oc=5",
       "category": "制度変更"
     }
   ],
