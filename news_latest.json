@@ -1,6 +1,16 @@
 {
-  "updated": "2026-06-02T00:22:34+09:00",
+  "updated": "2026-06-02T13:02:26+09:00",
   "articles": [
+    {
+      "title": "3月のマイナ保険証利用率67％ 厚労省 - 医療介護CBnews",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hb0VjeDZhYUhxWER4U2l5SnRUSFl5UmtkYkZGeGlUdDdVTmVEa2lFR1lacjVVWFB6SF95ckxTTnlhUDM4SENxT0J4ZTdMWWhWYmIwaGVIUExTWVE?oc=5",
+      "pub_date": "2026-06-02T10:06:00+09:00",
+      "source": "医療介護CBnews",
+      "description": "CBnewsは、医療・介護に特化した総合情報サイトで、専属記者の独自記事を配信しています。医療や介護行政の動きをはじめ、医療・介護業界のタイムリーな話題や、医療者・介護従事者に役立つ新商品情報などをリアルタイムでお届けしています。",
+      "_glink": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hb0VjeDZhYUhxWER4U2l5SnRUSFl5UmtkYkZGeGlUdDdVTmVEa2lFR1lacjVVWFB6SF95ckxTTnlhUDM4SENxT0J4ZTdMWWhWYmIwaGVIUExTWVE?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hb0VjeDZhYUhxWER4U2l5SnRUSFl5UmtkYkZGeGlUdDdVTmVEa2lFR1lacjVVWFB6SF95ckxTTnlhUDM4SENxT0J4ZTdMWWhWYmIwaGVIUExTWVE?oc=5",
+      "category": "統計"
+    },
     {
       "title": "令和8年度後期高齢者医療の資格確認書と資格情報のお知らせの年次更新 - city.isesaki.lg.jp",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQU29KcC1LUzFwMXFyNHpTdFdlX1E2Q3Y1Yk8xUFAyMmNraEtRM1cyME1aUEdJWGNiTDNiV1BXNXBSSjdlUGZTUzJjWk5uekgyT245UVN4UHowY2ZrR2hYbTFxQ3lyRnRkVnVZajV5WmM1NktRZld5N2xybUFPRXBNdU5SQk4?oc=5",
@@ -479,15 +489,6 @@
       "_glink": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZERuMnN0V25WMTZ4SktDblpXWDJMNHVsTDJmc1dwMVZKUUtKM05NcGYta1pKeTBvMmFIcWJPb2J3Q004SlhDVVhYYWp3QjlEWlYwT3VaOVhCbHBsVnZTQnhnSmVZdDBMcTRkSU5LNXlzc2dHMDl1d2g0NnZ5Z0VpeU1RRGRQVjMwZzBVc2tvTDAxLW9XSml0S2NJdw?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZERuMnN0V25WMTZ4SktDblpXWDJMNHVsTDJmc1dwMVZKUUtKM05NcGYta1pKeTBvMmFIcWJPb2J3Q004SlhDVVhYYWp3QjlEWlYwT3VaOVhCbHBsVnZTQnhnSmVZdDBMcTRkSU5LNXlzc2dHMDl1d2g0NnZ5Z0VpeU1RRGRQVjMwZzBVc2tvTDAxLW9XSml0S2NJdw?oc=5",
       "category": "一般"
-    },
-    {
-      "title": "マイナ取得義務化検討 自民提言へ",
-      "link": "https://news.yahoo.co.jp/pickup/6580710?source=rss",
-      "pub_date": "2026-05-18T20:35:29+09:00",
-      "source": "Yahoo!ニュース",
-      "description": "自民党が、マイナンバーカード取得の義務化を検討するよう政府に提言することが分かった。義務化した場合の罰則は設けないとしている。いまはマイナカードの申請は任意で、政府はポイントを付与するなどして普及を進めてきた。",
-      "thumbnail": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/5/18/0c33f68eab0277556cadc9ded04bbf86e52f80b5c18915a7cab392b5f4a6f450.jpg",
-      "category": "制度変更"
     }
   ],
   "total": 500

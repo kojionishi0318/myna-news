@@ -1,8 +1,8 @@
 {
-  "updated": "2026-06-02T00:22:45+09:00",
-  "total_exchanges": 237,
+  "updated": "2026-06-02T13:02:40+09:00",
+  "total_exchanges": 238,
   "total_questions": 210,
-  "total_answers": 111,
+  "total_answers": 112,
   "exchanges": [
     {
       "issueID": "122104339X00620260423",
@@ -790,6 +790,37 @@
           "excerpt": "○国務大臣（松本尚君） おはようございます。 デジタル大臣、デジタル行財政改革担当大臣として、所信を申し述べます。 マイナンバーカードについては、昨年十二月に保有枚数が一億枚を突破しました。引き続き、カードを保有するメリットを多くの人に実感していただけるよう、行政を始め民間も含めた利用シーンの拡大、スマートフォンへのマイナンバーカード機能の搭載や利用の拡大、",
           "speechURL": "https://kokkai.ndl.go.jp/txt/122115385X00220260401/3",
           "speechOrder": 3
+        }
+      ],
+      "ai_title": ""
+    },
+    {
+      "issueID": "122115261X00720260327",
+      "session": 221,
+      "nameOfHouse": "参議院",
+      "nameOfMeeting": "予算委員会",
+      "issue": "第7号",
+      "imageKind": "会議録",
+      "date": "2026-03-27",
+      "question": null,
+      "answers": [
+        {
+          "speechID": "122115261X00720260327_056",
+          "issueID": "122115261X00720260327",
+          "session": 221,
+          "nameOfHouse": "参議院",
+          "nameOfMeeting": "予算委員会",
+          "issue": "第7号",
+          "imageKind": "会議録",
+          "date": "2026-03-27",
+          "speaker": "上野賢一郎",
+          "speakerGroup": "自由民主党・無所属の会",
+          "speakerPosition": "厚生労働大臣",
+          "speakerRole": "",
+          "is_minister": true,
+          "excerpt": "○国務大臣（上野賢一郎君） まず、前提として、償還払いで一度お支払をしていただいて後ほど返ってくる、それが例えば、一回お支払をするのに何十万とお支払する、あるいは百万を超えてしまう、そういった場合は大変懸念をされるのではないかなと思いますが、そうした場合は、これは高額療養費制度に該当をすると考えられますので、その場合は、現行制度におきましても、",
+          "speechURL": "https://kokkai.ndl.go.jp/txt/122115261X00720260327/56",
+          "speechOrder": 56
         }
       ],
       "ai_title": ""
