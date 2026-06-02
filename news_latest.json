@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-02T12:38:21+09:00",
+  "updated": "2026-06-02T21:40:10+09:00",
   "articles": [
     {
       "title": "3月のマイナ保険証利用率67％ 厚労省 - 医療介護CBnews",
@@ -70,6 +70,16 @@
       "_glink": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSWJpSTRwLTdDV3g4VDZQUjdSNXdwNWZtQWJ1VmNXd0wzUnlQejVrN3Fka1Y4RE91MENZNDBPanRlLXA1WFFiRVZaeDc2cFV1b01mVTJzamtqa09EbktTdUZQSmdkRWVzdUNCS2JXTjJaNEF6cThiYThwSklycl9BRmVILUhOOExnX2pBOW9R?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSWJpSTRwLTdDV3g4VDZQUjdSNXdwNWZtQWJ1VmNXd0wzUnlQejVrN3Fka1Y4RE91MENZNDBPanRlLXA1WFFiRVZaeDc2cFV1b01mVTJzamtqa09EbktTdUZQSmdkRWVzdUNCS2JXTjJaNEF6cThiYThwSklycl9BRmVILUhOOExnX2pBOW9R?oc=5",
       "category": "トラブル"
+    },
+    {
+      "title": "DXの推進に伴う窓口業務の見直し - city.osaki.miyagi.jp",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNM3k4LUFZU1JQVFVRT0t3dFlKSDdtVDJMQkhlYkpzbHYxT08wNHI5RktaV1J6dXlvaDN0MU9nZE9rdUpjMXZiMmZzLWJOR1RIdjExNnB5YkdEVTBEcTY0VFdXZHFERldVZV90cWRMbm1nUzk1VHRSLXZfNU5wUkxkblZIbTZmZHZ1bUpJcEVFbw?oc=5",
+      "pub_date": "2026-05-29T16:00:00+09:00",
+      "source": "city.osaki.miyagi.jp",
+      "description": "マニュアルトータルソリューションを提供し、企業の業務効率化を支援する株式会社テンダ(本社／東京都渋谷区、代表取締役会長兼社長CEO／薗部 晃、以下「テンダ」)は、Unite Partners株式会社と共に、オンラインセミナー「業務改善を起点としたDX推進 ...",
+      "_glink": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNM3k4LUFZU1JQVFVRT0t3dFlKSDdtVDJMQkhlYkpzbHYxT08wNHI5RktaV1J6dXlvaDN0MU9nZE9rdUpjMXZiMmZzLWJOR1RIdjExNnB5YkdEVTBEcTY0VFdXZHFERldVZV90cWRMbm1nUzk1VHRSLXZfNU5wUkxkblZIbTZmZHZ1bUpJcEVFbw?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNM3k4LUFZU1JQVFVRT0t3dFlKSDdtVDJMQkhlYkpzbHYxT08wNHI5RktaV1J6dXlvaDN0MU9nZE9rdUpjMXZiMmZzLWJOR1RIdjExNnB5YkdEVTBEcTY0VFdXZHFERldVZV90cWRMbm1nUzk1VHRSLXZfNU5wUkxkblZIbTZmZHZ1bUpJcEVFbw?oc=5",
+      "category": "制度変更"
     },
     {
       "title": "オンライン資格確認 次期カードリーダー導入に上限12万1千円の費用補助 - 厚生政策情報センター",
@@ -481,14 +491,6 @@
       "source": "厚生労働省",
       "description": "厚生労働省が4月4日に開いた社会保障審議会医療保険部会で、高額療養費制度の自己負担限度額の見直しの一連の動きを巡り、保険局長の鹿沼均氏が部会の委員に対し「心からお詫びを申し上げる。引き続き部会で議論をお願いしたいと考えている」と述べた。委員から「その前に医療費財源 ...",
       "category": "制度変更"
-    },
-    {
-      "title": "第34回社会保障審議会医療保険部会 柔道整復療養費検討専門委員会議事録",
-      "link": "https://www.mhlw.go.jp/stf/shingi2/newpage_00267.html",
-      "pub_date": "2026-05-19T17:06:00+09:00",
-      "source": "厚生労働省",
-      "description": "厚生労働省は9月16日、社会保障審議会医療保険部会の下に設置した「高額療養費制度の在り方に関する専門委員会」（座長：田辺国昭・東京大学大学院法学政治学研究科教授）の第4回会合を開き、医療保険部会において「医療保険制度全体の議論が必要」と ...",
-      "category": "政治"
     }
   ],
   "total": 500
