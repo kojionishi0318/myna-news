@@ -1,6 +1,25 @@
 {
-  "updated": "2026-06-04T20:55:07+09:00",
+  "updated": "2026-06-05T12:51:27+09:00",
   "articles": [
+    {
+      "title": "2026年夏頃に提供予定の「マイナアプリ」のアプリアイコンを公開しました（デジタル庁ウェブサービス・アプリケーション）",
+      "link": "https://services.digital.go.jp/mynaapp/news/20260605-01/",
+      "pub_date": "2026-06-05T08:58:47+09:00",
+      "source": "デジタル庁",
+      "description": "",
+      "thumbnail": "https://services.digital.go.jp/uploads/og_images/20260122_mynaapp_ogp_0001.png",
+      "category": "一般"
+    },
+    {
+      "title": "なぜマイナンバーカードはこんなにも\"使えない\"のか…韓国はできたのに日本が｢デジタル化｣できない構造的欠陥【マイナカード3選】 - PRESIDENT Online（プレジデントオンライン）",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5VNmVjeEJfWmI1T2tUQzhGR0E2Vnh5LXNCNkI0RWpCbzBfX1lqQ1hqWjROS3FYb2pjazNXRURhb2JGb2tadXZEU0NuWFFvb0taZjBPYmt3YnQ?oc=5",
+      "pub_date": "2026-06-05T06:00:00+09:00",
+      "source": "PRESIDENT Online（プレジデントオンライン）",
+      "description": "今年で交付開始から10年の節目を迎えるマイナンバーカード。行政手続きにおける利便性や「マイナポイント」の付与といった大々的な後押しもあり、2025年12月時点で普及率は80%超に達しています。一方で、個人情報の漏洩や公金受取口座の誤登録などのトラブル ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5VNmVjeEJfWmI1T2tUQzhGR0E2Vnh5LXNCNkI0RWpCbzBfX1lqQ1hqWjROS3FYb2pjazNXRURhb2JGb2tadXZEU0NuWFFvb0taZjBPYmt3YnQ?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5VNmVjeEJfWmI1T2tUQzhGR0E2Vnh5LXNCNkI0RWpCbzBfX1lqQ1hqWjROS3FYb2pjazNXRURhb2JGb2tadXZEU0NuWFFvb0taZjBPYmt3YnQ?oc=5",
+      "category": "トラブル"
+    },
     {
       "title": "【二宮町】二宮町でマイナンバーカード詐欺電話が発生！郵便局装う手口に注意 - 湘南人",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE14ZDg5WjhCdGlEc1hETHF2RmpsTWtPbTB6cXk4RTY4cUdJVnFjcVNuNFBuc1ltN2ZIMHZsT1VibnJ5aXBGVnl5ZEJKWE5GNmtEb2ZFSkhCT25BMWM2TjFlX09LX2V4QQ?oc=5",
@@ -472,26 +491,6 @@
       "description": "先日、朝日新聞など複数の報道機関で「マイナカード偽造容疑で中国の男逮捕」といったニュースが流れた。報道によれば、逮捕された人物は2022年12月にマイナンバーカードを偽造し、23年3月にこの偽造カードを使って日本国内の暗号通貨取引所を運営する ...",
       "_glink": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1hOUViLTlyUTJUa0ZVSDR5TlhaWlVlaHZROUgyYTJ1b1VrVDFYaXh3TkNwUnJBZFROY0tzanp4eWt0NGprNzBRVXRrUV8zVWgw?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1hOUViLTlyUTJUa0ZVSDR5TlhaWlVlaHZROUgyYTJ1b1VrVDFYaXh3TkNwUnJBZFROY0tzanp4eWt0NGprNzBRVXRrUV8zVWgw?oc=5",
-      "category": "一般"
-    },
-    {
-      "title": "健康保険証からマイナ保険証に切り替えるメリット…従来の保険証は、いつまで使える？ - 読売新聞",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZHAwYzFibHF3ZGJqWGc2UktwcG01c19FVkZHS3ktWUthRzgyYVVfZXlnTkNzdng5ZmhHY3luV29ZdVBacHpyNndPSldZNDItT1doOE9FU3JaenZwYmFfVkllZTdVRlp3bmNZRzNLSUhmN2F1MXBLWmowSURQWFNHZ19mZXh3ZlZ1czFkVVZDbw?oc=5",
-      "pub_date": "2026-05-20T16:00:00+09:00",
-      "source": "読売新聞",
-      "description": "健康保険証の新規発行が2024年12月1日に終了したのに伴い、その1年後となる2025年12月1日をもって、既存の発行済みの健康保険証も有効期限を迎える。これにより、12月2日からはマイナ保険証を基本とする仕組みになる。マイナ保険証に登録していない人には ...",
-      "_glink": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZHAwYzFibHF3ZGJqWGc2UktwcG01c19FVkZHS3ktWUthRzgyYVVfZXlnTkNzdng5ZmhHY3luV29ZdVBacHpyNndPSldZNDItT1doOE9FU3JaenZwYmFfVkllZTdVRlp3bmNZRzNLSUhmN2F1MXBLWmowSURQWFNHZ19mZXh3ZlZ1czFkVVZDbw?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZHAwYzFibHF3ZGJqWGc2UktwcG01c19FVkZHS3ktWUthRzgyYVVfZXlnTkNzdng5ZmhHY3luV29ZdVBacHpyNndPSldZNDItT1doOE9FU3JaenZwYmFfVkllZTdVRlp3bmNZRzNLSUhmN2F1MXBLWmowSURQWFNHZ19mZXh3ZlZ1czFkVVZDbw?oc=5",
-      "category": "制度変更"
-    },
-    {
-      "title": "「マイナカード登録で最大2万円」消えたポイント 巨額事業なのに実績不明 - 中日新聞Web",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9CSFBPdE9La0pRNnRDUklZcGU1VDRtWDF6ZTZKcWNnRkJsT1NQWFRKbXU2em93dXdicEtnblh2QWJRNGtqd2ttMmVteTk5ZXBHbkQzXw?oc=5",
-      "pub_date": "2026-05-20T16:00:00+09:00",
-      "source": "中日新聞Web",
-      "description": "マイナンバーカードの普及促進のため、政府が実施したポイント付与事業を巡り、不慣れな高齢者が失効によりポイントが使用できなかったケースがあった。会計検査院が15日に公表したマイナポイント事業に関する検査結果からは、一定程度のポイントが使われなかった実態 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9CSFBPdE9La0pRNnRDUklZcGU1VDRtWDF6ZTZKcWNnRkJsT1NQWFRKbXU2em93dXdicEtnblh2QWJRNGtqd2ttMmVteTk5ZXBHbkQzXw?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9CSFBPdE9La0pRNnRDUklZcGU1VDRtWDF6ZTZKcWNnRkJsT1NQWFRKbXU2em93dXdicEtnblh2QWJRNGtqd2ttMmVteTk5ZXBHbkQzXw?oc=5",
       "category": "一般"
     }
   ],
