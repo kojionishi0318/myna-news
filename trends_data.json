@@ -1,20 +1,16 @@
 {
-  "updated": "2026-06-08T07:15:30+09:00",
+  "updated": "2026-06-08T09:19:59+09:00",
   "alert_level": "green",
   "keywords": [
     {
       "keyword": "マイナ保険証",
-      "current": 5.0,
-      "yesterday": 8.0,
-      "change_day": -37.5,
-      "avg_7day": 8.0,
-      "change_week": -37.5,
+      "current": 8.0,
+      "yesterday": 5.0,
+      "change_day": 60.0,
+      "avg_7day": 7.7,
+      "change_week": 3.9,
       "alert": false,
       "history": [
-        {
-          "date": "2026-03-07",
-          "value": 8.0
-        },
         {
           "date": "2026-03-08",
           "value": 9.0
@@ -325,7 +321,7 @@
         },
         {
           "date": "2026-05-24",
-          "value": 8.0
+          "value": 9.0
         },
         {
           "date": "2026-05-25",
@@ -341,7 +337,7 @@
         },
         {
           "date": "2026-05-28",
-          "value": 9.0
+          "value": 8.0
         },
         {
           "date": "2026-05-29",
@@ -369,7 +365,7 @@
         },
         {
           "date": "2026-06-04",
-          "value": 9.0
+          "value": 8.0
         },
         {
           "date": "2026-06-05",
@@ -382,22 +378,22 @@
         {
           "date": "2026-06-07",
           "value": 5.0
+        },
+        {
+          "date": "2026-06-08",
+          "value": 8.0
         }
       ]
     },
     {
       "keyword": "マイナンバーカード",
-      "current": 35.0,
-      "yesterday": 35.0,
-      "change_day": 0.0,
-      "avg_7day": 44.0,
-      "change_week": -20.5,
+      "current": 49.0,
+      "yesterday": 36.0,
+      "change_day": 36.1,
+      "avg_7day": 43.4,
+      "change_week": 12.9,
       "alert": false,
       "history": [
-        {
-          "date": "2026-03-07",
-          "value": 69.0
-        },
         {
           "date": "2026-03-08",
           "value": 80.0
@@ -708,23 +704,23 @@
         },
         {
           "date": "2026-05-24",
-          "value": 44.0
+          "value": 41.0
         },
         {
           "date": "2026-05-25",
-          "value": 58.0
+          "value": 54.0
         },
         {
           "date": "2026-05-26",
-          "value": 51.0
+          "value": 52.0
         },
         {
           "date": "2026-05-27",
-          "value": 49.0
+          "value": 51.0
         },
         {
           "date": "2026-05-28",
-          "value": 49.0
+          "value": 50.0
         },
         {
           "date": "2026-05-29",
@@ -736,19 +732,19 @@
         },
         {
           "date": "2026-05-31",
-          "value": 38.0
+          "value": 35.0
         },
         {
           "date": "2026-06-01",
-          "value": 54.0
+          "value": 52.0
         },
         {
           "date": "2026-06-02",
-          "value": 42.0
+          "value": 41.0
         },
         {
           "date": "2026-06-03",
-          "value": 45.0
+          "value": 48.0
         },
         {
           "date": "2026-06-04",
@@ -756,31 +752,31 @@
         },
         {
           "date": "2026-06-05",
-          "value": 49.0
+          "value": 48.0
         },
         {
           "date": "2026-06-06",
-          "value": 35.0
+          "value": 34.0
         },
         {
           "date": "2026-06-07",
-          "value": 35.0
+          "value": 36.0
+        },
+        {
+          "date": "2026-06-08",
+          "value": 49.0
         }
       ]
     },
     {
       "keyword": "健康保険証",
-      "current": 3.0,
+      "current": 6.0,
       "yesterday": 3.0,
-      "change_day": 0.0,
-      "avg_7day": 5.0,
-      "change_week": -40.0,
+      "change_day": 100.0,
+      "avg_7day": 4.9,
+      "change_week": 22.4,
       "alert": false,
       "history": [
-        {
-          "date": "2026-03-07",
-          "value": 5.0
-        },
         {
           "date": "2026-03-08",
           "value": 6.0
@@ -1148,6 +1144,10 @@
         {
           "date": "2026-06-07",
           "value": 3.0
+        },
+        {
+          "date": "2026-06-08",
+          "value": 6.0
         }
       ]
     },
@@ -1160,10 +1160,6 @@
       "change_week": 0.0,
       "alert": false,
       "history": [
-        {
-          "date": "2026-03-07",
-          "value": 0.0
-        },
         {
           "date": "2026-03-08",
           "value": 0.0
@@ -1530,6 +1526,10 @@
         },
         {
           "date": "2026-06-07",
+          "value": 0.0
+        },
+        {
+          "date": "2026-06-08",
           "value": 0.0
         }
       ]
@@ -1544,10 +1544,6 @@
       "alert": false,
       "history": [
         {
-          "date": "2026-03-07",
-          "value": 0.0
-        },
-        {
           "date": "2026-03-08",
           "value": 0.0
         },
@@ -1913,23 +1909,23 @@
         },
         {
           "date": "2026-06-07",
+          "value": 0.0
+        },
+        {
+          "date": "2026-06-08",
           "value": 0.0
         }
       ]
     },
     {
       "keyword": "オンライン資格確認",
-      "current": 0.4,
+      "current": 0.0,
       "yesterday": 0.4,
-      "change_day": 0.0,
-      "avg_7day": 0.9,
-      "change_week": -55.6,
+      "change_day": -100.0,
+      "avg_7day": 0.7,
+      "change_week": -100.0,
       "alert": false,
       "history": [
-        {
-          "date": "2026-03-07",
-          "value": 0.9
-        },
         {
           "date": "2026-03-08",
           "value": 0.0
@@ -2240,7 +2236,7 @@
         },
         {
           "date": "2026-05-24",
-          "value": 0.4
+          "value": 0.0
         },
         {
           "date": "2026-05-25",
@@ -2297,22 +2293,22 @@
         {
           "date": "2026-06-07",
           "value": 0.4
+        },
+        {
+          "date": "2026-06-08",
+          "value": 0.0
         }
       ]
     },
     {
       "keyword": "資格確認書",
-      "current": 3.9,
-      "yesterday": 4.8,
-      "change_day": -18.8,
-      "avg_7day": 7.7,
-      "change_week": -49.4,
+      "current": 9.5,
+      "yesterday": 4.3,
+      "change_day": 120.9,
+      "avg_7day": 7.6,
+      "change_week": 25.0,
       "alert": false,
       "history": [
-        {
-          "date": "2026-03-07",
-          "value": 7.4
-        },
         {
           "date": "2026-03-08",
           "value": 7.4
@@ -2623,15 +2619,15 @@
         },
         {
           "date": "2026-05-24",
-          "value": 5.6
+          "value": 6.1
         },
         {
           "date": "2026-05-25",
-          "value": 10.4
+          "value": 10.0
         },
         {
           "date": "2026-05-26",
-          "value": 10.4
+          "value": 9.5
         },
         {
           "date": "2026-05-27",
@@ -2643,7 +2639,7 @@
         },
         {
           "date": "2026-05-29",
-          "value": 8.7
+          "value": 9.1
         },
         {
           "date": "2026-05-30",
@@ -2659,7 +2655,7 @@
         },
         {
           "date": "2026-06-02",
-          "value": 8.7
+          "value": 8.2
         },
         {
           "date": "2026-06-03",
@@ -2679,7 +2675,11 @@
         },
         {
           "date": "2026-06-07",
-          "value": 3.9
+          "value": 4.3
+        },
+        {
+          "date": "2026-06-08",
+          "value": 9.5
         }
       ]
     }
