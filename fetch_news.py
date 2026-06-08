@@ -110,6 +110,21 @@ def _auto_categorize(title: str, desc: str = "") -> str:
             return cat
     return "一般"
 
+
+# ── トピック分類（マイナ保険証関連 / マイナンバー全般） ──────────────────────
+# PJTの関心はマイナ保険証関連が高いため、保険証・医療系キーワードで分類する。
+# index.html 側の classifyTopic() と同じキーワードに揃えること。
+TOPIC_INSURANCE_KEYWORDS = [
+    "保険証", "資格確認書", "オンライン資格確認", "オン資", "被保険者証",
+    "電子処方箋", "レセプト", "医療機関", "受診", "診療", "窓口負担",
+    "健康保険", "医療DX", "マイナ保険証", "医療費", "薬剤情報",
+]
+
+def _classify_topic(title: str, desc: str = "") -> str:
+    """保険証・医療系キーワードを含めば insurance、それ以外は mynumber"""
+    text = title + " " + (desc or "")
+    return "insurance" if any(kw in text for kw in TOPIC_INSURANCE_KEYWORDS) else "mynumber"
+
 OG_IMAGE_WORKERS = 10   # OGP画像取得並列ワーカー数
 OG_IMAGE_LIMIT   = 100  # 1回の実行で取得する最大記事数
 OG_IMAGE_TIMEOUT = 6    # タイムアウト（秒）
@@ -891,6 +906,12 @@ def save_news(new_articles: list[dict], json_path: str,
             cat_filled += 1
     if cat_filled:
         print(f"  [カテゴリ] {cat_filled} 件を自動分類")
+
+    # トピック（保険証/マイナンバー）を全記事に付与（再分類で常に最新化）
+    for a in all_articles:
+        a["topic"] = _classify_topic(a.get("title", ""), a.get("description", ""))
+    ins = sum(1 for a in all_articles if a.get("topic") == "insurance")
+    print(f"  [トピック] マイナ保険証関連 {ins} 件 / マイナンバー全般 {len(all_articles)-ins} 件")
 
     try:
         all_articles.sort(key=lambda a: a.get("pub_date", ""), reverse=True)

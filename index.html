@@ -134,6 +134,47 @@
       gap: 10px;
       align-items: center;
     }
+    /* ── トピックフィルタ（マイナ保険証 / マイナンバー） ── */
+    .topic-filter {
+      max-width: 960px;
+      margin: 14px auto 0;
+      padding: 0 16px;
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .topic-btn {
+      padding: 7px 18px;
+      border-radius: 22px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text-muted);
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      font-family: inherit;
+      transition: all .15s;
+    }
+    .topic-btn.active {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+    .topic-btn:hover:not(.active) {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+    .topic-tag {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 9px;
+      border-radius: 11px;
+      white-space: nowrap;
+    }
+    .topic-insurance { background: #dbeafe; color: #1e40af; }
+    .topic-mynumber  { background: #f3e8ff; color: #7c3aed; }
+    [data-theme="dark"] .topic-insurance { background: #1e3a8a; color: #bfdbfe; }
+    [data-theme="dark"] .topic-mynumber  { background: #4c1d95; color: #e9d5ff; }
     .search-box {
       position: relative;
       flex: 1;
@@ -1442,6 +1483,13 @@
   <button class="refresh-btn" id="refreshBtn" title="保存済みデータを再読込します（新記事の取得は fetch_news.py を実行してください）">↻ データ再読込</button>
 </div>
 
+<!-- トピックフィルタ（マイナ保険証関連 / マイナンバー全般 / すべて） -->
+<div class="topic-filter" id="topicFilter">
+  <button class="topic-btn active" data-topic="insurance">🩺 マイナ保険証関連</button>
+  <button class="topic-btn" data-topic="mynumber">💳 マイナンバー全般</button>
+  <button class="topic-btn" data-topic="all">すべて</button>
+</div>
+
 <div class="stats-bar">
   <span class="stats-text" id="statsText">読み込み中…</span>
   <button class="read-clear-btn" id="readClearBtn" style="display:none" title="既読をすべてリセット">既読クリア</button>
@@ -1697,12 +1745,31 @@
 
   let activeTab = "all";
 
+  // ─── トピック分類（マイナ保険証関連 / マイナンバー全般） ───────────────────
+  // PJTの関心はマイナ保険証関連が高いため、初期表示は insurance に絞る
+  const INSURANCE_KW = [
+    "保険証", "資格確認書", "オンライン資格確認", "オン資", "被保険者証",
+    "電子処方箋", "レセプト", "医療機関", "受診", "診療", "窓口負担",
+    "健康保険", "医療DX", "マイナ保険証", "医療費", "薬剤情報",
+  ];
+  function classifyTopic(a) {
+    if (a.topic) return a.topic;            // サーバ側で分類済みならそれを優先
+    const text = (a.title || "") + " " + (a.description || "");
+    return INSURANCE_KW.some(kw => text.includes(kw)) ? "insurance" : "mynumber";
+  }
+  let activeTopic = "insurance";            // 初期表示：マイナ保険証関連
+  function topicArticles() {
+    if (activeTopic === "all") return allArticles;
+    return allArticles.filter(a => classifyTopic(a) === activeTopic);
+  }
+
   function renderTabs() {
     const wrap = document.getElementById("tabsContainer");
     if (!wrap) return;
-    // カテゴリ別件数（全記事から）
-    const counts = { all: allArticles.length };
-    allArticles.forEach(a => {
+    // カテゴリ別件数（現在のトピックフィルタ内で集計）
+    const base = topicArticles();
+    const counts = { all: base.length };
+    base.forEach(a => {
       const c = a.category || "一般";
       counts[c] = (counts[c] || 0) + 1;
     });
@@ -1856,7 +1923,7 @@
     };
     const cutoff = cutoffs[period] || null;
 
-    const filtered = allArticles.filter(a => {
+    const filtered = topicArticles().filter(a => {
       // カテゴリタブフィルタ
       if (activeTab !== "all") {
         const cat = a.category || "一般";
@@ -1963,6 +2030,9 @@
             ${(main.category && main.category !== "一般")
               ? `<span class="cat-tag cat-${escHtml(main.category)}">${CAT_EMOJI[main.category] || ""}${escHtml(main.category)}</span>`
               : ""}
+            ${classifyTopic(main) === "insurance"
+              ? `<span class="topic-tag topic-insurance">🩺 保険証</span>`
+              : `<span class="topic-tag topic-mynumber">💳 マイナンバー</span>`}
             ${dups.length > 0
               ? `<button class="dup-badge" onclick="toggleAccordion('${uid}',this)" aria-expanded="false">
                    同内容 ${dups.length + 1}件
@@ -2244,6 +2314,19 @@
   document.getElementById("searchInput").addEventListener("input",  applyFilters);
   document.getElementById("periodFilter").addEventListener("change", applyFilters);
   document.getElementById("sourceFilter").addEventListener("change", applyFilters);
+
+  // トピックフィルタ（マイナ保険証関連 / マイナンバー全般 / すべて）
+  document.querySelectorAll("#topicFilter .topic-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll("#topicFilter .topic-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      activeTopic = btn.dataset.topic;
+      activeTab   = "all";   // トピック切替時はカテゴリをリセット
+      currentPage = 1;
+      renderTabs();
+      applyFilters();
+    });
+  });
 
   // ─── イベント（国会質疑） ─────────────────────────────────────────────────
   document.getElementById("dietSearchInput").addEventListener("input",  applyDietFilters);
