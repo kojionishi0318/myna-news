@@ -926,6 +926,49 @@
     .trends-chart-wrap {
       max-width: 960px; margin: 16px auto 0; padding: 0 16px 24px;
     }
+    /* ── 急上昇の考察エリア ── */
+    .trends-analysis-wrap {
+      max-width: 960px; margin: 16px auto 0; padding: 0 16px;
+      display: flex; flex-direction: column; gap: 12px;
+    }
+    .analysis-card {
+      background: var(--surface);
+      border: 1px solid #fbbf24;
+      border-left: 4px solid #f59e0b;
+      border-radius: var(--radius);
+      padding: 16px 18px;
+      box-shadow: var(--shadow);
+    }
+    .analysis-head {
+      display: flex; align-items: center; gap: 8px;
+      font-size: 14px; font-weight: 800; color: var(--text);
+      margin-bottom: 4px;
+    }
+    .analysis-head .kw { color: #b45309; }
+    .analysis-meta {
+      font-size: 11px; color: var(--text-muted); margin-bottom: 10px;
+    }
+    .analysis-body {
+      font-size: 13px; line-height: 1.8; color: var(--text);
+      white-space: pre-wrap; word-break: break-word;
+    }
+    .analysis-sources {
+      margin-top: 12px; padding-top: 10px; border-top: 1px solid var(--border);
+      display: flex; flex-wrap: wrap; gap: 6px;
+    }
+    .analysis-src {
+      font-size: 11px; font-weight: 600;
+      padding: 3px 10px; border-radius: 12px;
+      background: var(--bg); color: var(--accent);
+      text-decoration: none; border: 1px solid var(--border);
+      max-width: 280px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    }
+    .analysis-src:hover { border-color: var(--accent); }
+    .analysis-src.web::before { content: "🌐 "; }
+    .analysis-src.news::before { content: "📰 "; }
+    .analysis-disclaimer {
+      font-size: 10px; color: var(--text-muted); margin-top: 8px;
+    }
     .trends-note {
       max-width: 960px; margin: 0 auto; padding: 8px 16px 24px;
       font-size: 11px; color: var(--text-muted);
@@ -1663,6 +1706,8 @@
     最終更新: <span id="trendsUpdated">読み込み中...</span>
     <button class="refresh-btn" id="trendsRefreshBtn" onclick="loadTrends(true)">⟳ 更新</button>
   </div>
+  <!-- 急上昇の考察エリア（スパイク時のみ表示） -->
+  <div class="trends-analysis-wrap" id="trendsAnalysisWrap" style="display:none"></div>
   <div class="trends-grid" id="trendsGrid">
     <div style="grid-column:1/-1;padding:40px;text-align:center;color:var(--text-muted)">読み込み中...</div>
   </div>
@@ -3070,6 +3115,9 @@
       }
     });
 
+    // 急上昇の考察エリアを描画
+    renderTrendsAnalysis(data);
+
     // グローバルに保持して期間切替で再描画
     // requestAnimationFrame でDOMレイアウト確定後に描画
     _trendsData = data;
@@ -3118,6 +3166,36 @@
     });
 
     if (btn) { btn.disabled = false; btn.textContent = "⟳ 更新"; }
+  }
+
+  // ─── 急上昇の考察エリア描画 ────────────────────────────────────────────────
+  function renderTrendsAnalysis(data) {
+    const wrap = document.getElementById("trendsAnalysisWrap");
+    if (!wrap) return;
+    const items = (data.keywords || []).filter(k => k.alert && k.analysis && k.analysis.text);
+    if (items.length === 0) {
+      wrap.style.display = "none";
+      wrap.innerHTML = "";
+      return;
+    }
+    wrap.style.display = "";
+    wrap.innerHTML = items.map(k => {
+      const an = k.analysis;
+      const srcChips = (an.sources || []).map(s =>
+        `<a class="analysis-src ${s.type === "web" ? "web" : "news"}"
+            href="${escHtml(s.url)}" target="_blank" rel="noopener noreferrer"
+            title="${escHtml(s.title || s.url)}">${escHtml(s.title || s.url)}</a>`
+      ).join("");
+      const genDate = an.generated_at ? new Date(an.generated_at).toLocaleString("ja-JP") : "";
+      return `
+        <div class="analysis-card">
+          <div class="analysis-head">💡 急上昇の考察：<span class="kw">${escHtml(k.keyword)}</span></div>
+          <div class="analysis-meta">急上昇日 ${escHtml(an.spike_date || "")} ／ 現在値 ${k.current ?? "―"}（週平均比 ${k.change_week > 0 ? "+" : ""}${k.change_week}%）${an.web_used ? " ／ 🌐Web検索あり" : ""}</div>
+          <div class="analysis-body">${escHtml(an.text)}</div>
+          ${srcChips ? `<div class="analysis-sources">${srcChips}</div>` : ""}
+          <div class="analysis-disclaimer">※ AIによる推察です。生成: ${escHtml(genDate)}。根拠は上記ソースをご確認ください。</div>
+        </div>`;
+    }).join("");
   }
 
   function renderTrendsChart(days, dateRange = null) {

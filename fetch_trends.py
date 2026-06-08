@@ -39,6 +39,12 @@ try:
 except ImportError:
     _HAS_PYTRENDS = False
 
+try:
+    import anthropic as _anthropic_module
+    _HAS_ANTHROPIC = True
+except ImportError:
+    _HAS_ANTHROPIC = False
+
 # ─── 設定 ────────────────────────────────────────────────────────────────────
 JST             = datetime.timezone(datetime.timedelta(hours=9))
 FRESHNESS_SECS  = 3300   # 55分（1時間ごと実行で二重取得防止）
@@ -61,6 +67,12 @@ KEYWORDS = [
 ANCHOR_KW = KEYWORDS[0]   # "マイナ保険証"
 BATCH1    = KEYWORDS[:5]   # 一括取得できる上限5件
 BATCH2    = [ANCHOR_KW] + KEYWORDS[5:]   # アンカー + 残り
+
+# ─── 急上昇考察（AI）設定 ─────────────────────────────────────────────────────
+ANALYSIS_MODEL       = "claude-haiku-4-5"  # 考察生成モデル
+ANALYSIS_NEWS_WINDOW = 3    # 急上昇日の何日前までのニュースを参照するか
+ANALYSIS_NEWS_LIMIT  = 8    # 考察に渡す関連ニュースの最大件数
+ANALYSIS_WEB_SEARCH  = 3    # AIのWeb検索の最大回数（0で無効）
 
 
 # ─── ユーティリティ ───────────────────────────────────────────────────────────
@@ -163,6 +175,172 @@ def series_to_kpi(keyword: str, series: pd.Series) -> dict | None:
         "alert":       alert,
         "history":     history,
     }
+
+
+# ─── 急上昇考察（AI）─────────────────────────────────────────────────────────
+def _load_prev_analysis(json_path: str) -> dict:
+    """前回の trends_data.json から keyword -> analysis を読む（キャッシュ用）"""
+    if not os.path.exists(json_path):
+        return {}
+    try:
+        with open(json_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return {k["keyword"]: k["analysis"]
+                for k in data.get("keywords", []) if k.get("analysis")}
+    except Exception:
+        return {}
+
+
+def _related_news(keyword: str, spike_date: str, news_path: str) -> list[dict]:
+    """急上昇日周辺（±数日）の関連ニュースを news_data.json から収集する"""
+    if not os.path.exists(news_path):
+        return []
+    try:
+        with open(news_path, "r", encoding="utf-8") as f:
+            arts = json.load(f).get("articles", [])
+    except Exception:
+        return []
+
+    try:
+        sd = datetime.date.fromisoformat(spike_date)
+    except Exception:
+        return []
+    lo = sd - datetime.timedelta(days=ANALYSIS_NEWS_WINDOW)
+    hi = sd + datetime.timedelta(days=1)
+
+    out = []
+    for a in arts:
+        pub = (a.get("pub_date") or "")[:10]
+        try:
+            pd_ = datetime.date.fromisoformat(pub)
+        except Exception:
+            continue
+        if lo <= pd_ <= hi:
+            out.append(a)
+    out.sort(key=lambda a: a.get("pub_date", ""), reverse=True)
+    return out[:ANALYSIS_NEWS_LIMIT]
+
+
+def _extract_text_and_citations(resp) -> tuple[str, list[dict]]:
+    """Claudeレスポンスから本文テキストとWeb検索引用を抽出する"""
+    text_parts, citations = [], []
+    for block in getattr(resp, "content", []) or []:
+        if getattr(block, "type", "") == "text":
+            text_parts.append(getattr(block, "text", "") or "")
+            for c in (getattr(block, "citations", None) or []):
+                url = getattr(c, "url", None)
+                if url:
+                    citations.append({"title": getattr(c, "title", None) or url, "url": url})
+    return "".join(text_parts).strip(), citations
+
+
+def generate_analysis(keyword: str, kpi: dict, news_path: str) -> dict | None:
+    """
+    急上昇キーワードについて、関連ニュース＋AIのWeb検索をもとに
+    『なぜ急上昇したか』の考察を生成する。失敗時は None。
+    """
+    if not _HAS_ANTHROPIC:
+        print("    [考察] anthropic 未インストール → スキップ")
+        return None
+    api_key = os.environ.get("ANTHROPIC_API_KEY", "")
+    if not api_key:
+        print("    [考察] ANTHROPIC_API_KEY 未設定 → スキップ")
+        return None
+
+    history   = kpi.get("history", [])
+    spike_date = history[-1]["date"] if history else str(_now_jst().date())
+    news = _related_news(keyword, spike_date, news_path)
+
+    news_block = "\n".join(
+        f"- [{(a.get('pub_date') or '')[:10]}] {a.get('title','')}"
+        f"（{a.get('source','')}） {a.get('link','')}"
+        for a in news
+    ) or "（サイト内に該当期間の関連ニュースなし）"
+
+    prompt = (
+        f"あなたは政策モニタリングのアナリストです。\n"
+        f"Google検索トレンドで「{keyword}」の検索インタレストが急上昇しました。\n\n"
+        f"【数値】急上昇日: {spike_date} / 当日値: {kpi.get('current')} "
+        f"/ 前日比: {kpi.get('change_day')}% / 週平均: {kpi.get('avg_7day')} "
+        f"（週平均比 {kpi.get('change_week')}%）\n\n"
+        f"【同時期のサイト内ニュース】\n{news_block}\n\n"
+        f"この急上昇が「なぜ起きたか」を推察してください。必要に応じてWeb検索で"
+        f"直近の出来事を確認して構いません。出力要件:\n"
+        f"1. 最も可能性が高い要因を2〜3個、それぞれ1〜2文で簡潔に。\n"
+        f"2. 各要因には根拠（上記ニュースまたはWeb検索結果）を示す。\n"
+        f"3. 確証がない場合は必ず『推測』と明記する。\n"
+        f"4. 全体で300文字程度。前置き不要、要因の箇条書きから始める。\n"
+    )
+
+    tools = []
+    if ANALYSIS_WEB_SEARCH > 0:
+        tools = [{"type": "web_search_20250305", "name": "web_search",
+                  "max_uses": ANALYSIS_WEB_SEARCH}]
+
+    try:
+        client = _anthropic_module.Anthropic(api_key=api_key)
+        resp = client.messages.create(
+            model=ANALYSIS_MODEL,
+            max_tokens=1024,
+            tools=tools,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        text, web_citations = _extract_text_and_citations(resp)
+        if not text:
+            return None
+
+        # 根拠ソース: サイト内ニュース + Web検索引用（URL重複排除）
+        sources, seen = [], set()
+        for a in news:
+            u = a.get("link") or ""
+            if u and u not in seen:
+                seen.add(u)
+                sources.append({"title": a.get("title", ""), "url": u,
+                                "source": a.get("source", ""), "type": "news"})
+        for c in web_citations:
+            if c["url"] not in seen:
+                seen.add(c["url"])
+                sources.append({"title": c["title"], "url": c["url"], "type": "web"})
+
+        return {
+            "generated_at": _iso_jst(),
+            "spike_date":   spike_date,
+            "text":         text,
+            "sources":      sources[:10],
+            "web_used":     bool(web_citations),
+        }
+    except Exception as e:
+        print(f"    [考察] 生成失敗: {e}")
+        return None
+
+
+def attach_analyses(results: list[dict], json_path: str, news_path: str) -> int:
+    """
+    急上昇（alert=True）キーワードに考察を付与する。
+    同じ急上昇日の考察が前回分にあれば再利用（API節約）。
+    """
+    prev = _load_prev_analysis(json_path)
+    generated = 0
+    for kpi in results:
+        if not kpi.get("alert"):
+            continue
+        kw = kpi["keyword"]
+        history = kpi.get("history", [])
+        spike_date = history[-1]["date"] if history else None
+
+        cached = prev.get(kw)
+        if cached and cached.get("spike_date") == spike_date:
+            kpi["analysis"] = cached          # 同日スパイク → キャッシュ再利用
+            print(f"    [考察] {kw}: キャッシュ再利用（{spike_date}）")
+            continue
+
+        print(f"    [考察] {kw}: 生成中...（急上昇日 {spike_date}）")
+        analysis = generate_analysis(kw, kpi, news_path)
+        if analysis:
+            kpi["analysis"] = analysis
+            generated += 1
+            print(f"    [考察] {kw}: 生成完了（Web検索={'有' if analysis['web_used'] else '無'}）")
+    return generated
 
 
 # ─── メイン ───────────────────────────────────────────────────────────────────
@@ -282,6 +460,16 @@ def main():
         alert_level = "yellow"
     else:
         alert_level = "red"
+
+    # ── 急上昇キーワードに「考察」を付与（ニュース＋Web検索） ──────────────────
+    news_path = os.path.join(script_dir, "news_data.json")
+    if alert_count > 0:
+        print(f"  [考察] 急上昇 {alert_count} 件の考察を準備します")
+        try:
+            gen = attach_analyses(results, json_path, news_path)
+            print(f"  [考察] 新規生成 {gen} 件")
+        except Exception as e:
+            print(f"  [考察] スキップ（{e}）")
 
     output = {
         "updated":     _iso_jst(),
