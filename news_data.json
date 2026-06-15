@@ -1,6 +1,16 @@
 {
-  "updated": "2026-06-15T13:20:49+09:00",
+  "updated": "2026-06-16T00:16:52+09:00",
   "articles": [
+    {
+      "title": "マイナンバー制度における制度解説の情報連携に係る資料を更新しました",
+      "link": "https://www.digital.go.jp/policies/mynumber/explanation",
+      "pub_date": "2026-06-15T15:00:00+09:00",
+      "source": "デジタル庁",
+      "description": "2026年から、介護保険制度とマイナンバー制度の連携が本格的に始まります。この新制度は、医療と介護の情報を一元的に管理し、必要な情報にスムーズにアクセスできる環境を整えることを目指しています。 この新制度は「介護情報基盤」という仕組みの ...",
+      "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
+      "category": "制度変更",
+      "topic": "mynumber"
+    },
     {
       "title": "年金いくらで2割負担？《75歳以上》後期高齢者医療制度のボーダーライン - LIMO | くらしとお金の経済メディア",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9DZi1tRzdiOTdpdlkwX0dhWUhuZjR4TnZldm9XNnZPZ0FoN0tzSmhkY0UxbWhodEFEbVZreEE0YU1kNEJ0LWY2dEpNRlBxVDBpS3c?oc=5",
@@ -5382,25 +5392,14 @@
       "topic": "insurance"
     },
     {
-      "title": "＜くまにち論壇＞保険証廃止は無駄遣い 経済ジャーナリスト 荻原博子 - 熊本日日新聞社",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1mc0lBbk12NTg4UzZnazl0TVY3QzlHSGk0enphdU1yM29zcElpSDVWQWR3azNaM3VaWFM1WmNXa3ctZjE1RF8yMzAzQ2pSS1U?oc=5",
+      "title": "マイナ保険証の利用率37％の現実 なぜ国民は納得して使わないのか？医療現場と制度の課題を探る - coki.jp",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9SdDRQUkpjS1VXN1djMzlCbExKNTZ3bFZyQUVyVGczcVBuV2dEU293RmVUeF9JM29DaFJqRHdaZ0I2ei1Mb1paNTdDTE1iZw?oc=5",
       "pub_date": "2025-12-14T17:00:00+09:00",
-      "source": "熊本日日新聞社",
-      "description": "",
-      "_glink": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1mc0lBbk12NTg4UzZnazl0TVY3QzlHSGk0enphdU1yM29zcElpSDVWQWR3azNaM3VaWFM1WmNXa3ctZjE1RF8yMzAzQ2pSS1U?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1mc0lBbk12NTg4UzZnazl0TVY3QzlHSGk0enphdU1yM29zcElpSDVWQWR3azNaM3VaWFM1WmNXa3ctZjE1RF8yMzAzQ2pSS1U?oc=5",
+      "source": "coki.jp",
+      "description": "厚生労働省は有効期限が切れた従来の健康保険証でも保険診療を受けられる暫定措置の期限を3月末から7月末まで延長することを決めた。 医療機関に従来の健康保険証のみを持参する患者が依然としているためだ。上野賢一郎厚労相は3月19日の会見で、円滑 ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9SdDRQUkpjS1VXN1djMzlCbExKNTZ3bFZyQUVyVGczcVBuV2dEU293RmVUeF9JM29DaFJqRHdaZ0I2ei1Mb1paNTdDTE1iZw?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9SdDRQUkpjS1VXN1djMzlCbExKNTZ3bFZyQUVyVGczcVBuV2dEU293RmVUeF9JM29DaFJqRHdaZ0I2ei1Mb1paNTdDTE1iZw?oc=5",
       "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "「資格情報が無効」 「●（くろまる）で出る」 「認証エラー」マイナ保険証の“三大トラブル” 医療機関の7割で発生 トラブルで「いったん10割負担」も - ktv.jp",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1IN3otY0NsNXlnbUtVQTFRMm1CTzAzNUxQT3lRQ3dORW5jWm9HOUtDdUVIemdwRUZVRlc1T2dZNThvMlpnbmdjUlZJMFdPUDVncWpzdw?oc=5",
-      "pub_date": "2025-12-14T17:00:00+09:00",
-      "source": "ktv.jp",
-      "description": "2025年12月2日以降、医療機関・薬局を利用する際はマイナ保険証の提示が基本となりました。しかし、マイナ保険証で資格情報を確認する際にトラブルが発生し、医療費が10割負担となったケースがあるようです。本記事では、マイナ保険証で発生する ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1IN3otY0NsNXlnbUtVQTFRMm1CTzAzNUxQT3lRQ3dORW5jWm9HOUtDdUVIemdwRUZVRlc1T2dZNThvMlpnbmdjUlZJMFdPUDVncWpzdw?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1IN3otY0NsNXlnbUtVQTFRMm1CTzAzNUxQT3lRQ3dORW5jWm9HOUtDdUVIemdwRUZVRlc1T2dZNThvMlpnbmdjUlZJMFdPUDVncWpzdw?oc=5",
-      "category": "トラブル",
       "topic": "insurance"
     }
   ]
