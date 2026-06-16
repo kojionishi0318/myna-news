@@ -1,6 +1,27 @@
 {
-  "updated": "2026-06-16T13:11:53+09:00",
+  "updated": "2026-06-16T22:29:01+09:00",
   "articles": [
+    {
+      "title": "医療機関・薬局向け「顔認証付きカードリーダー Caora」 後継製品を2026年10月に提供開始予定 - ニコニコニュース",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE55c2Y4WTZ5TzZqR1hkMC1JaUNIbmV6M05MZHlMZjRueEVFZ1hya0Q2OWFRS0pIbDN0VkxtZGhJbndOSEtSUmRTVkxjeDJQamhYOWJoWDZaSmRLNWY2Z3cwYUJFME9pczdlME80SERHd3lKMUpfZ21ONm1EVQ?oc=5",
+      "pub_date": "2026-06-16T16:45:16+09:00",
+      "source": "ニコニコニュース",
+      "description": "株式会社PFU（社長執行役員：平原 英治、以下 PFU）は、病院や薬局などの受付でマイナンバーカードによる資格確認に利用されている「顔認証付きカードリーダー Caora（カオラ）」の後継製品「Caora 2」（以下 Caora ...",
+      "_glink": "https://news.google.com/rss/articles/CBMie0FVX3lxTE55c2Y4WTZ5TzZqR1hkMC1JaUNIbmV6M05MZHlMZjRueEVFZ1hya0Q2OWFRS0pIbDN0VkxtZGhJbndOSEtSUmRTVkxjeDJQamhYOWJoWDZaSmRLNWY2Z3cwYUJFME9pczdlME80SERHd3lKMUpfZ21ONm1EVQ?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE55c2Y4WTZ5TzZqR1hkMC1JaUNIbmV6M05MZHlMZjRueEVFZ1hya0Q2OWFRS0pIbDN0VkxtZGhJbndOSEtSUmRTVkxjeDJQamhYOWJoWDZaSmRLNWY2Z3cwYUJFME9pczdlME80SERHd3lKMUpfZ21ONm1EVQ?oc=5",
+      "category": "一般",
+      "topic": "insurance"
+    },
+    {
+      "title": "第212回社会保障審議会医療保険部会（ペーパーレス）の開催について",
+      "link": "https://www.mhlw.go.jp/stf/newpage_73831.html",
+      "pub_date": "2026-06-16T14:00:00+09:00",
+      "source": "厚生労働省",
+      "description": "厚生労働省は3月26日の社会保障審議会医療部会（部会長：遠藤久夫・学習院大学長）で、2026年4月から始まる「医療法人の経営情報の第三者提供制度」に伴い、提供申出の審査等を行う専門委員会（仮称）を設置することを提案。部会は了承した（資料は ...",
+      "thumbnail": "https://www.mhlw.go.jp/common/img/img_ogp.jpg",
+      "category": "政治",
+      "topic": "mynumber"
+    },
     {
       "title": "引越し手続オンラインサービス マイナポータル「転出届・来庁予定の連絡（転入予約）」機能のAPI仕様書等の情報提供をしています",
       "link": "https://www.digital.go.jp/news/9efcc402-5a17-4f37-80bd-5f4fc8e41bcf",
@@ -5357,6 +5378,17 @@
       "topic": "insurance"
     },
     {
+      "title": "窓口で「いったん10割負担」の件数が1年で2倍近くに増加 「マイナ保険証」 “スマホマイナ”も登場で医療現場「もう無理」 - ktv.jp",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5NZnluVExhZzZXaWd2OG5fbVkycmRZYlNYQ0k2aGlIczdyMUNoT2VqZDV5VlBNTDhIMk12TGZoQkdsNUo3d21Tb0o1V3FJck5aYXMzenJBMHk?oc=5",
+      "pub_date": "2025-12-15T17:00:00+09:00",
+      "source": "ktv.jp",
+      "description": "75歳以上になると、多くの人が加入する「後期高齢者医療制度」。 医療費の窓口負担は原則1割ですが、所得によっては2割または3割になる場合があります。特に、年金収入が多い人や年金以外の所得がある人は、自分がどの負担割合に該当するのか気になる ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5NZnluVExhZzZXaWd2OG5fbVkycmRZYlNYQ0k2aGlIczdyMUNoT2VqZDV5VlBNTDhIMk12TGZoQkdsNUo3d21Tb0o1V3FJck5aYXMzenJBMHk?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5NZnluVExhZzZXaWd2OG5fbVkycmRZYlNYQ0k2aGlIczdyMUNoT2VqZDV5VlBNTDhIMk12TGZoQkdsNUo3d21Tb0o1V3FJck5aYXMzenJBMHk?oc=5",
+      "category": "統計",
+      "topic": "insurance"
+    },
+    {
       "title": "「資格情報が無効」 「●（くろまる）で出る」 「認証エラー」マイナ保険証の“三大トラブル” 医療機関の7割で発生 トラブルで「いったん10割負担」も - ktv.jp",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5HV2dLWVk4d2RxWjBKNGl4OVplOU52LV8xWTFnLTBPM1Btb05GcHNQZzRwTnh3eHNSWW5WNERVMmVYYmF6U1hYQ01Va2RybDBNQ1JKSEFXRE4?oc=5",
       "pub_date": "2025-12-15T17:00:00+09:00",
@@ -5365,39 +5397,6 @@
       "_glink": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5HV2dLWVk4d2RxWjBKNGl4OVplOU52LV8xWTFnLTBPM1Btb05GcHNQZzRwTnh3eHNSWW5WNERVMmVYYmF6U1hYQ01Va2RybDBNQ1JKSEFXRE4?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5HV2dLWVk4d2RxWjBKNGl4OVplOU52LV8xWTFnLTBPM1Btb05GcHNQZzRwTnh3eHNSWW5WNERVMmVYYmF6U1hYQ01Va2RybDBNQ1JKSEFXRE4?oc=5",
       "category": "トラブル",
-      "topic": "insurance"
-    },
-    {
-      "title": "窓口で本人確認を実施します - city.osaka-izumi.lg.jp",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeHhvbDhtVm5NNG9fMnAwWFhzMjU1ME8zVWs4Zm1QUzNVU1pQc1BCVlRKZkpPZGNhcG55ZWRxaElNNFVBVF9QRk5tVExTWUZmOTlvTXBsejhWa1ZLVXp4MFVsazlSSDJwSDR6bWlPb0pQUi1uSXNzbDlYUDk3MnZ3SENwa0dicWhiXzJqam4zc2pGdzU4?oc=5",
-      "pub_date": "2025-12-15T17:00:00+09:00",
-      "source": "city.osaka-izumi.lg.jp",
-      "description": "株式会社日立製作所(以下、日立)とサイバートラスト株式会社(以下、サイバートラスト)は、ICチップを活用したオンラインでの本人確認サービスにおいて連携し、日立の「eKYC支援サービス※1」を機能拡張します。 本機能拡張により、日立がiPadにおける本人 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeHhvbDhtVm5NNG9fMnAwWFhzMjU1ME8zVWs4Zm1QUzNVU1pQc1BCVlRKZkpPZGNhcG55ZWRxaElNNFVBVF9QRk5tVExTWUZmOTlvTXBsejhWa1ZLVXp4MFVsazlSSDJwSDR6bWlPb0pQUi1uSXNzbDlYUDk3MnZ3SENwa0dicWhiXzJqam4zc2pGdzU4?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeHhvbDhtVm5NNG9fMnAwWFhzMjU1ME8zVWs4Zm1QUzNVU1pQc1BCVlRKZkpPZGNhcG55ZWRxaElNNFVBVF9QRk5tVExTWUZmOTlvTXBsejhWa1ZLVXp4MFVsazlSSDJwSDR6bWlPb0pQUi1uSXNzbDlYUDk3MnZ3SENwa0dicWhiXzJqam4zc2pGdzU4?oc=5",
-      "category": "一般",
-      "topic": "mynumber"
-    },
-    {
-      "title": "母はまだ「マイナ保険証」に切り替えず「資格確認書」を使っています。友人に「3割負担じゃなくなる」と言われたそうですが、「マイナ保険証」に切り替えなくても大丈夫でしょうか？ (ファイナンシャルフィールド) - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQU0EyNmU0RUVYMjZLc28zTnpjamFGVHduQWtLamdKOF81b0M3SlBfaU03Z0JyRm9NLUdUcXY1ZG9NZnpiS0F5WVhGaGtGamNKRGs3YTJPelFOcHBzdHR3RkFFcjVWOVdtX1l0VnkzWnVSXzJySnJTQkZhSTFMVms2QWcybFFaSzZ5b21XWkdR?oc=5",
-      "pub_date": "2025-12-15T17:00:00+09:00",
-      "source": "Yahoo!ニュース",
-      "description": "母はまだ「マイナ保険証」に切り替えず「資格確認書」を使っています。友人に「3割負担じゃなくなる」と言われたそうですが、「マイナ保険証」に切り替えなくても大丈夫でしょうか？ 医療機関などで「マイナ保険証はありますか」と聞かれる機会が ...",
-      "_glink": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQU0EyNmU0RUVYMjZLc28zTnpjamFGVHduQWtLamdKOF81b0M3SlBfaU03Z0JyRm9NLUdUcXY1ZG9NZnpiS0F5WVhGaGtGamNKRGs3YTJPelFOcHBzdHR3RkFFcjVWOVdtX1l0VnkzWnVSXzJySnJTQkZhSTFMVms2QWcybFFaSzZ5b21XWkdR?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQU0EyNmU0RUVYMjZLc28zTnpjamFGVHduQWtLamdKOF81b0M3SlBfaU03Z0JyRm9NLUdUcXY1ZG9NZnpiS0F5WVhGaGtGamNKRGs3YTJPelFOcHBzdHR3RkFFcjVWOVdtX1l0VnkzWnVSXzJySnJTQkZhSTFMVms2QWcybFFaSzZ5b21XWkdR?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "期限切れ保険証も使用可、国民に周知を マイナ保険証と資格確認書の併用も一案 政策分析ネットワーク上席フェロー 竹田忠 - 47NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1mX2pVRS1waXExcnZwUHBDMVRPVXA4VUZhUHZ0Y2xyQjdKTHQySHBhUFpCNUFHYllvQ2NZbGZ1dlF5aDhQRkFYNTk3bw?oc=5",
-      "pub_date": "2025-12-15T17:00:00+09:00",
-      "source": "47NEWS",
-      "description": "有効期限切れの健康保険証でも保険診療（1〜3割負担）を受けられる暫定措置が、7月末まで延長される。しかし4カ月後、「保険証利用登録を済ませたマイナンバーカード」（マイナ保険証）などがないと保険診療が受けられず、全額自己負担（10割負担）と ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1mX2pVRS1waXExcnZwUHBDMVRPVXA4VUZhUHZ0Y2xyQjdKTHQySHBhUFpCNUFHYllvQ2NZbGZ1dlF5aDhQRkFYNTk3bw?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1mX2pVRS1waXExcnZwUHBDMVRPVXA4VUZhUHZ0Y2xyQjdKTHQySHBhUFpCNUFHYllvQ2NZbGZ1dlF5aDhQRkFYNTk3bw?oc=5",
-      "category": "制度変更",
       "topic": "insurance"
     }
   ]
