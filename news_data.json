@@ -1,6 +1,27 @@
 {
-  "updated": "2026-06-16T12:43:27+09:00",
+  "updated": "2026-06-16T22:27:31+09:00",
   "articles": [
+    {
+      "title": "医療機関・薬局向け「顔認証付きカードリーダー Caora」 後継製品を2026年10月に提供開始予定 - ニコニコニュース",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE55c2Y4WTZ5TzZqR1hkMC1JaUNIbmV6M05MZHlMZjRueEVFZ1hya0Q2OWFRS0pIbDN0VkxtZGhJbndOSEtSUmRTVkxjeDJQamhYOWJoWDZaSmRLNWY2Z3cwYUJFME9pczdlME80SERHd3lKMUpfZ21ONm1EVQ?oc=5",
+      "pub_date": "2026-06-16T16:45:16+09:00",
+      "source": "ニコニコニュース",
+      "description": "株式会社PFU（社長執行役員：平原 英治、以下 PFU）は、病院や薬局などの受付でマイナンバーカードによる資格確認に利用されている「顔認証付きカードリーダー Caora（カオラ）」の後継製品「Caora 2」（以下 Caora ...",
+      "_glink": "https://news.google.com/rss/articles/CBMie0FVX3lxTE55c2Y4WTZ5TzZqR1hkMC1JaUNIbmV6M05MZHlMZjRueEVFZ1hya0Q2OWFRS0pIbDN0VkxtZGhJbndOSEtSUmRTVkxjeDJQamhYOWJoWDZaSmRLNWY2Z3cwYUJFME9pczdlME80SERHd3lKMUpfZ21ONm1EVQ?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE55c2Y4WTZ5TzZqR1hkMC1JaUNIbmV6M05MZHlMZjRueEVFZ1hya0Q2OWFRS0pIbDN0VkxtZGhJbndOSEtSUmRTVkxjeDJQamhYOWJoWDZaSmRLNWY2Z3cwYUJFME9pczdlME80SERHd3lKMUpfZ21ONm1EVQ?oc=5",
+      "category": "一般",
+      "topic": "insurance"
+    },
+    {
+      "title": "第212回社会保障審議会医療保険部会（ペーパーレス）の開催について",
+      "link": "https://www.mhlw.go.jp/stf/newpage_73831.html",
+      "pub_date": "2026-06-16T14:00:00+09:00",
+      "source": "厚生労働省",
+      "description": "厚生労働省は3月26日の社会保障審議会医療部会（部会長：遠藤久夫・学習院大学長）で、2026年4月から始まる「医療法人の経営情報の第三者提供制度」に伴い、提供申出の審査等を行う専門委員会（仮称）を設置することを提案。部会は了承した（資料は ...",
+      "thumbnail": "https://www.mhlw.go.jp/common/img/img_ogp.jpg",
+      "category": "政治",
+      "topic": "mynumber"
+    },
     {
       "title": "引越し手続オンラインサービス マイナポータル「転出届・来庁予定の連絡（転入予約）」機能のAPI仕様書等の情報提供をしています",
       "link": "https://www.digital.go.jp/news/9efcc402-5a17-4f37-80bd-5f4fc8e41bcf",
@@ -369,6 +390,17 @@
       "_glink": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hb0VjeDZhYUhxWER4U2l5SnRUSFl5UmtkYkZGeGlUdDdVTmVEa2lFR1lacjVVWFB6SF95ckxTTnlhUDM4SENxT0J4ZTdMWWhWYmIwaGVIUExTWVE?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hb0VjeDZhYUhxWER4U2l5SnRUSFl5UmtkYkZGeGlUdDdVTmVEa2lFR1lacjVVWFB6SF95ckxTTnlhUDM4SENxT0J4ZTdMWWhWYmIwaGVIUExTWVE?oc=5",
       "category": "統計",
+      "topic": "insurance"
+    },
+    {
+      "title": "資格確認書などの一斉更新について（国民健康保険・後期高齢者医療） - city.kikuchi.lg.jp",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1TQjBqVzlBRlFVbEZiMzE0SzNnOWRjRTU0YUpRdXAwdFFjc2JQSVI3UGZWaVlsU05SNi1EU25aMHBSUXRvV1lWUms0RTVwcDJOMVE2aVA4amQ1dzZNWnREcWFkQTVpTVBSTWc?oc=5",
+      "pub_date": "2026-06-01T16:00:00+09:00",
+      "source": "city.kikuchi.lg.jp",
+      "description": "東京都世田谷区と渋谷区は、マイナンバーカードに健康保険証の機能を載せた「マイナ保険証」を持っているかどうかにかかわらず、国民健康保険（国保）の加入者全員に健康保険証と同様に使える「資格確認書」を一斉に交付する。厚生労働省は資格確認 ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1TQjBqVzlBRlFVbEZiMzE0SzNnOWRjRTU0YUpRdXAwdFFjc2JQSVI3UGZWaVlsU05SNi1EU25aMHBSUXRvV1lWUms0RTVwcDJOMVE2aVA4amQ1dzZNWnREcWFkQTVpTVBSTWc?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1TQjBqVzlBRlFVbEZiMzE0SzNnOWRjRTU0YUpRdXAwdFFjc2JQSVI3UGZWaVlsU05SNi1EU25aMHBSUXRvV1lWUms0RTVwcDJOMVE2aVA4amQ1dzZNWnREcWFkQTVpTVBSTWc?oc=5",
+      "category": "一般",
       "topic": "insurance"
     },
     {
@@ -1136,6 +1168,17 @@
       "thumbnail": "https://www.jiji.com/news2/kiji_photos/202605/20260515ds63_o.jpg",
       "category": "統計",
       "topic": "mynumber"
+    },
+    {
+      "title": "マイナ保険証・資格確認書等について - city.naka.lg.jp",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd0ZybjRRV255N2UzcVl0bGtGdU5xQ2V0Umh0TkI3LWFzVEFxQkFZNmR1eWwyYkVBeFpIY004TXZ0d0liNk4zc0NJeG5VcDd1RVRoUnp1bFBQaWlQejJQNWtkcUdBS2VNTG93aTJrU050RmprS0t6UWlJSktnRF9ySUI0VzRlam9ZWDZpZnVKeC1wVFE?oc=5",
+      "pub_date": "2026-05-15T16:00:00+09:00",
+      "source": "city.naka.lg.jp",
+      "description": "厚生労働省は10月31日の社会保障審議会医療保険部会（部会長：田辺国昭・東京大学大学院法学政治学研究科教授）で、1カ月後に迫る従来の健康保険証の新規発行を停止し基本的にマイナ保険証へ移行することについて、医療機関や薬局での対応をまとめた ...",
+      "_glink": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd0ZybjRRV255N2UzcVl0bGtGdU5xQ2V0Umh0TkI3LWFzVEFxQkFZNmR1eWwyYkVBeFpIY004TXZ0d0liNk4zc0NJeG5VcDd1RVRoUnp1bFBQaWlQejJQNWtkcUdBS2VNTG93aTJrU050RmprS0t6UWlJSktnRF9ySUI0VzRlam9ZWDZpZnVKeC1wVFE?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd0ZybjRRV255N2UzcVl0bGtGdU5xQ2V0Umh0TkI3LWFzVEFxQkFZNmR1eWwyYkVBeFpIY004TXZ0d0liNk4zc0NJeG5VcDd1RVRoUnp1bFBQaWlQejJQNWtkcUdBS2VNTG93aTJrU050RmprS0t6UWlJSktnRF9ySUI0VzRlam9ZWDZpZnVKeC1wVFE?oc=5",
+      "category": "一般",
+      "topic": "insurance"
     },
     {
       "title": "電子処方箋の導入状況に関するダッシュボードを更新しました",
@@ -5285,50 +5328,6 @@
       "_resolved_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPV2NoSnhjRUhDaGw0b3o0cWdwUEE2WUdCRDVBbWg3ZkNCMlRybFVKRzFwelJvdTZ6UVo3M21wbUozajZEemZGRFRoMl9oSVZTajd4Q2F0Wl9vOWpUdU1nRU01aWxYNXRrM1B4bTc4ak5oc09Wd3FQbkFBTnkzcjdfaEtxaGZpSUtIT1pGOE9ZOA?oc=5",
       "category": "使い方",
       "topic": "insurance"
-    },
-    {
-      "title": "マイナンバーカードおよび電子証明書の更新について - city.oita.oita.jp",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBCMzNyTmRINF9mcy1IYmFJRGNhcFVuWUE4Ym5QREFKb0xpRk44YkpRUDZ1c1AtUHp0YzdhblIycEEyaUh1dGpvT3g5MWIzN1Bydk5mbkZtWWNRdDhCcFNLdXdiM3M?oc=5",
-      "pub_date": "2025-12-12T17:00:00+09:00",
-      "source": "city.oita.oita.jp",
-      "description": "デジタル庁は、2025年8月22日（金）より、マイナンバーカード本体、および電子証明書の有効期限と更新について広く周知することを目的とした新CM「マイナンバーカード有効期限・更新」篇の全国放映を開始します。 マイナンバーPRキャラクターの「マイナ ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBCMzNyTmRINF9mcy1IYmFJRGNhcFVuWUE4Ym5QREFKb0xpRk44YkpRUDZ1c1AtUHp0YzdhblIycEEyaUh1dGpvT3g5MWIzN1Bydk5mbkZtWWNRdDhCcFNLdXdiM3M?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBCMzNyTmRINF9mcy1IYmFJRGNhcFVuWUE4Ym5QREFKb0xpRk44YkpRUDZ1c1AtUHp0YzdhblIycEEyaUh1dGpvT3g5MWIzN1Bydk5mbkZtWWNRdDhCcFNLdXdiM3M?oc=5",
-      "category": "制度変更",
-      "topic": "mynumber"
-    },
-    {
-      "title": "マイナ保険証への移行に伴う医療費助成事務について - city.kamo.niigata.jp",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBac2xDekJ2WWoxT0JUeTgta2tMaDFNZms3QXBxQ2lxZWZpdVpmX0JISC1Dd0J3bUltSmpTZHpZYVdoRXlrdVJHZ0NwNjVfVmdLSmp3cURyMGpIZVFKbmc?oc=5",
-      "pub_date": "2025-12-11T22:55:20+09:00",
-      "source": "city.kamo.niigata.jp",
-      "description": "2025年12月1日で、従来の健康保険証は原則廃止になっています。これまでの健康保険証に代わって使用できるのが、マイナ保険証や資格確認書です。では、従来の健康保険証はもう使用できないのでしょうか。 本記事では、従来の健康保険証が医療機関で ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBac2xDekJ2WWoxT0JUeTgta2tMaDFNZms3QXBxQ2lxZWZpdVpmX0JISC1Dd0J3bUltSmpTZHpZYVdoRXlrdVJHZ0NwNjVfVmdLSmp3cURyMGpIZVFKbmc?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBac2xDekJ2WWoxT0JUeTgta2tMaDFNZms3QXBxQ2lxZWZpdVpmX0JISC1Dd0J3bUltSmpTZHpZYVdoRXlrdVJHZ0NwNjVfVmdLSmp3cURyMGpIZVFKbmc?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "マイナ保険証があれば「おくすり手帳は要らない」と考える人が知らない事実 - ダイヤモンド・オンライン",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1KWkN0bEpsWm1VemphSTJacUVOZ2hTVmRJNjViRVVPaHJoR1BQb0o3RGhaNHZGdHhfT21zcTFCVWxGRFdNdk1LQXV6VkRtX2JmckF3UVRB0gFPQVVfeXFMTjZxUldINFNJVnRDSXVFZlV4YWlzYXJRNWI5bzYxSUYyZFJxUWg0ZHQ4N3ZOUTRpSHVOdlIwR3haczVQMkw2YUhrcDQwejZfUQ?oc=5",
-      "pub_date": "2025-12-11T17:00:00+09:00",
-      "source": "ダイヤモンド・オンライン",
-      "description": "以前は、おくすり手帳を持参した患者の医療費が高くなったり、おくすり手帳にかかる料金が薬局の規模によっては異なっていたりして、おくすり手帳を持参することにメリットを見いだせないような調剤報酬体系がとられていた時期もあった。 だが、現在 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1KWkN0bEpsWm1VemphSTJacUVOZ2hTVmRJNjViRVVPaHJoR1BQb0o3RGhaNHZGdHhfT21zcTFCVWxGRFdNdk1LQXV6VkRtX2JmckF3UVRB0gFPQVVfeXFMTjZxUldINFNJVnRDSXVFZlV4YWlzYXJRNWI5bzYxSUYyZFJxUWg0ZHQ4N3ZOUTRpSHVOdlIwR3haczVQMkw2YUhrcDQwejZfUQ?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1KWkN0bEpsWm1VemphSTJacUVOZ2hTVmRJNjViRVVPaHJoR1BQb0o3RGhaNHZGdHhfT21zcTFCVWxGRFdNdk1LQXV6VkRtX2JmckF3UVRB0gFPQVVfeXFMTjZxUldINFNJVnRDSXVFZlV4YWlzYXJRNWI5bzYxSUYyZFJxUWg0ZHQ4N3ZOUTRpSHVOdlIwR3haczVQMkw2YUhrcDQwejZfUQ?oc=5",
-      "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "電子証明書の新規発行/更新手続きについて｜山形市公式ホームページ - city.yamagata-yamagata.lg.jp",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOS3ZfZGFNNEtwclYyd0pYSWc0VXZoN3A2QjNqbHY4bnBJdENSLXo4b0h3eHFOeVhqU3hsNzJhNERLWlVud19IVTJzZjBmWUNTaXlrbFRrQmFTVG1tQ0k0Sm5HeTlrd2NTRXc5U19sWW9Wd0ROcFZlNDZqV2xnQS1nVWpJLXVYUTZyNEU2am1ZMA?oc=5",
-      "pub_date": "2025-12-11T17:00:00+09:00",
-      "source": "city.yamagata-yamagata.lg.jp",
-      "description": "マイナンバーカードを発行してから5年が経ち、「電子証明書」の更新手続きをしてきました。 マイナンバーカード自体の更新期限は10年ですが、マイナンバーカードに搭載している「電子証明書」については期限が5年となっています。電子証明書を更新し ...",
-      "_glink": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOS3ZfZGFNNEtwclYyd0pYSWc0VXZoN3A2QjNqbHY4bnBJdENSLXo4b0h3eHFOeVhqU3hsNzJhNERLWlVud19IVTJzZjBmWUNTaXlrbFRrQmFTVG1tQ0k0Sm5HeTlrd2NTRXc5U19sWW9Wd0ROcFZlNDZqV2xnQS1nVWpJLXVYUTZyNEU2am1ZMA?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOS3ZfZGFNNEtwclYyd0pYSWc0VXZoN3A2QjNqbHY4bnBJdENSLXo4b0h3eHFOeVhqU3hsNzJhNERLWlVud19IVTJzZjBmWUNTaXlrbFRrQmFTVG1tQ0k0Sm5HeTlrd2NTRXc5U19sWW9Wd0ROcFZlNDZqV2xnQS1nVWpJLXVYUTZyNEU2am1ZMA?oc=5",
-      "category": "制度変更",
-      "topic": "mynumber"
     }
   ]
 }
