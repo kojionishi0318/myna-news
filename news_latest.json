@@ -1,6 +1,47 @@
 {
-  "updated": "2026-06-15T12:55:16+09:00",
+  "updated": "2026-06-16T12:43:27+09:00",
   "articles": [
+    {
+      "title": "引越し手続オンラインサービス マイナポータル「転出届・来庁予定の連絡（転入予約）」機能のAPI仕様書等の情報提供をしています",
+      "link": "https://www.digital.go.jp/news/9efcc402-5a17-4f37-80bd-5f4fc8e41bcf",
+      "pub_date": "2026-06-16T11:07:57+09:00",
+      "source": "デジタル庁",
+      "description": "「引越し手続オンラインサービス」を利用すれば、引越しの際に必ず必要な転出入の手続を簡素化できます。転出届を区役所等に持参する手間が省け、好きなタイミングで手続ができ便利です。その他の手続に関する理解を深めておけば、よりスムーズに ...",
+      "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
+      "category": "一般",
+      "topic": "mynumber"
+    },
+    {
+      "title": "マイナポータルAPIに関するリンク先を「デジタル庁ウェブサービス・アプリケーション」に変更しました",
+      "link": "https://www.digital.go.jp/policies/mynumber",
+      "pub_date": "2026-06-16T11:07:44+09:00",
+      "source": "デジタル庁",
+      "description": "デジタル庁は1月22日、スマートフォン向けに提供している「マイナポータルアプリ」に「デジタル認証アプリ」の機能を統合し、2026年夏をめどに「マイナアプリ」として提供することを発表した。目的は、行政手続きや民間サービスで必要となる本人確認を ...",
+      "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
+      "category": "使い方",
+      "topic": "mynumber"
+    },
+    {
+      "title": "医療機関・薬局向け「顔認証付きカードリーダー Caora」 後継製品を2026年10月に提供開始予定 - 沖縄タイムス社",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1jb2lGLUJRUW9feFY2QnNyU0NqSjNzLTloWlNhd0xSNnlyczJBR3R3NmtpdGJfSDVSMHAxdUsxaVNyMjVHM3BYRzZ6N0t3dm5oWm9JRkJZZTlJR28zOHc?oc=5",
+      "pub_date": "2026-06-16T11:00:00+09:00",
+      "source": "沖縄タイムス社",
+      "description": "さらに見やすく、さらにコンパクトに。もう迷わない、考える前に手が動く認証体験 株式会社PFU（社長執行役員：平原 英治、以下 PFU）は、病院や薬局などの受付でマイナンバーカードによる資格確認に利用されている「顔認証付きカードリーダー ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1jb2lGLUJRUW9feFY2QnNyU0NqSjNzLTloWlNhd0xSNnlyczJBR3R3NmtpdGJfSDVSMHAxdUsxaVNyMjVHM3BYRzZ6N0t3dm5oWm9JRkJZZTlJR28zOHc?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1jb2lGLUJRUW9feFY2QnNyU0NqSjNzLTloWlNhd0xSNnlyczJBR3R3NmtpdGJfSDVSMHAxdUsxaVNyMjVHM3BYRzZ6N0t3dm5oWm9JRkJZZTlJR28zOHc?oc=5",
+      "category": "一般",
+      "topic": "insurance"
+    },
+    {
+      "title": "マイナンバー制度における制度解説の情報連携に係る資料を更新しました",
+      "link": "https://www.digital.go.jp/policies/mynumber/explanation",
+      "pub_date": "2026-06-15T15:00:00+09:00",
+      "source": "デジタル庁",
+      "description": "2026年から、介護保険制度とマイナンバー制度の連携が本格的に始まります。この新制度は、医療と介護の情報を一元的に管理し、必要な情報にスムーズにアクセスできる環境を整えることを目指しています。 この新制度は「介護情報基盤」という仕組みの ...",
+      "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
+      "category": "制度変更",
+      "topic": "mynumber"
+    },
     {
       "title": "年金いくらで2割負担？《75歳以上》後期高齢者医療制度のボーダーライン - LIMO | くらしとお金の経済メディア",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9DZi1tRzdiOTdpdlkwX0dhWUhuZjR4TnZldm9XNnZPZ0FoN0tzSmhkY0UxbWhodEFEbVZreEE0YU1kNEJ0LWY2dEpNRlBxVDBpS3c?oc=5",
@@ -503,50 +544,6 @@
       "thumbnail": "https://www.mhlw.go.jp/common/img/img_ogp.jpg",
       "category": "政治",
       "topic": "mynumber"
-    },
-    {
-      "title": "「マイナポータル」の「薬」画面で直近100日以内の情報が確認可能に（BCN） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aRVMyaDlxMURnb1dIQjBEaWo5eXZFTjRtdy1FSURaaGJQUzRNRlN2U2ozX0RHaHFSZkVkSy1jUl9kWUxkSkQ3Q0NGUndiSGZhcjJiVmFxUEk5RE9jQW5MMmdYbVdVRnVnQWVGUlJTLXc5MTJ3dHFGWnI4TWFMcFE?oc=5",
-      "pub_date": "2026-05-28T18:00:00+09:00",
-      "source": "Yahoo!ニュース",
-      "description": "デジタル庁は、「マイナポータル」での基本情報の自動変更(住所変更ワンストップサービス等)の手続きで、iPhoneのマイナンバーカードに対応した。これにより、マイナポータルの運転免許に関するすべてのサービスを「iPhoneのマイナンバーカード」のみで ...",
-      "_glink": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aRVMyaDlxMURnb1dIQjBEaWo5eXZFTjRtdy1FSURaaGJQUzRNRlN2U2ozX0RHaHFSZkVkSy1jUl9kWUxkSkQ3Q0NGUndiSGZhcjJiVmFxUEk5RE9jQW5MMmdYbVdVRnVnQWVGUlJTLXc5MTJ3dHFGWnI4TWFMcFE?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aRVMyaDlxMURnb1dIQjBEaWo5eXZFTjRtdy1FSURaaGJQUzRNRlN2U2ozX0RHaHFSZkVkSy1jUl9kWUxkSkQ3Q0NGUndiSGZhcjJiVmFxUEk5RE9jQW5MMmdYbVdVRnVnQWVGUlJTLXc5MTJ3dHFGWnI4TWFMcFE?oc=5",
-      "category": "使い方",
-      "topic": "mynumber"
-    },
-    {
-      "title": "【後期高齢者医療制度】資格確認書の更新・交付等について - city.namerikawa.toyama.jp",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4wd3FTVHFiU3FRLWhuaFFNNVNCTW5YV3puaElnSXJhR2JXc0VYWFF2aF9vZER1LVJEanNFUXhUSi1mSGZrbjdNbGdLZXRoWjVIa3kxcENxSzJBbU5nV2NCcm1HQ3dWUU03amtRQUF6V2ptX1BYSEZmVFpB?oc=5",
-      "pub_date": "2026-05-28T16:00:00+09:00",
-      "source": "city.namerikawa.toyama.jp",
-      "description": "「後期高齢者医療制度」と「国民健康保険」の多くが、従来の保険証の期限切れを迎えました。そこで、登録者数120万人超のYouTubeチャンネル『脱・税理士スガワラくん』を運営する税理士の菅原 由一は、全国の国民健康保険および後期高齢者医療制度の ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4wd3FTVHFiU3FRLWhuaFFNNVNCTW5YV3puaElnSXJhR2JXc0VYWFF2aF9vZER1LVJEanNFUXhUSi1mSGZrbjdNbGdLZXRoWjVIa3kxcENxSzJBbU5nV2NCcm1HQ3dWUU03amtRQUF6V2ptX1BYSEZmVFpB?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4wd3FTVHFiU3FRLWhuaFFNNVNCTW5YV3puaElnSXJhR2JXc0VYWFF2aF9vZER1LVJEanNFUXhUSi1mSGZrbjdNbGdLZXRoWjVIa3kxcENxSzJBbU5nV2NCcm1HQ3dWUU03amtRQUF6V2ptX1BYSEZmVFpB?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "マイナンバー・マイナ保険証で損しないには？今確認すべきこと | チバテレ＋プラス - 千葉テレビ放送",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAtZ2ZHNTZvSUlkSW9xbzZPek11SDY3MmZhZk5XVF9CS1cxS2RtcWRUNzhDR0x1aWhFdmpoa0FOTlp4TzB4ZFBtSC1kVHdYMHY4MDRLYzZCd1g5YjU2bjZv0gFkQVVfeXFMUDk0alpKZHo0ZXpsalpOX05WbVViZVpJVFZrMm9aREtjSmxJbm5idnFlRzBOMC1fcFUzRkN6US0yZjFVRUlSSmdVLTlyUEk5ZDZESUQxOVB0azE0RWpteGlyWEpJSQ?oc=5",
-      "pub_date": "2026-05-28T08:05:29+09:00",
-      "source": "千葉テレビ放送",
-      "description": "「役所の手続きがスマホでできるようになるらしいけれど、自分の暮らしにどう関係するの？」——そんな疑問を持つ方は少なくありません。マイナンバーカードを使った行政手続のオンライン化が進んでいますが、対象となる手続きや自治体の範囲は一度調べて終わりではなく、順次更新されています。",
-      "_glink": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAtZ2ZHNTZvSUlkSW9xbzZPek11SDY3MmZhZk5XVF9CS1cxS2RtcWRUNzhDR0x1aWhFdmpoa0FOTlp4TzB4ZFBtSC1kVHdYMHY4MDRLYzZCd1g5YjU2bjZv0gFkQVVfeXFMUDk0alpKZHo0ZXpsalpOX05WbVViZVpJVFZrMm9aREtjSmxJbm5idnFlRzBOMC1fcFUzRkN6US0yZjFVRUlSSmdVLTlyUEk5ZDZESUQxOVB0azE0RWpteGlyWEpJSQ?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAtZ2ZHNTZvSUlkSW9xbzZPek11SDY3MmZhZk5XVF9CS1cxS2RtcWRUNzhDR0x1aWhFdmpoa0FOTlp4TzB4ZFBtSC1kVHdYMHY4MDRLYzZCd1g5YjU2bjZv0gFkQVVfeXFMUDk0alpKZHo0ZXpsalpOX05WbVViZVpJVFZrMm9aREtjSmxJbm5idnFlRzBOMC1fcFUzRkN6US0yZjFVRUlSSmdVLTlyUEk5ZDZESUQxOVB0azE0RWpteGlyWEpJSQ?oc=5",
-      "category": "使い方",
-      "topic": "insurance"
-    },
-    {
-      "title": "マイナンバー・マイナ保険証で損しないには？今確認すべきこと（スマホライフPLUS） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KeklocW1qZGV4UTUtNXJIMWhxVUh2eTVCRi1PdlRNamt5SnRGZW5jVURXa1VfTlRxa3RlYndXaUdxS3dMb1pLQUtidnB0U2syY0g2dXZVSThWSUdsZmtvQzRTUTN6a05JYTB3UlY2WjNLdVNFMEN2dElDclh3N2s?oc=5",
-      "pub_date": "2026-05-28T07:01:39+09:00",
-      "source": "Yahoo!ニュース",
-      "description": "「役所の手続きがスマホでできるようになるらしいけれど、自分の暮らしにどう関係するの？」——そんな疑問を持つ方は少なくありません。マイナンバーカードを使った行政手続のオンライン化が進んでいますが、対象となる手続きや自治体の範囲は一度調べて終わりではなく、順次更新されています。",
-      "_glink": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KeklocW1qZGV4UTUtNXJIMWhxVUh2eTVCRi1PdlRNamt5SnRGZW5jVURXa1VfTlRxa3RlYndXaUdxS3dMb1pLQUtidnB0U2syY0g2dXZVSThWSUdsZmtvQzRTUTN6a05JYTB3UlY2WjNLdVNFMEN2dElDclh3N2s?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KeklocW1qZGV4UTUtNXJIMWhxVUh2eTVCRi1PdlRNamt5SnRGZW5jVURXa1VfTlRxa3RlYndXaUdxS3dMb1pLQUtidnB0U2syY0g2dXZVSThWSUdsZmtvQzRTUTN6a05JYTB3UlY2WjNLdVNFMEN2dElDclh3N2s?oc=5",
-      "category": "使い方",
-      "topic": "insurance"
     }
   ],
   "total": 500

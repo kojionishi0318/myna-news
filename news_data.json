@@ -1,6 +1,47 @@
 {
-  "updated": "2026-06-15T12:55:16+09:00",
+  "updated": "2026-06-16T12:43:27+09:00",
   "articles": [
+    {
+      "title": "引越し手続オンラインサービス マイナポータル「転出届・来庁予定の連絡（転入予約）」機能のAPI仕様書等の情報提供をしています",
+      "link": "https://www.digital.go.jp/news/9efcc402-5a17-4f37-80bd-5f4fc8e41bcf",
+      "pub_date": "2026-06-16T11:07:57+09:00",
+      "source": "デジタル庁",
+      "description": "「引越し手続オンラインサービス」を利用すれば、引越しの際に必ず必要な転出入の手続を簡素化できます。転出届を区役所等に持参する手間が省け、好きなタイミングで手続ができ便利です。その他の手続に関する理解を深めておけば、よりスムーズに ...",
+      "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
+      "category": "一般",
+      "topic": "mynumber"
+    },
+    {
+      "title": "マイナポータルAPIに関するリンク先を「デジタル庁ウェブサービス・アプリケーション」に変更しました",
+      "link": "https://www.digital.go.jp/policies/mynumber",
+      "pub_date": "2026-06-16T11:07:44+09:00",
+      "source": "デジタル庁",
+      "description": "デジタル庁は1月22日、スマートフォン向けに提供している「マイナポータルアプリ」に「デジタル認証アプリ」の機能を統合し、2026年夏をめどに「マイナアプリ」として提供することを発表した。目的は、行政手続きや民間サービスで必要となる本人確認を ...",
+      "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
+      "category": "使い方",
+      "topic": "mynumber"
+    },
+    {
+      "title": "医療機関・薬局向け「顔認証付きカードリーダー Caora」 後継製品を2026年10月に提供開始予定 - 沖縄タイムス社",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1jb2lGLUJRUW9feFY2QnNyU0NqSjNzLTloWlNhd0xSNnlyczJBR3R3NmtpdGJfSDVSMHAxdUsxaVNyMjVHM3BYRzZ6N0t3dm5oWm9JRkJZZTlJR28zOHc?oc=5",
+      "pub_date": "2026-06-16T11:00:00+09:00",
+      "source": "沖縄タイムス社",
+      "description": "さらに見やすく、さらにコンパクトに。もう迷わない、考える前に手が動く認証体験 株式会社PFU（社長執行役員：平原 英治、以下 PFU）は、病院や薬局などの受付でマイナンバーカードによる資格確認に利用されている「顔認証付きカードリーダー ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1jb2lGLUJRUW9feFY2QnNyU0NqSjNzLTloWlNhd0xSNnlyczJBR3R3NmtpdGJfSDVSMHAxdUsxaVNyMjVHM3BYRzZ6N0t3dm5oWm9JRkJZZTlJR28zOHc?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1jb2lGLUJRUW9feFY2QnNyU0NqSjNzLTloWlNhd0xSNnlyczJBR3R3NmtpdGJfSDVSMHAxdUsxaVNyMjVHM3BYRzZ6N0t3dm5oWm9JRkJZZTlJR28zOHc?oc=5",
+      "category": "一般",
+      "topic": "insurance"
+    },
+    {
+      "title": "マイナンバー制度における制度解説の情報連携に係る資料を更新しました",
+      "link": "https://www.digital.go.jp/policies/mynumber/explanation",
+      "pub_date": "2026-06-15T15:00:00+09:00",
+      "source": "デジタル庁",
+      "description": "2026年から、介護保険制度とマイナンバー制度の連携が本格的に始まります。この新制度は、医療と介護の情報を一元的に管理し、必要な情報にスムーズにアクセスできる環境を整えることを目指しています。 この新制度は「介護情報基盤」という仕組みの ...",
+      "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
+      "category": "制度変更",
+      "topic": "mynumber"
+    },
     {
       "title": "年金いくらで2割負担？《75歳以上》後期高齢者医療制度のボーダーライン - LIMO | くらしとお金の経済メディア",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9DZi1tRzdiOTdpdlkwX0dhWUhuZjR4TnZldm9XNnZPZ0FoN0tzSmhkY0UxbWhodEFEbVZreEE0YU1kNEJ0LWY2dEpNRlBxVDBpS3c?oc=5",
@@ -4074,6 +4115,17 @@
       "topic": "insurance"
     },
     {
+      "title": "メリットたくさん！マイナ免許証をご存じですか？ - 政府広報オンライン",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE03YmNlRjdiMlJvcGRmLTc0YXhHSE5BUnowZjIzVEx5TEJsbVg3cnVsd0pLT2RSWkJYanFBMGZRUlRqdDlqeHBFaldmWWduUzZGT0VldjZucmxGQ24xU24w?oc=5",
+      "pub_date": "2026-02-02T17:00:00+09:00",
+      "source": "政府広報オンライン",
+      "description": "iPhoneに搭載可能となったマイナンバーカードは免許証として利用できるか。「マイナ免許証」のスマホ搭載の現状と、マイナンバーカード一体化のメリット・デメリットをまとめた。 2025年3月24日から運転免許証のマイナンバーカードへの一体化（マイナ ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE03YmNlRjdiMlJvcGRmLTc0YXhHSE5BUnowZjIzVEx5TEJsbVg3cnVsd0pLT2RSWkJYanFBMGZRUlRqdDlqeHBFaldmWWduUzZGT0VldjZucmxGQ24xU24w?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE03YmNlRjdiMlJvcGRmLTc0YXhHSE5BUnowZjIzVEx5TEJsbVg3cnVsd0pLT2RSWkJYanFBMGZRUlRqdDlqeHBFaldmWWduUzZGT0VldjZucmxGQ24xU24w?oc=5",
+      "category": "一般",
+      "topic": "mynumber"
+    },
+    {
       "title": "「マイナ保険証」だったら“半額以下”だったって本当!? 「3月末までは紙の保険証も使える」と聞いて入院時に“20万円”も負担したのですが…。（ファイナンシャルフィールド） - Yahoo!ニュース",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pLXR4ek5YYkY3TUQwRnI5QjQtUmM5Q0ZnUjdOQnVQN1RCMG5CQmpxTnFKZzV4N19SUWJFb1VLZWd1MFRfV0xPN2NZU3lCcjVxM3pGQU5YTTY5OHVsTDdnb2JqWkxiLXJVTFJjbGE1YzlhVk96em1MTWNSdkUyZGs?oc=5",
       "pub_date": "2026-02-01T17:00:00+09:00",
@@ -5277,60 +5329,6 @@
       "_resolved_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOS3ZfZGFNNEtwclYyd0pYSWc0VXZoN3A2QjNqbHY4bnBJdENSLXo4b0h3eHFOeVhqU3hsNzJhNERLWlVud19IVTJzZjBmWUNTaXlrbFRrQmFTVG1tQ0k0Sm5HeTlrd2NTRXc5U19sWW9Wd0ROcFZlNDZqV2xnQS1nVWpJLXVYUTZyNEU2am1ZMA?oc=5",
       "category": "制度変更",
       "topic": "mynumber"
-    },
-    {
-      "title": "病院側から見た「マイナ保険証」のメリットとは？　「1日1～2件」でもスマホ利用に期待する理由（1/4 ページ） - ITmedia Mobile - ITmedia",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5weTE2bV9mcE1nVFpLYVltZnJlRy11WXhrLVh2VXlwY1FoVG5LOUI0SGdKWTZBaDBYT0F5R0haSVB6VTZ2RlRGazBqaTVZbmo3MjctR3dUWGEyMkx3TWxMMG4zTUUxWTg0OERiN0laONIBaEFVX3lxTE5vNll2N0xSYW9rSENMeG5FZ2ZGb0dKa19MNmxXNjAwSHF3M0s3MHdreVJWWV9HOWVWUDlHVkZoOHlRT1pCTDdTZTl3OU41WngxMlhGQ0lhOGh5T3pudzhCQWhLNzVaSjZE?oc=5",
-      "pub_date": "2025-12-11T17:00:00+09:00",
-      "source": "ITmedia",
-      "description": "マイナ保険証は「普及率100％に近づけてほしい」 ――マイナ保険証について、課題に感じることはありますか。 担当者 マイナ保険証の導入当初、利用率が上がらなかった理由としてマイナンバーカードを持ち歩かない人が多いというのがあったと思います。",
-      "_glink": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5weTE2bV9mcE1nVFpLYVltZnJlRy11WXhrLVh2VXlwY1FoVG5LOUI0SGdKWTZBaDBYT0F5R0haSVB6VTZ2RlRGazBqaTVZbmo3MjctR3dUWGEyMkx3TWxMMG4zTUUxWTg0OERiN0laONIBaEFVX3lxTE5vNll2N0xSYW9rSENMeG5FZ2ZGb0dKa19MNmxXNjAwSHF3M0s3MHdreVJWWV9HOWVWUDlHVkZoOHlRT1pCTDdTZTl3OU41WngxMlhGQ0lhOGh5T3pudzhCQWhLNzVaSjZE?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5weTE2bV9mcE1nVFpLYVltZnJlRy11WXhrLVh2VXlwY1FoVG5LOUI0SGdKWTZBaDBYT0F5R0haSVB6VTZ2RlRGazBqaTVZbmo3MjctR3dUWGEyMkx3TWxMMG4zTUUxWTg0OERiN0laONIBaEFVX3lxTE5vNll2N0xSYW9rSENMeG5FZ2ZGb0dKa19MNmxXNjAwSHF3M0s3MHdreVJWWV9HOWVWUDlHVkZoOHlRT1pCTDdTZTl3OU41WngxMlhGQ0lhOGh5T3pudzhCQWhLNzVaSjZE?oc=5",
-      "category": "統計",
-      "topic": "insurance"
-    },
-    {
-      "title": "マイナ保険証があれば「おくすり手帳は要らない」と考える人が知らない事実 - ダイヤモンド・オンライン",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB1U1pKMURvTVJBTk1Oa05iMWg2cTJ1TWZCdzhkSlhKVzZIM2lVbnhKaU5HOFozT29OYnBzWlJfNVJ1VGJxMjlaY3FWSEbSAU9BVV95cUxONnFSV0g0U0lWdENJdUVmVXhhaXNhclE1YjlvNjFJRjJkUnFRaDRkdDg3dk5RNGlIdU52UjBHeFpzNVAyTDZhSGtwNDB6Nl9R?oc=5",
-      "pub_date": "2025-12-11T17:00:00+09:00",
-      "source": "ダイヤモンド・オンライン",
-      "description": "「2026年8月から健康保険証が使えなくなることを知っているか?」と聞いたところ、「知っていて内容の理解している」と回答した人は4割弱(38.7%)で、「知っているが詳しくは知らない」(24.0%)を含めると6割超(62.7%)いたものの、「知らない ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB1U1pKMURvTVJBTk1Oa05iMWg2cTJ1TWZCdzhkSlhKVzZIM2lVbnhKaU5HOFozT29OYnBzWlJfNVJ1VGJxMjlaY3FWSEbSAU9BVV95cUxONnFSV0g0U0lWdENJdUVmVXhhaXNhclE1YjlvNjFJRjJkUnFRaDRkdDg3dk5RNGlIdU52UjBHeFpzNVAyTDZhSGtwNDB6Nl9R?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB1U1pKMURvTVJBTk1Oa05iMWg2cTJ1TWZCdzhkSlhKVzZIM2lVbnhKaU5HOFozT29OYnBzWlJfNVJ1VGJxMjlaY3FWSEbSAU9BVV95cUxONnFSV0g0U0lWdENJdUVmVXhhaXNhclE1YjlvNjFJRjJkUnFRaDRkdDg3dk5RNGlIdU52UjBHeFpzNVAyTDZhSGtwNDB6Nl9R?oc=5",
-      "category": "統計",
-      "topic": "insurance"
-    },
-    {
-      "title": "マイナンバーカードの後期高齢者医療被保険者証としての利用について - city.honjo.lg.jp",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPXzR3QVBvTkpuTW0yeEdxZUI5WElQYlJ4SmtDYkJrVHhtUUQ5OXhSQ3g2UDdNTFRaUjE5SEJ2UUowclk2ZkNuMXRDdEU3cnd4RzBwRzl3aGx3ZkFSXzlOd050SVRRaTJVN2pFWGYyM0gzTXBSSHFpamh6U2FER3llX2xjTzBpNlU2Mi14U0EteU5ycFR5YXA3aEloQVFUYU9PcFdxZ0JqeGUwQzNKTDNtWHdWTVExdXM?oc=5",
-      "pub_date": "2025-12-11T17:00:00+09:00",
-      "source": "city.honjo.lg.jp",
-      "description": "マイナンバーカードと一体化した「マイナ保険証」への本格移行に伴い、後期高齢者医療制度と国民健康保険の多くで従来型の健康保険証が7月31日に有効期限を迎える。マイナ保険証を持たない患者が通常の窓口負担で診察を受ける際は「資格確認書 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPXzR3QVBvTkpuTW0yeEdxZUI5WElQYlJ4SmtDYkJrVHhtUUQ5OXhSQ3g2UDdNTFRaUjE5SEJ2UUowclk2ZkNuMXRDdEU3cnd4RzBwRzl3aGx3ZkFSXzlOd050SVRRaTJVN2pFWGYyM0gzTXBSSHFpamh6U2FER3llX2xjTzBpNlU2Mi14U0EteU5ycFR5YXA3aEloQVFUYU9PcFdxZ0JqeGUwQzNKTDNtWHdWTVExdXM?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "資格確認書を本人確認書類に追加 JAL、マイナ保険証切り替えで - 観光経済新聞",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBYVWI1d0RwWTVHY2dwSjlEX2Z3UVhKbjlsbWw2TmZXOFBuRmRoYWFmRlRaeU9EaEtIUmZhcmxqMW5ob25pZnlIOWY1SVRubXY0X0NxaQ?oc=5",
-      "pub_date": "2025-12-10T17:00:00+09:00",
-      "source": "観光経済新聞",
-      "description": "日本航空（JAL）は、本人確認書類の取り扱いを12月5日付けで変更した。 健康保険証が廃止され、マイナンバーカードによる健康保険証（マイナ保険証）に切り替わることに伴うもの。健康保険証は本人確認書類として利用できなくなるものの、マイナンバー ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBYVWI1d0RwWTVHY2dwSjlEX2Z3UVhKbjlsbWw2TmZXOFBuRmRoYWFmRlRaeU9EaEtIUmZhcmxqMW5ob25pZnlIOWY1SVRubXY0X0NxaQ?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBYVWI1d0RwWTVHY2dwSjlEX2Z3UVhKbjlsbWw2TmZXOFBuRmRoYWFmRlRaeU9EaEtIUmZhcmxqMW5ob25pZnlIOWY1SVRubXY0X0NxaQ?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "「マイナ保険証」子どもの受診めんどくさすぎ問題 パスワード覚えられない、顔認証は“届かない”：NEWS Weekly Top10 - ITmedia",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5PelpTSTBYbXhvdUZYM3hSRzJVTExmMk9fTE1XRTlIUlRXUEp5NHdtN3FJbzZSNk1VMi0wX2lkU2pWclZ1ejI1VEJ5WmVRWTRIdnBPeDhJUk85VWxTaWxJZ3BWMV96cGtPNFFZUw?oc=5",
-      "pub_date": "2025-12-09T17:00:00+09:00",
-      "source": "ITmedia",
-      "description": "先週12月1日に、従来の健康保険証が有効期限を迎え、マイナ保険証の本格運用が始まった。アクセスランキングには4位に、マイナ保険証関連の記事が入った。 筆者はマイナ保険証をもう長く使っている。小学生の子どもの分も利用を始めたが、従来の保険 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5PelpTSTBYbXhvdUZYM3hSRzJVTExmMk9fTE1XRTlIUlRXUEp5NHdtN3FJbzZSNk1VMi0wX2lkU2pWclZ1ejI1VEJ5WmVRWTRIdnBPeDhJUk85VWxTaWxJZ3BWMV96cGtPNFFZUw?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5PelpTSTBYbXhvdUZYM3hSRzJVTExmMk9fTE1XRTlIUlRXUEp5NHdtN3FJbzZSNk1VMi0wX2lkU2pWclZ1ejI1VEJ5WmVRWTRIdnBPeDhJUk85VWxTaWxJZ3BWMV96cGtPNFFZUw?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
     }
   ]
 }
