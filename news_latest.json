@@ -1,6 +1,37 @@
 {
-  "updated": "2026-06-16T00:16:52+09:00",
+  "updated": "2026-06-16T13:11:53+09:00",
   "articles": [
+    {
+      "title": "引越し手続オンラインサービス マイナポータル「転出届・来庁予定の連絡（転入予約）」機能のAPI仕様書等の情報提供をしています",
+      "link": "https://www.digital.go.jp/news/9efcc402-5a17-4f37-80bd-5f4fc8e41bcf",
+      "pub_date": "2026-06-16T11:07:57+09:00",
+      "source": "デジタル庁",
+      "description": "「引越し手続オンラインサービス」を利用すれば、引越しの際に必ず必要な転出入の手続を簡素化できます。転出届を区役所等に持参する手間が省け、好きなタイミングで手続ができ便利です。その他の手続に関する理解を深めておけば、よりスムーズに ...",
+      "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
+      "category": "一般",
+      "topic": "mynumber"
+    },
+    {
+      "title": "マイナポータルAPIに関するリンク先を「デジタル庁ウェブサービス・アプリケーション」に変更しました",
+      "link": "https://www.digital.go.jp/policies/mynumber",
+      "pub_date": "2026-06-16T11:07:44+09:00",
+      "source": "デジタル庁",
+      "description": "医薬品開発を支援する3Hメディソリューション株式会社（所在地：東京都豊島区、代表取締役：滝澤宏隆）は、デジタル庁が提供するマイナポータルAPIとの連携を開始し、当社が運営する治験情報サイト「生活向上WEB」内の健康管理コンテンツ「マイカルテ ...",
+      "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
+      "category": "一般",
+      "topic": "mynumber"
+    },
+    {
+      "title": "医療機関・薬局向け「顔認証付きカードリーダー Caora」 後継製品を2026年10月に提供開始予定 - 沖縄タイムス社",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1jb2lGLUJRUW9feFY2QnNyU0NqSjNzLTloWlNhd0xSNnlyczJBR3R3NmtpdGJfSDVSMHAxdUsxaVNyMjVHM3BYRzZ6N0t3dm5oWm9JRkJZZTlJR28zOHc?oc=5",
+      "pub_date": "2026-06-16T11:00:00+09:00",
+      "source": "沖縄タイムス社",
+      "description": "株式会社PFU（社長執行役員：平原 英治、以下 PFU）は、病院や薬局などの受付でマイナンバーカードによる資格確認に利用されている「顔認証付きカードリーダー Caora（カオラ）」の後継製品「Caora 2」（以下 Caora ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1jb2lGLUJRUW9feFY2QnNyU0NqSjNzLTloWlNhd0xSNnlyczJBR3R3NmtpdGJfSDVSMHAxdUsxaVNyMjVHM3BYRzZ6N0t3dm5oWm9JRkJZZTlJR28zOHc?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1jb2lGLUJRUW9feFY2QnNyU0NqSjNzLTloWlNhd0xSNnlyczJBR3R3NmtpdGJfSDVSMHAxdUsxaVNyMjVHM3BYRzZ6N0t3dm5oWm9JRkJZZTlJR28zOHc?oc=5",
+      "category": "一般",
+      "topic": "insurance"
+    },
     {
       "title": "マイナンバー制度における制度解説の情報連携に係る資料を更新しました",
       "link": "https://www.digital.go.jp/policies/mynumber/explanation",
@@ -515,37 +546,6 @@
       "_resolved_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9wVGZja3NmNVNTMnhBOW1wWEpQRXlYbmowc3JSVEFWVzE1XzZiWWljZzlMNzZsbk91VkFDcDMzZnNvMndla09ZTUNtSmNhcFFLa3M0?oc=5",
       "category": "使い方",
       "topic": "insurance"
-    },
-    {
-      "title": "第38回社会保障審議会医療保険部会 あん摩マッサージ指圧、はり・きゅう療養費検討専門委員会議事録",
-      "link": "https://www.mhlw.go.jp/stf/shingi2/newpage_00275.html",
-      "pub_date": "2026-05-29T10:50:00+09:00",
-      "source": "厚生労働省",
-      "description": "厚生労働省が4月4日に開いた社会保障審議会医療保険部会で、高額療養費制度の自己負担限度額の見直しの一連の動きを巡り、保険局長の鹿沼均氏が部会の委員に対し「心からお詫びを申し上げる。引き続き部会で議論をお願いしたいと考えている」と述べた。委員から「その前に医療費財源 ...",
-      "thumbnail": "https://www.mhlw.go.jp/common/img/img_ogp.jpg",
-      "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "第35回社会保障審議会医療保険部会 柔道整復療養費検討専門委員会議事録",
-      "link": "https://www.mhlw.go.jp/stf/shingi2/newpage_00274.html",
-      "pub_date": "2026-05-29T10:50:00+09:00",
-      "source": "厚生労働省",
-      "description": "厚生労働省は5月1日に開いた社会保障審議会医療保険部会で、部会の下に新たに「高額療養費制度の在り方に関する専門委員会（仮称）」を設置し、高額療養費制度について集中的に検討する方針を提示、了承を得た。委員には患者など当事者の声を反映 ...",
-      "thumbnail": "https://www.mhlw.go.jp/common/img/img_ogp.jpg",
-      "category": "政治",
-      "topic": "mynumber"
-    },
-    {
-      "title": "「マイナポータル」の「薬」画面で直近100日以内の情報が確認可能に（BCN） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aRVMyaDlxMURnb1dIQjBEaWo5eXZFTjRtdy1FSURaaGJQUzRNRlN2U2ozX0RHaHFSZkVkSy1jUl9kWUxkSkQ3Q0NGUndiSGZhcjJiVmFxUEk5RE9jQW5MMmdYbVdVRnVnQWVGUlJTLXc5MTJ3dHFGWnI4TWFMcFE?oc=5",
-      "pub_date": "2026-05-28T18:00:00+09:00",
-      "source": "Yahoo!ニュース",
-      "description": "デジタル庁は、「マイナポータル」での基本情報の自動変更(住所変更ワンストップサービス等)の手続きで、iPhoneのマイナンバーカードに対応した。これにより、マイナポータルの運転免許に関するすべてのサービスを「iPhoneのマイナンバーカード」のみで ...",
-      "_glink": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aRVMyaDlxMURnb1dIQjBEaWo5eXZFTjRtdy1FSURaaGJQUzRNRlN2U2ozX0RHaHFSZkVkSy1jUl9kWUxkSkQ3Q0NGUndiSGZhcjJiVmFxUEk5RE9jQW5MMmdYbVdVRnVnQWVGUlJTLXc5MTJ3dHFGWnI4TWFMcFE?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aRVMyaDlxMURnb1dIQjBEaWo5eXZFTjRtdy1FSURaaGJQUzRNRlN2U2ozX0RHaHFSZkVkSy1jUl9kWUxkSkQ3Q0NGUndiSGZhcjJiVmFxUEk5RE9jQW5MMmdYbVdVRnVnQWVGUlJTLXc5MTJ3dHFGWnI4TWFMcFE?oc=5",
-      "category": "使い方",
-      "topic": "mynumber"
     }
   ],
   "total": 500

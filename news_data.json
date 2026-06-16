@@ -1,6 +1,37 @@
 {
-  "updated": "2026-06-16T00:16:52+09:00",
+  "updated": "2026-06-16T13:11:53+09:00",
   "articles": [
+    {
+      "title": "引越し手続オンラインサービス マイナポータル「転出届・来庁予定の連絡（転入予約）」機能のAPI仕様書等の情報提供をしています",
+      "link": "https://www.digital.go.jp/news/9efcc402-5a17-4f37-80bd-5f4fc8e41bcf",
+      "pub_date": "2026-06-16T11:07:57+09:00",
+      "source": "デジタル庁",
+      "description": "「引越し手続オンラインサービス」を利用すれば、引越しの際に必ず必要な転出入の手続を簡素化できます。転出届を区役所等に持参する手間が省け、好きなタイミングで手続ができ便利です。その他の手続に関する理解を深めておけば、よりスムーズに ...",
+      "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
+      "category": "一般",
+      "topic": "mynumber"
+    },
+    {
+      "title": "マイナポータルAPIに関するリンク先を「デジタル庁ウェブサービス・アプリケーション」に変更しました",
+      "link": "https://www.digital.go.jp/policies/mynumber",
+      "pub_date": "2026-06-16T11:07:44+09:00",
+      "source": "デジタル庁",
+      "description": "医薬品開発を支援する3Hメディソリューション株式会社（所在地：東京都豊島区、代表取締役：滝澤宏隆）は、デジタル庁が提供するマイナポータルAPIとの連携を開始し、当社が運営する治験情報サイト「生活向上WEB」内の健康管理コンテンツ「マイカルテ ...",
+      "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
+      "category": "一般",
+      "topic": "mynumber"
+    },
+    {
+      "title": "医療機関・薬局向け「顔認証付きカードリーダー Caora」 後継製品を2026年10月に提供開始予定 - 沖縄タイムス社",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1jb2lGLUJRUW9feFY2QnNyU0NqSjNzLTloWlNhd0xSNnlyczJBR3R3NmtpdGJfSDVSMHAxdUsxaVNyMjVHM3BYRzZ6N0t3dm5oWm9JRkJZZTlJR28zOHc?oc=5",
+      "pub_date": "2026-06-16T11:00:00+09:00",
+      "source": "沖縄タイムス社",
+      "description": "株式会社PFU（社長執行役員：平原 英治、以下 PFU）は、病院や薬局などの受付でマイナンバーカードによる資格確認に利用されている「顔認証付きカードリーダー Caora（カオラ）」の後継製品「Caora 2」（以下 Caora ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1jb2lGLUJRUW9feFY2QnNyU0NqSjNzLTloWlNhd0xSNnlyczJBR3R3NmtpdGJfSDVSMHAxdUsxaVNyMjVHM3BYRzZ6N0t3dm5oWm9JRkJZZTlJR28zOHc?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1jb2lGLUJRUW9feFY2QnNyU0NqSjNzLTloWlNhd0xSNnlyczJBR3R3NmtpdGJfSDVSMHAxdUsxaVNyMjVHM3BYRzZ6N0t3dm5oWm9JRkJZZTlJR28zOHc?oc=5",
+      "category": "一般",
+      "topic": "insurance"
+    },
     {
       "title": "マイナンバー制度における制度解説の情報連携に係る資料を更新しました",
       "link": "https://www.digital.go.jp/policies/mynumber/explanation",
@@ -5366,39 +5397,6 @@
       "description": "有効期限切れの健康保険証でも保険診療（1〜3割負担）を受けられる暫定措置が、7月末まで延長される。しかし4カ月後、「保険証利用登録を済ませたマイナンバーカード」（マイナ保険証）などがないと保険診療が受けられず、全額自己負担（10割負担）と ...",
       "_glink": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1mX2pVRS1waXExcnZwUHBDMVRPVXA4VUZhUHZ0Y2xyQjdKTHQySHBhUFpCNUFHYllvQ2NZbGZ1dlF5aDhQRkFYNTk3bw?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1mX2pVRS1waXExcnZwUHBDMVRPVXA4VUZhUHZ0Y2xyQjdKTHQySHBhUFpCNUFHYllvQ2NZbGZ1dlF5aDhQRkFYNTk3bw?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "【注意】「マイナ保険証」移行で“手元の健康保険証”を破棄→そのまま捨てると「なりすまし受診」「身分証として悪用」される!? 不正利用されないための注意点とは（ファイナンシャルフィールド） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMZzZGYWJCNXFxXzRCcS11NVdUcUFIV1RyeGY3TktIY1NabVlvRkU4WnhmTmVvNEZHcWtsWlFzTzdSaldvRVp3X1pZbzIwMnF2WEdpcDBiaXpTdnFaMFB5ckV5ZTM3SmFZd3NrVjZLdXg2dUV0UnJsVjVBeGs1Nnc?oc=5",
-      "pub_date": "2025-12-15T17:00:00+09:00",
-      "source": "Yahoo!ニュース",
-      "description": "従来の健康保険証の有効期限は、最長で2025年12月1日までとなっており、12月2日からはマイナ保険証を基本とする仕組みに完全移行となりました。 手元にあるこれまでの紙やカード型の保険証は原則使わないことになりましたが、勝手に処分しても良いの ...",
-      "_glink": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMZzZGYWJCNXFxXzRCcS11NVdUcUFIV1RyeGY3TktIY1NabVlvRkU4WnhmTmVvNEZHcWtsWlFzTzdSaldvRVp3X1pZbzIwMnF2WEdpcDBiaXpTdnFaMFB5ckV5ZTM3SmFZd3NrVjZLdXg2dUV0UnJsVjVBeGs1Nnc?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMZzZGYWJCNXFxXzRCcS11NVdUcUFIV1RyeGY3TktIY1NabVlvRkU4WnhmTmVvNEZHcWtsWlFzTzdSaldvRVp3X1pZbzIwMnF2WEdpcDBiaXpTdnFaMFB5ckV5ZTM3SmFZd3NrVjZLdXg2dUV0UnJsVjVBeGs1Nnc?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "窓口で「いったん10割負担」の件数が1年で2倍近くに増加 「マイナ保険証」 “スマホマイナ”も登場で医療現場「もう無理」 - ktv.jp",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5NZnluVExhZzZXaWd2OG5fbVkycmRZYlNYQ0k2aGlIczdyMUNoT2VqZDV5VlBNTDhIMk12TGZoQkdsNUo3d21Tb0o1V3FJck5aYXMzenJBMHk?oc=5",
-      "pub_date": "2025-12-15T17:00:00+09:00",
-      "source": "ktv.jp",
-      "description": "新規発行停止から月日が流れ、マイナンバーカードを保険証として利用する「マイナ保険証」への移行が本格化しています。 マイナ保険証を使用すると、高額な医療費が発生した際の窓口での支払いが10万円以上軽くなるケースもあります。現在実施されて ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5NZnluVExhZzZXaWd2OG5fbVkycmRZYlNYQ0k2aGlIczdyMUNoT2VqZDV5VlBNTDhIMk12TGZoQkdsNUo3d21Tb0o1V3FJck5aYXMzenJBMHk?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5NZnluVExhZzZXaWd2OG5fbVkycmRZYlNYQ0k2aGlIczdyMUNoT2VqZDV5VlBNTDhIMk12TGZoQkdsNUo3d21Tb0o1V3FJck5aYXMzenJBMHk?oc=5",
-      "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "マイナ保険証の利用率37％の現実 なぜ国民は納得して使わないのか？医療現場と制度の課題を探る - coki.jp",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9SdDRQUkpjS1VXN1djMzlCbExKNTZ3bFZyQUVyVGczcVBuV2dEU293RmVUeF9JM29DaFJqRHdaZ0I2ei1Mb1paNTdDTE1iZw?oc=5",
-      "pub_date": "2025-12-14T17:00:00+09:00",
-      "source": "coki.jp",
-      "description": "厚生労働省は有効期限が切れた従来の健康保険証でも保険診療を受けられる暫定措置の期限を3月末から7月末まで延長することを決めた。 医療機関に従来の健康保険証のみを持参する患者が依然としているためだ。上野賢一郎厚労相は3月19日の会見で、円滑 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9SdDRQUkpjS1VXN1djMzlCbExKNTZ3bFZyQUVyVGczcVBuV2dEU293RmVUeF9JM29DaFJqRHdaZ0I2ei1Mb1paNTdDTE1iZw?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9SdDRQUkpjS1VXN1djMzlCbExKNTZ3bFZyQUVyVGczcVBuV2dEU293RmVUeF9JM29DaFJqRHdaZ0I2ei1Mb1paNTdDTE1iZw?oc=5",
       "category": "制度変更",
       "topic": "insurance"
     }
