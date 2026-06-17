@@ -1,6 +1,16 @@
 {
-  "updated": "2026-06-17T13:11:34+09:00",
+  "updated": "2026-06-17T21:52:54+09:00",
   "articles": [
+    {
+      "title": "マイナンバー制度に係る「民間事業者における取扱いについて」のよくある質問を更新しました",
+      "link": "https://www.digital.go.jp/policies/mynumber_faq_04",
+      "pub_date": "2026-06-17T15:00:00+09:00",
+      "source": "デジタル庁",
+      "description": "本日、電子署名等に係る地方公共団体情報システム機構の認証業務に関する法律（平成14年法律第153号）第17条第1項第6号の規定に基づき、公的個人認証サービスを利用するために必要な一定の基準を満たす事業者として、マーソ株式会社に対し主務大臣の ...",
+      "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
+      "category": "政治",
+      "topic": "mynumber"
+    },
     {
       "title": "【マイナンバーカード】健康保険証利用申し込み！マイナポータルアプリからweb申し込みをするよ！ Deandre Ayton (uUJClNhx2v) - Fathom Journal",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9IWVF5OFc4bFJ4NkxYNWNWM0pLVGNrN2pvNjdrbHhlS284dXpyQ3FYbVN6M29GRTVROVU5UzRyTkk5aDdacDVEZlR1WGYtSjdBOVhsWHEtb1d3NzFmNnBkMkRGWVkwUlhHRHc?oc=5",
@@ -532,17 +542,6 @@
       "description": "「マイナ保険証」「マイナ免許証」──マイナンバーカードでできることが増えていると聞くものの、「自分は何をすればいいのか」「落としたら個人情報が漏れるのでは」と不安を感じている方は多いのではないでしょうか。",
       "_glink": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNlpJMlY2MkNrXzhKczFXb2lTYTNYb2NEeDdmMVV5Unc1V0ppeGROeG00YVFjd1lIZWdCSG1Dd2dBS2dmNkVrNmVYYWJ4ZWY3RWhRTkt5cnBET0ttSV9HSTEyaFBpcGhjcTVoSkVqaWN2UXBOUTNCaWRJTTVSSUJ2Y0NoUDJJaF93?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNlpJMlY2MkNrXzhKczFXb2lTYTNYb2NEeDdmMVV5Unc1V0ppeGROeG00YVFjd1lIZWdCSG1Dd2dBS2dmNkVrNmVYYWJ4ZWY3RWhRTkt5cnBET0ttSV9HSTEyaFBpcGhjcTVoSkVqaWN2UXBOUTNCaWRJTTVSSUJ2Y0NoUDJJaF93?oc=5",
-      "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "マイナンバーカード、落としたら「全部漏れる」は本当か？ ICチップの中身を解説（スマホライフPLUS） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBhaFd2clZxaHRjTVpwWWtXUDVGS0FlSnEtanN6d052T0szTVVfTDBoalhzNVEtVno2TGl3YXRCWGFkYUVEdkNWbTBTR2p3OXVyOENnVEZkUDd1TUZnVFJyQ3Q2NTU0a01tanZmWkUwUzFzQjhRQU55UkgtU0MzQ1U?oc=5",
-      "pub_date": "2026-05-30T20:30:59+09:00",
-      "source": "Yahoo!ニュース",
-      "description": "「マイナ保険証」「マイナ免許証」──マイナンバーカードでできることが増えていると聞くものの、「自分は何をすればいいのか」「落としたら個人情報が漏れるのでは」と不安を感じている方は多いのではないでしょうか。",
-      "_glink": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBhaFd2clZxaHRjTVpwWWtXUDVGS0FlSnEtanN6d052T0szTVVfTDBoalhzNVEtVno2TGl3YXRCWGFkYUVEdkNWbTBTR2p3OXVyOENnVEZkUDd1TUZnVFJyQ3Q2NTU0a01tanZmWkUwUzFzQjhRQU55UkgtU0MzQ1U?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBhaFd2clZxaHRjTVpwWWtXUDVGS0FlSnEtanN6d052T0szTVVfTDBoalhzNVEtVno2TGl3YXRCWGFkYUVEdkNWbTBTR2p3OXVyOENnVEZkUDd1TUZnVFJyQ3Q2NTU0a01tanZmWkUwUzFzQjhRQU55UkgtU0MzQ1U?oc=5",
       "category": "一般",
       "topic": "insurance"
     }
