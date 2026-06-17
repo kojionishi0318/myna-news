@@ -1,6 +1,49 @@
 {
-  "updated": "2026-06-17T12:44:01+09:00",
+  "updated": "2026-06-17T21:50:18+09:00",
   "articles": [
+    {
+      "title": "マイナンバー制度に係る「民間事業者における取扱いについて」のよくある質問を更新しました",
+      "link": "https://www.digital.go.jp/policies/mynumber_faq_04",
+      "pub_date": "2026-06-17T15:00:00+09:00",
+      "source": "デジタル庁",
+      "description": "本日、電子署名等に係る地方公共団体情報システム機構の認証業務に関する法律（平成14年法律第153号）第17条第1項第6号の規定に基づき、公的個人認証サービスを利用するために必要な一定の基準を満たす事業者として、マーソ株式会社に対し主務大臣の ...",
+      "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
+      "category": "政治",
+      "topic": "mynumber"
+    },
+    {
+      "title": "【マイナンバーカード】健康保険証利用申し込み！マイナポータルアプリからweb申し込みをするよ！ Deandre Ayton (uUJClNhx2v) - Fathom Journal",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9IWVF5OFc4bFJ4NkxYNWNWM0pLVGNrN2pvNjdrbHhlS284dXpyQ3FYbVN6M29GRTVROVU5UzRyTkk5aDdacDVEZlR1WGYtSjdBOVhsWHEtb1d3NzFmNnBkMkRGWVkwUlhHRHc?oc=5",
+      "pub_date": "2026-06-17T10:36:42+09:00",
+      "source": "Fathom Journal",
+      "description": "スマートフォンのマイナ保険証利用が9月19日から開始した。健康保険証の利用登録がされたマイナンバーカードをスマートフォンに追加することで、カードを取り出さずに、スマートフォンをかざして、医療機関・薬局で利用できるようになる。 なお ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9IWVF5OFc4bFJ4NkxYNWNWM0pLVGNrN2pvNjdrbHhlS284dXpyQ3FYbVN6M29GRTVROVU5UzRyTkk5aDdacDVEZlR1WGYtSjdBOVhsWHEtb1d3NzFmNnBkMkRGWVkwUlhHRHc?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9IWVF5OFc4bFJ4NkxYNWNWM0pLVGNrN2pvNjdrbHhlS284dXpyQ3FYbVN6M29GRTVROVU5UzRyTkk5aDdacDVEZlR1WGYtSjdBOVhsWHEtb1d3NzFmNnBkMkRGWVkwUlhHRHc?oc=5",
+      "category": "一般",
+      "topic": "insurance"
+    },
+    {
+      "title": "医療DX・マイナ保険証への補助金、見直しを　　自民が提言 - MEDIFAX web",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1uUHh1R0hTbmg0S3BiNll1NjR2Z2NDRnJhZnNjeWZlSk9Hb1VsWmJqX1lzNzZad1JJbEIxV0dDQkdadXBEbzFrONIBTkFVX3lxTE04ZS1WbjBpSzlrS1I0X2tYNjNCamd4T2Izc2wwMmh4MmF3eGtET2V4b0tKaExRWFEzcXVxc1pyeUhEX3VjakRkUklPMUVTdw?oc=5",
+      "pub_date": "2026-06-16T20:56:00+09:00",
+      "source": "MEDIFAX web",
+      "description": "健康保険証が使えなくなる話を聞いたことはないだろうか。従来の健康保険証は2025年12月1日をもって有効期限が終了している。 ただし、有効期限切れの保険証をそのまま使える「暫定措置」が複数回にわたって延長されているため、現在の状況がわかり ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1uUHh1R0hTbmg0S3BiNll1NjR2Z2NDRnJhZnNjeWZlSk9Hb1VsWmJqX1lzNzZad1JJbEIxV0dDQkdadXBEbzFrONIBTkFVX3lxTE04ZS1WbjBpSzlrS1I0X2tYNjNCamd4T2Izc2wwMmh4MmF3eGtET2V4b0tKaExRWFEzcXVxc1pyeUhEX3VjakRkUklPMUVTdw?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1uUHh1R0hTbmg0S3BiNll1NjR2Z2NDRnJhZnNjeWZlSk9Hb1VsWmJqX1lzNzZad1JJbEIxV0dDQkdadXBEbzFrONIBTkFVX3lxTE04ZS1WbjBpSzlrS1I0X2tYNjNCamd4T2Izc2wwMmh4MmF3eGtET2V4b0tKaExRWFEzcXVxc1pyeUhEX3VjakRkUklPMUVTdw?oc=5",
+      "category": "制度変更",
+      "topic": "insurance"
+    },
+    {
+      "title": "医療機関・薬局向け「顔認証付きカードリーダー Caora」 後継製品を2026年10月に提供開始予定 - ASCII.jp",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBrS01JQ0JqZDVZZHowNWhFVm9YcGxPUnNveThSLTFEamgwQlk2WUFSaEJzVkJiTXpLY2xmWjhMR0JFOWUtRlpwc0dUblk4cVNpeER1aA?oc=5",
+      "pub_date": "2026-06-16T19:32:17+09:00",
+      "source": "ASCII.jp",
+      "description": "株式会社PFU（社長執行役員：平原 英治、以下 PFU）は、病院や薬局などの受付でマイナンバーカードによる資格確認に利用されている「顔認証付きカードリーダー Caora（カオラ）」の後継製品「Caora 2」（以下 Caora ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBrS01JQ0JqZDVZZHowNWhFVm9YcGxPUnNveThSLTFEamgwQlk2WUFSaEJzVkJiTXpLY2xmWjhMR0JFOWUtRlpwc0dUblk4cVNpeER1aA?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBrS01JQ0JqZDVZZHowNWhFVm9YcGxPUnNveThSLTFEamgwQlk2WUFSaEJzVkJiTXpLY2xmWjhMR0JFOWUtRlpwc0dUblk4cVNpeER1aA?oc=5",
+      "category": "一般",
+      "topic": "insurance"
+    },
     {
       "title": "医療機関・薬局向け「顔認証付きカードリーダー Caora」 後継製品を2026年10月に提供開始予定 - ニコニコニュース",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE55c2Y4WTZ5TzZqR1hkMC1JaUNIbmV6M05MZHlMZjRueEVFZ1hya0Q2OWFRS0pIbDN0VkxtZGhJbndOSEtSUmRTVkxjeDJQamhYOWJoWDZaSmRLNWY2Z3cwYUJFME9pczdlME80SERHd3lKMUpfZ21ONm1EVQ?oc=5",
@@ -500,50 +543,6 @@
       "_glink": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9DZFNjb0FLaDg1N1I5TjJVNDR2eGgxQUtzSUI1VHhldF9lVXlFZjBWVS1zcktWYVEySGh5M3huWkI3UzQ3TzFmR1NTQXk1NDVWN0h4cTNucEM?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9DZFNjb0FLaDg1N1I5TjJVNDR2eGgxQUtzSUI1VHhldF9lVXlFZjBWVS1zcktWYVEySGh5M3huWkI3UzQ3TzFmR1NTQXk1NDVWN0h4cTNucEM?oc=5",
       "category": "一般",
-      "topic": "mynumber"
-    },
-    {
-      "title": "母が病院でマイナ保険証を出したところ、「有効期限切れで使えません」と言われたそうです。マイナンバーカード自体は有効なはずなのに、なぜ使えないのでしょうか？ (ファイナンシャルフィールド) - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSWJpSTRwLTdDV3g4VDZQUjdSNXdwNWZtQWJ1VmNXd0wzUnlQejVrN3Fka1Y4RE91MENZNDBPanRlLXA1WFFiRVZaeDc2cFV1b01mVTJzamtqa09EbktTdUZQSmdkRWVzdUNCS2JXTjJaNEF6cThiYThwSklycl9BRmVILUhOOExnX2pBOW9R?oc=5",
-      "pub_date": "2026-05-30T13:47:37+09:00",
-      "source": "Yahoo!ニュース",
-      "description": "病院でマイナ保険証を提示したところ、「有効期限切れで使えません」と案内され、戸惑った経験がある人もいるかもしれません。特に、「マイナンバーカード自体はまだ期限内のはずなのに、なぜ利用できないのか」と疑問に感じるケースもあるようです。",
-      "_glink": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSWJpSTRwLTdDV3g4VDZQUjdSNXdwNWZtQWJ1VmNXd0wzUnlQejVrN3Fka1Y4RE91MENZNDBPanRlLXA1WFFiRVZaeDc2cFV1b01mVTJzamtqa09EbktTdUZQSmdkRWVzdUNCS2JXTjJaNEF6cThiYThwSklycl9BRmVILUhOOExnX2pBOW9R?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSWJpSTRwLTdDV3g4VDZQUjdSNXdwNWZtQWJ1VmNXd0wzUnlQejVrN3Fka1Y4RE91MENZNDBPanRlLXA1WFFiRVZaeDc2cFV1b01mVTJzamtqa09EbktTdUZQSmdkRWVzdUNCS2JXTjJaNEF6cThiYThwSklycl9BRmVILUhOOExnX2pBOW9R?oc=5",
-      "category": "トラブル",
-      "topic": "insurance"
-    },
-    {
-      "title": "後期高齢者医療制度の資格確認書類について - town.hokkaido-mori.lg.jp",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVWpNeHEzX09pdkRLUm1EVHJ6T1ZJNnljcG05UG9TYjE1aE1VMmYyN00wZV82UWp1NHhCNG9Cblg1dmtUT3EtanRvOThyNzItaTZ0eUkxWU0yWWdKOWRNZjcyWUhuVXMtaExBY2F0QTQ3cms5LTlsQ0xoLWg2ZnhKRUo3SnRERVlPam0xWFg3LTlHWklyOHpuVA?oc=5",
-      "pub_date": "2026-05-29T16:00:00+09:00",
-      "source": "town.hokkaido-mori.lg.jp",
-      "description": "「後期高齢者医療制度」と「国民健康保険」の多くが、従来の保険証の期限切れを迎えました。そこで、登録者数120万人超のYouTubeチャンネル『脱・税理士スガワラくん』を運営する税理士の菅原 由一は、全国の国民健康保険および後期高齢者医療制度の ...",
-      "_glink": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVWpNeHEzX09pdkRLUm1EVHJ6T1ZJNnljcG05UG9TYjE1aE1VMmYyN00wZV82UWp1NHhCNG9Cblg1dmtUT3EtanRvOThyNzItaTZ0eUkxWU0yWWdKOWRNZjcyWUhuVXMtaExBY2F0QTQ3cms5LTlsQ0xoLWg2ZnhKRUo3SnRERVlPam0xWFg3LTlHWklyOHpuVA?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVWpNeHEzX09pdkRLUm1EVHJ6T1ZJNnljcG05UG9TYjE1aE1VMmYyN00wZV82UWp1NHhCNG9Cblg1dmtUT3EtanRvOThyNzItaTZ0eUkxWU0yWWdKOWRNZjcyWUhuVXMtaExBY2F0QTQ3cms5LTlsQ0xoLWg2ZnhKRUo3SnRERVlPam0xWFg3LTlHWklyOHpuVA?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "国民健康保険資格確認書等の一斉更新について - city.fukaya.saitama.jp",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQR3ZadHRlVjBJU1pVejN0Y1lBYlZyR0w3SlNMcmh0M3lhcTRGTDViN1Z0U0FTYmduU2RBYm5uQi1XUFNfNEpTd3lkY2NtWktFanlsMklocTMyN1FWRklBSkY5WFI5UDlvWExINTBaSEhJa2NFbDBmOThMN3BPRklvT2MzaEFWU0E0V29DUVFwNWRNY1hDZERwN0Y3YTZnSjBQYS1PS19BZw?oc=5",
-      "pub_date": "2026-05-29T16:00:00+09:00",
-      "source": "city.fukaya.saitama.jp",
-      "description": "記事をマイページに保存し、『あとで読む』ことができます。ご利用には会員登録が必要です。 マイナ保険証と資格確認書の2枚持ちは「要配慮者」と認められた高齢者や障害者に対する例外的な措置とされている。両区とも「マイナ保険証を否定している ...",
-      "_glink": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQR3ZadHRlVjBJU1pVejN0Y1lBYlZyR0w3SlNMcmh0M3lhcTRGTDViN1Z0U0FTYmduU2RBYm5uQi1XUFNfNEpTd3lkY2NtWktFanlsMklocTMyN1FWRklBSkY5WFI5UDlvWExINTBaSEhJa2NFbDBmOThMN3BPRklvT2MzaEFWU0E0V29DUVFwNWRNY1hDZERwN0Y3YTZnSjBQYS1PS19BZw?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQR3ZadHRlVjBJU1pVejN0Y1lBYlZyR0w3SlNMcmh0M3lhcTRGTDViN1Z0U0FTYmduU2RBYm5uQi1XUFNfNEpTd3lkY2NtWktFanlsMklocTMyN1FWRklBSkY5WFI5UDlvWExINTBaSEhJa2NFbDBmOThMN3BPRklvT2MzaEFWU0E0V29DUVFwNWRNY1hDZERwN0Y3YTZnSjBQYS1PS19BZw?oc=5",
-      "category": "トラブル",
-      "topic": "insurance"
-    },
-    {
-      "title": "DXの推進に伴う窓口業務の見直し - city.osaki.miyagi.jp",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNM3k4LUFZU1JQVFVRT0t3dFlKSDdtVDJMQkhlYkpzbHYxT08wNHI5RktaV1J6dXlvaDN0MU9nZE9rdUpjMXZiMmZzLWJOR1RIdjExNnB5YkdEVTBEcTY0VFdXZHFERldVZV90cWRMbm1nUzk1VHRSLXZfNU5wUkxkblZIbTZmZHZ1bUpJcEVFbw?oc=5",
-      "pub_date": "2026-05-29T16:00:00+09:00",
-      "source": "city.osaki.miyagi.jp",
-      "description": "マニュアルトータルソリューションを提供し、企業の業務効率化を支援する株式会社テンダ(本社／東京都渋谷区、代表取締役会長兼社長CEO／薗部 晃、以下「テンダ」)は、Unite Partners株式会社と共に、オンラインセミナー「業務改善を起点としたDX推進 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNM3k4LUFZU1JQVFVRT0t3dFlKSDdtVDJMQkhlYkpzbHYxT08wNHI5RktaV1J6dXlvaDN0MU9nZE9rdUpjMXZiMmZzLWJOR1RIdjExNnB5YkdEVTBEcTY0VFdXZHFERldVZV90cWRMbm1nUzk1VHRSLXZfNU5wUkxkblZIbTZmZHZ1bUpJcEVFbw?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNM3k4LUFZU1JQVFVRT0t3dFlKSDdtVDJMQkhlYkpzbHYxT08wNHI5RktaV1J6dXlvaDN0MU9nZE9rdUpjMXZiMmZzLWJOR1RIdjExNnB5YkdEVTBEcTY0VFdXZHFERldVZV90cWRMbm1nUzk1VHRSLXZfNU5wUkxkblZIbTZmZHZ1bUpJcEVFbw?oc=5",
-      "category": "制度変更",
       "topic": "mynumber"
     }
   ],
