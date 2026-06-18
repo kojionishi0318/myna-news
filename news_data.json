@@ -1,6 +1,17 @@
 {
-  "updated": "2026-06-17T21:52:54+09:00",
+  "updated": "2026-06-18T13:02:45+09:00",
   "articles": [
+    {
+      "title": "医療機関等の受診方法 - city.himeji.lg.jp",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yY0ViM0kycER4UTNoMTN2MEZRVXM5U0RVakR6UlM2anhnSzA2MnhTcW5oX0syaEpyZHJPZlFjUHphSEVEN0x4cGVKcW95blQyaHVlN2RnaHJsYkVGU3BKNmc2NA?oc=5",
+      "pub_date": "2026-06-18T07:01:09+09:00",
+      "source": "city.himeji.lg.jp",
+      "description": "",
+      "_glink": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yY0ViM0kycER4UTNoMTN2MEZRVXM5U0RVakR6UlM2anhnSzA2MnhTcW5oX0syaEpyZHJPZlFjUHphSEVEN0x4cGVKcW95blQyaHVlN2RnaHJsYkVGU3BKNmc2NA?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yY0ViM0kycER4UTNoMTN2MEZRVXM5U0RVakR6UlM2anhnSzA2MnhTcW5oX0syaEpyZHJPZlFjUHphSEVEN0x4cGVKcW95blQyaHVlN2RnaHJsYkVGU3BKNmc2NA?oc=5",
+      "category": "一般",
+      "topic": "insurance"
+    },
     {
       "title": "マイナンバー制度に係る「民間事業者における取扱いについて」のよくある質問を更新しました",
       "link": "https://www.digital.go.jp/policies/mynumber_faq_04",
@@ -20,6 +31,17 @@
       "_glink": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9IWVF5OFc4bFJ4NkxYNWNWM0pLVGNrN2pvNjdrbHhlS284dXpyQ3FYbVN6M29GRTVROVU5UzRyTkk5aDdacDVEZlR1WGYtSjdBOVhsWHEtb1d3NzFmNnBkMkRGWVkwUlhHRHc?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9IWVF5OFc4bFJ4NkxYNWNWM0pLVGNrN2pvNjdrbHhlS284dXpyQ3FYbVN6M29GRTVROVU5UzRyTkk5aDdacDVEZlR1WGYtSjdBOVhsWHEtb1d3NzFmNnBkMkRGWVkwUlhHRHc?oc=5",
       "category": "一般",
+      "topic": "insurance"
+    },
+    {
+      "title": "医療DX・マイナ保険証への補助金、見直しを - PHARMACY NEWSBREAK",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1xaXlYWE03dGNMTlRQRm9CWUNSTDZiNzRhZjVvOUtlaE9DdVl2a3BKcVhaUXRFbzZWR0ZreS1mYjhINWVPUWtRSVFB0gFPQVVfeXFMUG5oc2hIeGk0TXMwZFZxZmtyQlpSSXlXTE1uclJweDJYZHFSY1daWFNBN1F0bWZmeTQzcWJLOG0wc1dJMHlGai1rMVg2TzlJcw?oc=5",
+      "pub_date": "2026-06-17T09:13:00+09:00",
+      "source": "PHARMACY NEWSBREAK",
+      "description": "中医協総会（会長：小塩隆士・一橋大学経済研究所教授）は7月3日、2024年度診療報酬改定で新設された医療DX推進体制整備加算（月1回限り8点）へのマイナンバーカード保険証利用実績要件の追加や医療情報・システム基盤整備体制充実加算が改編された医療 ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1xaXlYWE03dGNMTlRQRm9CWUNSTDZiNzRhZjVvOUtlaE9DdVl2a3BKcVhaUXRFbzZWR0ZreS1mYjhINWVPUWtRSVFB0gFPQVVfeXFMUG5oc2hIeGk0TXMwZFZxZmtyQlpSSXlXTE1uclJweDJYZHFSY1daWFNBN1F0bWZmeTQzcWJLOG0wc1dJMHlGai1rMVg2TzlJcw?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1xaXlYWE03dGNMTlRQRm9CWUNSTDZiNzRhZjVvOUtlaE9DdVl2a3BKcVhaUXRFbzZWR0ZreS1mYjhINWVPUWtRSVFB0gFPQVVfeXFMUG5oc2hIeGk0TXMwZFZxZmtyQlpSSXlXTE1uclJweDJYZHFSY1daWFNBN1F0bWZmeTQzcWJLOG0wc1dJMHlGai1rMVg2TzlJcw?oc=5",
+      "category": "制度変更",
       "topic": "insurance"
     },
     {
@@ -5375,28 +5397,6 @@
       "description": "「後期高齢者医療制度」と「国民健康保険」の多くが、従来の保険証の期限切れを迎えました。そこで、登録者数120万人超のYouTubeチャンネル『脱・税理士スガワラくん』を運営する税理士の菅原 由一は、全国の国民健康保険および後期高齢者医療制度の ...",
       "_glink": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeU9uMWExTDM1eThYa2trdmFQRzZMN2RpejdWd3FubUhHTmZ0bE9YcXBYWGVwbkxnaURUZFQ2TEowRHBwMEUzS29PMWE4RThXS0lwWmNfQlN5LXJPcGRUZ0hFSkVOV2dCNC1RU3U2UTVQX0k5MzNTMlFaNnQ0d1NZV3VfV3lkd1hZTGJKRlV1ZWtHN256LVE?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeU9uMWExTDM1eThYa2trdmFQRzZMN2RpejdWd3FubUhHTmZ0bE9YcXBYWGVwbkxnaURUZFQ2TEowRHBwMEUzS29PMWE4RThXS0lwWmNfQlN5LXJPcGRUZ0hFSkVOV2dCNC1RU3U2UTVQX0k5MzNTMlFaNnQ0d1NZV3VfV3lkd1hZTGJKRlV1ZWtHN256LVE?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "12月2日以降は使えなくなった会社の「健康保険証」。会社からは「各自処分するように」と言われたのですが、普通に捨ててしまっても大丈夫ですよね？（ファイナンシャルフィールド） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9lcE85Ti1wMlVjNUhSN0N4SGRydWpIVzItc0RDRmR5TTlia1RqMmpTcUdJbjJXdnFlWFp3VFg1Z1VrcjVvcjZvUTB2RGFHV3JoMTZmU0toVVpMbDdFWWRKY0dZSUxsaFlVODNsQ2JldjNwSUtPVmlZbE91T3dhak0?oc=5",
-      "pub_date": "2025-12-19T17:00:00+09:00",
-      "source": "Yahoo!ニュース",
-      "description": "2025年12月2日をもって従来の健康保険証利用の有効期限は終了し、医療現場ではマイナ保険証を基本とした運用が進められている。ただし、すべての人がすでにマイナ保険証を持っているわけではなく、「持っていないと医療を受けられないのでは」「今まで ...",
-      "_glink": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9lcE85Ti1wMlVjNUhSN0N4SGRydWpIVzItc0RDRmR5TTlia1RqMmpTcUdJbjJXdnFlWFp3VFg1Z1VrcjVvcjZvUTB2RGFHV3JoMTZmU0toVVpMbDdFWWRKY0dZSUxsaFlVODNsQ2JldjNwSUtPVmlZbE91T3dhak0?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9lcE85Ti1wMlVjNUhSN0N4SGRydWpIVzItc0RDRmR5TTlia1RqMmpTcUdJbjJXdnFlWFp3VFg1Z1VrcjVvcjZvUTB2RGFHV3JoMTZmU0toVVpMbDdFWWRKY0dZSUxsaFlVODNsQ2JldjNwSUtPVmlZbE91T3dhak0?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "年末年始は一時「マイナポータル」がサービス停止、病院窓口での「マイナ保険証の利用登録」も不可って本当!? もし年末年始に子どもが高熱を出したら“10割負担”になってしまいますか…？（ファイナンシャルフィールド） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE54M0NSR1NCcTFGNTBoV2dKaGMtVTBpaE0xOFktV2dTSkM4MGtxYmxueUNjNld3VlZnRm1pQTVKYnlvQ0E1T2RWMkVtM2JZNWhKRWZlRDh4enc3QjF6eFJGa0lzLWYwZ1BLN190dzBZb3BwT3dmdlkzZVRQM3A1TmM?oc=5",
-      "pub_date": "2025-12-19T17:00:00+09:00",
-      "source": "Yahoo!ニュース",
-      "description": "2025年12月1日で、従来の健康保険証は原則廃止になっています。これまでの健康保険証に代わって使用できるのが、マイナ保険証や資格確認書です。では、従来の健康保険証はもう使用できないのでしょうか。 本記事では、従来の健康保険証が医療機関で ...",
-      "_glink": "https://news.google.com/rss/articles/CBMif0FVX3lxTE54M0NSR1NCcTFGNTBoV2dKaGMtVTBpaE0xOFktV2dTSkM4MGtxYmxueUNjNld3VlZnRm1pQTVKYnlvQ0E1T2RWMkVtM2JZNWhKRWZlRDh4enc3QjF6eFJGa0lzLWYwZ1BLN190dzBZb3BwT3dmdlkzZVRQM3A1TmM?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE54M0NSR1NCcTFGNTBoV2dKaGMtVTBpaE0xOFktV2dTSkM4MGtxYmxueUNjNld3VlZnRm1pQTVKYnlvQ0E1T2RWMkVtM2JZNWhKRWZlRDh4enc3QjF6eFJGa0lzLWYwZ1BLN190dzBZb3BwT3dmdlkzZVRQM3A1TmM?oc=5",
       "category": "制度変更",
       "topic": "insurance"
     }
