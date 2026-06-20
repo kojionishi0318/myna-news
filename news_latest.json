@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T11:59:10+09:00",
+  "updated": "2026-06-20T20:15:23+09:00",
   "articles": [
     {
       "title": "マイナ保険証の利用率が６８パーセントで頭打ちに？従来の健康保険証の暫定措置が終了間近で巻き起こる国民のリアルな賛否の声 | チバテレ＋プラス - 千葉テレビ放送株式会社",
@@ -43,6 +43,17 @@
       "_glink": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1WaXBOSVNtbkg3SkdPRkJINlJHRWZZUzI4ZjFHZmUtekd2QXBwbGxqMUlEX3V6WExYaHFkWTVCZWtxcDhvdVloRnlKNmQ3UDN0ZkE?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1WaXBOSVNtbkg3SkdPRkJINlJHRWZZUzI4ZjFHZmUtekd2QXBwbGxqMUlEX3V6WExYaHFkWTVCZWtxcDhvdVloRnlKNmQ3UDN0ZkE?oc=5",
       "category": "トラブル",
+      "topic": "insurance"
+    },
+    {
+      "title": "「マイナ保険証」で受付できない…どうする？ 医療機関で焦らないための「対処法」とは（オトナンサー） - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBDTWlqU0R6RndYVGRyOXVtZVo1LW9QTTJRZXU0a25mWWQ2QWgxVXh5MVctaEpzWjlweU9ZSGJTQnd4ekdlRmFhRjlWU0RWakhEU3RxZTllcDBqbm80YjMwUVd3UUlkTmVVejlRRjVsNUgzVHFVaVM4cms0NjJHQmM?oc=5",
+      "pub_date": "2026-06-18T22:15:00+09:00",
+      "source": "Yahoo!ニュース",
+      "description": "マイナ保険証で受け付けできない場合の対処法について、厚生労働省の公式Xアカウントが紹介しています。",
+      "_glink": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBDTWlqU0R6RndYVGRyOXVtZVo1LW9QTTJRZXU0a25mWWQ2QWgxVXh5MVctaEpzWjlweU9ZSGJTQnd4ekdlRmFhRjlWU0RWakhEU3RxZTllcDBqbm80YjMwUVd3UUlkTmVVejlRRjVsNUgzVHFVaVM4cms0NjJHQmM?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBDTWlqU0R6RndYVGRyOXVtZVo1LW9QTTJRZXU0a25mWWQ2QWgxVXh5MVctaEpzWjlweU9ZSGJTQnd4ekdlRmFhRjlWU0RWakhEU3RxZTllcDBqbm80YjMwUVd3UUlkTmVVejlRRjVsNUgzVHFVaVM4cms0NjJHQmM?oc=5",
+      "category": "一般",
       "topic": "insurance"
     },
     {
@@ -531,17 +542,6 @@
       "description": "",
       "thumbnail": "https://services.digital.go.jp/uploads/og_images/20260122_mynaapp_ogp_0001.png",
       "category": "一般",
-      "topic": "mynumber"
-    },
-    {
-      "title": "なぜマイナンバーカードはこんなにも\"使えない\"のか…韓国はできたのに日本が｢デジタル化｣できない構造的欠陥【マイナカード3選】 - PRESIDENT Online（プレジデントオンライン）",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5VNmVjeEJfWmI1T2tUQzhGR0E2Vnh5LXNCNkI0RWpCbzBfX1lqQ1hqWjROS3FYb2pjazNXRURhb2JGb2tadXZEU0NuWFFvb0taZjBPYmt3YnQ?oc=5",
-      "pub_date": "2026-06-05T06:00:00+09:00",
-      "source": "PRESIDENT Online（プレジデントオンライン）",
-      "description": "今年で交付開始から10年の節目を迎えるマイナンバーカード。行政手続きにおける利便性や「マイナポイント」の付与といった大々的な後押しもあり、2025年12月時点で普及率は80%超に達しています。一方で、個人情報の漏洩や公金受取口座の誤登録などのトラブル ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5VNmVjeEJfWmI1T2tUQzhGR0E2Vnh5LXNCNkI0RWpCbzBfX1lqQ1hqWjROS3FYb2pjazNXRURhb2JGb2tadXZEU0NuWFFvb0taZjBPYmt3YnQ?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5VNmVjeEJfWmI1T2tUQzhGR0E2Vnh5LXNCNkI0RWpCbzBfX1lqQ1hqWjROS3FYb2pjazNXRURhb2JGb2tadXZEU0NuWFFvb0taZjBPYmt3YnQ?oc=5",
-      "category": "トラブル",
       "topic": "mynumber"
     }
   ],
