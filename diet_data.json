@@ -1,7 +1,7 @@
 {
-  "updated": "2026-06-19T21:47:33+09:00",
-  "total_exchanges": 235,
-  "total_questions": 205,
+  "updated": "2026-06-20T12:43:25+09:00",
+  "total_exchanges": 236,
+  "total_questions": 206,
   "total_answers": 112,
   "exchanges": [
     {
@@ -33,6 +33,35 @@
           "speechOrder": 47
         }
       ],
+      "ai_title": ""
+    },
+    {
+      "issueID": "122104376X00820260422",
+      "session": 221,
+      "nameOfHouse": "衆議院",
+      "nameOfMeeting": "財務金融委員会",
+      "issue": "第8号",
+      "imageKind": "会議録",
+      "date": "2026-04-22",
+      "question": {
+        "speechID": "122104376X00820260422_052",
+        "issueID": "122104376X00820260422",
+        "session": 221,
+        "nameOfHouse": "衆議院",
+        "nameOfMeeting": "財務金融委員会",
+        "issue": "第8号",
+        "imageKind": "会議録",
+        "date": "2026-04-22",
+        "speaker": "大島敦",
+        "speakerGroup": "中道改革連合・無所属",
+        "speakerPosition": "",
+        "speakerRole": "",
+        "is_minister": false,
+        "excerpt": "○大島委員 最先端の分野も必要だということは十分承知の上で、ただ、最先端ではなくてもしっかりとした部品を作る会社がないと物ができない。ですから、日本全体の物づくりの付加価値はサプライチェーンをしっかり守ることだと考えております。文化大革命が六六年から七六年、それから改革開放路線に移って、当時、シンセンを中心に日本の物づくりの会社がたくさん出て行って、",
+        "speechURL": "https://kokkai.ndl.go.jp/txt/122104376X00820260422/52",
+        "speechOrder": 52
+      },
+      "answers": [],
       "ai_title": ""
     },
     {
