@@ -1,6 +1,17 @@
 {
-  "updated": "2026-06-22T13:18:16+09:00",
+  "updated": "2026-06-22T23:41:47+09:00",
   "articles": [
+    {
+      "title": "マイナカードで自分の情報を見張れます コロナ禍の教訓、元港区職員が「やりとり履歴」活用のススメ - 東京新聞デジタル",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBXSGZkSnJTQXl6TUZUYlVkNjhlbURCdy1qUmRWXy1tZ3Q2bkF3azNkYS1WODhjNmVsTzZSd1paajV3V29Ic2JHeWlweVhwMk5FWWNv?oc=5",
+      "pub_date": "2026-06-22T06:00:00+09:00",
+      "source": "東京新聞デジタル",
+      "description": "新型コロナウイルス禍で政府の情報共有システムに疑義を唱えた東京都港区の元職員が今、マイナンバーカードの活用を「カードを持って町へ出よう」と勧めている。個人情報の適切な取り扱いを重視する姿勢が背景にある。1億人超が持つマイナカードを「国民が、行政側を監 ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBXSGZkSnJTQXl6TUZUYlVkNjhlbURCdy1qUmRWXy1tZ3Q2bkF3azNkYS1WODhjNmVsTzZSd1paajV3V29Ic2JHeWlweVhwMk5FWWNv?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBXSGZkSnJTQXl6TUZUYlVkNjhlbURCdy1qUmRWXy1tZ3Q2bkF3azNkYS1WODhjNmVsTzZSd1paajV3V29Ic2JHeWlweVhwMk5FWWNv?oc=5",
+      "category": "一般",
+      "topic": "mynumber"
+    },
     {
       "title": "PFU、医療機関・薬局向け顔認証付きカードリーダーの後継機「Caora 2」を10月から提供 - クラウド Watch",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE00a283NjR3WElkOGhZZzZxODE1WnNXMjRDdF9zN3l3LTlwb1BFQTczam1GQlM5SExmeWlzZmMwbGNkNXBSaFNSa2NsTUJreGJERHV0RnExenQya3BFOWpHNjRpb3NLUEk?oc=5",
@@ -360,6 +371,17 @@
       "topic": "mynumber"
     },
     {
+      "title": "医療機関・薬局向け「顔認証付きカードリーダー Caora」 後継製品を2026年10月に提供開始予定 - PR TIMES",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBJU2hrM0Jjc2NVaVZBQzdPbmFYeEtOcDMwcElYRU8xZHdxaFdpRl92NUdBc3BwSEpWdkdCWDlrdWVNbGo2SHhaWW93MHZxVzRudmppZU5Calk0WWhFQkM5S2c2bEdxaDlXcXc?oc=5",
+      "pub_date": "2026-06-16T11:00:02+09:00",
+      "source": "PR TIMES",
+      "description": "株式会社PFUは16日、病院や薬局などの受付でマイナンバーカードによる資格確認に利用されている「顔認証付きカードリーダー Caora（カオラ）」について、後継製品「Caora 2」を10月（予定）に提供開始すると発表した。",
+      "_glink": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBJU2hrM0Jjc2NVaVZBQzdPbmFYeEtOcDMwcElYRU8xZHdxaFdpRl92NUdBc3BwSEpWdkdCWDlrdWVNbGo2SHhaWW93MHZxVzRudmppZU5Calk0WWhFQkM5S2c2bEdxaDlXcXc?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBJU2hrM0Jjc2NVaVZBQzdPbmFYeEtOcDMwcElYRU8xZHdxaFdpRl92NUdBc3BwSEpWdkdCWDlrdWVNbGo2SHhaWW93MHZxVzRudmppZU5Calk0WWhFQkM5S2c2bEdxaDlXcXc?oc=5",
+      "category": "一般",
+      "topic": "insurance"
+    },
+    {
       "title": "医療機関・薬局向け「顔認証付きカードリーダー Caora」 後継製品を2026年10月に提供開始予定 - 沖縄タイムス社",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1jb2lGLUJRUW9feFY2QnNyU0NqSjNzLTloWlNhd0xSNnlyczJBR3R3NmtpdGJfSDVSMHAxdUsxaVNyMjVHM3BYRzZ6N0t3dm5oWm9JRkJZZTlJR28zOHc?oc=5",
       "pub_date": "2026-06-16T11:00:00+09:00",
@@ -522,28 +544,6 @@
       "_resolved_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5GZEUyWVBSVFBzRDJ3Yk5FN25CaEFqX29PWnVUS3YzLWZVcWFYS3l2Xy1senNUYWdDUm5HbEd6R3hkbDRnM2o0ZEhUSnFjcVVSYW5V?oc=5",
       "category": "制度変更",
       "topic": "mynumber"
-    },
-    {
-      "title": "令和8年8月以降の資格確認書の交付について - city.fujioka.gunma.jp",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQM0RvZUxGbFZHS09JUVBwMzBOR2d2aUFTU0xyZlk3VEhMUXdqdE50eUh3a01laV9EZDB3OTd1TkticjdTSnhlV3kyTDdmVTB4RTJBRVJoMTF0b2t4VVhCSFJxbEROU3hPZklvaFotQUZmOUhKNDlUcXNaV2pSM1RlNg?oc=5",
-      "pub_date": "2026-06-08T20:13:01+09:00",
-      "source": "city.fujioka.gunma.jp",
-      "description": "",
-      "_glink": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQM0RvZUxGbFZHS09JUVBwMzBOR2d2aUFTU0xyZlk3VEhMUXdqdE50eUh3a01laV9EZDB3OTd1TkticjdTSnhlV3kyTDdmVTB4RTJBRVJoMTF0b2t4VVhCSFJxbEROU3hPZklvaFotQUZmOUhKNDlUcXNaV2pSM1RlNg?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQM0RvZUxGbFZHS09JUVBwMzBOR2d2aUFTU0xyZlk3VEhMUXdqdE50eUh3a01laV9EZDB3OTd1TkticjdTSnhlV3kyTDdmVTB4RTJBRVJoMTF0b2t4VVhCSFJxbEROU3hPZklvaFotQUZmOUhKNDlUcXNaV2pSM1RlNg?oc=5",
-      "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "子の医療費 マイナ保険証で１４００自治体が助成 今年度末見通し - 読売新聞",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9UbUxCTHNRZDBpbjZXOEZTVnZBdWhidUROSTdiVkgxM3pkOWZZX2hWd0czVEFTZjdZTlBQX3VNS05WM0pZZW1YWnRuMG9uSDYwV2dPampyc3JhMjFtX0FGOU52MEU3Q2dtM3VFU1ZB?oc=5",
-      "pub_date": "2026-06-07T05:00:00+09:00",
-      "source": "読売新聞",
-      "description": "新規発行停止から月日が流れ、マイナンバーカードを保険証として利用する「マイナ保険証」への移行が本格化しています。 マイナ保険証を使用すると、高額な医療費が発生した際の窓口での支払いが10万円以上軽くなるケースもあります。現在実施されて ...",
-      "_glink": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9UbUxCTHNRZDBpbjZXOEZTVnZBdWhidUROSTdiVkgxM3pkOWZZX2hWd0czVEFTZjdZTlBQX3VNS05WM0pZZW1YWnRuMG9uSDYwV2dPampyc3JhMjFtX0FGOU52MEU3Q2dtM3VFU1ZB?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9UbUxCTHNRZDBpbjZXOEZTVnZBdWhidUROSTdiVkgxM3pkOWZZX2hWd0czVEFTZjdZTlBQX3VNS05WM0pZZW1YWnRuMG9uSDYwV2dPampyc3JhMjFtX0FGOU52MEU3Q2dtM3VFU1ZB?oc=5",
-      "category": "一般",
-      "topic": "insurance"
     }
   ],
   "total": 500
