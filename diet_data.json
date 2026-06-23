@@ -1,7 +1,7 @@
 {
-  "updated": "2026-06-22T23:41:53+09:00",
-  "total_exchanges": 236,
-  "total_questions": 206,
+  "updated": "2026-06-23T12:37:40+09:00",
+  "total_exchanges": 237,
+  "total_questions": 207,
   "total_answers": 112,
   "exchanges": [
     {
@@ -33,6 +33,35 @@
           "speechOrder": 47
         }
       ],
+      "ai_title": ""
+    },
+    {
+      "issueID": "122104260X00620260422",
+      "session": 221,
+      "nameOfHouse": "衆議院",
+      "nameOfMeeting": "厚生労働委員会",
+      "issue": "第6号",
+      "imageKind": "会議録",
+      "date": "2026-04-22",
+      "question": {
+        "speechID": "122104260X00620260422_250",
+        "issueID": "122104260X00620260422",
+        "session": 221,
+        "nameOfHouse": "衆議院",
+        "nameOfMeeting": "厚生労働委員会",
+        "issue": "第6号",
+        "imageKind": "会議録",
+        "date": "2026-04-22",
+        "speaker": "浅野哲",
+        "speakerGroup": "国民民主党・無所属クラブ",
+        "speakerPosition": "",
+        "speakerRole": "",
+        "is_minister": false,
+        "excerpt": "○浅野委員 あわせて、続いての質問も確認させてください。 いわゆる、この委員会でも既に何人かの委員の皆様が取り上げられていますが、一回立て替えなきゃいけないという問題です。 今回、年間上限が創設される点は我々としても評価をしていますが、実際には、一度窓口で費用を立て替え、数か月後に払戻しを受ける償還払いが想定されています。",
+        "speechURL": "https://kokkai.ndl.go.jp/txt/122104260X00620260422/250",
+        "speechOrder": 250
+      },
+      "answers": [],
       "ai_title": ""
     },
     {
