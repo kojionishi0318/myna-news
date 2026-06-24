@@ -1,6 +1,17 @@
 {
-  "updated": "2026-06-24T12:37:53+09:00",
+  "updated": "2026-06-24T20:45:57+09:00",
   "articles": [
+    {
+      "title": "7月末で暫定措置終了の健康保険証 8月以降の受診で注意するべきこととは（Hint-Pot） - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9SSGFVOV9uaENrSXVkb0ljNkhnaDNyakxNNnR5RTctQlhiYVhwZVlQWm84TURxWFZWRFhQczhvMW1qTVRHTHNMRkR2VVozaEJDRmFhVm14ek5ZZ2E4VEVBZ3lsWlpfRFh1U0xjNjJZYk5KVmxkZUhXYnRCYlJQdU0?oc=5",
+      "pub_date": "2026-06-24T19:11:45+09:00",
+      "source": "Yahoo!ニュース",
+      "description": "有効期限切れの健康保険証でも保険診療（1〜3割負担）を受けられる暫定措置が、7月末まで延長される。しかし4カ月後、「保険証利用登録を済ませたマイナンバーカード」（マイナ保険証）などがないと保険診療が受けられず、全額自己負担（10割負担）と ...",
+      "_glink": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9SSGFVOV9uaENrSXVkb0ljNkhnaDNyakxNNnR5RTctQlhiYVhwZVlQWm84TURxWFZWRFhQczhvMW1qTVRHTHNMRkR2VVozaEJDRmFhVm14ek5ZZ2E4VEVBZ3lsWlpfRFh1U0xjNjJZYk5KVmxkZUhXYnRCYlJQdU0?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9SSGFVOV9uaENrSXVkb0ljNkhnaDNyakxNNnR5RTctQlhiYVhwZVlQWm84TURxWFZWRFhQczhvMW1qTVRHTHNMRkR2VVozaEJDRmFhVm14ek5ZZ2E4VEVBZ3lsWlpfRFh1U0xjNjJZYk5KVmxkZUhXYnRCYlJQdU0?oc=5",
+      "category": "制度変更",
+      "topic": "insurance"
+    },
     {
       "title": "トラブル相次ぐマイナ保険証「改善みられず」 千葉県保険医協会調査（朝日新聞） - Yahoo!ニュース",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1a3lpSzVNbHBBMzN5S0dEMURla0xxTmFBZGk3R3R2V3BMV1M0YUhVZWZpNHJ1cFJVM1l3MEZYMHhaTHlvUGZnVFlMSHcxZ2FCLTVFb1hfczVlbWNQYkpFMURkWWRzQ2pxTktoOU93alRjVjJRQlNodUJiOGFJY1k?oc=5",
@@ -533,17 +544,6 @@
       "_resolved_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBZSDVEenJuZDVaTmlGbGE2bkdNSER2dTNIOEtnWkJtUjAzaFZmZmt3Ym1MZGVSMzdDUFo3aFZLZzlOYlVOSkFDOFpfWlpJRGxEM21TZy1sVG53VmYxbW9NWkNGbGVhQ2lBYXI3YmRkYTQydmk2Q0Fqa2FtdjE?oc=5",
       "category": "制度変更",
       "topic": "insurance"
-    },
-    {
-      "title": "選ばれない「マイナ運転免許証」 開始1年、新規取得や更新時15％に満たず 「再発行」で不利なケースも - 東京新聞デジタル",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE00WkNqZlJpZDU1Rk9jcnhDcldZbFFwYm14THdpSmlVSXJOUzNqUEZ1MFd5VndPLTV1dXNxLXgtM21yTm5keVgtNFktak5vblZXcFow?oc=5",
-      "pub_date": "2026-06-11T06:00:00+09:00",
-      "source": "東京新聞デジタル",
-      "description": "運転免許証の新規取得や更新時にマイナンバーカードと一体の「マイナ免許証」を選んだ割合が15％弱にとどまることが、警察庁への取材で分かった。制度開始から1年ほどの間、多くの人は「従来の免許証のみ」を選択した。マイナカードの所持が1億人超となってもマイナ ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE00WkNqZlJpZDU1Rk9jcnhDcldZbFFwYm14THdpSmlVSXJOUzNqUEZ1MFd5VndPLTV1dXNxLXgtM21yTm5keVgtNFktak5vblZXcFow?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE00WkNqZlJpZDU1Rk9jcnhDcldZbFFwYm14THdpSmlVSXJOUzNqUEZ1MFd5VndPLTV1dXNxLXgtM21yTm5keVgtNFktak5vblZXcFow?oc=5",
-      "category": "統計",
-      "topic": "mynumber"
     }
   ],
   "total": 500
