@@ -1,9 +1,57 @@
 {
-  "updated": "2026-06-23T20:59:00+09:00",
+  "updated": "2026-06-24T11:54:27+09:00",
   "total_exchanges": 237,
   "total_questions": 207,
-  "total_answers": 112,
+  "total_answers": 113,
   "exchanges": [
+    {
+      "issueID": "122105367X00820260521",
+      "session": 221,
+      "nameOfHouse": "衆議院",
+      "nameOfMeeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+      "issue": "第8号",
+      "imageKind": "会議録",
+      "date": "2026-05-21",
+      "question": {
+        "speechID": "122105367X00820260521_103",
+        "issueID": "122105367X00820260521",
+        "session": 221,
+        "nameOfHouse": "衆議院",
+        "nameOfMeeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+        "issue": "第8号",
+        "imageKind": "会議録",
+        "date": "2026-05-21",
+        "speaker": "横田光弘",
+        "speakerGroup": "日本維新の会",
+        "speakerPosition": "",
+        "speakerRole": "",
+        "is_minister": false,
+        "excerpt": "○横田委員 今おっしゃったような、地方公共団体の横の連携、こういうのも面白いと思うんですよね。 やはり、今回、デジタル庁、頑張って作ったやつの中の一つに、いろいろなものが当然あります、私もマイナ保険証も含めて全部使わせてもらっていますけれども、ウェブで見られる、前にちらっと申し上げましたダッシュボードというやつがあるわけですね。是非皆さん、委員の皆様、",
+        "speechURL": "https://kokkai.ndl.go.jp/txt/122105367X00820260521/103",
+        "speechOrder": 103
+      },
+      "answers": [
+        {
+          "speechID": "122105367X00820260521_143",
+          "issueID": "122105367X00820260521",
+          "session": 221,
+          "nameOfHouse": "衆議院",
+          "nameOfMeeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "issue": "第8号",
+          "imageKind": "会議録",
+          "date": "2026-05-21",
+          "speaker": "松本尚",
+          "speakerGroup": "自由民主党・無所属の会",
+          "speakerPosition": "デジタル大臣・内閣府特命担当大臣（サイバー安全保障）",
+          "speakerRole": "",
+          "is_minister": true,
+          "excerpt": "○松本（尚）国務大臣 患者さんの情報が十分に入っているところから治療をスタートできれば、百メートル走でいけば二十メートルぐらい先からスタートできるというようなメリットはあると思います。 現状、今、デジタル庁ではマイナ救急というのを進めていて、マイナ保険証を患者さんが持っていてくれさえすれば、それを通して救急隊員が医療情報を取り出して、現状、今、",
+          "speechURL": "https://kokkai.ndl.go.jp/txt/122105367X00820260521/143",
+          "speechOrder": 143
+        }
+      ],
+      "ai_title": ""
+    },
     {
       "issueID": "122104339X00620260423",
       "session": 221,
@@ -3934,35 +3982,6 @@
         "excerpt": "○鹿沼政府参考人 お答えいたします。 これまでも、資格確認時に表示された情報に例えば黒丸という形で出るという問題ですとか、顔認証つきカードリーダーが起動しないため顔認証がうまくされないといったような問題があるというふうに認識をしております。 加えまして、マイナンバーカード本体と電子証明書の有効期限が切れて、",
         "speechURL": "https://kokkai.ndl.go.jp/txt/121704260X02520250606/144",
         "speechOrder": 144
-      },
-      "answers": [],
-      "ai_title": ""
-    },
-    {
-      "issueID": "121704260X02520250606",
-      "session": 217,
-      "nameOfHouse": "衆議院",
-      "nameOfMeeting": "厚生労働委員会",
-      "issue": "第25号",
-      "imageKind": "会議録",
-      "date": "2025-06-06",
-      "question": {
-        "speechID": "121704260X02520250606_143",
-        "issueID": "121704260X02520250606",
-        "session": 217,
-        "nameOfHouse": "衆議院",
-        "nameOfMeeting": "厚生労働委員会",
-        "issue": "第25号",
-        "imageKind": "会議録",
-        "date": "2025-06-06",
-        "speaker": "八幡愛",
-        "speakerGroup": "れいわ新選組",
-        "speakerPosition": "",
-        "speakerRole": "",
-        "is_minister": false,
-        "excerpt": "○八幡委員 れいわ新選組の八幡愛です。 毎回質問に立たせていただき、感謝申し上げます。 十分しかないので、早速質問いたします。 二〇二五年六月現在で、厚労省がマイナ保険証について把握をしているトラブルとその対応を教えてください。お願いします。",
-        "speechURL": "https://kokkai.ndl.go.jp/txt/121704260X02520250606/143",
-        "speechOrder": 143
       },
       "answers": [],
       "ai_title": ""
