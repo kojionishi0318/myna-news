@@ -1,8 +1,8 @@
 {
-  "updated": "2026-06-24T20:46:06+09:00",
-  "total_exchanges": 237,
+  "updated": "2026-06-25T12:37:03+09:00",
+  "total_exchanges": 238,
   "total_questions": 207,
-  "total_answers": 113,
+  "total_answers": 114,
   "exchanges": [
     {
       "issueID": "122105367X00820260521",
@@ -848,6 +848,37 @@
         "speechOrder": 165
       },
       "answers": [],
+      "ai_title": ""
+    },
+    {
+      "issueID": "122115261X00920260403",
+      "session": 221,
+      "nameOfHouse": "参議院",
+      "nameOfMeeting": "予算委員会",
+      "issue": "第9号",
+      "imageKind": "会議録",
+      "date": "2026-04-03",
+      "question": null,
+      "answers": [
+        {
+          "speechID": "122115261X00920260403_281",
+          "issueID": "122115261X00920260403",
+          "session": 221,
+          "nameOfHouse": "参議院",
+          "nameOfMeeting": "予算委員会",
+          "issue": "第9号",
+          "imageKind": "会議録",
+          "date": "2026-04-03",
+          "speaker": "上野賢一郎",
+          "speakerGroup": "自由民主党・無所属の会",
+          "speakerPosition": "厚生労働大臣",
+          "speakerRole": "",
+          "is_minister": true,
+          "excerpt": "○国務大臣（上野賢一郎君） 今回の見直しにおきまして、この年間上限額の設定というのはまさに患者団体の皆様からの強い御要望を踏まえまして設けさせていただいたものでありますので、やはり一刻も早くこの導入をさせていただくことが必要だと考えております。 大変恐縮なんですが、システム面での対応が必要だというのはまさにそのとおりでありまして、",
+          "speechURL": "https://kokkai.ndl.go.jp/txt/122115261X00920260403/281",
+          "speechOrder": 281
+        }
+      ],
       "ai_title": ""
     },
     {
