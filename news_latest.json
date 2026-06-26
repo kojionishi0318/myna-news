@@ -1,6 +1,17 @@
 {
-  "updated": "2026-06-25T20:39:28+09:00",
+  "updated": "2026-06-26T11:59:26+09:00",
   "articles": [
+    {
+      "title": "【厚労省事務通知6月22日】８月以降に期限切れ保険証で受診した場合、「保険証忘れた場合」と同じ扱いに - 全国保険医団体連合会",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBoN0MyY2c1UXJVUjgwOGZLQWVjNmhXUjJ4bjNVdktpbC1hbmpCdDR1RVdZbms4SXVJckI4dGYyaFp5NlZrbjhMWXJKdkVTazk5d0drSEFHU0liZXJna1NYQk1n?oc=5",
+      "pub_date": "2026-06-25T20:03:41+09:00",
+      "source": "全国保険医団体連合会",
+      "description": "2026年6月1日から、一部の医療機関が診察予約の「キャンセル料」を請求できる制度が開始された。この制度をめぐり、全ての予約でキャンセル料が発生するかのような受け止めが広がった。厚生労働省は5月29日、訂正した通知を出し、上野賢一郎厚労相は ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBoN0MyY2c1UXJVUjgwOGZLQWVjNmhXUjJ4bjNVdktpbC1hbmpCdDR1RVdZbms4SXVJckI4dGYyaFp5NlZrbjhMWXJKdkVTazk5d0drSEFHU0liZXJna1NYQk1n?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBoN0MyY2c1UXJVUjgwOGZLQWVjNmhXUjJ4bjNVdktpbC1hbmpCdDR1RVdZbms4SXVJckI4dGYyaFp5NlZrbjhMWXJKdkVTazk5d0drSEFHU0liZXJna1NYQk1n?oc=5",
+      "category": "制度変更",
+      "topic": "insurance"
+    },
     {
       "title": "NEWS 8月以降は「保険証忘れた場合」と同じ扱い─暫定措置終了で厚労省が関係団体に周知依頼 - 日本医事新報社",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1EU19GUVBTUVFhOWVydUlwb2poYmJIUkxkd3V6YkZTbEgwVkpTVG5yZGY2Wm5lUmNMT01WZlFQNEJNVkhSWGpJQmVHSF9sQXJ3WldfMHNjSnd2VXlUWU5Fbg?oc=5",
@@ -533,17 +544,6 @@
       "_resolved_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE91enV5dTQ5djRsb18wM2pKazBha3dXNUFDcERFcnYyaWUzVkFvSVg2ME1ISk52TXY2LXU3NGlfa3JZRUE4OWtSLTNZaERDNHU3VHZCZzVRYmFVUVd2QktrYTVIdkZ6TEdtMVJOY0pNSjB4N3pZNHhR?oc=5",
       "category": "制度変更",
       "topic": "insurance"
-    },
-    {
-      "title": "年金いくらで2割負担？《75歳以上》後期高齢者医療制度のボーダーライン - LIMO | くらしとお金の経済メディア",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9od3BVT1JoUktHWWhNcUNJeHNCSHY2cExlUFRvN0NBY2hJVEtmVUN1YUg3NlAwS0xJRDZQYjVhNEczWHppYjIySXRicFEwbkRrSUdaUmZB?oc=5",
-      "pub_date": "2026-06-12T19:16:00+09:00",
-      "source": "LIMO | くらしとお金の経済メディア",
-      "description": "単身と夫婦で違う「負担割合」の判定基準。マイナポータルでの確認方法もあわせて解説 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9od3BVT1JoUktHWWhNcUNJeHNCSHY2cExlUFRvN0NBY2hJVEtmVUN1YUg3NlAwS0xJRDZQYjVhNEczWHppYjIySXRicFEwbkRrSUdaUmZB?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9od3BVT1JoUktHWWhNcUNJeHNCSHY2cExlUFRvN0NBY2hJVEtmVUN1YUg3NlAwS0xJRDZQYjVhNEczWHppYjIySXRicFEwbkRrSUdaUmZB?oc=5",
-      "category": "統計",
-      "topic": "mynumber"
     }
   ],
   "total": 500
