@@ -1,6 +1,17 @@
 {
-  "updated": "2026-06-26T12:44:08+09:00",
+  "updated": "2026-06-26T20:45:43+09:00",
   "articles": [
+    {
+      "title": "従来の保険証利用終了まであと1カ月 - 切り替えを患者に促して、医療機関に求む 厚労省 - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5OUHpZbklybXc2MkVmNDdTVDM1T0FtOVNBTmN5UWkybVUxVHNRa2xyOFhiYTVhcWZGaC1kM2lhNWYyOFp6UFBneHFlbWVxZWdmVlpuczJydXZiRUNLVGdqZjlhU2FLVmg0dFdUOUJPd0pXUFh2M0dWXzVwVTVZV0k?oc=5",
+      "pub_date": "2026-06-26T16:53:00+09:00",
+      "source": "Yahoo!ニュース",
+      "description": "健康保険証が使えなくなる話を聞いたことはないだろうか。従来の健康保険証は2025年12月1日をもって有効期限が終了している。 ただし、有効期限切れの保険証をそのまま使える「暫定措置」が複数回にわたって延長されているため、現在の状況がわかり ...",
+      "_glink": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5OUHpZbklybXc2MkVmNDdTVDM1T0FtOVNBTmN5UWkybVUxVHNRa2xyOFhiYTVhcWZGaC1kM2lhNWYyOFp6UFBneHFlbWVxZWdmVlpuczJydXZiRUNLVGdqZjlhU2FLVmg0dFdUOUJPd0pXUFh2M0dWXzVwVTVZV0k?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5OUHpZbklybXc2MkVmNDdTVDM1T0FtOVNBTmN5UWkybVUxVHNRa2xyOFhiYTVhcWZGaC1kM2lhNWYyOFp6UFBneHFlbWVxZWdmVlpuczJydXZiRUNLVGdqZjlhU2FLVmg0dFdUOUJPd0pXUFh2M0dWXzVwVTVZV0k?oc=5",
+      "category": "制度変更",
+      "topic": "insurance"
+    },
     {
       "title": "【厚労省事務通知6月22日】８月以降に期限切れ保険証で受診した場合、「保険証忘れた場合」と同じ扱いに - 全国保険医団体連合会",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBoN0MyY2c1UXJVUjgwOGZLQWVjNmhXUjJ4bjNVdktpbC1hbmpCdDR1RVdZbms4SXVJckI4dGYyaFp5NlZrbjhMWXJKdkVTazk5d0drSEFHU0liZXJna1NYQk1n?oc=5",
@@ -532,17 +543,6 @@
       "description": "2026年から、介護保険制度とマイナンバー制度の連携が本格的に始まります。この新制度は、医療と介護の情報を一元的に管理し、必要な情報にスムーズにアクセスできる環境を整えることを目指しています。 この新制度は「介護情報基盤」という仕組みの ...",
       "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
       "category": "制度変更",
-      "topic": "mynumber"
-    },
-    {
-      "title": "年金いくらで2割負担？《75歳以上》後期高齢者医療制度のボーダーライン - LIMO | くらしとお金の経済メディア",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9DZi1tRzdiOTdpdlkwX0dhWUhuZjR4TnZldm9XNnZPZ0FoN0tzSmhkY0UxbWhodEFEbVZreEE0YU1kNEJ0LWY2dEpNRlBxVDBpS3c?oc=5",
-      "pub_date": "2026-06-13T00:46:23+09:00",
-      "source": "LIMO | くらしとお金の経済メディア",
-      "description": "単身と夫婦で違う「負担割合」の判定基準。マイナポータルでの確認方法もあわせて解説 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9DZi1tRzdiOTdpdlkwX0dhWUhuZjR4TnZldm9XNnZPZ0FoN0tzSmhkY0UxbWhodEFEbVZreEE0YU1kNEJ0LWY2dEpNRlBxVDBpS3c?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9DZi1tRzdiOTdpdlkwX0dhWUhuZjR4TnZldm9XNnZPZ0FoN0tzSmhkY0UxbWhodEFEbVZreEE0YU1kNEJ0LWY2dEpNRlBxVDBpS3c?oc=5",
-      "category": "統計",
       "topic": "mynumber"
     }
   ],
