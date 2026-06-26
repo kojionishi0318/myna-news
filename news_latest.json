@@ -1,6 +1,17 @@
 {
-  "updated": "2026-06-25T20:41:30+09:00",
+  "updated": "2026-06-26T12:44:08+09:00",
   "articles": [
+    {
+      "title": "【厚労省事務通知6月22日】８月以降に期限切れ保険証で受診した場合、「保険証忘れた場合」と同じ扱いに - 全国保険医団体連合会",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBoN0MyY2c1UXJVUjgwOGZLQWVjNmhXUjJ4bjNVdktpbC1hbmpCdDR1RVdZbms4SXVJckI4dGYyaFp5NlZrbjhMWXJKdkVTazk5d0drSEFHU0liZXJna1NYQk1n?oc=5",
+      "pub_date": "2026-06-25T20:03:41+09:00",
+      "source": "全国保険医団体連合会",
+      "description": "2026年6月1日から、一部の医療機関が診察予約の「キャンセル料」を請求できる制度が開始された。この制度をめぐり、全ての予約でキャンセル料が発生するかのような受け止めが広がった。厚生労働省は5月29日、訂正した通知を出し、上野賢一郎厚労相は ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBoN0MyY2c1UXJVUjgwOGZLQWVjNmhXUjJ4bjNVdktpbC1hbmpCdDR1RVdZbms4SXVJckI4dGYyaFp5NlZrbjhMWXJKdkVTazk5d0drSEFHU0liZXJna1NYQk1n?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBoN0MyY2c1UXJVUjgwOGZLQWVjNmhXUjJ4bjNVdktpbC1hbmpCdDR1RVdZbms4SXVJckI4dGYyaFp5NlZrbjhMWXJKdkVTazk5d0drSEFHU0liZXJna1NYQk1n?oc=5",
+      "category": "制度変更",
+      "topic": "insurance"
+    },
     {
       "title": "NEWS 8月以降は「保険証忘れた場合」と同じ扱い─暫定措置終了で厚労省が関係団体に周知依頼 - 日本医事新報社",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1EU19GUVBTUVFhOWVydUlwb2poYmJIUkxkd3V6YkZTbEgwVkpTVG5yZGY2Wm5lUmNMT01WZlFQNEJNVkhSWGpJQmVHSF9sQXJ3WldfMHNjSnd2VXlUWU5Fbg?oc=5",
@@ -533,17 +544,6 @@
       "_resolved_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9DZi1tRzdiOTdpdlkwX0dhWUhuZjR4TnZldm9XNnZPZ0FoN0tzSmhkY0UxbWhodEFEbVZreEE0YU1kNEJ0LWY2dEpNRlBxVDBpS3c?oc=5",
       "category": "統計",
       "topic": "mynumber"
-    },
-    {
-      "title": "資格確認書または資格情報のお知らせの送付について - city.komatsu.lg.jp",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE91enV5dTQ5djRsb18wM2pKazBha3dXNUFDcERFcnYyaWUzVkFvSVg2ME1ISk52TXY2LXU3NGlfa3JZRUE4OWtSLTNZaERDNHU3VHZCZzVRYmFVUVd2QktrYTVIdkZ6TEdtMVJOY0pNSjB4N3pZNHhR?oc=5",
-      "pub_date": "2026-06-12T19:17:19+09:00",
-      "source": "city.komatsu.lg.jp",
-      "description": "7月末で国民健康保険（国保）の多くは、従来の保険証の有効期限を迎える。 大量の期限切れを前に、厚生労働省は、国保加入者に限り、保険資格を確認する補助書類でも、保険証のように病院で受診できる例外を認めた。 マイナ保険証移行に伴うルール ...",
-      "_glink": "https://news.google.com/rss/articles/CBMid0FVX3lxTE91enV5dTQ5djRsb18wM2pKazBha3dXNUFDcERFcnYyaWUzVkFvSVg2ME1ISk52TXY2LXU3NGlfa3JZRUE4OWtSLTNZaERDNHU3VHZCZzVRYmFVUVd2QktrYTVIdkZ6TEdtMVJOY0pNSjB4N3pZNHhR?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE91enV5dTQ5djRsb18wM2pKazBha3dXNUFDcERFcnYyaWUzVkFvSVg2ME1ISk52TXY2LXU3NGlfa3JZRUE4OWtSLTNZaERDNHU3VHZCZzVRYmFVUVd2QktrYTVIdkZ6TEdtMVJOY0pNSjB4N3pZNHhR?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
     }
   ],
   "total": 500
