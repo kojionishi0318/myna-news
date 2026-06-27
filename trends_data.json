@@ -1,14 +1,14 @@
 {
-  "updated": "2026-06-27T13:12:18+09:00",
+  "updated": "2026-06-27T16:55:55+09:00",
   "alert_level": "yellow",
   "keywords": [
     {
       "keyword": "マイナ保険証",
-      "current": 38.0,
+      "current": 36.0,
       "yesterday": 17.0,
-      "change_day": 123.5,
-      "avg_7day": 17.6,
-      "change_week": 115.9,
+      "change_day": 111.8,
+      "avg_7day": 17.1,
+      "change_week": 110.5,
       "alert": true,
       "history": [
         {
@@ -329,7 +329,7 @@
         },
         {
           "date": "2026-06-14",
-          "value": 6.0
+          "value": 7.0
         },
         {
           "date": "2026-06-15",
@@ -345,11 +345,11 @@
         },
         {
           "date": "2026-06-18",
-          "value": 20.0
+          "value": 19.0
         },
         {
           "date": "2026-06-19",
-          "value": 17.0
+          "value": 18.0
         },
         {
           "date": "2026-06-20",
@@ -369,7 +369,7 @@
         },
         {
           "date": "2026-06-24",
-          "value": 11.0
+          "value": 10.0
         },
         {
           "date": "2026-06-25",
@@ -381,17 +381,17 @@
         },
         {
           "date": "2026-06-27",
-          "value": 38.0
+          "value": 36.0
         }
       ]
     },
     {
       "keyword": "マイナンバーカード",
-      "current": 52.0,
-      "yesterday": 44.0,
-      "change_day": 18.2,
-      "avg_7day": 53.9,
-      "change_week": -3.5,
+      "current": 46.0,
+      "yesterday": 45.0,
+      "change_day": 2.2,
+      "avg_7day": 53.3,
+      "change_week": -13.7,
       "alert": false,
       "history": [
         {
@@ -712,23 +712,23 @@
         },
         {
           "date": "2026-06-14",
-          "value": 44.0
+          "value": 45.0
         },
         {
           "date": "2026-06-15",
-          "value": 59.0
+          "value": 63.0
         },
         {
           "date": "2026-06-16",
-          "value": 59.0
+          "value": 61.0
         },
         {
           "date": "2026-06-17",
-          "value": 60.0
+          "value": 59.0
         },
         {
           "date": "2026-06-18",
-          "value": 60.0
+          "value": 59.0
         },
         {
           "date": "2026-06-19",
@@ -740,7 +740,7 @@
         },
         {
           "date": "2026-06-21",
-          "value": 42.0
+          "value": 41.0
         },
         {
           "date": "2026-06-22",
@@ -748,23 +748,23 @@
         },
         {
           "date": "2026-06-23",
-          "value": 65.0
+          "value": 64.0
         },
         {
           "date": "2026-06-24",
-          "value": 56.0
+          "value": 58.0
         },
         {
           "date": "2026-06-25",
-          "value": 49.0
+          "value": 50.0
         },
         {
           "date": "2026-06-26",
-          "value": 44.0
+          "value": 45.0
         },
         {
           "date": "2026-06-27",
-          "value": 52.0
+          "value": 46.0
         }
       ]
     },
@@ -2310,11 +2310,11 @@
     },
     {
       "keyword": "資格確認書",
-      "current": 7.1,
-      "yesterday": 8.2,
-      "change_day": -13.4,
+      "current": 6.6,
+      "yesterday": 8.8,
+      "change_day": -25.0,
       "avg_7day": 9.6,
-      "change_week": -26.0,
+      "change_week": -31.2,
       "alert": false,
       "history": [
         {
@@ -2639,15 +2639,15 @@
         },
         {
           "date": "2026-06-15",
-          "value": 12.1
+          "value": 11.5
         },
         {
           "date": "2026-06-16",
-          "value": 11.5
+          "value": 12.1
         },
         {
           "date": "2026-06-17",
-          "value": 11.5
+          "value": 12.6
         },
         {
           "date": "2026-06-18",
@@ -2655,7 +2655,7 @@
         },
         {
           "date": "2026-06-19",
-          "value": 11.0
+          "value": 11.5
         },
         {
           "date": "2026-06-20",
@@ -2683,11 +2683,11 @@
         },
         {
           "date": "2026-06-26",
-          "value": 8.2
+          "value": 8.8
         },
         {
           "date": "2026-06-27",
-          "value": 7.1
+          "value": 6.6
         }
       ]
     }
