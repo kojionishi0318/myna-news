@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T12:30:47+09:00",
+  "updated": "2026-06-27T19:58:19+09:00",
   "articles": [
     {
       "title": "従来の保険証利用終了まであと1カ月 - 切り替えを患者に促して、医療機関に求む 厚労省 - Yahoo!ニュース",
@@ -197,6 +197,17 @@
       "_glink": "https://news.google.com/rss/articles/CBMif0FVX3lxTE82WXEwZzZsY1VHZDhoOFpjcGJPdUNJMWMzcUJ6a3lXQmJ2dEtLdm5HS2tNTEJPWUNpUkxqRk1XYkZWQmJXT0xXODBTWGxmRjVtZFZWYVFYaHJZZW5VQnpXX1M1U3dZNHdDdUdFR25qMUU3WmNXOWZKVzZUZV9ZNk0?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE82WXEwZzZsY1VHZDhoOFpjcGJPdUNJMWMzcUJ6a3lXQmJ2dEtLdm5HS2tNTEJPWUNpUkxqRk1XYkZWQmJXT0xXODBTWGxmRjVtZFZWYVFYaHJZZW5VQnpXX1M1U3dZNHdDdUdFR25qMUU3WmNXOWZKVzZUZV9ZNk0?oc=5",
       "category": "制度変更",
+      "topic": "insurance"
+    },
+    {
+      "title": "マイナ保険証の「第2世代」顔認証リーダー発売 単体でスマホ読み取りOK 初代を順次代替 - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yak84RlVpNFVnZ1ZoRmJfcWNHVWY4S29QSkUwbWpMeUQwbWxDVEQtZkZBSjZHNkpQM21vdFg5N1NBdlQzVEtzRHFHUXBOM25JVGYzUTRaNm1TeUtpNXNzRlRvVGtoaXBtamppcWhJRk9Xd0VHcVBLQmtFZTVGRXM?oc=5",
+      "pub_date": "2026-06-19T06:22:00+09:00",
+      "source": "Yahoo!ニュース",
+      "description": "厚生労働省は6月18日、マイナ保険証の受付に使う「第2世代（次期）顔認証付きカードリーダー」の販売が2026年度から順次始まったことを、社会保障審議会医療保険部会の資料で明らかにした。最大の特徴は、本体だけでスマートフォンのマイナ保険証を読み取れること。",
+      "_glink": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yak84RlVpNFVnZ1ZoRmJfcWNHVWY4S29QSkUwbWpMeUQwbWxDVEQtZkZBSjZHNkpQM21vdFg5N1NBdlQzVEtzRHFHUXBOM25JVGYzUTRaNm1TeUtpNXNzRlRvVGtoaXBtamppcWhJRk9Xd0VHcVBLQmtFZTVGRXM?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yak84RlVpNFVnZ1ZoRmJfcWNHVWY4S29QSkUwbWpMeUQwbWxDVEQtZkZBSjZHNkpQM21vdFg5N1NBdlQzVEtzRHFHUXBOM25JVGYzUTRaNm1TeUtpNXNzRlRvVGtoaXBtamppcWhJRk9Xd0VHcVBLQmtFZTVGRXM?oc=5",
+      "category": "トラブル",
       "topic": "insurance"
     },
     {
@@ -534,16 +545,6 @@
       "_resolved_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1jb2lGLUJRUW9feFY2QnNyU0NqSjNzLTloWlNhd0xSNnlyczJBR3R3NmtpdGJfSDVSMHAxdUsxaVNyMjVHM3BYRzZ6N0t3dm5oWm9JRkJZZTlJR28zOHc?oc=5",
       "category": "一般",
       "topic": "insurance"
-    },
-    {
-      "title": "マイナンバー制度における制度解説の情報連携に係る資料を更新しました",
-      "link": "https://www.digital.go.jp/policies/mynumber/explanation",
-      "pub_date": "2026-06-15T15:00:00+09:00",
-      "source": "デジタル庁",
-      "description": "2026年から、介護保険制度とマイナンバー制度の連携が本格的に始まります。この新制度は、医療と介護の情報を一元的に管理し、必要な情報にスムーズにアクセスできる環境を整えることを目指しています。 この新制度は「介護情報基盤」という仕組みの ...",
-      "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
-      "category": "制度変更",
-      "topic": "mynumber"
     }
   ],
   "total": 500
