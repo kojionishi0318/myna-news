@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T12:58:58+09:00",
+  "updated": "2026-06-29T22:07:54+09:00",
   "articles": [
     {
       "title": "マイナ保険証、茨城県内7割 暫定措置7月末終了 現場で周知続く - 47NEWS",
@@ -2948,6 +2948,17 @@
       "topic": "insurance"
     },
     {
+      "title": "来庁することなく、オンライン申請ができます！ - city.mitoyo.lg.jp",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9HNHZGN1R1cU9mMUdFdDZhQmUydWtLQkhJd3hfNTNLckZBM0NndXdGV2lpX0hpUzR2djlPY0pxdEh0UDRlS0cwbk4xQjNpWVRwWjhVbkFqemQtaVM1ZFBaTUtseURfM2s3bWtSS283UzlzNjds?oc=5",
+      "pub_date": "2026-04-01T16:00:00+09:00",
+      "source": "city.mitoyo.lg.jp",
+      "description": "日本フォーシーエス株式会社（東京都港区、代表取締役：南昌龍）が提供する電子契約サービス「eformsign（イーフォームサイン）」が、春日・大野城・那珂川消防組合消防本部に導入されました。同消防本部では、各種届出・申請における来庁対応や紙運用 ...",
+      "_glink": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9HNHZGN1R1cU9mMUdFdDZhQmUydWtLQkhJd3hfNTNLckZBM0NndXdGV2lpX0hpUzR2djlPY0pxdEh0UDRlS0cwbk4xQjNpWVRwWjhVbkFqemQtaVM1ZFBaTUtseURfM2s3bWtSS283UzlzNjds?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9HNHZGN1R1cU9mMUdFdDZhQmUydWtLQkhJd3hfNTNLckZBM0NndXdGV2lpX0hpUzR2djlPY0pxdEh0UDRlS0cwbk4xQjNpWVRwWjhVbkFqemQtaVM1ZFBaTUtseURfM2s3bWtSS283UzlzNjds?oc=5",
+      "category": "一般",
+      "topic": "mynumber"
+    },
+    {
       "title": "令和6年12月2日からマイナ保険証を基本とする仕組みへ移行しました - city.gojo.lg.jp",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9JeFQ5WHJQRzdJaTYzMHRfLXVnUVZlN0Q4S0pHaFp0Q3cyYkxhUHMyVFFPbGJ1ZnBhSy13dmh2WDhiamdQSWhaa1FIY1dSU1VrWHpUN3FxX2NSajdKZTc5ajJ5WE9lcXhUY0E?oc=5",
       "pub_date": "2026-04-01T16:00:00+09:00",
@@ -5402,17 +5413,6 @@
       "_glink": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5kSHgyUmlRSFdUcXJPaG9zQkUyUDk4aWtnWjFiejFHbWVyS2dBMDdBcEt6bWQ0a2x3a2xJakc3QkNZajk4aHV4VGE3S093c05oUWt0V19oZnNnamV2VFBpcW8zaFo?oc=5",
       "category": "統計",
       "topic": "insurance"
-    },
-    {
-      "title": "第2回 なぜ今、マイナンバーカードが必要なのか - pref.saitama.lg.jp",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE42dGxHYk5HNWxQYy1rampySDAzNS1pajVNQWs1LWFuZkRZVWszZllvMUNWLXdnSFk0dzJtQnc4Mkw3UEQ0SXNSRlVoOGRtQkMyNmJPTWpSbzlWd1JXM29pM3MwUHRfN202VUZpdWVGaWk?oc=5",
-      "pub_date": "2026-01-19T17:00:00+09:00",
-      "source": "pref.saitama.lg.jp",
-      "description": "なぜマイナンバーカードは不人気なのか。地方自治総合研究所特任研究員の今井照さんは「便利に見えて、かえって国民の負担が生じているからだ。デジタル化で行政の効率化が進まないのには、日本特有の原因がある」という――。（第2回） ※本稿は ...",
-      "_glink": "https://news.google.com/rss/articles/CBMicEFVX3lxTE42dGxHYk5HNWxQYy1rampySDAzNS1pajVNQWs1LWFuZkRZVWszZllvMUNWLXdnSFk0dzJtQnc4Mkw3UEQ0SXNSRlVoOGRtQkMyNmJPTWpSbzlWd1JXM29pM3MwUHRfN202VUZpdWVGaWk?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE42dGxHYk5HNWxQYy1rampySDAzNS1pajVNQWs1LWFuZkRZVWszZllvMUNWLXdnSFk0dzJtQnc4Mkw3UEQ0SXNSRlVoOGRtQkMyNmJPTWpSbzlWd1JXM29pM3MwUHRfN202VUZpdWVGaWk?oc=5",
-      "category": "一般",
-      "topic": "mynumber"
     }
   ]
 }
