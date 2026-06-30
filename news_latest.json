@@ -1,6 +1,17 @@
 {
-  "updated": "2026-06-29T22:05:05+09:00",
+  "updated": "2026-06-30T11:58:12+09:00",
   "articles": [
+    {
+      "title": "従来の保険証も7月末まで使える暫定措置 上野厚労大臣「延長考えていない」 マイナンバーカード保有者全体のうちマイナ保険証登録者は約91％ 厚生労働省（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1wZHpRMHdFbTEyS0dSR2Z4OHkzMl9YVlNzVWtoV1l2cjZPMWFjTUZHWXhQd1V6dEE5TXR1Um91b2tnVU11QUJjZ0JBTjNVSmdLSXVnQnlka0VCSTBzakZ3c3F0TktSdGdUMU1OMEUyMGpqdWkyY2N5a0o2Q1F3OGM?oc=5",
+      "pub_date": "2026-06-30T11:25:50+09:00",
+      "source": "Yahoo!ニュース",
+      "description": "従来の保険証から「マイナ保険証」に切り替わったことを受け、期限が切れた従来の保険証でも保険診療を受けられる暫定措置を7月末まで設けていましたが、きょう、上野厚生労働大臣は「延長は考えていない」と述べました。",
+      "_glink": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1wZHpRMHdFbTEyS0dSR2Z4OHkzMl9YVlNzVWtoV1l2cjZPMWFjTUZHWXhQd1V6dEE5TXR1Um91b2tnVU11QUJjZ0JBTjNVSmdLSXVnQnlka0VCSTBzakZ3c3F0TktSdGdUMU1OMEUyMGpqdWkyY2N5a0o2Q1F3OGM?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1wZHpRMHdFbTEyS0dSR2Z4OHkzMl9YVlNzVWtoV1l2cjZPMWFjTUZHWXhQd1V6dEE5TXR1Um91b2tnVU11QUJjZ0JBTjNVSmdLSXVnQnlka0VCSTBzakZ3c3F0TktSdGdUMU1OMEUyMGpqdWkyY2N5a0o2Q1F3OGM?oc=5",
+      "category": "制度変更",
+      "topic": "insurance"
+    },
     {
       "title": "マイナ保険証、茨城県内7割 暫定措置7月末終了 現場で周知続く - 47NEWS",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBNaEo4bFF0OFk5YmtiVnBILXRQUldRZDhNNkNjZGFXYzA0MXhQckk5cThHNGI2VmYzRGRqZDR5TnJUd0VMNDB2QW95cw?oc=5",
@@ -534,16 +545,6 @@
       "description": "「引越し手続オンラインサービス」を利用すれば、引越しの際に必ず必要な転出入の手続を簡素化できます。転出届を区役所等に持参する手間が省け、好きなタイミングで手続ができ便利です。その他の手続に関する理解を深めておけば、よりスムーズに ...",
       "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
       "category": "一般",
-      "topic": "mynumber"
-    },
-    {
-      "title": "マイナポータルAPIに関するリンク先を「デジタル庁ウェブサービス・アプリケーション」に変更しました",
-      "link": "https://www.digital.go.jp/policies/mynumber",
-      "pub_date": "2026-06-16T11:07:44+09:00",
-      "source": "デジタル庁",
-      "description": "デジタル庁は1月22日、スマートフォン向けに提供している「マイナポータルアプリ」に「デジタル認証アプリ」の機能を統合し、2026年夏をめどに「マイナアプリ」として提供することを発表した。目的は、行政手続きや民間サービスで必要となる本人確認を ...",
-      "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
-      "category": "使い方",
       "topic": "mynumber"
     }
   ],
