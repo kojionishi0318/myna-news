@@ -1,9 +1,38 @@
 {
-  "updated": "2026-06-30T20:46:18+09:00",
-  "total_exchanges": 238,
-  "total_questions": 207,
+  "updated": "2026-07-01T12:57:28+09:00",
+  "total_exchanges": 239,
+  "total_questions": 208,
   "total_answers": 114,
   "exchanges": [
+    {
+      "issueID": "122114536X00320260529",
+      "session": 221,
+      "nameOfHouse": "参議院",
+      "nameOfMeeting": "消費者問題に関する特別委員会",
+      "issue": "第3号",
+      "imageKind": "会議録",
+      "date": "2026-05-29",
+      "question": {
+        "speechID": "122114536X00320260529_080",
+        "issueID": "122114536X00320260529",
+        "session": 221,
+        "nameOfHouse": "参議院",
+        "nameOfMeeting": "消費者問題に関する特別委員会",
+        "issue": "第3号",
+        "imageKind": "会議録",
+        "date": "2026-05-29",
+        "speaker": "川村雄大",
+        "speakerGroup": "公明党",
+        "speakerPosition": "",
+        "speakerRole": "",
+        "is_minister": false,
+        "excerpt": "○川村雄大君 公明党は、これまで、国民の皆様の、デジタル化による利便性向上、その推進の一環として、デジタルに不慣れな人に対してスマホの操作ですとかオンラインによる行政手続などを丁寧に教えることができるデジタル推進委員の枠組みを推進してまいりました。例えば、薬局にいてマイナ保険証が使えない方に使い方を教えてあげるですとか、",
+        "speechURL": "https://kokkai.ndl.go.jp/txt/122114536X00320260529/80",
+        "speechOrder": 80
+      },
+      "answers": [],
+      "ai_title": ""
+    },
     {
       "issueID": "122105367X00820260521",
       "session": 221,
