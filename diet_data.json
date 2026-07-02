@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-01T21:09:17+09:00",
-  "total_exchanges": 239,
-  "total_questions": 208,
+  "updated": "2026-07-02T12:38:21+09:00",
+  "total_exchanges": 240,
+  "total_questions": 209,
   "total_answers": 114,
   "exchanges": [
     {
@@ -79,6 +79,35 @@
           "speechOrder": 143
         }
       ],
+      "ai_title": ""
+    },
+    {
+      "issueID": "122104080X00820260520",
+      "session": 221,
+      "nameOfHouse": "衆議院",
+      "nameOfMeeting": "経済産業委員会",
+      "issue": "第8号",
+      "imageKind": "会議録",
+      "date": "2026-05-20",
+      "question": {
+        "speechID": "122104080X00820260520_006",
+        "issueID": "122104080X00820260520",
+        "session": 221,
+        "nameOfHouse": "衆議院",
+        "nameOfMeeting": "経済産業委員会",
+        "issue": "第8号",
+        "imageKind": "会議録",
+        "date": "2026-05-20",
+        "speaker": "大島敦",
+        "speakerGroup": "中道改革連合・無所属",
+        "speakerPosition": "",
+        "speakerRole": "",
+        "is_minister": false,
+        "excerpt": "○大島委員 御答弁いただきまして、ありがとうございました。 大企業は十分進んでいるので、御地元での御発言も聞きながら、進めていただくことを確信しましたので、よろしくお願いします。 次は、ナフサ不足への対応ということで、結構難しい時代に入っていると思っています。 これまで、私、今通常国会は、",
+        "speechURL": "https://kokkai.ndl.go.jp/txt/122104080X00820260520/6",
+        "speechOrder": 6
+      },
+      "answers": [],
       "ai_title": ""
     },
     {
