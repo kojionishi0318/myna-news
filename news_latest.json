@@ -1,6 +1,16 @@
 {
-  "updated": "2026-07-03T12:18:43+09:00",
+  "updated": "2026-07-03T20:33:01+09:00",
   "articles": [
+    {
+      "title": "自治体・医療機関等をつなぐ情報連携システム（Public Medical Hub：PMH）に係る医療費助成オンライン資格確認の導入済み医療機関・薬局リストを更新しました",
+      "link": "https://www.digital.go.jp/policies/health/public-medical-hub",
+      "pub_date": "2026-07-03T15:00:00+09:00",
+      "source": "デジタル庁",
+      "description": "地域医療DXを支援する株式会社ジェイエムインテグラル（本社：東京都港区、代表取締役：和泉大志）は、2026年度より、元長野県伊那市職員であり、総務省地域情報化アドバイザーを務める安江輝氏が、当社の執行役員に就任したことをお知らせいたします。",
+      "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
+      "category": "一般",
+      "topic": "insurance"
+    },
     {
       "title": "8月から「従来の健康保険証」での受診は、いったん全額自己負担に…暫定措置は7月末で終了 - 東京新聞デジタル",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBLSjBUNmtlSk5aOGlDelIyX1FzemhZTDJXT1ZVTEtCSng0a3JYejI4TjgyT292ZjNsejhIUUI2X285XzMtUUVrVEFJTHpRVlVpNU1V?oc=5",
@@ -536,17 +546,6 @@
       "description": "マイナンバーカードと健康保険証が一体化した「マイナ保険証」の和歌山県内での利用率が全都道府県でワースト2位と低迷している。県は利用を促す一方、医療現場からは課題を指摘する声も上がる。 従来の健康保険証は昨年12月に新規発行が停止されて ...",
       "_glink": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1FS2UxYkQySERXTkdZZXlLWUE5Q3otdVBWdnhvSTZxcHBocUZjdGYtRmxjR18wS0J4R3ljaUFuS3FSemlUZzhYQUREZzVMYnZFRDZ5TXdsVk5TU2ZjTXlqQzAxWUc0aXZjTXpTTW5KZnFQLTJVRkJhWTh6OA?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1FS2UxYkQySERXTkdZZXlLWUE5Q3otdVBWdnhvSTZxcHBocUZjdGYtRmxjR18wS0J4R3ljaUFuS3FSemlUZzhYQUREZzVMYnZFRDZ5TXdsVk5TU2ZjTXlqQzAxWUc0aXZjTXpTTW5KZnFQLTJVRkJhWTh6OA?oc=5",
-      "category": "統計",
-      "topic": "insurance"
-    },
-    {
-      "title": "マイナ保険証の利用率68％超 従来の保険証は7月末で終了 - Excite エキサイト",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBQSVJLT0pfQTJINnlQRThfeEltX3NzQ3hYb3QxdlhLTHNLYm05SVdBY2x1aDRUa0puYkw5NTFmQXdudklUWG1yeUJUaVZFN014VllMbm81QzVBWWFoVlVfVzRzUl96bEdIRmNlOHp3?oc=5",
-      "pub_date": "2026-06-18T15:54:00+09:00",
-      "source": "Excite エキサイト",
-      "description": "マイナンバーカードと健康保険証が一体化した「マイナ保険証」の和歌山県内での利用率が全都道府県でワースト2位と低迷している。県は利用を促す一方、医療現場からは課題を指摘する声も上がる。 従来の健康保険証は昨年12月に新規発行が停止されて ...",
-      "_glink": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBQSVJLT0pfQTJINnlQRThfeEltX3NzQ3hYb3QxdlhLTHNLYm05SVdBY2x1aDRUa0puYkw5NTFmQXdudklUWG1yeUJUaVZFN014VllMbm81QzVBWWFoVlVfVzRzUl96bEdIRmNlOHp3?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBQSVJLT0pfQTJINnlQRThfeEltX3NzQ3hYb3QxdlhLTHNLYm05SVdBY2x1aDRUa0puYkw5NTFmQXdudklUWG1yeUJUaVZFN014VllMbm81QzVBWWFoVlVfVzRzUl96bEdIRmNlOHp3?oc=5",
       "category": "統計",
       "topic": "insurance"
     }
