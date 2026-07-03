@@ -1,6 +1,16 @@
 {
-  "updated": "2026-07-03T11:37:56+09:00",
+  "updated": "2026-07-03T20:30:08+09:00",
   "articles": [
+    {
+      "title": "自治体・医療機関等をつなぐ情報連携システム（Public Medical Hub：PMH）に係る医療費助成オンライン資格確認の導入済み医療機関・薬局リストを更新しました",
+      "link": "https://www.digital.go.jp/policies/health/public-medical-hub",
+      "pub_date": "2026-07-03T15:00:00+09:00",
+      "source": "デジタル庁",
+      "description": "地域医療DXを支援する株式会社ジェイエムインテグラル（本社：東京都港区、代表取締役：和泉大志）は、2026年度より、元長野県伊那市職員であり、総務省地域情報化アドバイザーを務める安江輝氏が、当社の執行役員に就任したことをお知らせいたします。",
+      "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
+      "category": "一般",
+      "topic": "insurance"
+    },
     {
       "title": "8月から「従来の健康保険証」での受診は、いったん全額自己負担に…暫定措置は7月末で終了 - 東京新聞デジタル",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBLSjBUNmtlSk5aOGlDelIyX1FzemhZTDJXT1ZVTEtCSng0a3JYejI4TjgyT292ZjNsejhIUUI2X285XzMtUUVrVEFJTHpRVlVpNU1V?oc=5",
@@ -5332,17 +5342,6 @@
       "description": "2026年3月13日、政府は「健康保険法等の一部を改正する法律案」を閣議決定しました。この改正案の柱となるのが、後期高齢者の医療費負担に株式配当などの「金融所得」を反映させる仕組みの構築です。 【画像まとめ】後期高齢者医療の財源構成と負担 ...",
       "_glink": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOa2JjSzQ2cE45Y3ZGN3NrTW4ycTVOX09McUN4Tnk4b005c2hPMnZZQ3haYVlOaE9ITzhoa21rQjU5eThNRXJHdzFVREs5dE50TDJvQWNmeGd4X2FoQTRsUTNFdTJXeXJiMUVMVlpsTVhvelBwMnpWcFI3aGhvckNYTk1WalBvWWExU19iWS1R?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOa2JjSzQ2cE45Y3ZGN3NrTW4ycTVOX09McUN4Tnk4b005c2hPMnZZQ3haYVlOaE9ITzhoa21rQjU5eThNRXJHdzFVREs5dE50TDJvQWNmeGd4X2FoQTRsUTNFdTJXeXJiMUVMVlpsTVhvelBwMnpWcFI3aGhvckNYTk1WalBvWWExU19iWS1R?oc=5",
-      "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "医療事務の友人に「こないだ年収1000万円以上の人が来た」と聞きビックリ！ マイナ保険証で「年収がバレる」と聞きましたが、カードに記載はないですよね？ なぜ知られてしまうのでしょうか？ (ファイナンシャルフィールド) - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQS1B3OVVaNGZOOFZrcnhVNjd3X1I5dTI3TXdXeW9XZy1aWE1xZlJ5Qm93YXl0dXZZTUowX1d3UGxldTVEQVRlSjUzQ2FyQ2lOU1M2bTkySW9NSUhWN21mX2lpZXltWkhnaEF5WDl6MWlnSm9LR0ZlN2ZLN2dlZlR1a2VlcUVZbHB2dEJqZUZn?oc=5",
-      "pub_date": "2026-01-22T17:00:00+09:00",
-      "source": "Yahoo!ニュース",
-      "description": "「医療費が10万円を超えたら税金が戻ってくる」と聞いていたのに、友人に相談したら「たったそれだけなら、申告書を作る手間のほうが損じゃない？」と笑われてしまった。 そんな経験をすると、せっかくのやる気もそがれてしまうかもしれません。",
-      "_glink": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQS1B3OVVaNGZOOFZrcnhVNjd3X1I5dTI3TXdXeW9XZy1aWE1xZlJ5Qm93YXl0dXZZTUowX1d3UGxldTVEQVRlSjUzQ2FyQ2lOU1M2bTkySW9NSUhWN21mX2lpZXltWkhnaEF5WDl6MWlnSm9LR0ZlN2ZLN2dlZlR1a2VlcUVZbHB2dEJqZUZn?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQS1B3OVVaNGZOOFZrcnhVNjd3X1I5dTI3TXdXeW9XZy1aWE1xZlJ5Qm93YXl0dXZZTUowX1d3UGxldTVEQVRlSjUzQ2FyQ2lOU1M2bTkySW9NSUhWN21mX2lpZXltWkhnaEF5WDl6MWlnSm9LR0ZlN2ZLN2dlZlR1a2VlcUVZbHB2dEJqZUZn?oc=5",
       "category": "一般",
       "topic": "insurance"
     }
