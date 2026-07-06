@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T12:35:26+09:00",
+  "updated": "2026-07-06T21:48:14+09:00",
   "articles": [
     {
       "title": "健康保険証の有効期限終了に伴う暫定措置、7月末で終了 今後はマイナ保険証または資格確認書が必要に - 老施協デジタル",
@@ -21,6 +21,17 @@
       "_glink": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5qUkZNSTdjTmZsaGpjY2RDM2RtY3ViSGdxZDhieTN3cnVoaExHdjVnajJCQkswdlQ2a3hMUDNmc0EwZXJweHhlaUVnYmFWRVlMRFRyNE1SZDZnRURKUXBLZnoxUURfamlHYkxrcHVQTQ?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5qUkZNSTdjTmZsaGpjY2RDM2RtY3ViSGdxZDhieTN3cnVoaExHdjVnajJCQkswdlQ2a3hMUDNmc0EwZXJweHhlaUVnYmFWRVlMRFRyNE1SZDZnRURKUXBLZnoxUURfamlHYkxrcHVQTQ?oc=5",
       "category": "一般",
+      "topic": "insurance"
+    },
+    {
+      "title": "「期限切れ保険証」が使える特例、7月末で終了 どうする？（オトナンサー） - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9LWVhMMThLZm1sSDFub3dxT0p1QnBqdzdobjFEZkpFU3A5bVF0NmUzVXh0Z2FCamFOSWxJWjhrR2p5eFRfbWZuSUlvQ3R2RjlFZTBvU1RkeVEzX0l6dFBtc0tZOGdaY2xTalVwdWJSWWREQnlLd3NCdzJlZnBrcnc?oc=5",
+      "pub_date": "2026-07-03T22:15:00+09:00",
+      "source": "Yahoo!ニュース",
+      "description": "健康保険証が使えなくなる話を聞いたことはないだろうか。従来の健康保険証は2025年12月1日をもって有効期限が終了している。 ただし、有効期限切れの保険証をそのまま使える「暫定措置」が複数回にわたって延長されているため、現在の状況がわかり ...",
+      "_glink": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9LWVhMMThLZm1sSDFub3dxT0p1QnBqdzdobjFEZkpFU3A5bVF0NmUzVXh0Z2FCamFOSWxJWjhrR2p5eFRfbWZuSUlvQ3R2RjlFZTBvU1RkeVEzX0l6dFBtc0tZOGdaY2xTalVwdWJSWWREQnlLd3NCdzJlZnBrcnc?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9LWVhMMThLZm1sSDFub3dxT0p1QnBqdzdobjFEZkpFU3A5bVF0NmUzVXh0Z2FCamFOSWxJWjhrR2p5eFRfbWZuSUlvQ3R2RjlFZTBvU1RkeVEzX0l6dFBtc0tZOGdaY2xTalVwdWJSWWREQnlLd3NCdzJlZnBrcnc?oc=5",
+      "category": "制度変更",
       "topic": "insurance"
     },
     {
@@ -536,16 +547,6 @@
       "description": "従来の保険証が使えなくなるまで残り1カ月余りとなるなか、厚生労働省はマイナ保険証の利用率が68％ほどだとして早めの切り替えを呼び掛けています。 厚労省は18日、マイナ保険証を使い医療機関を受診した人が4月時点で68.15％だったと発表しました。",
       "_glink": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAtaHF5T3lNQWdLRlhHdmFtNzlDbV9VQm5WRjlpN05TUDF0TzByZWdudzQwWUxQcHFOUEhTMVhGUzhfenhwMjl6STNtZGlCYUFl?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAtaHF5T3lNQWdLRlhHdmFtNzlDbV9VQm5WRjlpN05TUDF0TzByZWdudzQwWUxQcHFOUEhTMVhGUzhfenhwMjl6STNtZGlCYUFl?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "マイナ保険証 最新の利用率68%",
-      "link": "https://news.yahoo.co.jp/pickup/6584749?source=rss",
-      "pub_date": "2026-06-18T20:57:14+09:00",
-      "source": "Yahoo!ニュース",
-      "description": "従来の保険証が使えなくなるまで残り1カ月余りとなるなか、厚生労働省はマイナ保険証の利用率が68％ほどだとして早めの切り替えを呼び掛けています。",
-      "thumbnail": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/6/18/09c6000139687bdd649cee8393143c1f63391b3eba791dbe83ee5462885d96c2.jpg",
       "category": "制度変更",
       "topic": "insurance"
     }
