@@ -1,6 +1,17 @@
 {
-  "updated": "2026-07-07T12:25:52+09:00",
+  "updated": "2026-07-07T20:51:54+09:00",
   "articles": [
+    {
+      "title": "後期高齢者医療 資格確認書・資格情報のお知らせについて - city.koganei.lg.jp",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPamRyTmFYdTU4N2N5bVNLNEp1d3lWYm9JNHViS1A1WnJ5VDhzNjBBYW9BY2puaGx0LU1ZVzdrTDVDU0xNeXhTRW5YVURkZjZ4T3poaXU5VUhTcEJWZHRWVVEtZHJsSW9GMVhuZm5yV1RyMXNtZHVQTW5VUlNkS01NbEg2XzVwb3pnSXJQeWJvd1V2Z0R2SmRnLUJaQ1BYQ1E?oc=5",
+      "pub_date": "2026-07-07T02:23:42+09:00",
+      "source": "city.koganei.lg.jp",
+      "description": "奈良県後期高齢者医療広域連合は16日、昨年12月2日から交付している「資格確認書」の電子公印に誤りがあったと発表した。 連合によると、被保険者証の廃止に伴い、電算処理システムの改修を民間業者に委託して電子公印を設定したが、「奈良県後期 ...",
+      "_glink": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPamRyTmFYdTU4N2N5bVNLNEp1d3lWYm9JNHViS1A1WnJ5VDhzNjBBYW9BY2puaGx0LU1ZVzdrTDVDU0xNeXhTRW5YVURkZjZ4T3poaXU5VUhTcEJWZHRWVVEtZHJsSW9GMVhuZm5yV1RyMXNtZHVQTW5VUlNkS01NbEg2XzVwb3pnSXJQeWJvd1V2Z0R2SmRnLUJaQ1BYQ1E?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPamRyTmFYdTU4N2N5bVNLNEp1d3lWYm9JNHViS1A1WnJ5VDhzNjBBYW9BY2puaGx0LU1ZVzdrTDVDU0xNeXhTRW5YVURkZjZ4T3poaXU5VUhTcEJWZHRWVVEtZHJsSW9GMVhuZm5yV1RyMXNtZHVQTW5VUlNkS01NbEg2XzVwb3pnSXJQeWJvd1V2Z0R2SmRnLUJaQ1BYQ1E?oc=5",
+      "category": "制度変更",
+      "topic": "insurance"
+    },
     {
       "title": "8月以降、期限切れ健康保険証は持参忘れと同様の対応に - 日経メディカル",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9GdVNJZmc1VW53aDV1WmZQOV9WVzNSYWtSQTZLaTNOMDYxY09pX1hRblhlR1VycXhoMUdNYzdERXJPcFhDNnZtMWVsUFlpNG51V185czhRMjZTRmJmaWlnZmk2MWppV3paNmY4LTNvd1VIU2Q5ejlQdm1UZw?oc=5",
@@ -537,17 +548,6 @@
       "_glink": "https://news.google.com/rss/articles/CBMif0FVX3lxTE82WXEwZzZsY1VHZDhoOFpjcGJPdUNJMWMzcUJ6a3lXQmJ2dEtLdm5HS2tNTEJPWUNpUkxqRk1XYkZWQmJXT0xXODBTWGxmRjVtZFZWYVFYaHJZZW5VQnpXX1M1U3dZNHdDdUdFR25qMUU3WmNXOWZKVzZUZV9ZNk0?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE82WXEwZzZsY1VHZDhoOFpjcGJPdUNJMWMzcUJ6a3lXQmJ2dEtLdm5HS2tNTEJPWUNpUkxqRk1XYkZWQmJXT0xXODBTWGxmRjVtZFZWYVFYaHJZZW5VQnpXX1M1U3dZNHdDdUdFR25qMUU3WmNXOWZKVzZUZV9ZNk0?oc=5",
       "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "マイナ保険証の「第2世代」顔認証リーダー発売 単体でスマホ読み取りOK 初代を順次代替 - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yak84RlVpNFVnZ1ZoRmJfcWNHVWY4S29QSkUwbWpMeUQwbWxDVEQtZkZBSjZHNkpQM21vdFg5N1NBdlQzVEtzRHFHUXBOM25JVGYzUTRaNm1TeUtpNXNzRlRvVGtoaXBtamppcWhJRk9Xd0VHcVBLQmtFZTVGRXM?oc=5",
-      "pub_date": "2026-06-19T06:22:00+09:00",
-      "source": "Yahoo!ニュース",
-      "description": "厚生労働省は6月18日、マイナ保険証の受付に使う「第2世代（次期）顔認証付きカードリーダー」の販売が2026年度から順次始まったことを、社会保障審議会医療保険部会の資料で明らかにした。最大の特徴は、本体だけでスマートフォンのマイナ保険証を読み取れること。",
-      "_glink": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yak84RlVpNFVnZ1ZoRmJfcWNHVWY4S29QSkUwbWpMeUQwbWxDVEQtZkZBSjZHNkpQM21vdFg5N1NBdlQzVEtzRHFHUXBOM25JVGYzUTRaNm1TeUtpNXNzRlRvVGtoaXBtamppcWhJRk9Xd0VHcVBLQmtFZTVGRXM?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yak84RlVpNFVnZ1ZoRmJfcWNHVWY4S29QSkUwbWpMeUQwbWxDVEQtZkZBSjZHNkpQM21vdFg5N1NBdlQzVEtzRHFHUXBOM25JVGYzUTRaNm1TeUtpNXNzRlRvVGtoaXBtamppcWhJRk9Xd0VHcVBLQmtFZTVGRXM?oc=5",
-      "category": "トラブル",
       "topic": "insurance"
     }
   ],
