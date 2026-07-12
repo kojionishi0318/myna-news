@@ -1,6 +1,17 @@
 {
-  "updated": "2026-07-11T19:15:38+09:00",
+  "updated": "2026-07-12T11:47:59+09:00",
   "articles": [
+    {
+      "title": "マイナ免許証を選んだが - 熊本日日新聞社",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9BMVdqNHZSZEE0MFIzZGNCMENjQ01YVnU4R0VrZm5CaGdSajE3NEZ4T3dXNXBOWHM3QXVNWUlDMERDWUg2SklvZDAxellQVzQ?oc=5",
+      "pub_date": "2026-07-12T05:00:00+09:00",
+      "source": "熊本日日新聞社",
+      "description": "",
+      "_glink": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9BMVdqNHZSZEE0MFIzZGNCMENjQ01YVnU4R0VrZm5CaGdSajE3NEZ4T3dXNXBOWHM3QXVNWUlDMERDWUg2SklvZDAxellQVzQ?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9BMVdqNHZSZEE0MFIzZGNCMENjQ01YVnU4R0VrZm5CaGdSajE3NEZ4T3dXNXBOWHM3QXVNWUlDMERDWUg2SklvZDAxellQVzQ?oc=5",
+      "category": "一般",
+      "topic": "mynumber"
+    },
     {
       "title": "モバイル免許証はいつ実現する？「マイナ免許証」解禁も、スマホ搭載への険しい道 - 東京報道新聞",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFByMmd4WS1iTnR4SjZXQzM5WWVLNkQwY0g0SnRWRXA4VzNjbkNfYi1NQnFacEJ6dldFVV92bTM3bVU4bVlVU2pyVTc1dndFTUhnT2xV?oc=5",
@@ -5415,16 +5426,6 @@
       "_glink": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOREx3cERVd2otblVuQ1I1VndlZFBTMVlmbDZsUld3eEI1cnc2NWx3WWRvTW9yaElwRFJZZ1ZQaWdhaW9KX0I4X3AxUUlEMWQ5VVMxcUxfX3FBU3ZwTUFLTTA1NU9Oc1VDaVhRNGRCRV9lMGFFSXlHRHljekFQNW54RmU5TnE5VllwdU1GS2pR?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOREx3cERVd2otblVuQ1I1VndlZFBTMVlmbDZsUld3eEI1cnc2NWx3WWRvTW9yaElwRFJZZ1ZQaWdhaW9KX0I4X3AxUUlEMWQ5VVMxcUxfX3FBU3ZwTUFLTTA1NU9Oc1VDaVhRNGRCRV9lMGFFSXlHRHljekFQNW54RmU5TnE5VllwdU1GS2pR?oc=5",
       "category": "統計",
-      "topic": "insurance"
-    },
-    {
-      "title": "【3月末まで】いよいよ本当に「紙の健康保険証」が使用不可に！ 「マイナ保険証」を持たないと“3割負担→10割負担”になる!? - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1FdExYUTZ5QVljM2dyWWhxR2htOFV3U3FHQmZMSUx0eUMxWDdvWG91bWkybWRwd0ViQW5rRm4tckZZSWRsWkdOaWdUWm5zTXNMeVRsNGowU3J3bGh3WElGUkNhdEJrOTEtV3J4emNXV19yNmpUdUlOQmZxR1dIUVk?oc=5",
-      "pub_date": "2026-02-22T17:00:00+09:00",
-      "source": "Yahoo!ニュース",
-      "description": "健康保険証の廃止に向けた動きが進む中、「今の保険証はいつまで使えるのか」と気になっている人も多いのではないでしょうか。当初は有効期限切れの健康保険証が使えるのは「3月末まで」とされていましたが、現在は「7月末まで」に延長されています。",
-      "_glink": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1FdExYUTZ5QVljM2dyWWhxR2htOFV3U3FHQmZMSUx0eUMxWDdvWG91bWkybWRwd0ViQW5rRm4tckZZSWRsWkdOaWdUWm5zTXNMeVRsNGowU3J3bGh3WElGUkNhdEJrOTEtV3J4emNXV19yNmpUdUlOQmZxR1dIUVk?oc=5",
-      "category": "制度変更",
       "topic": "insurance"
     }
   ]
