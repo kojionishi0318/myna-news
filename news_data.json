@@ -1,6 +1,17 @@
 {
-  "updated": "2026-07-12T19:29:07+09:00",
+  "updated": "2026-07-13T11:49:29+09:00",
   "articles": [
+    {
+      "title": "デジタル庁、PMH導入済み薬局リストを更新 - Hoitto! ヘルスケアビジネス",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFAzZE1MX25GeFRRMGhsMEQ3aURmeG5XazJIUWpRdk5JMTZoRktlS0lUYnRSU2tOcjdqNFFhdm1JcXZydw?oc=5",
+      "pub_date": "2026-07-13T08:19:28+09:00",
+      "source": "Hoitto! ヘルスケアビジネス",
+      "description": "",
+      "_glink": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFAzZE1MX25GeFRRMGhsMEQ3aURmeG5XazJIUWpRdk5JMTZoRktlS0lUYnRSU2tOcjdqNFFhdm1JcXZydw?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFAzZE1MX25GeFRRMGhsMEQ3aURmeG5XazJIUWpRdk5JMTZoRktlS0lUYnRSU2tOcjdqNFFhdm1JcXZydw?oc=5",
+      "category": "一般",
+      "topic": "mynumber"
+    },
     {
       "title": "マイナ免許証を選んだが - 熊本日日新聞社",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9BMVdqNHZSZEE0MFIzZGNCMENjQ01YVnU4R0VrZm5CaGdSajE3NEZ4T3dXNXBOWHM3QXVNWUlDMERDWUg2SklvZDAxellQVzQ?oc=5",
@@ -43,6 +54,28 @@
       "_glink": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0VFNaUlFadTRLWkRNWFdZU3JkQ3FqX2k2dDZWR1dkSjBaS05tRDYwc3E3Sl9NSGc2VHhhMENTRTVqaTFvS1c2Tk5fVWFZdDdSUnZEbXN5NTV3UUV2NUVoa2VybTFad253SUdyYzRnamwxbDdYT2l4Q1FJVFZvSzg?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0VFNaUlFadTRLWkRNWFdZU3JkQ3FqX2k2dDZWR1dkSjBaS05tRDYwc3E3Sl9NSGc2VHhhMENTRTVqaTFvS1c2Tk5fVWFZdDdSUnZEbXN5NTV3UUV2NUVoa2VybTFad253SUdyYzRnamwxbDdYT2l4Q1FJVFZvSzg?oc=5",
       "category": "一般",
+      "topic": "insurance"
+    },
+    {
+      "title": "熱中症による死者も 続く猛暑 円滑な救急活動のためマイナ保険証の携行を - TBS NEWS DIG",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5NNzlBcno3Q3BLdkZmSlJIZ2hMMS0wcllsY19Cd0tZcC1qd055bTJlcXduRVVyRWQwOHZJcDNnTG0wN2pZdFpGQWxhbklSZ2tKM1p1LTIzMXUxRGR2QTlNQkVrd0JzWTA?oc=5",
+      "pub_date": "2026-07-10T17:19:00+09:00",
+      "source": "TBS NEWS DIG",
+      "description": "10日の県内は午前中から強い日差しが照りつけ、日田市など4地点で今シーズン一番の暑さとなりました。 10日の最高気温は、日田市で37.1度、玖珠で34.5度、中津で34.7度、国東市国見で31.6度を観測し、県内4地点で今年一番の暑さとなりました。",
+      "_glink": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5NNzlBcno3Q3BLdkZmSlJIZ2hMMS0wcllsY19Cd0tZcC1qd055bTJlcXduRVVyRWQwOHZJcDNnTG0wN2pZdFpGQWxhbklSZ2tKM1p1LTIzMXUxRGR2QTlNQkVrd0JzWTA?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5NNzlBcno3Q3BLdkZmSlJIZ2hMMS0wcllsY19Cd0tZcC1qd055bTJlcXduRVVyRWQwOHZJcDNnTG0wN2pZdFpGQWxhbklSZ2tKM1p1LTIzMXUxRGR2QTlNQkVrd0JzWTA?oc=5",
+      "category": "一般",
+      "topic": "insurance"
+    },
+    {
+      "title": "「資格確認書」及び「資格情報のお知らせ」の交付について - city.kakogawa.lg.jp",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMExTRWJucVZ5c3dvNjBycTNiSnZmTmZ6LWVNOFhBaU9LbU0tYWpudlZ4LU5vc3BrQy1qbUc1UFJLb3BjSmRyLUJEeEV4cTk3ckJVLThmTmxidERwcEVHS3ppUXhFRjdfdGxxaDQ3WGtBZk1UcXItaXFsWDRtSy1NUWFmbVJSRmVWdmdjeUlQaFhwNjY2cXQzZmhDclFxRXM?oc=5",
+      "pub_date": "2026-07-10T16:00:00+09:00",
+      "source": "city.kakogawa.lg.jp",
+      "description": "7月末で国民健康保険（国保）の多くは、従来の保険証の有効期限を迎える。 大量の期限切れを前に、厚生労働省は、国保加入者に限り、保険資格を確認する補助書類でも、保険証のように病院で受診できる例外を認めた。 マイナ保険証移行に伴うルール ...",
+      "_glink": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMExTRWJucVZ5c3dvNjBycTNiSnZmTmZ6LWVNOFhBaU9LbU0tYWpudlZ4LU5vc3BrQy1qbUc1UFJLb3BjSmRyLUJEeEV4cTk3ckJVLThmTmxidERwcEVHS3ppUXhFRjdfdGxxaDQ3WGtBZk1UcXItaXFsWDRtSy1NUWFmbVJSRmVWdmdjeUlQaFhwNjY2cXQzZmhDclFxRXM?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMExTRWJucVZ5c3dvNjBycTNiSnZmTmZ6LWVNOFhBaU9LbU0tYWpudlZ4LU5vc3BrQy1qbUc1UFJLb3BjSmRyLUJEeEV4cTk3ckJVLThmTmxidERwcEVHS3ppUXhFRjdfdGxxaDQ3WGtBZk1UcXItaXFsWDRtSy1NUWFmbVJSRmVWdmdjeUlQaFhwNjY2cXQzZmhDclFxRXM?oc=5",
+      "category": "制度変更",
       "topic": "insurance"
     },
     {
@@ -5395,37 +5428,6 @@
       "_glink": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9YQV9kQlpFUlB5WkRYV2RTYlhPa3JGSnFoMmtQbXVRZEZza0VHb3VpWXVjaFBLQUx5bWJvN0I2Y3gwRUtfaHZrcXl2MFZhcW9CVm52WWNzSF9wQQ?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9YQV9kQlpFUlB5WkRYV2RTYlhPa3JGSnFoMmtQbXVRZEZza0VHb3VpWXVjaFBLQUx5bWJvN0I2Y3gwRUtfaHZrcXl2MFZhcW9CVm52WWNzSF9wQQ?oc=5",
       "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "マイナ保険証、医療情報どう使われる? 流出の恐れは？ 実態を取材 - 中国新聞デジタル",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9BUENTLUxHa0RJYnl4WUNlQmNNUWlqTUFnWGtuZnJFbXNuVkVkT2w5MUNwOTBMTGxPZk1NSkl3dUtlZEJqTm5od0RDLWtjNWxlZ0wycEpiaDN5dw?oc=5",
-      "pub_date": "2026-02-24T17:00:00+09:00",
-      "source": "中国新聞デジタル",
-      "description": "記事をマイページに保存し、『あとで読む』ことができます。ご利用には会員登録が必要です。 1月下旬、厚生労働省側から医療機関に届いたメールに、赤字でそう書かれていた。スマートフォンに搭載したマイナ保険証を使う際、スマホからデータを ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9BUENTLUxHa0RJYnl4WUNlQmNNUWlqTUFnWGtuZnJFbXNuVkVkT2w5MUNwOTBMTGxPZk1NSkl3dUtlZEJqTm5od0RDLWtjNWxlZ0wycEpiaDN5dw?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9BUENTLUxHa0RJYnl4WUNlQmNNUWlqTUFnWGtuZnJFbXNuVkVkT2w5MUNwOTBMTGxPZk1NSkl3dUtlZEJqTm5od0RDLWtjNWxlZ0wycEpiaDN5dw?oc=5",
-      "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "マイナ保険証への移行に伴う要介護認定申請について（40歳から64歳の方） - city.maibara.lg.jp",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMlRZdS1OdlNINlg1WFNsYUxBdzRXNldTekNPLUM3d0VDY2JiN2w0QU5wQktMcHNRbWZYbkhFZHhqQlVLNG1LV0pVNlhETEpYRjZaZGNoOGZfLXFnVDZ5aHZSQ3hMclBHa2ZvUl9KWC1vamloaTF4SHR1eXhrMnV0VXhfQzlkYWtfSUVVTVJUWWs?oc=5",
-      "pub_date": "2026-02-24T17:00:00+09:00",
-      "source": "city.maibara.lg.jp",
-      "description": "マイナンバーカードに健康保険証の機能を持たせた「マイナ保険証」への移行に伴い、国民健康保険（国保）加入者の多くと、後期高齢者医療制度の加入者が持つ従来の健康保険証は7月31日に有効期限を迎えた。厚生労働省は、国保加入者には来年3月 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMlRZdS1OdlNINlg1WFNsYUxBdzRXNldTekNPLUM3d0VDY2JiN2w0QU5wQktMcHNRbWZYbkhFZHhqQlVLNG1LV0pVNlhETEpYRjZaZGNoOGZfLXFnVDZ5aHZSQ3hMclBHa2ZvUl9KWC1vamloaTF4SHR1eXhrMnV0VXhfQzlkYWtfSUVVTVJUWWs?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "【マイナ保険証・カードQ&A】導入から10年 個人番号制度は廃止に トラブル続出不所持者への差別も - 全国商工団体連合会",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5jMUsxQUtnWURxdE9lekpnSXl4RnJyNWplTW12TnlrWDZBSVhwMEwwb1F0dFpCdHMtcWVtWHFQOXA4RUxvSmhhYzdLOFZBemE1UmQxRmpsZGRyeVJjMGc?oc=5",
-      "pub_date": "2026-02-23T17:00:00+09:00",
-      "source": "全国商工団体連合会",
-      "description": "全国の医師らで構成する全国保険医団体連合会（保団連）は29日、マイナ保険証利用に伴うトラブルの実態調査結果を公表した。昨年8月以降、12月1日までにマイナンバーカードの有効期限切れが3319件あり、前回の同じ調査（2024年10月）からほぼ倍増した。",
-      "_glink": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5jMUsxQUtnWURxdE9lekpnSXl4RnJyNWplTW12TnlrWDZBSVhwMEwwb1F0dFpCdHMtcWVtWHFQOXA4RUxvSmhhYzdLOFZBemE1UmQxRmpsZGRyeVJjMGc?oc=5",
-      "category": "トラブル",
       "topic": "insurance"
     }
   ]
