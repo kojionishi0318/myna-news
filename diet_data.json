@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T20:59:08+09:00",
+  "updated": "2026-07-14T11:07:43+09:00",
   "total_exchanges": 242,
   "total_questions": 211,
   "total_answers": 114,
@@ -29,6 +29,35 @@
         "excerpt": "○川村雄大君 公明党は、これまで、国民の皆様の、デジタル化による利便性向上、その推進の一環として、デジタルに不慣れな人に対してスマホの操作ですとかオンラインによる行政手続などを丁寧に教えることができるデジタル推進委員の枠組みを推進してまいりました。例えば、薬局にいてマイナ保険証が使えない方に使い方を教えてあげるですとか、",
         "speechURL": "https://kokkai.ndl.go.jp/txt/122114536X00320260529/80",
         "speechOrder": 80
+      },
+      "answers": [],
+      "ai_title": ""
+    },
+    {
+      "issueID": "122104260X01120260522",
+      "session": 221,
+      "nameOfHouse": "衆議院",
+      "nameOfMeeting": "厚生労働委員会",
+      "issue": "第11号",
+      "imageKind": "会議録",
+      "date": "2026-05-22",
+      "question": {
+        "speechID": "122104260X01120260522_000",
+        "issueID": "122104260X01120260522",
+        "session": 221,
+        "nameOfHouse": "衆議院",
+        "nameOfMeeting": "厚生労働委員会",
+        "issue": "第11号",
+        "imageKind": "会議録",
+        "date": "2026-05-22",
+        "speaker": "会議録情報",
+        "speakerGroup": "",
+        "speakerPosition": "",
+        "speakerRole": "",
+        "is_minister": false,
+        "excerpt": "令和八年五月二十二日（金曜日） 午前九時開議 出席委員 委員長 大串 正樹君 理事 畦元 将吾君 理事 井上 信治君 理事 鬼木 誠君 理事 勝目 康君 理事 古賀 篤君 理事 浜地 雅一君 理事 伊東 信久君 理事 浅野 哲君 岩崎 比菜君 上野 宏史君 衛藤 博昭君 岡本 康宏君 尾花 瑛仁君 加藤 貴弘君 金澤 結衣君 草間 剛君 栗原 渉君 斉藤 り…",
+        "speechURL": "https://kokkai.ndl.go.jp/txt/122104260X01120260522/0",
+        "speechOrder": 0
       },
       "answers": [],
       "ai_title": ""
@@ -8523,35 +8552,6 @@
         "excerpt": "○鹿沼政府参考人 お答えいたします。 委員御指摘のとおり、改正前の法令では、災害その他特別の事情なく一年以上保険料を滞納している方については、健康保険証の返還を求め、特別療養費の支給対象としていたところでございます。改正後の法令においても、特別の事情なく一年以上滞納している方を特別療養費の支給対象としており、さらに、",
         "speechURL": "https://kokkai.ndl.go.jp/txt/121604260X00220241218/295",
         "speechOrder": 295
-      },
-      "answers": [],
-      "ai_title": ""
-    },
-    {
-      "issueID": "121604376X00220241218",
-      "session": 216,
-      "nameOfHouse": "衆議院",
-      "nameOfMeeting": "財務金融委員会",
-      "issue": "第2号",
-      "imageKind": "会議録",
-      "date": "2024-12-18",
-      "question": {
-        "speechID": "121604376X00220241218_149",
-        "issueID": "121604376X00220241218",
-        "session": 216,
-        "nameOfHouse": "衆議院",
-        "nameOfMeeting": "財務金融委員会",
-        "issue": "第2号",
-        "imageKind": "会議録",
-        "date": "2024-12-18",
-        "speaker": "川内博史",
-        "speakerGroup": "立憲民主党・無所属",
-        "speakerPosition": "",
-        "speakerRole": "",
-        "is_minister": false,
-        "excerpt": "○川内委員 それでは、今日は、もう一つ、資料をお配りしておりますけれども、政府は、マイナンバーを使ってください、使ってくださいと一生懸命おっしゃるんですが、高齢者の方とか、マイナンバー保険証はよく分からぬ、紙の保険証がいいよという声もいっぱいあるわけですよ。健康保険証は廃止になったけれども、",
-        "speechURL": "https://kokkai.ndl.go.jp/txt/121604376X00220241218/149",
-        "speechOrder": 149
       },
       "answers": [],
       "ai_title": ""
