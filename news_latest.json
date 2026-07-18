@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-17T19:47:49+09:00",
+  "updated": "2026-07-18T11:30:47+09:00",
   "articles": [
     {
       "title": "マイナンバーカードの普及・利用の推進に関する関係省庁連絡会議（第8回）の議事概要を掲載しました",
@@ -140,6 +140,17 @@
       "description": "病院や診療所で処方された薬の情報を時系列で記録する「おくすり手帳」。患者の同意があればマイナ保険証でも投薬履歴は確認できるが、「おくすり手帳」の利便性にはかなわない。『医療費の裏ワザと落とし穴』302回では、マイナ保険証と一緒におくすり手帳も携帯すべき理由をお伝えする。",
       "_glink": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CSTJvNjFPWFROYk10ZUl3MUx0aExpck9ncnY5Yk9iWmxEZWtuOV9oeDRXSGJnQ0YyV0V0TzZRdENzNXkzTGkzT2R1UkJrWmRKRGZGdnp30gFPQVVfeXFMTzNzMTlfZkhlSHNnbnl0VTB4dENyUEQ0cXFPcGg2VnpaZVlHeHM3ZnJUTG9rM25NQ3JvUTdac3c4Vklwal82TXRCdlJJdTR4MA?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CSTJvNjFPWFROYk10ZUl3MUx0aExpck9ncnY5Yk9iWmxEZWtuOV9oeDRXSGJnQ0YyV0V0TzZRdENzNXkzTGkzT2R1UkJrWmRKRGZGdnp30gFPQVVfeXFMTzNzMTlfZkhlSHNnbnl0VTB4dENyUEQ0cXFPcGg2VnpaZVlHeHM3ZnJUTG9rM25NQ3JvUTdac3c4Vklwal82TXRCdlJJdTR4MA?oc=5",
+      "category": "一般",
+      "topic": "insurance"
+    },
+    {
+      "title": "マイナ保険証への移行に伴う要介護・要支援認定申請について（40歳から64歳の方） - city.shunan.lg.jp",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1KSUJmSk1NWDZjNmJZZ19nTEhTU0s0VW5hSVdZemF4SGhDeERDVjVHYWo0cjVVTnhpY2s2UGsxN2hTdnF6bXRBMEJqSmtldVJscjVNa0ZxZEZwcU1CdFU5ZWZ3?oc=5",
+      "pub_date": "2026-07-15T16:00:00+09:00",
+      "source": "city.shunan.lg.jp",
+      "description": "マイナンバーカードに健康保険証の機能を持たせた「マイナ保険証」に12月2日から完全移行するのに伴い、厚生労働省は医療関係団体に対し、来年3月末までは従来の保険証でも窓口で使えるとする特例措置を周知した。 マイナンバーカード（見本 ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1KSUJmSk1NWDZjNmJZZ19nTEhTU0s0VW5hSVdZemF4SGhDeERDVjVHYWo0cjVVTnhpY2s2UGsxN2hTdnF6bXRBMEJqSmtldVJscjVNa0ZxZEZwcU1CdFU5ZWZ3?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1KSUJmSk1NWDZjNmJZZ19nTEhTU0s0VW5hSVdZemF4SGhDeERDVjVHYWo0cjVVTnhpY2s2UGsxN2hTdnF6bXRBMEJqSmtldVJscjVNa0ZxZEZwcU1CdFU5ZWZ3?oc=5",
       "category": "一般",
       "topic": "insurance"
     },
@@ -534,16 +545,6 @@
       "description": "",
       "_glink": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSDJYd1JWZlJwb21BWk9ySUdtdG81Z3lRSWFUTFB5eFBJTkxQWjhOWE01S2FQaEdEZHgyRGZTTGxIZzBEYmFTbWJxWEdGVTNGWHp1cGU0aWRaZ2cxcTE4RzJzb3ZnRjUwalk5djIxQnZJN2lINUZCVUtRb0Fkb0M3MjN1VDBRUWpGeHVzX0J1RFhEcTQ?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSDJYd1JWZlJwb21BWk9ySUdtdG81Z3lRSWFUTFB5eFBJTkxQWjhOWE01S2FQaEdEZHgyRGZTTGxIZzBEYmFTbWJxWEdGVTNGWHp1cGU0aWRaZ2cxcTE4RzJzb3ZnRjUwalk5djIxQnZJN2lINUZCVUtRb0Fkb0M3MjN1VDBRUWpGeHVzX0J1RFhEcTQ?oc=5",
-      "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "自治体・医療機関等をつなぐ情報連携システム（Public Medical Hub：PMH）に係る医療費助成オンライン資格確認の導入済み医療機関・薬局リストを更新しました",
-      "link": "https://www.digital.go.jp/policies/health/public-medical-hub",
-      "pub_date": "2026-07-03T15:00:00+09:00",
-      "source": "デジタル庁",
-      "description": "地域医療DXを支援する株式会社ジェイエムインテグラル（本社：東京都港区、代表取締役：和泉大志）は、2026年度より、元長野県伊那市職員であり、総務省地域情報化アドバイザーを務める安江輝氏が、当社の執行役員に就任したことをお知らせいたします。",
-      "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
       "category": "一般",
       "topic": "insurance"
     }
