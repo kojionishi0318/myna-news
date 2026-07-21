@@ -1,6 +1,38 @@
 {
-  "updated": "2026-07-21T11:22:48+09:00",
+  "updated": "2026-07-21T20:05:24+09:00",
   "articles": [
+    {
+      "title": "マイナ取得義務化を見送り 政府",
+      "link": "https://news.yahoo.co.jp/pickup/6588778?source=rss",
+      "pub_date": "2026-07-21T17:29:51+09:00",
+      "source": "Yahoo!ニュース",
+      "description": "政府は21日、「デジタル社会の実現に向けた重点計画」を閣議決定した。マイナンバーカードの取得義務化については、盛り込むことを見送った。自民党が5月、罰則は設けない形で取得義務化を検討するよう政府に求めていた。",
+      "thumbnail": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/7/21/7053045d745f5d87f23988859e3ad3534f747412b709a13c2bba4fadc998e047.jpg",
+      "category": "制度変更",
+      "topic": "mynumber"
+    },
+    {
+      "title": "マイナンバーカードの取得義務化、政府は見送り 5月に自民党が提言 [マイナ保険証] - 朝日新聞",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9XLUZUdUpPX1lYa3Q4ZnFYaEJfT1paS2ZzcUtPczlQazJjei1tZWRPUU1GVW1SXzc4U2J6U3hhUmlzai1xUExOZEpzc2lWUm9Kc05vdmtZWWJfZUh3MEVzZFRialViYWM?oc=5",
+      "pub_date": "2026-07-21T16:59:30+09:00",
+      "source": "朝日新聞",
+      "description": "政府は21日、「デジタル社会の実現に向けた重点計画」を閣議決定した。マイナンバーカードの取得義務化については、盛り込むことを見送った。自民党が5月、罰則は設けない形で取得義務化を検討するよう政府に求めていた。 松本尚デジタル相が21日の閣議後会見で明らかにした。",
+      "_glink": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9XLUZUdUpPX1lYa3Q4ZnFYaEJfT1paS2ZzcUtPczlQazJjei1tZWRPUU1GVW1SXzc4U2J6U3hhUmlzai1xUExOZEpzc2lWUm9Kc05vdmtZWWJfZUh3MEVzZFRialViYWM?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9XLUZUdUpPX1lYa3Q4ZnFYaEJfT1paS2ZzcUtPczlQazJjei1tZWRPUU1GVW1SXzc4U2J6U3hhUmlzai1xUExOZEpzc2lWUm9Kc05vdmtZWWJfZUh3MEVzZFRialViYWM?oc=5",
+      "category": "制度変更",
+      "topic": "insurance"
+    },
+    {
+      "title": "「紙の保険証」有効の「暫定措置が終了」するとどうなる？ #エキスパートトピ（石田雅彦） - エキスパート - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObzJRSjIwSENmM2NidXdBcFNNZVRCcE5BTk9FQkFwOFA5NmNybUd0VTVPWllkYnpuNE1RS3NsaV85MHhYd2xmWld3VzNZdVNHam1tLS1IQ2ZpUXo5SmpVYUZyT19MZS1EbmdKUlFvSGpVMl9RZlNpZXNzdGttZW42Mk5ZZFZxNmhh?oc=5",
+      "pub_date": "2026-07-21T11:55:16+09:00",
+      "source": "Yahoo!ニュース",
+      "description": "健康保険証が使えなくなる話を聞いたことはないだろうか。従来の健康保険証は2025年12月1日をもって有効期限が終了している。 ただし、有効期限切れの保険証をそのまま使える「暫定措置」が複数回にわたって延長されているため、現在の状況がわかり ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObzJRSjIwSENmM2NidXdBcFNNZVRCcE5BTk9FQkFwOFA5NmNybUd0VTVPWllkYnpuNE1RS3NsaV85MHhYd2xmWld3VzNZdVNHam1tLS1IQ2ZpUXo5SmpVYUZyT19MZS1EbmdKUlFvSGpVMl9RZlNpZXNzdGttZW42Mk5ZZFZxNmhh?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObzJRSjIwSENmM2NidXdBcFNNZVRCcE5BTk9FQkFwOFA5NmNybUd0VTVPWllkYnpuNE1RS3NsaV85MHhYd2xmWld3VzNZdVNHam1tLS1IQ2ZpUXo5SmpVYUZyT19MZS1EbmdKUlFvSGpVMl9RZlNpZXNzdGttZW42Mk5ZZFZxNmhh?oc=5",
+      "category": "制度変更",
+      "topic": "insurance"
+    },
     {
       "title": "紙の保険証、月末終了 スマホ搭載800万人 1年で8倍以上に増加 - 日本経済新聞",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBFZHhxak1fZFpadUdCazc5M04wTmhsZHpZZnVMbGVQRDlfY3F5Z0VaVDQ1OVhLWXNjVVJzMlNnQWUyV1NDUmlzUlhtcWpiUnhVYWRRcGI4QmQ4dGkwd1pETlI2WXJzVkF1dzdEUA?oc=5",
@@ -5342,38 +5374,6 @@
       "_glink": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBqTkhDb0pfcXBpMlUxWE5FTjV0OGg3ejRjOGVfRGFJbzZmNE5KQWN6Y0kzU1ZMSEN2VlV0Q0Y1cy1IbDFzM0NuOEFqcG1naHdyV1BDUVItNTh1NTFBcGc4?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBqTkhDb0pfcXBpMlUxWE5FTjV0OGg3ejRjOGVfRGFJbzZmNE5KQWN6Y0kzU1ZMSEN2VlV0Q0Y1cy1IbDFzM0NuOEFqcG1naHdyV1BDUVItNTh1NTFBcGc4?oc=5",
       "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "「マイナ保険証」の資格確認、大阪府内医療機関の6割以上でトラブル…府保険医協会「従来の保険証を復活させるべきだ」 - 読売新聞オンライン",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE10WjRjN1JtVWFONFl1aXluSWh0aGVQaU14U0J2aHhXN3Y3Rnp0Ul85cEsxcHBiMnA3Z3R6cUpadHFDS1JMWjRzUUIwU2J3eXZmOTR0Rmdid21XTjJGbkpySnEwY0pySUJwdVZuOC1OaElzZw?oc=5",
-      "pub_date": "2026-03-06T17:00:00+09:00",
-      "source": "読売新聞オンライン",
-      "description": "株式会社スガワラくんのプレスリリース（2026年4月21日 10時20分）認知は進むが理解は不十分？マイナ制度のギャップ実態調査　保険証終了、知っているのは6割止まり　有効期限も3割が未理解、7割超が“今後は必要”と回答 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMickFVX3lxTE10WjRjN1JtVWFONFl1aXluSWh0aGVQaU14U0J2aHhXN3Y3Rnp0Ul85cEsxcHBiMnA3Z3R6cUpadHFDS1JMWjRzUUIwU2J3eXZmOTR0Rmdid21XTjJGbkpySnEwY0pySUJwdVZuOC1OaElzZw?oc=5",
-      "category": "トラブル",
-      "topic": "insurance"
-    },
-    {
-      "title": "マイナンバーカードを活用した医療費助成のオンライン資格確認（PMH）の導入について - town.hatoyama.saitama.jp",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOU0w5SENVMmo4SU4zWEkwWnhqMTNWankxc1lNQ0F0dnI5b2oydV95dHhPMDN4RVZuMVRnOHNLQV9JRHBwMzZaaTFJWlVMaUpXNFdXakdZcGpqbkhvcDNZUWUwdXd5SHJ1VTktS3J6SDV1M1hqNmdvRERiQ1VxRGYzY0lYYw?oc=5",
-      "pub_date": "2026-03-06T06:12:04+09:00",
-      "source": "town.hatoyama.saitama.jp",
-      "description": "かかりつけ薬局化支援事業を展開する株式会社ファーマシフト（本社：東京都港区、代表取締役社長：多湖 健太郎、以下「当社」）は、LINE公式アカウントを活用した薬局DXサービス「つながる薬局」において、マイナンバーカードの健康保険証（以下 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOU0w5SENVMmo4SU4zWEkwWnhqMTNWankxc1lNQ0F0dnI5b2oydV95dHhPMDN4RVZuMVRnOHNLQV9JRHBwMzZaaTFJWlVMaUpXNFdXakdZcGpqbkhvcDNZUWUwdXd5SHJ1VTktS3J6SDV1M1hqNmdvRERiQ1VxRGYzY0lYYw?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOU0w5SENVMmo4SU4zWEkwWnhqMTNWankxc1lNQ0F0dnI5b2oydV95dHhPMDN4RVZuMVRnOHNLQV9JRHBwMzZaaTFJWlVMaUpXNFdXakdZcGpqbkhvcDNZUWUwdXd5SHJ1VTktS3J6SDV1M1hqNmdvRERiQ1VxRGYzY0lYYw?oc=5",
-      "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "マイナンバーカードの健康保険証利用について - city.kakuda.lg.jp",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ycTZrXzRxZjFqcGM2UGZrUTJ4RzhnRVlPakx1WFZkdF8zUU5HUVEwaDZIZS1FSUVpdHBMMmFOblNWeGZpYmRhU2Nha2FuQk82RGs1aHVkM1BGUlpVUVJz?oc=5",
-      "pub_date": "2026-03-05T17:00:00+09:00",
-      "source": "city.kakuda.lg.jp",
-      "description": "デジタル大臣を務める平将明氏は6月6日、「iPhoneのマイナンバーカード」を2025年6月24日より提供すると発表した。これは、iPhoneにマイナンバーカード機能を搭載し、物理カードを持ち歩かずに行政サービスが利用できるようにする仕組みだ。 デジタル大臣を ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ycTZrXzRxZjFqcGM2UGZrUTJ4RzhnRVlPakx1WFZkdF8zUU5HUVEwaDZIZS1FSUVpdHBMMmFOblNWeGZpYmRhU2Nha2FuQk82RGs1aHVkM1BGUlpVUVJz?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ycTZrXzRxZjFqcGM2UGZrUTJ4RzhnRVlPakx1WFZkdF8zUU5HUVEwaDZIZS1FSUVpdHBMMmFOblNWeGZpYmRhU2Nha2FuQk82RGs1aHVkM1BGUlpVUVJz?oc=5",
-      "category": "政治",
       "topic": "insurance"
     }
   ]
