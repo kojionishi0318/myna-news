@@ -1,6 +1,38 @@
 {
-  "updated": "2026-07-21T11:42:48+09:00",
+  "updated": "2026-07-21T20:09:31+09:00",
   "articles": [
+    {
+      "title": "マイナ取得義務化を見送り 政府",
+      "link": "https://news.yahoo.co.jp/pickup/6588778?source=rss",
+      "pub_date": "2026-07-21T17:29:51+09:00",
+      "source": "Yahoo!ニュース",
+      "description": "政府は21日、「デジタル社会の実現に向けた重点計画」を閣議決定した。マイナンバーカードの取得義務化については、盛り込むことを見送った。自民党が5月、罰則は設けない形で取得義務化を検討するよう政府に求めていた。",
+      "thumbnail": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/7/21/7053045d745f5d87f23988859e3ad3534f747412b709a13c2bba4fadc998e047.jpg",
+      "category": "制度変更",
+      "topic": "mynumber"
+    },
+    {
+      "title": "マイナンバーカードの取得義務化、政府は見送り 5月に自民党が提言 [マイナ保険証] - 朝日新聞",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9XLUZUdUpPX1lYa3Q4ZnFYaEJfT1paS2ZzcUtPczlQazJjei1tZWRPUU1GVW1SXzc4U2J6U3hhUmlzai1xUExOZEpzc2lWUm9Kc05vdmtZWWJfZUh3MEVzZFRialViYWM?oc=5",
+      "pub_date": "2026-07-21T16:59:30+09:00",
+      "source": "朝日新聞",
+      "description": "政府は21日、「デジタル社会の実現に向けた重点計画」を閣議決定した。マイナンバーカードの取得義務化については、盛り込むことを見送った。自民党が5月、罰則は設けない形で取得義務化を検討するよう政府に求めていた。 松本尚デジタル相が21日の閣議後会見で明らかにした。",
+      "_glink": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9XLUZUdUpPX1lYa3Q4ZnFYaEJfT1paS2ZzcUtPczlQazJjei1tZWRPUU1GVW1SXzc4U2J6U3hhUmlzai1xUExOZEpzc2lWUm9Kc05vdmtZWWJfZUh3MEVzZFRialViYWM?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9XLUZUdUpPX1lYa3Q4ZnFYaEJfT1paS2ZzcUtPczlQazJjei1tZWRPUU1GVW1SXzc4U2J6U3hhUmlzai1xUExOZEpzc2lWUm9Kc05vdmtZWWJfZUh3MEVzZFRialViYWM?oc=5",
+      "category": "制度変更",
+      "topic": "insurance"
+    },
+    {
+      "title": "「紙の保険証」有効の「暫定措置が終了」するとどうなる？ #エキスパートトピ（石田雅彦） - エキスパート - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObzJRSjIwSENmM2NidXdBcFNNZVRCcE5BTk9FQkFwOFA5NmNybUd0VTVPWllkYnpuNE1RS3NsaV85MHhYd2xmWld3VzNZdVNHam1tLS1IQ2ZpUXo5SmpVYUZyT19MZS1EbmdKUlFvSGpVMl9RZlNpZXNzdGttZW42Mk5ZZFZxNmhh?oc=5",
+      "pub_date": "2026-07-21T11:55:16+09:00",
+      "source": "Yahoo!ニュース",
+      "description": "健康保険証が使えなくなる話を聞いたことはないだろうか。従来の健康保険証は2025年12月1日をもって有効期限が終了している。 ただし、有効期限切れの保険証をそのまま使える「暫定措置」が複数回にわたって延長されているため、現在の状況がわかり ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObzJRSjIwSENmM2NidXdBcFNNZVRCcE5BTk9FQkFwOFA5NmNybUd0VTVPWllkYnpuNE1RS3NsaV85MHhYd2xmWld3VzNZdVNHam1tLS1IQ2ZpUXo5SmpVYUZyT19MZS1EbmdKUlFvSGpVMl9RZlNpZXNzdGttZW42Mk5ZZFZxNmhh?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObzJRSjIwSENmM2NidXdBcFNNZVRCcE5BTk9FQkFwOFA5NmNybUd0VTVPWllkYnpuNE1RS3NsaV85MHhYd2xmWld3VzNZdVNHam1tLS1IQ2ZpUXo5SmpVYUZyT19MZS1EbmdKUlFvSGpVMl9RZlNpZXNzdGttZW42Mk5ZZFZxNmhh?oc=5",
+      "category": "制度変更",
+      "topic": "insurance"
+    },
     {
       "title": "紙の保険証、月末終了 スマホ搭載800万人 1年で8倍以上に増加 - 日本経済新聞",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBFZHhxak1fZFpadUdCazc5M04wTmhsZHpZZnVMbGVQRDlfY3F5Z0VaVDQ1OVhLWXNjVVJzMlNnQWUyV1NDUmlzUlhtcWpiUnhVYWRRcGI4QmQ4dGkwd1pETlI2WXJzVkF1dzdEUA?oc=5",
@@ -514,39 +546,6 @@
       "_resolved_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPamRyTmFYdTU4N2N5bVNLNEp1d3lWYm9JNHViS1A1WnJ5VDhzNjBBYW9BY2puaGx0LU1ZVzdrTDVDU0xNeXhTRW5YVURkZjZ4T3poaXU5VUhTcEJWZHRWVVEtZHJsSW9GMVhuZm5yV1RyMXNtZHVQTW5VUlNkS01NbEg2XzVwb3pnSXJQeWJvd1V2Z0R2SmRnLUJaQ1BYQ1E?oc=5",
       "category": "制度変更",
       "topic": "insurance"
-    },
-    {
-      "title": "8月以降、期限切れ健康保険証は持参忘れと同様の対応に - 日経メディカル",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9GdVNJZmc1VW53aDV1WmZQOV9WVzNSYWtSQTZLaTNOMDYxY09pX1hRblhlR1VycXhoMUdNYzdERXJPcFhDNnZtMWVsUFlpNG51V185czhRMjZTRmJmaWlnZmk2MWppV3paNmY4LTNvd1VIU2Q5ejlQdm1UZw?oc=5",
-      "pub_date": "2026-07-07T00:45:02+09:00",
-      "source": "日経メディカル",
-      "description": "12月2日から、会社員やその家族が加入する健康保険組合の健康保険証に代わって、マイナンバーカードに健康保険証の機能をもたせた「マイナ保険証」の利用が原則となった。1日までで全ての健康保険証の有効期限が切れたため。厚生労働省は患者が期限 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9GdVNJZmc1VW53aDV1WmZQOV9WVzNSYWtSQTZLaTNOMDYxY09pX1hRblhlR1VycXhoMUdNYzdERXJPcFhDNnZtMWVsUFlpNG51V185czhRMjZTRmJmaWlnZmk2MWppV3paNmY4LTNvd1VIU2Q5ejlQdm1UZw?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9GdVNJZmc1VW53aDV1WmZQOV9WVzNSYWtSQTZLaTNOMDYxY09pX1hRblhlR1VycXhoMUdNYzdERXJPcFhDNnZtMWVsUFlpNG51V185czhRMjZTRmJmaWlnZmk2MWppV3paNmY4LTNvd1VIU2Q5ejlQdm1UZw?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "（国民健康保険・後期高齢者医療）令和8年8月の資格確認書等の更新について - city.kanazawa.lg.jp",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE13THA5akdqdDlGVjhXN0VUMDNiMkxKMkh4d3NxQ0RVemlMWE4wZm9MTVFUVGs0RlQyTkxiMnVXME5TakpIamhkd0xwQU1vbGRzTlE3S1VkWmJmX2ky?oc=5",
-      "pub_date": "2026-07-07T00:07:30+09:00",
-      "source": "city.kanazawa.lg.jp",
-      "description": "年金受給者の多くは、国民健康保険に加入します。今年度の保険料の支払いは、基本的に3月分で終了です。2026年度の保険料は、4月から6月までの間に決定されます。 【写真】後期高齢者医療保険「医療費」の窓口負担割合「1割・2割・3割」わたしの年収 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE13THA5akdqdDlGVjhXN0VUMDNiMkxKMkh4d3NxQ0RVemlMWE4wZm9MTVFUVGs0RlQyTkxiMnVXME5TakpIamhkd0xwQU1vbGRzTlE3S1VkWmJmX2ky?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE13THA5akdqdDlGVjhXN0VUMDNiMkxKMkh4d3NxQ0RVemlMWE4wZm9MTVFUVGs0RlQyTkxiMnVXME5TakpIamhkd0xwQU1vbGRzTlE3S1VkWmJmX2ky?oc=5",
-      "category": "統計",
-      "topic": "insurance"
-    },
-    {
-      "title": "熱田区長の部屋（令和8年7月から9月）｜熱田区公式ウェブサイト - city.nagoya.jp",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBDYTl3MW5xZ3QwRGRvU25VU0Q0dWZ1Ul83UjFtWnRwUFJDT3ZVU1g1dHBpb1lKU212dEZTVnNGUnJBbjZuWVRyT0NYbWNyRElEeXRpNXVjdDhHb2pNVzJKdVh2TUVKU2s1bFhBTjdaaDRlMS1PNWZlS0ln?oc=5",
-      "pub_date": "2026-07-06T12:00:22+09:00",
-      "source": "city.nagoya.jp",
-      "description": "",
-      "_glink": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBDYTl3MW5xZ3QwRGRvU25VU0Q0dWZ1Ul83UjFtWnRwUFJDT3ZVU1g1dHBpb1lKU212dEZTVnNGUnJBbjZuWVRyT0NYbWNyRElEeXRpNXVjdDhHb2pNVzJKdVh2TUVKU2s1bFhBTjdaaDRlMS1PNWZlS0ln?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBDYTl3MW5xZ3QwRGRvU25VU0Q0dWZ1Ul83UjFtWnRwUFJDT3ZVU1g1dHBpb1lKU212dEZTVnNGUnJBbjZuWVRyT0NYbWNyRElEeXRpNXVjdDhHb2pNVzJKdVh2TUVKU2s1bFhBTjdaaDRlMS1PNWZlS0ln?oc=5",
-      "category": "一般",
-      "topic": "mynumber"
     }
   ],
   "total": 500

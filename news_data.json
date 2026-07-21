@@ -1,6 +1,38 @@
 {
-  "updated": "2026-07-21T11:42:48+09:00",
+  "updated": "2026-07-21T20:09:31+09:00",
   "articles": [
+    {
+      "title": "マイナ取得義務化を見送り 政府",
+      "link": "https://news.yahoo.co.jp/pickup/6588778?source=rss",
+      "pub_date": "2026-07-21T17:29:51+09:00",
+      "source": "Yahoo!ニュース",
+      "description": "政府は21日、「デジタル社会の実現に向けた重点計画」を閣議決定した。マイナンバーカードの取得義務化については、盛り込むことを見送った。自民党が5月、罰則は設けない形で取得義務化を検討するよう政府に求めていた。",
+      "thumbnail": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/7/21/7053045d745f5d87f23988859e3ad3534f747412b709a13c2bba4fadc998e047.jpg",
+      "category": "制度変更",
+      "topic": "mynumber"
+    },
+    {
+      "title": "マイナンバーカードの取得義務化、政府は見送り 5月に自民党が提言 [マイナ保険証] - 朝日新聞",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9XLUZUdUpPX1lYa3Q4ZnFYaEJfT1paS2ZzcUtPczlQazJjei1tZWRPUU1GVW1SXzc4U2J6U3hhUmlzai1xUExOZEpzc2lWUm9Kc05vdmtZWWJfZUh3MEVzZFRialViYWM?oc=5",
+      "pub_date": "2026-07-21T16:59:30+09:00",
+      "source": "朝日新聞",
+      "description": "政府は21日、「デジタル社会の実現に向けた重点計画」を閣議決定した。マイナンバーカードの取得義務化については、盛り込むことを見送った。自民党が5月、罰則は設けない形で取得義務化を検討するよう政府に求めていた。 松本尚デジタル相が21日の閣議後会見で明らかにした。",
+      "_glink": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9XLUZUdUpPX1lYa3Q4ZnFYaEJfT1paS2ZzcUtPczlQazJjei1tZWRPUU1GVW1SXzc4U2J6U3hhUmlzai1xUExOZEpzc2lWUm9Kc05vdmtZWWJfZUh3MEVzZFRialViYWM?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9XLUZUdUpPX1lYa3Q4ZnFYaEJfT1paS2ZzcUtPczlQazJjei1tZWRPUU1GVW1SXzc4U2J6U3hhUmlzai1xUExOZEpzc2lWUm9Kc05vdmtZWWJfZUh3MEVzZFRialViYWM?oc=5",
+      "category": "制度変更",
+      "topic": "insurance"
+    },
+    {
+      "title": "「紙の保険証」有効の「暫定措置が終了」するとどうなる？ #エキスパートトピ（石田雅彦） - エキスパート - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObzJRSjIwSENmM2NidXdBcFNNZVRCcE5BTk9FQkFwOFA5NmNybUd0VTVPWllkYnpuNE1RS3NsaV85MHhYd2xmWld3VzNZdVNHam1tLS1IQ2ZpUXo5SmpVYUZyT19MZS1EbmdKUlFvSGpVMl9RZlNpZXNzdGttZW42Mk5ZZFZxNmhh?oc=5",
+      "pub_date": "2026-07-21T11:55:16+09:00",
+      "source": "Yahoo!ニュース",
+      "description": "健康保険証が使えなくなる話を聞いたことはないだろうか。従来の健康保険証は2025年12月1日をもって有効期限が終了している。 ただし、有効期限切れの保険証をそのまま使える「暫定措置」が複数回にわたって延長されているため、現在の状況がわかり ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObzJRSjIwSENmM2NidXdBcFNNZVRCcE5BTk9FQkFwOFA5NmNybUd0VTVPWllkYnpuNE1RS3NsaV85MHhYd2xmWld3VzNZdVNHam1tLS1IQ2ZpUXo5SmpVYUZyT19MZS1EbmdKUlFvSGpVMl9RZlNpZXNzdGttZW42Mk5ZZFZxNmhh?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObzJRSjIwSENmM2NidXdBcFNNZVRCcE5BTk9FQkFwOFA5NmNybUd0VTVPWllkYnpuNE1RS3NsaV85MHhYd2xmWld3VzNZdVNHam1tLS1IQ2ZpUXo5SmpVYUZyT19MZS1EbmdKUlFvSGpVMl9RZlNpZXNzdGttZW42Mk5ZZFZxNmhh?oc=5",
+      "category": "制度変更",
+      "topic": "insurance"
+    },
     {
       "title": "紙の保険証、月末終了 スマホ搭載800万人 1年で8倍以上に増加 - 日本経済新聞",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBFZHhxak1fZFpadUdCazc5M04wTmhsZHpZZnVMbGVQRDlfY3F5Z0VaVDQ1OVhLWXNjVVJzMlNnQWUyV1NDUmlzUlhtcWpiUnhVYWRRcGI4QmQ4dGkwd1pETlI2WXJzVkF1dzdEUA?oc=5",
@@ -5403,39 +5435,6 @@
       "_glink": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBmWXJMTTVWaThZVXBReE9CWWw4cm56elFwSkV5SFJlam9adzJCMGhPTk5OcVdpMXVaZ0FocTczZDdDZTJMZERWOWZ2RWo2Q2RtVVNEaVhnMllCaVlz?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBmWXJMTTVWaThZVXBReE9CWWw4cm56elFwSkV5SFJlam9adzJCMGhPTk5OcVdpMXVaZ0FocTczZDdDZTJMZERWOWZ2RWo2Q2RtVVNEaVhnMllCaVlz?oc=5",
       "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "国民健康保険証の有効期限到来後について - city.kai.yamanashi.jp",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBhQ2hNRmdMRGdNZkc3WGxDT1NMczBxMlV0bVREMXREVzdqOUJBdGdXUzctdGZxNGdqVlFRd0tMdm00eFRzQS1RUWhVY2trY3lubnNQYllWZlY2aDI0?oc=5",
-      "pub_date": "2026-03-10T17:06:35+09:00",
-      "source": "city.kai.yamanashi.jp",
-      "description": "「後期高齢者医療制度」と「国民健康保険」が7月末に期限切れを迎えました。手持ちの保険証の有効期限の確認方法や、今後の受診の際に必要なものについて、わかりやすく解説します。 8月に入り、「国民健康保険」などの保険証が今後随時有効期限を ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBhQ2hNRmdMRGdNZkc3WGxDT1NMczBxMlV0bVREMXREVzdqOUJBdGdXUzctdGZxNGdqVlFRd0tMdm00eFRzQS1RUWhVY2trY3lubnNQYllWZlY2aDI0?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBhQ2hNRmdMRGdNZkc3WGxDT1NMczBxMlV0bVREMXREVzdqOUJBdGdXUzctdGZxNGdqVlFRd0tMdm00eFRzQS1RUWhVY2trY3lubnNQYllWZlY2aDI0?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "医療費助成制度のPMH（Public Medical Hub）先行実施事業『マイナンバーカードを医療費助成の受給者証として利用できます』 - city.joyo.kyoto.jp",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBLZ1libFBGLTdZX1hRXy1tQzhXNExKTTJQX3RxcC1JazZtYUw0ZXZBTkVSUDkwNVRISlVRWDRYZG9iZms3MXFQRmF0aE9aWXU2X1RwQnh1UXpGUQ?oc=5",
-      "pub_date": "2026-03-10T16:00:00+09:00",
-      "source": "city.joyo.kyoto.jp",
-      "description": "シミックホールディングス株式会社（本社：東京都港区、代表取締役CEO 中村 和男）のグループ会社であるCMIC Trust株式会社（本社：東京都港区、代表取締役 秋田 昌男、以下：CMIC Trust）は、令和8年度より山梨県（知事：長崎 幸太郎）と共に新たな重度心身 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBLZ1libFBGLTdZX1hRXy1tQzhXNExKTTJQX3RxcC1JazZtYUw0ZXZBTkVSUDkwNVRISlVRWDRYZG9iZms3MXFQRmF0aE9aWXU2X1RwQnh1UXpGUQ?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBLZ1libFBGLTdZX1hRXy1tQzhXNExKTTJQX3RxcC1JazZtYUw0ZXZBTkVSUDkwNVRISlVRWDRYZG9iZms3MXFQRmF0aE9aWXU2X1RwQnh1UXpGUQ?oc=5",
-      "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "「健康保険証は残すべき」という声が多数！健康保険証の廃止に対する国民の反応とマイナ保険証の実態を徹底調査 - PR TIMES",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5IS2E0M3B0NHNkVGNzYmJWWlh0QXhsNktQdlRuSEhnTnlSMmxhZTZ1ZExlV0NPdk9OaG1RMkVKa3dNb0lJakwwXzhHSy02NWs0aEhqS3NBZU1IbVJJRVE3UlJzVTQ4b2EtLXc?oc=5",
-      "pub_date": "2026-03-10T16:00:00+09:00",
-      "source": "PR TIMES",
-      "description": "健康保険証は残すべき？それとも廃止？ デジタルマーケティングの株式会社バリューファースト（本社：神奈川県横浜市、代表取締役：佐野 聡士、以下バリューファースト）が運営する「みんなの声研究Lab」では20代以上の男女400名を対象に「健康保険証の ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5IS2E0M3B0NHNkVGNzYmJWWlh0QXhsNktQdlRuSEhnTnlSMmxhZTZ1ZExlV0NPdk9OaG1RMkVKa3dNb0lJakwwXzhHSy02NWs0aEhqS3NBZU1IbVJJRVE3UlJzVTQ4b2EtLXc?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5IS2E0M3B0NHNkVGNzYmJWWlh0QXhsNktQdlRuSEhnTnlSMmxhZTZ1ZExlV0NPdk9OaG1RMkVKa3dNb0lJakwwXzhHSy02NWs0aEhqS3NBZU1IbVJJRVE3UlJzVTQ4b2EtLXc?oc=5",
-      "category": "制度変更",
       "topic": "insurance"
     }
   ]
