@@ -1,8 +1,8 @@
 {
-  "updated": "2026-07-21T20:09:40+09:00",
-  "total_exchanges": 244,
-  "total_questions": 213,
-  "total_answers": 114,
+  "updated": "2026-07-22T11:40:26+09:00",
+  "total_exchanges": 246,
+  "total_questions": 215,
+  "total_answers": 115,
   "exchanges": [
     {
       "issueID": "122105261X01420260604",
@@ -145,6 +145,35 @@
         "excerpt": "○秋野公造君 最後にしますけど、十六ページの、マイナンバーカード、金属チップから被保険者番号を読み込み、保険請求がされておりまして、この加入する保険者が変わる際に多数回該当のカウントが初期化される仕組みについて、被保険者番号を参照しており、履歴も突合されておりますので、これはやろうと思ったらできるという理解でよろしいか、お答えをください。",
         "speechURL": "https://kokkai.ndl.go.jp/txt/122114260X00820260526/170",
         "speechOrder": 170
+      },
+      "answers": [],
+      "ai_title": ""
+    },
+    {
+      "issueID": "122114103X00420260525",
+      "session": 221,
+      "nameOfHouse": "参議院",
+      "nameOfMeeting": "決算委員会",
+      "issue": "第4号",
+      "imageKind": "会議録",
+      "date": "2026-05-25",
+      "question": {
+        "speechID": "122114103X00420260525_247",
+        "issueID": "122114103X00420260525",
+        "session": 221,
+        "nameOfHouse": "参議院",
+        "nameOfMeeting": "決算委員会",
+        "issue": "第4号",
+        "imageKind": "会議録",
+        "date": "2026-05-25",
+        "speaker": "原田祐平",
+        "speakerGroup": "",
+        "speakerPosition": "会計検査院長",
+        "speakerRole": "",
+        "is_minister": false,
+        "excerpt": "○会計検査院長（原田祐平君） 会計検査院は、国会法第百五条の規定に基づき令和六年六月十日付けで参議院議長から会計検査及びその結果の報告の要請がありました「マイナポイント事業の実施状況等」につきまして、総務省等を対象に検査を行い、会計検査院法第三十条の三の規定に基づき八年五月十五日にその結果の報告書を提出いたしました。その報告書の概要を御説明いたします。",
+        "speechURL": "https://kokkai.ndl.go.jp/txt/122114103X00420260525/247",
+        "speechOrder": 247
       },
       "answers": [],
       "ai_title": ""
@@ -369,6 +398,54 @@
         "speechOrder": 15
       },
       "answers": [],
+      "ai_title": ""
+    },
+    {
+      "issueID": "122104889X01020260513",
+      "session": 221,
+      "nameOfHouse": "衆議院",
+      "nameOfMeeting": "内閣委員会",
+      "issue": "第10号",
+      "imageKind": "会議録",
+      "date": "2026-05-13",
+      "question": {
+        "speechID": "122104889X01020260513_024",
+        "issueID": "122104889X01020260513",
+        "session": 221,
+        "nameOfHouse": "衆議院",
+        "nameOfMeeting": "内閣委員会",
+        "issue": "第10号",
+        "imageKind": "会議録",
+        "date": "2026-05-13",
+        "speaker": "安藤たかお",
+        "speakerGroup": "自由民主党・無所属の会",
+        "speakerPosition": "",
+        "speakerRole": "",
+        "is_minister": false,
+        "excerpt": "○安藤委員 御丁寧な御説明、どうもありがとうございました。 是非、今おっしゃったように実効性と現場の負担、両面を考えてよろしくお願いしたい、そう思っております。 次に、三番目の質問ですけれども、サイバーセキュリティーに関してでございます。これも政府参考人の方にお願いしたいと思っております。",
+        "speechURL": "https://kokkai.ndl.go.jp/txt/122104889X01020260513/24",
+        "speechOrder": 24
+      },
+      "answers": [
+        {
+          "speechID": "122104889X01020260513_027",
+          "issueID": "122104889X01020260513",
+          "session": 221,
+          "nameOfHouse": "衆議院",
+          "nameOfMeeting": "内閣委員会",
+          "issue": "第10号",
+          "imageKind": "会議録",
+          "date": "2026-05-13",
+          "speaker": "森真弘",
+          "speakerGroup": "",
+          "speakerPosition": "厚生労働省大臣官房医薬産業振興・医療情報審議官",
+          "speakerRole": "",
+          "is_minister": true,
+          "excerpt": "○森政府参考人 社会保険診療報酬審査支払基金についてでございますが、委員御指摘のとおり、昨年成立いたしました医療法の改正によりまして、本年十月から、医療ＤＸの運営に係る母体として、医療情報基盤・診療報酬審査支払機構へというふうに改組される予定でございます。 同機構がシステムの運用、保守等を行う、これは三つほどございまして、電子処方箋管理サービス、",
+          "speechURL": "https://kokkai.ndl.go.jp/txt/122104889X01020260513/27",
+          "speechOrder": 27
+        }
+      ],
       "ai_title": ""
     },
     {
