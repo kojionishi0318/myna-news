@@ -1,6 +1,60 @@
 {
-  "updated": "2026-07-23T11:26:11+09:00",
+  "updated": "2026-07-23T20:07:21+09:00",
   "articles": [
+    {
+      "title": "広報資料におけるマイナンバーカード活用等に関する周知用資料を更新しました",
+      "link": "https://www.digital.go.jp/policies/mynumber_resources",
+      "pub_date": "2026-07-23T15:00:00+09:00",
+      "source": "デジタル庁",
+      "description": "総務省は、行政手続における特定の個人を識別するための番号の利用等に関する法律施行規則等の一部を改正する命令（案）をとりまとめました。 つきましては、当該案について、令和8年2月 14 日（土）から令和8年3月 16 日（月）までの間、意見を募集します ...",
+      "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
+      "category": "制度変更",
+      "topic": "mynumber"
+    },
+    {
+      "title": "病院・薬局の受付でスマホタッチ、パナソニックが新型マイナ保険証リーダー発表 - ケータイ Watch",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TRWcyaE1NRkpUUzg4allNcHo5ZENJWW43Y2RhMFYtcjBYWWdHdThMLVhFV2prbWxkM2hQbWlKNG83QXNqNlVRRHFPMEh6M0ZJXy11MUJ4YXZ2T1F0b3ZKWTNmUEJkZmM?oc=5",
+      "pub_date": "2026-07-23T12:33:44+09:00",
+      "source": "ケータイ Watch",
+      "description": "リコー子会社でスキャナーの製造などを手がけるPFU（石川県かほく市）は、病院や薬局用の顔認証機能付きマイナンバーカードリーダーの新製品を10月に発売すると発表した。2025年9月から開始したスマートフォンのマイナ保険証にも対応する。 大画面、省 ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TRWcyaE1NRkpUUzg4allNcHo5ZENJWW43Y2RhMFYtcjBYWWdHdThMLVhFV2prbWxkM2hQbWlKNG83QXNqNlVRRHFPMEh6M0ZJXy11MUJ4YXZ2T1F0b3ZKWTNmUEJkZmM?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TRWcyaE1NRkpUUzg4allNcHo5ZENJWW43Y2RhMFYtcjBYWWdHdThMLVhFV2prbWxkM2hQbWlKNG83QXNqNlVRRHFPMEh6M0ZJXy11MUJ4YXZ2T1F0b3ZKWTNmUEJkZmM?oc=5",
+      "category": "一般",
+      "topic": "insurance"
+    },
+    {
+      "title": "保険証終了「知らない」約5.5割、手続き未完了が約5割。マイナ保険証移行、「認知」と「手続き完了」の両方が追いついていない実態 - PR TIMES",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9NeFMyQTcxcG9lQnh1SUkza1hHZHdJV1N0d0RIbjJHM3BaMjNOc1FEYmpUTkszZU83dEcxMnZBbExZajJ4WVZLcmk3ZzdYbEpTRTdfeEtuc0hfWl92VFlpblBSRmRqcXI2R1E?oc=5",
+      "pub_date": "2026-07-23T11:00:03+09:00",
+      "source": "PR TIMES",
+      "description": "現行保険証の特例終了に関する実態調査 通信困窮者支援事業を展開する「誰でもスマホリサーチセンター（本社：東京都豊島区、代表取締役：高橋翼）」は、携帯電話を持てなかった・止まっていた時期がある481名を対象に、従来の健康保険証が使える特例措置終了（2026年7月末）に関する実態調査を実施しました。",
+      "_glink": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9NeFMyQTcxcG9lQnh1SUkza1hHZHdJV1N0d0RIbjJHM3BaMjNOc1FEYmpUTkszZU83dEcxMnZBbExZajJ4WVZLcmk3ZzdYbEpTRTdfeEtuc0hfWl92VFlpblBSRmRqcXI2R1E?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9NeFMyQTcxcG9lQnh1SUkza1hHZHdJV1N0d0RIbjJHM3BaMjNOc1FEYmpUTkszZU83dEcxMnZBbExZajJ4WVZLcmk3ZzdYbEpTRTdfeEtuc0hfWl92VFlpblBSRmRqcXI2R1E?oc=5",
+      "category": "使い方",
+      "topic": "insurance"
+    },
+    {
+      "title": "マイナンバーカードを持ち歩くのが面倒な人が「今すぐやるべきこと」 - ダイヤモンド・オンライン",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MZDdjajFXd0ZGbTJLVFZ5TWJjbEI2WmJyejFqcnpOVHdhclF2M0ZDQjdMUnZUVXMzY3VxbkRzVmQ1QjQwUHBHRjFoZHlmLTA5SmRqRW530gFPQVVfeXFMTTRiLURGcUFrZm9CSXY3MEJTUlVITFdCOGdUa0dMcTFjWGptUzNBSkEwVnk1RV9WVThXTWpVNVdGbmxZRk9GU0lrNjA2QWZwNA?oc=5",
+      "pub_date": "2026-07-23T11:00:00+09:00",
+      "source": "ダイヤモンド・オンライン",
+      "description": "7月31日、100年続いた従来の健康保険証が、その役目を終える。公的医療保険の加入先を確認する方法が、マイナ保険証や資格確認書に切り替わったことに伴い、期限切れの健康保険証でも受診できる特例措置が完全に終了する。連載『医療費の裏ワザと落とし穴』309 ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MZDdjajFXd0ZGbTJLVFZ5TWJjbEI2WmJyejFqcnpOVHdhclF2M0ZDQjdMUnZUVXMzY3VxbkRzVmQ1QjQwUHBHRjFoZHlmLTA5SmRqRW530gFPQVVfeXFMTTRiLURGcUFrZm9CSXY3MEJTUlVITFdCOGdUa0dMcTFjWGptUzNBSkEwVnk1RV9WVThXTWpVNVdGbmxZRk9GU0lrNjA2QWZwNA?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MZDdjajFXd0ZGbTJLVFZ5TWJjbEI2WmJyejFqcnpOVHdhclF2M0ZDQjdMUnZUVXMzY3VxbkRzVmQ1QjQwUHBHRjFoZHlmLTA5SmRqRW530gFPQVVfeXFMTTRiLURGcUFrZm9CSXY3MEJTUlVITFdCOGdUa0dMcTFjWGptUzNBSkEwVnk1RV9WVThXTWpVNVdGbmxZRk9GU0lrNjA2QWZwNA?oc=5",
+      "category": "制度変更",
+      "topic": "insurance"
+    },
+    {
+      "title": "パナソニック、マイナ保険証リーダー刷新 端末一体型で省スペース実現、37万円台 - BigGo ファイナンス",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1oV0tSSGNiVHU1MGp1aThOZDd5aHlPN2pSVTA5YVpHNGFoeEdZLVVjNm01cGFRSm1lc0tuem1HcFQ2RHhfWVZaaUJzQ1BxSUdIX19aWWhpQnhWMjdHTUVoSEd2UzJvQ29QMk5YQm1IWEc4bThE?oc=5",
+      "pub_date": "2026-07-23T07:45:00+09:00",
+      "source": "BigGo ファイナンス",
+      "description": "厚生労働省は6月18日、マイナ保険証の受付に使う「第2世代（次期）顔認証付きカードリーダー」の販売が2026年度から順次始まったことを、社会保障審議会医療保険部会の資料で明らかにした。最大の特徴は、本体だけでスマートフォンのマイナ保険証を ...",
+      "_glink": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1oV0tSSGNiVHU1MGp1aThOZDd5aHlPN2pSVTA5YVpHNGFoeEdZLVVjNm01cGFRSm1lc0tuem1HcFQ2RHhfWVZaaUJzQ1BxSUdIX19aWWhpQnhWMjdHTUVoSEd2UzJvQ29QMk5YQm1IWEc4bThE?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1oV0tSSGNiVHU1MGp1aThOZDd5aHlPN2pSVTA5YVpHNGFoeEdZLVVjNm01cGFRSm1lc0tuem1HcFQ2RHhfWVZaaUJzQ1BxSUdIX19aWWhpQnhWMjdHTUVoSEd2UzJvQ29QMk5YQm1IWEc4bThE?oc=5",
+      "category": "一般",
+      "topic": "insurance"
+    },
     {
       "title": "マイナ保険証への切り替え - 浅田会計事務所",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1GWm8xOGFCMWQ1V1NySjFFTHdqZm1NT082VG9SRzhBUjZGN1JrUTNULU1xZkxvNC1GQndycFM3RTlqNTdjcVRWWExSZ0RKQlVDY1JKMGprMA?oc=5",
@@ -13,6 +67,17 @@
       "topic": "insurance"
     },
     {
+      "title": "パナソニック、病院向け「マイナ保険証リーダー」刷新 PC内蔵で省スペース化 スマホ対応 - au Webポータル",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAyS2tRcmt2UzUyLVU4RGJzNXM3czlrbjBsWDc1d24xdENjbU5FMkdrUjFGbU1nbTNTQV9zSXNMMnNxWEZnVW9DamI3aEMwNVlBZWRpRWNtdDctbjktWEhNclJBU3RvT0swY1gxc2h3M0V3YllVY0tqdTVodw?oc=5",
+      "pub_date": "2026-07-23T06:21:59+09:00",
+      "source": "au Webポータル",
+      "description": "パナソニック コネクトは7月22日、医療機関・薬局向け「顔認証付きカードリーダー」の新モデル（XC-STFR3J-MN）を発表した。8月24日に発売する。直販価格は37万9500円（税込）。 目玉は、読み取った保険資格情報を確認するための専用PC「資格確認端末」を本体に内蔵した点だ。",
+      "_glink": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAyS2tRcmt2UzUyLVU4RGJzNXM3czlrbjBsWDc1d24xdENjbU5FMkdrUjFGbU1nbTNTQV9zSXNMMnNxWEZnVW9DamI3aEMwNVlBZWRpRWNtdDctbjktWEhNclJBU3RvT0swY1gxc2h3M0V3YllVY0tqdTVodw?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAyS2tRcmt2UzUyLVU4RGJzNXM3czlrbjBsWDc1d24xdENjbU5FMkdrUjFGbU1nbTNTQV9zSXNMMnNxWEZnVW9DamI3aEMwNVlBZWRpRWNtdDctbjktWEhNclJBU3RvT0swY1gxc2h3M0V3YllVY0tqdTVodw?oc=5",
+      "category": "一般",
+      "topic": "insurance"
+    },
+    {
       "title": "パナソニック、病院向け「マイナ保険証リーダー」刷新 PC内蔵で省スペース化 スマホ対応 - CNET Japan",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0zRDZyTnpJbDNHYkE0ejNnN3dLRFo4MThLczZlYzJpYmJYdE1xSWNMMEY1X3BKTm1SMzdUVUUzNVBCelNlNnVleUxQRjZOdUpCZGc?oc=5",
       "pub_date": "2026-07-23T05:55:00+09:00",
@@ -20,6 +85,17 @@
       "description": "パナソニック コネクトは7月22日、医療機関・薬局向け「顔認証付きカードリーダー」の新モデル（XC-STFR3J-MN）を発表した。8月24日に発売する。直販価格は37万9500円（税込）。 目玉は、読み取った保険資格情報を確認するための専用PC「資格確認端末」を本体に内蔵した点だ。",
       "_glink": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0zRDZyTnpJbDNHYkE0ejNnN3dLRFo4MThLczZlYzJpYmJYdE1xSWNMMEY1X3BKTm1SMzdUVUUzNVBCelNlNnVleUxQRjZOdUpCZGc?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0zRDZyTnpJbDNHYkE0ejNnN3dLRFo4MThLczZlYzJpYmJYdE1xSWNMMEY1X3BKTm1SMzdUVUUzNVBCelNlNnVleUxQRjZOdUpCZGc?oc=5",
+      "category": "一般",
+      "topic": "insurance"
+    },
+    {
+      "title": "新型マイナ保険証読み取り機 パナソニック系 別端末不要に - テレ東BIZ",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5KZDMxbUxWUWRVSC1uNHVnaFVNQU5nTjhNdDIyVFRUQjFEdU9WWUhDU3lwamhQMXdlYVlldkRuMXBRR09WSUFMeWVUUlBqSzVzYWZ0by1hakRNU1ZaQ3RoVHFHMA?oc=5",
+      "pub_date": "2026-07-22T22:00:00+09:00",
+      "source": "テレ東BIZ",
+      "description": "",
+      "_glink": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5KZDMxbUxWUWRVSC1uNHVnaFVNQU5nTjhNdDIyVFRUQjFEdU9WWUhDU3lwamhQMXdlYVlldkRuMXBRR09WSUFMeWVUUlBqSzVzYWZ0by1hakRNU1ZaQ3RoVHFHMA?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5KZDMxbUxWUWRVSC1uNHVnaFVNQU5nTjhNdDIyVFRUQjFEdU9WWUhDU3lwamhQMXdlYVlldkRuMXBRR09WSUFMeWVUUlBqSzVzYWZ0by1hakRNU1ZaQ3RoVHFHMA?oc=5",
       "category": "一般",
       "topic": "insurance"
     },
@@ -160,7 +236,7 @@
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1HdDA1cDBBa015UXlRTWVxLVc3UHZwY2p2VHpfMnBFYVNNVzM0a2U1NmFWT3VQVmdRNFpyQ1l4OTlyRVQzR3VxNFR0UGo4SDQxZTVzYUdzSWd2X0ZEb2g1aEZyaFd0cUxDMWc?oc=5",
       "pub_date": "2026-07-22T13:20:01+09:00",
       "source": "PR TIMES",
-      "description": "※アクセスは過去7日間で集計しています。",
+      "description": "［パナソニックグループ］パナソニック コネクトグループ（グループCEO：ケン・セイン、以下、パナソニック コネクト）は、医療機関・薬局向け「顔認証付きカードリーダー」の新モデルを2026年8月24日から発売します。",
       "_glink": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1HdDA1cDBBa015UXlRTWVxLVc3UHZwY2p2VHpfMnBFYVNNVzM0a2U1NmFWT3VQVmdRNFpyQ1l4OTlyRVQzR3VxNFR0UGo4SDQxZTVzYUdzSWd2X0ZEb2g1aEZyaFd0cUxDMWc?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1HdDA1cDBBa015UXlRTWVxLVc3UHZwY2p2VHpfMnBFYVNNVzM0a2U1NmFWT3VQVmdRNFpyQ1l4OTlyRVQzR3VxNFR0UGo4SDQxZTVzYUdzSWd2X0ZEb2g1aEZyaFd0cUxDMWc?oc=5",
       "category": "一般",
@@ -5307,81 +5383,6 @@
       "description": "「健康保険脱退届 脱退」に関連する法律相談です。健康保険分野に「健康保険脱退届 脱退」に関する相談が多く寄せられています。「有期雇用の途中退職」や「先生方の経験から教えて下さい」のような「健康保険脱退届 脱退」に関連の高いものを ...",
       "_glink": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8yTUJCclQ0SU1aenpUbV94Q29XN281ZHJwbnZSbjR6M3FhVW5yOXJSOXZ1VU4xMTVtOHhDUXFjdHl6MG9JQi1zV1Jlc21SWUhDSGxKRE8wOF9zUQ?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8yTUJCclQ0SU1aenpUbV94Q29XN281ZHJwbnZSbjR6M3FhVW5yOXJSOXZ1VU4xMTVtOHhDUXFjdHl6MG9JQi1zV1Jlc21SWUhDSGxKRE8wOF9zUQ?oc=5",
-      "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "マイナ保険証のみで医療費助成が受給できるようになります。 - city.shiroi.chiba.jp",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQczdrdUFVa1c1OElYMjVFOUxBdEd3RFRfeGJyX2NDLVo2ZTJaR0JKcWdnX0QwUXdLYnZuZ3VJTmVFc3dDWThGWTJxc1F6aG5QN3VJZUpTLThFbHpaYWYybk8xc1lMZ01ES0VvS1F2bExyUTRVdFpjYTc4RmszRVRLQ08wblY2NTBXVlE?oc=5",
-      "pub_date": "2026-03-18T16:00:00+09:00",
-      "source": "city.shiroi.chiba.jp",
-      "description": "健康保険証の新規発行が2024年12月1日に終了したのに伴い、その1年後となる2025年12月1日をもって、既存の発行済みの健康保険証も有効期限を迎える。これにより、12月2日からはマイナ保険証を基本とする仕組みになる。マイナ保険証に登録していない人には ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQczdrdUFVa1c1OElYMjVFOUxBdEd3RFRfeGJyX2NDLVo2ZTJaR0JKcWdnX0QwUXdLYnZuZ3VJTmVFc3dDWThGWTJxc1F6aG5QN3VJZUpTLThFbHpaYWYybk8xc1lMZ01ES0VvS1F2bExyUTRVdFpjYTc4RmszRVRLQ08wblY2NTBXVlE?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "マイナ保険証がマル福・マル特の受給者証として利用できるようになります - vill.tokai.ibaraki.jp",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdXVEUnptMlB1Mkp5NmpoNkM0Nkh3SU83cENydGlENTBienpzQ0hGSGU4SlpXSktLYTYxSDB6N0huSUhXTS1kaWJabzQxRXpmTFQ2YlpJRWw0UkU3MUw3c3RweUU5M2hVSXZNSmdsTGh5RWtWOWtwQWVMVkJocmo4UW9rSFlzT2pfLXc?oc=5",
-      "pub_date": "2026-03-18T08:33:09+09:00",
-      "source": "vill.tokai.ibaraki.jp",
-      "description": "マイナンバーカードと健康保険証を一体化した「マイナ保険証」の利用を巡るトラブルが収まらない。患者が安心して医療機関を受診できるよう政府は対策を強化すべきだ。 全国保険医団体連合会が、33都府県の1万近い医療機関を調査したところ、紙の ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdXVEUnptMlB1Mkp5NmpoNkM0Nkh3SU83cENydGlENTBienpzQ0hGSGU4SlpXSktLYTYxSDB6N0huSUhXTS1kaWJabzQxRXpmTFQ2YlpJRWw0UkU3MUw3c3RweUU5M2hVSXZNSmdsTGh5RWtWOWtwQWVMVkJocmo4UW9rSFlzT2pfLXc?oc=5",
-      "category": "トラブル",
-      "topic": "insurance"
-    },
-    {
-      "title": "マイナ保険証が医療福祉費受給者証（マル福）として使えるようになります（対応の医療機関のみ） - city.shimotsuma.lg.jp",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTVhGdll3ZGw1TTBiTnVFZ2JCN0ZnUnAzSlNIM2RDbTAyck1UUHdaVEVkYjh5RW5TdHVacGxQSGVYNXdBUmJ5UDdFZFRndjJSMDRLcWNWY3ZRbGlQN0dWTHlmdFpmdTBlREkxd1R6ampZUWhVYUNmdVAtYmMyVFQxY3BEaW55SURNbll3?oc=5",
-      "pub_date": "2026-03-17T16:00:00+09:00",
-      "source": "city.shimotsuma.lg.jp",
-      "description": "医療機関で子どもの医療費助成などを受ける際に、マイナンバーカードに健康保険証機能を持たせた「マイナ保険証」の提示だけで済む自治体が、今年度末に1400超に増える見通しであることがデジタル庁のまとめでわかった。医療機関側にも利点が ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTVhGdll3ZGw1TTBiTnVFZ2JCN0ZnUnAzSlNIM2RDbTAyck1UUHdaVEVkYjh5RW5TdHVacGxQSGVYNXdBUmJ5UDdFZFRndjJSMDRLcWNWY3ZRbGlQN0dWTHlmdFpmdTBlREkxd1R6ampZUWhVYUNmdVAtYmMyVFQxY3BEaW55SURNbll3?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTVhGdll3ZGw1TTBiTnVFZ2JCN0ZnUnAzSlNIM2RDbTAyck1UUHdaVEVkYjh5RW5TdHVacGxQSGVYNXdBUmJ5UDdFZFRndjJSMDRLcWNWY3ZRbGlQN0dWTHlmdFpmdTBlREkxd1R6ampZUWhVYUNmdVAtYmMyVFQxY3BEaW55SURNbll3?oc=5",
-      "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "年金・満期返戻金等の支払調書におけるマイナポータル連携を開始 | ＳＯＭＰＯホールディングス株式会社のプレスリリース - PR TIMES",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBhWEpTODdneDNPU3p2X1E3WWc2NWJjQ1hTMmdjSDNkRUNoSXNuNWRXUGFZbFlEMG8yODBRRHQ2NWpBU2pqc25pNmotcnVlazc2MEFXMDZEcjBpZGc2QWZIYXZGc0ZpS0Y3bmc?oc=5",
-      "pub_date": "2026-03-16T16:00:00+09:00",
-      "source": "PR TIMES",
-      "description": "東京海上日動火災保険株式会社（取締役社長 城田 宏明、以下「当社」）は、「損害保険契約等の年金の支払調書」および「損害保険契約等の満期返戻金等の支払調書」について、政府が運営するオンラインサービス「マイナポータル」との連携(以下 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBhWEpTODdneDNPU3p2X1E3WWc2NWJjQ1hTMmdjSDNkRUNoSXNuNWRXUGFZbFlEMG8yODBRRHQ2NWpBU2pqc25pNmotcnVlazc2MEFXMDZEcjBpZGc2QWZIYXZGc0ZpS0Y3bmc?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBhWEpTODdneDNPU3p2X1E3WWc2NWJjQ1hTMmdjSDNkRUNoSXNuNWRXUGFZbFlEMG8yODBRRHQ2NWpBU2pqc25pNmotcnVlazc2MEFXMDZEcjBpZGc2QWZIYXZGc0ZpS0Y3bmc?oc=5",
-      "category": "一般",
-      "topic": "mynumber"
-    },
-    {
-      "title": "【東京新聞紙面連動企画】マイナ保険証 視覚障がい対応後手 - TBS Radio",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAwbFpVaXdDQXRwbFB6MjdqamlTZGdKSzRHLXNhYk9VSXVPNnpwVWp0d2dxb3FoNzBQVXBYYXhuUGJ3SDROUEs3X3dqUmFkX19Tdnc?oc=5",
-      "pub_date": "2026-03-16T16:00:00+09:00",
-      "source": "TBS Radio",
-      "description": "",
-      "_glink": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAwbFpVaXdDQXRwbFB6MjdqamlTZGdKSzRHLXNhYk9VSXVPNnpwVWp0d2dxb3FoNzBQVXBYYXhuUGJ3SDROUEs3X3dqUmFkX19Tdnc?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAwbFpVaXdDQXRwbFB6MjdqamlTZGdKSzRHLXNhYk9VSXVPNnpwVWp0d2dxb3FoNzBQVXBYYXhuUGJ3SDROUEs3X3dqUmFkX19Tdnc?oc=5",
-      "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "【マイナ保険証対策】顔や住所は隠したい！スキミング防止の本革ケースで安心に持ち歩く - tv-tokyo.co.jp",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tdFUtU3RxQjVaRUJZNVRBRk1ER3VKa0hENzVONHJ0ME5qUDk1V1JqYjlya1djZ1QtazNNQ0hmenNwZjk0WTlpbXlVYmVUbm1WamdTa0JESjJtOU5kZHprTjVUN3k0bHc3OUcxaQ?oc=5",
-      "pub_date": "2026-03-15T16:00:00+09:00",
-      "source": "tv-tokyo.co.jp",
-      "description": "応援購入サービス「Makuake」にてクラウドファンディングを開催中（3/29まで）PR TIMES読者限定のクーポンもご用意しています ...",
-      "_glink": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tdFUtU3RxQjVaRUJZNVRBRk1ER3VKa0hENzVONHJ0ME5qUDk1V1JqYjlya1djZ1QtazNNQ0hmenNwZjk0WTlpbXlVYmVUbm1WamdTa0JESjJtOU5kZHprTjVUN3k0bHc3OUcxaQ?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tdFUtU3RxQjVaRUJZNVRBRk1ER3VKa0hENzVONHJ0ME5qUDk1V1JqYjlya1djZ1QtazNNQ0hmenNwZjk0WTlpbXlVYmVUbm1WamdTa0JESjJtOU5kZHprTjVUN3k0bHc3OUcxaQ?oc=5",
-      "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "【福祉医療】医療機関でのオンライン資格確認について - city.yabu.hyogo.jp",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTzZzZ3owRDN0NTVGX25HSzR6LTZnZ1dOMWkzTV9GX21IbmVFQVd4U19KeEN0enB4eG9GRDhwUmJTbFNaVmxzaGYxUU9tTWM0UHk5ZExYaGFZR0N1M0tNUzRKVmxGa2cxOEQ3MTlseVhUWHhSbkg5dlhybG5oSDlDT0VB?oc=5",
-      "pub_date": "2026-03-15T16:00:00+09:00",
-      "source": "city.yabu.hyogo.jp",
-      "description": "株式会社アイ・オー・データ機器（本社：石川県金沢市、代表取締役会長：細野 昭雄、以下、アイ・オー・データ）は、2025年7月16日（水）～7月18日（金）の3日間、東京ビッグサイト（東京都江東区）にて開催される医療・福祉・保健分野における国内最大 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTzZzZ3owRDN0NTVGX25HSzR6LTZnZ1dOMWkzTV9GX21IbmVFQVd4U19KeEN0enB4eG9GRDhwUmJTbFNaVmxzaGYxUU9tTWM0UHk5ZExYaGFZR0N1M0tNUzRKVmxGa2cxOEQ3MTlseVhUWHhSbkg5dlhybG5oSDlDT0VB?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTzZzZ3owRDN0NTVGX25HSzR6LTZnZ1dOMWkzTV9GX21IbmVFQVd4U19KeEN0enB4eG9GRDhwUmJTbFNaVmxzaGYxUU9tTWM0UHk5ZExYaGFZR0N1M0tNUzRKVmxGa2cxOEQ3MTlseVhUWHhSbkg5dlhybG5oSDlDT0VB?oc=5",
       "category": "一般",
       "topic": "insurance"
     }
