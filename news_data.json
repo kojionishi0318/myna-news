@@ -1,6 +1,60 @@
 {
-  "updated": "2026-07-23T11:45:48+09:00",
+  "updated": "2026-07-23T20:10:51+09:00",
   "articles": [
+    {
+      "title": "広報資料におけるマイナンバーカード活用等に関する周知用資料を更新しました",
+      "link": "https://www.digital.go.jp/policies/mynumber_resources",
+      "pub_date": "2026-07-23T15:00:00+09:00",
+      "source": "デジタル庁",
+      "description": "総務省は、行政手続における特定の個人を識別するための番号の利用等に関する法律施行規則等の一部を改正する命令（案）をとりまとめました。 つきましては、当該案について、令和8年2月 14 日（土）から令和8年3月 16 日（月）までの間、意見を募集します ...",
+      "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
+      "category": "制度変更",
+      "topic": "mynumber"
+    },
+    {
+      "title": "病院・薬局の受付でスマホタッチ、パナソニックが新型マイナ保険証リーダー発表 - ケータイ Watch",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TRWcyaE1NRkpUUzg4allNcHo5ZENJWW43Y2RhMFYtcjBYWWdHdThMLVhFV2prbWxkM2hQbWlKNG83QXNqNlVRRHFPMEh6M0ZJXy11MUJ4YXZ2T1F0b3ZKWTNmUEJkZmM?oc=5",
+      "pub_date": "2026-07-23T12:33:44+09:00",
+      "source": "ケータイ Watch",
+      "description": "リコー子会社でスキャナーの製造などを手がけるPFU（石川県かほく市）は、病院や薬局用の顔認証機能付きマイナンバーカードリーダーの新製品を10月に発売すると発表した。2025年9月から開始したスマートフォンのマイナ保険証にも対応する。 大画面、省 ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TRWcyaE1NRkpUUzg4allNcHo5ZENJWW43Y2RhMFYtcjBYWWdHdThMLVhFV2prbWxkM2hQbWlKNG83QXNqNlVRRHFPMEh6M0ZJXy11MUJ4YXZ2T1F0b3ZKWTNmUEJkZmM?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TRWcyaE1NRkpUUzg4allNcHo5ZENJWW43Y2RhMFYtcjBYWWdHdThMLVhFV2prbWxkM2hQbWlKNG83QXNqNlVRRHFPMEh6M0ZJXy11MUJ4YXZ2T1F0b3ZKWTNmUEJkZmM?oc=5",
+      "category": "一般",
+      "topic": "insurance"
+    },
+    {
+      "title": "保険証終了「知らない」約5.5割、手続き未完了が約5割。マイナ保険証移行、「認知」と「手続き完了」の両方が追いついていない実態 - PR TIMES",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9NeFMyQTcxcG9lQnh1SUkza1hHZHdJV1N0d0RIbjJHM3BaMjNOc1FEYmpUTkszZU83dEcxMnZBbExZajJ4WVZLcmk3ZzdYbEpTRTdfeEtuc0hfWl92VFlpblBSRmRqcXI2R1E?oc=5",
+      "pub_date": "2026-07-23T11:00:03+09:00",
+      "source": "PR TIMES",
+      "description": "現行保険証の特例終了に関する実態調査 通信困窮者支援事業を展開する「誰でもスマホリサーチセンター（本社：東京都豊島区、代表取締役：高橋翼）」は、携帯電話を持てなかった・止まっていた時期がある481名を対象に、従来の健康保険証が使える特例措置終了（2026年7月末）に関する実態調査を実施しました。",
+      "_glink": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9NeFMyQTcxcG9lQnh1SUkza1hHZHdJV1N0d0RIbjJHM3BaMjNOc1FEYmpUTkszZU83dEcxMnZBbExZajJ4WVZLcmk3ZzdYbEpTRTdfeEtuc0hfWl92VFlpblBSRmRqcXI2R1E?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9NeFMyQTcxcG9lQnh1SUkza1hHZHdJV1N0d0RIbjJHM3BaMjNOc1FEYmpUTkszZU83dEcxMnZBbExZajJ4WVZLcmk3ZzdYbEpTRTdfeEtuc0hfWl92VFlpblBSRmRqcXI2R1E?oc=5",
+      "category": "使い方",
+      "topic": "insurance"
+    },
+    {
+      "title": "マイナンバーカードを持ち歩くのが面倒な人が「今すぐやるべきこと」 - ダイヤモンド・オンライン",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MZDdjajFXd0ZGbTJLVFZ5TWJjbEI2WmJyejFqcnpOVHdhclF2M0ZDQjdMUnZUVXMzY3VxbkRzVmQ1QjQwUHBHRjFoZHlmLTA5SmRqRW530gFPQVVfeXFMTTRiLURGcUFrZm9CSXY3MEJTUlVITFdCOGdUa0dMcTFjWGptUzNBSkEwVnk1RV9WVThXTWpVNVdGbmxZRk9GU0lrNjA2QWZwNA?oc=5",
+      "pub_date": "2026-07-23T11:00:00+09:00",
+      "source": "ダイヤモンド・オンライン",
+      "description": "7月31日、100年続いた従来の健康保険証が、その役目を終える。公的医療保険の加入先を確認する方法が、マイナ保険証や資格確認書に切り替わったことに伴い、期限切れの健康保険証でも受診できる特例措置が完全に終了する。連載『医療費の裏ワザと落とし穴』309 ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MZDdjajFXd0ZGbTJLVFZ5TWJjbEI2WmJyejFqcnpOVHdhclF2M0ZDQjdMUnZUVXMzY3VxbkRzVmQ1QjQwUHBHRjFoZHlmLTA5SmRqRW530gFPQVVfeXFMTTRiLURGcUFrZm9CSXY3MEJTUlVITFdCOGdUa0dMcTFjWGptUzNBSkEwVnk1RV9WVThXTWpVNVdGbmxZRk9GU0lrNjA2QWZwNA?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MZDdjajFXd0ZGbTJLVFZ5TWJjbEI2WmJyejFqcnpOVHdhclF2M0ZDQjdMUnZUVXMzY3VxbkRzVmQ1QjQwUHBHRjFoZHlmLTA5SmRqRW530gFPQVVfeXFMTTRiLURGcUFrZm9CSXY3MEJTUlVITFdCOGdUa0dMcTFjWGptUzNBSkEwVnk1RV9WVThXTWpVNVdGbmxZRk9GU0lrNjA2QWZwNA?oc=5",
+      "category": "制度変更",
+      "topic": "insurance"
+    },
+    {
+      "title": "パナソニック、マイナ保険証リーダー刷新 端末一体型で省スペース実現、37万円台 - BigGo ファイナンス",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1oV0tSSGNiVHU1MGp1aThOZDd5aHlPN2pSVTA5YVpHNGFoeEdZLVVjNm01cGFRSm1lc0tuem1HcFQ2RHhfWVZaaUJzQ1BxSUdIX19aWWhpQnhWMjdHTUVoSEd2UzJvQ29QMk5YQm1IWEc4bThE?oc=5",
+      "pub_date": "2026-07-23T07:45:00+09:00",
+      "source": "BigGo ファイナンス",
+      "description": "厚生労働省は6月18日、マイナ保険証の受付に使う「第2世代（次期）顔認証付きカードリーダー」の販売が2026年度から順次始まったことを、社会保障審議会医療保険部会の資料で明らかにした。最大の特徴は、本体だけでスマートフォンのマイナ保険証を ...",
+      "_glink": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1oV0tSSGNiVHU1MGp1aThOZDd5aHlPN2pSVTA5YVpHNGFoeEdZLVVjNm01cGFRSm1lc0tuem1HcFQ2RHhfWVZaaUJzQ1BxSUdIX19aWWhpQnhWMjdHTUVoSEd2UzJvQ29QMk5YQm1IWEc4bThE?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1oV0tSSGNiVHU1MGp1aThOZDd5aHlPN2pSVTA5YVpHNGFoeEdZLVVjNm01cGFRSm1lc0tuem1HcFQ2RHhfWVZaaUJzQ1BxSUdIX19aWWhpQnhWMjdHTUVoSEd2UzJvQ29QMk5YQm1IWEc4bThE?oc=5",
+      "category": "一般",
+      "topic": "insurance"
+    },
     {
       "title": "マイナ保険証への切り替え - 浅田会計事務所",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1GWm8xOGFCMWQ1V1NySjFFTHdqZm1NT082VG9SRzhBUjZGN1JrUTNULU1xZkxvNC1GQndycFM3RTlqNTdjcVRWWExSZ0RKQlVDY1JKMGprMA?oc=5",
@@ -5380,59 +5434,6 @@
       "source": "読売新聞オンライン",
       "description": "上野賢一郎厚生労働相は19日の記者会見で、有効期限が切れた従来の健康保険証でも保険診療を受けられる暫定措置の期限を、従来の3月末から7月末まで延長すると明らかにした。患者や医療現場の混乱回避が目的。終了後はマイナ保険証か、代わりと ...",
       "_glink": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQanU0bExCZ3BQRnZLTkxKWk9PaU9JWHYtZUV1dXZlU0tLcnVyRWh0V1BMNEFrbHhUWGE5X3RLR0VLbzAxMFotaVNFNlpub3B2ajZkd0ZQWFFuZ3Y3c2hBSHV2Znp4TGxsb0lzRjY5Wk94WjRPcVJSV2RQaldoLXBCWFZCcE43dGJTMWJiZEZRZldKQURuWHc?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "期限切れ健康保険証の利用 7月末まで暫定措置を延長…マイナ保険証の利用率は64％（1月時点） - au Webポータル",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBycUtSRUtwWGx0c0plM1EzdGZRSWZRVVNHeE1LZ0daVWNaU2FLeVB5N2ZXMEpnN3ZNM0VYS0Q3VHVfX1pJTmk3THRyM2F3M0hvUTNQc0x4TEU5MHlYT2pjbGk1VDhVNHFvYnFtTTRzZElfZmZHSndtc1BlTQ?oc=5",
-      "pub_date": "2026-03-19T16:00:00+09:00",
-      "source": "au Webポータル",
-      "description": "有効期限切れの健康保険証でも保険診療（1〜3割負担）を受けられる暫定措置が、7月末まで延長される。しかし4カ月後、「保険証利用登録を済ませたマイナンバーカード」（マイナ保険証）などがないと保険診療が受けられず、全額自己負担（10割負担）と ...",
-      "_glink": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBycUtSRUtwWGx0c0plM1EzdGZRSWZRVVNHeE1LZ0daVWNaU2FLeVB5N2ZXMEpnN3ZNM0VYS0Q3VHVfX1pJTmk3THRyM2F3M0hvUTNQc0x4TEU5MHlYT2pjbGk1VDhVNHFvYnFtTTRzZElfZmZHSndtc1BlTQ?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "令和8年4月1日からマイナンバーカードを医療費受給者証として利用可能になります！！ - city.kuwana.lg.jp",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYzZhNGgwQnIxc3FoZVJWMmdNcVp2TDhKam5kMHBkdEVwa2dYX19UNExCM0VkZXBWQlczVkh1WmVfcGlYdmRxS3FRclJxYlFzRTB2T29HNWRDeXB3YUF5YmNiWkRqMlZFZGV0dHJkUWpnQ1RUN3pXOE9EY2ZoY3NCbzU2Qm9aWnZV?oc=5",
-      "pub_date": "2026-03-19T11:08:12+09:00",
-      "source": "city.kuwana.lg.jp",
-      "description": "",
-      "_glink": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYzZhNGgwQnIxc3FoZVJWMmdNcVp2TDhKam5kMHBkdEVwa2dYX19UNExCM0VkZXBWQlczVkh1WmVfcGlYdmRxS3FRclJxYlFzRTB2T29HNWRDeXB3YUF5YmNiWkRqMlZFZGV0dHJkUWpnQ1RUN3pXOE9EY2ZoY3NCbzU2Qm9aWnZV?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYzZhNGgwQnIxc3FoZVJWMmdNcVp2TDhKam5kMHBkdEVwa2dYX19UNExCM0VkZXBWQlczVkh1WmVfcGlYdmRxS3FRclJxYlFzRTB2T29HNWRDeXB3YUF5YmNiWkRqMlZFZGV0dHJkUWpnQ1RUN3pXOE9EY2ZoY3NCbzU2Qm9aWnZV?oc=5",
-      "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "令和8年4月1日からマイナンバーカードを医療費受給者証として利用可能になります！！ - city.kuwana.lg.jp",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONEVvS3BhNjJWMkNNWXBkWUJVYzMyQzVGbmJxaE03OEtzZUxRQVhpcjJSRW9GZ0VQM0ZiUkx5SExMMEVsaTg2emI1bnVRVWpDTzFrc1lPVnQxODVUV3A2cXNTaEtiem43ekg5WjF0c0NyeXdLcjkwN2swSTFfSTkwRF9iZUo?oc=5",
-      "pub_date": "2026-03-19T10:36:16+09:00",
-      "source": "city.kuwana.lg.jp",
-      "description": "おはようございます。私（官房長官）から1件申し上げます。閣議の概要について、一般案件等9件、法律案、政令、人事が決定されました。大臣発言としては、黄川田大臣から「令和8年春の全国交通安全運動及び『交通事故死ゼロを目指す日』の実施に ...",
-      "_glink": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONEVvS3BhNjJWMkNNWXBkWUJVYzMyQzVGbmJxaE03OEtzZUxRQVhpcjJSRW9GZ0VQM0ZiUkx5SExMMEVsaTg2emI1bnVRVWpDTzFrc1lPVnQxODVUV3A2cXNTaEtiem43ekg5WjF0c0NyeXdLcjkwN2swSTFfSTkwRF9iZUo?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONEVvS3BhNjJWMkNNWXBkWUJVYzMyQzVGbmJxaE03OEtzZUxRQVhpcjJSRW9GZ0VQM0ZiUkx5SExMMEVsaTg2emI1bnVRVWpDTzFrc1lPVnQxODVUV3A2cXNTaEtiem43ekg5WjF0c0NyeXdLcjkwN2swSTFfSTkwRF9iZUo?oc=5",
-      "category": "政治",
-      "topic": "insurance"
-    },
-    {
-      "title": "国民健康保険の脱退届のオンライン申請について - city.joyo.kyoto.jp",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8yTUJCclQ0SU1aenpUbV94Q29XN281ZHJwbnZSbjR6M3FhVW5yOXJSOXZ1VU4xMTVtOHhDUXFjdHl6MG9JQi1zV1Jlc21SWUhDSGxKRE8wOF9zUQ?oc=5",
-      "pub_date": "2026-03-18T16:00:00+09:00",
-      "source": "city.joyo.kyoto.jp",
-      "description": "失業や病気、災害などにより国民健康保険料の支払いが困難な場合、申請（一部自動軽減）により免除や減額、納付猶予が受けられることがあります。所得基準を満たす世帯は均等割・平等割額が7割・5割・2割軽減されます。失業の場合、対象者は届け出に ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8yTUJCclQ0SU1aenpUbV94Q29XN281ZHJwbnZSbjR6M3FhVW5yOXJSOXZ1VU4xMTVtOHhDUXFjdHl6MG9JQi1zV1Jlc21SWUhDSGxKRE8wOF9zUQ?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8yTUJCclQ0SU1aenpUbV94Q29XN281ZHJwbnZSbjR6M3FhVW5yOXJSOXZ1VU4xMTVtOHhDUXFjdHl6MG9JQi1zV1Jlc21SWUhDSGxKRE8wOF9zUQ?oc=5",
-      "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "マイナ保険証のみで医療費助成が受給できるようになります。 - city.shiroi.chiba.jp",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQczdrdUFVa1c1OElYMjVFOUxBdEd3RFRfeGJyX2NDLVo2ZTJaR0JKcWdnX0QwUXdLYnZuZ3VJTmVFc3dDWThGWTJxc1F6aG5QN3VJZUpTLThFbHpaYWYybk8xc1lMZ01ES0VvS1F2bExyUTRVdFpjYTc4RmszRVRLQ08wblY2NTBXVlE?oc=5",
-      "pub_date": "2026-03-18T16:00:00+09:00",
-      "source": "city.shiroi.chiba.jp",
-      "description": "健康保険証の新規発行が2024年12月1日に終了したのに伴い、その1年後となる2025年12月1日をもって、既存の発行済みの健康保険証も有効期限を迎える。これにより、12月2日からはマイナ保険証を基本とする仕組みになる。マイナ保険証に登録していない人には ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQczdrdUFVa1c1OElYMjVFOUxBdEd3RFRfeGJyX2NDLVo2ZTJaR0JKcWdnX0QwUXdLYnZuZ3VJTmVFc3dDWThGWTJxc1F6aG5QN3VJZUpTLThFbHpaYWYybk8xc1lMZ01ES0VvS1F2bExyUTRVdFpjYTc4RmszRVRLQ08wblY2NTBXVlE?oc=5",
       "category": "制度変更",
       "topic": "insurance"
     }
