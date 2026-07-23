@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-22T20:10:49+09:00",
-  "total_exchanges": 246,
-  "total_questions": 215,
+  "updated": "2026-07-23T11:45:57+09:00",
+  "total_exchanges": 247,
+  "total_questions": 216,
   "total_answers": 115,
   "exchanges": [
     {
@@ -116,6 +116,64 @@
         "excerpt": "○川村雄大君 公明党は、これまで、国民の皆様の、デジタル化による利便性向上、その推進の一環として、デジタルに不慣れな人に対してスマホの操作ですとかオンラインによる行政手続などを丁寧に教えることができるデジタル推進委員の枠組みを推進してまいりました。例えば、薬局にいてマイナ保険証が使えない方に使い方を教えてあげるですとか、",
         "speechURL": "https://kokkai.ndl.go.jp/txt/122114536X00320260529/80",
         "speechOrder": 80
+      },
+      "answers": [],
+      "ai_title": ""
+    },
+    {
+      "issueID": "122104376X01020260529",
+      "session": 221,
+      "nameOfHouse": "衆議院",
+      "nameOfMeeting": "財務金融委員会",
+      "issue": "第10号",
+      "imageKind": "会議録",
+      "date": "2026-05-29",
+      "question": {
+        "speechID": "122104376X01020260529_040",
+        "issueID": "122104376X01020260529",
+        "session": 221,
+        "nameOfHouse": "衆議院",
+        "nameOfMeeting": "財務金融委員会",
+        "issue": "第10号",
+        "imageKind": "会議録",
+        "date": "2026-05-29",
+        "speaker": "大島敦",
+        "speakerGroup": "中道改革連合・無所属",
+        "speakerPosition": "",
+        "speakerRole": "",
+        "is_minister": false,
+        "excerpt": "○大島委員 御答弁いただきまして、ありがとうございました。 前回に引き続き、繰り返しになるんですけれども、医療についての質問を改めてさせてください。昨年末から年始にかけて地元で行った医科、歯科アンケートを踏まえ、医療機関の経営実態と政府方針が十分かを伺います。 このアンケートは、昨年十二月成立の令和七年度補正予算、",
+        "speechURL": "https://kokkai.ndl.go.jp/txt/122104376X01020260529/40",
+        "speechOrder": 40
+      },
+      "answers": [],
+      "ai_title": ""
+    },
+    {
+      "issueID": "122104260X01220260527",
+      "session": 221,
+      "nameOfHouse": "衆議院",
+      "nameOfMeeting": "厚生労働委員会",
+      "issue": "第12号",
+      "imageKind": "会議録",
+      "date": "2026-05-27",
+      "question": {
+        "speechID": "122104260X01220260527_170",
+        "issueID": "122104260X01220260527",
+        "session": 221,
+        "nameOfHouse": "衆議院",
+        "nameOfMeeting": "厚生労働委員会",
+        "issue": "第12号",
+        "imageKind": "会議録",
+        "date": "2026-05-27",
+        "speaker": "豊田真由子",
+        "speakerGroup": "参政党",
+        "speakerPosition": "",
+        "speakerRole": "",
+        "is_minister": false,
+        "excerpt": "○豊田委員 今、全国各地に様々な依存症、それが依存症だという認識も持たずに苦しんでおられる御本人や御家族がたくさんいらっしゃると思います。決して、あなたの意志が弱いからではなく、御家族の対応が悪かったからでもなく、それは、脳やあるいは心が今ちょっとダメージを受けてしまっている状況なので、諦めずに、そして孤立せずに、完璧な体制ではないかもしれませんけれども、",
+        "speechURL": "https://kokkai.ndl.go.jp/txt/122104260X01220260527/170",
+        "speechOrder": 170
       },
       "answers": [],
       "ai_title": ""
@@ -3889,35 +3947,6 @@
           "speechOrder": 101
         }
       ],
-      "ai_title": ""
-    },
-    {
-      "issueID": "121705367X01020250610",
-      "session": 217,
-      "nameOfHouse": "衆議院",
-      "nameOfMeeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
-      "issue": "第10号",
-      "imageKind": "会議録",
-      "date": "2025-06-10",
-      "question": {
-        "speechID": "121705367X01020250610_009",
-        "issueID": "121705367X01020250610",
-        "session": 217,
-        "nameOfHouse": "衆議院",
-        "nameOfMeeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
-        "issue": "第10号",
-        "imageKind": "会議録",
-        "date": "2025-06-10",
-        "speaker": "大西洋平",
-        "speakerGroup": "自由民主党・無所属の会",
-        "speakerPosition": "",
-        "speakerRole": "",
-        "is_minister": false,
-        "excerpt": "○大西（洋）委員 御答弁をいただきました。 コールセンターの取組などはもちろん留意している中ではございましたが、利便性の向上ということでお答えはいただきましたが、質問させていただいた部分というのはなかなか難しいのか、そういうことだと理解をします。修理機関の創設というか支援が難しいのであれば、せめてマイナ保険証システムを円滑に活用できるように、加えて、",
-        "speechURL": "https://kokkai.ndl.go.jp/txt/121705367X01020250610/9",
-        "speechOrder": 9
-      },
-      "answers": [],
       "ai_title": ""
     },
     {
