@@ -1,6 +1,17 @@
 {
-  "updated": "2026-07-26T11:48:24+09:00",
+  "updated": "2026-07-26T19:45:17+09:00",
   "articles": [
+    {
+      "title": "マイナンバーカードのLINE窓口予約について - city.hashimoto.lg.jp",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE55VVdQS3ZzR25uWE1hTnM3TnFHRE50OTVYUWk5aTZic3BFdnd4SmhZSFRvV0dSbVpXVXNpMUxXMGNwY2tzUkxEd2tYUmd6TVFUZnJheXJCMHB1QTcwVFE4cGd5ZHJ2azhQS054a0ZsT2I1Ynh4X1dfVXhiVmg?oc=5",
+      "pub_date": "2026-07-26T12:00:17+09:00",
+      "source": "city.hashimoto.lg.jp",
+      "description": "ほとんどの住民が、今、すぐに利用できるスマホ市役所「GovTech Express」を提供する株式会社Bot Express(本社：東京都 港区、代表取締役：中嶋 一樹、以下 Bot Express)は、岐阜県美濃加茂市(市長：藤井 浩人)がGovTech Expressを活用し、 美濃加茂市LIN…",
+      "_glink": "https://news.google.com/rss/articles/CBMifEFVX3lxTE55VVdQS3ZzR25uWE1hTnM3TnFHRE50OTVYUWk5aTZic3BFdnd4SmhZSFRvV0dSbVpXVXNpMUxXMGNwY2tzUkxEd2tYUmd6TVFUZnJheXJCMHB1QTcwVFE4cGd5ZHJ2azhQS054a0ZsT2I1Ynh4X1dfVXhiVmg?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE55VVdQS3ZzR25uWE1hTnM3TnFHRE50OTVYUWk5aTZic3BFdnd4SmhZSFRvV0dSbVpXVXNpMUxXMGNwY2tzUkxEd2tYUmd6TVFUZnJheXJCMHB1QTcwVFE4cGd5ZHJ2azhQS054a0ZsT2I1Ynh4X1dfVXhiVmg?oc=5",
+      "category": "一般",
+      "topic": "mynumber"
+    },
     {
       "title": "従来保険証１日から使えません マイナか確認書必要 期限特例終了 - 福島民報デジタル",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1fYUx5NUh0VG82MU1jazF5eFU2bEpYRWY1ZFFHR2M1bTJiSURkX3NDUXAzUUVEYno1bVNienR6U3BXVF9QWloySnY0NFNNTkU?oc=5",
@@ -9,6 +20,17 @@
       "description": "健康保険証が使えなくなる話を聞いたことはないだろうか。従来の健康保険証は2025年12月1日をもって有効期限が終了している。 ただし、有効期限切れの保険証をそのまま使える「暫定措置」が複数回にわたって延長されているため、現在の状況がわかり ...",
       "_glink": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1fYUx5NUh0VG82MU1jazF5eFU2bEpYRWY1ZFFHR2M1bTJiSURkX3NDUXAzUUVEYno1bVNienR6U3BXVF9QWloySnY0NFNNTkU?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1fYUx5NUh0VG82MU1jazF5eFU2bEpYRWY1ZFFHR2M1bTJiSURkX3NDUXAzUUVEYno1bVNienR6U3BXVF9QWloySnY0NFNNTkU?oc=5",
+      "category": "制度変更",
+      "topic": "insurance"
+    },
+    {
+      "title": "マイナか、資格確認書に 従来保険証 来月から使えず｜朝刊・夕刊ニュース｜下野新聞デジタル - 下野新聞社",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1oYkp0SUJnMzdKTFNIRWIzekpJN2s2MnpfWmk0aGotNG4xcG9sYzRVQ1p3UC1Zb29pNjQ5RlVGTmx4aWJRWWhuOGgtM3NEQ1RKQnlNVWJfcGNXNzQ?oc=5",
+      "pub_date": "2026-07-26T08:26:43+09:00",
+      "source": "下野新聞社",
+      "description": "従来型の健康保険証が有効期限を迎え、マイナンバーカードに保険証機能が一体化した「マイナ保険証」を基本とする仕組みに2日、完全に移行する。持っていない人については、自治体や健康保険組合などが発行した「資格確認書」を提示することで受診 ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1oYkp0SUJnMzdKTFNIRWIzekpJN2s2MnpfWmk0aGotNG4xcG9sYzRVQ1p3UC1Zb29pNjQ5RlVGTmx4aWJRWWhuOGgtM3NEQ1RKQnlNVWJfcGNXNzQ?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1oYkp0SUJnMzdKTFNIRWIzekpJN2s2MnpfWmk0aGotNG4xcG9sYzRVQ1p3UC1Zb29pNjQ5RlVGTmx4aWJRWWhuOGgtM3NEQ1RKQnlNVWJfcGNXNzQ?oc=5",
       "category": "制度変更",
       "topic": "insurance"
     },
@@ -42,6 +64,17 @@
       "description": "従来型の健康保険証が７月末までで使えなくなる。有効期限が切れていても保険診療を受けられる特例が終了するためだ。８月からはマイナンバーカードに保険証機能を持たせた「マイナ保険証」か、その代わりとなる「… ...",
       "_glink": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA0YllORWhvc3RKVC10UDh2SnhjY2MtMjhLWTF4R3lFYlJTMXpyOTh6U1NzQlJEMVhMOG5iUmxSaDBmaU1aZEdGNHFBNVVCa0Q5WVpoTUhGaXRDMU5q?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA0YllORWhvc3RKVC10UDh2SnhjY2MtMjhLWTF4R3lFYlJTMXpyOTh6U1NzQlJEMVhMOG5iUmxSaDBmaU1aZEdGNHFBNVVCa0Q5WVpoTUhGaXRDMU5q?oc=5",
+      "category": "制度変更",
+      "topic": "insurance"
+    },
+    {
+      "title": "従来の健康保険証８月から使えず マイナカードか資格確認書必要に | | 全国のニュース - 佐賀新聞",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4talk4ZjRBT0J5NWhsYkRWWldDSWpsYWtPX09aTnBWdjVKQTE5WFg1dTB5aTFKZUwyVDlMMHpxUGhYUmFIWUduTUxFRDlSdmxnRzMtSGRn?oc=5",
+      "pub_date": "2026-07-25T13:47:00+09:00",
+      "source": "佐賀新聞",
+      "description": "健康保険証が使えなくなる話を聞いたことはないだろうか。従来の健康保険証は2025年12月1日をもって有効期限が終了している。 ただし、有効期限切れの保険証をそのまま使える「暫定措置」が複数回にわたって延長されているため、現在の状況がわかり ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4talk4ZjRBT0J5NWhsYkRWWldDSWpsYWtPX09aTnBWdjVKQTE5WFg1dTB5aTFKZUwyVDlMMHpxUGhYUmFIWUduTUxFRDlSdmxnRzMtSGRn?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4talk4ZjRBT0J5NWhsYkRWWldDSWpsYWtPX09aTnBWdjVKQTE5WFg1dTB5aTFKZUwyVDlMMHpxUGhYUmFIWUduTUxFRDlSdmxnRzMtSGRn?oc=5",
       "category": "制度変更",
       "topic": "insurance"
     },
@@ -516,39 +549,6 @@
       "_resolved_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5SbXVTZ1Q4ekM3enRvek8xcTVFamhPNDV4MnhfWl9VLWxmVnZpZjJFOWY3ZkJHZDVnLUJKd1NjR1REQ21DQjVMdk1IT0NLUGRSR3dOTXlwOEhmdw?oc=5",
       "category": "一般",
       "topic": "insurance"
-    },
-    {
-      "title": "マイナ保険証の暫定措置、7月31日で終了 8月から注意すべき点は - 東京報道新聞",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9Sck5iTThWUDNvUWZkakt6dURoeWdaLW1vS3dQTllPejJKRnVVbWd1WFF5LXl2VF92UzVweGgwcVNjZ0JyVjVxV1lhWDlXNjJuX0I0?oc=5",
-      "pub_date": "2026-07-22T11:04:35+09:00",
-      "source": "東京報道新聞",
-      "description": "厚生労働省は社会保障審議会の医療保険部会にマイナ保険証の利用率を報告した 厚生労働省は18日、マイナンバーカードと健康保険証を一体にした「マイナ保険証」の4月の利用率が68.15%だったと報告した。紙やプラスチックの保険証を持参した場合も1〜3割 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9Sck5iTThWUDNvUWZkakt6dURoeWdaLW1vS3dQTllPejJKRnVVbWd1WFF5LXl2VF92UzVweGgwcVNjZ0JyVjVxV1lhWDlXNjJuX0I0?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9Sck5iTThWUDNvUWZkakt6dURoeWdaLW1vS3dQTllPejJKRnVVbWd1WFF5LXl2VF92UzVweGgwcVNjZ0JyVjVxV1lhWDlXNjJuX0I0?oc=5",
-      "category": "統計",
-      "topic": "insurance"
-    },
-    {
-      "title": "暫定措置は7月で終了へ…「資格確認書」「マイナ保険証」迫るタイムリミットの対処法｜人生100年時代の歩き方 - 日刊ゲンダイDIGITAL",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5WcTkwNlpLaHhQQjZIdVJ1RGk1X0NtU3FUTnBIRjV1aFA0eFQwUVN2NE4xWnBTNHBpcm5DODhrU3lzNlhpQjl2WlpNa1ExcHUyNk8xcHBmSEE4VmluMlF6eTVybGV2dw?oc=5",
-      "pub_date": "2026-07-22T06:00:00+09:00",
-      "source": "日刊ゲンダイDIGITAL",
-      "description": "厚生労働省は社会保障審議会の医療保険部会にマイナ保険証の利用率を報告した 厚生労働省は18日、マイナンバーカードと健康保険証を一体にした「マイナ保険証」の4月の利用率が68.15%だったと報告した。紙やプラスチックの保険証を持参した場合も1〜3割 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5WcTkwNlpLaHhQQjZIdVJ1RGk1X0NtU3FUTnBIRjV1aFA0eFQwUVN2NE4xWnBTNHBpcm5DODhrU3lzNlhpQjl2WlpNa1ExcHUyNk8xcHBmSEE4VmluMlF6eTVybGV2dw?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5WcTkwNlpLaHhQQjZIdVJ1RGk1X0NtU3FUTnBIRjV1aFA0eFQwUVN2NE4xWnBTNHBpcm5DODhrU3lzNlhpQjl2WlpNa1ExcHUyNk8xcHBmSEE4VmluMlF6eTVybGV2dw?oc=5",
-      "category": "統計",
-      "topic": "insurance"
-    },
-    {
-      "title": "次期マイナンバーカードは2029年度中に提供へ、マイナポータルの機能拡張も 重点計画を公表（ITmedia Mobile） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRHRHZHQ3Zld4WEJHa25lUVNXcUdtSzZJX1pNb252aDBZcXdyZUVMMnZqWnQ2b3dNR3VMTzR6MFdDQ2J3bkpRYUEwLW1ZR0MweTlkdzRBRm83SzJDQVlONWJzdVllbG5vbV92eG5PZmQ0NkhlbnVtNFlaZE4xemc4TG1OTG0yMWJfcEZkX2JR?oc=5",
-      "pub_date": "2026-07-21T22:30:25+09:00",
-      "source": "Yahoo!ニュース",
-      "description": "デジタル庁は11日、主要な政策についての記者向け説明会を開催し、マイナンバーカードやマイナポータルの今後の展開について説明した。マイナポータルでは、今夏に旅券申請の対応を強化するほか、「マイナポータルアプリ」を「マイナアプリ」に刷新 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRHRHZHQ3Zld4WEJHa25lUVNXcUdtSzZJX1pNb252aDBZcXdyZUVMMnZqWnQ2b3dNR3VMTzR6MFdDQ2J3bkpRYUEwLW1ZR0MweTlkdzRBRm83SzJDQVlONWJzdVllbG5vbV92eG5PZmQ0NkhlbnVtNFlaZE4xemc4TG1OTG0yMWJfcEZkX2JR?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRHRHZHQ3Zld4WEJHa25lUVNXcUdtSzZJX1pNb252aDBZcXdyZUVMMnZqWnQ2b3dNR3VMTzR6MFdDQ2J3bkpRYUEwLW1ZR0MweTlkdzRBRm83SzJDQVlONWJzdVllbG5vbV92eG5PZmQ0NkhlbnVtNFlaZE4xemc4TG1OTG0yMWJfcEZkX2JR?oc=5",
-      "category": "一般",
-      "topic": "mynumber"
     }
   ],
   "total": 500
