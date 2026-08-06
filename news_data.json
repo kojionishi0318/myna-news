@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05T20:17:52+09:00",
+  "updated": "2026-08-06T11:12:14+09:00",
   "articles": [
     {
       "title": "食料品消費税減税 政府が基本方針決定 来年4月から2年間1％に",
@@ -27,7 +27,7 @@
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1iN0FDbG1WNHRyS0s3MEozMkhINzBIRzM2M1o4Uk5SMjU3XzFsVm0wNW9OdlRqaHNJbGdRWkVoWWVwbWhaQW1BSkp5d1lRRExhcXA4SVlROXZ0WHZ2aGc?oc=5",
       "pub_date": "2026-08-05T17:00:00+09:00",
       "source": "新潟日報",
-      "description": "",
+      "description": "上越市は４日、マイナンバーカードに健康保険証機能を持たせた「マイナ保険証」で医療機関を受診した際、医療費の窓口負担割合や高額療養費制度の自己負担限度額の区分が正しく表示されない不具合が発生したと発表 ... 47NEWSに掲載の記事・写真の無断転載を禁じます。",
       "_glink": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1iN0FDbG1WNHRyS0s3MEozMkhINzBIRzM2M1o4Uk5SMjU3XzFsVm0wNW9OdlRqaHNJbGdRWkVoWWVwbWhaQW1BSkp5d1lRRExhcXA4SVlROXZ0WHZ2aGc?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1iN0FDbG1WNHRyS0s3MEozMkhINzBIRzM2M1o4Uk5SMjU3XzFsVm0wNW9OdlRqaHNJbGdRWkVoWWVwbWhaQW1BSkp5d1lRRExhcXA4SVlROXZ0WHZ2aGc?oc=5",
       "category": "統計",
@@ -86,6 +86,17 @@
       "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
       "category": "一般",
       "topic": "mynumber"
+    },
+    {
+      "title": "弘前市でマイナ保険証不具合 高齢者の負担割合一部確認できず - NHKニュース",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBsS2g1M2twbWJUYmRmWXBnc2tsdEZFTjV0R200MEluTkJXaGlWSVlGRVJ1WkhwLVBocFV4Q2FLdU5BckMyQkJ0TWdEWXdNWWJBTWtFVTVIT08?oc=5",
+      "pub_date": "2026-08-04T11:57:00+09:00",
+      "source": "NHKニュース",
+      "description": "新規発行停止から月日が流れ、マイナンバーカードを保険証として利用する「マイナ保険証」への移行が本格化しています。 マイナ保険証を使用すると、高額な医療費が発生した際の窓口での支払いが10万円以上軽くなるケースもあります。現在実施されて ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBsS2g1M2twbWJUYmRmWXBnc2tsdEZFTjV0R200MEluTkJXaGlWSVlGRVJ1WkhwLVBocFV4Q2FLdU5BckMyQkJ0TWdEWXdNWWJBTWtFVTVIT08?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBsS2g1M2twbWJUYmRmWXBnc2tsdEZFTjV0R200MEluTkJXaGlWSVlGRVJ1WkhwLVBocFV4Q2FLdU5BckMyQkJ0TWdEWXdNWWJBTWtFVTVIT08?oc=5",
+      "category": "トラブル",
+      "topic": "insurance"
     },
     {
       "title": "「期限切れ健康保険証」の救済措置が7月で終了！ マイナ保険証なしで医療費10割負担になるケースとは？ - au Webポータル",
@@ -5394,17 +5405,6 @@
       "description": "有効期限切れの健康保険証でも保険診療（1〜3割負担）を受けられる暫定措置が、7月末まで延長される。しかし4カ月後、「保険証利用登録を済ませたマイナンバーカード」（マイナ保険証）などがないと保険診療が受けられず、全額自己負担（10割負担）と ...",
       "_glink": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9TMTRvc3Z4blJ2dHkzY1JSYUdKYnY1cWVZdmJOcEF3bkJ6R2xkR21mSkIwbS00ZUJ2UnRhcXNJRHZuQURIcl9UajFfdjdPbjZfLUEwbFBXYW9RUQ?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9TMTRvc3Z4blJ2dHkzY1JSYUdKYnY1cWVZdmJOcEF3bkJ6R2xkR21mSkIwbS00ZUJ2UnRhcXNJRHZuQURIcl9UajFfdjdPbjZfLUEwbFBXYW9RUQ?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "実はまだ使える…「紙の保険証」 有効期限切れの後も続いていた暫定措置が7月末まで延長へ 今更聞けない「マイナ保険証」「資格確認書」「資格情報のお知らせ」どう違う？ | BSSニュース | BSS山陰放送 (1ページ) - TBS NEWS DIG",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5NWHBnZEJGZUpzNllNU1pmVzlMclpkRU40S05UbzByR2RZWnNmS21wMklmRUxUSkF5R0xwTnRvVG4tVzdMX0pPUnRzUW1MemdscFBEYzZ1N18xb18tWjJVdDBXRzc0QUE?oc=5",
-      "pub_date": "2026-03-20T16:00:00+09:00",
-      "source": "TBS NEWS DIG",
-      "description": "有効期限切れの健康保険証でも保険診療（1〜3割負担）を受けられる暫定措置が、7月末まで延長される。しかし4カ月後、「保険証利用登録を済ませたマイナンバーカード」（マイナ保険証）などがないと保険診療が受けられず、全額自己負担（10割負担）と ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5NWHBnZEJGZUpzNllNU1pmVzlMclpkRU40S05UbzByR2RZWnNmS21wMklmRUxUSkF5R0xwTnRvVG4tVzdMX0pPUnRzUW1MemdscFBEYzZ1N18xb18tWjJVdDBXRzc0QUE?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5NWHBnZEJGZUpzNllNU1pmVzlMclpkRU40S05UbzByR2RZWnNmS21wMklmRUxUSkF5R0xwTnRvVG4tVzdMX0pPUnRzUW1MemdscFBEYzZ1N18xb18tWjJVdDBXRzc0QUE?oc=5",
       "category": "制度変更",
       "topic": "insurance"
     }
