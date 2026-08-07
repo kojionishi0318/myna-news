@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-06T20:20:21+09:00",
-  "total_exchanges": 253,
-  "total_questions": 220,
+  "updated": "2026-08-07T11:29:35+09:00",
+  "total_exchanges": 254,
+  "total_questions": 221,
   "total_answers": 116,
   "exchanges": [
     {
@@ -466,6 +466,35 @@
         "excerpt": "○豊田委員 今、全国各地に様々な依存症、それが依存症だという認識も持たずに苦しんでおられる御本人や御家族がたくさんいらっしゃると思います。決して、あなたの意志が弱いからではなく、御家族の対応が悪かったからでもなく、それは、脳やあるいは心が今ちょっとダメージを受けてしまっている状況なので、諦めずに、そして孤立せずに、完璧な体制ではないかもしれませんけれども、",
         "speechURL": "https://kokkai.ndl.go.jp/txt/122104260X01220260527/170",
         "speechOrder": 170
+      },
+      "answers": [],
+      "ai_title": ""
+    },
+    {
+      "issueID": "122115254X01620260527",
+      "session": 221,
+      "nameOfHouse": "参議院",
+      "nameOfMeeting": "本会議",
+      "issue": "第16号",
+      "imageKind": "会議録",
+      "date": "2026-05-27",
+      "question": {
+        "speechID": "122115254X01620260527_018",
+        "issueID": "122115254X01620260527",
+        "session": 221,
+        "nameOfHouse": "参議院",
+        "nameOfMeeting": "本会議",
+        "issue": "第16号",
+        "imageKind": "会議録",
+        "date": "2026-05-27",
+        "speaker": "梅村みずほ",
+        "speakerGroup": "参政党",
+        "speakerPosition": "",
+        "speakerRole": "",
+        "is_minister": false,
+        "excerpt": "○梅村みずほ君 参政党の梅村みずほです。 私は、会派を代表し、ただいま議題となりました経済安全保障推進法及び国際協力銀行法改正案について質問いたします。 十九世紀初頭、かのナポレオン・ボナパルトは、清王朝を眠れる獅子と称し、こう警鐘を鳴らしたと言われています。彼らを眠らせておけ、目覚めれば世界を震撼させるだろう。 二十一世紀の現在、",
+        "speechURL": "https://kokkai.ndl.go.jp/txt/122115254X01620260527/18",
+        "speechOrder": 18
       },
       "answers": [],
       "ai_title": ""
