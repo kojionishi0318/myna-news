@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T12:00:42+09:00",
+  "updated": "2026-08-15T12:49:52+09:00",
   "alert_level": "green",
   "keywords": [
     {
@@ -390,8 +390,8 @@
       "current": 25.0,
       "yesterday": 30.0,
       "change_day": -16.7,
-      "avg_7day": 42.4,
-      "change_week": -41.0,
+      "avg_7day": 42.3,
+      "change_week": -40.9,
       "alert": false,
       "history": [
         {
@@ -732,7 +732,7 @@
         },
         {
           "date": "2026-08-07",
-          "value": 33.0
+          "value": 34.0
         },
         {
           "date": "2026-08-08",
@@ -756,7 +756,7 @@
         },
         {
           "date": "2026-08-13",
-          "value": 34.0
+          "value": 33.0
         },
         {
           "date": "2026-08-14",
@@ -770,11 +770,11 @@
     },
     {
       "keyword": "健康保険証",
-      "current": 3.0,
+      "current": 2.0,
       "yesterday": 3.0,
-      "change_day": 0.0,
-      "avg_7day": 2.9,
-      "change_week": 3.4,
+      "change_day": -33.3,
+      "avg_7day": 2.7,
+      "change_week": -25.9,
       "alert": false,
       "history": [
         {
@@ -1147,7 +1147,7 @@
         },
         {
           "date": "2026-08-15",
-          "value": 3.0
+          "value": 2.0
         }
       ]
     },
@@ -2248,7 +2248,7 @@
         },
         {
           "date": "2026-08-03",
-          "value": 1.2
+          "value": 0.8
         },
         {
           "date": "2026-08-04",
@@ -2302,11 +2302,11 @@
     },
     {
       "keyword": "資格確認書",
-      "current": 4.4,
+      "current": 4.0,
       "yesterday": 4.8,
-      "change_day": -8.3,
-      "avg_7day": 5.1,
-      "change_week": -13.7,
+      "change_day": -16.7,
+      "avg_7day": 5.0,
+      "change_week": -20.0,
       "alert": false,
       "history": [
         {
@@ -2647,7 +2647,7 @@
         },
         {
           "date": "2026-08-07",
-          "value": 7.6
+          "value": 8.0
         },
         {
           "date": "2026-08-08",
@@ -2679,7 +2679,7 @@
         },
         {
           "date": "2026-08-15",
-          "value": 4.4
+          "value": 4.0
         }
       ]
     }
