@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T18:57:16+09:00",
+  "updated": "2026-08-15T10:01:39+09:00",
   "articles": [
     {
       "title": "市民353人のマイナカード署名用電子証明書を失効 福岡・行橋 - au Webポータル",
@@ -66,6 +66,17 @@
       "_resolved_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSmluNXZwOEFjUlN4cGFXYm1udnNOQjBBdkdMcmdaQ0ZLdG41NDNlQXV2UEp6cmdBTUhweDVpOW1DQ1haQ0toNEdUdzFCZjFWWEVhdy1RU1BiXzBVTExjNzBXTTROeU5oYW5VbWxnUThRb3Q3dG5FYUtPaUloakE0Q1I3Q25oTkJlTUVERFBrM1Z4ekdTVW1Zb3lRenJuWXJtVDM4b0h6MA?oc=5",
       "category": "制度変更",
       "topic": "mynumber"
+    },
+    {
+      "title": "弘前市でマイナ保険証の不具合 解消 データ更新時に入力誤りが原因と発表（ABA青森朝日放送） - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE83ZlNCUC1hNG5sUHNLdlJXYXZGRHdiR1JDcDZTLXp4X2FhaVdQeUVFLUN1VTdEUG1xb0t4WElfdG1OWUJvSXhCT2lzbWlwWkF5T01nZGh1aXZIWjljZWRITmN5emk2N3ptRmpZSHhKQjMyTEE1eXJ0QUxBMzNiOFE?oc=5",
+      "pub_date": "2026-08-13T19:37:05+09:00",
+      "source": "Yahoo!ニュース",
+      "description": "医療機関を受診する際は、健康保険の資格確認を行ったうえで、自己負担割合に応じた金額を窓口で支払うのが一般的です。 定年退職時に、「1000万円」以上の貯蓄がある割合は日本でどれくらい？制度は2024年12月2日以降、「マイナ保険証」を基本とする ...",
+      "_glink": "https://news.google.com/rss/articles/CBMif0FVX3lxTE83ZlNCUC1hNG5sUHNLdlJXYXZGRHdiR1JDcDZTLXp4X2FhaVdQeUVFLUN1VTdEUG1xb0t4WElfdG1OWUJvSXhCT2lzbWlwWkF5T01nZGh1aXZIWjljZWRITmN5emk2N3ptRmpZSHhKQjMyTEE1eXJ0QUxBMzNiOFE?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE83ZlNCUC1hNG5sUHNLdlJXYXZGRHdiR1JDcDZTLXp4X2FhaVdQeUVFLUN1VTdEUG1xb0t4WElfdG1OWUJvSXhCT2lzbWlwWkF5T01nZGh1aXZIWjljZWRITmN5emk2N3ptRmpZSHhKQjMyTEE1eXJ0QUxBMzNiOFE?oc=5",
+      "category": "トラブル",
+      "topic": "insurance"
     },
     {
       "title": "弘前市でマイナ保険証の不具合 解消 データ更新時に入力誤りが原因と発表 - ABA青森朝日放送",
@@ -535,17 +546,6 @@
       "description": "8月に入って、私たちの生活に関わる多くのことが変化した。 その1つが保険証だ。 従来の紙の保険証は8月から使用ができなくなり、マイナ保険証などの提示が必要となった。 医療機関で混乱は起きていないのだろうか。 ■「紙の保険証」で受診できる暫定措置がついに終了 ...",
       "_glink": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdWFDWGRfeWRYd3d0ZXNQN0VmdW9MWkMyOVN2bnItd0NNRWpTT21CVzlfZDNkYWpXM3VBd0xWTHBSSUtINmhuZ1FfMWUza1ZpX1J6OERfTE94LUNleHFhZzhjMU5lRGtWMWtSa2JlczU5YWVPT1QwOGJrOENIUG5KaTJQRUQta1N5cmZQWkhB?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdWFDWGRfeWRYd3d0ZXNQN0VmdW9MWkMyOVN2bnItd0NNRWpTT21CVzlfZDNkYWpXM3VBd0xWTHBSSUtINmhuZ1FfMWUza1ZpX1J6OERfTE94LUNleHFhZzhjMU5lRGtWMWtSa2JlczU5YWVPT1QwOGJrOENIUG5KaTJQRUQta1N5cmZQWkhB?oc=5",
-      "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "「紙の保険証」暫定措置ついに終了 マイナ保険証か資格確認書を持たず「初診」の場合は注意 全額自己負担の可能性も さらに8月から変化 値上げになるものは2311品目 - ktv.jp",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBobzIzUG1aSnJIQXRTOHhBdmRDdWJ1NDdhQ0RWTC1lMUxqXy1ZdzlkN0p5bWFuNzRDM0djNlZGWnZEZmZiaHdOQkVSRjVCcUloUHlJUA?oc=5",
-      "pub_date": "2026-08-03T18:23:00+09:00",
-      "source": "ktv.jp",
-      "description": "8月に入って、私たちの生活に関わる多くのことが変化した。 その1つが保険証だ。 従来の紙の保険証は8月から使用ができなくなり、マイナ保険証などの提示が必要となった。 医療機関で混乱は起きていないのだろうか。 ■「紙の保険証」で受診できる暫定措置がついに終了 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBobzIzUG1aSnJIQXRTOHhBdmRDdWJ1NDdhQ0RWTC1lMUxqXy1ZdzlkN0p5bWFuNzRDM0djNlZGWnZEZmZiaHdOQkVSRjVCcUloUHlJUA?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBobzIzUG1aSnJIQXRTOHhBdmRDdWJ1NDdhQ0RWTC1lMUxqXy1ZdzlkN0p5bWFuNzRDM0djNlZGWnZEZmZiaHdOQkVSRjVCcUloUHlJUA?oc=5",
       "category": "一般",
       "topic": "insurance"
     }
