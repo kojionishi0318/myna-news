@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T01:37:41+09:00",
+  "updated": "2026-08-17T02:30:10+09:00",
   "alert_level": "green",
   "keywords": [
     {
@@ -388,10 +388,10 @@
     {
       "keyword": "マイナンバーカード",
       "current": 21.0,
-      "yesterday": 19.0,
-      "change_day": 10.5,
-      "avg_7day": 29.6,
-      "change_week": -29.1,
+      "yesterday": 18.0,
+      "change_day": 16.7,
+      "avg_7day": 29.4,
+      "change_week": -28.6,
       "alert": false,
       "history": [
         {
@@ -760,7 +760,7 @@
         },
         {
           "date": "2026-08-15",
-          "value": 19.0
+          "value": 18.0
         },
         {
           "date": "2026-08-16",
