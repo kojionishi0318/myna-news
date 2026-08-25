@@ -1,8 +1,8 @@
 {
-  "updated": "2026-08-24T18:43:13+09:00",
-  "total_exchanges": 257,
+  "updated": "2026-08-25T10:03:25+09:00",
+  "total_exchanges": 256,
   "total_questions": 225,
-  "total_answers": 116,
+  "total_answers": 114,
   "exchanges": [
     {
       "issueID": "122104260X02020260724",
@@ -28,6 +28,35 @@
         "is_minister": false,
         "excerpt": "令和八年七月二十四日（金曜日） 午前十時五十分開議 出席委員 委員長 大串 正樹君 理事 畦元 将吾君 理事 井上 信治君 理事 鬼木 誠君 理事 勝目 康君 理事 古賀 篤君 理事 浜地 雅一君 理事 伊東 信久君 理事 浅野 哲君 伊藤 聡君 上野 宏史君 衛藤 博昭君 岡本 康宏君 尾花 瑛仁君 加藤 貴弘君 金澤 結衣君 草間 剛君 栗原 渉君 斉藤…",
         "speechURL": "https://kokkai.ndl.go.jp/txt/122104260X02020260724/0",
+        "speechOrder": 0
+      },
+      "answers": [],
+      "ai_title": ""
+    },
+    {
+      "issueID": "122114260X02120260724",
+      "session": 221,
+      "nameOfHouse": "参議院",
+      "nameOfMeeting": "厚生労働委員会",
+      "issue": "第21号",
+      "imageKind": "会議録",
+      "date": "2026-07-24",
+      "question": {
+        "speechID": "122114260X02120260724_000",
+        "issueID": "122114260X02120260724",
+        "session": 221,
+        "nameOfHouse": "参議院",
+        "nameOfMeeting": "厚生労働委員会",
+        "issue": "第21号",
+        "imageKind": "会議録",
+        "date": "2026-07-24",
+        "speaker": "会議録情報",
+        "speakerGroup": "",
+        "speakerPosition": "",
+        "speakerRole": "",
+        "is_minister": false,
+        "excerpt": "令和八年七月二十四日（金曜日） 午後九時五十五分開会 ───────────── 委員の異動 七月二十三日 辞任 補欠選任 鈴木 大地君 山田 宏君 上野ほたる君 猪瀬 直樹君 ───────────── 出席者は左のとおり。",
+        "speechURL": "https://kokkai.ndl.go.jp/txt/122114260X02120260724/0",
         "speechOrder": 0
       },
       "answers": [],
@@ -118,6 +147,54 @@
         "speechOrder": 100
       },
       "answers": [],
+      "ai_title": ""
+    },
+    {
+      "issueID": "122114103X00820260615",
+      "session": 221,
+      "nameOfHouse": "参議院",
+      "nameOfMeeting": "決算委員会",
+      "issue": "第8号",
+      "imageKind": "会議録",
+      "date": "2026-06-15",
+      "question": {
+        "speechID": "122114103X00820260615_068",
+        "issueID": "122114103X00820260615",
+        "session": 221,
+        "nameOfHouse": "参議院",
+        "nameOfMeeting": "決算委員会",
+        "issue": "第8号",
+        "imageKind": "会議録",
+        "date": "2026-06-15",
+        "speaker": "岸真紀子",
+        "speakerGroup": "立憲民主・無所属",
+        "speakerPosition": "",
+        "speakerRole": "",
+        "is_minister": false,
+        "excerpt": "○岸真紀子君 増えたからいいという問題じゃなくて、九十三万枚が返納されたことを問題として今質問をしたところです。 同じように、マイナ保険証としての登録に七千五百円分のポイントが付与されましたが、検査報告書を見ると、マイナ保険証の利用登録解除申請件数は、二〇二五年七月時点において計十五万二千八百六十六件となっています。また、",
+        "speechURL": "https://kokkai.ndl.go.jp/txt/122114103X00820260615/68",
+        "speechOrder": 68
+      },
+      "answers": [
+        {
+          "speechID": "122114103X00820260615_069",
+          "issueID": "122114103X00820260615",
+          "session": 221,
+          "nameOfHouse": "参議院",
+          "nameOfMeeting": "決算委員会",
+          "issue": "第8号",
+          "imageKind": "会議録",
+          "date": "2026-06-15",
+          "speaker": "林芳正",
+          "speakerGroup": "自由民主党・無所属の会",
+          "speakerPosition": "総務大臣",
+          "speakerRole": "",
+          "is_minister": true,
+          "excerpt": "○国務大臣（林芳正君） 今、岸委員からお話がありましたように、このマイナ保険証ですとか公金受取口座について、一定程度登録を解除された方々がいらっしゃるということは認識をしておるところでございます。 一方で、先ほど参考人からも答弁いたしましたが、このマイナンバーカードの早期普及に加えまして、健康保険証利用、また公金受取口座の登録を促進し、",
+          "speechURL": "https://kokkai.ndl.go.jp/txt/122114103X00820260615/69",
+          "speechOrder": 69
+        }
+      ],
       "ai_title": ""
     },
     {
@@ -3906,35 +3983,6 @@
       "imageKind": "会議録",
       "date": "2025-11-19",
       "question": {
-        "speechID": "121904260X00220251119_148",
-        "issueID": "121904260X00220251119",
-        "session": 219,
-        "nameOfHouse": "衆議院",
-        "nameOfMeeting": "厚生労働委員会",
-        "issue": "第2号",
-        "imageKind": "会議録",
-        "date": "2025-11-19",
-        "speaker": "宮川伸",
-        "speakerGroup": "立憲民主党・無所属",
-        "speakerPosition": "",
-        "speakerRole": "",
-        "is_minister": false,
-        "excerpt": "○宮川委員 何かあった場合にしっかり通知が来るとか幾つかお話をされていましたが、また次の質疑の中で細かく、本当にそれがどうなっているのかということをお伺いをしていきたいと思います。 改めて申しますが、本当に、国民の非常に重要な医療情報を海外の外資系のクラウドサービスに全部委ねて、",
-        "speechURL": "https://kokkai.ndl.go.jp/txt/121904260X00220251119/148",
-        "speechOrder": 148
-      },
-      "answers": [],
-      "ai_title": ""
-    },
-    {
-      "issueID": "121904260X00220251119",
-      "session": 219,
-      "nameOfHouse": "衆議院",
-      "nameOfMeeting": "厚生労働委員会",
-      "issue": "第2号",
-      "imageKind": "会議録",
-      "date": "2025-11-19",
-      "question": {
         "speechID": "121904260X00220251119_146",
         "issueID": "121904260X00220251119",
         "session": 219,
@@ -3982,37 +4030,6 @@
         "speechOrder": 142
       },
       "answers": [],
-      "ai_title": ""
-    },
-    {
-      "issueID": "121914260X00120251118",
-      "session": 219,
-      "nameOfHouse": "参議院",
-      "nameOfMeeting": "厚生労働委員会",
-      "issue": "第1号",
-      "imageKind": "会議録",
-      "date": "2025-11-18",
-      "question": null,
-      "answers": [
-        {
-          "speechID": "121914260X00120251118_008",
-          "issueID": "121914260X00120251118",
-          "session": 219,
-          "nameOfHouse": "参議院",
-          "nameOfMeeting": "厚生労働委員会",
-          "issue": "第1号",
-          "imageKind": "会議録",
-          "date": "2025-11-18",
-          "speaker": "上野賢一郎",
-          "speakerGroup": "自由民主党・無所属の会",
-          "speakerPosition": "厚生労働大臣",
-          "speakerRole": "",
-          "is_minister": true,
-          "excerpt": "○国務大臣（上野賢一郎君） この度、厚生労働大臣を拝命をいたしました上野賢一郎でございます。どうぞよろしくお願いいたします。 厚生労働委員会の開催に当たり、御挨拶を申し上げます。 厚生労働行政は、国民の生活を生涯にわたって支える使命を担っており、改めて責任の重大さに身の引き締まる思いです。国民の皆様の安全、安心の確保に万全を期すことにより、",
-          "speechURL": "https://kokkai.ndl.go.jp/txt/121914260X00120251118/8",
-          "speechOrder": 8
-        }
-      ],
       "ai_title": ""
     },
     {
@@ -6928,7 +6945,7 @@
       "imageKind": "会議録",
       "date": "2025-04-09",
       "question": {
-        "speechID": "121715360X00420250409_090",
+        "speechID": "121715360X00420250409_074",
         "issueID": "121715360X00420250409",
         "session": 217,
         "nameOfHouse": "参議院",
@@ -6941,9 +6958,9 @@
         "speakerPosition": "",
         "speakerRole": "",
         "is_minister": false,
-        "excerpt": "○伊藤孝江君 今御紹介いただいた件数をどういうふうに今後に生かしていくかというところなんですけれども、最初に御説明いただいたように、実際にマイナ保険証をこの救急時に活用できたのが全体の約七％ということで、九三％の方は使わなかった、あるいは使えなかったというのが実態としてあります。 この九三％の方について、そもそも例えばマイナ保険証を作っていない、",
-        "speechURL": "https://kokkai.ndl.go.jp/txt/121715360X00420250409/90",
-        "speechOrder": 90
+        "excerpt": "○伊藤孝江君 公明党の伊藤孝江です。よろしくお願いいたします。 今日は、マイナ救急について少し細かく丁寧にちょっと確認をさせていただきたいというふうに思っております。 平大臣の所信におかれましても、マイナ保険証のメリットを早期に発現するための医療ＤＸの推進に関係省庁と連携して取り組むとありますけれども、",
+        "speechURL": "https://kokkai.ndl.go.jp/txt/121715360X00420250409/74",
+        "speechOrder": 74
       },
       "answers": [
         {
@@ -6965,35 +6982,6 @@
           "speechOrder": 156
         }
       ],
-      "ai_title": ""
-    },
-    {
-      "issueID": "121715360X00420250409",
-      "session": 217,
-      "nameOfHouse": "参議院",
-      "nameOfMeeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
-      "issue": "第4号",
-      "imageKind": "会議録",
-      "date": "2025-04-09",
-      "question": {
-        "speechID": "121715360X00420250409_074",
-        "issueID": "121715360X00420250409",
-        "session": 217,
-        "nameOfHouse": "参議院",
-        "nameOfMeeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
-        "issue": "第4号",
-        "imageKind": "会議録",
-        "date": "2025-04-09",
-        "speaker": "伊藤孝江",
-        "speakerGroup": "公明党",
-        "speakerPosition": "",
-        "speakerRole": "",
-        "is_minister": false,
-        "excerpt": "○伊藤孝江君 公明党の伊藤孝江です。よろしくお願いいたします。 今日は、マイナ救急について少し細かく丁寧にちょっと確認をさせていただきたいというふうに思っております。 平大臣の所信におかれましても、マイナ保険証のメリットを早期に発現するための医療ＤＸの推進に関係省庁と連携して取り組むとありますけれども、",
-        "speechURL": "https://kokkai.ndl.go.jp/txt/121715360X00420250409/74",
-        "speechOrder": 74
-      },
-      "answers": [],
       "ai_title": ""
     },
     {
@@ -8905,24 +8893,6 @@
           "speechOrder": 47
         },
         {
-          "speechID": "121615360X00320241219_095",
-          "issueID": "121615360X00320241219",
-          "session": 216,
-          "nameOfHouse": "参議院",
-          "nameOfMeeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
-          "issue": "第3号",
-          "imageKind": "会議録",
-          "date": "2024-12-19",
-          "speaker": "仁木博文",
-          "speakerGroup": "自由民主党・無所属の会",
-          "speakerPosition": "厚生労働副大臣",
-          "speakerRole": "",
-          "is_minister": true,
-          "excerpt": "○副大臣（仁木博文君） マイナ保険証というのは、本人の健康医療情報を活用した適切な医療の提供に寄与するものであります。 マイナ保険証を基本とする仕組みに移行したところ、十二月二日以降もこれまでどおり保険診療を受けられるようにしております。最大一年間、発行済保険証を使用可能としているほか、マイナ保険証をお持ちでない方には発行済みの健康保険証が使えなくなる前に、",
-          "speechURL": "https://kokkai.ndl.go.jp/txt/121615360X00320241219/95",
-          "speechOrder": 95
-        },
-        {
           "speechID": "121615360X00320241219_097",
           "issueID": "121615360X00320241219",
           "session": 216,
@@ -8939,24 +8909,6 @@
           "excerpt": "○政府参考人（榊原毅君） お答え申し上げます。 健康保険情報に関する別人の個人番号とのひも付け誤りにつきまして、オンライン資格確認の本格運用を開始した令和三年十月から総点検作業依頼を行う前日の令和五年五月二十二日までに判明した保険者から異なる個人番号が登録された件数は七千三百七十二件でございます。それ以降、",
           "speechURL": "https://kokkai.ndl.go.jp/txt/121615360X00320241219/97",
           "speechOrder": 97
-        },
-        {
-          "speechID": "121615360X00320241219_109",
-          "issueID": "121615360X00320241219",
-          "session": 216,
-          "nameOfHouse": "参議院",
-          "nameOfMeeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
-          "issue": "第3号",
-          "imageKind": "会議録",
-          "date": "2024-12-19",
-          "speaker": "平将明",
-          "speakerGroup": "自由民主党・無所属の会",
-          "speakerPosition": "デジタル大臣・内閣府特命担当大臣（規制改革）",
-          "speakerRole": "",
-          "is_minister": true,
-          "excerpt": "○国務大臣（平将明君） 私、これ役所に確認をして経緯のメモをもらっていますが、その中に関係大臣会合というのはないです。多分、関係閣僚間で逐一協議をしていたんだろうというふうに想像をいたします。 そういった中で、現行保険証の廃止の方針については、政府を挙げてマイナンバーカードの普及や利便性向上に向けた方策に総合的に取り組む中で、",
-          "speechURL": "https://kokkai.ndl.go.jp/txt/121615360X00320241219/109",
-          "speechOrder": 109
         }
       ],
       "ai_title": ""
