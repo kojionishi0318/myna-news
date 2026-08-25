@@ -1,6 +1,80 @@
 {
-  "updated": "2026-08-25T10:03:14+09:00",
+  "updated": "2026-08-25T18:32:05+09:00",
   "articles": [
+    {
+      "title": "新「マイナアプリ」提供開始　本人認証機能を追加―デジタル庁",
+      "link": "https://www.jiji.com/jc/article?k=2026082500736&g=pol&m=rss",
+      "pub_date": "2026-08-25T16:13:00+09:00",
+      "source": "時事通信",
+      "description": "デジタル庁は２５日、マイナンバーカードの機能をスマートフォンで利用できる「マイナポータルアプリ」を刷新し、新たに「マイナアプリ」として提供を始めた。従来のアプリに、同庁が別アプリで手掛けていた本人認証機能を統合し、行政手続きを行う利用者の利便性向上を ...",
+      "thumbnail": "https://www.jiji.com/news2/kiji_photos/202608/20260825ds74_o.jpg",
+      "category": "使い方",
+      "topic": "mynumber"
+    },
+    {
+      "title": "「マイナアプリ」リニューアル スマホあればカード不要の場面広がる - 朝日新聞",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8tTWI5NlRoRVBaaFlyWW5jQUJoeXVGc29fQVczQ2RVdGNWMlhtczdDenZzV3BQM2pUWEs3M0oxRGxJYWc2NE9nMWkwT2lFWm81RWFXai1PdDFtb2MzVVpnbUlIeVkwS0E?oc=5",
+      "pub_date": "2026-08-25T14:33:10+09:00",
+      "source": "朝日新聞",
+      "description": "デジタル庁 によると、新アプリになることで、 スマートフォン に事前にマイナカードを読み込ませておけば、カードの実物を取り出さなくても、スマートフォンだけで本人確認ができるようになる。インターネット上の行政サービスなどで本人確認をする際、これまで必要だった別の認証アプリも不要になる。",
+      "_glink": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8tTWI5NlRoRVBaaFlyWW5jQUJoeXVGc29fQVczQ2RVdGNWMlhtczdDenZzV3BQM2pUWEs3M0oxRGxJYWc2NE9nMWkwT2lFWm81RWFXai1PdDFtb2MzVVpnbUlIeVkwS0E?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8tTWI5NlRoRVBaaFlyWW5jQUJoeXVGc29fQVczQ2RVdGNWMlhtczdDenZzV3BQM2pUWEs3M0oxRGxJYWc2NE9nMWkwT2lFWm81RWFXai1PdDFtb2MzVVpnbUlIeVkwS0E?oc=5",
+      "category": "一般",
+      "topic": "mynumber"
+    },
+    {
+      "title": "第213回社会保障審議会医療保険部会（ペーパーレス）の開催について",
+      "link": "https://www.mhlw.go.jp/stf/newpage_75728.html",
+      "pub_date": "2026-08-25T14:00:00+09:00",
+      "source": "厚生労働省",
+      "description": "厚生労働省は3月26日の社会保障審議会医療部会（部会長：遠藤久夫・学習院大学長）で、2026年4月から始まる「医療法人の経営情報の第三者提供制度」に伴い、提供申出の審査等を行う専門委員会（仮称）を設置することを提案。部会は了承した（資料は ...",
+      "thumbnail": "https://www.mhlw.go.jp/common/img/img_ogp.jpg",
+      "category": "政治",
+      "topic": "mynumber"
+    },
+    {
+      "title": "【10月1日開始】マイナンバーカードを医療証に｜川ばた ひろこ（大阪市都島区） - 選挙ドットコム",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE92aVY2RlA5bkpzakNNZlpLdU9td09hMkVyVDlmNVNoNElHVFpfZ1BocnBDclZYSTQ4VERfbDV1Q0p3cm82TzBiMFgyRFB0VVZfNThWS0ZJWFd0TFl2REtF?oc=5",
+      "pub_date": "2026-08-25T11:59:17+09:00",
+      "source": "選挙ドットコム",
+      "description": "",
+      "_glink": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE92aVY2RlA5bkpzakNNZlpLdU9td09hMkVyVDlmNVNoNElHVFpfZ1BocnBDclZYSTQ4VERfbDV1Q0p3cm82TzBiMFgyRFB0VVZfNThWS0ZJWFd0TFl2REtF?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE92aVY2RlA5bkpzakNNZlpLdU9td09hMkVyVDlmNVNoNElHVFpfZ1BocnBDclZYSTQ4VERfbDV1Q0p3cm82TzBiMFgyRFB0VVZfNThWS0ZJWFd0TFl2REtF?oc=5",
+      "category": "一般",
+      "topic": "mynumber"
+    },
+    {
+      "title": "マイナアプリの提供を開始しました - デジタル庁 ウェブサービス・アプリケーション",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1nV0QteTROSk9LVnVzUVdnVW1udVV4VGxydEFjOGR6cUdpUTVNQ3BiT1NFbGpOelN3QV83bnI2YXZwWUxMRDJjdVNFT0laU0dyc1h3YjF6TldTdHYxMWJqOFU5YU1ETkE?oc=5",
+      "pub_date": "2026-08-25T11:04:57+09:00",
+      "source": "デジタル庁 ウェブサービス・アプリケーション",
+      "description": "デジタル庁は、今夏提供予定としていた「マイナアプリ」について、提供開始日を8月25日にすると発表した。「マイナポータルアプリ」をアップデートすると、自動で「マイナアプリ」に切り替わる。 「マイナアプリ」は、別々に提供されていた「マイナ ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1nV0QteTROSk9LVnVzUVdnVW1udVV4VGxydEFjOGR6cUdpUTVNQ3BiT1NFbGpOelN3QV83bnI2YXZwWUxMRDJjdVNFT0laU0dyc1h3YjF6TldTdHYxMWJqOFU5YU1ETkE?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1nV0QteTROSk9LVnVzUVdnVW1udVV4VGxydEFjOGR6cUdpUTVNQ3BiT1NFbGpOelN3QV83bnI2YXZwWUxMRDJjdVNFT0laU0dyc1h3YjF6TldTdHYxMWJqOFU5YU1ETkE?oc=5",
+      "category": "一般",
+      "topic": "mynumber"
+    },
+    {
+      "title": "2026年8月25日に「マイナアプリ」の提供を開始しました（デジタル庁ウェブサービス・アプリケーション）",
+      "link": "https://services.digital.go.jp/mynaapp/news/20260825-01/",
+      "pub_date": "2026-08-25T11:00:27+09:00",
+      "source": "デジタル庁",
+      "description": "デジタル庁は7月28日、新「マイナアプリ」を8月25日に提供開始すると発表した。 新「マイナアプリ」 ※クリックすると拡大画像が見られます マイナアプリは、従来の「マイナポータルアプリ」と、官民のサービスで導入が進む「デジタル認証アプリ」の ...",
+      "thumbnail": "https://services.digital.go.jp/uploads/og_images/20260728_mynaapp_01.png",
+      "category": "一般",
+      "topic": "mynumber"
+    },
+    {
+      "title": "スマホ用電子証明書をAndroid端末に追加する方法 - デジタル庁 ウェブサービス・アプリケーション",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9IR25ObUcyaW0zT3lhUXY1cnJmMnNubzFHWm5vUkkxdkVKR2xTajZOcVlZTnN5WmpVLTA3NWdDSWFTeTlvZWhPVkU2Ny00VS1CWnFqS1MyS1Vpa1FHNTdNdWowNENyek0?oc=5",
+      "pub_date": "2026-08-24T23:30:58+09:00",
+      "source": "デジタル庁 ウェブサービス・アプリケーション",
+      "description": "マイナンバーカードの特徴の1つである電子証明書を使ったJPKI（公的個人認証）。マイナンバーカードのICチップ内に電子証明書を保管して、オンラインでの本人確認を確実に行えるというメリットがある。 そのJPKIをスマートフォンにも搭載する動きが進め ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9IR25ObUcyaW0zT3lhUXY1cnJmMnNubzFHWm5vUkkxdkVKR2xTajZOcVlZTnN5WmpVLTA3NWdDSWFTeTlvZWhPVkU2Ny00VS1CWnFqS1MyS1Vpa1FHNTdNdWowNENyek0?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9IR25ObUcyaW0zT3lhUXY1cnJmMnNubzFHWm5vUkkxdkVKR2xTajZOcVlZTnN5WmpVLTA3NWdDSWFTeTlvZWhPVkU2Ny00VS1CWnFqS1MyS1Vpa1FHNTdNdWowNENyek0?oc=5",
+      "category": "一般",
+      "topic": "mynumber"
+    },
     {
       "title": "【2026年8月改正】高額療養費の月額上限はどう変わった？マイナ保険証があっても一部「償還払い」が発生するのはどんなとき？(LIMO) - Yahoo!ファイナンス",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPR1hmM2wxX3JaQ2ttRXduSlpRbzAzZHJjaDlpak9OaklCalVGOGhfTldvX0h3Sk5OSHJWd1M1UV9oYUZjNFhlTjVRVjNSaFFFNDFPYVRkMll4SzlYYVFQOVZpSlZXMzRRNjR3ZWtpdWtydXlkYlFMbmhueUpaMXJPSDg0VHphQUk?oc=5",
@@ -470,83 +544,6 @@
       "_glink": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSmluNXZwOEFjUlN4cGFXYm1udnNOQjBBdkdMcmdaQ0ZLdG41NDNlQXV2UEp6cmdBTUhweDVpOW1DQ1haQ0toNEdUdzFCZjFWWEVhdy1RU1BiXzBVTExjNzBXTTROeU5oYW5VbWxnUThRb3Q3dG5FYUtPaUloakE0Q1I3Q25oTkJlTUVERFBrM1Z4ekdTVW1Zb3lRenJuWXJtVDM4b0h6MA?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSmluNXZwOEFjUlN4cGFXYm1udnNOQjBBdkdMcmdaQ0ZLdG41NDNlQXV2UEp6cmdBTUhweDVpOW1DQ1haQ0toNEdUdzFCZjFWWEVhdy1RU1BiXzBVTExjNzBXTTROeU5oYW5VbWxnUThRb3Q3dG5FYUtPaUloakE0Q1I3Q25oTkJlTUVERFBrM1Z4ekdTVW1Zb3lRenJuWXJtVDM4b0h6MA?oc=5",
       "category": "制度変更",
-      "topic": "mynumber"
-    },
-    {
-      "title": "弘前市でマイナ保険証の不具合 解消 データ更新時に入力誤りが原因と発表（ABA青森朝日放送） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE83ZlNCUC1hNG5sUHNLdlJXYXZGRHdiR1JDcDZTLXp4X2FhaVdQeUVFLUN1VTdEUG1xb0t4WElfdG1OWUJvSXhCT2lzbWlwWkF5T01nZGh1aXZIWjljZWRITmN5emk2N3ptRmpZSHhKQjMyTEE1eXJ0QUxBMzNiOFE?oc=5",
-      "pub_date": "2026-08-13T19:37:05+09:00",
-      "source": "Yahoo!ニュース",
-      "description": "医療機関を受診する際は、健康保険の資格確認を行ったうえで、自己負担割合に応じた金額を窓口で支払うのが一般的です。 定年退職時に、「1000万円」以上の貯蓄がある割合は日本でどれくらい？制度は2024年12月2日以降、「マイナ保険証」を基本とする ...",
-      "_glink": "https://news.google.com/rss/articles/CBMif0FVX3lxTE83ZlNCUC1hNG5sUHNLdlJXYXZGRHdiR1JDcDZTLXp4X2FhaVdQeUVFLUN1VTdEUG1xb0t4WElfdG1OWUJvSXhCT2lzbWlwWkF5T01nZGh1aXZIWjljZWRITmN5emk2N3ptRmpZSHhKQjMyTEE1eXJ0QUxBMzNiOFE?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE83ZlNCUC1hNG5sUHNLdlJXYXZGRHdiR1JDcDZTLXp4X2FhaVdQeUVFLUN1VTdEUG1xb0t4WElfdG1OWUJvSXhCT2lzbWlwWkF5T01nZGh1aXZIWjljZWRITmN5emk2N3ptRmpZSHhKQjMyTEE1eXJ0QUxBMzNiOFE?oc=5",
-      "category": "トラブル",
-      "topic": "insurance"
-    },
-    {
-      "title": "弘前市でマイナ保険証の不具合 解消 データ更新時に入力誤りが原因と発表 - ABA青森朝日放送",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9xNjh1OWtaVE5EZlljSmVhS0RtV0hzNW11VEpWU2JlVk10ZzdMSGVNN1F5c0hERWY2eVJUU2JZUTZEdUg4WldDU0JhbDZhbVVJdGdwbGJXM0U?oc=5",
-      "pub_date": "2026-08-13T18:45:00+09:00",
-      "source": "ABA青森朝日放送",
-      "description": "弘前市でマイナ保険証を利用した市民の一部で、誤ったデータが表示されるトラブルが発生した問題についてです。市は、データの入力を誤り、正しくデータ更新が行われなかったことが原因だと公表しました。",
-      "_glink": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9xNjh1OWtaVE5EZlljSmVhS0RtV0hzNW11VEpWU2JlVk10ZzdMSGVNN1F5c0hERWY2eVJUU2JZUTZEdUg4WldDU0JhbDZhbVVJdGdwbGJXM0U?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9xNjh1OWtaVE5EZlljSmVhS0RtV0hzNW11VEpWU2JlVk10ZzdMSGVNN1F5c0hERWY2eVJUU2JZUTZEdUg4WldDU0JhbDZhbVVJdGdwbGJXM0U?oc=5",
-      "category": "トラブル",
-      "topic": "insurance"
-    },
-    {
-      "title": "国民健康保険証の有効期限満了のお知らせ - city.nirasaki.lg.jp",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaEYwY3pSd29FVmNGU01yQW4wYmlKdHlFa0tLdzFha1Y5WUZnTjRWdVd0cmR5U25hNW13NWVzM1l1blFudkl4bUVaczNfYmcyYXNyTjZiTTZRRDJLQWFhRlF5Q1EwcnV5T2J3M0VsYlpQdXNwb29FaHhqQmI3dzZqSnhURDIxcXR0MkNoQmVtanNhdUpQNHowcW9FTQ?oc=5",
-      "pub_date": "2026-08-13T16:00:00+09:00",
-      "source": "city.nirasaki.lg.jp",
-      "description": "健康保険証の新規発行が2024年12月1日に終了したのに伴い、その1年後となる2025年12月1日をもって、既存の発行済みの健康保険証も有効期限を迎える。これにより、12月2日からはマイナ保険証を基本とする仕組みになる。マイナ保険証に登録していない人には ...",
-      "_glink": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaEYwY3pSd29FVmNGU01yQW4wYmlKdHlFa0tLdzFha1Y5WUZnTjRWdVd0cmR5U25hNW13NWVzM1l1blFudkl4bUVaczNfYmcyYXNyTjZiTTZRRDJLQWFhRlF5Q1EwcnV5T2J3M0VsYlpQdXNwb29FaHhqQmI3dzZqSnhURDIxcXR0MkNoQmVtanNhdUpQNHowcW9FTQ?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaEYwY3pSd29FVmNGU01yQW4wYmlKdHlFa0tLdzFha1Y5WUZnTjRWdVd0cmR5U25hNW13NWVzM1l1blFudkl4bUVaczNfYmcyYXNyTjZiTTZRRDJLQWFhRlF5Q1EwcnV5T2J3M0VsYlpQdXNwb29FaHhqQmI3dzZqSnhURDIxcXR0MkNoQmVtanNhdUpQNHowcW9FTQ?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "マイナ保険証か資格確認書「早めに用意を」 岡山県保険医協会の谷向理事長 - 山陽新聞",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1uXzR2cWpjYk8xM2E1dVNrRUhUbHF3bFlYZl9GUmZoWTRMV21iRFNvZldYbnlCUkpYUmJDS1NwOG5LOVA2LTJ2ZTllMjZaMkhOY0hpTWd4QURvNFhxcnNkTzlrc1lLTk0?oc=5",
-      "pub_date": "2026-08-13T16:00:00+09:00",
-      "source": "山陽新聞",
-      "description": "マイナンバーカードに健康保険証の機能を持たせた「マイナ保険証」への移行に伴い、8月から従来の健康保険証は使えなくなる。8月からは、医療機関の窓口でマイナ保険証か、保険証の代わりとなる「資格確認書」を提示しないと、保険診療として受診 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1uXzR2cWpjYk8xM2E1dVNrRUhUbHF3bFlYZl9GUmZoWTRMV21iRFNvZldYbnlCUkpYUmJDS1NwOG5LOVA2LTJ2ZTllMjZaMkhOY0hpTWd4QURvNFhxcnNkTzlrc1lLTk0?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1uXzR2cWpjYk8xM2E1dVNrRUhUbHF3bFlYZl9GUmZoWTRMV21iRFNvZldYbnlCUkpYUmJDS1NwOG5LOVA2LTJ2ZTllMjZaMkhOY0hpTWd4QURvNFhxcnNkTzlrc1lLTk0?oc=5",
-      "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "年金手続きの境界線！「スマホで済む7選＆窓口・郵送必須5選」免除や口座変更は24時間申請OK！（LIMO） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kVi1qTmJmWVZnYkFuWnc1QXA2dUd1QkgwNFFIVXplbE1LQlJGalp2X0RfWHBaNVF5ZTVfUHFQSEl6d0lEWkZmd29JUzJ0dDVQREZ3Nkh2ZG90T204R0tOWkRoMGNNZzd0dHlsTUo2am1EOHl6S05QNmZDaThuYW8?oc=5",
-      "pub_date": "2026-08-13T09:00:59+09:00",
-      "source": "Yahoo!ニュース",
-      "description": "障害年金の請求手続きは複雑なため、社会保険労務士に任せたほうがいいという人もいます。申請を検討中の人の中には、「自分で申請できないの？」「社会保険労務士に依頼するメリットは？」などの疑問を感じている人もいるでしょう。 【画像】障害 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kVi1qTmJmWVZnYkFuWnc1QXA2dUd1QkgwNFFIVXplbE1LQlJGalp2X0RfWHBaNVF5ZTVfUHFQSEl6d0lEWkZmd29JUzJ0dDVQREZ3Nkh2ZG90T204R0tOWkRoMGNNZzd0dHlsTUo2am1EOHl6S05QNmZDaThuYW8?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kVi1qTmJmWVZnYkFuWnc1QXA2dUd1QkgwNFFIVXplbE1LQlJGalp2X0RfWHBaNVF5ZTVfUHFQSEl6d0lEWkZmd29JUzJ0dDVQREZ3Nkh2ZG90T204R0tOWkRoMGNNZzd0dHlsTUo2am1EOHl6S05QNmZDaThuYW8?oc=5",
-      "category": "トラブル",
-      "topic": "mynumber"
-    },
-    {
-      "title": "爆弾および爆発物処理に関する資格証明書の検査および新規発行を行う。 - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPelZNeFJZeW9BZFpoeWNIbThTTTVXX0pfRi1TbTBLQXNMZVduT3lWTGhGeEYxbXIyMEdxclgzbVBjYjdYcHU4M0JsRFVXOU9RTEpWMzZmZ0Y3Y1kzNTEwaEpmRU13NS1FVnVMRng4NTBiZ0w5Zm9GajAyYi1YeDh6WHpyMFA2U3ppVHJN?oc=5",
-      "pub_date": "2026-08-12T19:42:20+09:00",
-      "source": "Vietnam.vn",
-      "description": "",
-      "_glink": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPelZNeFJZeW9BZFpoeWNIbThTTTVXX0pfRi1TbTBLQXNMZVduT3lWTGhGeEYxbXIyMEdxclgzbVBjYjdYcHU4M0JsRFVXOU9RTEpWMzZmZ0Y3Y1kzNTEwaEpmRU13NS1FVnVMRng4NTBiZ0w5Zm9GajAyYi1YeDh6WHpyMFA2U3ppVHJN?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPelZNeFJZeW9BZFpoeWNIbThTTTVXX0pfRi1TbTBLQXNMZVduT3lWTGhGeEYxbXIyMEdxclgzbVBjYjdYcHU4M0JsRFVXOU9RTEpWMzZmZ0Y3Y1kzNTEwaEpmRU13NS1FVnVMRng4NTBiZ0w5Zm9GajAyYi1YeDh6WHpyMFA2U3ppVHJN?oc=5",
-      "category": "一般",
-      "topic": "mynumber"
-    },
-    {
-      "title": "【1分解説】次期マイナンバーカードとは？ | 谷口 智明 | 第一ライフ資産運用経済研究所 - 第一ライフ資産運用経済研究所",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5IdWlQRC1NNzRZUjExR2REVVZxVEFKd3ozOGtHZmQxN2JEWEkxek5YRTFHakE2VDdnTHJEb2pscTI4NVZsWi1fYVA4czlYZklSejJETlRaUQ?oc=5",
-      "pub_date": "2026-08-12T13:03:27+09:00",
-      "source": "第一ライフ資産運用経済研究所",
-      "description": "デジタル庁は7月21日に「デジタル社会の実現に向けた重点計画」を閣議決定し、次期マイナンバーカードについて、当初の計画より後ろ倒しとなる2029年度中に導入予定であると公表した。 【写真ギャラリー】 「マイナンバーカードを使うことが当たり前 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5IdWlQRC1NNzRZUjExR2REVVZxVEFKd3ozOGtHZmQxN2JEWEkxek5YRTFHakE2VDdnTHJEb2pscTI4NVZsWi1fYVA4czlYZklSejJETlRaUQ?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5IdWlQRC1NNzRZUjExR2REVVZxVEFKd3ozOGtHZmQxN2JEWEkxek5YRTFHakE2VDdnTHJEb2pscTI4NVZsWi1fYVA4czlYZklSejJETlRaUQ?oc=5",
-      "category": "一般",
       "topic": "mynumber"
     }
   ],
