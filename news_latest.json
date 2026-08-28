@@ -1,6 +1,16 @@
 {
-  "updated": "2026-08-28T17:52:10+09:00",
+  "updated": "2026-08-29T05:41:07+09:00",
   "articles": [
+    {
+      "title": "デジタル推進委員向けのデジタル情報をまとめて案内するページ「教える人のためのデジタル情報ひろば」において「マイナポータルを知る」を更新しました",
+      "link": "https://www.digital.go.jp/policies/digital_promotion_staff/curation",
+      "pub_date": "2026-08-28T18:46:36+09:00",
+      "source": "デジタル庁",
+      "description": "1．Society5.0時代のデジタル人材育成に関する検討会 経済産業省では、今後のデジタル人材育成のあり方を議論するべく、「Society5.0時代のデジタル人材育成に関する検討会」及び「デジタル人材のスキル・学習の在り方ワーキンググループ」を開催し ...",
+      "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
+      "category": "一般",
+      "topic": "mynumber"
+    },
     {
       "title": "マイナンバーカードの普及と利活用に関するダッシュボードを更新しました",
       "link": "https://www.digital.go.jp/resources/govdashboard/mynumber_card_penetration_usage",
@@ -10,6 +20,17 @@
       "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
       "category": "制度変更",
       "topic": "mynumber"
+    },
+    {
+      "title": "派遣の健康保険はどこに加入する？保険証の扱いと派遣健保の解散後をまとめた解説ページを公開 - アットプレス",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBxS2xNS2ZkenZmdFBXOVRsM3QwU3pwTEVZWkJRWlpZQW1uNVAtRWk4dHRDcGxQVXRWempZX05FZk8zOEhKSjVoSF9kRnQwUzg?oc=5",
+      "pub_date": "2026-08-28T14:50:00+09:00",
+      "source": "アットプレス",
+      "description": "契約満了で退職予定の派遣社員です。退職後は無収入になります。健康保険は任意継続と国保のどちらを選ぶのがよいでしょうか？ 派遣社員として働いていて、契約満了で退職する予定の場合、退職後の健康保険をどうするかは早めに決めておきたい問題です ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBxS2xNS2ZkenZmdFBXOVRsM3QwU3pwTEVZWkJRWlpZQW1uNVAtRWk4dHRDcGxQVXRWempZX05FZk8zOEhKSjVoSF9kRnQwUzg?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBxS2xNS2ZkenZmdFBXOVRsM3QwU3pwTEVZWkJRWlpZQW1uNVAtRWk4dHRDcGxQVXRWempZX05FZk8zOEhKSjVoSF9kRnQwUzg?oc=5",
+      "category": "一般",
+      "topic": "insurance"
     },
     {
       "title": "派遣の健康保険はどこに加入する？保険証の扱いと派遣健保の解散後をまとめた解説ページを公開 - Newscast.jp",
@@ -522,28 +543,6 @@
       "_resolved_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9jMEVfTVpkTGQ5NTBTYkxHWlQzQzkwVUppNlBibXg4bDN3c3Zrc1B0RTh4ek5wcElCcUpLM3g3R2dOZnh3NDN0clZpYUVZNDlBS2ZrZkNJTTJMRTN0aG9J?oc=5",
       "category": "制度変更",
       "topic": "insurance"
-    },
-    {
-      "title": "写真 | 【マイナンバーカード】健康保険証で使うメリット4選とは。安くなるのか - LIMO | くらしとお金の経済メディア",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1oaWZveEtheDk3UDdBR1YzRmxqWjNhOXFINXNibmUxU2RXRnZGWVNPZ2Z4SkFoUDlUSzlyWEw5N3FoZm9MaDhnOC1TYlBVM1BEOGFqcmRB?oc=5",
-      "pub_date": "2026-08-15T09:10:43+09:00",
-      "source": "LIMO | くらしとお金の経済メディア",
-      "description": "有効期限切れの健康保険証でも保険診療（1〜3割負担）を受けられる暫定措置が、7月末まで延長される。しかし4カ月後、「保険証利用登録を済ませたマイナンバーカード」（マイナ保険証）などがないと保険診療が受けられず、全額自己負担（10割負担）と ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1oaWZveEtheDk3UDdBR1YzRmxqWjNhOXFINXNibmUxU2RXRnZGWVNPZ2Z4SkFoUDlUSzlyWEw5N3FoZm9MaDhnOC1TYlBVM1BEOGFqcmRB?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1oaWZveEtheDk3UDdBR1YzRmxqWjNhOXFINXNibmUxU2RXRnZGWVNPZ2Z4SkFoUDlUSzlyWEw5N3FoZm9MaDhnOC1TYlBVM1BEOGFqcmRB?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "市民353人のマイナカード署名用電子証明書を失効 福岡・行橋 - article.auone.jp",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5VN0M4WGU1LVVuMmt5ZUxqRm9YcDdSTm1pWFl6LWVueXBrSW5DVEQ0NmhjWjRvX3oteE5jQnk5V3NxdkhHVE9pOTVaUi1mX25JYVI5Q3ViRDhXYl84TmhpOEcwU3JKMnBsaDV5ckh3bWZlX0R1d21tcg?oc=5",
-      "pub_date": "2026-08-14T18:42:07+09:00",
-      "source": "article.auone.jp",
-      "description": "鹿児島市議会は9日、本会議を開き、5議員が個人質問した。市は市内16郵便局で始めたマイナンバーカードの電子証明書更新などの手続き受付数が11月は380件で、目標の3割以下にとどまっていることを明らかにした。市民課によると、目標数は ...",
-      "_glink": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5VN0M4WGU1LVVuMmt5ZUxqRm9YcDdSTm1pWFl6LWVueXBrSW5DVEQ0NmhjWjRvX3oteE5jQnk5V3NxdkhHVE9pOTVaUi1mX25JYVI5Q3ViRDhXYl84TmhpOEcwU3JKMnBsaDV5ckh3bWZlX0R1d21tcg?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5VN0M4WGU1LVVuMmt5ZUxqRm9YcDdSTm1pWFl6LWVueXBrSW5DVEQ0NmhjWjRvX3oteE5jQnk5V3NxdkhHVE9pOTVaUi1mX25JYVI5Q3ViRDhXYl84TmhpOEcwU3JKMnBsaDV5ckh3bWZlX0R1d21tcg?oc=5",
-      "category": "政治",
-      "topic": "mynumber"
     }
   ],
   "total": 500
