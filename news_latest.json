@@ -1,6 +1,27 @@
 {
-  "updated": "2026-08-28T04:25:15+09:00",
+  "updated": "2026-08-28T17:52:10+09:00",
   "articles": [
+    {
+      "title": "マイナンバーカードの普及と利活用に関するダッシュボードを更新しました",
+      "link": "https://www.digital.go.jp/resources/govdashboard/mynumber_card_penetration_usage",
+      "pub_date": "2026-08-28T15:00:00+09:00",
+      "source": "デジタル庁",
+      "description": "自民党のデジタル社会推進本部（本部長＝平井卓也・元デジタル相）は19日、IT政策に関する提言「デジタル・ニッポン2026」を発表した。マイナンバーカードの普及に向けて取得義務化を検討するよう求めている。罰則は設けないとした。",
+      "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
+      "category": "制度変更",
+      "topic": "mynumber"
+    },
+    {
+      "title": "派遣の健康保険はどこに加入する？保険証の扱いと派遣健保の解散後をまとめた解説ページを公開 - Newscast.jp",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE12TF90WVh5bnZvd2daeHIxMWlZQzFxVzJYMUZZTjVjSEdOaEV4SjdiRDl2LUk2cUo5d2U4SXQ0VVA5NHJzdmdua0QzSGM5V2c?oc=5",
+      "pub_date": "2026-08-28T14:50:00+09:00",
+      "source": "Newscast.jp",
+      "description": "契約満了で退職予定の派遣社員です。退職後は無収入になります。健康保険は任意継続と国保のどちらを選ぶのがよいでしょうか？ 派遣社員として働いていて、契約満了で退職する予定の場合、退職後の健康保険をどうするかは早めに決めておきたい問題です ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE12TF90WVh5bnZvd2daeHIxMWlZQzFxVzJYMUZZTjVjSEdOaEV4SjdiRDl2LUk2cUo5d2U4SXQ0VVA5NHJzdmdua0QzSGM5V2c?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE12TF90WVh5bnZvd2daeHIxMWlZQzFxVzJYMUZZTjVjSEdOaEV4SjdiRDl2LUk2cUo5d2U4SXQ0VVA5NHJzdmdua0QzSGM5V2c?oc=5",
+      "category": "一般",
+      "topic": "insurance"
+    },
     {
       "title": "マイナンバーカードの入れ物、まだ初期装備の人へ。財布に収まる本革ケースという選択肢 - ライフハッカー",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4teklJaUR4YmZWVVNSeFhuSzBLMzJxcUlIZ3BKeEZfRHNkRWtXVzlLRDUwOHBEUXlUWGg5ZFVBTjUwaUZsNHFaZEVWWGxiMzRVR0JwUzVXejl0Rng3ZjBXcVM4Y0Z1NTU5b2Y5ZHBR?oc=5",
@@ -521,28 +542,6 @@
       "description": "鹿児島市議会は9日、本会議を開き、5議員が個人質問した。市は市内16郵便局で始めたマイナンバーカードの電子証明書更新などの手続き受付数が11月は380件で、目標の3割以下にとどまっていることを明らかにした。市民課によると、目標数は ...",
       "_glink": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5VN0M4WGU1LVVuMmt5ZUxqRm9YcDdSTm1pWFl6LWVueXBrSW5DVEQ0NmhjWjRvX3oteE5jQnk5V3NxdkhHVE9pOTVaUi1mX25JYVI5Q3ViRDhXYl84TmhpOEcwU3JKMnBsaDV5ckh3bWZlX0R1d21tcg?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5VN0M4WGU1LVVuMmt5ZUxqRm9YcDdSTm1pWFl6LWVueXBrSW5DVEQ0NmhjWjRvX3oteE5jQnk5V3NxdkhHVE9pOTVaUi1mX25JYVI5Q3ViRDhXYl84TmhpOEcwU3JKMnBsaDV5ckh3bWZlX0R1d21tcg?oc=5",
-      "category": "政治",
-      "topic": "mynumber"
-    },
-    {
-      "title": "市民353人のマイナカード署名用電子証明書を失効 福岡・行橋 - au Webポータル",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5uRDQ1SjdQVXoySENLa2hRVFpYRzRQN0F6SHVDajVjTkhTNTFfNlpVeHhrSFJZc3dzckNNcEtKaWRlRnRzLVdDclJvbVB3TjdGR0t5Z3RuZnNVZ2s3cEdVdTJSS3Y1SWtlX1gxWjJ3?oc=5",
-      "pub_date": "2026-08-14T18:31:57+09:00",
-      "source": "au Webポータル",
-      "description": "鹿児島市議会は9日、本会議を開き、5議員が個人質問した。市は市内16郵便局で始めたマイナンバーカードの電子証明書更新などの手続き受付数が11月は380件で、目標の3割以下にとどまっていることを明らかにした。市民課によると、目標数は ...",
-      "_glink": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5uRDQ1SjdQVXoySENLa2hRVFpYRzRQN0F6SHVDajVjTkhTNTFfNlpVeHhrSFJZc3dzckNNcEtKaWRlRnRzLVdDclJvbVB3TjdGR0t5Z3RuZnNVZ2s3cEdVdTJSS3Y1SWtlX1gxWjJ3?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5uRDQ1SjdQVXoySENLa2hRVFpYRzRQN0F6SHVDajVjTkhTNTFfNlpVeHhrSFJZc3dzckNNcEtKaWRlRnRzLVdDclJvbVB3TjdGR0t5Z3RuZnNVZ2s3cEdVdTJSS3Y1SWtlX1gxWjJ3?oc=5",
-      "category": "政治",
-      "topic": "mynumber"
-    },
-    {
-      "title": "市民353人のマイナカード署名用電子証明書を失効 福岡・行橋（毎日新聞） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1nZlNmN3hjUXZOMFFqUjZsYlIxTkRVYXFicXJTZnVtWk1TV21yT1ZCejRCSDF6NkdpNUZuaEN5dTdjWS14RExFeWpJQTVSUmI4ZjVTQkdzWFFpNXpfTno2VHFDOEJKa1hDMkw4c2FkTlpWZFEtTmRkRzF2TGhPMVU?oc=5",
-      "pub_date": "2026-08-14T18:27:57+09:00",
-      "source": "Yahoo!ニュース",
-      "description": "鹿児島市議会は9日、本会議を開き、5議員が個人質問した。市は市内16郵便局で始めたマイナンバーカードの電子証明書更新などの手続き受付数が11月は380件で、目標の3割以下にとどまっていることを明らかにした。市民課によると、目標数は ...",
-      "_glink": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1nZlNmN3hjUXZOMFFqUjZsYlIxTkRVYXFicXJTZnVtWk1TV21yT1ZCejRCSDF6NkdpNUZuaEN5dTdjWS14RExFeWpJQTVSUmI4ZjVTQkdzWFFpNXpfTno2VHFDOEJKa1hDMkw4c2FkTlpWZFEtTmRkRzF2TGhPMVU?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1nZlNmN3hjUXZOMFFqUjZsYlIxTkRVYXFicXJTZnVtWk1TV21yT1ZCejRCSDF6NkdpNUZuaEN5dTdjWS14RExFeWpJQTVSUmI4ZjVTQkdzWFFpNXpfTno2VHFDOEJKa1hDMkw4c2FkTlpWZFEtTmRkRzF2TGhPMVU?oc=5",
       "category": "政治",
       "topic": "mynumber"
     }
