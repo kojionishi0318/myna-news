@@ -1,6 +1,17 @@
 {
-  "updated": "2026-08-31T12:21:44+09:00",
+  "updated": "2026-09-01T01:41:11+09:00",
   "articles": [
+    {
+      "title": "マイナンバーカードの一体化による利便性についてどう思いますか？ - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBjbVROY0ZBUVlHaG1ncXgzUk9KZ3VLOU1zVUNXLWlYNUVJV3Z4UDdGcmtQNXVMOEtkLWxEQk1sU3hDaHpLZFEtbTZEeTc?oc=5",
+      "pub_date": "2026-09-01T00:00:57+09:00",
+      "source": "Yahoo!ニュース",
+      "description": "出入国在留管理庁は6月14日、在留カードとマイナンバーカードの機能を1枚にまとめたICカード「特定在留カード」の運用を始めた。両カードに関わる手続きを一元化し、外国人の利便性向上と行政の効率化を図る。取得は義務ではなく任意。 一体化された ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBjbVROY0ZBUVlHaG1ncXgzUk9KZ3VLOU1zVUNXLWlYNUVJV3Z4UDdGcmtQNXVMOEtkLWxEQk1sU3hDaHpLZFEtbTZEeTc?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBjbVROY0ZBUVlHaG1ncXgzUk9KZ3VLOU1zVUNXLWlYNUVJV3Z4UDdGcmtQNXVMOEtkLWxEQk1sU3hDaHpLZFEtbTZEeTc?oc=5",
+      "category": "使い方",
+      "topic": "mynumber"
+    },
     {
       "title": "マイナ保険証時代でも医療費の領収書を必ず保管！医療費控除で「マイナポータル連携」は絶対やめた方がいい【確定申告準備】 - FP Cafe",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5PZVR1cmpaQmR2MklqY1VFeU1XVDROUmQzMUcyRjVhM0xLeHM0WFRWeTU3ZU5tOHZabExIQ09zOThVUQ?oc=5",
@@ -5461,17 +5472,6 @@
       "_resolved_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8xR1hDOVFNa00xcnNYbHVzU3hkTGxndzRyV1BZaEJiMlFFSGhIV0dKQVpHTzRidmFvUlZkcTFXVXdQdGEzM1JNVmpFdWd2SUk?oc=5",
       "category": "一般",
       "topic": "insurance"
-    },
-    {
-      "title": "「楽天カードアプリ」のカード番号表示サービス初回本人確認時に「iPhoneのマイナンバーカード」が使えるように（BCN） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB3LUxlT2c4cGhvdnpJR0NuTzVJSnFGLVJOUWs5aE9OaENJVzZaU2tfNGc3X1RhWUY1dnNBR0hvbk9RYlRzZkI2R2ZGUGM4dzJQeEVVS1JTTEhIODN2QTFIU3lqUFBWVlppZUZ1X1lXWlpXQlAtT0dSc1I5MHQtdlU?oc=5",
-      "pub_date": "2026-05-09T18:30:00+09:00",
-      "source": "Yahoo!ニュース",
-      "description": "楽天カード株式会社（以下「当社」）は、楽天カード会員様向け「楽天カードアプリ」（Android/iOS）（以下「本アプリ ...",
-      "_glink": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB3LUxlT2c4cGhvdnpJR0NuTzVJSnFGLVJOUWs5aE9OaENJVzZaU2tfNGc3X1RhWUY1dnNBR0hvbk9RYlRzZkI2R2ZGUGM4dzJQeEVVS1JTTEhIODN2QTFIU3lqUFBWVlppZUZ1X1lXWlpXQlAtT0dSc1I5MHQtdlU?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB3LUxlT2c4cGhvdnpJR0NuTzVJSnFGLVJOUWs5aE9OaENJVzZaU2tfNGc3X1RhWUY1dnNBR0hvbk9RYlRzZkI2R2ZGUGM4dzJQeEVVS1JTTEhIODN2QTFIU3lqUFBWVlppZUZ1X1lXWlpXQlAtT0dSc1I5MHQtdlU?oc=5",
-      "category": "一般",
-      "topic": "mynumber"
     }
   ]
 }
