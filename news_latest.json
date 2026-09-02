@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T11:41:12+09:00",
+  "updated": "2026-09-02T22:12:45+09:00",
   "articles": [
     {
       "title": "デジタル庁5年、マイナカード1億枚超 三角デジタル監がAIエージェント活用を提起 - BigGo ファイナンス",
@@ -488,6 +488,17 @@
       "topic": "mynumber"
     },
     {
+      "title": "「マイナ保険証」って何？…マイナンバーカードを健康保険証として利用 薬の処方歴がわかり、適切な治療につなげる狙いも - yomiuri.co.jp",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdlQtVHNSanYxdGZMYi1qbk9LY0RYVkt2Nmc2T1VXVzBYWi12TTdINDliWngtN0txMzl2SjNCVU93ekhzMkNkVGhSb1BSaGVwS0pSQ2ZVSF9BX3dPSnZSaXBuMXRtVWdkLS1lNnJHZUJ0LUJvbEFBYTd1ay1VUUd3aERWajJranNYdVg3Z1Atdw?oc=5",
+      "pub_date": "2026-08-19T16:00:00+09:00",
+      "source": "yomiuri.co.jp",
+      "description": "従来の健康保険証が、12月1日に期限切れになり「マイナ保険証」の利用が本格化する。マイナンバーカードを保険証として使う方法や、「資格確認書」について解説する。 従来のすべての健康保険証が、12月1日に期限切れになり、「マイナ保険証（健康保険 ...",
+      "_glink": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdlQtVHNSanYxdGZMYi1qbk9LY0RYVkt2Nmc2T1VXVzBYWi12TTdINDliWngtN0txMzl2SjNCVU93ekhzMkNkVGhSb1BSaGVwS0pSQ2ZVSF9BX3dPSnZSaXBuMXRtVWdkLS1lNnJHZUJ0LUJvbEFBYTd1ay1VUUd3aERWajJranNYdVg3Z1Atdw?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdlQtVHNSanYxdGZMYi1qbk9LY0RYVkt2Nmc2T1VXVzBYWi12TTdINDliWngtN0txMzl2SjNCVU93ekhzMkNkVGhSb1BSaGVwS0pSQ2ZVSF9BX3dPSnZSaXBuMXRtVWdkLS1lNnJHZUJ0LUJvbEFBYTd1ay1VUUd3aERWajJranNYdVg3Z1Atdw?oc=5",
+      "category": "制度変更",
+      "topic": "insurance"
+    },
+    {
       "title": "マイナ保険証 問題考える 大学教授や医師が講演 明大で29日 シンポ、オンライン配信 - 東京新聞",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBSOUNJTHU2N1dHUWt6TXBWZjlhS2xoNlh4QS1lVGJVZkV4eGdVVzJMWTRtajJfbUxQdHkzQTBaVHBFY1dQX2dzaW9EdXc2N3Zzdmw4?oc=5",
       "pub_date": "2026-08-19T16:00:00+09:00",
@@ -529,17 +540,6 @@
       "_glink": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPXzR3QVBvTkpuTW0yeEdxZUI5WElQYlJ4SmtDYkJrVHhtUUQ5OXhSQ3g2UDdNTFRaUjE5SEJ2UUowclk2ZkNuMXRDdEU3cnd4RzBwRzl3aGx3ZkFSXzlOd050SVRRaTJVN2pFWGYyM0gzTXBSSHFpamh6U2FER3llX2xjTzBpNlU2Mi14U0EteU5ycFR5YXA3aEloQVFUYU9PcFdxZ0JqeGUwQzNKTDNtWHdWTVExdXM?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPXzR3QVBvTkpuTW0yeEdxZUI5WElQYlJ4SmtDYkJrVHhtUUQ5OXhSQ3g2UDdNTFRaUjE5SEJ2UUowclk2ZkNuMXRDdEU3cnd4RzBwRzl3aGx3ZkFSXzlOd050SVRRaTJVN2pFWGYyM0gzTXBSSHFpamh6U2FER3llX2xjTzBpNlU2Mi14U0EteU5ycFR5YXA3aEloQVFUYU9PcFdxZ0JqeGUwQzNKTDNtWHdWTVExdXM?oc=5",
       "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "【後期高齢者医療】7月に届いた封筒は「資格確認書」でしたか？ 85歳以上は全員、84歳以下は「過去1年間で6回以上」が分かれ目（LIMO） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE81OXdHeWk3QnZPdWZ4cDRjQWYyNWJPb3AwaEhLelpCa2hDVHV4aDNaeXNRTE5SdUZkQy1CN2tLaWMxT0thVVphS2hMeHAtMktCMVZrVkhSMlowOVhheHBpOXhBV1hQSVlHUGx1SUg5UDVBY3BTeEFCdTF2T3dYLVE?oc=5",
-      "pub_date": "2026-08-18T15:40:48+09:00",
-      "source": "Yahoo!ニュース",
-      "description": "暫定的な取り扱いは2026年7月末で終了 後期高齢者医療制度では、2026年（令和8年）8月から資格確認書の交付ルールが変わりました。 85歳以上の人と84歳以下の人とで、届く書類が分かれています。",
-      "_glink": "https://news.google.com/rss/articles/CBMif0FVX3lxTE81OXdHeWk3QnZPdWZ4cDRjQWYyNWJPb3AwaEhLelpCa2hDVHV4aDNaeXNRTE5SdUZkQy1CN2tLaWMxT0thVVphS2hMeHAtMktCMVZrVkhSMlowOVhheHBpOXhBV1hQSVlHUGx1SUg5UDVBY3BTeEFCdTF2T3dYLVE?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE81OXdHeWk3QnZPdWZ4cDRjQWYyNWJPb3AwaEhLelpCa2hDVHV4aDNaeXNRTE5SdUZkQy1CN2tLaWMxT0thVVphS2hMeHAtMktCMVZrVkhSMlowOVhheHBpOXhBV1hQSVlHUGx1SUg5UDVBY3BTeEFCdTF2T3dYLVE?oc=5",
-      "category": "一般",
       "topic": "insurance"
     }
   ],
