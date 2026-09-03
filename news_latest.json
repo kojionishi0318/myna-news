@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-03T11:47:03+09:00",
+  "updated": "2026-09-03T22:13:18+09:00",
   "articles": [
+    {
+      "title": "マイナンバーカードを用いた公的個人認証サービス（JPKI）導入事業者及び事例一覧を更新しました",
+      "link": "https://www.digital.go.jp/policies/mynumber/private-business/jpki-introduction/mynumbercard-user-list",
+      "pub_date": "2026-09-03T15:00:00+09:00",
+      "source": "デジタル庁",
+      "description": "宮城県で先行導入。行政情報の案内を起点に、AX時代の行政と住民をつなぐ基盤へ ...",
+      "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
+      "category": "一般",
+      "topic": "mynumber"
+    },
     {
       "title": "デジタル庁5年、マイナカード1億枚超 三角デジタル監がAIエージェント活用を提起 - BigGo ファイナンス",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9OWTB2aTJiM3MtZlQtalNTa3JRMl9YN3h5c19zZWlxU0JOTGJ4em94ZVM5eEJTcy1vRlYzeGJMOXltbDBtV050VEl5X3RQZnhRVVJrNXVVeGpzZzJHUm9DU3pzNnM1MHFkYUtMaXdrVkdXSW92?oc=5",
@@ -95,6 +105,28 @@
       "description": "「マイナンバーカードは作らない」「マイナ保険証は使わない」と決めているご高齢の方やそのご家族は、紙の健康保険証がなくなってしまったら、病院にどうやってかかればいいのだろうと心配になったことがあるかもしれません。",
       "_glink": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9IeExtTWpVYlkwQTVkMEx6S1JYM19PUFZ6Q3JadTZWRDI2ZV9kTk9sRGMzZlhVU2dZS0RFX2Y1Vy0wd3NMNGlscE5Nb2w?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9IeExtTWpVYlkwQTVkMEx6S1JYM19PUFZ6Q3JadTZWRDI2ZV9kTk9sRGMzZlhVU2dZS0RFX2Y1Vy0wd3NMNGlscE5Nb2w?oc=5",
+      "category": "制度変更",
+      "topic": "insurance"
+    },
+    {
+      "title": "「マイナ保険証」対策！スキミング防止マイナンバーカード本革ケース「rokora」 - CAMPFIRE (キャンプファイヤー)",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5QZHRIQng2bU94ekEyTFBTWFo0NWpsLUdLaERMT09pOS0tMVlnZmlQdE5aZ2xsWk4yalNnQnRnRHFaZENWbFR5T3RmSVpLRGpMUXhSY01rN1h5QU1XQ0tjdkFxUmV3U1VkUW1B?oc=5",
+      "pub_date": "2026-08-30T07:59:59+09:00",
+      "source": "CAMPFIRE (キャンプファイヤー)",
+      "description": "応援購入サービス「Makuake」にてクラウドファンディングを開催中（3/29まで）PR TIMES読者限定のクーポンもご用意しています ...",
+      "_glink": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5QZHRIQng2bU94ekEyTFBTWFo0NWpsLUdLaERMT09pOS0tMVlnZmlQdE5aZ2xsWk4yalNnQnRnRHFaZENWbFR5T3RmSVpLRGpMUXhSY01rN1h5QU1XQ0tjdkFxUmV3U1VkUW1B?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5QZHRIQng2bU94ekEyTFBTWFo0NWpsLUdLaERMT09pOS0tMVlnZmlQdE5aZ2xsWk4yalNnQnRnRHFaZENWbFR5T3RmSVpLRGpMUXhSY01rN1h5QU1XQ0tjdkFxUmV3U1VkUW1B?oc=5",
+      "category": "一般",
+      "topic": "insurance"
+    },
+    {
+      "title": "『マイナ保険証』問題 期限切れ保険証も使える“暫定措置終了”で 患者から「何をもっていけばいいの？」問い合わせ急増 “保険証代わり”「資格確認書」は家族でも「届く・届かない」で大混乱に - ktv.jp",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE52YzA3a0JUd2x4WWUza3FvLVc4aDhNaGRicFk0bjh0b25qQktGTFFCNXE3a1gxeWxVWWhkSE1pWFpRa2VuU2hYUUJlQVNaQ3ZXV1V2dUNPNkFkeHVwemd4Zg?oc=5",
+      "pub_date": "2026-08-29T12:58:38+09:00",
+      "source": "ktv.jp",
+      "description": "保険証をめぐる新たな問題が起きているという。 去年12月、すべての「従来の保険証」の有効期限が切れた。 その後、暫定措置として「期限切れの保険証」や「資格情報のお知らせのみ」での受診も可能となったが、それも7月で終了。",
+      "_glink": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE52YzA3a0JUd2x4WWUza3FvLVc4aDhNaGRicFk0bjh0b25qQktGTFFCNXE3a1gxeWxVWWhkSE1pWFpRa2VuU2hYUUJlQVNaQ3ZXV1V2dUNPNkFkeHVwemd4Zg?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE52YzA3a0JUd2x4WWUza3FvLVc4aDhNaGRicFk0bjh0b25qQktGTFFCNXE3a1gxeWxVWWhkSE1pWFpRa2VuU2hYUUJlQVNaQ3ZXV1V2dUNPNkFkeHVwemd4Zg?oc=5",
       "category": "制度変更",
       "topic": "insurance"
     },
@@ -507,39 +539,6 @@
       "_glink": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBSOUNJTHU2N1dHUWt6TXBWZjlhS2xoNlh4QS1lVGJVZkV4eGdVVzJMWTRtajJfbUxQdHkzQTBaVHBFY1dQX2dzaW9EdXc2N3Zzdmw4?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBSOUNJTHU2N1dHUWt6TXBWZjlhS2xoNlh4QS1lVGJVZkV4eGdVVzJMWTRtajJfbUxQdHkzQTBaVHBFY1dQX2dzaW9EdXc2N3Zzdmw4?oc=5",
       "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "【2026年最新】平塚市・大磯町の心療内科・精神科・メンタルクリニック18選｜平塚駅周辺・四之宮・大磯などエリア別一覧 - 湘南人",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZmNVemhrQ0FNR0R3anhCbHdHOWVMODd5Vi13eXlBcWVzUlctTWNmSUZhWDZPT0dmb1FJcFZqN0pNcFgzbmw0MXVQVU45aDl0MmRwQnc0Z3pkdV9PXzVDaE1LczYxb2FhNjdwRTFXS3Vhd3JneEJOQTBJcnV1S2ZLNHlSTQ?oc=5",
-      "pub_date": "2026-08-19T11:32:53+09:00",
-      "source": "湘南人",
-      "description": "2026年、大磯・二宮・中井の3町で、まちの賑わいを生み出す事業が具体的に動く。 大磯町 大磯港の賑わい創出施設「OISO CONNECT（オオイソコネクト）」は、新たな指定管理者に（株）Co．Labを代表企業とする、（株）めしや大磯 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZmNVemhrQ0FNR0R3anhCbHdHOWVMODd5Vi13eXlBcWVzUlctTWNmSUZhWDZPT0dmb1FJcFZqN0pNcFgzbmw0MXVQVU45aDl0MmRwQnc0Z3pkdV9PXzVDaE1LczYxb2FhNjdwRTFXS3Vhd3JneEJOQTBJcnV1S2ZLNHlSTQ?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZmNVemhrQ0FNR0R3anhCbHdHOWVMODd5Vi13eXlBcWVzUlctTWNmSUZhWDZPT0dmb1FJcFZqN0pNcFgzbmw0MXVQVU45aDl0MmRwQnc0Z3pkdV9PXzVDaE1LczYxb2FhNjdwRTFXS3Vhd3JneEJOQTBJcnV1S2ZLNHlSTQ?oc=5",
-      "category": "一般",
-      "topic": "mynumber"
-    },
-    {
-      "title": "マイナ保険証 問題考える　大学教授や医師が講演　明大で29日 シンポ、オンライン配信 - ｄメニューニュース",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5nTFZ4UVR6UXd1X3VqXzdNZWl3YWxrWlhpSUxRVm83UkN5ZkFhWW5YTHZRb1pDTS1OM0RpVjIwVHdIZk4tUGwyR0tvWEd5M285d1lwR2tKc25KaUZLOGFJTVVmc1ZxTGM2ZmZXcmJTbmFvUkXSAXhBVV95cUxNYzd6Rzc4ZDZ0UGFfT1NGMlNGVUZKdVFBY1Mzb3NLY3V6N2ZRVXU2Z0ZvWFU1WG5pZ3ltYm5XYnphcEJOdzRkRXlhRTNudzNJR3dsZTNHR2hEQ29ZbXF2ckRqWjNCZ3ZodklNX1hxMUkxcWFYbHl1bDU?oc=5",
-      "pub_date": "2026-08-19T07:40:50+09:00",
-      "source": "ｄメニューニュース",
-      "description": "マイナ保険証の問題点を考えるシンポジウムが29日、明治大駿河台キャンパス（東京都千代田区神田駿河台1）のグローバルフロント2階4021教室で開かれる。「Zoom」によるオンライン配信も行う。参加無料。",
-      "_glink": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5nTFZ4UVR6UXd1X3VqXzdNZWl3YWxrWlhpSUxRVm83UkN5ZkFhWW5YTHZRb1pDTS1OM0RpVjIwVHdIZk4tUGwyR0tvWEd5M285d1lwR2tKc25KaUZLOGFJTVVmc1ZxTGM2ZmZXcmJTbmFvUkXSAXhBVV95cUxNYzd6Rzc4ZDZ0UGFfT1NGMlNGVUZKdVFBY1Mzb3NLY3V6N2ZRVXU2Z0ZvWFU1WG5pZ3ltYm5XYnphcEJOdzRkRXlhRTNudzNJR3dsZTNHR2hEQ29ZbXF2ckRqWjNCZ3ZodklNX1hxMUkxcWFYbHl1bDU?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5nTFZ4UVR6UXd1X3VqXzdNZWl3YWxrWlhpSUxRVm83UkN5ZkFhWW5YTHZRb1pDTS1OM0RpVjIwVHdIZk4tUGwyR0tvWEd5M285d1lwR2tKc25KaUZLOGFJTVVmc1ZxTGM2ZmZXcmJTbmFvUkXSAXhBVV95cUxNYzd6Rzc4ZDZ0UGFfT1NGMlNGVUZKdVFBY1Mzb3NLY3V6N2ZRVXU2Z0ZvWFU1WG5pZ3ltYm5XYnphcEJOdzRkRXlhRTNudzNJR3dsZTNHR2hEQ29ZbXF2ckRqWjNCZ3ZodklNX1hxMUkxcWFYbHl1bDU?oc=5",
-      "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "マイナンバーカードの後期高齢者医療被保険者証としての利用について - city.honjo.lg.jp",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPXzR3QVBvTkpuTW0yeEdxZUI5WElQYlJ4SmtDYkJrVHhtUUQ5OXhSQ3g2UDdNTFRaUjE5SEJ2UUowclk2ZkNuMXRDdEU3cnd4RzBwRzl3aGx3ZkFSXzlOd050SVRRaTJVN2pFWGYyM0gzTXBSSHFpamh6U2FER3llX2xjTzBpNlU2Mi14U0EteU5ycFR5YXA3aEloQVFUYU9PcFdxZ0JqeGUwQzNKTDNtWHdWTVExdXM?oc=5",
-      "pub_date": "2026-08-18T16:00:00+09:00",
-      "source": "city.honjo.lg.jp",
-      "description": "マイナンバーカードに健康保険証の機能を持たせた「マイナ保険証」への移行に伴い、国民健康保険（国保）加入者の多くと、後期高齢者医療制度の加入者が持つ従来の健康保険証は7月31日に有効期限を迎えた。厚生労働省は、国保加入者には来年3月 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPXzR3QVBvTkpuTW0yeEdxZUI5WElQYlJ4SmtDYkJrVHhtUUQ5OXhSQ3g2UDdNTFRaUjE5SEJ2UUowclk2ZkNuMXRDdEU3cnd4RzBwRzl3aGx3ZkFSXzlOd050SVRRaTJVN2pFWGYyM0gzTXBSSHFpamh6U2FER3llX2xjTzBpNlU2Mi14U0EteU5ycFR5YXA3aEloQVFUYU9PcFdxZ0JqeGUwQzNKTDNtWHdWTVExdXM?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPXzR3QVBvTkpuTW0yeEdxZUI5WElQYlJ4SmtDYkJrVHhtUUQ5OXhSQ3g2UDdNTFRaUjE5SEJ2UUowclk2ZkNuMXRDdEU3cnd4RzBwRzl3aGx3ZkFSXzlOd050SVRRaTJVN2pFWGYyM0gzTXBSSHFpamh6U2FER3llX2xjTzBpNlU2Mi14U0EteU5ycFR5YXA3aEloQVFUYU9PcFdxZ0JqeGUwQzNKTDNtWHdWTVExdXM?oc=5",
-      "category": "制度変更",
       "topic": "insurance"
     }
   ],

@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-03T11:47:03+09:00",
+  "updated": "2026-09-03T22:13:18+09:00",
   "articles": [
+    {
+      "title": "マイナンバーカードを用いた公的個人認証サービス（JPKI）導入事業者及び事例一覧を更新しました",
+      "link": "https://www.digital.go.jp/policies/mynumber/private-business/jpki-introduction/mynumbercard-user-list",
+      "pub_date": "2026-09-03T15:00:00+09:00",
+      "source": "デジタル庁",
+      "description": "宮城県で先行導入。行政情報の案内を起点に、AX時代の行政と住民をつなぐ基盤へ ...",
+      "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
+      "category": "一般",
+      "topic": "mynumber"
+    },
     {
       "title": "デジタル庁5年、マイナカード1億枚超 三角デジタル監がAIエージェント活用を提起 - BigGo ファイナンス",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9OWTB2aTJiM3MtZlQtalNTa3JRMl9YN3h5c19zZWlxU0JOTGJ4em94ZVM5eEJTcy1vRlYzeGJMOXltbDBtV050VEl5X3RQZnhRVVJrNXVVeGpzZzJHUm9DU3pzNnM1MHFkYUtMaXdrVkdXSW92?oc=5",
@@ -95,6 +105,28 @@
       "description": "「マイナンバーカードは作らない」「マイナ保険証は使わない」と決めているご高齢の方やそのご家族は、紙の健康保険証がなくなってしまったら、病院にどうやってかかればいいのだろうと心配になったことがあるかもしれません。",
       "_glink": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9IeExtTWpVYlkwQTVkMEx6S1JYM19PUFZ6Q3JadTZWRDI2ZV9kTk9sRGMzZlhVU2dZS0RFX2Y1Vy0wd3NMNGlscE5Nb2w?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9IeExtTWpVYlkwQTVkMEx6S1JYM19PUFZ6Q3JadTZWRDI2ZV9kTk9sRGMzZlhVU2dZS0RFX2Y1Vy0wd3NMNGlscE5Nb2w?oc=5",
+      "category": "制度変更",
+      "topic": "insurance"
+    },
+    {
+      "title": "「マイナ保険証」対策！スキミング防止マイナンバーカード本革ケース「rokora」 - CAMPFIRE (キャンプファイヤー)",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5QZHRIQng2bU94ekEyTFBTWFo0NWpsLUdLaERMT09pOS0tMVlnZmlQdE5aZ2xsWk4yalNnQnRnRHFaZENWbFR5T3RmSVpLRGpMUXhSY01rN1h5QU1XQ0tjdkFxUmV3U1VkUW1B?oc=5",
+      "pub_date": "2026-08-30T07:59:59+09:00",
+      "source": "CAMPFIRE (キャンプファイヤー)",
+      "description": "応援購入サービス「Makuake」にてクラウドファンディングを開催中（3/29まで）PR TIMES読者限定のクーポンもご用意しています ...",
+      "_glink": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5QZHRIQng2bU94ekEyTFBTWFo0NWpsLUdLaERMT09pOS0tMVlnZmlQdE5aZ2xsWk4yalNnQnRnRHFaZENWbFR5T3RmSVpLRGpMUXhSY01rN1h5QU1XQ0tjdkFxUmV3U1VkUW1B?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5QZHRIQng2bU94ekEyTFBTWFo0NWpsLUdLaERMT09pOS0tMVlnZmlQdE5aZ2xsWk4yalNnQnRnRHFaZENWbFR5T3RmSVpLRGpMUXhSY01rN1h5QU1XQ0tjdkFxUmV3U1VkUW1B?oc=5",
+      "category": "一般",
+      "topic": "insurance"
+    },
+    {
+      "title": "『マイナ保険証』問題 期限切れ保険証も使える“暫定措置終了”で 患者から「何をもっていけばいいの？」問い合わせ急増 “保険証代わり”「資格確認書」は家族でも「届く・届かない」で大混乱に - ktv.jp",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE52YzA3a0JUd2x4WWUza3FvLVc4aDhNaGRicFk0bjh0b25qQktGTFFCNXE3a1gxeWxVWWhkSE1pWFpRa2VuU2hYUUJlQVNaQ3ZXV1V2dUNPNkFkeHVwemd4Zg?oc=5",
+      "pub_date": "2026-08-29T12:58:38+09:00",
+      "source": "ktv.jp",
+      "description": "保険証をめぐる新たな問題が起きているという。 去年12月、すべての「従来の保険証」の有効期限が切れた。 その後、暫定措置として「期限切れの保険証」や「資格情報のお知らせのみ」での受診も可能となったが、それも7月で終了。",
+      "_glink": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE52YzA3a0JUd2x4WWUza3FvLVc4aDhNaGRicFk0bjh0b25qQktGTFFCNXE3a1gxeWxVWWhkSE1pWFpRa2VuU2hYUUJlQVNaQ3ZXV1V2dUNPNkFkeHVwemd4Zg?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE52YzA3a0JUd2x4WWUza3FvLVc4aDhNaGRicFk0bjh0b25qQktGTFFCNXE3a1gxeWxVWWhkSE1pWFpRa2VuU2hYUUJlQVNaQ3ZXV1V2dUNPNkFkeHVwemd4Zg?oc=5",
       "category": "制度変更",
       "topic": "insurance"
     },
@@ -814,6 +846,17 @@
       "description": "13日の豪雨により、千葉県内の11の病院で浸水が続いています。厚労省は被災者がマイナ保険証を紛失した場合に医療保険での受診を可能とする措置を取りました。",
       "_glink": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSFZoSHJXZTR2bFZXb2hhMlhGbDRCcU1nVk5mRUllVmxVa0FpS3ZfV09uUWRPeWpLV1ZCTThqTm1xMEs0Q0FXbTB2RFp4ell3cHRJLXNoU19WNVFESEdkamRuWkxkeXM4ZUljNUg1enQ0YXJEWUlyWUlhd2sxSVVub0ZnYVZKcmFnSzlITTN3?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSFZoSHJXZTR2bFZXb2hhMlhGbDRCcU1nVk5mRUllVmxVa0FpS3ZfV09uUWRPeWpLV1ZCTThqTm1xMEs0Q0FXbTB2RFp4ell3cHRJLXNoU19WNVFESEdkamRuWkxkeXM4ZUljNUg1enQ0YXJEWUlyWUlhd2sxSVVub0ZnYVZKcmFnSzlITTN3?oc=5",
+      "category": "一般",
+      "topic": "insurance"
+    },
+    {
+      "title": "千葉豪雨 マイナ保険証など紛失時の対応を通知 厚労省 - NCC長崎文化放送",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1yS1BBMUtYLTh1Q1ZMXzd5LWRhNEZwM2RzV3dYU1lNMW1ZQ0pCaFBKUDFzLVZEZU9UOV80ZWg4eTJYbGxOV1pHSmNEU24zdUh2TmI4cGhYYjE?oc=5",
+      "pub_date": "2026-08-14T17:55:35+09:00",
+      "source": "NCC長崎文化放送",
+      "description": "13日の豪雨により、千葉県内の11の病院で浸水が続いています。厚労省は被災者がマイナ保険証を紛失した場合に医療保険での受診を可能とする措置を取りました。 厚生労働省によりますと、千葉県内での豪雨により、14日午後4時現在で、大規模な総合病院 ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1yS1BBMUtYLTh1Q1ZMXzd5LWRhNEZwM2RzV3dYU1lNMW1ZQ0pCaFBKUDFzLVZEZU9UOV80ZWg4eTJYbGxOV1pHSmNEU24zdUh2TmI4cGhYYjE?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1yS1BBMUtYLTh1Q1ZMXzd5LWRhNEZwM2RzV3dYU1lNMW1ZQ0pCaFBKUDFzLVZEZU9UOV80ZWg4eTJYbGxOV1pHSmNEU24zdUh2TmI4cGhYYjE?oc=5",
       "category": "一般",
       "topic": "insurance"
     },
@@ -3333,6 +3376,17 @@
       "topic": "insurance"
     },
     {
+      "title": "従来の健康保険証８月から使えず マイナカードか資格確認書必要に - 沖縄タイムス社",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB5MGJJdG9zT2RUSFdfTG82X3h3Tm9pOTJfTThabXVOeW05dXNKMEptUjM3SGxvdXZNM2VrLWx2Q0tFUkhKbUV1cS1udG1mSDA5WmZhZTg1VlBTcEk5Nmc?oc=5",
+      "pub_date": "2026-07-25T16:00:00+09:00",
+      "source": "沖縄タイムス社",
+      "description": "マイナンバーカードに健康保険証の機能を持たせた「マイナ保険証」への移行に伴い、8月から従来の健康保険証は使えなくなる。8月からは、医療機関の窓口でマイナ保険証か、保険証の代わりとなる「資格確認書」を提示しないと、保険診療として受診 ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB5MGJJdG9zT2RUSFdfTG82X3h3Tm9pOTJfTThabXVOeW05dXNKMEptUjM3SGxvdXZNM2VrLWx2Q0tFUkhKbUV1cS1udG1mSDA5WmZhZTg1VlBTcEk5Nmc?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB5MGJJdG9zT2RUSFdfTG82X3h3Tm9pOTJfTThabXVOeW05dXNKMEptUjM3SGxvdXZNM2VrLWx2Q0tFUkhKbUV1cS1udG1mSDA5WmZhZTg1VlBTcEk5Nmc?oc=5",
+      "category": "一般",
+      "topic": "insurance"
+    },
+    {
       "title": "従来保険証8月から使えず マイナか資格確認書必要に 有効期限の特例終了 - sankei.com",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3WnRCYUFnSzJKTnpVUFpMVEF4cURVMXZlYS1uNUloOTVoTmRaeGpWdHRnS3A0SUFfVVZiOWlHbmJjSFNnRDhyTng0NUF1NlRicmZCbEd5anhFaXlkUkZxc3dhY2k2Q0tHc3ppZzNOOUR0LXJKNmc?oc=5",
       "pub_date": "2026-07-25T16:00:00+09:00",
@@ -4640,6 +4694,17 @@
       "topic": "insurance"
     },
     {
+      "title": "マイナ救急の運用について - city.toon.ehime.jp",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0wVF9TWjNXRVFweWtfR1YzaW1UU1BFSWZKY3Y5TEo4UUVuUHdoWnMteWFiZ3VUVUNYV0lsQUZxRVBobHMzbnYzSUhFTW5XcFRReGRpeFdUeDBJdi1sZ0IzMVBn?oc=5",
+      "pub_date": "2026-06-18T16:00:00+09:00",
+      "source": "city.toon.ehime.jp",
+      "description": "来年度から本格運用が始まる、救急搬送時に健康保険証として登録されたマイナンバーカード（マイナ保険証）を読み取る「マイナ救急」を巡り、先行して実証事業に参加した自治体の現場から「使えるケースが少ない」「活動時間が長引く」との声が ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0wVF9TWjNXRVFweWtfR1YzaW1UU1BFSWZKY3Y5TEo4UUVuUHdoWnMteWFiZ3VUVUNYV0lsQUZxRVBobHMzbnYzSUhFTW5XcFRReGRpeFdUeDBJdi1sZ0IzMVBn?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0wVF9TWjNXRVFweWtfR1YzaW1UU1BFSWZKY3Y5TEo4UUVuUHdoWnMteWFiZ3VUVUNYV0lsQUZxRVBobHMzbnYzSUhFTW5XcFRReGRpeFdUeDBJdi1sZ0IzMVBn?oc=5",
+      "category": "一般",
+      "topic": "insurance"
+    },
+    {
       "title": "【厚労省】期限切れ保険証が使える暫定措置が7月末で終了します - 全国保険医団体連合会",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1TMzEtZGdjRm41Mm9CQmg4MU1RbXdELTRKVms3S3JWTFIxZFJ0TGRqMWdjNEZvY2M2R0lpUTRMN05Pb3hjQlctbVhXeElpd0ZyaDN2b29yQWhhMmV3ODZsejdR?oc=5",
       "pub_date": "2026-06-18T16:00:00+09:00",
@@ -5413,72 +5478,6 @@
       "_glink": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1neW5hcEFsbFViWDFBWm45V3dzaExzOGU4YlYtdzYwUmRVN0cwalRpREp1X255XzRJTUZlYWJ3dXgwNEtHam9nMUhrdE5HUWNrVFlUMnE3X1NCLXNhdzVZeDVuTFFvYlhv?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1neW5hcEFsbFViWDFBWm45V3dzaExzOGU4YlYtdzYwUmRVN0cwalRpREp1X255XzRJTUZlYWJ3dXgwNEtHam9nMUhrdE5HUWNrVFlUMnE3X1NCLXNhdzVZeDVuTFFvYlhv?oc=5",
       "category": "統計",
-      "topic": "mynumber"
-    },
-    {
-      "title": "期限切れ健康保険証 利用は７月末まで 「マイナ」は情報伝達に利点 - タウンニュース",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9GOF9Bb2Vmbjc3S29jNXpleGFuQ09GREM4c3lLelhkYm12Q2V2MzZyUGE1ak9oVmp0OE9PTHJNQng5VVlhcVpQVTVYbW8wYmM3T2hYaXY3cmV0TDE2X2Z4SHNhUlg?oc=5",
-      "pub_date": "2026-05-21T00:00:00+09:00",
-      "source": "タウンニュース",
-      "description": "有効期限切れの健康保険証でも保険診療（1〜3割負担）を受けられる暫定措置が、7月末まで延長される。しかし4カ月後、「保険証利用登録を済ませたマイナンバーカード」（マイナ保険証）などがないと保険診療が受けられず、全額自己負担（10割負担）と ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9GOF9Bb2Vmbjc3S29jNXpleGFuQ09GREM4c3lLelhkYm12Q2V2MzZyUGE1ak9oVmp0OE9PTHJNQng5VVlhcVpQVTVYbW8wYmM3T2hYaXY3cmV0TDE2X2Z4SHNhUlg?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9GOF9Bb2Vmbjc3S29jNXpleGFuQ09GREM4c3lLelhkYm12Q2V2MzZyUGE1ak9oVmp0OE9PTHJNQng5VVlhcVpQVTVYbW8wYmM3T2hYaXY3cmV0TDE2X2Z4SHNhUlg?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "マイナンバーカードの取得義務化を検討へ　事実上取得の強制と反発の声も - ｄメニューニュース",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPOWtxNm5ucFRJLWRYRTFiM2l3cThGWEUxbE4xeWZtRThCV05kS0s1U0ptQ1Q5Y005elhZTmZtX2Y5X2hOd0x2b3FHT09fWlBlX1BPTU1STkpPWWRxNnRVRnp4TWU5VjVmSWFkX0pBQWI3TjdPWGx5dGptZmtKTzJWc2RxRkpPWFpqN1Bhanp3N3dfQXR5WWVxeDU3cHY1TkpYTzhqc21WNEprcXVHeUR5dHIwdzdaM1VoVnZmdDJHT2VBTzlyYTZn0gF3QVVfeXFMTW5xUng3ZDAtTERIbUlnWi1SWEtDWmtYekt0SGRqWVFIVk5iV1pwRTBJdHFZLUQxOHdTbGlrSTJ3Nm1VLUc1akJZZi1qLWZKcTJEcFVETmNLRVlqV3NmNlB3Wmd6b3JTZU5lbzN4Q2Fqb0F6aDdnclE?oc=5",
-      "pub_date": "2026-05-20T17:58:00+09:00",
-      "source": "ｄメニューニュース",
-      "description": "マイナンバーカードをスマホに搭載することで、本人確認や行政手続き、保険証としての利用が可能となる。便利なサービスの具体的内容や設定方法をまとめた。 マイナンバーカードの電子証明書をスマホに搭載すると、カード本体を持ち歩かなくても本人 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPOWtxNm5ucFRJLWRYRTFiM2l3cThGWEUxbE4xeWZtRThCV05kS0s1U0ptQ1Q5Y005elhZTmZtX2Y5X2hOd0x2b3FHT09fWlBlX1BPTU1STkpPWWRxNnRVRnp4TWU5VjVmSWFkX0pBQWI3TjdPWGx5dGptZmtKTzJWc2RxRkpPWFpqN1Bhanp3N3dfQXR5WWVxeDU3cHY1TkpYTzhqc21WNEprcXVHeUR5dHIwdzdaM1VoVnZmdDJHT2VBTzlyYTZn0gF3QVVfeXFMTW5xUng3ZDAtTERIbUlnWi1SWEtDWmtYekt0SGRqWVFIVk5iV1pwRTBJdHFZLUQxOHdTbGlrSTJ3Nm1VLUc1akJZZi1qLWZKcTJEcFVETmNLRVlqV3NmNlB3Wmd6b3JTZU5lbzN4Q2Fqb0F6aDdnclE?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPOWtxNm5ucFRJLWRYRTFiM2l3cThGWEUxbE4xeWZtRThCV05kS0s1U0ptQ1Q5Y005elhZTmZtX2Y5X2hOd0x2b3FHT09fWlBlX1BPTU1STkpPWWRxNnRVRnp4TWU5VjVmSWFkX0pBQWI3TjdPWGx5dGptZmtKTzJWc2RxRkpPWFpqN1Bhanp3N3dfQXR5WWVxeDU3cHY1TkpYTzhqc21WNEprcXVHeUR5dHIwdzdaM1VoVnZmdDJHT2VBTzlyYTZn0gF3QVVfeXFMTW5xUng3ZDAtTERIbUlnWi1SWEtDWmtYekt0SGRqWVFIVk5iV1pwRTBJdHFZLUQxOHdTbGlrSTJ3Nm1VLUc1akJZZi1qLWZKcTJEcFVETmNLRVlqV3NmNlB3Wmd6b3JTZU5lbzN4Q2Fqb0F6aDdnclE?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "教育訓練省は、卒業証書および資格証明書の管理に関する研修を実施している。 - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ2Q0WlotYjJMaFRHYmZNTm5VOXNiLUgxMVNSN2JKRUdxd3lwX3pNaXZOeF9jVU9mR2t3TG55dzFydGtId0dRR3NjcnMtdHpINXlkc3BQUnQyVGFycHBaQkZ5dXJ1TGc2Ym9aeE5selRtSTFaOHF0c096WGNYY3BsRnZnb0hVTGNMbWc?oc=5",
-      "pub_date": "2026-05-20T17:44:15+09:00",
-      "source": "Vietnam.vn",
-      "description": "石破首相（自民党総裁）は26日午前の衆院予算委員会で、自民、公明両党と日本維新の会が正式合意した高校授業料の無償化を巡り、教育の質をあわせて確保していくことが重要との考えを強調した。 衆院予算委員会で答弁する石破首相（26日午前 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ2Q0WlotYjJMaFRHYmZNTm5VOXNiLUgxMVNSN2JKRUdxd3lwX3pNaXZOeF9jVU9mR2t3TG55dzFydGtId0dRR3NjcnMtdHpINXlkc3BQUnQyVGFycHBaQkZ5dXJ1TGc2Ym9aeE5selRtSTFaOHF0c096WGNYY3BsRnZnb0hVTGNMbWc?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ2Q0WlotYjJMaFRHYmZNTm5VOXNiLUgxMVNSN2JKRUdxd3lwX3pNaXZOeF9jVU9mR2t3TG55dzFydGtId0dRR3NjcnMtdHpINXlkc3BQUnQyVGFycHBaQkZ5dXJ1TGc2Ym9aeE5selRtSTFaOHF0c096WGNYY3BsRnZnb0hVTGNMbWc?oc=5",
-      "category": "政治",
-      "topic": "mynumber"
-    },
-    {
-      "title": "在留カードとマイナンバーカードが一体化 「特定在留カード」2026年6月運用開始へ | 黃信維（コウ・シンイ） | ニュース - 風傳媒",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1hOUViLTlyUTJUa0ZVSDR5TlhaWlVlaHZROUgyYTJ1b1VrVDFYaXh3TkNwUnJBZFROY0tzanp4eWt0NGprNzBRVXRrUV8zVWgw?oc=5",
-      "pub_date": "2026-05-20T17:03:00+09:00",
-      "source": "風傳媒",
-      "description": "先日、朝日新聞など複数の報道機関で「マイナカード偽造容疑で中国の男逮捕」といったニュースが流れた。報道によれば、逮捕された人物は2022年12月にマイナンバーカードを偽造し、23年3月にこの偽造カードを使って日本国内の暗号通貨取引所を運営する ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1hOUViLTlyUTJUa0ZVSDR5TlhaWlVlaHZROUgyYTJ1b1VrVDFYaXh3TkNwUnJBZFROY0tzanp4eWt0NGprNzBRVXRrUV8zVWgw?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1hOUViLTlyUTJUa0ZVSDR5TlhaWlVlaHZROUgyYTJ1b1VrVDFYaXh3TkNwUnJBZFROY0tzanp4eWt0NGprNzBRVXRrUV8zVWgw?oc=5",
-      "category": "一般",
-      "topic": "mynumber"
-    },
-    {
-      "title": "「マイナカード登録で最大2万円」消えたポイント 巨額事業なのに実績不明 - 中日新聞Web",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9CSFBPdE9La0pRNnRDUklZcGU1VDRtWDF6ZTZKcWNnRkJsT1NQWFRKbXU2em93dXdicEtnblh2QWJRNGtqd2ttMmVteTk5ZXBHbkQzXw?oc=5",
-      "pub_date": "2026-05-20T16:00:00+09:00",
-      "source": "中日新聞Web",
-      "description": "マイナンバーカードの普及促進のため、政府が実施したポイント付与事業を巡り、不慣れな高齢者が失効によりポイントが使用できなかったケースがあった。会計検査院が15日に公表したマイナポイント事業に関する検査結果からは、一定程度のポイントが使われなかった実態 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9CSFBPdE9La0pRNnRDUklZcGU1VDRtWDF6ZTZKcWNnRkJsT1NQWFRKbXU2em93dXdicEtnblh2QWJRNGtqd2ttMmVteTk5ZXBHbkQzXw?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9CSFBPdE9La0pRNnRDUklZcGU1VDRtWDF6ZTZKcWNnRkJsT1NQWFRKbXU2em93dXdicEtnblh2QWJRNGtqd2ttMmVteTk5ZXBHbkQzXw?oc=5",
-      "category": "一般",
-      "topic": "mynumber"
-    },
-    {
-      "title": "「マイナカード登録で最大2万円」消えたポイント 巨額事業なのに実績不明 - 中日新聞Web",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB2NTZjWTBZM2RSSHRoNnBsYWxsbUdRWXR1dlJ2RXF5aXAxQXdRSjZ5Tm5veUhkQnNPRWtyaWdNTmlQdnBlSVdZZ18xLU5seVo3ZDVuQzZ2dHo2OEpoR0dsck00aHg?oc=5",
-      "pub_date": "2026-05-20T16:00:00+09:00",
-      "source": "中日新聞Web",
-      "description": "マイナンバーカードの普及促進のため、政府が実施したポイント付与事業を巡り、不慣れな高齢者が失効によりポイントが使用できなかったケースがあった。会計検査院が15日に公表したマイナポイント事業に関する検査結果からは、一定程度のポイントが使われなかった実態 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB2NTZjWTBZM2RSSHRoNnBsYWxsbUdRWXR1dlJ2RXF5aXAxQXdRSjZ5Tm5veUhkQnNPRWtyaWdNTmlQdnBlSVdZZ18xLU5seVo3ZDVuQzZ2dHo2OEpoR0dsck00aHg?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB2NTZjWTBZM2RSSHRoNnBsYWxsbUdRWXR1dlJ2RXF5aXAxQXdRSjZ5Tm5veUhkQnNPRWtyaWdNTmlQdnBlSVdZZ18xLU5seVo3ZDVuQzZ2dHo2OEpoR0dsck00aHg?oc=5",
-      "category": "一般",
       "topic": "mynumber"
     }
   ]
