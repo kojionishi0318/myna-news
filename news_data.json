@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T11:46:36+09:00",
+  "updated": "2026-09-05T21:20:47+09:00",
   "articles": [
     {
       "title": "マイナンバーカードを用いた公的個人認証サービス（JPKI）導入事業者及び事例一覧を更新しました",
@@ -4507,6 +4507,17 @@
       "topic": "insurance"
     },
     {
+      "title": "デジタル認証アプリとマイナポータルアプリが今夏めど統合｜メリットを徹底解説 - pocketsign.co.jp",
+      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5yb2RJLWtwaDdKX0wyVmhtRUxFaW5LME9SZXA2YlBncE5mX1M5bDRXOG9qLVh3bVZjZS12SnZDT0FLWVpWLVg0?oc=5",
+      "pub_date": "2026-06-29T16:00:00+09:00",
+      "source": "pocketsign.co.jp",
+      "description": "デジタル庁は7月28日、スマートフォン向けの新しい「マイナアプリ」を8月25日から提供する予定であることを発表した。現行の「マイナポータル」アプリの更新として配信されるので、提供開始後にアプリを更新をすれば利用できる。 →「マイナポータル ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5yb2RJLWtwaDdKX0wyVmhtRUxFaW5LME9SZXA2YlBncE5mX1M5bDRXOG9qLVh3bVZjZS12SnZDT0FLWVpWLVg0?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5yb2RJLWtwaDdKX0wyVmhtRUxFaW5LME9SZXA2YlBncE5mX1M5bDRXOG9qLVh3bVZjZS12SnZDT0FLWVpWLVg0?oc=5",
+      "category": "一般",
+      "topic": "mynumber"
+    },
+    {
       "title": "マイナ保険証、茨城県内7割 暫定措置7月末終了 現場で周知続く - 茨城新聞クロスアイ",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE52dFJ1MmV1VFpLM1FySXF1SVM5XzdtQjhaSFRsNV9KTllpVy1JVUt2WGFQdHpwcWhrR184N2JtUEpKcEpCcktIZzF1U2VCblAwMlhwMUlhd3hrQ3ZqN29mR0xQY2R5Yk5EdWNWY1otRjQ2MFU?oc=5",
       "pub_date": "2026-06-29T16:00:00+09:00",
@@ -5468,17 +5479,6 @@
       "_resolved_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VeVBzYV9Ta2VuNjMxb1d6WTVaenBFNVVyNWRKOGc2dlBfdURlckJUZTNwUEtkdGlzZ1Q2ZVRVUExZYWtPMHd6dWRLeVc5RlR5bHlWTWVub3IwUWlWRDhYeWhGYWlYWkk?oc=5",
       "category": "制度変更",
       "topic": "mynumber"
-    },
-    {
-      "title": "4月に入社しましたが、保険証がまだ届かず通院できず困っています。保険証の代わりになる資格確認書はすぐ発行してもらえるのでしょうか？（ファイナンシャルフィールド） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0yVW15MnlsdXZ6NlNtektmZVpOdmVVd3oySkIzZmVMM254VWZZRzRtSjJrQ3VIck1aVGN2b0ZtQkRKbkNpSEMyajA2a1NPREoyaG00MnBZWHdQVmloMy1KS3g1Wk9DYVBBUHpzU2labm54bkU2VnctWFlubTA1STA?oc=5",
-      "pub_date": "2026-05-22T08:40:02+09:00",
-      "source": "Yahoo!ニュース",
-      "description": "ほとんどの方がご承知のとおり、従来の健康保険証は、令和6年12月2日以降新たに発行されなくなったため、4月入社の新入社員には、待てど暮らせど「従来の保険証」がお手元に届くことはありません。",
-      "_glink": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0yVW15MnlsdXZ6NlNtektmZVpOdmVVd3oySkIzZmVMM254VWZZRzRtSjJrQ3VIck1aVGN2b0ZtQkRKbkNpSEMyajA2a1NPREoyaG00MnBZWHdQVmloMy1KS3g1Wk9DYVBBUHpzU2labm54bkU2VnctWFlubTA1STA?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0yVW15MnlsdXZ6NlNtektmZVpOdmVVd3oySkIzZmVMM254VWZZRzRtSjJrQ3VIck1aVGN2b0ZtQkRKbkNpSEMyajA2a1NPREoyaG00MnBZWHdQVmloMy1KS3g1Wk9DYVBBUHpzU2labm54bkU2VnctWFlubTA1STA?oc=5",
-      "category": "一般",
-      "topic": "insurance"
     }
   ]
 }
