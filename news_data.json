@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T21:35:52+09:00",
+  "updated": "2026-09-07T11:41:58+09:00",
   "articles": [
     {
       "title": "マイナンバーカードを用いた公的個人認証サービス（JPKI）導入事業者及び事例一覧を更新しました",
@@ -4364,6 +4364,17 @@
       "topic": "insurance"
     },
     {
+      "title": "「資格確認書」「資格情報のお知らせ」について(70歳未満） - city.akashi.lg.jp",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQUNUR3MtRGUycng5bDVCcWNrWEc5czRlTExpaGF1LVJQZ2lIbWhCdEtIV2ZrdUgxMDhUR0N1U3VYSXg3cGU3aVBMTGxlZkNfTWZDNHRuaHJjT1QtR3Jkd3JvSHhjcTFsb1FVREpTX0R6Z0pITVJ4aEFiZzlzNFpjbQ?oc=5",
+      "pub_date": "2026-07-02T16:00:00+09:00",
+      "source": "city.akashi.lg.jp",
+      "description": "75～84歳までの後期高齢者は8月1日から医療機関を受診する際には注意が必要だ。資格確認書の全員交付が終わり、別の書類「資格情報のお知らせ」が送られた人たちがいる。「お知らせ」はマイナ保険証とセットで使う書類なので、従来の健康保険証のよう ...",
+      "_glink": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQUNUR3MtRGUycng5bDVCcWNrWEc5czRlTExpaGF1LVJQZ2lIbWhCdEtIV2ZrdUgxMDhUR0N1U3VYSXg3cGU3aVBMTGxlZkNfTWZDNHRuaHJjT1QtR3Jkd3JvSHhjcTFsb1FVREpTX0R6Z0pITVJ4aEFiZzlzNFpjbQ?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQUNUR3MtRGUycng5bDVCcWNrWEc5czRlTExpaGF1LVJQZ2lIbWhCdEtIV2ZrdUgxMDhUR0N1U3VYSXg3cGU3aVBMTGxlZkNfTWZDNHRuaHJjT1QtR3Jkd3JvSHhjcTFsb1FVREpTX0R6Z0pITVJ4aEFiZzlzNFpjbQ?oc=5",
+      "category": "一般",
+      "topic": "insurance"
+    },
+    {
       "title": "マイナンバーカードおよび電子証明書の更新について - city.oita.oita.jp",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBCMzNyTmRINF9mcy1IYmFJRGNhcFVuWUE4Ym5QREFKb0xpRk44YkpRUDZ1c1AtUHp0YzdhblIycEEyaUh1dGpvT3g5MWIzN1Bydk5mbkZtWWNRdDhCcFNLdXdiM3M?oc=5",
       "pub_date": "2026-07-02T16:00:00+09:00",
@@ -4780,6 +4791,17 @@
       "_resolved_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBYSDB4d3VwNThZTlVKcm9oc0F1cmh1Y2xtcDBoRXRsUFZEYmc5Wm9GQXpkNEdjd1dzQVVwb2hnYjdSbDVDM1RidFB0X0VOdkJ5RFBBU1JHYw?oc=5",
       "category": "制度変更",
       "topic": "insurance"
+    },
+    {
+      "title": "滋賀県マイナンバーカード総合ページ - pref.shiga.lg.jp",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE52a3BUWWxpU0Jyd2JmZ25ZcjFBWXV1Smk5T19ZXzM3MnJQU3dKQ3BtQmctWTJVRjBjaEw4bHRteUN5OVRKZXp1NnpTZjUzc21EUmFxMS11bw?oc=5",
+      "pub_date": "2026-06-19T16:00:00+09:00",
+      "source": "pref.shiga.lg.jp",
+      "description": "",
+      "_glink": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE52a3BUWWxpU0Jyd2JmZ25ZcjFBWXV1Smk5T19ZXzM3MnJQU3dKQ3BtQmctWTJVRjBjaEw4bHRteUN5OVRKZXp1NnpTZjUzc21EUmFxMS11bw?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE52a3BUWWxpU0Jyd2JmZ25ZcjFBWXV1Smk5T19ZXzM3MnJQU3dKQ3BtQmctWTJVRjBjaEw4bHRteUN5OVRKZXp1NnpTZjUzc21EUmFxMS11bw?oc=5",
+      "category": "一般",
+      "topic": "mynumber"
     },
     {
       "title": "マイナ保険証の「第2世代」顔認証リーダー発売 単体でスマホ読み取りOK 初代を順次代替 - CNET Japan",
@@ -5458,28 +5480,6 @@
       "_glink": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQemxmQmFLaXpBNHFUaVRrdWthdEZjLXFKUWE0MW9RTEtZck1ORExIM3l1R01jY3kyRHVqVFBPSXhVYWVQMXU0N2NhRUVyZ3c0MTYxaS1reXM3UTlPTVloM08teDI4RVFhM0JjMnphUEdZTHlIVnFjcURVaXdtd2hMWTdIdUVyVlBR?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQemxmQmFLaXpBNHFUaVRrdWthdEZjLXFKUWE0MW9RTEtZck1ORExIM3l1R01jY3kyRHVqVFBPSXhVYWVQMXU0N2NhRUVyZ3c0MTYxaS1reXM3UTlPTVloM08teDI4RVFhM0JjMnphUEdZTHlIVnFjcURVaXdtd2hMWTdIdUVyVlBR?oc=5",
       "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "国民健康保険加入者のための特定健康診査 - city.okazaki.lg.jp",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPd04ycjB6LTh3ZHljSkRfWFhPaFdxZ0pBX1p6c3hiX0w0UHN5QVJtQzhCNGJPVF91aDNiSkV5QzRtOEN4TW5sV3BNWDRVT2JKUFVld0I2czQ5dDdsSVN0SkxkSERmTmVIakFOT3VPdWVaSkVkLU9xenppc2F3WE8wMUk2eHJISkZqMFhpTA?oc=5",
-      "pub_date": "2026-05-22T16:00:00+09:00",
-      "source": "city.okazaki.lg.jp",
-      "description": "2008年に導入された特定健康診査・特定保健指導(いわゆるメタボ健診制度)により、保健事業に投じる費用が拡大した自治体 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPd04ycjB6LTh3ZHljSkRfWFhPaFdxZ0pBX1p6c3hiX0w0UHN5QVJtQzhCNGJPVF91aDNiSkV5QzRtOEN4TW5sV3BNWDRVT2JKUFVld0I2czQ5dDdsSVN0SkxkSERmTmVIakFOT3VPdWVaSkVkLU9xenppc2F3WE8wMUk2eHJISkZqMFhpTA?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPd04ycjB6LTh3ZHljSkRfWFhPaFdxZ0pBX1p6c3hiX0w0UHN5QVJtQzhCNGJPVF91aDNiSkV5QzRtOEN4TW5sV3BNWDRVT2JKUFVld0I2czQ5dDdsSVN0SkxkSERmTmVIakFOT3VPdWVaSkVkLU9xenppc2F3WE8wMUk2eHJISkZqMFhpTA?oc=5",
-      "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "［医療改革］ マイナポータルの受給者証提示で医療費助成の資格確認が可能 - 厚生政策情報センター",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE04ci05WFdBdy1xWWhoallGNlpiVFowM1hZV2NDV2J2a29GdHVCSmlkdXM3RkNSNmVMZ1lQSkc5TGtzR1NGZnpHZENrZkViVURfQmU4?oc=5",
-      "pub_date": "2026-05-22T16:00:00+09:00",
-      "source": "厚生政策情報センター",
-      "description": "医療機関や薬局の窓口で提示する健康保険証は2日から、マイナンバーカードに保険証機能を持たせた「マイナ保険証」に完全移行した。従来の健康保険証は1日までに全ての有効期限が切れたためで、マイナ保険証を取得していない人は「資格確認書」を ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE04ci05WFdBdy1xWWhoallGNlpiVFowM1hZV2NDV2J2a29GdHVCSmlkdXM3RkNSNmVMZ1lQSkc5TGtzR1NGZnpHZENrZkViVURfQmU4?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE04ci05WFdBdy1xWWhoallGNlpiVFowM1hZV2NDV2J2a29GdHVCSmlkdXM3RkNSNmVMZ1lQSkc5TGtzR1NGZnpHZENrZkViVURfQmU4?oc=5",
-      "category": "制度変更",
       "topic": "insurance"
     }
   ]
