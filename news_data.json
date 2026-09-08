@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T11:53:58+09:00",
+  "updated": "2026-09-08T22:17:27+09:00",
   "articles": [
     {
       "title": "意識不明でも病歴や持参薬がすぐわかる！救急隊がマイナ保険証を活用する「マイナ救急」が全国で本格スタート - DXマガジン",
@@ -1658,6 +1658,17 @@
       "_glink": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1fOXl6Z0lMOG15NFg5WXVXTVJ3VkRIRmpGX0xKNFBWeHg5UTdDUGI2VVFPd0RxdWhzaDE5b1N4cThaY3p5MHF3eDJZdk9KV0lzcldzSUtR?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1fOXl6Z0lMOG15NFg5WXVXTVJ3VkRIRmpGX0xKNFBWeHg5UTdDUGI2VVFPd0RxdWhzaDE5b1N4cThaY3p5MHF3eDJZdk9KV0lzcldzSUtR?oc=5",
       "category": "制度変更",
+      "topic": "insurance"
+    },
+    {
+      "title": "マイナンバーカードを活用した医療費受給者証のオンライン資格確認について - pref.yamaguchi.lg.jp",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5PSmVVcW9zc0tubGNwWDVVMXlUYmw2QUJOUGFqZGR5ajlBdG1KSVlYMXRuSlRYUzNPRlBVLTFwMU5zNHpmN2xuQkd4c2wtQ3g0Sk9UcFFzMXZkNVN2ckpvX3JzZWVEQQ?oc=5",
+      "pub_date": "2026-08-03T16:00:00+09:00",
+      "source": "pref.yamaguchi.lg.jp",
+      "description": "Androidスマートフォンのマイナンバーカードの基本4情報搭載は、26年秋を予定。 また、マイナポータルアプリとデジタル認証アプリを、今夏に統合し、「マイナアプリ」として運用開始し、官民のサービスでマイナンバーカードを使った本人確認等を行なう際に、一つのアプリで完結可能にする。",
+      "_glink": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5PSmVVcW9zc0tubGNwWDVVMXlUYmw2QUJOUGFqZGR5ajlBdG1KSVlYMXRuSlRYUzNPRlBVLTFwMU5zNHpmN2xuQkd4c2wtQ3g0Sk9UcFFzMXZkNVN2ckpvX3JzZWVEQQ?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5PSmVVcW9zc0tubGNwWDVVMXlUYmw2QUJOUGFqZGR5ajlBdG1KSVlYMXRuSlRYUzNPRlBVLTFwMU5zNHpmN2xuQkd4c2wtQ3g0Sk9UcFFzMXZkNVN2ckpvX3JzZWVEQQ?oc=5",
+      "category": "一般",
       "topic": "insurance"
     },
     {
@@ -5469,17 +5480,6 @@
       "thumbnail": "https://services.digital.go.jp/ogp.png",
       "category": "一般",
       "topic": "mynumber"
-    },
-    {
-      "title": "国民健康保険の令和8年度の更新は8月です - vill.kitanakagusuku.lg.jp",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA5UGJYVnBaMVpSUkJQbEFsZGk0SUJvdTlPRXdlOGxERUNXVDZQcjloNnM5YVBNdUpqbmU2V3FvWU40eFVYYW9aVmdyVDdkWHVROU5BUktTWDNSWVZYTnNLYVRlX1Zsb1NXeU9pclRiZ0p3cjN6ZFFr?oc=5",
-      "pub_date": "2026-05-25T16:00:00+09:00",
-      "source": "vill.kitanakagusuku.lg.jp",
-      "description": "令和7年度第2回茨城県国民健康保険運営協議会 令和7年度第2回茨城県国民健康保険運営協議会を令和8年3月10日、書面により開催し、「令和8年度国民健康保険事業費納付金等本算定結果(確定係数による算定結果)」について審議し、「県保健事業の実施状況 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA5UGJYVnBaMVpSUkJQbEFsZGk0SUJvdTlPRXdlOGxERUNXVDZQcjloNnM5YVBNdUpqbmU2V3FvWU40eFVYYW9aVmdyVDdkWHVROU5BUktTWDNSWVZYTnNLYVRlX1Zsb1NXeU9pclRiZ0p3cjN6ZFFr?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA5UGJYVnBaMVpSUkJQbEFsZGk0SUJvdTlPRXdlOGxERUNXVDZQcjloNnM5YVBNdUpqbmU2V3FvWU40eFVYYW9aVmdyVDdkWHVROU5BUktTWDNSWVZYTnNLYVRlX1Zsb1NXeU9pclRiZ0p3cjN6ZFFr?oc=5",
-      "category": "一般",
-      "topic": "insurance"
     }
   ]
 }
