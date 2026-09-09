@@ -1,6 +1,17 @@
 {
-  "updated": "2026-09-08T22:17:27+09:00",
+  "updated": "2026-09-09T11:53:58+09:00",
   "articles": [
+    {
+      "title": "マイナ保険証 有用性の訴えが足りない - 福井新聞社",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5RTjFxM0RsNjg2SU1uaGV5YkU5Y2lvdkhzMldHZzdsNWlES1duZXpLZkhyWExEOW9NQkVpd2xPa3pSZ2lLTlFGc3Rzd1RuT1hsSDIwY0pNNTBrZC00UWc?oc=5",
+      "pub_date": "2026-09-09T07:30:00+09:00",
+      "source": "福井新聞社",
+      "description": "8月に入って、私たちの生活に関わる多くのことが変化した。 その1つが保険証だ。 従来の紙の保険証は8月から使用ができなくなり、マイナ保険証などの提示が必要となった。 医療機関で混乱は起きていないのだろうか。 「紙の保険証」で受診できる暫定 ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5RTjFxM0RsNjg2SU1uaGV5YkU5Y2lvdkhzMldHZzdsNWlES1duZXpLZkhyWExEOW9NQkVpd2xPa3pSZ2lLTlFGc3Rzd1RuT1hsSDIwY0pNNTBrZC00UWc?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5RTjFxM0RsNjg2SU1uaGV5YkU5Y2lvdkhzMldHZzdsNWlES1duZXpLZkhyWExEOW9NQkVpd2xPa3pSZ2lLTlFGc3Rzd1RuT1hsSDIwY0pNNTBrZC00UWc?oc=5",
+      "category": "一般",
+      "topic": "insurance"
+    },
     {
       "title": "意識不明でも病歴や持参薬がすぐわかる！救急隊がマイナ保険証を活用する「マイナ救急」が全国で本格スタート - DXマガジン",
       "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBzZkVTNHNLMmh4Q3JSNjN6ODdtVXBsNjRQU0pvbk1yMlRJWmh3YThNYW81VG84cmx3a2l0T2J0WU1RWFFpZUVzUGpEUl8?oc=5",
@@ -530,17 +541,6 @@
       "_resolved_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE82cWMtSGFWTWcwS3NHU01VVzJ1MElIQUJXQUNON2JLWS1wWTFJaXZLUzZTTUx6TmctWGxvNWU0QVRoQS1yN3VYdERtenRHeVcyME5V?oc=5",
       "category": "一般",
       "topic": "mynumber"
-    },
-    {
-      "title": "論説 従来保険証が使用不可 マイナ普及は無理なく - 山陰中央新報デジタル",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1jV2lXMmNnUk1id0d6NklpaG1NSlg3WHNWTDZ5NWljTm9zM3YxQldlWFUtRFRGMmRPT3piMXNsMkc4T0ROTWQ0X3Z4TXpybm9Eanl1ZVY0bzJtenc?oc=5",
-      "pub_date": "2026-08-23T04:00:00+09:00",
-      "source": "山陰中央新報デジタル",
-      "description": "新規発行が既に終了している従来の健康保険証は、有効期限切れでも使える特例措置が終わった。８月からはマイナンバーカードに保険証機能を持たせた「マイナ保険証」か、その代わりとなる「資格確認書」を医療機関受診時に窓口で提示することが必要になった。従来保険証 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1jV2lXMmNnUk1id0d6NklpaG1NSlg3WHNWTDZ5NWljTm9zM3YxQldlWFUtRFRGMmRPT3piMXNsMkc4T0ROTWQ0X3Z4TXpybm9Eanl1ZVY0bzJtenc?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1jV2lXMmNnUk1id0d6NklpaG1NSlg3WHNWTDZ5NWljTm9zM3YxQldlWFUtRFRGMmRPT3piMXNsMkc4T0ROTWQ0X3Z4TXpybm9Eanl1ZVY0bzJtenc?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
     }
   ],
   "total": 500
