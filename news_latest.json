@@ -1,6 +1,27 @@
 {
-  "updated": "2026-09-11T11:49:29+09:00",
+  "updated": "2026-09-11T22:13:06+09:00",
   "articles": [
+    {
+      "title": "普及進まない「マイナ免許証」 福井県内では1割にとどまる 「このままでいい」メリットあっても“決め手”にならない背景 - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB4MzlVQTMtZXJObXYtZDZBZlZWcnVXV0ZoTUJ5MEwyMXFmVWdIOW91c1BYQXVac0xxWm5vbmhkbllKSUpZN3RQam9VRUlMT0otNlNCQTB0R3FHWThVUlk5bDFmNVUxXzh3c29xeWFfRlF5LUhOOVNwUXJUYVNnZWs?oc=5",
+      "pub_date": "2026-09-11T20:18:02+09:00",
+      "source": "Yahoo!ニュース",
+      "description": "マイナンバーカードを運転免許証として利用できる制度が去年3月から運用されました。免許更新の際にオンラインで講習を受けられるなどのメリットはあるものの、運用から1年半近くがたった現在も、福井県内での普及は1割ほどにとどまっています。普及が進まない背景について専門家に聞きました。",
+      "_glink": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB4MzlVQTMtZXJObXYtZDZBZlZWcnVXV0ZoTUJ5MEwyMXFmVWdIOW91c1BYQXVac0xxWm5vbmhkbllKSUpZN3RQam9VRUlMT0otNlNCQTB0R3FHWThVUlk5bDFmNVUxXzh3c29xeWFfRlF5LUhOOVNwUXJUYVNnZWs?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB4MzlVQTMtZXJObXYtZDZBZlZWcnVXV0ZoTUJ5MEwyMXFmVWdIOW91c1BYQXVac0xxWm5vbmhkbllKSUpZN3RQam9VRUlMT0otNlNCQTB0R3FHWThVUlk5bDFmNVUxXzh3c29xeWFfRlF5LUhOOVNwUXJUYVNnZWs?oc=5",
+      "category": "一般",
+      "topic": "mynumber"
+    },
+    {
+      "title": "電子処方箋の導入状況に関するダッシュボードを更新しました",
+      "link": "https://www.digital.go.jp/resources/govdashboard/electronic-prescription",
+      "pub_date": "2026-09-11T15:00:00+09:00",
+      "source": "デジタル庁",
+      "description": "PHCホールディングス株式会社（本社：東京都千代田区、東証プライム：6523）傘下のウィーメックス株式会社（本社：東京都渋谷区、代表取締役社長：高橋秀明、以下「ウィーメックス」）は、ウィーメックスが提供するシステムと連携した医療機関 ...",
+      "thumbnail": "https://www.digital.go.jp/assets/contents/node/basic_page/field_thumbnail_image/42e67f07-4d20-46e7-8774-eb5493db76dd/5a4075ae/%E9%9B%BB%E5%AD%90%E5%87%A6%E6%96%B9%E7%AE%8B%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%83%80%E3%83%83%E3%82%B7%E3%83%A5%E3%83%9C%E3%83%BC%E3%83%89.png",
+      "category": "一般",
+      "topic": "insurance"
+    },
     {
       "title": "マイナンバーカードの署名用電子証明書が意図せず失効｜市原市、マイナ保険証は影響なし・案内は郵送予定 - ジモはる",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HZ05uZmVvLXZZOEFKZVFCOXBRQ1kzMmRKVEdWWTY3eUl1bWlXbXFBR1lwSVMzeHZtODgtcmdkTk9peHh2cXMtODBIRV8xNExMOWxRVkU0VFYxeGxBXzMzNDNVZExhWWNuTm5fVUt3?oc=5",
@@ -517,28 +538,6 @@
       "thumbnail": "https://services.digital.go.jp/uploads/og_images/20260728_mynaapp_01.png",
       "category": "一般",
       "topic": "mynumber"
-    },
-    {
-      "title": "スマホ用電子証明書をAndroid端末に追加する方法 - デジタル庁 ウェブサービス・アプリケーション",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9IR25ObUcyaW0zT3lhUXY1cnJmMnNubzFHWm5vUkkxdkVKR2xTajZOcVlZTnN5WmpVLTA3NWdDSWFTeTlvZWhPVkU2Ny00VS1CWnFqS1MyS1Vpa1FHNTdNdWowNENyek0?oc=5",
-      "pub_date": "2026-08-24T23:30:58+09:00",
-      "source": "デジタル庁 ウェブサービス・アプリケーション",
-      "description": "マイナンバーカードの特徴の1つである電子証明書を使ったJPKI（公的個人認証）。マイナンバーカードのICチップ内に電子証明書を保管して、オンラインでの本人確認を確実に行えるというメリットがある。 そのJPKIをスマートフォンにも搭載する動きが進め ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9IR25ObUcyaW0zT3lhUXY1cnJmMnNubzFHWm5vUkkxdkVKR2xTajZOcVlZTnN5WmpVLTA3NWdDSWFTeTlvZWhPVkU2Ny00VS1CWnFqS1MyS1Vpa1FHNTdNdWowNENyek0?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9IR25ObUcyaW0zT3lhUXY1cnJmMnNubzFHWm5vUkkxdkVKR2xTajZOcVlZTnN5WmpVLTA3NWdDSWFTeTlvZWhPVkU2Ny00VS1CWnFqS1MyS1Vpa1FHNTdNdWowNENyek0?oc=5",
-      "category": "一般",
-      "topic": "mynumber"
-    },
-    {
-      "title": "医療現場のDXを支える顔認証付きカードリーダー。 ご利用者・医療機関 双方の利便性と限られた受付スペースの課題に挑んだ、新モデル開発の舞台裏。 - パナソニック コネクト",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOVpXcF94ODFkRE9zcnVSQmVPYV9QWUgxc2t1aGdPV1FYbzhVeXhfWDlWemNDcWNINHBrMzRYMlFkSjFBaTVzRWVVNlZWZHJnWHlZOHlKR09HWHNZR21Gdk9fekVhQzBYNXlveE1wZ3o2TVY4ZmNfdExGUFgzcXFRMW5lY2Y0d211cUhSd3NmaXF4Nnpl?oc=5",
-      "pub_date": "2026-08-24T23:30:13+09:00",
-      "source": "パナソニック コネクト",
-      "description": "全国医療情報プラットフォーム構想・令和ビジョン2030に対応し、オン資から医福連携までワンストップの提供体制を強化 リコージャパン株式会社（代表取締役社長：笠井 徹）は、厚生労働省が推進する「全国医療情報プラットフォーム構想」および「令和 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOVpXcF94ODFkRE9zcnVSQmVPYV9QWUgxc2t1aGdPV1FYbzhVeXhfWDlWemNDcWNINHBrMzRYMlFkSjFBaTVzRWVVNlZWZHJnWHlZOHlKR09HWHNZR21Gdk9fekVhQzBYNXlveE1wZ3o2TVY4ZmNfdExGUFgzcXFRMW5lY2Y0d211cUhSd3NmaXF4Nnpl?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOVpXcF94ODFkRE9zcnVSQmVPYV9QWUgxc2t1aGdPV1FYbzhVeXhfWDlWemNDcWNINHBrMzRYMlFkSjFBaTVzRWVVNlZWZHJnWHlZOHlKR09HWHNZR21Gdk9fekVhQzBYNXlveE1wZ3o2TVY4ZmNfdExGUFgzcXFRMW5lY2Y0d211cUhSd3NmaXF4Nnpl?oc=5",
-      "category": "一般",
-      "topic": "insurance"
     }
   ],
   "total": 500
