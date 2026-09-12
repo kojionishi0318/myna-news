@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T11:57:58+09:00",
+  "updated": "2026-09-12T21:37:02+09:00",
   "articles": [
     {
       "title": "普及進まない「マイナ免許証」 福井県内では1割にとどまる 「このままでいい」メリットあっても“決め手”にならない背景 - Yahoo!ニュース",
@@ -53,6 +53,17 @@
       "_resolved_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9xWFE1RjJSeVZxbS1GcFNoSWFlNE54ekxuT3dOR0lRdDBaMFhwSlg5UDhsTk9ETkJHY2gxaTF0T3BHaUo5ODhmN01zNA?oc=5",
       "category": "一般",
       "topic": "mynumber"
+    },
+    {
+      "title": "「救急の日」ＡＥＤ活用やマイナ保険証携行を呼びかけ 水戸 - NHKニュース",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9SVkNSTFM1SzRJS2lxOXNDcFA3dnQxZjcwaWhvckxYUE5oa3VnWkhpR1ZPeWRDLWhmNzdMLVFoMXZFYmRVa0FzdEpBd3hZTVhtS05XaDViR1U?oc=5",
+      "pub_date": "2026-09-09T16:46:00+09:00",
+      "source": "NHKニュース",
+      "description": "厚生労働省は6月18日の社会保障審議会医療保険部会（部会長：岩村正彦・東大名誉教授）で、昨年12月に廃止された従来の健康保険証を使用可能とする暫定措置を予定通り7月末で終了する方針を改めて説明した。マイナ保険証か資格確認書による確認が必要 ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9SVkNSTFM1SzRJS2lxOXNDcFA3dnQxZjcwaWhvckxYUE5oa3VnWkhpR1ZPeWRDLWhmNzdMLVFoMXZFYmRVa0FzdEpBd3hZTVhtS05XaDViR1U?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9SVkNSTFM1SzRJS2lxOXNDcFA3dnQxZjcwaWhvckxYUE5oa3VnWkhpR1ZPeWRDLWhmNzdMLVFoMXZFYmRVa0FzdEpBd3hZTVhtS05XaDViR1U?oc=5",
+      "category": "制度変更",
+      "topic": "insurance"
     },
     {
       "title": "あなたの命を守る「マイナ救急」（広報動画） - city.joyo.kyoto.jp",
@@ -526,16 +537,6 @@
       "description": "デジタル庁は、今夏提供予定としていた「マイナアプリ」について、提供開始日を8月25日にすると発表した。「マイナポータルアプリ」をアップデートすると、自動で「マイナアプリ」に切り替わる。 「マイナアプリ」は、別々に提供されていた「マイナ ...",
       "_glink": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1nV0QteTROSk9LVnVzUVdnVW1udVV4VGxydEFjOGR6cUdpUTVNQ3BiT1NFbGpOelN3QV83bnI2YXZwWUxMRDJjdVNFT0laU0dyc1h3YjF6TldTdHYxMWJqOFU5YU1ETkE?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1nV0QteTROSk9LVnVzUVdnVW1udVV4VGxydEFjOGR6cUdpUTVNQ3BiT1NFbGpOelN3QV83bnI2YXZwWUxMRDJjdVNFT0laU0dyc1h3YjF6TldTdHYxMWJqOFU5YU1ETkE?oc=5",
-      "category": "一般",
-      "topic": "mynumber"
-    },
-    {
-      "title": "2026年8月25日に「マイナアプリ」の提供を開始しました（デジタル庁ウェブサービス・アプリケーション）",
-      "link": "https://services.digital.go.jp/mynaapp/news/20260825-01/",
-      "pub_date": "2026-08-25T11:00:27+09:00",
-      "source": "デジタル庁",
-      "description": "デジタル庁は7月28日、新「マイナアプリ」を8月25日に提供開始すると発表した。 新「マイナアプリ」 ※クリックすると拡大画像が見られます マイナアプリは、従来の「マイナポータルアプリ」と、官民のサービスで導入が進む「デジタル認証アプリ」の ...",
-      "thumbnail": "https://services.digital.go.jp/uploads/og_images/20260728_mynaapp_01.png",
       "category": "一般",
       "topic": "mynumber"
     }
