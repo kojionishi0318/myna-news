@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15T00:38:12+09:00",
+  "updated": "2026-09-15T12:12:59+09:00",
   "articles": [
     {
       "title": "なぜ選ばれない？マイナ免許証 専門家が指摘する3つの理由 見落とされがちなデメリットも…福井での普及は1割 - FNNプライムオンライン",
@@ -104,6 +104,17 @@
       "source": "厚生労働省",
       "description": "厚生労働省は6月18日、マイナ保険証の受付に使う「第2世代（次期）顔認証付きカードリーダー」の販売が2026年度から順次始まったことを、社会保障審議会医療保険部会の資料で明らかにした。最大の特徴は、本体だけでスマートフォンのマイナ保険証を ...",
       "thumbnail": "https://www.mhlw.go.jp/common/img/img_ogp.jpg",
+      "category": "一般",
+      "topic": "insurance"
+    },
+    {
+      "title": "“マイナ救急”で円滑に 消防局が救急車の適正利用やマイナンバーカード携帯呼びかけ「救急の日」大分 - 日テレNEWS NNN",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBvSWlZa0lOeUhBWG15V0IxelVPVk13TDJGVXM2TkJVelMybkpZcmFGMDd5VTFDM1dQZDF2Z0dJSGxGZV9ZWEtKejF6ZGphMHJIcGxiRzd0czgyQ1BWVklNSlNBdTBhOUJsX2lQOTZjM1RKSUpVdDV2RkhtWkMyQkk?oc=5",
+      "pub_date": "2026-09-09T11:57:00+09:00",
+      "source": "日テレNEWS NNN",
+      "description": "9月9日は救急の日です。大分県大分市では9日、救急車の適正な利用や救急搬送時に「マイナ保険証」を活用する「マイナ救急」への協力を呼びかける街頭啓発活動が行われました。これは大分市消防局が行ったものです。職員などは9日朝、JR大分駅前で救急車の適正利用 ...",
+      "_glink": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBvSWlZa0lOeUhBWG15V0IxelVPVk13TDJGVXM2TkJVelMybkpZcmFGMDd5VTFDM1dQZDF2Z0dJSGxGZV9ZWEtKejF6ZGphMHJIcGxiRzd0czgyQ1BWVklNSlNBdTBhOUJsX2lQOTZjM1RKSUpVdDV2RkhtWkMyQkk?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBvSWlZa0lOeUhBWG15V0IxelVPVk13TDJGVXM2TkJVelMybkpZcmFGMDd5VTFDM1dQZDF2Z0dJSGxGZV9ZWEtKejF6ZGphMHJIcGxiRzd0czgyQ1BWVklNSlNBdTBhOUJsX2lQOTZjM1RKSUpVdDV2RkhtWkMyQkk?oc=5",
       "category": "一般",
       "topic": "insurance"
     },
@@ -526,17 +537,6 @@
       "description": "厚生労働省は3月26日の社会保障審議会医療部会（部会長：遠藤久夫・学習院大学長）で、2026年4月から始まる「医療法人の経営情報の第三者提供制度」に伴い、提供申出の審査等を行う専門委員会（仮称）を設置することを提案。部会は了承した（資料は ...",
       "thumbnail": "https://www.mhlw.go.jp/common/img/img_ogp.jpg",
       "category": "政治",
-      "topic": "mynumber"
-    },
-    {
-      "title": "【10月1日開始】マイナンバーカードを医療証に｜川ばた ひろこ（大阪市都島区） - 選挙ドットコム",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE92aVY2RlA5bkpzakNNZlpLdU9td09hMkVyVDlmNVNoNElHVFpfZ1BocnBDclZYSTQ4VERfbDV1Q0p3cm82TzBiMFgyRFB0VVZfNThWS0ZJWFd0TFl2REtF?oc=5",
-      "pub_date": "2026-08-25T11:59:17+09:00",
-      "source": "選挙ドットコム",
-      "description": "",
-      "_glink": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE92aVY2RlA5bkpzakNNZlpLdU9td09hMkVyVDlmNVNoNElHVFpfZ1BocnBDclZYSTQ4VERfbDV1Q0p3cm82TzBiMFgyRFB0VVZfNThWS0ZJWFd0TFl2REtF?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE92aVY2RlA5bkpzakNNZlpLdU9td09hMkVyVDlmNVNoNElHVFpfZ1BocnBDclZYSTQ4VERfbDV1Q0p3cm82TzBiMFgyRFB0VVZfNThWS0ZJWFd0TFl2REtF?oc=5",
-      "category": "一般",
       "topic": "mynumber"
     }
   ],
