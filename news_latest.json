@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15T12:12:59+09:00",
+  "updated": "2026-09-15T23:09:18+09:00",
   "articles": [
     {
       "title": "なぜ選ばれない？マイナ免許証 専門家が指摘する3つの理由 見落とされがちなデメリットも…福井での普及は1割 - FNNプライムオンライン",
@@ -150,6 +150,17 @@
       "_resolved_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5RTjFxM0RsNjg2SU1uaGV5YkU5Y2lvdkhzMldHZzdsNWlES1duZXpLZkhyWExEOW9NQkVpd2xPa3pSZ2lLTlFGc3Rzd1RuT1hsSDIwY0pNNTBrZC00UWc?oc=5",
       "category": "一般",
       "topic": "insurance"
+    },
+    {
+      "title": "マイナンバーカードの申請・交付・更新について - town.namegawa.saitama.jp",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYmd1MXphblAwSWJyOXE2NThSSVVrLUhQdVh1MEpkMWRUb0toZDRiWjRaOG4taHd4QU1jTjJDQzdndktCZ3RZdjd1YVgySzdhWlNubkx3RWh1X3d5Vzl1aE5aVDV2OEJKdGI4eFRmYmcxUm9JMlZGa0c2cHQtRWpTMEozVER4SUY2allWWHRaUFYyNjQzUkdXcXpwYldzSE5qXzUxc3hHc1cyQ2Vt?oc=5",
+      "pub_date": "2026-09-08T16:00:00+09:00",
+      "source": "town.namegawa.saitama.jp",
+      "description": "マイナンバーカードの特急発行・交付制度が始まった 特急発行・交付制度を利用する条件 大前提として、マイナンバーカードの特急発行・交付制度は誰でも利用できるわけではない。以下のいずれかの理由に当てはまる場合に利用可能だ。 乳児（満1歳未満 ...",
+      "_glink": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYmd1MXphblAwSWJyOXE2NThSSVVrLUhQdVh1MEpkMWRUb0toZDRiWjRaOG4taHd4QU1jTjJDQzdndktCZ3RZdjd1YVgySzdhWlNubkx3RWh1X3d5Vzl1aE5aVDV2OEJKdGI4eFRmYmcxUm9JMlZGa0c2cHQtRWpTMEozVER4SUY2allWWHRaUFYyNjQzUkdXcXpwYldzSE5qXzUxc3hHc1cyQ2Vt?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYmd1MXphblAwSWJyOXE2NThSSVVrLUhQdVh1MEpkMWRUb0toZDRiWjRaOG4taHd4QU1jTjJDQzdndktCZ3RZdjd1YVgySzdhWlNubkx3RWh1X3d5Vzl1aE5aVDV2OEJKdGI4eFRmYmcxUm9JMlZGa0c2cHQtRWpTMEozVER4SUY2allWWHRaUFYyNjQzUkdXcXpwYldzSE5qXzUxc3hHc1cyQ2Vt?oc=5",
+      "category": "一般",
+      "topic": "mynumber"
     },
     {
       "title": "意識不明でも病歴や持参薬がすぐわかる！救急隊がマイナ保険証を活用する「マイナ救急」が全国で本格スタート - DXマガジン",
@@ -527,16 +538,6 @@
       "_glink": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8tTWI5NlRoRVBaaFlyWW5jQUJoeXVGc29fQVczQ2RVdGNWMlhtczdDenZzV3BQM2pUWEs3M0oxRGxJYWc2NE9nMWkwT2lFWm81RWFXai1PdDFtb2MzVVpnbUlIeVkwS0E?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8tTWI5NlRoRVBaaFlyWW5jQUJoeXVGc29fQVczQ2RVdGNWMlhtczdDenZzV3BQM2pUWEs3M0oxRGxJYWc2NE9nMWkwT2lFWm81RWFXai1PdDFtb2MzVVpnbUlIeVkwS0E?oc=5",
       "category": "一般",
-      "topic": "mynumber"
-    },
-    {
-      "title": "第213回社会保障審議会医療保険部会（ペーパーレス）の開催について",
-      "link": "https://www.mhlw.go.jp/stf/newpage_75728.html",
-      "pub_date": "2026-08-25T14:00:00+09:00",
-      "source": "厚生労働省",
-      "description": "厚生労働省は3月26日の社会保障審議会医療部会（部会長：遠藤久夫・学習院大学長）で、2026年4月から始まる「医療法人の経営情報の第三者提供制度」に伴い、提供申出の審査等を行う専門委員会（仮称）を設置することを提案。部会は了承した（資料は ...",
-      "thumbnail": "https://www.mhlw.go.jp/common/img/img_ogp.jpg",
-      "category": "政治",
       "topic": "mynumber"
     }
   ],

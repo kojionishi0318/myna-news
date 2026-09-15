@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15T12:12:59+09:00",
+  "updated": "2026-09-15T23:09:18+09:00",
   "articles": [
     {
       "title": "なぜ選ばれない？マイナ免許証 専門家が指摘する3つの理由 見落とされがちなデメリットも…福井での普及は1割 - FNNプライムオンライン",
@@ -150,6 +150,17 @@
       "_resolved_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5RTjFxM0RsNjg2SU1uaGV5YkU5Y2lvdkhzMldHZzdsNWlES1duZXpLZkhyWExEOW9NQkVpd2xPa3pSZ2lLTlFGc3Rzd1RuT1hsSDIwY0pNNTBrZC00UWc?oc=5",
       "category": "一般",
       "topic": "insurance"
+    },
+    {
+      "title": "マイナンバーカードの申請・交付・更新について - town.namegawa.saitama.jp",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYmd1MXphblAwSWJyOXE2NThSSVVrLUhQdVh1MEpkMWRUb0toZDRiWjRaOG4taHd4QU1jTjJDQzdndktCZ3RZdjd1YVgySzdhWlNubkx3RWh1X3d5Vzl1aE5aVDV2OEJKdGI4eFRmYmcxUm9JMlZGa0c2cHQtRWpTMEozVER4SUY2allWWHRaUFYyNjQzUkdXcXpwYldzSE5qXzUxc3hHc1cyQ2Vt?oc=5",
+      "pub_date": "2026-09-08T16:00:00+09:00",
+      "source": "town.namegawa.saitama.jp",
+      "description": "マイナンバーカードの特急発行・交付制度が始まった 特急発行・交付制度を利用する条件 大前提として、マイナンバーカードの特急発行・交付制度は誰でも利用できるわけではない。以下のいずれかの理由に当てはまる場合に利用可能だ。 乳児（満1歳未満 ...",
+      "_glink": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYmd1MXphblAwSWJyOXE2NThSSVVrLUhQdVh1MEpkMWRUb0toZDRiWjRaOG4taHd4QU1jTjJDQzdndktCZ3RZdjd1YVgySzdhWlNubkx3RWh1X3d5Vzl1aE5aVDV2OEJKdGI4eFRmYmcxUm9JMlZGa0c2cHQtRWpTMEozVER4SUY2allWWHRaUFYyNjQzUkdXcXpwYldzSE5qXzUxc3hHc1cyQ2Vt?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYmd1MXphblAwSWJyOXE2NThSSVVrLUhQdVh1MEpkMWRUb0toZDRiWjRaOG4taHd4QU1jTjJDQzdndktCZ3RZdjd1YVgySzdhWlNubkx3RWh1X3d5Vzl1aE5aVDV2OEJKdGI4eFRmYmcxUm9JMlZGa0c2cHQtRWpTMEozVER4SUY2allWWHRaUFYyNjQzUkdXcXpwYldzSE5qXzUxc3hHc1cyQ2Vt?oc=5",
+      "category": "一般",
+      "topic": "mynumber"
     },
     {
       "title": "意識不明でも病歴や持参薬がすぐわかる！救急隊がマイナ保険証を活用する「マイナ救急」が全国で本格スタート - DXマガジン",
@@ -5459,25 +5470,14 @@
       "topic": "insurance"
     },
     {
-      "title": "■NEWS 機器不具合時等の資格確認、医療費助成もマイナポータルの利用が可能に─厚労省 - 日本医事新報社",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9oeGxwbkhUSk9tUUttS0t4dmJxOHFXdG9laUZwemc3RWV6V3RtMjZBWHlQZXZ3dElidGJzWkIyRlBFbXNKd3RicDdFSXBSVHhKTk94VjNvVE9TaXhONjBoTQ?oc=5",
+      "title": "資格情報のお知らせ・資格確認書について - city.namerikawa.toyama.jp",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5BZmZQM1F3UnFoRTN3bzlXZkhrRmJURDFqX3NwdGtSNy04VHVzd2tNV015RDFkWTlSUWk1MWJ1WUFGOFJNMDI2XzFJZnZTMWZlS0RsYXNtejhtM3BkNXpEZWNjRzNSU0NhUzJhajc1VzByS1F5TUQwVzY4YzA?oc=5",
       "pub_date": "2026-06-01T16:00:00+09:00",
-      "source": "日本医事新報社",
-      "description": "8月1日から、期限切れの従来の「健康保険証」を利用可能とする対応が終了し、医療機関や薬局の受付では「マイナ保険証」か「資格確認書」の提示が必要となります。利用登録の方法や、「マイナ保険証」のメリットなどをまとめます。 8月1日から、期限 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9oeGxwbkhUSk9tUUttS0t4dmJxOHFXdG9laUZwemc3RWV6V3RtMjZBWHlQZXZ3dElidGJzWkIyRlBFbXNKd3RicDdFSXBSVHhKTk94VjNvVE9TaXhONjBoTQ?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9oeGxwbkhUSk9tUUttS0t4dmJxOHFXdG9laUZwemc3RWV6V3RtMjZBWHlQZXZ3dElidGJzWkIyRlBFbXNKd3RicDdFSXBSVHhKTk94VjNvVE9TaXhONjBoTQ?oc=5",
-      "category": "トラブル",
-      "topic": "insurance"
-    },
-    {
-      "title": "後期高齢者医療資格確認書の更新 - town.aisho.shiga.jp",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBlcVVQUWp5X3hCMUdsc3huenZUMmZQNV9SbjB6bnd0VkVFbElXR2tCbm9jWDA0UGk3MmtJRk9tT2VqcDVaYnhtZy1kSktkbzdQTlQ5UnczY1IybU82YVFEZEp3LVhyOUtIUG9TQnRlWU5Ldw?oc=5",
-      "pub_date": "2026-06-01T16:00:00+09:00",
-      "source": "town.aisho.shiga.jp",
-      "description": "後期高齢者医療制度に加入している方のもとには、毎年7月ごろに保険証代わりとなる書類が届きます。今年（令和8年）も7月中に発送が行われましたが、令和8年8月からは、この書類の交付ルールが一部変わりました。 【写真】後期高齢者医療制度「窓口 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMickFVX3lxTFBlcVVQUWp5X3hCMUdsc3huenZUMmZQNV9SbjB6bnd0VkVFbElXR2tCbm9jWDA0UGk3MmtJRk9tT2VqcDVaYnhtZy1kSktkbzdQTlQ5UnczY1IybU82YVFEZEp3LVhyOUtIUG9TQnRlWU5Ldw?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBlcVVQUWp5X3hCMUdsc3huenZUMmZQNV9SbjB6bnd0VkVFbElXR2tCbm9jWDA0UGk3MmtJRk9tT2VqcDVaYnhtZy1kSktkbzdQTlQ5UnczY1IybU82YVFEZEp3LVhyOUtIUG9TQnRlWU5Ldw?oc=5",
-      "category": "一般",
+      "source": "city.namerikawa.toyama.jp",
+      "description": "7月末で国民健康保険（国保）の多くは、従来の保険証の有効期限を迎える。 大量の期限切れを前に、厚生労働省は、国保加入者に限り、保険資格を確認する補助書類でも、保険証のように病院で受診できる例外を認めた。 マイナ保険証移行に伴うルール ...",
+      "_glink": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5BZmZQM1F3UnFoRTN3bzlXZkhrRmJURDFqX3NwdGtSNy04VHVzd2tNV015RDFkWTlSUWk1MWJ1WUFGOFJNMDI2XzFJZnZTMWZlS0RsYXNtejhtM3BkNXpEZWNjRzNSU0NhUzJhajc1VzByS1F5TUQwVzY4YzA?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5BZmZQM1F3UnFoRTN3bzlXZkhrRmJURDFqX3NwdGtSNy04VHVzd2tNV015RDFkWTlSUWk1MWJ1WUFGOFJNMDI2XzFJZnZTMWZlS0RsYXNtejhtM3BkNXpEZWNjRzNSU0NhUzJhajc1VzByS1F5TUQwVzY4YzA?oc=5",
+      "category": "制度変更",
       "topic": "insurance"
     }
   ]
