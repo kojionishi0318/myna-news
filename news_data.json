@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T23:01:15+09:00",
+  "updated": "2026-09-17T12:14:07+09:00",
   "articles": [
     {
       "title": "医療機関への「マイナ保険証」対応義務づけは「適法」…東京高裁、一審判決を支持 原告側は上告の方針 - 東京新聞",
@@ -9,6 +9,28 @@
       "description": "マイナ保険証で患者の保険資格を確かめる「オンライン資格確認」などを医療機関に義務付けた厚生労働省令は違法として、医師や歯科医師らが国を相手取り、義務がないことの確認を求めた訴訟の控訴審判決で、東京高裁は16日、義務化は適法とした一審東京地裁判決を踏襲し請求を棄却した。",
       "_glink": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ZalpaajhWTlBxWV9TUE9SV1VnVldKZUJVQjAtVnQ4UVFqY1M3N2VHY2pZbTFrdTVFZ3FrYTIyTWlyZVVEVE9UVnczVnp2bmxpQVFz?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ZalpaajhWTlBxWV9TUE9SV1VnVldKZUJVQjAtVnQ4UVFqY1M3N2VHY2pZbTFrdTVFZ3FrYTIyTWlyZVVEVE9UVnczVnp2bmxpQVFz?oc=5",
+      "category": "制度変更",
+      "topic": "insurance"
+    },
+    {
+      "title": "決算特別委員会４日目後期高齢者医療会計について - 選挙ドットコム",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE56aUk0X3JXZWNTdU1obmY0cFVXVGhzRDlCVTJpZWRMeWFOTXF4bHhPN2Z6dzdaUnpHUXZJSVVBU251SE1xMHNqTFRVd0tfb1h3blN2VXVUekZ2a25HbXJv?oc=5",
+      "pub_date": "2026-09-16T18:28:37+09:00",
+      "source": "選挙ドットコム",
+      "description": "75歳以上の方の後期高齢者医療制度の保険料は、年金から自動的に引かれているケースが多いのではないでしょうか。手続きが要らない分、そのままにしている方も少なくありません。 【画像で見る】控除を家族側に移した場合に軽くなる税額の目安厚生 ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE56aUk0X3JXZWNTdU1obmY0cFVXVGhzRDlCVTJpZWRMeWFOTXF4bHhPN2Z6dzdaUnpHUXZJSVVBU251SE1xMHNqTFRVd0tfb1h3blN2VXVUekZ2a25HbXJv?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE56aUk0X3JXZWNTdU1obmY0cFVXVGhzRDlCVTJpZWRMeWFOTXF4bHhPN2Z6dzdaUnpHUXZJSVVBU251SE1xMHNqTFRVd0tfb1h3blN2VXVUekZ2a25HbXJv?oc=5",
+      "category": "政治",
+      "topic": "mynumber"
+    },
+    {
+      "title": "マイナ保険証義務化、二審も「適法」＝医師らの訴え退ける―東京高裁 - 時事メディカル",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5iXzJMbkhhcy1mREl6UlY1WmhQb0lxa1l6WUdweGtwMUVXY2ZjSlNicDlXZU52bjR3TnlkUVdDWFBLYzhYTjVpMGhCNA?oc=5",
+      "pub_date": "2026-09-16T18:22:53+09:00",
+      "source": "時事メディカル",
+      "description": "マイナンバーカードに健康保険証の機能を持たせた「マイナ保険証」が利用できる体制の整備などを医療機関に義務付けたのは違法として、医師ら１２３０人が国に義務の無効確認と１人当たり１０万円の損害賠償を求めた訴訟の控訴審判決が１６日、東京高裁であった。三木素子裁判長は、請求を棄却した一… ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5iXzJMbkhhcy1mREl6UlY1WmhQb0lxa1l6WUdweGtwMUVXY2ZjSlNicDlXZU52bjR3TnlkUVdDWFBLYzhYTjVpMGhCNA?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5iXzJMbkhhcy1mREl6UlY1WmhQb0lxa1l6WUdweGtwMUVXY2ZjSlNicDlXZU52bjR3TnlkUVdDWFBLYzhYTjVpMGhCNA?oc=5",
       "category": "制度変更",
       "topic": "insurance"
     },
@@ -278,6 +300,17 @@
       "description": "医療機関で子どもの医療費助成などを受ける際に、マイナンバーカードに健康保険証機能を持たせた「マイナ保険証」の提示だけで済む自治体が、今年度末に1400超に増える見通しであることがデジタル庁のまとめでわかった。医療機関側にも利点が ...",
       "_glink": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVFRHMHlEc3BEMFBjb1JSVnNLODRNeFN6NFFkR0dOUHY5ajNHc3FYZE9iNkw4c0diTzVDRGloY3BObU5mVDV1bWI0SkpTSDdHRkIycnBkYXhYMTZrQUJ4V3J2emVrWTllZmVsN0w4a2NMLXpscWlQcVdFcGRfTDNkSEhiWThYYnByaFBZQllTd09YbVpvQUQ4?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVFRHMHlEc3BEMFBjb1JSVnNLODRNeFN6NFFkR0dOUHY5ajNHc3FYZE9iNkw4c0diTzVDRGloY3BObU5mVDV1bWI0SkpTSDdHRkIycnBkYXhYMTZrQUJ4V3J2emVrWTllZmVsN0w4a2NMLXpscWlQcVdFcGRfTDNkSEhiWThYYnByaFBZQllTd09YbVpvQUQ4?oc=5",
+      "category": "一般",
+      "topic": "insurance"
+    },
+    {
+      "title": "後期高齢者医療の資格確認書について - city.yabu.hyogo.jp",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPY0Y5Y2NKRjVfTGlXcnVJZnF6NU5GUEk4VndyWXVkRzJkTndaLWk1M3lmM0xEOTItOC0wbVBHalhpcnhsZFc1eXFSYVB4Xy1GRzN3UjZLTXllVlVmZTBYM3VCYnRlMmN5eEJqZmZDRWhWbHlleTBKSXQwSl94WVktdWxn?oc=5",
+      "pub_date": "2026-09-01T16:00:00+09:00",
+      "source": "city.yabu.hyogo.jp",
+      "description": "暫定的な取り扱いは2026年7月末で終了 後期高齢者医療制度では、2026年（令和8年）8月から資格確認書の交付ルールが変わりました。 85歳以上の人と84歳以下の人とで、届く書類が分かれています。 昨年までは、マイナ保険証を持っているかどうかにかかわら ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPY0Y5Y2NKRjVfTGlXcnVJZnF6NU5GUEk4VndyWXVkRzJkTndaLWk1M3lmM0xEOTItOC0wbVBHalhpcnhsZFc1eXFSYVB4Xy1GRzN3UjZLTXllVlVmZTBYM3VCYnRlMmN5eEJqZmZDRWhWbHlleTBKSXQwSl94WVktdWxn?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPY0Y5Y2NKRjVfTGlXcnVJZnF6NU5GUEk4VndyWXVkRzJkTndaLWk1M3lmM0xEOTItOC0wbVBHalhpcnhsZFc1eXFSYVB4Xy1GRzN3UjZLTXllVlVmZTBYM3VCYnRlMmN5eEJqZmZDRWhWbHlleTBKSXQwSl94WVktdWxn?oc=5",
       "category": "一般",
       "topic": "insurance"
     },
@@ -799,6 +832,17 @@
       "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
       "category": "一般",
       "topic": "mynumber"
+    },
+    {
+      "title": "国民健康保険の資格確認書または資格情報のお知らせ交付 - 札幌市",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWVZ3MF9YYm9yazhIWGw1SkdfbnY0U3Bnc2k0RWpKaXZnWllUaFNfMzdybkM1OWtfRFJ6UWF1N0VHdnVMcjdmR1VuU0k5QVB6Y1NfNEE0b3AzeW0xV0NVS2FKOW9Teko1TUpwam5YS2ozUGxpT1kzWHRJczRRTGYzVUc3ejA?oc=5",
+      "pub_date": "2026-08-19T16:00:00+09:00",
+      "source": "札幌市",
+      "description": "「後期高齢者医療制度」と「国民健康保険」の多くが、従来の保険証の期限切れを迎えました。そこで、登録者数120万人超のYouTubeチャンネル『脱・税理士スガワラくん』を運営する税理士の菅原 由一は、全国の国民健康保険および後期高齢者医療制度の ...",
+      "_glink": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWVZ3MF9YYm9yazhIWGw1SkdfbnY0U3Bnc2k0RWpKaXZnWllUaFNfMzdybkM1OWtfRFJ6UWF1N0VHdnVMcjdmR1VuU0k5QVB6Y1NfNEE0b3AzeW0xV0NVS2FKOW9Teko1TUpwam5YS2ozUGxpT1kzWHRJczRRTGYzVUc3ejA?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWVZ3MF9YYm9yazhIWGw1SkdfbnY0U3Bnc2k0RWpKaXZnWllUaFNfMzdybkM1OWtfRFJ6UWF1N0VHdnVMcjdmR1VuU0k5QVB6Y1NfNEE0b3AzeW0xV0NVS2FKOW9Teko1TUpwam5YS2ozUGxpT1kzWHRJczRRTGYzVUc3ejA?oc=5",
+      "category": "制度変更",
+      "topic": "insurance"
     },
     {
       "title": "「マイナ保険証」って何？…マイナンバーカードを健康保険証として利用 薬の処方歴がわかり、適切な治療につなげる狙いも - yomiuri.co.jp",
@@ -5433,50 +5477,6 @@
       "description": "",
       "_glink": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcndaV0NpOFRQUEUySkhIQTB0eVRhVC1ac19LWEp6NldGTmRad0xyU2RoSzlZLTN6MWVsMmJRUFlZNE13dk1ZVWc3b2hoc0V3LUp3UDJ2MVZoVnYyV3BWTTRWODNhRlJLX2drN2FLc1hKb2luVWgxN1dIOUhNeG9OZHhIaWJUTUtmT1RRRDhtc28?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcndaV0NpOFRQUEUySkhIQTB0eVRhVC1ac19LWEp6NldGTmRad0xyU2RoSzlZLTN6MWVsMmJRUFlZNE13dk1ZVWc3b2hoc0V3LUp3UDJ2MVZoVnYyV3BWTTRWODNhRlJLX2drN2FLc1hKb2luVWgxN1dIOUhNeG9OZHhIaWJUTUtmT1RRRDhtc28?oc=5",
-      "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "資格確認書および資格情報のお知らせについて - city.nishitokyo.lg.jp",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdFFqQTNZYm4xdFVNNVFQcVRhSmZjLXBSR3pBYk44SGN2R1M2R2UxNFpoUHlkWnBFRkxvWUhvZ3R6eTh4UDdvYzgtbjZSTHlZN3JvM1NfcWpzWV9vZkdzWXlDbEZIWEtIQkxHd0hpeWxJNmxZQW5nSGhzWTYtcC1VZEctVFFVUQ?oc=5",
-      "pub_date": "2026-06-10T16:00:00+09:00",
-      "source": "city.nishitokyo.lg.jp",
-      "description": "7月末で国民健康保険（国保）の多くは、従来の保険証の有効期限を迎える。 大量の期限切れを前に、厚生労働省は、国保加入者に限り、保険資格を確認する補助書類でも、保険証のように病院で受診できる例外を認めた。 マイナ保険証移行に伴うルール ...",
-      "_glink": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdFFqQTNZYm4xdFVNNVFQcVRhSmZjLXBSR3pBYk44SGN2R1M2R2UxNFpoUHlkWnBFRkxvWUhvZ3R6eTh4UDdvYzgtbjZSTHlZN3JvM1NfcWpzWV9vZkdzWXlDbEZIWEtIQkxHd0hpeWxJNmxZQW5nSGhzWTYtcC1VZEctVFFVUQ?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdFFqQTNZYm4xdFVNNVFQcVRhSmZjLXBSR3pBYk44SGN2R1M2R2UxNFpoUHlkWnBFRkxvWUhvZ3R6eTh4UDdvYzgtbjZSTHlZN3JvM1NfcWpzWV9vZkdzWXlDbEZIWEtIQkxHd0hpeWxJNmxZQW5nSGhzWTYtcC1VZEctVFFVUQ?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "電子申請による国民健康保険各種手続きについて - town.minamiaizu.lg.jp",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOa2FueHRwUkliV2FPQ2M5ZTJnNktmLTNYeUIwQ3RsYjEybks1cHMybTRGVkJ6b3BFckVrN3JFWElNLXNvcWdjWjZET25vSE5yOEdESzJmc1ZyOS1aWnhMRWtMRXVhc2VsWTBJSVZjUEdBOEdkTGhpZS02OEkwWWR2RnYxYVdwYVBwYnBPUEdfWDV6cEQxVlFEdFk5RmllWC1kVEdWdkt2M2Fpa0dudmZpbi1VTQ?oc=5",
-      "pub_date": "2026-06-08T16:00:00+09:00",
-      "source": "town.minamiaizu.lg.jp",
-      "description": "One人事株式会社（本社：東京都品川区、代表取締役社長：唐沢雄三郎）が提供する人事DXシステム「One人事」は、厚生労働省による健康保険組合向け電子申請ソフトに登録されたことをお知らせいたします。 「One人事」は、社会保険の電子申請義務化に対応 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOa2FueHRwUkliV2FPQ2M5ZTJnNktmLTNYeUIwQ3RsYjEybks1cHMybTRGVkJ6b3BFckVrN3JFWElNLXNvcWdjWjZET25vSE5yOEdESzJmc1ZyOS1aWnhMRWtMRXVhc2VsWTBJSVZjUEdBOEdkTGhpZS02OEkwWWR2RnYxYVdwYVBwYnBPUEdfWDV6cEQxVlFEdFk5RmllWC1kVEdWdkt2M2Fpa0dudmZpbi1VTQ?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOa2FueHRwUkliV2FPQ2M5ZTJnNktmLTNYeUIwQ3RsYjEybks1cHMybTRGVkJ6b3BFckVrN3JFWElNLXNvcWdjWjZET25vSE5yOEdESzJmc1ZyOS1aWnhMRWtMRXVhc2VsWTBJSVZjUEdBOEdkTGhpZS02OEkwWWR2RnYxYVdwYVBwYnBPUEdfWDV6cEQxVlFEdFk5RmllWC1kVEdWdkt2M2Fpa0dudmZpbi1VTQ?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "マイナ保険証で子どもの医療費助成、１４００超の自治体に拡大へ…医療機関や薬局も負担軽減 - 読売新聞",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9TZ0NQU3NQbV9KVy03bjJ2ZUc1dWhNeFROWlRvZ1pyM2J0M0pudEctTHVTdzBwanhFWU54MWFmNE5pMHVWdkVEZmhuTXB0ZlprbTE0WkxmQ1pKRzdfY0RXY2g3SllHblIxeUwzcVp3?oc=5",
-      "pub_date": "2026-06-06T16:00:00+09:00",
-      "source": "読売新聞",
-      "description": "医療機関で子どもの医療費助成などを受ける際に、マイナンバーカードに健康保険証機能を持たせた「マイナ保険証」の提示だけで済む自治体が、今年度末に1400超に増える見通しであることがデジタル庁のまとめでわかった。医療機関側にも利点が ...",
-      "_glink": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9TZ0NQU3NQbV9KVy03bjJ2ZUc1dWhNeFROWlRvZ1pyM2J0M0pudEctTHVTdzBwanhFWU54MWFmNE5pMHVWdkVEZmhuTXB0ZlprbTE0WkxmQ1pKRzdfY0RXY2g3SllHblIxeUwzcVp3?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9TZ0NQU3NQbV9KVy03bjJ2ZUc1dWhNeFROWlRvZ1pyM2J0M0pudEctTHVTdzBwanhFWU54MWFmNE5pMHVWdkVEZmhuTXB0ZlprbTE0WkxmQ1pKRzdfY0RXY2g3SllHblIxeUwzcVp3?oc=5",
-      "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "マイナ保険証で子どもの医療費助成、１４００超の自治体に拡大へ…医療機関や薬局も負担軽減 - 読売新聞",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5CQXlnZ3hNU0g2TFFfaHZYUWN2WDg0b0liR01pSnM0SHhDV3Z5LTJadHA1VERwZ0pjM1JtUk8zTFFXS1dSRE9LUjVWbWx5MDN5VVdoOEYwSE1vZm9qSjlPNTFuNEc4UQ?oc=5",
-      "pub_date": "2026-06-06T16:00:00+09:00",
-      "source": "読売新聞",
-      "description": "医療機関で子どもの医療費助成などを受ける際に、マイナンバーカードに健康保険証機能を持たせた「マイナ保険証」の提示だけで済む自治体が、今年度末に1400超に増える見通しであることがデジタル庁のまとめでわかった。医療機関側にも利点が ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5CQXlnZ3hNU0g2TFFfaHZYUWN2WDg0b0liR01pSnM0SHhDV3Z5LTJadHA1VERwZ0pjM1JtUk8zTFFXS1dSRE9LUjVWbWx5MDN5VVdoOEYwSE1vZm9qSjlPNTFuNEc4UQ?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5CQXlnZ3hNU0g2TFFfaHZYUWN2WDg0b0liR01pSnM0SHhDV3Z5LTJadHA1VERwZ0pjM1JtUk8zTFFXS1dSRE9LUjVWbWx5MDN5VVdoOEYwSE1vZm9qSjlPNTFuNEc4UQ?oc=5",
       "category": "一般",
       "topic": "insurance"
     }
