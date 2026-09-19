@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T22:21:59+09:00",
+  "updated": "2026-09-19T11:58:23+09:00",
   "articles": [
     {
       "title": "マイナ保険証利用件数の割合 ８月は50.4％ 前月比－0.29 - 全国保険医団体連合会",
@@ -21,6 +21,17 @@
       "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
       "category": "制度変更",
       "topic": "mynumber"
+    },
+    {
+      "title": "【動画】命を守る防災ポイント「生活再建 マイナ保険証なくても医療機関で受診を」 - NHKニュース",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAxdGRiOURVbVZwNWdIb3FRV3BjcUx4ZURHTlZnOFRzcjRkcEFtWlFfLWJQTUVsRnNCcXpoQXFBSnBNNkpqRV83T1k0RUpKY2Q5S2NybUtwVmdycGpyU1IydVVGYlg5dDJoMVlhTEpjbDVnelloTWwyNU42VQ?oc=5",
+      "pub_date": "2026-09-18T10:10:00+09:00",
+      "source": "NHKニュース",
+      "description": "「マイナ保険証」への移行に伴う暫定措置が間もなく終了する。8月からは従来の健康保険証を医療機関に持参した場合、医療費全額の10割負担を求められるかもしれない。安心して受診するためにも、気を付けたい二つのポイントを紹介する。 従来の保険証 ...",
+      "_glink": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAxdGRiOURVbVZwNWdIb3FRV3BjcUx4ZURHTlZnOFRzcjRkcEFtWlFfLWJQTUVsRnNCcXpoQXFBSnBNNkpqRV83T1k0RUpKY2Q5S2NybUtwVmdycGpyU1IydVVGYlg5dDJoMVlhTEpjbDVnelloTWwyNU42VQ?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAxdGRiOURVbVZwNWdIb3FRV3BjcUx4ZURHTlZnOFRzcjRkcEFtWlFfLWJQTUVsRnNCcXpoQXFBSnBNNkpqRV83T1k0RUpKY2Q5S2NybUtwVmdycGpyU1IydVVGYlg5dDJoMVlhTEpjbDVnelloTWwyNU42VQ?oc=5",
+      "category": "一般",
+      "topic": "insurance"
     },
     {
       "title": "医療機関への「マイナ保険証」対応義務づけは「適法」…東京高裁、一審判決を支持 原告側は上告の方針 - 東京新聞",
@@ -528,17 +539,6 @@
       "_resolved_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE12TF90WVh5bnZvd2daeHIxMWlZQzFxVzJYMUZZTjVjSEdOaEV4SjdiRDl2LUk2cUo5d2U4SXQ0VVA5NHJzdmdua0QzSGM5V2c?oc=5",
       "category": "一般",
       "topic": "insurance"
-    },
-    {
-      "title": "マイナポータルとマイナアプリについて - city.yao.osaka.jp",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQU2ZKUktmNGwxbHQxUmgySGlKeDdUc0E2QTR6alZJLTE4ckhSemN4VnJCcGp4TGhHZndEMngwVW1YLUc3QXFKc1FGSUxoWUl5Qk53NVFTUHdwQmdOeGZmY2dnRkJqVTJITlNrMlVvSFFtUEJ1SWtFaHpEVWF3aWdDMFF6WQ?oc=5",
-      "pub_date": "2026-08-27T16:00:00+09:00",
-      "source": "city.yao.osaka.jp",
-      "description": "デジタル庁は、2026年夏を目標に「マイナポータルアプリ」をアップデートし、「マイナアプリ」としてリニューアルする。マイナポータルアプリに「デジタル認証アプリ」の機能を統合し、より使いやすいアプリを目指す。 マイナポータルアプリと ...",
-      "_glink": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQU2ZKUktmNGwxbHQxUmgySGlKeDdUc0E2QTR6alZJLTE4ckhSemN4VnJCcGp4TGhHZndEMngwVW1YLUc3QXFKc1FGSUxoWUl5Qk53NVFTUHdwQmdOeGZmY2dnRkJqVTJITlNrMlVvSFFtUEJ1SWtFaHpEVWF3aWdDMFF6WQ?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQU2ZKUktmNGwxbHQxUmgySGlKeDdUc0E2QTR6alZJLTE4ckhSemN4VnJCcGp4TGhHZndEMngwVW1YLUc3QXFKc1FGSUxoWUl5Qk53NVFTUHdwQmdOeGZmY2dnRkJqVTJITlNrMlVvSFFtUEJ1SWtFaHpEVWF3aWdDMFF6WQ?oc=5",
-      "category": "一般",
-      "topic": "mynumber"
     }
   ],
   "total": 500
