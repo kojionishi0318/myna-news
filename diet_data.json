@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T12:56:33+09:00",
+  "updated": "2026-10-02T00:59:28+09:00",
   "total_exchanges": 256,
   "total_questions": 225,
   "total_answers": 114,
@@ -2354,6 +2354,35 @@
       "ai_title": ""
     },
     {
+      "issueID": "122114601X00220260324",
+      "session": 221,
+      "nameOfHouse": "参議院",
+      "nameOfMeeting": "総務委員会",
+      "issue": "第2号",
+      "imageKind": "会議録",
+      "date": "2026-03-24",
+      "question": {
+        "speechID": "122114601X00220260324_139",
+        "issueID": "122114601X00220260324",
+        "session": 221,
+        "nameOfHouse": "参議院",
+        "nameOfMeeting": "総務委員会",
+        "issue": "第2号",
+        "imageKind": "会議録",
+        "date": "2026-03-24",
+        "speaker": "中田優子",
+        "speakerGroup": "参政党",
+        "speakerPosition": "",
+        "speakerRole": "",
+        "is_minister": false,
+        "excerpt": "○中田優子君 ありがとうございました。選挙権の行使に関わる大事なことでありますから、これからの議論それぞれ行ってくださいというのはもちろん承知をしております。 ちょっとここで提案にはなるんですけれども、こういった顔写真付身分証がない方、運転免許証やマイナンバーカード未保有の方も一定数おられるわけでして、こういった方ですと、",
+        "speechURL": "https://kokkai.ndl.go.jp/txt/122114601X00220260324/139",
+        "speechOrder": 139
+      },
+      "answers": [],
+      "ai_title": ""
+    },
+    {
       "issueID": "122115206X00220260324",
       "session": 221,
       "nameOfHouse": "参議院",
@@ -2378,6 +2407,35 @@
         "excerpt": "○横山信一君 昨年にも申し上げたんですけど、選択的ということが大事であって、要するに、別氏を選択してもしなくてもそれはいいわけです、選択的であれば。 ですから、別氏で不安を感じる人はそれは同姓を名のればいいのであって、そういう意味では、通称使用よりも非常に幅があるのが選択的夫婦別姓の考え方でありますし、通称使用を法制化したところで、",
         "speechURL": "https://kokkai.ndl.go.jp/txt/122115206X00220260324/126",
         "speechOrder": 126
+      },
+      "answers": [],
+      "ai_title": ""
+    },
+    {
+      "issueID": "122114601X00220260324",
+      "session": 221,
+      "nameOfHouse": "参議院",
+      "nameOfMeeting": "総務委員会",
+      "issue": "第2号",
+      "imageKind": "会議録",
+      "date": "2026-03-24",
+      "question": {
+        "speechID": "122114601X00220260324_030",
+        "issueID": "122114601X00220260324",
+        "session": 221,
+        "nameOfHouse": "参議院",
+        "nameOfMeeting": "総務委員会",
+        "issue": "第2号",
+        "imageKind": "会議録",
+        "date": "2026-03-24",
+        "speaker": "上仮屋尚",
+        "speakerGroup": "",
+        "speakerPosition": "デジタル庁審議官",
+        "speakerRole": "",
+        "is_minister": false,
+        "excerpt": "○政府参考人（上仮屋尚君） お答えを申し上げます。 マイナンバーカードは、ただいま議員御指摘いただきましたように、保有枚数が一億枚超えまして、最も普及した本人確認のためのツールとなっております。これを徹底的に活用し、安全、便利、効率的なデジタル社会を構築してまいりたいと考えております。 具体的には、三つの構想をグランドデザインとして示し、",
+        "speechURL": "https://kokkai.ndl.go.jp/txt/122114601X00220260324/30",
+        "speechOrder": 30
       },
       "answers": [],
       "ai_title": ""
@@ -6945,7 +7003,7 @@
       "imageKind": "会議録",
       "date": "2025-04-09",
       "question": {
-        "speechID": "121715360X00420250409_074",
+        "speechID": "121715360X00420250409_069",
         "issueID": "121715360X00420250409",
         "session": 217,
         "nameOfHouse": "参議院",
@@ -6953,14 +7011,14 @@
         "issue": "第4号",
         "imageKind": "会議録",
         "date": "2025-04-09",
-        "speaker": "伊藤孝江",
-        "speakerGroup": "公明党",
+        "speaker": "岸真紀子",
+        "speakerGroup": "立憲民主・社民・無所属",
         "speakerPosition": "",
         "speakerRole": "",
         "is_minister": false,
-        "excerpt": "○伊藤孝江君 公明党の伊藤孝江です。よろしくお願いいたします。 今日は、マイナ救急について少し細かく丁寧にちょっと確認をさせていただきたいというふうに思っております。 平大臣の所信におかれましても、マイナ保険証のメリットを早期に発現するための医療ＤＸの推進に関係省庁と連携して取り組むとありますけれども、",
-        "speechURL": "https://kokkai.ndl.go.jp/txt/121715360X00420250409/74",
-        "speechOrder": 74
+        "excerpt": "○岸真紀子君 健康保険証とは異なって、運転免許証は廃止にはなかなかできないかなというふうにも私も考えるところなんです。なぜなら、さっき言われたとおり、即日交付ができないという問題があるので、やはりこれは、この後、本当は時間があれば聞きたかったんですが、即日交付できるようにマイナンバーカードできないのかという質問をしようと思ったんですが、",
+        "speechURL": "https://kokkai.ndl.go.jp/txt/121715360X00420250409/69",
+        "speechOrder": 69
       },
       "answers": [
         {
@@ -6982,35 +7040,6 @@
           "speechOrder": 156
         }
       ],
-      "ai_title": ""
-    },
-    {
-      "issueID": "121715360X00420250409",
-      "session": 217,
-      "nameOfHouse": "参議院",
-      "nameOfMeeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
-      "issue": "第4号",
-      "imageKind": "会議録",
-      "date": "2025-04-09",
-      "question": {
-        "speechID": "121715360X00420250409_069",
-        "issueID": "121715360X00420250409",
-        "session": 217,
-        "nameOfHouse": "参議院",
-        "nameOfMeeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
-        "issue": "第4号",
-        "imageKind": "会議録",
-        "date": "2025-04-09",
-        "speaker": "岸真紀子",
-        "speakerGroup": "立憲民主・社民・無所属",
-        "speakerPosition": "",
-        "speakerRole": "",
-        "is_minister": false,
-        "excerpt": "○岸真紀子君 健康保険証とは異なって、運転免許証は廃止にはなかなかできないかなというふうにも私も考えるところなんです。なぜなら、さっき言われたとおり、即日交付ができないという問題があるので、やはりこれは、この後、本当は時間があれば聞きたかったんですが、即日交付できるようにマイナンバーカードできないのかという質問をしようと思ったんですが、",
-        "speechURL": "https://kokkai.ndl.go.jp/txt/121715360X00420250409/69",
-        "speechOrder": 69
-      },
-      "answers": [],
       "ai_title": ""
     },
     {
@@ -8578,35 +8607,6 @@
           "speechOrder": 148
         }
       ],
-      "ai_title": ""
-    },
-    {
-      "issueID": "121614260X00220241219",
-      "session": 216,
-      "nameOfHouse": "参議院",
-      "nameOfMeeting": "厚生労働委員会",
-      "issue": "第2号",
-      "imageKind": "会議録",
-      "date": "2024-12-19",
-      "question": {
-        "speechID": "121614260X00220241219_115",
-        "issueID": "121614260X00220241219",
-        "session": 216,
-        "nameOfHouse": "参議院",
-        "nameOfMeeting": "厚生労働委員会",
-        "issue": "第2号",
-        "imageKind": "会議録",
-        "date": "2024-12-19",
-        "speaker": "鹿沼均",
-        "speakerGroup": "",
-        "speakerPosition": "厚生労働省保険局長",
-        "speakerRole": "",
-        "is_minister": false,
-        "excerpt": "○政府参考人（鹿沼均君） 御質問の点でございます。 高齢者や障害者等のマイナ保険証による受診が困難な方につきましては、マイナ保険証をお持ちであっても申請に基づき資格確認書を交付することとしております。なお、その資格確認書の交付申請につきましては、親族等の法定代理人による代理申請ですとか、",
-        "speechURL": "https://kokkai.ndl.go.jp/txt/121614260X00220241219/115",
-        "speechOrder": 115
-      },
-      "answers": [],
       "ai_title": ""
     },
     {
