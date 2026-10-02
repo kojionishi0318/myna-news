@@ -1,6 +1,27 @@
 {
-  "updated": "2026-10-02T00:59:18+09:00",
+  "updated": "2026-10-02T12:53:32+09:00",
   "articles": [
+    {
+      "title": "2026年10月20日から「Androidのマイナンバーカード」を開始予定です（デジタル庁ウェブサービス・アプリケーション）",
+      "link": "https://services.digital.go.jp/mynumbercard-android/news/fec690c52f9ffeb35d30f/",
+      "pub_date": "2026-10-02T11:43:05+09:00",
+      "source": "デジタル庁",
+      "description": "",
+      "thumbnail": "https://services.digital.go.jp/ogp.png",
+      "category": "一般",
+      "topic": "mynumber"
+    },
+    {
+      "title": "顧客に安心と便利を。保険・銀行・証券が実践するマイナンバーカード活用の最前線 - デジタル庁ニュース",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Vdk82MVIxXzdLRkJvdngtallSeld3djdZS3NTMFl5dEViZnROb3ZubTFENXVkcFFCeWM3OUxsUDktQi1Jd3RJUTRTOF9uOF85Wk9aODBWVjlpaEUwRlpCVTVKSXBuUTYwbGQxWDB3?oc=5",
+      "pub_date": "2026-10-01T11:44:44+09:00",
+      "source": "デジタル庁ニュース",
+      "description": "2025年10月に住信SBIネット銀行を連結子会社化した通信キャリア最大手のNTTドコモ。通信各社が金融事業を強化する中で出遅れを指摘されてきたが、26年3月に金融事業の再編を発表し、金融持ち株会社のNTTドコモ・フィナンシャルグループ（以下、ドコモFG ...",
+      "_glink": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Vdk82MVIxXzdLRkJvdngtallSeld3djdZS3NTMFl5dEViZnROb3ZubTFENXVkcFFCeWM3OUxsUDktQi1Jd3RJUTRTOF9uOF85Wk9aODBWVjlpaEUwRlpCVTVKSXBuUTYwbGQxWDB3?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Vdk82MVIxXzdLRkJvdngtallSeld3djdZS3NTMFl5dEViZnROb3ZubTFENXVkcFFCeWM3OUxsUDktQi1Jd3RJUTRTOF9uOF85Wk9aODBWVjlpaEUwRlpCVTVKSXBuUTYwbGQxWDB3?oc=5",
+      "category": "一般",
+      "topic": "mynumber"
+    },
     {
       "title": "医療機関・薬局向け顔認証付きカードリーダー「Caora 2」を販売開始 - Ricoh Global",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE84Q1NMN1VKU0FDMnF1Q2ExRUlwYUcwWWM0NzJka2tWMW9leXBvSkc1UjlHMWVoUDVXTGU4ZDBQaDY1WDNEVkhOWjZRNWpRSlNlNEE?oc=5",
@@ -143,6 +164,17 @@
       "topic": "insurance"
     },
     {
+      "title": "医療機関・薬局の受付から診療や情報管理までを支援するソリューションを「第9回メディカルジャパン東京」で展示 - news.nicovideo.jp",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBacmExam9UMHE1NjB2Y1dUYTBwdHpETGRodHBheWljYkQxaUIyall4Uzk2eXJ0cHRQQkRmcTd5dF9yMVhFcDVLb3g3aXV1d2Izd0VFUENiUXBCbzlhNGRFX0t5dGZESk81T2RoNXlBQXRoVUlib3RxM2locw?oc=5",
+      "pub_date": "2026-09-28T21:30:22+09:00",
+      "source": "news.nicovideo.jp",
+      "description": "キヤノンマーケティングジャパン株式会社（代表取締役社長：足立正親、以下、キヤノンMJ）とキヤノンITSメディカル株式会社（代表取締役社長：黒井 慶信、以下キヤノンIM）は、2026年10月7日から9日まで幕張メッセで開催される「メディカルジャパン東京 ...",
+      "_glink": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBacmExam9UMHE1NjB2Y1dUYTBwdHpETGRodHBheWljYkQxaUIyall4Uzk2eXJ0cHRQQkRmcTd5dF9yMVhFcDVLb3g3aXV1d2Izd0VFUENiUXBCbzlhNGRFX0t5dGZESk81T2RoNXlBQXRoVUlib3RxM2locw?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBacmExam9UMHE1NjB2Y1dUYTBwdHpETGRodHBheWljYkQxaUIyall4Uzk2eXJ0cHRQQkRmcTd5dF9yMVhFcDVLb3g3aXV1d2Izd0VFUENiUXBCbzlhNGRFX0t5dGZESk81T2RoNXlBQXRoVUlib3RxM2locw?oc=5",
+      "category": "一般",
+      "topic": "insurance"
+    },
+    {
       "title": "マイナ保険証への移行後も「紙の書類」が必要 指定難病患者の更新手続きで混乱（石川テレビ） - news.yahoo.co.jp",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9uZDAwUGxLeXMxVFNPbFZOdDZxbWxDZWQzLVpMRjZfWHBPQkNmWnRFZmN3d0RYRGpYQjdRd3Z0c1dOQkhQbGwyOThjWWtDeWtKNDlOZk1yVlgtbUVaeW5ieXpuQ3JRcmhYa0cyMUZ2QV9DaEI2dWotX0pWeFR4Vzg?oc=5",
       "pub_date": "2026-09-28T19:40:02+09:00",
@@ -163,6 +195,17 @@
       "_resolved_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5QjVUc2xkVGxxR0Y0dWZBblIxbUlHWmZjZ0VFeUZWZ0xMWTNtb3lHMGRMbkZRY1BfMkhHTUZQMkdsdnFLaUpKamVFZmNJQQ?oc=5",
       "category": "使い方",
       "topic": "insurance"
+    },
+    {
+      "title": "「マイナンバーカードの取得義務化」に反対強め マイナ連絡会が総会を開き、各地の運動を交流 - 全国商工団体連合会",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB1cjYxTU1WZlYzZzVrRmc4OW1Qck9jNHhfY2F1NGZFNm5ma2o5TXdpVi1JRkRJS2VjVXRYajlpbU1ENDRKYWJIZVdvemI4QUFIMVpTZmNLYVprQ05YX1E?oc=5",
+      "pub_date": "2026-09-28T16:00:00+09:00",
+      "source": "全国商工団体連合会",
+      "description": "",
+      "_glink": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB1cjYxTU1WZlYzZzVrRmc4OW1Qck9jNHhfY2F1NGZFNm5ma2o5TXdpVi1JRkRJS2VjVXRYajlpbU1ENDRKYWJIZVdvemI4QUFIMVpTZmNLYVprQ05YX1E?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB1cjYxTU1WZlYzZzVrRmc4OW1Qck9jNHhfY2F1NGZFNm5ma2o5TXdpVi1JRkRJS2VjVXRYajlpbU1ENDRKYWJIZVdvemI4QUFIMVpTZmNLYVprQ05YX1E?oc=5",
+      "category": "制度変更",
+      "topic": "mynumber"
     },
     {
       "title": "医療機関・薬局の受付から診療や情報管理までを支援するソリューションを「第9回メディカルジャパン東京」で展示 - PR TIMES",
@@ -987,6 +1030,17 @@
       "_glink": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNcFV5TnZsWWNSNU5tZHdYUE1SbGZOOENRMWdtR2pibS1QTm1ZQXRqRHdUT3hfbHlZbVZJUDNYVFg0OC1Nc0xwUzU3SWw0VUtlbFU5SWJkRDlrUm9ITlVHaEZVMnQwbFVadVRXek90WWs0ckljSUF3WUhqdXFSNHFkU1ZSSDNFUllYdWM2UzAzZkFvQXRXeS1LamdqMXU2RWhuaEMtUDlJa2M5Y3RBMWgxQW9VbUFXd3BGZFVRQV9sSlVKVzBmMXUtRWFtS2xMRDJVelJ3UTA5cG1XYTVDZFE2bkw0NnFtM3dtNXc?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNcFV5TnZsWWNSNU5tZHdYUE1SbGZOOENRMWdtR2pibS1QTm1ZQXRqRHdUT3hfbHlZbVZJUDNYVFg0OC1Nc0xwUzU3SWw0VUtlbFU5SWJkRDlrUm9ITlVHaEZVMnQwbFVadVRXek90WWs0ckljSUF3WUhqdXFSNHFkU1ZSSDNFUllYdWM2UzAzZkFvQXRXeS1LamdqMXU2RWhuaEMtUDlJa2M5Y3RBMWgxQW9VbUFXd3BGZFVRQV9sSlVKVzBmMXUtRWFtS2xMRDJVelJ3UTA5cG1XYTVDZFE2bkw0NnFtM3dtNXc?oc=5",
       "category": "一般",
+      "topic": "insurance"
+    },
+    {
+      "title": "マイナンバーカードを医療費受給者証として利用できます - nishi.or.jp",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVjduME9mZFJDU2xSbGd0aFVjZmFuTm93OXJhU0ZZVEVXYnFIamxvcmpkVHJwbW1UVEVSam5CcXRoRHlvWFduZXRsQ0VwVUk1Tm9oOXVzejVfRXBDN2JVdnNQeWFZX3FTWDd5eE5QMDhPWEEwTDRaamF3cV85ekNzSGpyZDRUUUxoRXFKLUlR?oc=5",
+      "pub_date": "2026-08-26T16:00:00+09:00",
+      "source": "nishi.or.jp",
+      "description": "9月19日からスマートフォンでのマイナ保険証が開始しており、一部医療機関や薬局での利用が可能になっている。紙やプラスチック製の健康保険証が実質的に廃止となる今年12月以降、マイナンバーカードや同機能を搭載したスマートフォンを医療機関で ...",
+      "_glink": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVjduME9mZFJDU2xSbGd0aFVjZmFuTm93OXJhU0ZZVEVXYnFIamxvcmpkVHJwbW1UVEVSam5CcXRoRHlvWFduZXRsQ0VwVUk1Tm9oOXVzejVfRXBDN2JVdnNQeWFZX3FTWDd5eE5QMDhPWEEwTDRaamF3cV85ekNzSGpyZDRUUUxoRXFKLUlR?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVjduME9mZFJDU2xSbGd0aFVjZmFuTm93OXJhU0ZZVEVXYnFIamxvcmpkVHJwbW1UVEVSam5CcXRoRHlvWFduZXRsQ0VwVUk1Tm9oOXVzejVfRXBDN2JVdnNQeWFZX3FTWDd5eE5QMDhPWEEwTDRaamF3cV85ekNzSGpyZDRUUUxoRXFKLUlR?oc=5",
+      "category": "制度変更",
       "topic": "insurance"
     },
     {
@@ -5412,69 +5466,14 @@
       "topic": "insurance"
     },
     {
-      "title": "後期高齢者医療の資格確認書を発行します - city.kaizuka.lg.jp",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcU5QdHFYQjJZRTBKem1qNkVLWkJCY0dZWmd4SVJmWUhWa0xMSnlyS0dYVW4yX1hOYWYyQ2tray10YU5SX0gyMWNlekZtNUxlamtZWHcxTmp1RGpWWWQ5LS0zMDQxSF9qalIzVkNhYk9iS0RnMDVzV05ESzlFRDJoMkNRb1hIRFhiVWtxY1UyVjdpYWU4NEpmMDdUdGx0c29iMFVWYWJMamo?oc=5",
+      "title": "「資格確認書」および「資格情報のお知らせ」について - city.osaka-izumi.lg.jp",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNT2ZEWnZNS01kN0ZRV3VhYkVNZGlvaDJZN0NTWXlYNm5abkxpeGxxWWFYemRHbmRYSEkwV3ZMS2MxdmRqdTdDNWk3ZWktMEJVdXM5NWtzNGpDTkxLYjRkVlNIaE5HYWVvd2Y3WEdRZlBuMFNnSk96UFB1UUxiRE9IcDVrTm1JcUhWNUFEc2FWMnBrWExRc1kwTE1OLUpRRy1iYi1QS1plTk1zOGw2bWNhUUtnWGZ1ZU9oVE8tQ29jTFRnblhvVWRfalNWNzI?oc=5",
       "pub_date": "2026-07-01T16:00:00+09:00",
-      "source": "city.kaizuka.lg.jp",
-      "description": "【家電コンサルのお得な話・310】 後期高齢者医療制度では、2026年8月から資格確認書の交付方法が変わった。変更のポイントは、全員一律の扱いではなくなることである。【写真ギャラリー】 「資格確認書」と「マイナ保険証」の新しい扱い基準年齢は84 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcU5QdHFYQjJZRTBKem1qNkVLWkJCY0dZWmd4SVJmWUhWa0xMSnlyS0dYVW4yX1hOYWYyQ2tray10YU5SX0gyMWNlekZtNUxlamtZWHcxTmp1RGpWWWQ5LS0zMDQxSF9qalIzVkNhYk9iS0RnMDVzV05ESzlFRDJoMkNRb1hIRFhiVWtxY1UyVjdpYWU4NEpmMDdUdGx0c29iMFVWYWJMamo?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcU5QdHFYQjJZRTBKem1qNkVLWkJCY0dZWmd4SVJmWUhWa0xMSnlyS0dYVW4yX1hOYWYyQ2tray10YU5SX0gyMWNlekZtNUxlamtZWHcxTmp1RGpWWWQ5LS0zMDQxSF9qalIzVkNhYk9iS0RnMDVzV05ESzlFRDJoMkNRb1hIRFhiVWtxY1UyVjdpYWU4NEpmMDdUdGx0c29iMFVWYWJMamo?oc=5",
-      "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "国民健康保険・後期高齢者医療の資格情報のお知らせ・資格確認書を更新します - town.nagaizumi.lg.jp",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1BSy1EYVlXMkRlZ1NSYmlVWUdCN1JTOHRRTFEzYmVzWVVkMjROZkdJekttWEVYOVFaNmVsUmFlZmdlckNNNVc1R3pXd3pqTmRXM3AxclJONUZUOXJSeTBqSjJkdFZIX05RSnRuamNObkE?oc=5",
-      "pub_date": "2026-07-01T16:00:00+09:00",
-      "source": "town.nagaizumi.lg.jp",
-      "description": "「後期高齢者医療制度」と「国民健康保険」の多くが、従来の保険証の期限切れを迎えました。そこで、登録者数120万人超のYouTubeチャンネル『脱・税理士スガワラくん』を運営する税理士の菅原 由一は、全国の国民健康保険および後期高齢者医療制度の ...",
-      "_glink": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1BSy1EYVlXMkRlZ1NSYmlVWUdCN1JTOHRRTFEzYmVzWVVkMjROZkdJekttWEVYOVFaNmVsUmFlZmdlckNNNVc1R3pXd3pqTmRXM3AxclJONUZUOXJSeTBqSjJkdFZIX05RSnRuamNObkE?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1BSy1EYVlXMkRlZ1NSYmlVWUdCN1JTOHRRTFEzYmVzWVVkMjROZkdJekttWEVYOVFaNmVsUmFlZmdlckNNNVc1R3pXd3pqTmRXM3AxclJONUZUOXJSeTBqSjJkdFZIX05RSnRuamNObkE?oc=5",
+      "source": "city.osaka-izumi.lg.jp",
+      "description": "7月末で国民健康保険（国保）の多くは、従来の保険証の有効期限を迎える。 大量の期限切れを前に、厚生労働省は、国保加入者に限り、保険資格を確認する補助書類でも、保険証のように病院で受診できる例外を認めた。 マイナ保険証移行に伴うルール ...",
+      "_glink": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNT2ZEWnZNS01kN0ZRV3VhYkVNZGlvaDJZN0NTWXlYNm5abkxpeGxxWWFYemRHbmRYSEkwV3ZMS2MxdmRqdTdDNWk3ZWktMEJVdXM5NWtzNGpDTkxLYjRkVlNIaE5HYWVvd2Y3WEdRZlBuMFNnSk96UFB1UUxiRE9IcDVrTm1JcUhWNUFEc2FWMnBrWExRc1kwTE1OLUpRRy1iYi1QS1plTk1zOGw2bWNhUUtnWGZ1ZU9oVE8tQ29jTFRnblhvVWRfalNWNzI?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNT2ZEWnZNS01kN0ZRV3VhYkVNZGlvaDJZN0NTWXlYNm5abkxpeGxxWWFYemRHbmRYSEkwV3ZMS2MxdmRqdTdDNWk3ZWktMEJVdXM5NWtzNGpDTkxLYjRkVlNIaE5HYWVvd2Y3WEdRZlBuMFNnSk96UFB1UUxiRE9IcDVrTm1JcUhWNUFEc2FWMnBrWExRc1kwTE1OLUpRRy1iYi1QS1plTk1zOGw2bWNhUUtnWGZ1ZU9oVE8tQ29jTFRnblhvVWRfalNWNzI?oc=5",
       "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "被保険者の資格 - town.namegawa.saitama.jp",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYjl2eEZoV1RDV1p5Vk1WSnBZZWR2bWNKX1E0ejlUOGEwUlJkRTZidTdfV2U2TkZIWXdQRFZ3a0htaC1ib0t5V2NtcWpwdEc1dHNwWW5fVTRYTnlzRUYzU0o1RU1qZE5aQTFkX2V4OUd4RzdXUF9LY0pTTkxfbmhVUGxnYXVaWllqc0QxYXMwOGVkNGx4Y2c?oc=5",
-      "pub_date": "2026-07-01T16:00:00+09:00",
-      "source": "town.namegawa.saitama.jp",
-      "description": "従業員が退職した際に企業が行うべき「雇用保険被保険者資格喪失届」の手続きについて、その記入方法から必要書類、提出方法に至るまでを網羅的に解説する。 「雇用保険被保険者資格喪失届」は、従業員が雇用保険の被保険者でなくなった際、企業が ...",
-      "_glink": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYjl2eEZoV1RDV1p5Vk1WSnBZZWR2bWNKX1E0ejlUOGEwUlJkRTZidTdfV2U2TkZIWXdQRFZ3a0htaC1ib0t5V2NtcWpwdEc1dHNwWW5fVTRYTnlzRUYzU0o1RU1qZE5aQTFkX2V4OUd4RzdXUF9LY0pTTkxfbmhVUGxnYXVaWllqc0QxYXMwOGVkNGx4Y2c?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYjl2eEZoV1RDV1p5Vk1WSnBZZWR2bWNKX1E0ejlUOGEwUlJkRTZidTdfV2U2TkZIWXdQRFZ3a0htaC1ib0t5V2NtcWpwdEc1dHNwWW5fVTRYTnlzRUYzU0o1RU1qZE5aQTFkX2V4OUd4RzdXUF9LY0pTTkxfbmhVUGxnYXVaWllqc0QxYXMwOGVkNGx4Y2c?oc=5",
-      "category": "使い方",
-      "topic": "mynumber"
-    },
-    {
-      "title": "国民健康保険に加入の方の高齢受給者証などの更新 - city.fujiidera.lg.jp",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOFZvdFp4WTBfVVhqNjY4TVQ2azVPZmFfWkpkM1lEZjNjcGQwX2RNYnloVUdCNHkwbURhdkxwSHR5WVZoV0RWTlZZWHhTT201Z1ljX1V6a3BwNDlpV1J1VkNJcWxHRG5pWGY4Vmpid29VMmVnUjlwVHJuRzdTZENFR2JmZ0dnSEUwZktCa3VGUzdmX2ZuUi1RbkpSOA?oc=5",
-      "pub_date": "2026-07-01T16:00:00+09:00",
-      "source": "city.fujiidera.lg.jp",
-      "description": "マイナンバーカードと健康保険証を一体化させた「マイナ保険証」を巡り、東京都世田谷区と渋谷区は、マイナ保険証の有無にかかわらず、両区の国民健康保険に加入する区民全員に保険証の代わりとなる「資格確認書」を送付することを決めた。 記者会見 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOFZvdFp4WTBfVVhqNjY4TVQ2azVPZmFfWkpkM1lEZjNjcGQwX2RNYnloVUdCNHkwbURhdkxwSHR5WVZoV0RWTlZZWHhTT201Z1ljX1V6a3BwNDlpV1J1VkNJcWxHRG5pWGY4Vmpid29VMmVnUjlwVHJuRzdTZENFR2JmZ0dnSEUwZktCa3VGUzdmX2ZuUi1RbkpSOA?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOFZvdFp4WTBfVVhqNjY4TVQ2azVPZmFfWkpkM1lEZjNjcGQwX2RNYnloVUdCNHkwbURhdkxwSHR5WVZoV0RWTlZZWHhTT201Z1ljX1V6a3BwNDlpV1J1VkNJcWxHRG5pWGY4Vmpid29VMmVnUjlwVHJuRzdTZENFR2JmZ0dnSEUwZktCa3VGUzdmX2ZuUi1RbkpSOA?oc=5",
-      "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "令和８年度資格確認書等の一斉発送について - city.minato.tokyo.jp",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5MbktXYXFsRU9HMGpPeXVreUdhYnBqVUlfRnFzbkQzZENnOVFzY2hjTHA1ZFd0NFd4bXc5dFhrUzFGRXgtTkk0U0dzQTBUUFZsWHBWTHoxZTNHczJoNEpiVXp5N0hGVDJt?oc=5",
-      "pub_date": "2026-07-01T16:00:00+09:00",
-      "source": "city.minato.tokyo.jp",
-      "description": "",
-      "_glink": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5MbktXYXFsRU9HMGpPeXVreUdhYnBqVUlfRnFzbkQzZENnOVFzY2hjTHA1ZFd0NFd4bXc5dFhrUzFGRXgtTkk0U0dzQTBUUFZsWHBWTHoxZTNHczJoNEpiVXp5N0hGVDJt?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5MbktXYXFsRU9HMGpPeXVreUdhYnBqVUlfRnFzbkQzZENnOVFzY2hjTHA1ZFd0NFd4bXc5dFhrUzFGRXgtTkk0U0dzQTBUUFZsWHBWTHoxZTNHczJoNEpiVXp5N0hGVDJt?oc=5",
-      "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "リコージャパン，医療現場のDX支援に向けたラインナップを拡充 - インナビネット",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB0MDhiMEJTUzhtRnZmMDlHdkk0RHdzZWNHOWJxSkdxSWFHaEVWamV3M0gtNFQzTXhFNUVQeEwtWXN4Y3hlaHFjNE50emQ3OXhOVGtTRUFDbGwwUjF5bEdFcUJNQTNjTkVoUmc?oc=5",
-      "pub_date": "2026-07-01T16:00:00+09:00",
-      "source": "インナビネット",
-      "description": "リコージャパン株式会社（代表取締役社長：笠井 徹）は、厚生労働省が推進する「全国医療情報プラットフォーム構想」および「令和ビジョン2030」を背景とした、医療・介護DXの実現への貢献に向け、ワンストップでの提供体制を強化します。 特に医療DXに ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB0MDhiMEJTUzhtRnZmMDlHdkk0RHdzZWNHOWJxSkdxSWFHaEVWamV3M0gtNFQzTXhFNUVQeEwtWXN4Y3hlaHFjNE50emQ3OXhOVGtTRUFDbGwwUjF5bEdFcUJNQTNjTkVoUmc?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB0MDhiMEJTUzhtRnZmMDlHdkk0RHdzZWNHOWJxSkdxSWFHaEVWamV3M0gtNFQzTXhFNUVQeEwtWXN4Y3hlaHFjNE50emQ3OXhOVGtTRUFDbGwwUjF5bEdFcUJNQTNjTkVoUmc?oc=5",
-      "category": "一般",
       "topic": "insurance"
     }
   ]

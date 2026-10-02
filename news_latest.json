@@ -1,6 +1,27 @@
 {
-  "updated": "2026-10-02T00:59:18+09:00",
+  "updated": "2026-10-02T12:53:32+09:00",
   "articles": [
+    {
+      "title": "2026年10月20日から「Androidのマイナンバーカード」を開始予定です（デジタル庁ウェブサービス・アプリケーション）",
+      "link": "https://services.digital.go.jp/mynumbercard-android/news/fec690c52f9ffeb35d30f/",
+      "pub_date": "2026-10-02T11:43:05+09:00",
+      "source": "デジタル庁",
+      "description": "",
+      "thumbnail": "https://services.digital.go.jp/ogp.png",
+      "category": "一般",
+      "topic": "mynumber"
+    },
+    {
+      "title": "顧客に安心と便利を。保険・銀行・証券が実践するマイナンバーカード活用の最前線 - デジタル庁ニュース",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Vdk82MVIxXzdLRkJvdngtallSeld3djdZS3NTMFl5dEViZnROb3ZubTFENXVkcFFCeWM3OUxsUDktQi1Jd3RJUTRTOF9uOF85Wk9aODBWVjlpaEUwRlpCVTVKSXBuUTYwbGQxWDB3?oc=5",
+      "pub_date": "2026-10-01T11:44:44+09:00",
+      "source": "デジタル庁ニュース",
+      "description": "2025年10月に住信SBIネット銀行を連結子会社化した通信キャリア最大手のNTTドコモ。通信各社が金融事業を強化する中で出遅れを指摘されてきたが、26年3月に金融事業の再編を発表し、金融持ち株会社のNTTドコモ・フィナンシャルグループ（以下、ドコモFG ...",
+      "_glink": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Vdk82MVIxXzdLRkJvdngtallSeld3djdZS3NTMFl5dEViZnROb3ZubTFENXVkcFFCeWM3OUxsUDktQi1Jd3RJUTRTOF9uOF85Wk9aODBWVjlpaEUwRlpCVTVKSXBuUTYwbGQxWDB3?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Vdk82MVIxXzdLRkJvdngtallSeld3djdZS3NTMFl5dEViZnROb3ZubTFENXVkcFFCeWM3OUxsUDktQi1Jd3RJUTRTOF9uOF85Wk9aODBWVjlpaEUwRlpCVTVKSXBuUTYwbGQxWDB3?oc=5",
+      "category": "一般",
+      "topic": "mynumber"
+    },
     {
       "title": "医療機関・薬局向け顔認証付きカードリーダー「Caora 2」を販売開始 - Ricoh Global",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE84Q1NMN1VKU0FDMnF1Q2ExRUlwYUcwWWM0NzJka2tWMW9leXBvSkc1UjlHMWVoUDVXTGU4ZDBQaDY1WDNEVkhOWjZRNWpRSlNlNEE?oc=5",
@@ -143,6 +164,17 @@
       "topic": "insurance"
     },
     {
+      "title": "医療機関・薬局の受付から診療や情報管理までを支援するソリューションを「第9回メディカルジャパン東京」で展示 - news.nicovideo.jp",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBacmExam9UMHE1NjB2Y1dUYTBwdHpETGRodHBheWljYkQxaUIyall4Uzk2eXJ0cHRQQkRmcTd5dF9yMVhFcDVLb3g3aXV1d2Izd0VFUENiUXBCbzlhNGRFX0t5dGZESk81T2RoNXlBQXRoVUlib3RxM2locw?oc=5",
+      "pub_date": "2026-09-28T21:30:22+09:00",
+      "source": "news.nicovideo.jp",
+      "description": "キヤノンマーケティングジャパン株式会社（代表取締役社長：足立正親、以下、キヤノンMJ）とキヤノンITSメディカル株式会社（代表取締役社長：黒井 慶信、以下キヤノンIM）は、2026年10月7日から9日まで幕張メッセで開催される「メディカルジャパン東京 ...",
+      "_glink": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBacmExam9UMHE1NjB2Y1dUYTBwdHpETGRodHBheWljYkQxaUIyall4Uzk2eXJ0cHRQQkRmcTd5dF9yMVhFcDVLb3g3aXV1d2Izd0VFUENiUXBCbzlhNGRFX0t5dGZESk81T2RoNXlBQXRoVUlib3RxM2locw?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBacmExam9UMHE1NjB2Y1dUYTBwdHpETGRodHBheWljYkQxaUIyall4Uzk2eXJ0cHRQQkRmcTd5dF9yMVhFcDVLb3g3aXV1d2Izd0VFUENiUXBCbzlhNGRFX0t5dGZESk81T2RoNXlBQXRoVUlib3RxM2locw?oc=5",
+      "category": "一般",
+      "topic": "insurance"
+    },
+    {
       "title": "マイナ保険証への移行後も「紙の書類」が必要 指定難病患者の更新手続きで混乱（石川テレビ） - news.yahoo.co.jp",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9uZDAwUGxLeXMxVFNPbFZOdDZxbWxDZWQzLVpMRjZfWHBPQkNmWnRFZmN3d0RYRGpYQjdRd3Z0c1dOQkhQbGwyOThjWWtDeWtKNDlOZk1yVlgtbUVaeW5ieXpuQ3JRcmhYa0cyMUZ2QV9DaEI2dWotX0pWeFR4Vzg?oc=5",
       "pub_date": "2026-09-28T19:40:02+09:00",
@@ -163,6 +195,17 @@
       "_resolved_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5QjVUc2xkVGxxR0Y0dWZBblIxbUlHWmZjZ0VFeUZWZ0xMWTNtb3lHMGRMbkZRY1BfMkhHTUZQMkdsdnFLaUpKamVFZmNJQQ?oc=5",
       "category": "使い方",
       "topic": "insurance"
+    },
+    {
+      "title": "「マイナンバーカードの取得義務化」に反対強め マイナ連絡会が総会を開き、各地の運動を交流 - 全国商工団体連合会",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB1cjYxTU1WZlYzZzVrRmc4OW1Qck9jNHhfY2F1NGZFNm5ma2o5TXdpVi1JRkRJS2VjVXRYajlpbU1ENDRKYWJIZVdvemI4QUFIMVpTZmNLYVprQ05YX1E?oc=5",
+      "pub_date": "2026-09-28T16:00:00+09:00",
+      "source": "全国商工団体連合会",
+      "description": "",
+      "_glink": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB1cjYxTU1WZlYzZzVrRmc4OW1Qck9jNHhfY2F1NGZFNm5ma2o5TXdpVi1JRkRJS2VjVXRYajlpbU1ENDRKYWJIZVdvemI4QUFIMVpTZmNLYVprQ05YX1E?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB1cjYxTU1WZlYzZzVrRmc4OW1Qck9jNHhfY2F1NGZFNm5ma2o5TXdpVi1JRkRJS2VjVXRYajlpbU1ENDRKYWJIZVdvemI4QUFIMVpTZmNLYVprQ05YX1E?oc=5",
+      "category": "制度変更",
+      "topic": "mynumber"
     },
     {
       "title": "医療機関・薬局の受付から診療や情報管理までを支援するソリューションを「第9回メディカルジャパン東京」で展示 - PR TIMES",
@@ -499,49 +542,6 @@
       "description": "デジタル庁は、「マイナンバーカード」と電子証明書の有効期限と更新について周知する新テレビCM「マイナンバーカード 有効期限・更新」篇を8月22日から全国放映開始する。 マイナンバーPRキャラクターの「マイナちゃん」と一緒に、サンリオの ...",
       "_glink": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HZ05uZmVvLXZZOEFKZVFCOXBRQ1kzMmRKVEdWWTY3eUl1bWlXbXFBR1lwSVMzeHZtODgtcmdkTk9peHh2cXMtODBIRV8xNExMOWxRVkU0VFYxeGxBXzMzNDNVZExhWWNuTm5fVUt3?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HZ05uZmVvLXZZOEFKZVFCOXBRQ1kzMmRKVEdWWTY3eUl1bWlXbXFBR1lwSVMzeHZtODgtcmdkTk9peHh2cXMtODBIRV8xNExMOWxRVkU0VFYxeGxBXzMzNDNVZExhWWNuTm5fVUt3?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "学園祭での年齢確認にマイナンバーカードを活用しています",
-      "link": "https://www.digital.go.jp/news/6a52d1e9-30cc-455a-9154-f32479d1731a",
-      "pub_date": "2026-09-10T15:00:00+09:00",
-      "source": "デジタル庁",
-      "description": "マイナンバーカードを活用したデジタルIDソリューションを展開するxID（クロスアイディ）株式会社（本社：東京都千代田区、代表取締役社長：日下 光、以下：当社）は、民間企業を対象に、最適なソリューションの選定からシステム実装までを一気通貫で ...",
-      "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
-      "category": "一般",
-      "topic": "mynumber"
-    },
-    {
-      "title": "マイナ救急、漫画で周知 水戸市消防局が啓発チラシ制作 AED利用も呼びかけ 茨城 - 47NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9xWFE1RjJSeVZxbS1GcFNoSWFlNE54ekxuT3dOR0lRdDBaMFhwSlg5UDhsTk9ETkJHY2gxaTF0T3BHaUo5ODhmN01zNA?oc=5",
-      "pub_date": "2026-09-10T10:22:18+09:00",
-      "source": "47NEWS",
-      "description": "茨城の地域ニュースをはじめ、J1鹿島やJ2水戸、B1茨城ロボッツ、高校野球などのスポーツ記事を掲載。県内選挙の開票速報や国内外の最新ニュースもお伝えします。 https://ibarakinews.jp/top.php ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9xWFE1RjJSeVZxbS1GcFNoSWFlNE54ekxuT3dOR0lRdDBaMFhwSlg5UDhsTk9ETkJHY2gxaTF0T3BHaUo5ODhmN01zNA?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9xWFE1RjJSeVZxbS1GcFNoSWFlNE54ekxuT3dOR0lRdDBaMFhwSlg5UDhsTk9ETkJHY2gxaTF0T3BHaUo5ODhmN01zNA?oc=5",
-      "category": "一般",
-      "topic": "mynumber"
-    },
-    {
-      "title": "「救急の日」ＡＥＤ活用やマイナ保険証携行を呼びかけ 水戸 - NHKニュース",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9SVkNSTFM1SzRJS2lxOXNDcFA3dnQxZjcwaWhvckxYUE5oa3VnWkhpR1ZPeWRDLWhmNzdMLVFoMXZFYmRVa0FzdEpBd3hZTVhtS05XaDViR1U?oc=5",
-      "pub_date": "2026-09-09T16:46:00+09:00",
-      "source": "NHKニュース",
-      "description": "厚生労働省は6月18日の社会保障審議会医療保険部会（部会長：岩村正彦・東大名誉教授）で、昨年12月に廃止された従来の健康保険証を使用可能とする暫定措置を予定通り7月末で終了する方針を改めて説明した。マイナ保険証か資格確認書による確認が必要 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9SVkNSTFM1SzRJS2lxOXNDcFA3dnQxZjcwaWhvckxYUE5oa3VnWkhpR1ZPeWRDLWhmNzdMLVFoMXZFYmRVa0FzdEpBd3hZTVhtS05XaDViR1U?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9SVkNSTFM1SzRJS2lxOXNDcFA3dnQxZjcwaWhvckxYUE5oa3VnWkhpR1ZPeWRDLWhmNzdMLVFoMXZFYmRVa0FzdEpBd3hZTVhtS05XaDViR1U?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "【論説】マイナ保険証 有用性の訴えが足りない（９月９日） - 福井新聞社",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9qazZHYjlSNXZTcGFSVHlqZWFUZzJBVy1iNWptVGVPVjFnZGQ0RmpzTWlIT1MtdHhBbks0ckFtV0xhMVI2OS10T1ZXMHFEOGpkVmtYVnNiOGd4NDhMc0E?oc=5",
-      "pub_date": "2026-09-09T16:00:00+09:00",
-      "source": "福井新聞社",
-      "description": "【論説】保険診療の際、従来の健康保険証が有効期限切れでも使えた特例措置が終わり、マイナンバーカードに保険証機能を持たせた「マイナ保険証」もしくは「資格確認書」のみとなった。マイナンバーカードの６月時点での交付率は８３・５％で、うち４月時点で９１・１％がマイナ保険証の登録済みという。",
-      "_glink": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9qazZHYjlSNXZTcGFSVHlqZWFUZzJBVy1iNWptVGVPVjFnZGQ0RmpzTWlIT1MtdHhBbks0ckFtV0xhMVI2OS10T1ZXMHFEOGpkVmtYVnNiOGd4NDhMc0E?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9qazZHYjlSNXZTcGFSVHlqZWFUZzJBVy1iNWptVGVPVjFnZGQ0RmpzTWlIT1MtdHhBbks0ckFtV0xhMVI2OS10T1ZXMHFEOGpkVmtYVnNiOGd4NDhMc0E?oc=5",
       "category": "制度変更",
       "topic": "insurance"
     }
