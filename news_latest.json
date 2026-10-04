@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04T13:07:50+09:00",
+  "updated": "2026-10-04T23:37:03+09:00",
   "articles": [
     {
       "title": "【健康保険証】8月から期限切れの保険証は窓口で使えない。マイナ保険証の利用率は「70.43％」、受診で何が変わった？ - LIMO | くらしとお金の経済メディア",
@@ -87,6 +87,17 @@
       "thumbnail": "https://services.digital.go.jp/ogp.png",
       "category": "一般",
       "topic": "mynumber"
+    },
+    {
+      "title": "「マイナ保険証」本格化！旧保険証廃止で注意点は？【WBS】 - テレ東BIZ",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBLTjlzMHhhcmY5cUVhQjJ1OElQNWVLV05jQURwb3RLZGY4OGEyc29oeGRuNlpOVmx1dzlJUk1XblQ2a2tRRTZuQjkwWGx0UTVJV2tSXw?oc=5",
+      "pub_date": "2026-10-01T16:00:00+09:00",
+      "source": "テレ東BIZ",
+      "description": "マイナ保険証を病院などで利用するときには、顔認証か暗証番号の入力をして本人確認を行います。暗証番号を使う場合には、4ケタの暗証番号を覚えておきましょう。暗証番号を3回連続して間違うと、ロックがかかってしまいます。 ロックされても、顔 ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBLTjlzMHhhcmY5cUVhQjJ1OElQNWVLV05jQURwb3RLZGY4OGEyc29oeGRuNlpOVmx1dzlJUk1XblQ2a2tRRTZuQjkwWGx0UTVJV2tSXw?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBLTjlzMHhhcmY5cUVhQjJ1OElQNWVLV05jQURwb3RLZGY4OGEyc29oeGRuNlpOVmx1dzlJUk1XblQ2a2tRRTZuQjkwWGx0UTVJV2tSXw?oc=5",
+      "category": "制度変更",
+      "topic": "insurance"
     },
     {
       "title": "顧客に安心と便利を。保険・銀行・証券が実践するマイナンバーカード活用の最前線 - デジタル庁ニュース",
@@ -294,6 +305,17 @@
       "_resolved_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5QjVUc2xkVGxxR0Y0dWZBblIxbUlHWmZjZ0VFeUZWZ0xMWTNtb3lHMGRMbkZRY1BfMkhHTUZQMkdsdnFLaUpKamVFZmNJQQ?oc=5",
       "category": "使い方",
       "topic": "insurance"
+    },
+    {
+      "title": "「マイナンバーカードの更新」と「電子証明書の更新」 - city.himeji.lg.jp",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE05bHRIbm50Y3ptVUhYa1Fpd3ZHSnhRSTJlSWNNWEpQZEJ6OHAxbzY1Y0tVdERlUXNnZnQtT1lQV3ZiSHJ5T2NabElwYkU3alBqZjRkM0E5YTQyU2VsTEpiOTRhUQ?oc=5",
+      "pub_date": "2026-09-28T16:00:00+09:00",
+      "source": "city.himeji.lg.jp",
+      "description": "本人確認書類として広く浸透してきたマイナンバーカード。 しかし、マイナンバーカードに書き込まれている電子証明書については、「何に使うものか分からない」「いつ更新が必要なのか知らない」という方は少なくありません。 電子証明書は ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE05bHRIbm50Y3ptVUhYa1Fpd3ZHSnhRSTJlSWNNWEpQZEJ6OHAxbzY1Y0tVdERlUXNnZnQtT1lQV3ZiSHJ5T2NabElwYkU3alBqZjRkM0E5YTQyU2VsTEpiOTRhUQ?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE05bHRIbm50Y3ptVUhYa1Fpd3ZHSnhRSTJlSWNNWEpQZEJ6OHAxbzY1Y0tVdERlUXNnZnQtT1lQV3ZiSHJ5T2NabElwYkU3alBqZjRkM0E5YTQyU2VsTEpiOTRhUQ?oc=5",
+      "category": "一般",
+      "topic": "mynumber"
     },
     {
       "title": "「マイナンバーカードの取得義務化」に反対強め マイナ連絡会が総会を開き、各地の運動を交流 - 全国商工団体連合会",
@@ -522,28 +544,6 @@
       "description": "マイナ保険証で患者の保険資格を確かめる「オンライン資格確認」などを医療機関に義務付けた厚生労働省令は違法として、医師や歯科医師らが国を相手取り、義務がないことの確認を求めた訴訟の控訴審判決で、東京高裁は16日、義務化は適法とした一審東京地裁判決を踏襲し請求を棄却した。",
       "_glink": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ZalpaajhWTlBxWV9TUE9SV1VnVldKZUJVQjAtVnQ4UVFqY1M3N2VHY2pZbTFrdTVFZ3FrYTIyTWlyZVVEVE9UVnczVnp2bmxpQVFz?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ZalpaajhWTlBxWV9TUE9SV1VnVldKZUJVQjAtVnQ4UVFqY1M3N2VHY2pZbTFrdTVFZ3FrYTIyTWlyZVVEVE9UVnczVnp2bmxpQVFz?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "決算特別委員会４日目後期高齢者医療会計について - 選挙ドットコム",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE56aUk0X3JXZWNTdU1obmY0cFVXVGhzRDlCVTJpZWRMeWFOTXF4bHhPN2Z6dzdaUnpHUXZJSVVBU251SE1xMHNqTFRVd0tfb1h3blN2VXVUekZ2a25HbXJv?oc=5",
-      "pub_date": "2026-09-16T18:28:37+09:00",
-      "source": "選挙ドットコム",
-      "description": "75歳以上の方の後期高齢者医療制度の保険料は、年金から自動的に引かれているケースが多いのではないでしょうか。手続きが要らない分、そのままにしている方も少なくありません。 【画像で見る】控除を家族側に移した場合に軽くなる税額の目安厚生 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE56aUk0X3JXZWNTdU1obmY0cFVXVGhzRDlCVTJpZWRMeWFOTXF4bHhPN2Z6dzdaUnpHUXZJSVVBU251SE1xMHNqTFRVd0tfb1h3blN2VXVUekZ2a25HbXJv?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE56aUk0X3JXZWNTdU1obmY0cFVXVGhzRDlCVTJpZWRMeWFOTXF4bHhPN2Z6dzdaUnpHUXZJSVVBU251SE1xMHNqTFRVd0tfb1h3blN2VXVUekZ2a25HbXJv?oc=5",
-      "category": "政治",
-      "topic": "mynumber"
-    },
-    {
-      "title": "マイナ保険証義務化、二審も「適法」＝医師らの訴え退ける―東京高裁 - 時事メディカル",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5iXzJMbkhhcy1mREl6UlY1WmhQb0lxa1l6WUdweGtwMUVXY2ZjSlNicDlXZU52bjR3TnlkUVdDWFBLYzhYTjVpMGhCNA?oc=5",
-      "pub_date": "2026-09-16T18:22:53+09:00",
-      "source": "時事メディカル",
-      "description": "マイナンバーカードに健康保険証の機能を持たせた「マイナ保険証」が利用できる体制の整備などを医療機関に義務付けたのは違法として、医師ら１２３０人が国に義務の無効確認と１人当たり１０万円の損害賠償を求めた訴訟の控訴審判決が１６日、東京高裁であった。三木素子裁判長は、請求を棄却した一… ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5iXzJMbkhhcy1mREl6UlY1WmhQb0lxa1l6WUdweGtwMUVXY2ZjSlNicDlXZU52bjR3TnlkUVdDWFBLYzhYTjVpMGhCNA?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5iXzJMbkhhcy1mREl6UlY1WmhQb0lxa1l6WUdweGtwMUVXY2ZjSlNicDlXZU52bjR3TnlkUVdDWFBLYzhYTjVpMGhCNA?oc=5",
       "category": "制度変更",
       "topic": "insurance"
     }
