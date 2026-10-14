@@ -1,6 +1,16 @@
 {
-  "updated": "2026-10-14T12:23:05+09:00",
+  "updated": "2026-10-14T23:19:13+09:00",
   "articles": [
+    {
+      "title": "第218回社会保障審議会医療保険部会（ペーパーレス）の開催について",
+      "link": "https://www.mhlw.go.jp/stf/newpage_76677.html",
+      "pub_date": "2026-10-14T14:00:00+09:00",
+      "source": "厚生労働省",
+      "description": "厚生労働省は3月26日の社会保障審議会医療部会（部会長：遠藤久夫・学習院大学長）で、2026年4月から始まる「医療法人の経営情報の第三者提供制度」に伴い、提供申出の審査等を行う専門委員会（仮称）を設置することを提案。部会は了承した（資料は ...",
+      "thumbnail": "https://www.mhlw.go.jp/common/img/img_ogp.jpg",
+      "category": "政治",
+      "topic": "mynumber"
+    },
     {
       "title": "オンライン資格確認に用いる「第2世代顔認証付きカードリーダー」の3社製品が出揃う！購入額の一部を国が補助—厚労省 - GemMed",
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5uSEtpSEVBenNUZnl4M1E0SE5OenVHS0pkRDB5OFJ0ZzhqbWRsbk9tZEFXUTZwS2ZIZjl5azBRTHV3cEkySXhpdQ?oc=5",
@@ -5461,17 +5471,6 @@
       "description": "「マイナ保険証」への移行に伴う暫定措置が間もなく終了する。8月からは紙の健康保険証を医療機関に持参した場合、医療費全額の10割負担を求められるかもしれない。安心して受診するためにも、気を付けたい二つのポイントを紹介する。 従来の保険証の新規発行は2024年12月に停止された。",
       "_glink": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBIYlE3WXhEZ0VHMGhlZ2g1VVI5UUpjeXJ5UnQyWkNaQnBsU2hjalhzcE52S0F1YUlXMDBwWEhKQml4Q083dEU5QkNVZ2c3ZlhENktTeFZuODR3aVNMWUthY1ZvajV5ODN3N2hXR25oWWd3YkhER056bHV5YkFIaFE?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBIYlE3WXhEZ0VHMGhlZ2g1VVI5UUpjeXJ5UnQyWkNaQnBsU2hjalhzcE52S0F1YUlXMDBwWEhKQml4Q083dEU5QkNVZ2c3ZlhENktTeFZuODR3aVNMWUthY1ZvajV5ODN3N2hXR25oWWd3YkhER056bHV5YkFIaFE?oc=5",
-      "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "マイナ保険証があれば「おくすり手帳は要らない」と考える人が知らない事実〈再配信〉 - ダイヤモンド・オンライン",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBja2cyX3M1dFhpUkdqcTA0LW9Mdm1xb2hDQzgxVlk2eFMzMml6TGNJTFZUREZHa2Z5SmN1cG16MW5RNVJiQ2ExUHloN21LOHdyWHVKUnNB0gFPQVVfeXFMTzNzMTlfZkhlSHNnbnl0VTB4dENyUEQ0cXFPcGg2VnpaZVlHeHM3ZnJUTG9rM25NQ3JvUTdac3c4Vklwal82TXRCdlJJdTR4MA?oc=5",
-      "pub_date": "2026-07-16T16:00:00+09:00",
-      "source": "ダイヤモンド・オンライン",
-      "description": "病院や診療所で処方された薬の情報を時系列で記録する「おくすり手帳」。患者の同意があればマイナ保険証でも投薬履歴は確認できるが、「おくすり手帳」の利便性にはかなわない。『医療費の裏ワザと落とし穴』302回では、マイナ保険証と一緒におくすり手帳も携帯すべ ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBja2cyX3M1dFhpUkdqcTA0LW9Mdm1xb2hDQzgxVlk2eFMzMml6TGNJTFZUREZHa2Z5SmN1cG16MW5RNVJiQ2ExUHloN21LOHdyWHVKUnNB0gFPQVVfeXFMTzNzMTlfZkhlSHNnbnl0VTB4dENyUEQ0cXFPcGg2VnpaZVlHeHM3ZnJUTG9rM25NQ3JvUTdac3c4Vklwal82TXRCdlJJdTR4MA?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBja2cyX3M1dFhpUkdqcTA0LW9Mdm1xb2hDQzgxVlk2eFMzMml6TGNJTFZUREZHa2Z5SmN1cG16MW5RNVJiQ2ExUHloN21LOHdyWHVKUnNB0gFPQVVfeXFMTzNzMTlfZkhlSHNnbnl0VTB4dENyUEQ0cXFPcGg2VnpaZVlHeHM3ZnJUTG9rM25NQ3JvUTdac3c4Vklwal82TXRCdlJJdTR4MA?oc=5",
       "category": "一般",
       "topic": "insurance"
     }
