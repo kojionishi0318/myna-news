@@ -1,6 +1,17 @@
 {
-  "updated": "2026-10-15T12:01:28+09:00",
+  "updated": "2026-10-15T22:54:53+09:00",
   "articles": [
+    {
+      "title": "健康保険組合手続のe-Govへの移行時期が延期 時期は未定 - 創業手帳株式会社",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9sb3MwMmNfR3U4NmQyN3lILTVRSWV3UGpwUjBPMXY0VmNpZFlFcnJVR01nV1ExOXBsTEhWRDNNOUc5RmJzU1k4d0dhY05oTzFGTkxB?oc=5",
+      "pub_date": "2026-10-15T13:51:03+09:00",
+      "source": "創業手帳株式会社",
+      "description": "健康保険組合における各種届出について、2026年（令和8年）11月より、新たにe-Govを活用した電子申請が可能となる。 これに伴い、他の社会保険（年金、雇用保険）と同様にe-Govを活用したワンストップ化が図られ、事業主・利用者負担の軽減が期待される ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9sb3MwMmNfR3U4NmQyN3lILTVRSWV3UGpwUjBPMXY0VmNpZFlFcnJVR01nV1ExOXBsTEhWRDNNOUc5RmJzU1k4d0dhY05oTzFGTkxB?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9sb3MwMmNfR3U4NmQyN3lILTVRSWV3UGpwUjBPMXY0VmNpZFlFcnJVR01nV1ExOXBsTEhWRDNNOUc5RmJzU1k4d0dhY05oTzFGTkxB?oc=5",
+      "category": "一般",
+      "topic": "insurance"
+    },
     {
       "title": "第218回社会保障審議会医療保険部会（ペーパーレス）の開催について",
       "link": "https://www.mhlw.go.jp/stf/newpage_76677.html",
@@ -534,17 +545,6 @@
       "_resolved_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB1cjYxTU1WZlYzZzVrRmc4OW1Qck9jNHhfY2F1NGZFNm5ma2o5TXdpVi1JRkRJS2VjVXRYajlpbU1ENDRKYWJIZVdvemI4QUFIMVpTZmNLYVprQ05YX1E?oc=5",
       "category": "制度変更",
       "topic": "mynumber"
-    },
-    {
-      "title": "医療機関・薬局の受付から診療や情報管理までを支援するソリューションを「第9回メディカルジャパン東京」で展示 - PR TIMES",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IUjc2Y3Vmd2p3OFJVN2FtemtXQUNqME8xOUh0eDVacW1lcE94MWFVM3p0RF9tMU9PT2wweEJDdjl4OElZVWVjSDA4cHhjZ0tCbFQ5NTlLaWowSDIxc0dxRUk1cy05ajdranc?oc=5",
-      "pub_date": "2026-09-28T13:00:01+09:00",
-      "source": "PR TIMES",
-      "description": "キヤノンマーケティングジャパン株式会社（代表取締役社長：足立正親、以下、キヤノンMJ）とキヤノンITSメディカル株式会社（代表取締役社長：黒井 慶信、以下キヤノンIM）は、2026年10月7日から9日まで幕張メッセで開催される「メディカルジャパン東京 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IUjc2Y3Vmd2p3OFJVN2FtemtXQUNqME8xOUh0eDVacW1lcE94MWFVM3p0RF9tMU9PT2wweEJDdjl4OElZVWVjSDA4cHhjZ0tCbFQ5NTlLaWowSDIxc0dxRUk1cy05ajdranc?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IUjc2Y3Vmd2p3OFJVN2FtemtXQUNqME8xOUh0eDVacW1lcE94MWFVM3p0RF9tMU9PT2wweEJDdjl4OElZVWVjSDA4cHhjZ0tCbFQ5NTlLaWowSDIxc0dxRUk1cy05ajdranc?oc=5",
-      "category": "一般",
-      "topic": "insurance"
     }
   ],
   "total": 500
