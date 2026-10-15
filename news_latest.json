@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T23:19:13+09:00",
+  "updated": "2026-10-15T12:01:28+09:00",
   "articles": [
     {
       "title": "第218回社会保障審議会医療保険部会（ペーパーレス）の開催について",
@@ -427,6 +427,17 @@
       "topic": "mynumber"
     },
     {
+      "title": "オンライン資格確認の「どこに相談すればいい？」をひとつの窓口に。三栄メディシスが医療機関向け導入・運用サポートを開始 - 朝日新聞",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5QWkZaMllwZ24yZHBweW0xZlBkSEtURFdFQ0JUWEN6VUNPUDJic3JJZDJBN0Y5NW10QzF1Zjl5TF9qV0pLSDNBR19ibHg1SnUyY3VvWjNoTDFDb2s?oc=5",
+      "pub_date": "2026-09-29T16:00:00+09:00",
+      "source": "朝日新聞",
+      "description": "オンライン資格確認のサポートを開始しました 三栄メディシス株式会社（京都市山科区）は、医療機関向け「オンライン資格確認サポート」の提供を開始しました。導入前の環境確認から、必要な機器の選定、端末設定、レセコン連携、導入後のトラブル ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5QWkZaMllwZ24yZHBweW0xZlBkSEtURFdFQ0JUWEN6VUNPUDJic3JJZDJBN0Y5NW10QzF1Zjl5TF9qV0pLSDNBR19ibHg1SnUyY3VvWjNoTDFDb2s?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5QWkZaMllwZ24yZHBweW0xZlBkSEtURFdFQ0JUWEN6VUNPUDJic3JJZDJBN0Y5NW10QzF1Zjl5TF9qV0pLSDNBR19ibHg1SnUyY3VvWjNoTDFDb2s?oc=5",
+      "category": "トラブル",
+      "topic": "insurance"
+    },
+    {
       "title": "オンライン資格確認の「どこに相談すればいい？」をひとつの窓口に。三栄メディシスが医療機関向け導入・運用サポートを開始 - ASCII.jp",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBtbURBME5KU1c0NlZjUUExenRXWFNMTU9ha3hYWnBJWi05bnJiRF9iWlVnQ1EzNGw2aDRTd2dxUEpKbnBSODRPMnQ4b0lpcWo1bTluWA?oc=5",
       "pub_date": "2026-09-29T14:04:52+09:00",
@@ -533,17 +544,6 @@
       "_glink": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IUjc2Y3Vmd2p3OFJVN2FtemtXQUNqME8xOUh0eDVacW1lcE94MWFVM3p0RF9tMU9PT2wweEJDdjl4OElZVWVjSDA4cHhjZ0tCbFQ5NTlLaWowSDIxc0dxRUk1cy05ajdranc?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IUjc2Y3Vmd2p3OFJVN2FtemtXQUNqME8xOUh0eDVacW1lcE94MWFVM3p0RF9tMU9PT2wweEJDdjl4OElZVWVjSDA4cHhjZ0tCbFQ5NTlLaWowSDIxc0dxRUk1cy05ajdranc?oc=5",
       "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "マイナンバーカードは廃止されるのか？「作らない方がいい」と言われる理由の実態と、資格確認書があるため急いで取得しなくても困らない仕組みまで詳しく解説 情報漏洩への不安と、コンビニ交付・確定申告で生じる実務上の不便さを分けて整理。次期カードの検討状況もあわ - LIMO | くらしとお金の経済メディア",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5Kb1MzU2lvclhDd1NWX1VSU1VNTnFFV0VWbV9zaUZodFZ0aDF4MzZDTldGTTYzY0ctS3ZMM3NEU3JDdnlRY09yM0lGSk4?oc=5",
-      "pub_date": "2026-09-27T13:09:00+09:00",
-      "source": "LIMO | くらしとお金の経済メディア",
-      "description": "情報漏洩への不安と、コンビニ交付・確定申告で生じる実務上の不便さを分けて整理。次期カードの検討状況もあわせて確認 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5Kb1MzU2lvclhDd1NWX1VSU1VNTnFFV0VWbV9zaUZodFZ0aDF4MzZDTldGTTYzY0ctS3ZMM3NEU3JDdnlRY09yM0lGSk4?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5Kb1MzU2lvclhDd1NWX1VSU1VNTnFFV0VWbV9zaUZodFZ0aDF4MzZDTldGTTYzY0ctS3ZMM3NEU3JDdnlRY09yM0lGSk4?oc=5",
-      "category": "トラブル",
       "topic": "insurance"
     }
   ],
