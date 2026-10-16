@@ -1,6 +1,17 @@
 {
-  "updated": "2026-10-16T11:59:11+09:00",
+  "updated": "2026-10-16T22:44:21+09:00",
   "articles": [
+    {
+      "title": "2026年分確定申告、スマホ・マイナポータル連携でさらに便利に - 創業手帳株式会社",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5URmhoTk1yU2VrMXhtMEU0cmtSSTNVYmRYYzBUYzhIWDVCZE01Tmt1SHlBaFprUG1iZ05Fa05tLTJMTmlKNnRkaUhqYTg5UHpTTUE?oc=5",
+      "pub_date": "2026-10-16T15:59:21+09:00",
+      "source": "創業手帳株式会社",
+      "description": "令和7年分の確定申告が2月16日に始まった。国税庁では、マイナンバーカードを使って、自宅から「e-Tax（国税電子申告・納税システム）」で確定申告する電子申告を推奨。前回（令和6年分）の利用率は74％で過去最高となり、今では約4人中3人がe-Taxで申告する ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5URmhoTk1yU2VrMXhtMEU0cmtSSTNVYmRYYzBUYzhIWDVCZE01Tmt1SHlBaFprUG1iZ05Fa05tLTJMTmlKNnRkaUhqYTg5UHpTTUE?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5URmhoTk1yU2VrMXhtMEU0cmtSSTNVYmRYYzBUYzhIWDVCZE01Tmt1SHlBaFprUG1iZ05Fa05tLTJMTmlKNnRkaUhqYTg5UHpTTUE?oc=5",
+      "category": "統計",
+      "topic": "mynumber"
+    },
     {
       "title": "健康保険組合手続のe-Govへの移行時期が延期 時期は未定 - 創業手帳株式会社",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9sb3MwMmNfR3U4NmQyN3lILTVRSWV3UGpwUjBPMXY0VmNpZFlFcnJVR01nV1ExOXBsTEhWRDNNOUc5RmJzU1k4d0dhY05oTzFGTkxB?oc=5",
@@ -532,17 +543,6 @@
       "description": "指定難病の患者が、医療費の助成を受けるために必要な受給者証の更新手続きをめぐり、マイナ保険証への移行後も紙の書類の提出が求められ、患者や家族から戸惑いの声が上がっていることがわかりました。",
       "_glink": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9uZDAwUGxLeXMxVFNPbFZOdDZxbWxDZWQzLVpMRjZfWHBPQkNmWnRFZmN3d0RYRGpYQjdRd3Z0c1dOQkhQbGwyOThjWWtDeWtKNDlOZk1yVlgtbUVaeW5ieXpuQ3JRcmhYa0cyMUZ2QV9DaEI2dWotX0pWeFR4Vzg?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9uZDAwUGxLeXMxVFNPbFZOdDZxbWxDZWQzLVpMRjZfWHBPQkNmWnRFZmN3d0RYRGpYQjdRd3Z0c1dOQkhQbGwyOThjWWtDeWtKNDlOZk1yVlgtbUVaeW5ieXpuQ3JRcmhYa0cyMUZ2QV9DaEI2dWotX0pWeFR4Vzg?oc=5",
-      "category": "使い方",
-      "topic": "insurance"
-    },
-    {
-      "title": "マイナ保険証への移行後も「紙の書類」が必要 指定難病患者の更新手続きで混乱 - FNNプライムオンライン",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5QjVUc2xkVGxxR0Y0dWZBblIxbUlHWmZjZ0VFeUZWZ0xMWTNtb3lHMGRMbkZRY1BfMkhHTUZQMkdsdnFLaUpKamVFZmNJQQ?oc=5",
-      "pub_date": "2026-09-28T17:18:00+09:00",
-      "source": "FNNプライムオンライン",
-      "description": "指定難病の患者が、医療費の助成を受けるために必要な受給者証の更新手続きをめぐり、マイナ保険証への移行後も紙の書類の提出が求められ、患者や家族から戸惑いの声が上がっていることがわかりました。",
-      "_glink": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5QjVUc2xkVGxxR0Y0dWZBblIxbUlHWmZjZ0VFeUZWZ0xMWTNtb3lHMGRMbkZRY1BfMkhHTUZQMkdsdnFLaUpKamVFZmNJQQ?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5QjVUc2xkVGxxR0Y0dWZBblIxbUlHWmZjZ0VFeUZWZ0xMWTNtb3lHMGRMbkZRY1BfMkhHTUZQMkdsdnFLaUpKamVFZmNJQQ?oc=5",
       "category": "使い方",
       "topic": "insurance"
     }

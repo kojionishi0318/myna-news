@@ -1,6 +1,17 @@
 {
-  "updated": "2026-10-16T11:59:11+09:00",
+  "updated": "2026-10-16T22:44:21+09:00",
   "articles": [
+    {
+      "title": "2026年分確定申告、スマホ・マイナポータル連携でさらに便利に - 創業手帳株式会社",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5URmhoTk1yU2VrMXhtMEU0cmtSSTNVYmRYYzBUYzhIWDVCZE01Tmt1SHlBaFprUG1iZ05Fa05tLTJMTmlKNnRkaUhqYTg5UHpTTUE?oc=5",
+      "pub_date": "2026-10-16T15:59:21+09:00",
+      "source": "創業手帳株式会社",
+      "description": "令和7年分の確定申告が2月16日に始まった。国税庁では、マイナンバーカードを使って、自宅から「e-Tax（国税電子申告・納税システム）」で確定申告する電子申告を推奨。前回（令和6年分）の利用率は74％で過去最高となり、今では約4人中3人がe-Taxで申告する ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5URmhoTk1yU2VrMXhtMEU0cmtSSTNVYmRYYzBUYzhIWDVCZE01Tmt1SHlBaFprUG1iZ05Fa05tLTJMTmlKNnRkaUhqYTg5UHpTTUE?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5URmhoTk1yU2VrMXhtMEU0cmtSSTNVYmRYYzBUYzhIWDVCZE01Tmt1SHlBaFprUG1iZ05Fa05tLTJMTmlKNnRkaUhqYTg5UHpTTUE?oc=5",
+      "category": "統計",
+      "topic": "mynumber"
+    },
     {
       "title": "健康保険組合手続のe-Govへの移行時期が延期 時期は未定 - 創業手帳株式会社",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9sb3MwMmNfR3U4NmQyN3lILTVRSWV3UGpwUjBPMXY0VmNpZFlFcnJVR01nV1ExOXBsTEhWRDNNOUc5RmJzU1k4d0dhY05oTzFGTkxB?oc=5",
@@ -5461,17 +5472,6 @@
       "_glink": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ESDF6dzVPQ0dINTFHaUtNWUVCeFpGM3d1akhxb3ZuTFZhTHZQRjFCNnlYS1g1TGcwNzZ0V3JiUDNKcFg2SGxDZjM3ZmZlLUtjSDcxSG42WWIwcHBHLU5reV9n?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ESDF6dzVPQ0dINTFHaUtNWUVCeFpGM3d1akhxb3ZuTFZhTHZQRjFCNnlYS1g1TGcwNzZ0V3JiUDNKcFg2SGxDZjM3ZmZlLUtjSDcxSG42WWIwcHBHLU5reV9n?oc=5",
       "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "マイナ保険証、7月末で暫定措置終了 10割負担回避のポイント - 毎日新聞",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5pUXpvbXl1VTloVEdic0ozVUEtYXFHUVEwOFpTekZxSDkydVJtWU9WZ2Q5ZXNkZWJHdTZQZ1pDeWNkN0lDUEtLdDRNcXdsQnpHUThnbDg3TUoxN0dsVGNldzg3bk15STBG?oc=5",
-      "pub_date": "2026-07-16T16:00:00+09:00",
-      "source": "毎日新聞",
-      "description": "去年12月、すべての「従来の保険証」の有効期限が切れた。 その後、暫定措置として「期限切れの保険証」や「資格情報のお知らせのみ」での受診も可能となったが、7月で終了。【画像】「資格確認書」と「資格情報のお知らせ」の違いは…8月から、医療 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5pUXpvbXl1VTloVEdic0ozVUEtYXFHUVEwOFpTekZxSDkydVJtWU9WZ2Q5ZXNkZWJHdTZQZ1pDeWNkN0lDUEtLdDRNcXdsQnpHUThnbDg3TUoxN0dsVGNldzg3bk15STBG?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5pUXpvbXl1VTloVEdic0ozVUEtYXFHUVEwOFpTekZxSDkydVJtWU9WZ2Q5ZXNkZWJHdTZQZ1pDeWNkN0lDUEtLdDRNcXdsQnpHUThnbDg3TUoxN0dsVGNldzg3bk15STBG?oc=5",
-      "category": "制度変更",
       "topic": "insurance"
     }
   ]
