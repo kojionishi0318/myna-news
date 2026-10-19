@@ -1,6 +1,27 @@
 {
-  "updated": "2026-10-19T12:05:25+09:00",
+  "updated": "2026-10-20T01:10:09+09:00",
   "articles": [
+    {
+      "title": "「Androidのマイナンバーカード」が利用可能なスマホが判明 フル対応の機種は少なめ - ASCII.jp",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE83dVd4VE1GRU53Z3lUbTdfSEdoMDNmN3JVcXpqcnJycXFZRkpnY0dwZXI0ZnJha3FQd0V3T0V2LVhHcGcybjRVc3otNlhqcE4wV2VoLQ?oc=5",
+      "pub_date": "2026-10-19T15:00:00+09:00",
+      "source": "ASCII.jp",
+      "description": "6年近く前の2020年12月、「Apple Payが日本にやってくるまでの話」と題してApple Pay登場前後の話題を振り返ったが、それから時代は移り変わり、“モバイルウォレット”を取り巻く情勢もいろいろ変化してきた。 今回は技術面からApple Pay(Wallet)を振り返りつつ ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE83dVd4VE1GRU53Z3lUbTdfSEdoMDNmN3JVcXpqcnJycXFZRkpnY0dwZXI0ZnJha3FQd0V3T0V2LVhHcGcybjRVc3otNlhqcE4wV2VoLQ?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE83dVd4VE1GRU53Z3lUbTdfSEdoMDNmN3JVcXpqcnJycXFZRkpnY0dwZXI0ZnJha3FQd0V3T0V2LVhHcGcybjRVc3otNlhqcE4wV2VoLQ?oc=5",
+      "category": "一般",
+      "topic": "mynumber"
+    },
+    {
+      "title": "マイナンバー制度における制度解説の情報連携に係る資料を更新しました",
+      "link": "https://www.digital.go.jp/policies/mynumber/explanation",
+      "pub_date": "2026-10-19T15:00:00+09:00",
+      "source": "デジタル庁",
+      "description": "これまでは郵送が必要であった中小企業診断士の登録・管理における申請等（新規登録申請や更新登録申請等）について、2026年6月1日(月)10:00よりマイナポータルを用いたオンライン手続きが可能となりました。以降は、原則「オンラインによる受付」とさせ ...",
+      "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
+      "category": "使い方",
+      "topic": "mynumber"
+    },
     {
       "title": "2026年分確定申告、スマホ・マイナポータル連携でさらに便利に - 創業手帳株式会社",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5URmhoTk1yU2VrMXhtMEU0cmtSSTNVYmRYYzBUYzhIWDVCZE01Tmt1SHlBaFprUG1iZ05Fa05tLTJMTmlKNnRkaUhqYTg5UHpTTUE?oc=5",
@@ -3059,6 +3080,17 @@
       "topic": "insurance"
     },
     {
+      "title": "8月1日から「マイナ保険証」か「資格確認書」の提示がないと\"一時的に医療費が全額負担となる可能性あり\"「従来の健康保険証が使える暫定措置」7月31日で終了 - TBS NEWS DIG",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1QMHNWRnVqTEZEakR5WG1LRVZUaUNKTms2V3prQUl6OE9ZS011T09YN3g4MjRsQ3lOUXpwZHQxdUhFWGdtZGFQQ3FHQW5TTmtSVTY4XzZvYU9JUQ?oc=5",
+      "pub_date": "2026-08-01T16:00:00+09:00",
+      "source": "TBS NEWS DIG",
+      "description": "保険診療を受ける際、8月1日からマイナンバーカードと一体化した「マイナ保険証」か、マイナ保険証を持たない人に発行される「資格確認書」のどちらかを使う仕組みに完全移行する。有効期限が切れた従来の健康保険証でも受診を認める暫定措置は7 ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1QMHNWRnVqTEZEakR5WG1LRVZUaUNKTms2V3prQUl6OE9ZS011T09YN3g4MjRsQ3lOUXpwZHQxdUhFWGdtZGFQQ3FHQW5TTmtSVTY4XzZvYU9JUQ?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1QMHNWRnVqTEZEakR5WG1LRVZUaUNKTms2V3prQUl6OE9ZS011T09YN3g4MjRsQ3lOUXpwZHQxdUhFWGdtZGFQQ3FHQW5TTmtSVTY4XzZvYU9JUQ?oc=5",
+      "category": "制度変更",
+      "topic": "insurance"
+    },
+    {
       "title": "【後期高齢者医療制度の被保険者の方】マイナ保険証をご利用ください - 福津市",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5Mcy1xdzlKakdMb2VuN2RfOTlhaFZGS2FRQ28wWGtFbHQ4NzM5WDV0LXU1VEh0dGdFNi1xclY0STlwYlI0Vm1xb3dCem9hYlhBT3FyNFIzVHlUdlczU0x2eXU1ZnoyMlJGbmVOSUNPdk4xMVdMNFFhNzh0alAyZw?oc=5",
       "pub_date": "2026-08-01T16:00:00+09:00",
@@ -5440,39 +5472,6 @@
       "_resolved_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1aUHdwc0ZtUWQzdnVRLTJDUEZObk5WOXZVaWZPaDIyQmg4UmY4czZwZFE0bXN2WFdfcldmQnFSc0FXTmFTQTdFSklBXzJPY2pKVk9TQllWbkk2V0ZnN25yX0xfTUh5VlBVcDhraVNXcm44SVVXdk1hYllJdEZrZw?oc=5",
       "category": "一般",
       "topic": "insurance"
-    },
-    {
-      "title": "「紙の保険証」有効の「暫定措置が終了」するとどうなる？ #エキスパートトピ（石田雅彦） - エキスパート - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObzJRSjIwSENmM2NidXdBcFNNZVRCcE5BTk9FQkFwOFA5NmNybUd0VTVPWllkYnpuNE1RS3NsaV85MHhYd2xmWld3VzNZdVNHam1tLS1IQ2ZpUXo5SmpVYUZyT19MZS1EbmdKUlFvSGpVMl9RZlNpZXNzdGttZW42Mk5ZZFZxNmhh?oc=5",
-      "pub_date": "2026-07-21T11:55:16+09:00",
-      "source": "Yahoo!ニュース",
-      "description": "有効期限切れの健康保険証でも保険診療（1〜3割負担）を受けられる暫定措置が、7月末まで延長される。しかし4カ月後、「保険証利用登録を済ませたマイナンバーカード」（マイナ保険証）などがないと保険診療が受けられず、全額自己負担（10割負担）と ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObzJRSjIwSENmM2NidXdBcFNNZVRCcE5BTk9FQkFwOFA5NmNybUd0VTVPWllkYnpuNE1RS3NsaV85MHhYd2xmWld3VzNZdVNHam1tLS1IQ2ZpUXo5SmpVYUZyT19MZS1EbmdKUlFvSGpVMl9RZlNpZXNzdGttZW42Mk5ZZFZxNmhh?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObzJRSjIwSENmM2NidXdBcFNNZVRCcE5BTk9FQkFwOFA5NmNybUd0VTVPWllkYnpuNE1RS3NsaV85MHhYd2xmWld3VzNZdVNHam1tLS1IQ2ZpUXo5SmpVYUZyT19MZS1EbmdKUlFvSGpVMl9RZlNpZXNzdGttZW42Mk5ZZFZxNmhh?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "マイナ保険証9443万人、スマホ搭載は800万人 「紙」は7月末終了 - 日本経済新聞",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8waDJXNmhsblQ5RjRCMVB3ZUhLeURZei1jcjJHMzhRNjk0S3NURHNSN1pLVmRGcnZadWtySUd6SGZMWWVWaHE5RWRSMjlSb1lDYlFFNjBjVUtaMWdQakF2Q2tKdGM2cGJHR3pJdQ?oc=5",
-      "pub_date": "2026-07-20T16:00:00+09:00",
-      "source": "日本経済新聞",
-      "description": "健康保険証が8月からマイナンバーカードと一体化したマイナ保険証に完全に切り替わる。スマートフォンに搭載して使う人も800万人と浸透しつつある。飲み合わせの悪い薬の処方を防ぎやすいなど、紙の保険証にはない利点がある。紙などの従来型の保険証は2025年12月1日に有効期限を迎えた。",
-      "_glink": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8waDJXNmhsblQ5RjRCMVB3ZUhLeURZei1jcjJHMzhRNjk0S3NURHNSN1pLVmRGcnZadWtySUd6SGZMWWVWaHE5RWRSMjlSb1lDYlFFNjBjVUtaMWdQakF2Q2tKdGM2cGJHR3pJdQ?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8waDJXNmhsblQ5RjRCMVB3ZUhLeURZei1jcjJHMzhRNjk0S3NURHNSN1pLVmRGcnZadWtySUd6SGZMWWVWaHE5RWRSMjlSb1lDYlFFNjBjVUtaMWdQakF2Q2tKdGM2cGJHR3pJdQ?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "実は「マイナポイント」申請すれば今でももらえる！“知らないと損”な狙い目マイナポイント制度とは？（All About） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBHejZqVWNjY2FyYTBZVFhNeUJsdjdvRktXaUNWdWhaU1RJWkVKaEJBWUJDcFItd1VzbEFPMDBsbmJ4Rnc2aFhfVjFYdk5RcXpISHNIWWhhUlNadUZ2c2tGc1R4WFFjR2l2cHlJanB2bGI2YUlCc2dMU2pYckVBdXc?oc=5",
-      "pub_date": "2026-07-19T16:00:00+09:00",
-      "source": "Yahoo!ニュース",
-      "description": "「マイナポイントがもらえるのなんて、もうずいぶん前の話」――そう思っている人がほとんどではないでしょうか。かつて、最大2万円分のポイントがもらえることで話題になった「マイナポイント事業」ですが、2026年の現在でもマイナポイントが ...",
-      "_glink": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBHejZqVWNjY2FyYTBZVFhNeUJsdjdvRktXaUNWdWhaU1RJWkVKaEJBWUJDcFItd1VzbEFPMDBsbmJ4Rnc2aFhfVjFYdk5RcXpISHNIWWhhUlNadUZ2c2tGc1R4WFFjR2l2cHlJanB2bGI2YUlCc2dMU2pYckVBdXc?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBHejZqVWNjY2FyYTBZVFhNeUJsdjdvRktXaUNWdWhaU1RJWkVKaEJBWUJDcFItd1VzbEFPMDBsbmJ4Rnc2aFhfVjFYdk5RcXpISHNIWWhhUlNadUZ2c2tGc1R4WFFjR2l2cHlJanB2bGI2YUlCc2dMU2pYckVBdXc?oc=5",
-      "category": "一般",
-      "topic": "mynumber"
     }
   ]
 }

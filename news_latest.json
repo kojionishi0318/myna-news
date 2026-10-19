@@ -1,6 +1,27 @@
 {
-  "updated": "2026-10-19T12:05:25+09:00",
+  "updated": "2026-10-20T01:10:09+09:00",
   "articles": [
+    {
+      "title": "「Androidのマイナンバーカード」が利用可能なスマホが判明 フル対応の機種は少なめ - ASCII.jp",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE83dVd4VE1GRU53Z3lUbTdfSEdoMDNmN3JVcXpqcnJycXFZRkpnY0dwZXI0ZnJha3FQd0V3T0V2LVhHcGcybjRVc3otNlhqcE4wV2VoLQ?oc=5",
+      "pub_date": "2026-10-19T15:00:00+09:00",
+      "source": "ASCII.jp",
+      "description": "6年近く前の2020年12月、「Apple Payが日本にやってくるまでの話」と題してApple Pay登場前後の話題を振り返ったが、それから時代は移り変わり、“モバイルウォレット”を取り巻く情勢もいろいろ変化してきた。 今回は技術面からApple Pay(Wallet)を振り返りつつ ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE83dVd4VE1GRU53Z3lUbTdfSEdoMDNmN3JVcXpqcnJycXFZRkpnY0dwZXI0ZnJha3FQd0V3T0V2LVhHcGcybjRVc3otNlhqcE4wV2VoLQ?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE83dVd4VE1GRU53Z3lUbTdfSEdoMDNmN3JVcXpqcnJycXFZRkpnY0dwZXI0ZnJha3FQd0V3T0V2LVhHcGcybjRVc3otNlhqcE4wV2VoLQ?oc=5",
+      "category": "一般",
+      "topic": "mynumber"
+    },
+    {
+      "title": "マイナンバー制度における制度解説の情報連携に係る資料を更新しました",
+      "link": "https://www.digital.go.jp/policies/mynumber/explanation",
+      "pub_date": "2026-10-19T15:00:00+09:00",
+      "source": "デジタル庁",
+      "description": "これまでは郵送が必要であった中小企業診断士の登録・管理における申請等（新規登録申請や更新登録申請等）について、2026年6月1日(月)10:00よりマイナポータルを用いたオンライン手続きが可能となりました。以降は、原則「オンラインによる受付」とさせ ...",
+      "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
+      "category": "使い方",
+      "topic": "mynumber"
+    },
     {
       "title": "2026年分確定申告、スマホ・マイナポータル連携でさらに便利に - 創業手帳株式会社",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5URmhoTk1yU2VrMXhtMEU0cmtSSTNVYmRYYzBUYzhIWDVCZE01Tmt1SHlBaFprUG1iZ05Fa05tLTJMTmlKNnRkaUhqYTg5UHpTTUE?oc=5",
@@ -523,28 +544,6 @@
       "thumbnail": "https://www.mhlw.go.jp/common/img/img_ogp.jpg",
       "category": "政治",
       "topic": "mynumber"
-    },
-    {
-      "title": "オンライン資格確認の「どこに相談すればいい？」をひとつの窓口に。三栄メディシスが医療機関向け導入・運用サポートを開始 - prtimes.jp",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBua2NJSmFkUG1UY2tBQVBWM2J3VHhXZmhXVmQ0VDk0Wk94a0U5cFVQTkNkam43VDVxTFc3MU9qOWFYaWNLX19FNXFzWFdhRjV6TjBGUFBuQ01lQnp5YWxBWDZNQmJCcTI3TWc?oc=5",
-      "pub_date": "2026-09-29T10:30:02+09:00",
-      "source": "prtimes.jp",
-      "description": "オンライン資格確認を巡り、医師・歯科医師が国を訴えた裁判の控訴審の第3回期日が6月10日、東京高裁（三木素子裁判長）で開かれ、弁論が終結した。判決は9月16日に言い渡される予定だ。 第3回期日で原告側は、控訴審におけるこれまでの主張の骨子を ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBua2NJSmFkUG1UY2tBQVBWM2J3VHhXZmhXVmQ0VDk0Wk94a0U5cFVQTkNkam43VDVxTFc3MU9qOWFYaWNLX19FNXFzWFdhRjV6TjBGUFBuQ01lQnp5YWxBWDZNQmJCcTI3TWc?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBua2NJSmFkUG1UY2tBQVBWM2J3VHhXZmhXVmQ0VDk0Wk94a0U5cFVQTkNkam43VDVxTFc3MU9qOWFYaWNLX19FNXFzWFdhRjV6TjBGUFBuQ01lQnp5YWxBWDZNQmJCcTI3TWc?oc=5",
-      "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "妊娠初期（妊娠2・3・4カ月）の“妊婦健診”の疑問に医師が回答「妊婦健診は健康保険が適用されないけれど、マイナ保険証を持っていったほうがいい?」【医師監修】 - たまひよ",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ORUZ2ZGozZEtrTk1vdWd2MGVLa2tMYTdKa3NBaWNBeENSTjZyZVdnLVE2a0duVVVMeU1vaS0tc1dROGg3aGRCcDY0dTR5RnJWQ3pzaWdMNVRmU3BEcl9WYQ?oc=5",
-      "pub_date": "2026-09-29T00:00:00+09:00",
-      "source": "たまひよ",
-      "description": "体調が安定しないことも多い妊娠初期（妊娠4週～妊娠13週）は、日常生活の様々なシーンで「おなかに赤ちゃんがいるのに、これってやっていいの？ ダメなの？」「これってどうなんだろう」と気になることってありますよね？ この記事では、“妊婦健診”の疑問に産婦人科医が回答します。",
-      "_glink": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ORUZ2ZGozZEtrTk1vdWd2MGVLa2tMYTdKa3NBaWNBeENSTjZyZVdnLVE2a0duVVVMeU1vaS0tc1dROGg3aGRCcDY0dTR5RnJWQ3pzaWdMNVRmU3BEcl9WYQ?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ORUZ2ZGozZEtrTk1vdWd2MGVLa2tMYTdKa3NBaWNBeENSTjZyZVdnLVE2a0duVVVMeU1vaS0tc1dROGg3aGRCcDY0dTR5RnJWQ3pzaWdMNVRmU3BEcl9WYQ?oc=5",
-      "category": "一般",
-      "topic": "insurance"
     }
   ],
   "total": 500
