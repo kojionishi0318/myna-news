@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T21:58:15+09:00",
+  "updated": "2026-10-19T12:05:25+09:00",
   "articles": [
     {
       "title": "2026年分確定申告、スマホ・マイナポータル連携でさらに便利に - 創業手帳株式会社",
@@ -118,6 +118,17 @@
       "_glink": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EbWloZlFvbFBLT2ZnMGg4QlJCSU55TnRTblVpaHQ1X1Zjclh3OFpGY0dNel9Sc0VheENNOWxaQkxYRDZJOEdFNUdmLUdyX09hQ01tVUFUSERsSDhaNXhlRmU3cjJKbVpIcnNvclJ6WjR4YmJnY0lubGkyVkxhSE0?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EbWloZlFvbFBLT2ZnMGg4QlJCSU55TnRTblVpaHQ1X1Zjclh3OFpGY0dNel9Sc0VheENNOWxaQkxYRDZJOEdFNUdmLUdyX09hQ01tVUFUSERsSDhaNXhlRmU3cjJKbVpIcnNvclJ6WjR4YmJnY0lubGkyVkxhSE0?oc=5",
       "category": "統計",
+      "topic": "insurance"
+    },
+    {
+      "title": "マイナ保険証を基本とする仕組みへの移行について - 広島市公式ウェブサイト",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaDE3d1VMdVktblRTRlVCMUhSZWRnVlNVbW8zbDUyZFhsU0hkcUROOS1lYm5DMldzX3ZLRGNUcUpjYjYwT2xBZEw1OXpDb0dvWG9sQ09CT1lmLUUxSmxiZnFYaTJ0bFZEZG5IMG12LWRNdFkxN2Z5Y3p0ZlJFYkZncHo1allONWV1?oc=5",
+      "pub_date": "2026-10-06T16:00:00+09:00",
+      "source": "広島市公式ウェブサイト",
+      "description": "有効期限切れの健康保険証でも保険診療（1〜3割負担）を受けられる暫定措置が、7月末まで延長される。しかし4カ月後、「保険証利用登録を済ませたマイナンバーカード」（マイナ保険証）などがないと保険診療が受けられず、全額自己負担（10割負担）と ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaDE3d1VMdVktblRTRlVCMUhSZWRnVlNVbW8zbDUyZFhsU0hkcUROOS1lYm5DMldzX3ZLRGNUcUpjYjYwT2xBZEw1OXpDb0dvWG9sQ09CT1lmLUUxSmxiZnFYaTJ0bFZEZG5IMG12LWRNdFkxN2Z5Y3p0ZlJFYkZncHo1allONWV1?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaDE3d1VMdVktblRTRlVCMUhSZWRnVlNVbW8zbDUyZFhsU0hkcUROOS1lYm5DMldzX3ZLRGNUcUpjYjYwT2xBZEw1OXpDb0dvWG9sQ09CT1lmLUUxSmxiZnFYaTJ0bFZEZG5IMG12LWRNdFkxN2Z5Y3p0ZlJFYkZncHo1allONWV1?oc=5",
+      "category": "制度変更",
       "topic": "insurance"
     },
     {
@@ -532,17 +543,6 @@
       "description": "体調が安定しないことも多い妊娠初期（妊娠4週～妊娠13週）は、日常生活の様々なシーンで「おなかに赤ちゃんがいるのに、これってやっていいの？ ダメなの？」「これってどうなんだろう」と気になることってありますよね？ この記事では、“妊婦健診”の疑問に産婦人科医が回答します。",
       "_glink": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ORUZ2ZGozZEtrTk1vdWd2MGVLa2tMYTdKa3NBaWNBeENSTjZyZVdnLVE2a0duVVVMeU1vaS0tc1dROGg3aGRCcDY0dTR5RnJWQ3pzaWdMNVRmU3BEcl9WYQ?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ORUZ2ZGozZEtrTk1vdWd2MGVLa2tMYTdKa3NBaWNBeENSTjZyZVdnLVE2a0duVVVMeU1vaS0tc1dROGg3aGRCcDY0dTR5RnJWQ3pzaWdMNVRmU3BEcl9WYQ?oc=5",
-      "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "医療機関・薬局の受付から診療や情報管理までを支援するソリューションを「第9回メディカルジャパン東京」で展示 - news.nicovideo.jp",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBacmExam9UMHE1NjB2Y1dUYTBwdHpETGRodHBheWljYkQxaUIyall4Uzk2eXJ0cHRQQkRmcTd5dF9yMVhFcDVLb3g3aXV1d2Izd0VFUENiUXBCbzlhNGRFX0t5dGZESk81T2RoNXlBQXRoVUlib3RxM2locw?oc=5",
-      "pub_date": "2026-09-28T21:30:22+09:00",
-      "source": "news.nicovideo.jp",
-      "description": "キヤノンマーケティングジャパン株式会社（代表取締役社長：足立正親、以下、キヤノンMJ）とキヤノンITSメディカル株式会社（代表取締役社長：黒井 慶信、以下キヤノンIM）は、2026年10月7日から9日まで幕張メッセで開催される「メディカルジャパン東京 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBacmExam9UMHE1NjB2Y1dUYTBwdHpETGRodHBheWljYkQxaUIyall4Uzk2eXJ0cHRQQkRmcTd5dF9yMVhFcDVLb3g3aXV1d2Izd0VFUENiUXBCbzlhNGRFX0t5dGZESk81T2RoNXlBQXRoVUlib3RxM2locw?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBacmExam9UMHE1NjB2Y1dUYTBwdHpETGRodHBheWljYkQxaUIyall4Uzk2eXJ0cHRQQkRmcTd5dF9yMVhFcDVLb3g3aXV1d2Izd0VFUENiUXBCbzlhNGRFX0t5dGZESk81T2RoNXlBQXRoVUlib3RxM2locw?oc=5",
       "category": "一般",
       "topic": "insurance"
     }
