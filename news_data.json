@@ -1,6 +1,60 @@
 {
-  "updated": "2026-10-20T01:10:09+09:00",
+  "updated": "2026-10-20T12:14:32+09:00",
   "articles": [
+    {
+      "title": "「Androidのマイナンバーカード」サービス開始　概要とセットアップ方法を紹介 - Infoseek",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBiTlJrZGl2X0JTb0F0d3hvR05ULWJYbll6LUJFeHpPVkx0WUZtQnJmWVNkcHJFeEJPN3U0V0lIOF8zQlZUMi15ZHp2X0xmY0h1NTRGTk85aUZhU0VQakk2RzgwMXptWGZRU25NUlRPbFrSAXZBVV95cUxOaEROazJGc1JYNkxaMV91OUV6U0g3aWwyVkZmaXY1VEg0blJiMDVtLTA4MUZCS2hsWHVDRlEwb2Iwc3FSdGJQT2tCVThWcmtWVWdtanJwM0RjeE9xaHJpc25PX2dIZ0NCNjJjSEpZTmFDeDQ3b2tR?oc=5",
+      "pub_date": "2026-10-20T10:55:40+09:00",
+      "source": "Infoseek",
+      "description": "そんなマイナンバーカードだが、PCやスマートフォンなどデジタル機器が好きな人であれば「スマートフォンのマイナンバーカード機能」を利用している、または興味があるという人もいるのではないだろうか。",
+      "_glink": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBiTlJrZGl2X0JTb0F0d3hvR05ULWJYbll6LUJFeHpPVkx0WUZtQnJmWVNkcHJFeEJPN3U0V0lIOF8zQlZUMi15ZHp2X0xmY0h1NTRGTk85aUZhU0VQakk2RzgwMXptWGZRU25NUlRPbFrSAXZBVV95cUxOaEROazJGc1JYNkxaMV91OUV6U0g3aWwyVkZmaXY1VEg0blJiMDVtLTA4MUZCS2hsWHVDRlEwb2Iwc3FSdGJQT2tCVThWcmtWVWdtanJwM0RjeE9xaHJpc25PX2dIZ0NCNjJjSEpZTmFDeDQ3b2tR?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBiTlJrZGl2X0JTb0F0d3hvR05ULWJYbll6LUJFeHpPVkx0WUZtQnJmWVNkcHJFeEJPN3U0V0lIOF8zQlZUMi15ZHp2X0xmY0h1NTRGTk85aUZhU0VQakk2RzgwMXptWGZRU25NUlRPbFrSAXZBVV95cUxOaEROazJGc1JYNkxaMV91OUV6U0g3aWwyVkZmaXY1VEg0blJiMDVtLTA4MUZCS2hsWHVDRlEwb2Iwc3FSdGJQT2tCVThWcmtWVWdtanJwM0RjeE9xaHJpc25PX2dIZ0NCNjJjSEpZTmFDeDQ3b2tR?oc=5",
+      "category": "一般",
+      "topic": "mynumber"
+    },
+    {
+      "title": "「Androidのマイナンバーカード」の提供を開始しました（デジタル庁 ウェブサービス・アプリケーション）",
+      "link": "https://services.digital.go.jp/mynumbercard-android/news/13d5101e1dce63e2b6bdc/",
+      "pub_date": "2026-10-20T09:31:53+09:00",
+      "source": "デジタル庁",
+      "description": "デジタル庁は10月2日、「Androidのマイナンバーカード」を10月20日から提供すると発表した。Android端末の「Googleウォレット」に入れて利用する。「属性証明機能」が新たに搭載され、官民の各種対面サービスで本人確認、年齢確認、住民確認などが簡単かつ ...",
+      "thumbnail": "https://services.digital.go.jp/ogp.png",
+      "category": "一般",
+      "topic": "mynumber"
+    },
+    {
+      "title": "Androidのマイナンバーカードが10月20日から本人確認に対応。使えるのはPixel 6以降など一部機種 - GAZLOG",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBDZ1QyZy1MYUE4ZTBWeWNUd1dudGl6T0FrTnh0aGZPaGdNQTJoekFHZ2RRcC1tZFgtYjV3cHYwZERHMDVtYmw0cmRkTmZ4c1VQZlhKeG1vdEg0T0c3V1E?oc=5",
+      "pub_date": "2026-10-20T07:40:00+09:00",
+      "source": "GAZLOG",
+      "description": "10月20日からは、Androidスマホに入れたマイナンバーカードを、これまでのマイナポータルやマイナ保険証などに加えて、店舗や窓口での本人確認や年齢確認にも使えるようになります。ただ、デジタル庁が公開した対応機種の一覧では、本人確認にも使えるのはP ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBDZ1QyZy1MYUE4ZTBWeWNUd1dudGl6T0FrTnh0aGZPaGdNQTJoekFHZ2RRcC1tZFgtYjV3cHYwZERHMDVtYmw0cmRkTmZ4c1VQZlhKeG1vdEg0T0c3V1E?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBDZ1QyZy1MYUE4ZTBWeWNUd1dudGl6T0FrTnh0aGZPaGdNQTJoekFHZ2RRcC1tZFgtYjV3cHYwZERHMDVtYmw0cmRkTmZ4c1VQZlhKeG1vdEg0T0c3V1E?oc=5",
+      "category": "一般",
+      "topic": "insurance"
+    },
+    {
+      "title": "『Androidのマイナンバーカード』OPPOスマホは２機種のみ対応 - OPPOラボ",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAxdy1kb2hqZlBZOEw3bkc5UG5TR3AySmJpZjB6V2x4X3hJek5XMURuTmtEaXY2SkViSjNTYjZTU05wYjEyZVdXLTFjaUpPUVNrZnpZa18zTDNqWDlPd3BQdHRzeDRlLUU?oc=5",
+      "pub_date": "2026-10-20T04:50:00+09:00",
+      "source": "OPPOラボ",
+      "description": "デジタル庁は、10月20日からサービスを開始する「Androidのマイナンバーカード」の対応機種を発表しました。 これにより対応する店舗などにおいて、スマホを身分証明書として利用することができるようになります。",
+      "_glink": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAxdy1kb2hqZlBZOEw3bkc5UG5TR3AySmJpZjB6V2x4X3hJek5XMURuTmtEaXY2SkViSjNTYjZTU05wYjEyZVdXLTFjaUpPUVNrZnpZa18zTDNqWDlPd3BQdHRzeDRlLUU?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAxdy1kb2hqZlBZOEw3bkc5UG5TR3AySmJpZjB6V2x4X3hJek5XMURuTmtEaXY2SkViSjNTYjZTU05wYjEyZVdXLTFjaUpPUVNrZnpZa18zTDNqWDlPd3BQdHRzeDRlLUU?oc=5",
+      "category": "一般",
+      "topic": "mynumber"
+    },
+    {
+      "title": "マイナンバーカードの一体化による利便性についてどう思いますか？ - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE01aVVmZ0hYZXVhWXVaVUJUV09GemZwRUNaaldjZk0zaTB6V0RTTm13Nm9BN3BGTWs1OElhSDJzaUExb0F5WjdhOFcxdV8?oc=5",
+      "pub_date": "2026-10-20T00:08:57+09:00",
+      "source": "Yahoo!ニュース",
+      "description": "出入国在留管理庁は6月14日、在留カードとマイナンバーカードの機能を1枚にまとめたICカード「特定在留カード」の運用を始めた。両カードに関わる手続きを一元化し、外国人の利便性向上と行政の効率化を図る。取得は義務ではなく任意。 一体化された ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE01aVVmZ0hYZXVhWXVaVUJUV09GemZwRUNaaldjZk0zaTB6V0RTTm13Nm9BN3BGTWs1OElhSDJzaUExb0F5WjdhOFcxdV8?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE01aVVmZ0hYZXVhWXVaVUJUV09GemZwRUNaaldjZk0zaTB6V0RTTm13Nm9BN3BGTWs1OElhSDJzaUExb0F5WjdhOFcxdV8?oc=5",
+      "category": "使い方",
+      "topic": "mynumber"
+    },
     {
       "title": "「Androidのマイナンバーカード」が利用可能なスマホが判明 フル対応の機種は少なめ - ASCII.jp",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE83dVd4VE1GRU53Z3lUbTdfSEdoMDNmN3JVcXpqcnJycXFZRkpnY0dwZXI0ZnJha3FQd0V3T0V2LVhHcGcybjRVc3otNlhqcE4wV2VoLQ?oc=5",
@@ -512,6 +566,17 @@
       "_resolved_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ZbGROOUs0RHZyb09hdWxrNmZZeFNuX3FRVDNUOFJ4NTBWdUtfT1B6X2U2RnZpTlFxeW5Pc2gxbjhoeHJFNlZZV1ZPRDJuX3gtTVd4cnFyOU5zNWVVU2gzdmxmbWhTMF9v0gFuQVVfeXFMT2pxSHJxSTVSLUxZYmFWdGx2LV9aVG93Nk0ybXl0ZE9Kd3p2c3N1S1lYTlZJRWRxcTJPbXctTlJhMW9uajJyLU82ems2bEVCM3EzYm92aHV2aFZ5UzRvU241TnpnSm8wUEFYTnVrcGc?oc=5",
       "category": "一般",
       "topic": "mynumber"
+    },
+    {
+      "title": "オンライン資格確認の「どこに相談すればいい？」をひとつの窓口に。三栄メディシスが医療機関向け導入・運用サポートを開始 - STRAIGHT PRESS",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5uTzY5OGNJMy04TlotMkwtN3Zka2VVMmMxN05iMHZmZWI2cU5mZFl2RGd2MmNMNmpWSnZYZERVNEdJdWFzQzJQR2lFSWUtaWlMZUJJRkVMVHRRNGtEd3J5cEx3RjRxYU5BbE0zNGhqNE1FZ0kwb1E?oc=5",
+      "pub_date": "2026-09-29T16:00:00+09:00",
+      "source": "STRAIGHT PRESS",
+      "description": "オンライン資格確認のサポートを開始しました 三栄メディシス株式会社（京都市山科区）は、医療機関向け「オンライン資格確認サポート」の提供を開始しました。導入前の環境確認から、必要な機器の選定、端末設定、レセコン連携、導入後のトラブル ...",
+      "_glink": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5uTzY5OGNJMy04TlotMkwtN3Zka2VVMmMxN05iMHZmZWI2cU5mZFl2RGd2MmNMNmpWSnZYZERVNEdJdWFzQzJQR2lFSWUtaWlMZUJJRkVMVHRRNGtEd3J5cEx3RjRxYU5BbE0zNGhqNE1FZ0kwb1E?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5uTzY5OGNJMy04TlotMkwtN3Zka2VVMmMxN05iMHZmZWI2cU5mZFl2RGd2MmNMNmpWSnZYZERVNEdJdWFzQzJQR2lFSWUtaWlMZUJJRkVMVHRRNGtEd3J5cEx3RjRxYU5BbE0zNGhqNE1FZ0kwb1E?oc=5",
+      "category": "トラブル",
+      "topic": "insurance"
     },
     {
       "title": "オンライン資格確認の「どこに相談すればいい？」をひとつの窓口に。三栄メディシスが医療機関向け導入・運用サポートを開始 - 朝日新聞",
@@ -5397,80 +5462,14 @@
       "topic": "insurance"
     },
     {
-      "title": "紙の保険証、月末終了 スマホ搭載800万人 1年で8倍以上に増加 - 日本経済新聞",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBFZHhxak1fZFpadUdCazc5M04wTmhsZHpZZnVMbGVQRDlfY3F5Z0VaVDQ1OVhLWXNjVVJzMlNnQWUyV1NDUmlzUlhtcWpiUnhVYWRRcGI4QmQ4dGkwd1pETlI2WXJzVkF1dzdEUA?oc=5",
+      "title": "「紙の保険証」有効の「暫定措置が終了」するとどうなる？ #エキスパートトピ（石田雅彦） - エキスパート - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObzJRSjIwSENmM2NidXdBcFNNZVRCcE5BTk9FQkFwOFA5NmNybUd0VTVPWllkYnpuNE1RS3NsaV85MHhYd2xmWld3VzNZdVNHam1tLS1IQ2ZpUXo5SmpVYUZyT19MZS1EbmdKUlFvSGpVMl9RZlNpZXNzdGttZW42Mk5ZZFZxNmhh?oc=5",
       "pub_date": "2026-07-21T16:00:00+09:00",
-      "source": "日本経済新聞",
+      "source": "Yahoo!ニュース",
       "description": "マイナンバーカードを追加したiPhone（左）とマイナンバーカード 健康保険証が8月からマイナンバーカードと一体化したマイナ保険証に完全に切り替わる。スマートフォンに搭載して使う人も800万人と浸透しつつある。飲み合わせの悪い薬の処方を防ぎ ...",
-      "_glink": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBFZHhxak1fZFpadUdCazc5M04wTmhsZHpZZnVMbGVQRDlfY3F5Z0VaVDQ1OVhLWXNjVVJzMlNnQWUyV1NDUmlzUlhtcWpiUnhVYWRRcGI4QmQ4dGkwd1pETlI2WXJzVkF1dzdEUA?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBFZHhxak1fZFpadUdCazc5M04wTmhsZHpZZnVMbGVQRDlfY3F5Z0VaVDQ1OVhLWXNjVVJzMlNnQWUyV1NDUmlzUlhtcWpiUnhVYWRRcGI4QmQ4dGkwd1pETlI2WXJzVkF1dzdEUA?oc=5",
+      "_glink": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObzJRSjIwSENmM2NidXdBcFNNZVRCcE5BTk9FQkFwOFA5NmNybUd0VTVPWllkYnpuNE1RS3NsaV85MHhYd2xmWld3VzNZdVNHam1tLS1IQ2ZpUXo5SmpVYUZyT19MZS1EbmdKUlFvSGpVMl9RZlNpZXNzdGttZW42Mk5ZZFZxNmhh?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObzJRSjIwSENmM2NidXdBcFNNZVRCcE5BTk9FQkFwOFA5NmNybUd0VTVPWllkYnpuNE1RS3NsaV85MHhYd2xmWld3VzNZdVNHam1tLS1IQ2ZpUXo5SmpVYUZyT19MZS1EbmdKUlFvSGpVMl9RZlNpZXNzdGttZW42Mk5ZZFZxNmhh?oc=5",
       "category": "統計",
-      "topic": "insurance"
-    },
-    {
-      "title": "マイナンバーカードの健康保険証利用について - pref.kyoto.jp",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1rQXM2aGJTUDFHbng3b3h3c0l2ZDhLSFpIMFktRWxpRGFhdWtTMGVsVXR4TWlCeHlnMUd3ZWo2X1hPcTNGUUUxRW94cm1yRl93RURYUUYtNGNlU2lfZlUwc19B?oc=5",
-      "pub_date": "2026-07-21T16:00:00+09:00",
-      "source": "pref.kyoto.jp",
-      "description": "9月19日からスマートフォンでのマイナ保険証が開始しており、一部医療機関や薬局での利用が可能になっている。紙やプラスチック製の健康保険証が実質的に廃止となる今年12月以降、マイナンバーカードや同機能を搭載したスマートフォンを医療機関で ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1rQXM2aGJTUDFHbng3b3h3c0l2ZDhLSFpIMFktRWxpRGFhdWtTMGVsVXR4TWlCeHlnMUd3ZWo2X1hPcTNGUUUxRW94cm1yRl93RURYUUYtNGNlU2lfZlUwc19B?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1rQXM2aGJTUDFHbng3b3h3c0l2ZDhLSFpIMFktRWxpRGFhdWtTMGVsVXR4TWlCeHlnMUd3ZWo2X1hPcTNGUUUxRW94cm1yRl93RURYUUYtNGNlU2lfZlUwc19B?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "暫定措置は7月で終了へ…「資格確認書」「マイナ保険証」迫るタイムリミットの対処法 - スマートニュース",
-      "link": "https://news.google.com/rss/articles/CBMiwARBVV95cUxQbVdsOFpCYXdPeUdKOFZyUUR0Q29zT1ExT1RhNS1PSnVsUTRVcnJCT19LQzlkXzlxUEgxRk1vWUZPYmNHMkNXSHNEZWg3ZFZwRHM0Sy1BSlh1UmFvMkwwMGZxZnZaQUd5dDRObDRIdTFzdmhJQVdNdzljcE5HbVpBT2paVWxmOUFqWXhqNFpTckJURGtxVTd6OFNQRlhsT1pTcG1pdHlMOWwwZGItWFlOQ3FBdzYzN1A3aVFZZGxiOGx2V1RyN1dMYmhlb1k1U3NtMEFCSlYwZE8xdktaVlNjN2FBLTdKRWtYWW1JLVdNbnlSUmlfckc4Y3MzNGpFU0VtN21GZW9sMGRyaTA2VEh6QkVSa0tpdzFKZjFTRVlXd1dtb0F1TnIzZG5yY0RCcmVuSmNWTXQtZXc1M2MyNF8yUVRwd0EyUXF1THFSYW8weDJYUHZjWGZGTXJkczk2YjZ1UzhiYlFyM1VsRGVIXzBTYXlGWjZ5WjZQVmluNURadTdxSnpiNkx4RldzS0FueExsZUt4Mkd6SE01Q2g5bHJQdHhMczhTUVJzSmdONGFzWENVSmdsQTl4Y2s1VFNpSXp2MGg0RUl2aDVlUG0zTkF2MUZRVk1uRFUzZmpTZmZxYzVvbG9tWlZiR1NjVGhhdDczRDIyNmZqTjRtcjAwdXNVRHIyaUlHank0b3BBZGd1M0NRREpnMC1naG8yVEtRNGdPYnIwb1ppdndhX0cwa2ZGRXdvdTc4bjRaSTd2TXViZWQ?oc=5",
-      "pub_date": "2026-07-21T16:00:00+09:00",
-      "source": "スマートニュース",
-      "description": "マイナ保険証への移行に伴い、従来の健康保険証を医療機関に持参した場合に保険診療が受けられる暫定措置が7月末で終了する。8月以降、健康保険証のみ持参し、その場で保険資格が確認できない場合は、いったん全額自費となる。 厚生労働省は1日、全国 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiwARBVV95cUxQbVdsOFpCYXdPeUdKOFZyUUR0Q29zT1ExT1RhNS1PSnVsUTRVcnJCT19LQzlkXzlxUEgxRk1vWUZPYmNHMkNXSHNEZWg3ZFZwRHM0Sy1BSlh1UmFvMkwwMGZxZnZaQUd5dDRObDRIdTFzdmhJQVdNdzljcE5HbVpBT2paVWxmOUFqWXhqNFpTckJURGtxVTd6OFNQRlhsT1pTcG1pdHlMOWwwZGItWFlOQ3FBdzYzN1A3aVFZZGxiOGx2V1RyN1dMYmhlb1k1U3NtMEFCSlYwZE8xdktaVlNjN2FBLTdKRWtYWW1JLVdNbnlSUmlfckc4Y3MzNGpFU0VtN21GZW9sMGRyaTA2VEh6QkVSa0tpdzFKZjFTRVlXd1dtb0F1TnIzZG5yY0RCcmVuSmNWTXQtZXc1M2MyNF8yUVRwd0EyUXF1THFSYW8weDJYUHZjWGZGTXJkczk2YjZ1UzhiYlFyM1VsRGVIXzBTYXlGWjZ5WjZQVmluNURadTdxSnpiNkx4RldzS0FueExsZUt4Mkd6SE01Q2g5bHJQdHhMczhTUVJzSmdONGFzWENVSmdsQTl4Y2s1VFNpSXp2MGg0RUl2aDVlUG0zTkF2MUZRVk1uRFUzZmpTZmZxYzVvbG9tWlZiR1NjVGhhdDczRDIyNmZqTjRtcjAwdXNVRHIyaUlHank0b3BBZGd1M0NRREpnMC1naG8yVEtRNGdPYnIwb1ppdndhX0cwa2ZGRXdvdTc4bjRaSTd2TXViZWQ?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiwARBVV95cUxQbVdsOFpCYXdPeUdKOFZyUUR0Q29zT1ExT1RhNS1PSnVsUTRVcnJCT19LQzlkXzlxUEgxRk1vWUZPYmNHMkNXSHNEZWg3ZFZwRHM0Sy1BSlh1UmFvMkwwMGZxZnZaQUd5dDRObDRIdTFzdmhJQVdNdzljcE5HbVpBT2paVWxmOUFqWXhqNFpTckJURGtxVTd6OFNQRlhsT1pTcG1pdHlMOWwwZGItWFlOQ3FBdzYzN1A3aVFZZGxiOGx2V1RyN1dMYmhlb1k1U3NtMEFCSlYwZE8xdktaVlNjN2FBLTdKRWtYWW1JLVdNbnlSUmlfckc4Y3MzNGpFU0VtN21GZW9sMGRyaTA2VEh6QkVSa0tpdzFKZjFTRVlXd1dtb0F1TnIzZG5yY0RCcmVuSmNWTXQtZXc1M2MyNF8yUVRwd0EyUXF1THFSYW8weDJYUHZjWGZGTXJkczk2YjZ1UzhiYlFyM1VsRGVIXzBTYXlGWjZ5WjZQVmluNURadTdxSnpiNkx4RldzS0FueExsZUt4Mkd6SE01Q2g5bHJQdHhMczhTUVJzSmdONGFzWENVSmdsQTl4Y2s1VFNpSXp2MGg0RUl2aDVlUG0zTkF2MUZRVk1uRFUzZmpTZmZxYzVvbG9tWlZiR1NjVGhhdDczRDIyNmZqTjRtcjAwdXNVRHIyaUlHank0b3BBZGd1M0NRREpnMC1naG8yVEtRNGdPYnIwb1ppdndhX0cwa2ZGRXdvdTc4bjRaSTd2TXViZWQ?oc=5",
-      "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "【画像まとめ】保険証が7月末で利用できなくなる？10割負担のケースも…必要な手続きは - テレ朝NEWS",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5JX01SNWVEVFVHTWYyV0YtWEdKSEU2ejRiMXhLbGdwSW5pcDZSTmM5T25iY2ltMEo3Uk43X253Q0JZd2FraFJsTm5rUS1zSjFrdDFFMmJ2XzFpamRpcE1BVEt6RHYtdzNTQXdwalZxeWROV3UydlQ0N19uaw?oc=5",
-      "pub_date": "2026-07-21T16:00:00+09:00",
-      "source": "テレ朝NEWS",
-      "description": "「マイナ保険証」への移行に伴う暫定措置が間もなく終了する。8月からは従来の健康保険証を医療機関に持参した場合、医療費全額の10割負担を求められるかもしれない。安心して受診するためにも、気を付けたい二つのポイントを紹介する。 従来の保険証 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5JX01SNWVEVFVHTWYyV0YtWEdKSEU2ejRiMXhLbGdwSW5pcDZSTmM5T25iY2ltMEo3Uk43X253Q0JZd2FraFJsTm5rUS1zSjFrdDFFMmJ2XzFpamRpcE1BVEt6RHYtdzNTQXdwalZxeWROV3UydlQ0N19uaw?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5JX01SNWVEVFVHTWYyV0YtWEdKSEU2ejRiMXhLbGdwSW5pcDZSTmM5T25iY2ltMEo3Uk43X253Q0JZd2FraFJsTm5rUS1zSjFrdDFFMmJ2XzFpamRpcE1BVEt6RHYtdzNTQXdwalZxeWROV3UydlQ0N19uaw?oc=5",
-      "category": "使い方",
-      "topic": "insurance"
-    },
-    {
-      "title": "保険証が7月末で利用できなくなる？10割負担のケースも…必要な手続きは - テレ朝NEWS",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5fZnRIc3hKclRsaWJNZXNRdXY0Q2tQS3NWY1BJM2xDWGdfUHVFUmVneVdwbnBHdHc1Z1FnNG9sRU9ueDNXYXRsZ1VOaFc2YXdzUUp3YjMtQlcxbTkwYVo0MDJzZ3U2d0VMZ0ZjVWdBdWIxZw?oc=5",
-      "pub_date": "2026-07-21T16:00:00+09:00",
-      "source": "テレ朝NEWS",
-      "description": "今月末で、健康保険証が使えなくなる人が出てくるといいます。場合によっては10割負担も？気になる疑問を専門家がずばり解決します。月末で終了？保険証の疑問 街の老若男女に聞きました。あなたは「マイナ保険証」を持っていますか？80代「（Q.マイナ保険証は？",
-      "_glink": "https://news.google.com/rss/articles/CBMickFVX3lxTE5fZnRIc3hKclRsaWJNZXNRdXY0Q2tQS3NWY1BJM2xDWGdfUHVFUmVneVdwbnBHdHc1Z1FnNG9sRU9ueDNXYXRsZ1VOaFc2YXdzUUp3YjMtQlcxbTkwYVo0MDJzZ3U2d0VMZ0ZjVWdBdWIxZw?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5fZnRIc3hKclRsaWJNZXNRdXY0Q2tQS3NWY1BJM2xDWGdfUHVFUmVneVdwbnBHdHc1Z1FnNG9sRU9ueDNXYXRsZ1VOaFc2YXdzUUp3YjMtQlcxbTkwYVo0MDJzZ3U2d0VMZ0ZjVWdBdWIxZw?oc=5",
-      "category": "使い方",
-      "topic": "insurance"
-    },
-    {
-      "title": "マイナ保険証の暫定措置が7月末で終了！8月から受診に必要なもの・10割負担を避けるポイントを解説 - 補助金ポータル",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE14X2RvM3VUZUlWb3RKaWlST0ZJaXA2Qm9tOW5TY210c0daLUFtbjBMdzlfN2VfdndWZzlWOEg3RTBpWU1UaGpsSXJ0VTdkdHNTT3M3Skp3dHNHampHMTNBWmhfYVk0QQ?oc=5",
-      "pub_date": "2026-07-21T16:00:00+09:00",
-      "source": "補助金ポータル",
-      "description": "厚生労働省は社会保障審議会の医療保険部会にマイナ保険証の利用率を報告した 厚生労働省は18日、マイナンバーカードと健康保険証を一体にした「マイナ保険証」の4月の利用率が68.15%だったと報告した。紙やプラスチックの保険証を持参した場合も1〜3割 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE14X2RvM3VUZUlWb3RKaWlST0ZJaXA2Qm9tOW5TY210c0daLUFtbjBMdzlfN2VfdndWZzlWOEg3RTBpWU1UaGpsSXJ0VTdkdHNTT3M3Skp3dHNHampHMTNBWmhfYVk0QQ?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE14X2RvM3VUZUlWb3RKaWlST0ZJaXA2Qm9tOW5TY210c0daLUFtbjBMdzlfN2VfdndWZzlWOEg3RTBpWU1UaGpsSXJ0VTdkdHNTT3M3Skp3dHNHampHMTNBWmhfYVk0QQ?oc=5",
-      "category": "統計",
-      "topic": "insurance"
-    },
-    {
-      "title": "令和8年度 後期高齢者医療資格確認書 - vill.kitanakagusuku.lg.jp",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1aUHdwc0ZtUWQzdnVRLTJDUEZObk5WOXZVaWZPaDIyQmg4UmY4czZwZFE0bXN2WFdfcldmQnFSc0FXTmFTQTdFSklBXzJPY2pKVk9TQllWbkk2V0ZnN25yX0xfTUh5VlBVcDhraVNXcm44SVVXdk1hYllJdEZrZw?oc=5",
-      "pub_date": "2026-07-21T16:00:00+09:00",
-      "source": "vill.kitanakagusuku.lg.jp",
-      "description": "2026年4月10日、厚生労働省より令和8・9年度の後期高齢者医療制度の保険料率について発表されました。 【写真】後期高齢者医療保険料＆子ども・子育て支援金（令和8・9年度）都道府県別被保険者ひとり当たりの平均保険料額は全国平均で月額7989円となる ...",
-      "_glink": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1aUHdwc0ZtUWQzdnVRLTJDUEZObk5WOXZVaWZPaDIyQmg4UmY4czZwZFE0bXN2WFdfcldmQnFSc0FXTmFTQTdFSklBXzJPY2pKVk9TQllWbkk2V0ZnN25yX0xfTUh5VlBVcDhraVNXcm44SVVXdk1hYllJdEZrZw?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1aUHdwc0ZtUWQzdnVRLTJDUEZObk5WOXZVaWZPaDIyQmg4UmY4czZwZFE0bXN2WFdfcldmQnFSc0FXTmFTQTdFSklBXzJPY2pKVk9TQllWbkk2V0ZnN25yX0xfTUh5VlBVcDhraVNXcm44SVVXdk1hYllJdEZrZw?oc=5",
-      "category": "一般",
       "topic": "insurance"
     }
   ]
