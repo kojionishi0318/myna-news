@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T23:19:39+09:00",
+  "updated": "2026-10-23T12:12:57+09:00",
   "articles": [
     {
       "title": "建設省が建設業資格証明書の発行条件について回答 - Laodong.vn",
@@ -272,6 +272,16 @@
       "_glink": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5URmhoTk1yU2VrMXhtMEU0cmtSSTNVYmRYYzBUYzhIWDVCZE01Tmt1SHlBaFprUG1iZ05Fa05tLTJMTmlKNnRkaUhqYTg5UHpTTUE?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5URmhoTk1yU2VrMXhtMEU0cmtSSTNVYmRYYzBUYzhIWDVCZE01Tmt1SHlBaFprUG1iZ05Fa05tLTJMTmlKNnRkaUhqYTg5UHpTTUE?oc=5",
       "category": "統計",
+      "topic": "mynumber"
+    },
+    {
+      "title": "意見招請：令和9年度マイナアプリおよび PC 版マイナポータルアプリの運用・保守業務一式を掲載しました",
+      "link": "https://www.digital.go.jp/procurement",
+      "pub_date": "2026-10-16T15:00:00+09:00",
+      "source": "デジタル庁",
+      "description": "日本商工会議所（小林健会頭）は、この度「令和9年度税制改正に関する意見」を取りまとめ、本日公表いたしました。 意見書では、わが国経済が成長型経済への転換に向けた重要な局面を迎えているが、中小企業は構造的な人手不足やエネルギー・原材料 ...",
+      "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
+      "category": "一般",
       "topic": "mynumber"
     },
     {
@@ -5398,6 +5408,28 @@
       "topic": "insurance"
     },
     {
+      "title": "病院・薬局の受付でスマホタッチ、パナソニックが新型マイナ保険証リーダー発表 - ケータイ Watch",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TRWcyaE1NRkpUUzg4allNcHo5ZENJWW43Y2RhMFYtcjBYWWdHdThMLVhFV2prbWxkM2hQbWlKNG83QXNqNlVRRHFPMEh6M0ZJXy11MUJ4YXZ2T1F0b3ZKWTNmUEJkZmM?oc=5",
+      "pub_date": "2026-07-23T16:00:00+09:00",
+      "source": "ケータイ Watch",
+      "description": "パナソニック コネクトは、医療機関・薬局向け「顔認証付きカードリーダー」の新モデルを8月24日に発売する。価格は顔認証付きカードリーダーが379,500円。専用外付けテンキーが18,700円。 スマートフォンのマイナンバーカードの読み取り機能 ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TRWcyaE1NRkpUUzg4allNcHo5ZENJWW43Y2RhMFYtcjBYWWdHdThMLVhFV2prbWxkM2hQbWlKNG83QXNqNlVRRHFPMEh6M0ZJXy11MUJ4YXZ2T1F0b3ZKWTNmUEJkZmM?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TRWcyaE1NRkpUUzg4allNcHo5ZENJWW43Y2RhMFYtcjBYWWdHdThMLVhFV2prbWxkM2hQbWlKNG83QXNqNlVRRHFPMEh6M0ZJXy11MUJ4YXZ2T1F0b3ZKWTNmUEJkZmM?oc=5",
+      "category": "一般",
+      "topic": "insurance"
+    },
+    {
+      "title": "マイナ保険証への切り替え - 税理士法人 浅田会計事務所",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1GWm8xOGFCMWQ1V1NySjFFTHdqZm1NT082VG9SRzhBUjZGN1JrUTNULU1xZkxvNC1GQndycFM3RTlqNTdjcVRWWExSZ0RKQlVDY1JKMGprMA?oc=5",
+      "pub_date": "2026-07-23T16:00:00+09:00",
+      "source": "税理士法人 浅田会計事務所",
+      "description": "紙など従来の健康保険証が今月いっぱいで使えなくなり、8月からマイナンバーカード（マイナカード）に保険証機能を登録した「マイナ保険証」に完全移行する。移行の経緯や注意すべき点などを解説する。 医療の質向上などメリット多い 従来の健康 ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1GWm8xOGFCMWQ1V1NySjFFTHdqZm1NT082VG9SRzhBUjZGN1JrUTNULU1xZkxvNC1GQndycFM3RTlqNTdjcVRWWExSZ0RKQlVDY1JKMGprMA?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1GWm8xOGFCMWQ1V1NySjFFTHdqZm1NT082VG9SRzhBUjZGN1JrUTNULU1xZkxvNC1GQndycFM3RTlqNTdjcVRWWExSZ0RKQlVDY1JKMGprMA?oc=5",
+      "category": "制度変更",
+      "topic": "insurance"
+    },
+    {
       "title": "スマホ認証機構と資格確認用PCを内蔵した新型「顔認証付きカードリーダー」を発表：医療機器ニュース（1/2 ページ） - MONOist",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE51bFBaSjBQNDJ5WFVuT2lQU1ZDV1ZVLWN2MDhOazdsY3djRU5LaEtReWMtb21LRUNfSVlVNzhfUlB3RjVoMVhmZ0VTa0tRRFBteUtqVjByY1J1YjJpalRNc3U3YnZNbjJwZnNwa0lLOA?oc=5",
       "pub_date": "2026-07-23T16:00:00+09:00",
@@ -5439,39 +5471,6 @@
       "_glink": "https://news.google.com/rss/articles/CBMif0FVX3lxTE02OEVzVjNwY3VGMmlNR3Z3WFZvS3dvQ1NKWHVCa01weHYxNUZPQ2psZlBIUExSR0hId1lDaVJPZzBmSldoZmNsZjdGS21aWEZ0RnVNOF9oN2RKM0hVNm13Smo0dWZybFdKbmtCck5MVW5EaHJjYWJhWjE4NW9sZjg?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE02OEVzVjNwY3VGMmlNR3Z3WFZvS3dvQ1NKWHVCa01weHYxNUZPQ2psZlBIUExSR0hId1lDaVJPZzBmSldoZmNsZjdGS21aWEZ0RnVNOF9oN2RKM0hVNm13Smo0dWZybFdKbmtCck5MVW5EaHJjYWJhWjE4NW9sZjg?oc=5",
       "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "パナソニック、病院向け「マイナ保険証リーダー」刷新 PC内蔵で省スペース化 スマホ対応 - CNET Japan",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0zRDZyTnpJbDNHYkE0ejNnN3dLRFo4MThLczZlYzJpYmJYdE1xSWNMMEY1X3BKTm1SMzdUVUUzNVBCelNlNnVleUxQRjZOdUpCZGc?oc=5",
-      "pub_date": "2026-07-23T16:00:00+09:00",
-      "source": "CNET Japan",
-      "description": "パナソニック コネクトは7月22日、医療機関・薬局向け「顔認証付きカードリーダー」の新モデル（XC-STFR3J-MN）を発表した。8月24日に発売する。直販価格は37万9500円（税込）。 目玉は、読み取った保険資格情報を確認するための専用PC「資格確認端末」を本体に内蔵した点だ。",
-      "_glink": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0zRDZyTnpJbDNHYkE0ejNnN3dLRFo4MThLczZlYzJpYmJYdE1xSWNMMEY1X3BKTm1SMzdUVUUzNVBCelNlNnVleUxQRjZOdUpCZGc?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0zRDZyTnpJbDNHYkE0ejNnN3dLRFo4MThLczZlYzJpYmJYdE1xSWNMMEY1X3BKTm1SMzdUVUUzNVBCelNlNnVleUxQRjZOdUpCZGc?oc=5",
-      "category": "一般",
-      "topic": "insurance"
-    },
-    {
-      "title": "マイナンバーカードを持ち歩くのが面倒な人が「今すぐやるべきこと」 - ダイヤモンド・オンライン",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MZDdjajFXd0ZGbTJLVFZ5TWJjbEI2WmJyejFqcnpOVHdhclF2M0ZDQjdMUnZUVXMzY3VxbkRzVmQ1QjQwUHBHRjFoZHlmLTA5SmRqRW530gFPQVVfeXFMTTRiLURGcUFrZm9CSXY3MEJTUlVITFdCOGdUa0dMcTFjWGptUzNBSkEwVnk1RV9WVThXTWpVNVdGbmxZRk9GU0lrNjA2QWZwNA?oc=5",
-      "pub_date": "2026-07-23T16:00:00+09:00",
-      "source": "ダイヤモンド・オンライン",
-      "description": "7月31日、100年続いた従来の健康保険証が、その役目を終える。公的医療保険の加入先を確認する方法が、マイナ保険証や資格確認書に切り替わったことに伴い、期限切れの健康保険証でも受診できる特例措置が完全に終了する。連載『医療費の裏ワザと落とし穴』309 ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MZDdjajFXd0ZGbTJLVFZ5TWJjbEI2WmJyejFqcnpOVHdhclF2M0ZDQjdMUnZUVXMzY3VxbkRzVmQ1QjQwUHBHRjFoZHlmLTA5SmRqRW530gFPQVVfeXFMTTRiLURGcUFrZm9CSXY3MEJTUlVITFdCOGdUa0dMcTFjWGptUzNBSkEwVnk1RV9WVThXTWpVNVdGbmxZRk9GU0lrNjA2QWZwNA?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MZDdjajFXd0ZGbTJLVFZ5TWJjbEI2WmJyejFqcnpOVHdhclF2M0ZDQjdMUnZUVXMzY3VxbkRzVmQ1QjQwUHBHRjFoZHlmLTA5SmRqRW530gFPQVVfeXFMTTRiLURGcUFrZm9CSXY3MEJTUlVITFdCOGdUa0dMcTFjWGptUzNBSkEwVnk1RV9WVThXTWpVNVdGbmxZRk9GU0lrNjA2QWZwNA?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "保険証終了「知らない」約5.5割、手続き未完了が約5割。マイナ保険証移行、「認知」と「手続き完了」の両方が追いついていない実態 - PR TIMES",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9NeFMyQTcxcG9lQnh1SUkza1hHZHdJV1N0d0RIbjJHM3BaMjNOc1FEYmpUTkszZU83dEcxMnZBbExZajJ4WVZLcmk3ZzdYbEpTRTdfeEtuc0hfWl92VFlpblBSRmRqcXI2R1E?oc=5",
-      "pub_date": "2026-07-23T16:00:00+09:00",
-      "source": "PR TIMES",
-      "description": "一般社団法人 終活協議会は、終活ガイド資格を取得している1,035名を対象に、「保険の見直し」に関する実態調査を実施しました。終活の現場に近い層のリアルな声として、保険の見直し状況を可視化しています。 一般社団法人 終活協議会／想い ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9NeFMyQTcxcG9lQnh1SUkza1hHZHdJV1N0d0RIbjJHM3BaMjNOc1FEYmpUTkszZU83dEcxMnZBbExZajJ4WVZLcmk3ZzdYbEpTRTdfeEtuc0hfWl92VFlpblBSRmRqcXI2R1E?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9NeFMyQTcxcG9lQnh1SUkza1hHZHdJV1N0d0RIbjJHM3BaMjNOc1FEYmpUTkszZU83dEcxMnZBbExZajJ4WVZLcmk3ZzdYbEpTRTdfeEtuc0hfWl92VFlpblBSRmRqcXI2R1E?oc=5",
-      "category": "制度変更",
       "topic": "insurance"
     }
   ]

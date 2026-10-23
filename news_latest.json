@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T23:19:39+09:00",
+  "updated": "2026-10-23T12:12:57+09:00",
   "articles": [
     {
       "title": "建設省が建設業資格証明書の発行条件について回答 - Laodong.vn",
@@ -275,6 +275,16 @@
       "topic": "mynumber"
     },
     {
+      "title": "意見招請：令和9年度マイナアプリおよび PC 版マイナポータルアプリの運用・保守業務一式を掲載しました",
+      "link": "https://www.digital.go.jp/procurement",
+      "pub_date": "2026-10-16T15:00:00+09:00",
+      "source": "デジタル庁",
+      "description": "日本商工会議所（小林健会頭）は、この度「令和9年度税制改正に関する意見」を取りまとめ、本日公表いたしました。 意見書では、わが国経済が成長型経済への転換に向けた重要な局面を迎えているが、中小企業は構造的な人手不足やエネルギー・原材料 ...",
+      "thumbnail": "https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png",
+      "category": "一般",
+      "topic": "mynumber"
+    },
+    {
       "title": "健康保険組合手続のe-Govへの移行時期が延期 時期は未定 - 創業手帳株式会社",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9sb3MwMmNfR3U4NmQyN3lILTVRSWV3UGpwUjBPMXY0VmNpZFlFcnJVR01nV1ExOXBsTEhWRDNNOUc5RmJzU1k4d0dhY05oTzFGTkxB?oc=5",
       "pub_date": "2026-10-15T13:51:03+09:00",
@@ -535,17 +545,6 @@
       "_resolved_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBLSlVwcS1iU1JtTi1rbk9sUVVsVVRhX2NQY0lHZFN1UUxoaFlacEktdU5yYlJDVVFjODVpLVN2RlRWMUNERzVMbXZ6aV9RcHVSXzU2MXRmbGZNdkFNZ0hz?oc=5",
       "category": "使い方",
       "topic": "mynumber"
-    },
-    {
-      "title": "リコーPFU、オンライン資格確認端末「RICOH EZX2100」今冬発売 ソフト組込で設定負担軽減 - 医療テックニュース",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5fNEhFSHQxVmNiR0hhR0tlN2ZRN0xNZGdUSElmSUlyaXNrcUlobVI3ZkwxRE9BNGcwbjdhemxfUG5KYW1DRnJ4Sy1hRDVEaXhqX1o5NWNvMHhZYk9wLWhNYWpDR21ERXFEcW11c2Zn?oc=5",
-      "pub_date": "2026-10-03T02:03:08+09:00",
-      "source": "医療テックニュース",
-      "description": "リコーPFUコンピューティング（神奈川・海老名市）は10月2日、医療機関・薬局向けのオンライン資格確認専用PC「RICOH EZX2100」を今冬に発売すると発表した。小型きょう体を採用し、必要なソフトウエアを組み込んで提供する。長期供給や5年間の保守も行う。",
-      "_glink": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5fNEhFSHQxVmNiR0hhR0tlN2ZRN0xNZGdUSElmSUlyaXNrcUlobVI3ZkwxRE9BNGcwbjdhemxfUG5KYW1DRnJ4Sy1hRDVEaXhqX1o5NWNvMHhZYk9wLWhNYWpDR21ERXFEcW11c2Zn?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5fNEhFSHQxVmNiR0hhR0tlN2ZRN0xNZGdUSElmSUlyaXNrcUlobVI3ZkwxRE9BNGcwbjdhemxfUG5KYW1DRnJ4Sy1hRDVEaXhqX1o5NWNvMHhZYk9wLWhNYWpDR21ERXFEcW11c2Zn?oc=5",
-      "category": "一般",
-      "topic": "insurance"
     }
   ],
   "total": 500
