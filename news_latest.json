@@ -1,6 +1,17 @@
 {
-  "updated": "2026-10-23T12:12:57+09:00",
+  "updated": "2026-10-23T23:02:55+09:00",
   "articles": [
+    {
+      "title": "teppay、本人確認はなぜマイナンバーカードだけ？ JR東に理由を聞いた - ITmedia",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1FRFF3SXJiQ2JTY1ZubXVvMHBteXd0YkFicVhRck5ueDlWMjlsUzBFY2NMS0pGNDhueXdPSGZVclUxdEVNdEs0OVd3YnE3RngwbDBrNkZLQXhlU1FtTE41cDFIeWlXSS1Wdmc?oc=5",
+      "pub_date": "2026-10-23T15:56:23+09:00",
+      "source": "ITmedia",
+      "description": "JR東日本が10月20日に始めたコード決済サービス「teppay」（テッペイ）では、本人確認（eKYC）に使える書類をマイナンバーカードのみとしており、運転免許証やパスポート、健康保険証などは使えない。なぜマイナンバーカードに限定したのか。ITmed ...",
+      "_glink": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1FRFF3SXJiQ2JTY1ZubXVvMHBteXd0YkFicVhRck5ueDlWMjlsUzBFY2NMS0pGNDhueXdPSGZVclUxdEVNdEs0OVd3YnE3RngwbDBrNkZLQXhlU1FtTE41cDFIeWlXSS1Wdmc?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1FRFF3SXJiQ2JTY1ZubXVvMHBteXd0YkFicVhRck5ueDlWMjlsUzBFY2NMS0pGNDhueXdPSGZVclUxdEVNdEs0OVd3YnE3RngwbDBrNkZLQXhlU1FtTE41cDFIeWlXSS1Wdmc?oc=5",
+      "category": "トラブル",
+      "topic": "insurance"
+    },
     {
       "title": "建設省が建設業資格証明書の発行条件について回答 - Laodong.vn",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQVp3djFubVktVDVCRmFKQTh3dEpiTDNpd3ZuSGZxSEFYbU1fWHFTUzhmQ1R5bTRKT3FITG5pckxEdWIxd3FYSmFWakM2dC1EYXMzNTRpMUpBZEs0RXFmRGFEanZKcnF0ck1PZVc3TzV3VnI3SEd3cFFON3JfaGxneWZOZkdsNHFSeTBuTk1UUlJqS3RDZ3gzanB4VTQ2RXh3MFVGQWlnYnBOa0xESkZF?oc=5",
@@ -533,17 +544,6 @@
       "_glink": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9FMUI2T3pGUVpaQVBUb2dLanN6WE5zejR3NmV3MFFqanJ6dXk4RDB4N2xrWXVOZ0pkeGhIT3FGRk5NNHRRamlEV2JQUnI?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9FMUI2T3pGUVpaQVBUb2dLanN6WE5zejR3NmV3MFFqanJ6dXk4RDB4N2xrWXVOZ0pkeGhIT3FGRk5NNHRRamlEV2JQUnI?oc=5",
       "category": "一般",
-      "topic": "mynumber"
-    },
-    {
-      "title": "市川市 マイナンバーカード｜申請・受け取り・更新・便利な使い方をまとめて解説 - 選挙ドットコム",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBLSlVwcS1iU1JtTi1rbk9sUVVsVVRhX2NQY0lHZFN1UUxoaFlacEktdU5yYlJDVVFjODVpLVN2RlRWMUNERzVMbXZ6aV9RcHVSXzU2MXRmbGZNdkFNZ0hz?oc=5",
-      "pub_date": "2026-10-03T07:04:22+09:00",
-      "source": "選挙ドットコム",
-      "description": "シフトプラス株式会社（代表取締役：中尾 裕也、本店：宮崎県都城市宮丸町3070番地1／本社：大阪府大阪市西区江戸堀2丁目1番1号江戸堀センタービル8階／以下シフトプラス）は、自治体業務の効率化と住民サービス向上を支援する汎用予約システム ...",
-      "_glink": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBLSlVwcS1iU1JtTi1rbk9sUVVsVVRhX2NQY0lHZFN1UUxoaFlacEktdU5yYlJDVVFjODVpLVN2RlRWMUNERzVMbXZ6aV9RcHVSXzU2MXRmbGZNdkFNZ0hz?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBLSlVwcS1iU1JtTi1rbk9sUVVsVVRhX2NQY0lHZFN1UUxoaFlacEktdU5yYlJDVVFjODVpLVN2RlRWMUNERzVMbXZ6aV9RcHVSXzU2MXRmbGZNdkFNZ0hz?oc=5",
-      "category": "使い方",
       "topic": "mynumber"
     }
   ],
