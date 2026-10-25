@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T12:01:59+09:00",
+  "updated": "2026-10-25T22:33:10+09:00",
   "articles": [
     {
       "title": "teppay、本人確認はなぜマイナンバーカードだけ？ JR東に理由を聞いた - ITmedia",
@@ -5408,6 +5408,17 @@
       "topic": "insurance"
     },
     {
+      "title": "従来の健康保険証は7月31日で利用不可に　8月1日以降は「マイナ保険証」「資格確認書」の利用を - ITmedia Mobile - ITmedia",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5GWEdUaHVLcmZRQ0RDSFhpTHZnYUtLdzVGSF92dHM2ZWJBQ3lzYjBpYnQ4c1JxSnNyNlZQUWNrWUlfWlFLTzhWU2NnUHY4QWZ4WTJOWHJvbFJGZl9USi1laVRLckZNN3pPME0yMmp6TdIBaEFVX3lxTE1zTlE2dWlIbmQ5RVBCbkxDem5Oa2M1d29Tc016Z0ZPdlFsT3kxcHREekY5WjRXS3FfZnI2QV9mbjAwMG5YM2dJOElDUndlZTQ0bktIYV84c3g1bkNzZW9Iczg0MFdPdzNU?oc=5",
+      "pub_date": "2026-07-24T16:00:00+09:00",
+      "source": "ITmedia",
+      "description": "8月1日より、医療機関や薬局での受診時に「有効期限切れの従来の健康保険証」が一切使えなくなる。それに伴い、マイナ保険証や代替手段である「資格確認書」を持たずに受診した場合、保険証を忘れた場合と同様の対応となり、一時的に医療費を全額 ...",
+      "_glink": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5GWEdUaHVLcmZRQ0RDSFhpTHZnYUtLdzVGSF92dHM2ZWJBQ3lzYjBpYnQ4c1JxSnNyNlZQUWNrWUlfWlFLTzhWU2NnUHY4QWZ4WTJOWHJvbFJGZl9USi1laVRLckZNN3pPME0yMmp6TdIBaEFVX3lxTE1zTlE2dWlIbmQ5RVBCbkxDem5Oa2M1d29Tc016Z0ZPdlFsT3kxcHREekY5WjRXS3FfZnI2QV9mbjAwMG5YM2dJOElDUndlZTQ0bktIYV84c3g1bkNzZW9Iczg0MFdPdzNU?oc=5",
+      "_resolved_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5GWEdUaHVLcmZRQ0RDSFhpTHZnYUtLdzVGSF92dHM2ZWJBQ3lzYjBpYnQ4c1JxSnNyNlZQUWNrWUlfWlFLTzhWU2NnUHY4QWZ4WTJOWHJvbFJGZl9USi1laVRLckZNN3pPME0yMmp6TdIBaEFVX3lxTE1zTlE2dWlIbmQ5RVBCbkxDem5Oa2M1d29Tc016Z0ZPdlFsT3kxcHREekY5WjRXS3FfZnI2QV9mbjAwMG5YM2dJOElDUndlZTQ0bktIYV84c3g1bkNzZW9Iczg0MFdPdzNU?oc=5",
+      "category": "制度変更",
+      "topic": "insurance"
+    },
+    {
       "title": "【マイナ保険証】“紙”のままだと8月から10割負担も？医師「特に初診は注意」救済措置はある??持っていない人は『資格確認書』を要チェック - TBS NEWS DIG",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zWlVqbHFSQTYzbk9id2llZjhJa0IzenN4MkNSZVZ4NXZUS1huaFFWWE5jVG8td2dXUHpEOWZtWlVpNG5Mb0VSV1Z1S1JlM3lZR0ZGcTNkeXlxemlGNjNhYQ?oc=5",
       "pub_date": "2026-07-24T16:00:00+09:00",
@@ -5459,17 +5470,6 @@
       "description": "従来型の健康保険証が有効期限を迎え、マイナンバーカードに保険証機能が一体化した「マイナ保険証」を基本とする仕組みに2日、完全に移行する。持っていない人については、自治体や健康保険組合などが発行した「資格確認書」を提示することで受診 ...",
       "_glink": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1oYkp0SUJnMzdKTFNIRWIzekpJN2s2MnpfWmk0aGotNG4xcG9sYzRVQ1p3UC1Zb29pNjQ5RlVGTmx4aWJRWWhuOGgtM3NEQ1RKQnlNVWJfcGNXNzQ?oc=5",
       "_resolved_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1oYkp0SUJnMzdKTFNIRWIzekpJN2s2MnpfWmk0aGotNG4xcG9sYzRVQ1p3UC1Zb29pNjQ5RlVGTmx4aWJRWWhuOGgtM3NEQ1RKQnlNVWJfcGNXNzQ?oc=5",
-      "category": "制度変更",
-      "topic": "insurance"
-    },
-    {
-      "title": "《知らないと10割負担も》紙の保険証の特例措置終了…8月以降の受診で気をつけたいこと《経済のプロ荻原博子が徹底解説》 - 女性自身",
-      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBOTXA1a294ZE9nRGNQeUF0TlozUzg2OWtkOFE0TUtsMlNnNEN6bnBzRW9XM2Z0T0c4UTg3cGE1UUZlMUFVQk5GX3R3?oc=5",
-      "pub_date": "2026-07-24T12:18:17+09:00",
-      "source": "女性自身",
-      "description": "従来の紙の保険証を、有効期限が過ぎても使えるという「特例措置」が7月末で終わります。",
-      "_glink": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBOTXA1a294ZE9nRGNQeUF0TlozUzg2OWtkOFE0TUtsMlNnNEN6bnBzRW9XM2Z0T0c4UTg3cGE1UUZlMUFVQk5GX3R3?oc=5",
-      "_resolved_url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBOTXA1a294ZE9nRGNQeUF0TlozUzg2OWtkOFE0TUtsMlNnNEN6bnBzRW9XM2Z0T0c4UTg3cGE1UUZlMUFVQk5GX3R3?oc=5",
       "category": "制度変更",
       "topic": "insurance"
     }
